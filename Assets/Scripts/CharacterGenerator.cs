@@ -1060,4 +1060,144 @@ public class CharacterGenerator : Interactor {
 	{
 		return images[0];
 	}
+
+    public void importFastDialogue(string dialogue)
+    {
+        initialize();
+        // add event
+        addEvent();
+        addProgram();
+        registerEventName("onSpeak"); // on speak
+                                             // process text
+        string[] lines = dialogue.Split('\n');
+        int instr = 0;
+        int askQuestions = 0;
+        const int MaxQuestions = 2;
+        bool mustCompleteLabel = false;
+        string[] question = new string[MaxQuestions];
+        int nQuestions = 0;
+
+        // block player controls
+        addAction(0);
+        addInstructionToProgram(0, "None");
+        setTypeOfAction(0, instr, 16);
+        setInstructionOp(0, instr, "blockPlayerControls");
+        ++instr;
+
+        foreach (string line in lines)
+        {
+            // gather parameters
+            string speaker = "Player";
+            bool ask = false;
+            int askOption = 0;
+            string text = "";
+            if (line.StartsWith("J:"))
+            {
+                speaker = "Player";
+                text = line.Substring(2);
+            }
+            if (line.StartsWith("1:"))
+            {
+                speaker = "NPC1";
+                text = line.Substring(2);
+            }
+            if (line.StartsWith("2:"))
+            {
+                speaker = "NPC2";
+                text = line.Substring(2);
+            }
+            if (line.StartsWith("J1:"))
+            {
+                ask = true;
+                text = line.Substring(3);
+                question[askQuestions] = text;
+                ++askQuestions;
+            }
+            if (line.StartsWith("J2:"))
+            {
+                ask = true;
+                askOption = 1;
+                text = line.Substring(3);
+                question[askQuestions] = text;
+                ++askQuestions;
+            }
+
+            // make program
+            if (ask == false)
+            {
+                addAction(0);
+                addInstructionToProgram(0, "None");
+                setTypeOfAction(0, instr, 11);
+                setInstructionOp(0, instr, "ask");
+                setInstructionParameter(0, instr, 1, text);
+                setInstructionParameter(0, instr, 2, "wait");
+                setInstructionParameter(0, instr, 3, speaker);
+                ++instr;
+
+                if (mustCompleteLabel)
+                {
+                    // create target
+                    addAction(0);
+                    addInstructionToProgram(0, "None");
+                    setTypeOfAction(0, instr, 19);
+                    setInstructionOp(0, instr, "makeLabel");
+                    setInstructionParameter(0, instr, 1, "Ask" + nQuestions + "_2");
+                    ++instr;
+
+                    mustCompleteLabel = false;
+                    ++nQuestions;
+                }
+            }
+            else
+            {
+                if (askQuestions == MaxQuestions)
+                {
+                    // create ask
+                    addAction(0);
+                    addInstructionToProgram(0, "None");
+                    setTypeOfAction(0, instr, 12);
+                    setInstructionOp(0, instr, "ask");
+                    setInstructionParameter(0, instr, 1, ("" + MaxQuestions));
+                    for (int q = 0; q < MaxQuestions; ++q)
+                    {
+                        setInstructionParameter(0, instr, q + 2, question[q]);
+                    }
+                    for (int q = 0; q < MaxQuestions; ++q)
+                    { 
+                        setInstructionParameter(0, instr, q + 2 + MaxQuestions, "Ask" + nQuestions + "_" + (q + 1));
+                    }
+                    ++instr;
+
+                    // create target
+                    addAction(0);
+                    addInstructionToProgram(0, "None");
+                    setTypeOfAction(0, instr, 19);
+                    setInstructionOp(0, instr, "makeLabel");
+                    setInstructionParameter(0, instr, 1, "Ask" + nQuestions + "_1");
+                    ++instr;
+
+                    mustCompleteLabel = true;
+                    askQuestions = 0;
+
+                }
+            }
+        }
+
+        // unblock player controls
+        addAction(0);
+        addInstructionToProgram(0, "None");
+        setTypeOfAction(0, instr, 17);
+        setInstructionOp(0, instr, "unblockPlayerControls");
+        ++instr;
+
+        // clear dialogue
+        addAction(0);
+        addInstructionToProgram(0, "None");
+        setTypeOfAction(0, instr, 15);
+        setInstructionOp(0, instr, "clearDialogue");
+        ++instr;
+
+        alterEvent(0, "onSpeak");
+        setTypeOfEvent(0, 1);
+    }
 }

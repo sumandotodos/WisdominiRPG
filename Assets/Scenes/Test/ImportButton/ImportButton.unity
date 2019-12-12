@@ -211,89 +211,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &337467520
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 337467523}
-  - component: {fileID: 337467522}
-  - component: {fileID: 337467521}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &337467521
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337467520}
-  m_Enabled: 1
---- !u!20 &337467522
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337467520}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &337467523
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337467520}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &884028905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -364,8 +281,77 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224859955342560382, guid: d7b09920570dcd847afb7635cfb20520,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 24.299927
+      objectReference: {fileID: 0}
+    - target: {fileID: 224052411623841624, guid: d7b09920570dcd847afb7635cfb20520,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0048828125
+      objectReference: {fileID: 0}
+    - target: {fileID: 224644583964955888, guid: d7b09920570dcd847afb7635cfb20520,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 26.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 224259612678757124, guid: d7b09920570dcd847afb7635cfb20520,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0048828125
+      objectReference: {fileID: 0}
+    - target: {fileID: 224503898156178268, guid: d7b09920570dcd847afb7635cfb20520,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 26.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7b09920570dcd847afb7635cfb20520, type: 3}
+--- !u!1 &1369076162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1369076164}
+  - component: {fileID: 1369076163}
+  m_Layer: 0
+  m_Name: FastImporter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1369076163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369076162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5abc0e1ed48104b68a636179519ba4a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Folder: /Users/flandre/Desktop
+--- !u!4 &1369076164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369076162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 240.37, y: 161.64, z: 435.40732}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1594930062
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,8 +363,10 @@ GameObject:
   - component: {fileID: 1594930065}
   - component: {fileID: 1594930064}
   - component: {fileID: 1594930063}
+  - component: {fileID: 1594930067}
+  - component: {fileID: 1594930066}
   m_Layer: 0
-  m_Name: MiEnanoDePrueba
+  m_Name: Level2MiEnanoDePrueba
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -401,7 +389,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0405e97bb72d84b32b470239c75df41f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -459,18 +447,36 @@ MonoBehaviour:
   currentProgram:
     theList:
     - theList:
+      - blockPlayerControls
+    - theList:
       - say
-      - "Jes\xFAs. \xBFT\xFA crees que, si creas algo, un ser, \xE9ste puede ser libre?"
+      - "Yisus, \xBFt\xFA crees que, si creas algo, un ser, \xE9ste puede ser libre?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_0
+      - Level2MiEnanoDePrueba0_0
+    - theList:
+      - ask
+      - 2
+      - "No. Mi creaci\xF3n har\xEDa solamente aquello para lo que yo la he creado."
+      - "Solo ser\xEDa libre si comparte mi misma esencia. Si es una parte de m\xED
+        mismo y no una creaci\xF3n m\xEDa."
+      - Ask0_1
+      - Ask0_2
+      - Level2MiEnanoDePrueba0_1
+      - Level2MiEnanoDePrueba0_2
+    - theList:
+      - makeLabel
+      - Ask0_1
     - theList:
       - say
       - "Eso pienso yo. Ser\xEDa como si construyeras un robot, y un robot no es libre:
         est\xE1 programado."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_1
+      - Level2MiEnanoDePrueba0_3
+    - theList:
+      - makeLabel
+      - Ask0_2
     - theList:
       - say
       - "Si dios nos crea, entonces no hay manera de que seamos libres. Ser\xEDamos
@@ -479,7 +485,7 @@ MonoBehaviour:
         momento?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_2
+      - Level2MiEnanoDePrueba0_4
     - theList:
       - say
       - "Dime Jes\xFAs, \xBFt\xFA crees que la vida de alguien puede llegar a ser
@@ -487,14 +493,30 @@ MonoBehaviour:
         econ\xF3micos, a si nace en una familia desestructurada y sin medios econ\xF3micos?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_3
+      - Level2MiEnanoDePrueba0_5
+    - theList:
+      - ask
+      - 2
+      - "Ser\xE1 distinta pero no mucho. Todos somos libres para labrarnos nuestro
+        futuro."
+      - Creo que la familia y la sociedad en la que nacemos nos influyen mucho.
+      - Ask1_1
+      - Ask1_2
+      - Level2MiEnanoDePrueba0_6
+      - Level2MiEnanoDePrueba0_7
+    - theList:
+      - makeLabel
+      - Ask1_1
     - theList:
       - say
       - "Estoy de acuerdo con eso. Al final tenemos libertad para vivir nuestra vida
         con bondad o con ego\xEDsmo."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_4
+      - Level2MiEnanoDePrueba0_8
+    - theList:
+      - makeLabel
+      - Ask1_2
     - theList:
       - say
       - "Te digo esto porque si tal como dice la iglesia, dios nos da nuestros talentos,
@@ -502,7 +524,7 @@ MonoBehaviour:
         nuestra vida futura?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_5
+      - Level2MiEnanoDePrueba0_9
     - theList:
       - say
       - "Y recuerda que seg\xFAn la iglesia lo que hagamos en nuestra vida determinar\xE1
@@ -510,20 +532,37 @@ MonoBehaviour:
         sufrimiento ilimitado en el infierno. Y esto por toda la eternidad... "
       - wait
       - NPC1
-      - MiEnanoDePrueba0_6
+      - Level2MiEnanoDePrueba0_10
     - theList:
       - say
       - "\xBFNo te parece un premio o un castigo un poco fuerte, sobre todo teniendo
         en cuenta c\xF3mo nos han definido las condiciones iniciales en nuestro nacimiento?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_7
+      - Level2MiEnanoDePrueba0_11
+    - theList:
+      - ask
+      - 2
+      - "Un dios omnisciente sabr\xEDa de antemano quienes acabar\xEDan en el infierno.
+        \xBFPara qu\xE9 iba a crear seres cuyo destino es sufrir un tormento eterno?"
+      - "Creo que quien se invent\xF3 esa tonter\xEDa no era capaz ni siquiera de
+        vislumbrar lo que significa \u201Ceternidad\u201D o \u201Cinfinito\u201D."
+      - Ask2_1
+      - Ask2_2
+      - Level2MiEnanoDePrueba0_12
+      - Level2MiEnanoDePrueba0_13
+    - theList:
+      - makeLabel
+      - Ask2_1
     - theList:
       - say
       - "Pues es lo que sigue diciendo la iglesia en tu nombre en pleno siglo XXI\u2026"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_8
+      - Level2MiEnanoDePrueba0_14
+    - theList:
+      - makeLabel
+      - Ask2_2
     - theList:
       - say
       - "Y eso por no hablar de los beb\xE9s que mueren al poco tiempo de nacer. Para
@@ -532,27 +571,56 @@ MonoBehaviour:
         Creo que \xE9l s\xED que estaba en el limbo\u2026"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_9
+      - Level2MiEnanoDePrueba0_15
     - theList:
       - say
       - "Pero dime entonces, Jes\xFAs. \xBFC\xF3mo crees que tiene lugar el nacimiento
         de las conciencias individuales?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_10
+      - Level2MiEnanoDePrueba0_16
+    - theList:
+      - ask
+      - 2
+      - "La divinidad no crea el universo ni a los seres. El universo y los seres
+        existen desde siempre. La divinidad est\xE1 en todo y lo es todo."
+      - "Creo que las conciencias surgen de la conciencia pura. Viven la ilusi\xF3n
+        de la dualidad y se acaban diluyendo de nuevo en ella. "
+      - Ask3_1
+      - Ask3_2
+      - Level2MiEnanoDePrueba0_17
+      - Level2MiEnanoDePrueba0_18
+    - theList:
+      - makeLabel
+      - Ask3_1
     - theList:
       - say
       - "Algo as\xED pienso yo."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_11
+      - Level2MiEnanoDePrueba0_19
+    - theList:
+      - makeLabel
+      - Ask3_2
     - theList:
       - say
       - "\xBFY cu\xE1nto tiempo crees que pasa desde que surgen hasta que se vuelven
         a fundir en la conciencia universal? \xBFUna vida o muchas?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_12
+      - Level2MiEnanoDePrueba0_20
+    - theList:
+      - ask
+      - 2
+      - Una
+      - Muchas
+      - Ask4_1
+      - Ask4_2
+      - Level2MiEnanoDePrueba0_21
+      - Level2MiEnanoDePrueba0_22
+    - theList:
+      - makeLabel
+      - Ask4_1
     - theList:
       - say
       - "Yo creo que en efecto es posible en teor\xEDa alcanzar la liberaci\xF3n en
@@ -561,7 +629,10 @@ MonoBehaviour:
         de renacimientos, lo que los orientales llaman \u2018samsara\u2019."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_13
+      - Level2MiEnanoDePrueba0_23
+    - theList:
+      - makeLabel
+      - Ask4_2
     - theList:
       - say
       - "La cuesti\xF3n es: \xBFqueremos realmente abandonar el mundo para alcanzar
@@ -570,7 +641,7 @@ MonoBehaviour:
         hay que experimentar para conocer."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_14
+      - Level2MiEnanoDePrueba0_24
     - theList:
       - say
       - "Los orientales dicen que el nirvana es solo un estado mental en el que tenemos
@@ -580,7 +651,7 @@ MonoBehaviour:
         mental haciendo que renazcamos de una manera o de otra. "
       - wait
       - NPC1
-      - MiEnanoDePrueba0_15
+      - Level2MiEnanoDePrueba0_25
     - theList:
       - say
       - "T\xFA mismo lo dijiste cuando hablabas de renacimiento con Nicodemo: \u2018el
@@ -588,43 +659,76 @@ MonoBehaviour:
         viene, ni a d\xF3nde va (Juan 3:8)."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_16
+      - Level2MiEnanoDePrueba0_26
+    - theList:
+      - ask
+      - 2
+      - "\xBFEso dije?"
+      - "Lo recuerdo. Nicodemo estaba sorprendido y tuve que repet\xEDrselo: \u2018No
+        te maravilles de que te dije: Os es necesario nacer de nuevo.\u2019 (Juan
+        3:7)"
+      - Ask5_1
+      - Ask5_2
+      - Level2MiEnanoDePrueba0_27
+      - Level2MiEnanoDePrueba0_28
+    - theList:
+      - makeLabel
+      - Ask5_1
     - theList:
       - say
       - Tal cual.
       - wait
       - NPC1
-      - MiEnanoDePrueba0_17
+      - Level2MiEnanoDePrueba0_29
+    - theList:
+      - makeLabel
+      - Ask5_2
     - theList:
       - say
       - "Yo creo que el motivo por el que no podemos regresar a casa (la conciencia
         universal) en una sola vida no es otro que la gran atracci\xF3n que casi todos
         sentimos por las cosas mundanas: el reconocimiento, las comodidades, la fama,
-        el poder, la riqueza, el sexo y otros placeres sensoriales... "
+        el poder, la riqueza, el sexo y otros placeres sensoriales..."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_18
+      - Level2MiEnanoDePrueba0_30
     - theList:
-      - say
-      - 
-      - wait
-      - Player
-      - MiEnanoDePrueba0_19
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
   programs:
   - theList:
     - theList:
+      - blockPlayerControls
+    - theList:
       - say
-      - "Jes\xFAs. \xBFT\xFA crees que, si creas algo, un ser, \xE9ste puede ser libre?"
+      - "Yisus, \xBFt\xFA crees que, si creas algo, un ser, \xE9ste puede ser libre?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_0
+      - Level2MiEnanoDePrueba0_0
+    - theList:
+      - ask
+      - 2
+      - "No. Mi creaci\xF3n har\xEDa solamente aquello para lo que yo la he creado."
+      - "Solo ser\xEDa libre si comparte mi misma esencia. Si es una parte de m\xED
+        mismo y no una creaci\xF3n m\xEDa."
+      - Ask0_1
+      - Ask0_2
+      - Level2MiEnanoDePrueba0_1
+      - Level2MiEnanoDePrueba0_2
+    - theList:
+      - makeLabel
+      - Ask0_1
     - theList:
       - say
       - "Eso pienso yo. Ser\xEDa como si construyeras un robot, y un robot no es libre:
         est\xE1 programado."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_1
+      - Level2MiEnanoDePrueba0_3
+    - theList:
+      - makeLabel
+      - Ask0_2
     - theList:
       - say
       - "Si dios nos crea, entonces no hay manera de que seamos libres. Ser\xEDamos
@@ -633,7 +737,7 @@ MonoBehaviour:
         momento?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_2
+      - Level2MiEnanoDePrueba0_4
     - theList:
       - say
       - "Dime Jes\xFAs, \xBFt\xFA crees que la vida de alguien puede llegar a ser
@@ -641,14 +745,30 @@ MonoBehaviour:
         econ\xF3micos, a si nace en una familia desestructurada y sin medios econ\xF3micos?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_3
+      - Level2MiEnanoDePrueba0_5
+    - theList:
+      - ask
+      - 2
+      - "Ser\xE1 distinta pero no mucho. Todos somos libres para labrarnos nuestro
+        futuro."
+      - Creo que la familia y la sociedad en la que nacemos nos influyen mucho.
+      - Ask1_1
+      - Ask1_2
+      - Level2MiEnanoDePrueba0_6
+      - Level2MiEnanoDePrueba0_7
+    - theList:
+      - makeLabel
+      - Ask1_1
     - theList:
       - say
       - "Estoy de acuerdo con eso. Al final tenemos libertad para vivir nuestra vida
         con bondad o con ego\xEDsmo."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_4
+      - Level2MiEnanoDePrueba0_8
+    - theList:
+      - makeLabel
+      - Ask1_2
     - theList:
       - say
       - "Te digo esto porque si tal como dice la iglesia, dios nos da nuestros talentos,
@@ -656,7 +776,7 @@ MonoBehaviour:
         nuestra vida futura?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_5
+      - Level2MiEnanoDePrueba0_9
     - theList:
       - say
       - "Y recuerda que seg\xFAn la iglesia lo que hagamos en nuestra vida determinar\xE1
@@ -664,20 +784,37 @@ MonoBehaviour:
         sufrimiento ilimitado en el infierno. Y esto por toda la eternidad... "
       - wait
       - NPC1
-      - MiEnanoDePrueba0_6
+      - Level2MiEnanoDePrueba0_10
     - theList:
       - say
       - "\xBFNo te parece un premio o un castigo un poco fuerte, sobre todo teniendo
         en cuenta c\xF3mo nos han definido las condiciones iniciales en nuestro nacimiento?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_7
+      - Level2MiEnanoDePrueba0_11
+    - theList:
+      - ask
+      - 2
+      - "Un dios omnisciente sabr\xEDa de antemano quienes acabar\xEDan en el infierno.
+        \xBFPara qu\xE9 iba a crear seres cuyo destino es sufrir un tormento eterno?"
+      - "Creo que quien se invent\xF3 esa tonter\xEDa no era capaz ni siquiera de
+        vislumbrar lo que significa \u201Ceternidad\u201D o \u201Cinfinito\u201D."
+      - Ask2_1
+      - Ask2_2
+      - Level2MiEnanoDePrueba0_12
+      - Level2MiEnanoDePrueba0_13
+    - theList:
+      - makeLabel
+      - Ask2_1
     - theList:
       - say
       - "Pues es lo que sigue diciendo la iglesia en tu nombre en pleno siglo XXI\u2026"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_8
+      - Level2MiEnanoDePrueba0_14
+    - theList:
+      - makeLabel
+      - Ask2_2
     - theList:
       - say
       - "Y eso por no hablar de los beb\xE9s que mueren al poco tiempo de nacer. Para
@@ -686,27 +823,56 @@ MonoBehaviour:
         Creo que \xE9l s\xED que estaba en el limbo\u2026"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_9
+      - Level2MiEnanoDePrueba0_15
     - theList:
       - say
       - "Pero dime entonces, Jes\xFAs. \xBFC\xF3mo crees que tiene lugar el nacimiento
         de las conciencias individuales?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_10
+      - Level2MiEnanoDePrueba0_16
+    - theList:
+      - ask
+      - 2
+      - "La divinidad no crea el universo ni a los seres. El universo y los seres
+        existen desde siempre. La divinidad est\xE1 en todo y lo es todo."
+      - "Creo que las conciencias surgen de la conciencia pura. Viven la ilusi\xF3n
+        de la dualidad y se acaban diluyendo de nuevo en ella. "
+      - Ask3_1
+      - Ask3_2
+      - Level2MiEnanoDePrueba0_17
+      - Level2MiEnanoDePrueba0_18
+    - theList:
+      - makeLabel
+      - Ask3_1
     - theList:
       - say
       - "Algo as\xED pienso yo."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_11
+      - Level2MiEnanoDePrueba0_19
+    - theList:
+      - makeLabel
+      - Ask3_2
     - theList:
       - say
       - "\xBFY cu\xE1nto tiempo crees que pasa desde que surgen hasta que se vuelven
         a fundir en la conciencia universal? \xBFUna vida o muchas?"
       - wait
       - NPC1
-      - MiEnanoDePrueba0_12
+      - Level2MiEnanoDePrueba0_20
+    - theList:
+      - ask
+      - 2
+      - Una
+      - Muchas
+      - Ask4_1
+      - Ask4_2
+      - Level2MiEnanoDePrueba0_21
+      - Level2MiEnanoDePrueba0_22
+    - theList:
+      - makeLabel
+      - Ask4_1
     - theList:
       - say
       - "Yo creo que en efecto es posible en teor\xEDa alcanzar la liberaci\xF3n en
@@ -715,7 +881,10 @@ MonoBehaviour:
         de renacimientos, lo que los orientales llaman \u2018samsara\u2019."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_13
+      - Level2MiEnanoDePrueba0_23
+    - theList:
+      - makeLabel
+      - Ask4_2
     - theList:
       - say
       - "La cuesti\xF3n es: \xBFqueremos realmente abandonar el mundo para alcanzar
@@ -724,7 +893,7 @@ MonoBehaviour:
         hay que experimentar para conocer."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_14
+      - Level2MiEnanoDePrueba0_24
     - theList:
       - say
       - "Los orientales dicen que el nirvana es solo un estado mental en el que tenemos
@@ -734,7 +903,7 @@ MonoBehaviour:
         mental haciendo que renazcamos de una manera o de otra. "
       - wait
       - NPC1
-      - MiEnanoDePrueba0_15
+      - Level2MiEnanoDePrueba0_25
     - theList:
       - say
       - "T\xFA mismo lo dijiste cuando hablabas de renacimiento con Nicodemo: \u2018el
@@ -742,30 +911,45 @@ MonoBehaviour:
         viene, ni a d\xF3nde va (Juan 3:8)."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_16
+      - Level2MiEnanoDePrueba0_26
+    - theList:
+      - ask
+      - 2
+      - "\xBFEso dije?"
+      - "Lo recuerdo. Nicodemo estaba sorprendido y tuve que repet\xEDrselo: \u2018No
+        te maravilles de que te dije: Os es necesario nacer de nuevo.\u2019 (Juan
+        3:7)"
+      - Ask5_1
+      - Ask5_2
+      - Level2MiEnanoDePrueba0_27
+      - Level2MiEnanoDePrueba0_28
+    - theList:
+      - makeLabel
+      - Ask5_1
     - theList:
       - say
       - Tal cual.
       - wait
       - NPC1
-      - MiEnanoDePrueba0_17
+      - Level2MiEnanoDePrueba0_29
+    - theList:
+      - makeLabel
+      - Ask5_2
     - theList:
       - say
       - "Yo creo que el motivo por el que no podemos regresar a casa (la conciencia
         universal) en una sola vida no es otro que la gran atracci\xF3n que casi todos
         sentimos por las cosas mundanas: el reconocimiento, las comodidades, la fama,
-        el poder, la riqueza, el sexo y otros placeres sensoriales... "
+        el poder, la riqueza, el sexo y otros placeres sensoriales..."
       - wait
       - NPC1
-      - MiEnanoDePrueba0_18
+      - Level2MiEnanoDePrueba0_30
     - theList:
-      - say
-      - 
-      - wait
-      - Player
-      - MiEnanoDePrueba0_19
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
   eventNamesInOrder:
-  - onAwake
+  - onSpeak
   isProgramRunning: 00
   programPointer_: 00000000
   programPointer: 0
@@ -775,7 +959,7 @@ MonoBehaviour:
   waitingForAnswer: 00
   ConversationFolderName: 
   instructionColor:
-  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffff00000000ffffffff01000000ffffffffffffffffffffffff02000000ffffffff03000000ffffffffffffffffffffffffffffffff04000000ffffffff05000000ffffffffffffffffffffffff00000000ffffffff01000000ffffffffffffffff02000000ffffffff03000000ffffffffffffffffffffffffffffffff04000000ffffffff05000000ffffffffffffffffffffffff
   rosetta: {fileID: 0}
   preventAwake: 0
   answerIndex: 0
@@ -834,9 +1018,9 @@ MonoBehaviour:
   WalkingAnimationSpeed: 1
   otherImages: []
   editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  selection: 00000000
+  selection: 01000000
   action:
-  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000
+  - theList: 100000000b0000000c000000130000000b000000130000000b0000000b0000000c000000130000000b000000130000000b0000000b0000000b0000000c000000130000000b000000130000000b0000000b0000000c000000130000000b000000130000000b0000000c000000130000000b000000130000000b0000000b0000000b0000000c000000130000000b000000130000000b000000110000000f000000
   animationSpeed: 0
   animationDelay: 0
   frameTime: 0
@@ -873,8 +1057,389 @@ Transform:
   m_LocalScale: {x: 1.9496, y: 1.9496, z: 1.9496}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1594930066
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594930062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.24, y: 3.12, z: 1.85}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1594930067
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594930062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.27
+  m_Height: 2.56
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1736728267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736728270}
+  - component: {fileID: 1736728269}
+  - component: {fileID: 1736728268}
+  - component: {fileID: 1736728272}
+  - component: {fileID: 1736728271}
+  m_Layer: 0
+  m_Name: Level2MiOtroEnanoDePrueba
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1736728268
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736728267}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0405e97bb72d84b32b470239c75df41f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 0d0e40290815b41928b2f05e2f15ffaa, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.7, y: 2.56}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1736728269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736728267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - ask
+      - "Jes\xFAs, eres un ojete"
+      - wait
+      - NPC1
+    - theList:
+      - ask
+      - "Se est\xE1 sorteando un hostia consagrada, simp\xE1tico. \xBFNo te tocaba
+        comulgar hoy?"
+      - wait
+      - Player
+    - theList:
+      - ask
+      - "Sigo diciendo que eres un cacaco\xF1os"
+      - wait
+      - NPC1
+    - theList:
+      - ask
+      - "Y t\xFA un palurdo de ocho patas, \xBFte enteras?"
+      - wait
+      - Player
+    - theList:
+      - ask
+      - Nunca jugaste bien a eso
+      - wait
+      - NPC1
+    - theList:
+      - ask
+      - 2
+      - Porque me quitabas el PC
+      - "Una mierda, juego mejor que t\xFA"
+      - Ask0_1
+      - Ask0_2
+    - theList:
+      - makeLabel
+      - Ask0_1
+    - theList:
+      - ask
+      - "As\xED que reconoces tu inferioridad, \xBFeh? \xA1Menudo ojete!"
+      - wait
+      - NPC1
+    - theList:
+      - makeLabel
+      - Ask0_2
+    - theList:
+      - ask
+      - "Sea como esta, esto es un rollo. \xBFTe apetecen unas tortilas americanas?"
+      - wait
+      - NPC1
+    - theList:
+      - ask
+      - "\xA1Enga!"
+      - wait
+      - Player
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - ask
+      - "Jes\xFAs, eres un ojete"
+      - wait
+      - NPC1
+    - theList:
+      - ask
+      - "Se est\xE1 sorteando un hostia consagrada, simp\xE1tico. \xBFNo te tocaba
+        comulgar hoy?"
+      - wait
+      - Player
+    - theList:
+      - ask
+      - "Sigo diciendo que eres un cacaco\xF1os"
+      - wait
+      - NPC1
+    - theList:
+      - ask
+      - "Y t\xFA un palurdo de ocho patas, \xBFte enteras?"
+      - wait
+      - Player
+    - theList:
+      - ask
+      - Nunca jugaste bien a eso
+      - wait
+      - NPC1
+    - theList:
+      - ask
+      - 2
+      - Porque me quitabas el PC
+      - "Una mierda, juego mejor que t\xFA"
+      - Ask0_1
+      - Ask0_2
+    - theList:
+      - makeLabel
+      - Ask0_1
+    - theList:
+      - ask
+      - "As\xED que reconoces tu inferioridad, \xBFeh? \xA1Menudo ojete!"
+      - wait
+      - NPC1
+    - theList:
+      - makeLabel
+      - Ask0_2
+    - theList:
+      - ask
+      - "Sea como esta, esto es un rollo. \xBFTe apetecen unas tortilas americanas?"
+      - wait
+      - NPC1
+    - theList:
+      - ask
+      - "\xA1Enga!"
+      - wait
+      - Player
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  eventNamesInOrder:
+  - onSpeak
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  pivotYRotation: 0
+  distanceToPlayer: 0
+  followingState: 0
+  followState: 1
+  markedAsStartFollowing: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  cameraPivotY: {fileID: 0}
+  spriteHolder: {fileID: 0}
+  showingFrame: 0
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 0
+  IdleAnimationSpeed: 1
+  Idle: []
+  IdleSprite:
+  - {fileID: 21300000, guid: 0d0e40290815b41928b2f05e2f15ffaa, type: 3}
+  WalkingFront: []
+  WalkingFrontSprite: []
+  WalkingFrontLeft: []
+  WalkingFrontLeftSprite: []
+  WalkingLeft: []
+  WalkingLeftSprite: []
+  WalkingLeftBack: []
+  WalkingLeftBackSprite: []
+  WalkingBack: []
+  WalkingBackSprite: []
+  WalkingBackRight: []
+  WalkingBackRightSprite: []
+  WalkingRight: []
+  WalkingRightSprite: []
+  WalkingRightFront: []
+  WalkingRightFrontSprite: []
+  NextProgram: []
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  images: []
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 01000000
+  action:
+  - theList: 100000000b0000000b0000000b0000000b0000000b0000000c000000130000000b000000130000000b0000000b000000110000000f000000
+  animationSpeed: 0
+  animationDelay: 0
+  frameTime: 0
+  walkingSpeed: 0
+  customAnimation1: []
+  customAnimation1Sprite: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Sprite: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Sprite: []
+  customAnimation3Speed: 0
+  walkingState: 1
+  walkingDirection: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Mouth
+  followDistance: 4
+  autopilotAbsolute: 1
+--- !u!4 &1736728270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736728267}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 248.74, y: 161.93, z: 435.40732}
+  m_LocalScale: {x: 1.9496, y: 1.9496, z: 1.9496}
+  m_Children: []
+  m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1736728271
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736728267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.24, y: 3.12, z: 1.85}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &1736728272
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736728267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.32
+  m_Height: 2.56
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2071341686
 GameObject:
   m_ObjectHideFlags: 0

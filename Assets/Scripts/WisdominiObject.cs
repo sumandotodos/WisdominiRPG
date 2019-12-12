@@ -1793,7 +1793,8 @@ public class WisdominiObject : MonoBehaviour {
 					dobj.setMiniature (chara.centerMiniatureN, chara.centerMiniatureB, 1);
 				}
 
-				string text = rosetta.retrieveString (op [4]);
+                //string text = rosetta.retrieveString (op [4]);
+                string text = op[1];
 				bool wait;
 				bool.TryParse (op [2], out wait);
 
