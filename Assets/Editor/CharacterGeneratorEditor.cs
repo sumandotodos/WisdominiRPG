@@ -650,10 +650,81 @@ public class CharacterGeneratorEditor : Editor {
 			replaceNew = EditorGUILayout.TextField (replaceNew);
 		}
 
+        EditorGUILayout.Space();
+        EditorGUILayout.Space();
+        // some quick hackaton shitcode to import the fast dialogues
+        if (GUILayout.Button("Import fast dialogue"))
+        {
+            ogRef.initialize();
+            string path = EditorUtility.OpenFilePanel("Fast dialogue", "", "fdl");
+            string contents = File.ReadAllText(path);
+            // add event
+            ogRef.addEvent();
+            ogRef.addProgram();
+            ogRef.registerEventName(options[1]); // on speak
+            // process text
+            string[] lines = contents.Split('\n');
+            bool exitAsk = false;
+            int instr = 0;
+            currentStringCollector = new List<string>();
+            foreach (string line in lines)
+            {
+                // gather parameters
+                string speaker = "Player";
+                bool ask = false;
+                int askOption = 0;
+                string text = "";
+                if (line.StartsWith("J:"))
+                {
+                    speaker = "Player";
+                    text = line.Substring(2);
+                }
+                if (line.StartsWith("1:"))
+                {
+                    speaker = "NPC1";
+                    text = line.Substring(2);
+                }
+                if(line.StartsWith("2:"))
+                {
+                    speaker = "NPC2";
+                    text = line.Substring(2);
+                }
+                if(line.StartsWith("J1:"))
+                {
+                    ask = true;
+                    text = line.Substring(2);
+                }
+                if(line.StartsWith("J2:"))
+                {
+                    ask = true;
+                    askOption = 1;
+                    exitAsk = true;
+                    text = line.Substring(2);
+                }
+
+                // make program
+                if(ask == false)
+                {
+                    Debug.Log("Speaker: " + speaker);
+                    ogRef.addAction(0);
+                    ogRef.addInstructionToProgram(0, "None");
+                    ogRef.setTypeOfAction(0, instr, 11);
+                    ogRef.setInstructionOp(0, instr, actionsMethodName[11]);
+                    ogRef.setInstructionParameter(0, instr, 1, text);
+                    ogRef.setInstructionParameter(0, instr, 2, "wait");
+                    ogRef.setInstructionParameter(0, instr, 3, speaker);
+                    ++instr;
+                }
+                else
+                {
+
+                }
+            }
+            ogRef.alterEvent(0, options[1]);
+        }
 
 
-
-		EditorGUILayout.Space ();
+        EditorGUILayout.Space ();
 		EditorGUILayout.Space ();
 		EditorGUILayout.Space ();
 
@@ -1314,14 +1385,7 @@ public class CharacterGeneratorEditor : Editor {
 						ogRef.setInstructionParameter (i, j, 4, textFieldItem);
 					}
 					++strIndex;
-
-					/*textFieldItem = ogRef.getInstructionParameter (i, j, 4);
-					textFieldItem = "Conv_" + ogRef.ConversationFolderName + "_" + ogRef.name + "_" + strIndex;
-					if(textFieldItem.StartsWith("Conv__")) { // conversation node syntax
-						textFieldItem = textFieldItem;
-					}
-					ogRef.setInstructionParameter (i, j, 4, textFieldItem);
-					++strIndex;*/
+                   
 
 					EditorGUI.indentLevel--;
 					break;

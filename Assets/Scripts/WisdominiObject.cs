@@ -323,13 +323,18 @@ public class WisdominiObject : MonoBehaviour {
 
 		if (programIndex < programs.Count) {
 
-			if (instructionIndex < programs [programIndex].theList.Count) {
 
-				programs [programIndex].theList [instructionIndex].theList[paramIndex] = prm;
+            if (instructionIndex < programs [programIndex].theList.Count) {
+
+                while (programs[programIndex].theList[instructionIndex].theList.Count < (paramIndex + 1))
+                {
+                    programs[programIndex].theList[instructionIndex].theList.Add("");
+                }
+                programs [programIndex].theList [instructionIndex].theList[paramIndex] = prm;
 
 			}
 
-		} 
+        } 
 
 	}
 
