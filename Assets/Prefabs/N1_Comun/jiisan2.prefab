@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &109620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 430012}
+  - component: {fileID: 3355020}
+  - component: {fileID: 6411484}
+  - component: {fileID: 2365486}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &157816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 482360}
+  - component: {fileID: 11410936}
+  - component: {fileID: 13577614}
+  m_Layer: 0
+  m_Name: jiisan2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &430012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.7263535, y: 2.6337376, z: 1.4389306}
+  m_Children: []
+  m_Father: {fileID: 482360}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &482360
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.21, y: 1.41, z: 13.14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 430012}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2365486
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109620}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3355020
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109620}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &6411484
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &11410936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: 0
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - setWalkingState
+      - Walking
+      - Front
+      - 8.0
+      - 0.0
+    - theList:
+      - say
+      - I kill you. What do you think about that?!?
+      - wait
+    - theList:
+      - ask
+      - 3
+      - No tengo ni puta idea
+      - "La verdad, me preocupa un taco la ecolog\xEDa"
+      - "Tengo la impresi\xF3n de que vivimos en Matrix"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+    - theList:
+      - setWalkingState
+      - Standing
+      - Left
+      - 
+      - 2
+    - theList:
+      - setMiniature
+      - Neutral
+      - '#85550055'
+    - theList:
+      - setDialogueColor
+      - Red
+  programs: []
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 
+  programPointer: 0
+  startTime: 0
+  delayTime: []
+  waitingForAnswer: 
+  ConversationFolderName: 
+  instructionColor: []
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  cameraPivot: {fileID: 0}
+  spriteHolder: {fileID: 109620}
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: c5724e3221b1e4b208d2cfde29ea774d, type: 3}
+  IdleAnimationSpeed: 1
+  WalkingFront: []
+  WalkingFrontLeft: []
+  WalkingLeft: []
+  WalkingLeftBack: []
+  WalkingBack: []
+  WalkingBackRight: []
+  WalkingRight: []
+  WalkingRightFront: []
+  NextProgram: []
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 
+  action: []
+  animationSpeed: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: 
+  followDistance: 4
+--- !u!135 &13577614
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157816}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.008109
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 157816}
+  m_IsPrefabParent: 1

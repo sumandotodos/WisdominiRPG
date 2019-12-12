@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &151946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 498116}
+  - component: {fileID: 11459592}
+  m_Layer: 0
+  m_Name: StringBank(N1FrasesSabiasMaestros)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &498116
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151946}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11459592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: Maestros
+  extra: N1FrasesSabias
+  randomYield: 0
+  phrase:
+  - Voy natural
+  - No me obsesiono
+  - Me gusta como soy
+  - Me siento bien conmigo
+  - Me gusta mi look
+  - Paso de frivolidades
+  - Paso de las apariencias
+  - Soy como soy y me gusta
+  - "Siento seguridad en m\xED"
+  - Paso de modas
+  - Me siento bien con mi aspecto
+  - Lo importante va por dentro
+  - "El f\xEDsico es secundario"
+  - La belleza es transitoria
+  - Visto como quiero
+  - Si no me apetece, no me maquillo
+  - Las modas me resultan indiferentes
+  - Me da igual estar morena
+  - Me siento bella
+  - 'Me siento a gusto '
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 151946}
+  m_IsPrefabParent: 1

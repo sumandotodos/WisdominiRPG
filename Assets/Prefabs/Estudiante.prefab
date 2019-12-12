@@ -1,0 +1,854 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &103556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 460176}
+  - component: {fileID: 11457516}
+  - component: {fileID: 13507682}
+  - component: {fileID: 13610718}
+  - component: {fileID: 5495692}
+  m_Layer: 0
+  m_Name: Estudiante
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &183748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 454886}
+  - component: {fileID: 11445338}
+  - component: {fileID: 212060509809127998}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454886
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.03, z: 0}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
+  m_Children: []
+  m_Father: {fileID: 460176}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &460176
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -136, y: 109, z: -608}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 454886}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &5495692
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103556}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &11445338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbe7e10946b44654a57ec78c37f0dc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  m_Camera: {fileID: 0}
+--- !u!114 &11457516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00000000
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - alreadyFollowing
+      - follow
+      - Retrieve data
+      - Constant
+      - N4EstudianteFollowPlayer
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - follow
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+    - theList:
+      - if
+      - =
+      - Presiona
+      - NoPresiones
+      - Retrieve data
+      - Constant
+      - N4KnowStudent
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - NoPresiones
+    - theList:
+      - say
+      - "\xBFQui\xE9n eres?"
+      - wait
+      - Player
+      - Estudiante2_0
+    - theList:
+      - say
+      - "\xA1Un ferviente seguidor de Cocoroloco, que no permite que su fe se vea
+        empa\xF1ada por la fr\xEDa raz\xF3n! \xA1No tengo nada que ver con la Ciencia,
+        te lo aseguro!"
+      - wait
+      - NPC1
+      - Estudiante2_1
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - Presiona
+    - theList:
+      - replaceProgram
+      - MecanicaCuantica
+      - none
+      - True
+    - theList:
+      - setAutopilotMode
+      - Absolute
+    - theList:
+      - followPlayer
+    - theList:
+      - storeData
+      - Boolean
+      - N4EstudianteFollowPlayer
+      - true
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - alreadyFollowing
+    - theList:
+      - say
+      - "Yendo conmigo, el guardia del b\xFAnker de Cocoroloco te dejar\xE1 pasar.
+        Vamos al b\xFAnker."
+      - wait
+      - NPC1
+      - Estudiante2_2
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  programs:
+  - theList:
+    - theList:
+      - sendMessage
+      - Estudiante
+      - warpTo
+      - -45
+      - 132
+      - -400
+    - theList:
+      - walkTo
+      - -47.36074
+      - -385.6697
+      - blocking
+    - theList:
+      - walkTo
+      - -43.85102
+      - -384.9922
+      - blocking
+    - theList:
+      - walkTo
+      - -41.29959
+      - -384.2653
+      - blocking
+    - theList:
+      - walkTo
+      - -41.29959
+      - -384.5653
+      - blocking
+    - theList:
+      - playCustomAnim
+      - 1
+    - theList:
+      - delay
+      - 0.5
+    - theList:
+      - playCustomAnim
+      - 2
+    - theList:
+      - addToInventory
+  - theList:
+    - theList:
+      - if
+      - =
+      - kill
+      - noKill
+      - Retrieve data
+      - Constant
+      - N4DoneWithEstudiante
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - kill
+    - theList:
+      - destroy
+    - theList:
+      - makeLabel
+      - noKill
+    - theList:
+      - if
+      - =
+      - disable
+      - doNotDisable
+      - Retrieve data
+      - Constant
+      - N4PlayerCanEnterCocoBunker
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - disable
+    - theList:
+      - disableInteraction
+    - theList:
+      - makeLabel
+      - doNotDisable
+    - theList:
+      - if
+      - =
+      - follow2
+      - fin
+      - Retrieve data
+      - Constant
+      - N4EstudianteShowUp
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - follow2
+    - theList:
+      - if
+      - =
+      - follow
+      - fin
+      - Retrieve data
+      - Constant
+      - N4PeterInHouse
+      - Boolean
+      - false
+    - theList:
+      - makeLabel
+      - follow
+    - theList:
+      - sendMessage
+      - Estudiante
+      - warpTo
+      - -47.0
+      - 129.16
+      - -388.0
+    - theList:
+      - makeLabel
+      - fin
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - alreadyFollowing
+      - follow
+      - Retrieve data
+      - Constant
+      - N4EstudianteFollowPlayer
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - follow
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+    - theList:
+      - if
+      - =
+      - Presiona
+      - NoPresiones
+      - Retrieve data
+      - Constant
+      - N4KnowStudent
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - NoPresiones
+    - theList:
+      - say
+      - "\xBFQui\xE9n eres?"
+      - wait
+      - Player
+      - Estudiante2_0
+    - theList:
+      - say
+      - "\xA1Un ferviente seguidor de Cocoroloco, que no permite que su fe se vea
+        empa\xF1ada por la fr\xEDa raz\xF3n! \xA1No tengo nada que ver con la Ciencia,
+        te lo aseguro!"
+      - wait
+      - NPC1
+      - Estudiante2_1
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - Presiona
+    - theList:
+      - replaceProgram
+      - MecanicaCuantica
+      - none
+      - True
+    - theList:
+      - setAutopilotMode
+      - Absolute
+    - theList:
+      - followPlayer
+    - theList:
+      - storeData
+      - Boolean
+      - N4EstudianteFollowPlayer
+      - true
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - alreadyFollowing
+    - theList:
+      - say
+      - "Yendo conmigo, el guardia del b\xFAnker de Cocoroloco te dejar\xE1 pasar.
+        Vamos al b\xFAnker."
+      - wait
+      - NPC1
+      - Estudiante2_2
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - "Bueno, ya est\xE1s dentro. Ahora el guardia te conoce y a partir de ahora
+        te dejar\xE1 entrar aunque no vayas conmigo. Ahora debo irme."
+      - wait
+      - NPC1
+      - Estudiante3_0
+    - theList:
+      - say
+      - "Espera, \xBFSabr\xEDas decirme d\xF3nde est\xE1 el profesor Microvio?"
+      - wait
+      - Player
+      - Estudiante3_1
+    - theList:
+      - say
+      - "Lo siento, en eso no puedo ayudarte, no tengo ni idea. Pero quiz\xE1 pod\xEDas
+        preguntar a los duendes fil\xF3sofos. Cuando tengo alg\xFAn problema sobre
+        cualquier cosa yo siempre les pregunto. Son muy inteligentes."
+      - wait
+      - NPC1
+      - Estudiante3_2
+    - theList:
+      - say
+      - "\xBFRealmente son duendes?"
+      - wait
+      - Player
+      - Estudiante3_3
+    - theList:
+      - say
+      - "Oh, no lo creo. Deben tener el gen del enanismo y por eso les llaman duendes.
+        \ Y por su forma de vestir tambi\xE9n."
+      - wait
+      - NPC1
+      - Estudiante3_4
+    - theList:
+      - say
+      - Gracias por tu ayuda.
+      - wait
+      - Player
+      - Estudiante3_5
+    - theList:
+      - say
+      - Ha sido un placer.
+      - wait
+      - NPC1
+      - Estudiante3_6
+    - theList:
+      - clearDialogue
+    - theList:
+      - walkTo
+      - -47.67
+      - -476.25
+      - blocking
+    - theList:
+      - walkTo
+      - -49.64
+      - -473.26
+      - blocking
+    - theList:
+      - walkTo
+      - -50.43185
+      - -461.1743
+      - blocking
+    - theList:
+      - walkTo
+      - -50.45016
+      - -449.15
+      - blocking
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - walkTo
+      - -42.20055
+      - -448.2552
+      - blocking
+    - theList:
+      - sendMessage
+      - Estudiante
+      - warpTo
+      - -136
+      - 109.5
+      - -609
+  eventNamesInOrder:
+  - customEvent1
+  - onAwake
+  - onSpeak
+  - customEvent2
+  isProgramRunning: 00000000
+  programPointer_: 00000000000000000000000000000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  - 0
+  - 0
+  - 0
+  waitingForAnswer: 00000000
+  ConversationFolderName: N4_Estudiante
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  pivotYRotation: 0
+  distanceToPlayer: 1
+  followingState: 0
+  followState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  spriteHolder: {fileID: 183748}
+  showingFrame: 0
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  IdleAnimationSpeed: 1
+  Idle:
+  - {fileID: 2800000, guid: fa10f000df57b4138a0b2c777d9d3165, type: 3}
+  IdleSprite:
+  - {fileID: 21300000, guid: fa10f000df57b4138a0b2c777d9d3165, type: 3}
+  WalkingFront:
+  - {fileID: 2800000, guid: fa10f000df57b4138a0b2c777d9d3165, type: 3}
+  - {fileID: 2800000, guid: 675a665065c404fc1a48dbd2807374f8, type: 3}
+  - {fileID: 2800000, guid: 93ccb1c59de54417a99a5839261aaa8c, type: 3}
+  - {fileID: 2800000, guid: 522b50d6856b647e1a8b3039441be518, type: 3}
+  - {fileID: 2800000, guid: f6d1ff86f0aa549108fdfc9a4b5dd12b, type: 3}
+  - {fileID: 2800000, guid: 7dff101c329974200a750c83ed52d205, type: 3}
+  - {fileID: 2800000, guid: ef351847e8b6541bc99b67f8f92eee56, type: 3}
+  - {fileID: 2800000, guid: 33bfad84ec888475ba590253b08eb018, type: 3}
+  - {fileID: 2800000, guid: aebec200fec714e388497a43c7cf0a97, type: 3}
+  - {fileID: 2800000, guid: c89bfbb283dd44f76a5653d6ae7b8f52, type: 3}
+  - {fileID: 2800000, guid: 1c36534bc83234665ae2334d593bd9ba, type: 3}
+  WalkingFrontSprite:
+  - {fileID: 21300000, guid: fa10f000df57b4138a0b2c777d9d3165, type: 3}
+  - {fileID: 21300000, guid: 675a665065c404fc1a48dbd2807374f8, type: 3}
+  - {fileID: 21300000, guid: 93ccb1c59de54417a99a5839261aaa8c, type: 3}
+  - {fileID: 21300000, guid: 522b50d6856b647e1a8b3039441be518, type: 3}
+  - {fileID: 21300000, guid: f6d1ff86f0aa549108fdfc9a4b5dd12b, type: 3}
+  - {fileID: 21300000, guid: 7dff101c329974200a750c83ed52d205, type: 3}
+  - {fileID: 21300000, guid: ef351847e8b6541bc99b67f8f92eee56, type: 3}
+  - {fileID: 21300000, guid: 33bfad84ec888475ba590253b08eb018, type: 3}
+  - {fileID: 21300000, guid: aebec200fec714e388497a43c7cf0a97, type: 3}
+  - {fileID: 21300000, guid: c89bfbb283dd44f76a5653d6ae7b8f52, type: 3}
+  - {fileID: 21300000, guid: 1c36534bc83234665ae2334d593bd9ba, type: 3}
+  WalkingFrontLeft:
+  - {fileID: 2800000, guid: fa10f000df57b4138a0b2c777d9d3165, type: 3}
+  - {fileID: 2800000, guid: 675a665065c404fc1a48dbd2807374f8, type: 3}
+  - {fileID: 2800000, guid: 93ccb1c59de54417a99a5839261aaa8c, type: 3}
+  - {fileID: 2800000, guid: 522b50d6856b647e1a8b3039441be518, type: 3}
+  - {fileID: 2800000, guid: f6d1ff86f0aa549108fdfc9a4b5dd12b, type: 3}
+  - {fileID: 2800000, guid: 7dff101c329974200a750c83ed52d205, type: 3}
+  - {fileID: 2800000, guid: ef351847e8b6541bc99b67f8f92eee56, type: 3}
+  - {fileID: 2800000, guid: 33bfad84ec888475ba590253b08eb018, type: 3}
+  - {fileID: 2800000, guid: aebec200fec714e388497a43c7cf0a97, type: 3}
+  - {fileID: 2800000, guid: c89bfbb283dd44f76a5653d6ae7b8f52, type: 3}
+  - {fileID: 2800000, guid: 1c36534bc83234665ae2334d593bd9ba, type: 3}
+  WalkingFrontLeftSprite:
+  - {fileID: 21300000, guid: fa10f000df57b4138a0b2c777d9d3165, type: 3}
+  - {fileID: 21300000, guid: 675a665065c404fc1a48dbd2807374f8, type: 3}
+  - {fileID: 21300000, guid: 93ccb1c59de54417a99a5839261aaa8c, type: 3}
+  - {fileID: 21300000, guid: 522b50d6856b647e1a8b3039441be518, type: 3}
+  - {fileID: 21300000, guid: f6d1ff86f0aa549108fdfc9a4b5dd12b, type: 3}
+  - {fileID: 21300000, guid: 7dff101c329974200a750c83ed52d205, type: 3}
+  - {fileID: 21300000, guid: ef351847e8b6541bc99b67f8f92eee56, type: 3}
+  - {fileID: 21300000, guid: 33bfad84ec888475ba590253b08eb018, type: 3}
+  - {fileID: 21300000, guid: aebec200fec714e388497a43c7cf0a97, type: 3}
+  - {fileID: 21300000, guid: c89bfbb283dd44f76a5653d6ae7b8f52, type: 3}
+  - {fileID: 21300000, guid: 1c36534bc83234665ae2334d593bd9ba, type: 3}
+  WalkingLeft:
+  - {fileID: 2800000, guid: 68d392cec3b60451a834da49ad9871f6, type: 3}
+  - {fileID: 2800000, guid: 2abcfb2cdeca64bf5902bb8215a2fd1a, type: 3}
+  - {fileID: 2800000, guid: 9d52ff2770b604a18b761942ed464599, type: 3}
+  - {fileID: 2800000, guid: 240494aed68a0423faa6acc0071e0e12, type: 3}
+  - {fileID: 2800000, guid: 9916569bc15844deb96758e1cf77b733, type: 3}
+  - {fileID: 2800000, guid: 13695ec6f88cd40c0a5b84f2f004256c, type: 3}
+  - {fileID: 2800000, guid: 799fa3809e01c4943a49f6fcda0dbb87, type: 3}
+  - {fileID: 2800000, guid: f2b7c8f12d3ce40febd358597c2c8da5, type: 3}
+  - {fileID: 2800000, guid: da89e08ecbde941c6bf5b887e80057fd, type: 3}
+  - {fileID: 2800000, guid: ee47f00654fdb4f90bd58f3850b1d898, type: 3}
+  - {fileID: 2800000, guid: 453ab02a151b74bc8a3800cf4af3799b, type: 3}
+  WalkingLeftSprite:
+  - {fileID: 21300000, guid: 68d392cec3b60451a834da49ad9871f6, type: 3}
+  - {fileID: 21300000, guid: 2abcfb2cdeca64bf5902bb8215a2fd1a, type: 3}
+  - {fileID: 21300000, guid: 9d52ff2770b604a18b761942ed464599, type: 3}
+  - {fileID: 21300000, guid: 240494aed68a0423faa6acc0071e0e12, type: 3}
+  - {fileID: 21300000, guid: 9916569bc15844deb96758e1cf77b733, type: 3}
+  - {fileID: 21300000, guid: 13695ec6f88cd40c0a5b84f2f004256c, type: 3}
+  - {fileID: 21300000, guid: 799fa3809e01c4943a49f6fcda0dbb87, type: 3}
+  - {fileID: 21300000, guid: f2b7c8f12d3ce40febd358597c2c8da5, type: 3}
+  - {fileID: 21300000, guid: da89e08ecbde941c6bf5b887e80057fd, type: 3}
+  - {fileID: 21300000, guid: ee47f00654fdb4f90bd58f3850b1d898, type: 3}
+  - {fileID: 21300000, guid: 453ab02a151b74bc8a3800cf4af3799b, type: 3}
+  WalkingLeftBack:
+  - {fileID: 2800000, guid: 68d392cec3b60451a834da49ad9871f6, type: 3}
+  - {fileID: 2800000, guid: 2abcfb2cdeca64bf5902bb8215a2fd1a, type: 3}
+  - {fileID: 2800000, guid: 9d52ff2770b604a18b761942ed464599, type: 3}
+  - {fileID: 2800000, guid: 240494aed68a0423faa6acc0071e0e12, type: 3}
+  - {fileID: 2800000, guid: 9916569bc15844deb96758e1cf77b733, type: 3}
+  - {fileID: 2800000, guid: 13695ec6f88cd40c0a5b84f2f004256c, type: 3}
+  - {fileID: 2800000, guid: 799fa3809e01c4943a49f6fcda0dbb87, type: 3}
+  - {fileID: 2800000, guid: f2b7c8f12d3ce40febd358597c2c8da5, type: 3}
+  - {fileID: 2800000, guid: da89e08ecbde941c6bf5b887e80057fd, type: 3}
+  - {fileID: 2800000, guid: ee47f00654fdb4f90bd58f3850b1d898, type: 3}
+  - {fileID: 2800000, guid: 453ab02a151b74bc8a3800cf4af3799b, type: 3}
+  WalkingLeftBackSprite:
+  - {fileID: 21300000, guid: 68d392cec3b60451a834da49ad9871f6, type: 3}
+  - {fileID: 21300000, guid: 2abcfb2cdeca64bf5902bb8215a2fd1a, type: 3}
+  - {fileID: 21300000, guid: 9d52ff2770b604a18b761942ed464599, type: 3}
+  - {fileID: 21300000, guid: 240494aed68a0423faa6acc0071e0e12, type: 3}
+  - {fileID: 21300000, guid: 9916569bc15844deb96758e1cf77b733, type: 3}
+  - {fileID: 21300000, guid: 13695ec6f88cd40c0a5b84f2f004256c, type: 3}
+  - {fileID: 21300000, guid: 799fa3809e01c4943a49f6fcda0dbb87, type: 3}
+  - {fileID: 21300000, guid: f2b7c8f12d3ce40febd358597c2c8da5, type: 3}
+  - {fileID: 21300000, guid: da89e08ecbde941c6bf5b887e80057fd, type: 3}
+  - {fileID: 21300000, guid: ee47f00654fdb4f90bd58f3850b1d898, type: 3}
+  - {fileID: 21300000, guid: 453ab02a151b74bc8a3800cf4af3799b, type: 3}
+  WalkingBack:
+  - {fileID: 2800000, guid: a47a78913d3cc4f448327506bdc0c2e4, type: 3}
+  - {fileID: 2800000, guid: d4e3921a67577467e9107246d53f36b7, type: 3}
+  - {fileID: 2800000, guid: 2e0a70b5b1cac476790ded11c36deeaf, type: 3}
+  - {fileID: 2800000, guid: 3b0c68c2ea924427ba7b7818e65c1e8f, type: 3}
+  - {fileID: 2800000, guid: 5ccbeae42751c4dbaabed35a3e6b60fc, type: 3}
+  - {fileID: 2800000, guid: 7cbcac2b1552b43bb9e86601c08df8e9, type: 3}
+  - {fileID: 2800000, guid: b90877671bc8c4b60bc3fb7bdec9a5c2, type: 3}
+  - {fileID: 2800000, guid: 5d5e3ff96e4ba4b1eacd7ee85c834eac, type: 3}
+  - {fileID: 2800000, guid: 9cbe9dfde1a1b497f9274539ce13740a, type: 3}
+  - {fileID: 2800000, guid: 1a7c00100d42747c69f222f61e07a68a, type: 3}
+  - {fileID: 2800000, guid: 3ab33d4e45a2e46cdbe516b08df1e8eb, type: 3}
+  WalkingBackSprite:
+  - {fileID: 21300000, guid: a47a78913d3cc4f448327506bdc0c2e4, type: 3}
+  - {fileID: 21300000, guid: d4e3921a67577467e9107246d53f36b7, type: 3}
+  - {fileID: 21300000, guid: 2e0a70b5b1cac476790ded11c36deeaf, type: 3}
+  - {fileID: 21300000, guid: 3b0c68c2ea924427ba7b7818e65c1e8f, type: 3}
+  - {fileID: 21300000, guid: 5ccbeae42751c4dbaabed35a3e6b60fc, type: 3}
+  - {fileID: 21300000, guid: 7cbcac2b1552b43bb9e86601c08df8e9, type: 3}
+  - {fileID: 21300000, guid: b90877671bc8c4b60bc3fb7bdec9a5c2, type: 3}
+  - {fileID: 21300000, guid: 5d5e3ff96e4ba4b1eacd7ee85c834eac, type: 3}
+  - {fileID: 21300000, guid: 9cbe9dfde1a1b497f9274539ce13740a, type: 3}
+  - {fileID: 21300000, guid: 1a7c00100d42747c69f222f61e07a68a, type: 3}
+  - {fileID: 21300000, guid: 3ab33d4e45a2e46cdbe516b08df1e8eb, type: 3}
+  WalkingBackRight:
+  - {fileID: 2800000, guid: a47a78913d3cc4f448327506bdc0c2e4, type: 3}
+  - {fileID: 2800000, guid: d4e3921a67577467e9107246d53f36b7, type: 3}
+  - {fileID: 2800000, guid: 2e0a70b5b1cac476790ded11c36deeaf, type: 3}
+  - {fileID: 2800000, guid: 3b0c68c2ea924427ba7b7818e65c1e8f, type: 3}
+  - {fileID: 2800000, guid: 5ccbeae42751c4dbaabed35a3e6b60fc, type: 3}
+  - {fileID: 2800000, guid: 7cbcac2b1552b43bb9e86601c08df8e9, type: 3}
+  - {fileID: 2800000, guid: b90877671bc8c4b60bc3fb7bdec9a5c2, type: 3}
+  - {fileID: 2800000, guid: 5d5e3ff96e4ba4b1eacd7ee85c834eac, type: 3}
+  - {fileID: 2800000, guid: 9cbe9dfde1a1b497f9274539ce13740a, type: 3}
+  - {fileID: 2800000, guid: 1a7c00100d42747c69f222f61e07a68a, type: 3}
+  - {fileID: 2800000, guid: 3ab33d4e45a2e46cdbe516b08df1e8eb, type: 3}
+  WalkingBackRightSprite:
+  - {fileID: 21300000, guid: a47a78913d3cc4f448327506bdc0c2e4, type: 3}
+  - {fileID: 21300000, guid: d4e3921a67577467e9107246d53f36b7, type: 3}
+  - {fileID: 21300000, guid: 2e0a70b5b1cac476790ded11c36deeaf, type: 3}
+  - {fileID: 21300000, guid: 3b0c68c2ea924427ba7b7818e65c1e8f, type: 3}
+  - {fileID: 21300000, guid: 5ccbeae42751c4dbaabed35a3e6b60fc, type: 3}
+  - {fileID: 21300000, guid: 7cbcac2b1552b43bb9e86601c08df8e9, type: 3}
+  - {fileID: 21300000, guid: b90877671bc8c4b60bc3fb7bdec9a5c2, type: 3}
+  - {fileID: 21300000, guid: 5d5e3ff96e4ba4b1eacd7ee85c834eac, type: 3}
+  - {fileID: 21300000, guid: 9cbe9dfde1a1b497f9274539ce13740a, type: 3}
+  - {fileID: 21300000, guid: 1a7c00100d42747c69f222f61e07a68a, type: 3}
+  - {fileID: 21300000, guid: 3ab33d4e45a2e46cdbe516b08df1e8eb, type: 3}
+  WalkingRight:
+  - {fileID: 2800000, guid: 7ed71909fe70a4a7b9cc1311c746e475, type: 3}
+  - {fileID: 2800000, guid: 80172093cfd2847659966d961e7ad2f1, type: 3}
+  - {fileID: 2800000, guid: 2b5f1a8cc05084badaa51ed0fed2c9c3, type: 3}
+  - {fileID: 2800000, guid: 855d493da143a4222b6f62816e2b2cfe, type: 3}
+  - {fileID: 2800000, guid: 4970d39311cbc4297b8dc8ac3d2386aa, type: 3}
+  - {fileID: 2800000, guid: 548165230137f452297bc79b5d878107, type: 3}
+  - {fileID: 2800000, guid: 68cac61b9cfbf4deb9804740f8e43db5, type: 3}
+  - {fileID: 2800000, guid: 3b12004b635b84e26b32e8afc094cb2b, type: 3}
+  - {fileID: 2800000, guid: 60d2726976dfd40b484ecdfdc47c898d, type: 3}
+  - {fileID: 2800000, guid: ca27efebd7df7437e837c1d2e94dd8e3, type: 3}
+  - {fileID: 2800000, guid: 9013010723f27495687f93426ad95d36, type: 3}
+  WalkingRightSprite:
+  - {fileID: 21300000, guid: 7ed71909fe70a4a7b9cc1311c746e475, type: 3}
+  - {fileID: 21300000, guid: 80172093cfd2847659966d961e7ad2f1, type: 3}
+  - {fileID: 21300000, guid: 2b5f1a8cc05084badaa51ed0fed2c9c3, type: 3}
+  - {fileID: 21300000, guid: 855d493da143a4222b6f62816e2b2cfe, type: 3}
+  - {fileID: 21300000, guid: 4970d39311cbc4297b8dc8ac3d2386aa, type: 3}
+  - {fileID: 21300000, guid: 548165230137f452297bc79b5d878107, type: 3}
+  - {fileID: 21300000, guid: 68cac61b9cfbf4deb9804740f8e43db5, type: 3}
+  - {fileID: 21300000, guid: 3b12004b635b84e26b32e8afc094cb2b, type: 3}
+  - {fileID: 21300000, guid: 60d2726976dfd40b484ecdfdc47c898d, type: 3}
+  - {fileID: 21300000, guid: ca27efebd7df7437e837c1d2e94dd8e3, type: 3}
+  - {fileID: 21300000, guid: 9013010723f27495687f93426ad95d36, type: 3}
+  WalkingRightFront:
+  - {fileID: 2800000, guid: 7ed71909fe70a4a7b9cc1311c746e475, type: 3}
+  - {fileID: 2800000, guid: 80172093cfd2847659966d961e7ad2f1, type: 3}
+  - {fileID: 2800000, guid: 2b5f1a8cc05084badaa51ed0fed2c9c3, type: 3}
+  - {fileID: 2800000, guid: 855d493da143a4222b6f62816e2b2cfe, type: 3}
+  - {fileID: 2800000, guid: 4970d39311cbc4297b8dc8ac3d2386aa, type: 3}
+  - {fileID: 2800000, guid: 548165230137f452297bc79b5d878107, type: 3}
+  - {fileID: 2800000, guid: 68cac61b9cfbf4deb9804740f8e43db5, type: 3}
+  - {fileID: 2800000, guid: 3b12004b635b84e26b32e8afc094cb2b, type: 3}
+  - {fileID: 2800000, guid: 60d2726976dfd40b484ecdfdc47c898d, type: 3}
+  - {fileID: 2800000, guid: ca27efebd7df7437e837c1d2e94dd8e3, type: 3}
+  - {fileID: 2800000, guid: 9013010723f27495687f93426ad95d36, type: 3}
+  WalkingRightFrontSprite:
+  - {fileID: 21300000, guid: 7ed71909fe70a4a7b9cc1311c746e475, type: 3}
+  - {fileID: 21300000, guid: 80172093cfd2847659966d961e7ad2f1, type: 3}
+  - {fileID: 21300000, guid: 2b5f1a8cc05084badaa51ed0fed2c9c3, type: 3}
+  - {fileID: 21300000, guid: 855d493da143a4222b6f62816e2b2cfe, type: 3}
+  - {fileID: 21300000, guid: 4970d39311cbc4297b8dc8ac3d2386aa, type: 3}
+  - {fileID: 21300000, guid: 548165230137f452297bc79b5d878107, type: 3}
+  - {fileID: 21300000, guid: 68cac61b9cfbf4deb9804740f8e43db5, type: 3}
+  - {fileID: 21300000, guid: 3b12004b635b84e26b32e8afc094cb2b, type: 3}
+  - {fileID: 21300000, guid: 60d2726976dfd40b484ecdfdc47c898d, type: 3}
+  - {fileID: 21300000, guid: ca27efebd7df7437e837c1d2e94dd8e3, type: 3}
+  - {fileID: 21300000, guid: 9013010723f27495687f93426ad95d36, type: 3}
+  NextProgram:
+  - {fileID: 11437348, guid: 4d39be5471b644ec2ab2f05ba2176c6c, type: 2}
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  images: []
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 05000000000000000100000006000000
+  action:
+  - theList: 020000000a0000000a0000000a0000000a00000026000000040000002600000000000000
+  - theList: 1500000013000000010000001300000015000000130000002900000013000000150000001300000015000000130000000200000013000000
+  - theList: 10000000150000001300000015000000130000000b0000000b00000014000000130000001a0000002d0000001e0000001800000014000000130000000b000000130000000f00000011000000
+  - theList: 100000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000f0000000a0000000a0000000a0000000a000000110000000a00000002000000
+  animationSpeed: 8
+  animationDelay: 0
+  frameTime: 0
+  walkingSpeed: 4
+  customAnimation1:
+  - {fileID: 2800000, guid: e0be0faeca80140a796f99ae910efdd0, type: 3}
+  customAnimation1Sprite:
+  - {fileID: 21300000, guid: e0be0faeca80140a796f99ae910efdd0, type: 3}
+  customAnimation1Speed: 0
+  customAnimation2:
+  - {fileID: 2800000, guid: 7d2c4fcf0d36b44319b3659572bd7a10, type: 3}
+  customAnimation2Sprite:
+  - {fileID: 21300000, guid: 7d2c4fcf0d36b44319b3659572bd7a10, type: 3}
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Sprite: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 103556}
+  soundEffects:
+  - {fileID: 8300000, guid: fa9296c8f3a1f46b98cce7c92c14c66a, type: 3}
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Mouth
+  followDistance: 4
+--- !u!135 &13507682
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.008109
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &13610718
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.63
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 103556}
+  m_IsPrefabParent: 1
+--- !u!212 &212060509809127998
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183748}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1a457c2d63d9345a99070cad145ccf73, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: fa10f000df57b4138a0b2c777d9d3165, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0

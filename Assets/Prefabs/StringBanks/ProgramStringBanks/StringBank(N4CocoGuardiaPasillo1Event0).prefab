@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1558959876674164}
+  m_IsPrefabParent: 1
+--- !u!1 &1558959876674164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4474511403626272}
+  - component: {fileID: 114297821080847874}
+  m_Layer: 0
+  m_Name: StringBank(N4CocoGuardiaPasillo1Event0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4474511403626272
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1558959876674164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114297821080847874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1558959876674164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: N4CocoGuardiaPasillo10_
+  randomYield: 0
+  phrase:
+  - "\xBFEs est\xE1 la persona con la que puedo compartir mis puntos de vista? A ver,
+    duende, \xBFqu\xE9 te parece esto?"
+  - Dios es todo amor misericordioso, ama a Dios por encima de todas las cosas.
+  - "Un momento amigo. \xBFTe has dado cuenta de que el mundo est\xE1 lleno de sufrimiento?
+    Si dios es todo amor, \xBFPor qu\xE9 lo permite? \xBFPor qu\xE9 no nos lleva directamente
+    al para\xEDso? \xBFO por qu\xE9 no crea el para\xEDso en la tierra?"
+  - Hay sufrimiento porque Dios nos ha hecho libres. Y esa libertad es la fuente de
+    la violencia que causa el sufrimiento.
+  - "Desde luego, pero si somos libres entonces no podemos ser una creaci\xF3n de
+    un ente superior y separado llamado Dios, porque si ese ente al que llamamos Dios
+    resulta que es libre, y resulta que tambi\xE9n nosotros somos libres, entonces
+    todos compartimos la misma esencia, la esencia de la libertad y de poder aprender
+    y evolucionar por nosotros mismos. No somos algo creado por alguien, simplemente
+    somos\u2026"
+  - "\xBF?\xBF?\xBF?"
+  - Hmmm
+  - "\xBF?\xBF?\xBF\xBF"
+  - "Mmm, lo siento, pero todav\xEDa no he reflexionado lo suficiente sobre esa cuesti\xF3n.
+    Si no se me requiere para otra cosa..."
+  - "\xA1Eh! \xA1No puedes estar aqu\xED! \xA1Vete ahora mismo!"
+  - "Adem\xE1s, me distraes, que aprovecho mi relajado turno para reflexionar sobre
+    cosas que t\xFA no podr\xEDas entender jam\xE1s."
+  - "Hoy llevo todo el d\xEDa pensando esto:"
+  - '"Dios es todo amor misericordioso, ama a Dios por encima de todas las cosas"'
+  - "As\xED que d\xE9jame en paz, que tengo mucho que pensar. Si hubiera aqu\xED alguien
+    con quien discutir mis puntos de vista..."
+  correntAnswer: 

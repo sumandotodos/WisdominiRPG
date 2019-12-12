@@ -1,0 +1,326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1687244522742968}
+  m_IsPrefabParent: 1
+--- !u!1 &1687244522742968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4916272202620956}
+  - component: {fileID: 114247361863345478}
+  m_Layer: 0
+  m_Name: ElectrodoCasaAmarilla_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4916272202620956
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1687244522742968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114247361863345478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1687244522742968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Ya, pero cuando dices \u201Cyo\u201D, te est\xE1s refiriendo a tu conciencia,
+        que es algo m\xE1s que tu cuerpo y tu cerebro f\xEDsicos. No creo que lo que
+        me est\xE1s queriendo decir sea que fue la estructura que forman los \xE1tomos
+        y mol\xE9culas en tu cerebro la que caus\xF3 el movimiento, m\xE1s bien entiendo
+        que me est\xE1s diciendo que t\xFA de manera consciente iniciaste ese movimiento."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_0
+    - theList:
+      - say
+      - "S\xED, fui yo, claro."
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_1
+    - theList:
+      - say
+      - "Pues una cosa es que lo que t\xFA haces parta de la estructura que tienen
+        los \xE1tomos y mol\xE9culas de tu cerebro, y otra cosa es que parta de ti,
+        de tu conciencia. Y que esa conciencia no f\xEDsica sea la causante del movimiento
+        de energ\xEDas que tiene lugar en tu cerebro y que dirige cada cosa que haces."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_2
+    - theList:
+      - say
+      - "Ya\u2026"
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_3
+    - theList:
+      - say
+      - "Quiz\xE1 lo veas m\xE1s claro si fuera un electrodo colocado en tu cr\xE1neo
+        lo que diera origen al movimiento de tu pierna. Porque en ese caso ser\xEDa
+        una corriente el\xE9ctrica partiendo del electrodo lo que har\xEDa que tu
+        pierna se moviera sola. Lo mismo que si t\xFA decides voluntariamente mover
+        la pierna: tu conciencia ser\xE1 la causante de que en tu cerebro se genere
+        una se\xF1al el\xE9ctrica que viaje hasta tu pierna, movi\xE9ndola. "
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_4
+      - 
+    - theList:
+      - say
+      - "En ambos casos se trata de una corriente el\xE9ctrica. La clave est\xE1 en
+        lo que origina esa corriente el\xE9ctrica. Puede ser algo f\xEDsico, o puede
+        ser algo no f\xEDsico."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_5
+    - theList:
+      - say
+      - "Ya voy viendo\u2026"
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_6
+    - theList:
+      - say
+      - "Si t\xFA fueras solo tu cuerpo f\xEDsico, entonces no deber\xEDas sentir
+        nada distinto si la corriente el\xE9ctrica parte del electrodo que si parte
+        de tu cerebro f\xEDsico. Porque en ambos casos parte de algo material, y la
+        materia sigue siendo materia, forme parte del tejido cerebral o de un electrodo."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_7
+    - theList:
+      - say
+      - "Quiz\xE1 lo m\xE1s asombroso de esto es que si fu\xE9ramos solo algo f\xEDsico,
+        entonces cada cosa que hacemos vendr\xEDa dada por nuestro cuerpo f\xEDsico,
+        y eso significar\xEDa que no ser\xEDamos libres. Y yo desde luego siento que
+        tengo libre albedr\xEDo y tomo mis propias decisiones"
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_8
+    - theList:
+      - say
+      - "Estoy seguro de que cada cosa que haces no est\xE1 grabada en tu cerebro
+        ni en tus genes. T\xFA eres libre, tomas tus propias decisiones. Tienes una
+        serie de h\xE1bitos est\xE1 claro, pero puedes cambiarlos si quieres, precisamente
+        porque la causa \xFAltima de cada cosa que haces no es c\xF3mo est\xE1n colocados
+        los \xE1tomos y mol\xE9culas de tu cerebro, eres algo m\xE1s que eso."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_9
+    - theList:
+      - say
+      - "Eres una conciencia m\xE1s all\xE1 del mundo de lo f\xEDsico y que act\xFAa
+        sobre el mundo f\xEDsico, concretamente sobre el cuerpo f\xEDsico que est\xE1
+        habitando temporalmente. Pero no puedes ser \xFAnicamente ese cuerpo f\xEDsico,
+        porque entonces no ser\xEDas libre."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_10
+    - theList:
+      - say
+      - "Si fu\xE9ramos solo algo f\xEDsico ser\xEDa como decir que la disposici\xF3n
+        de las neuronas en nuestro cerebro es la causa \xFAltima de cada cosa que
+        hacemos. Que la estructura at\xF3mica de las mol\xE9culas de tus neuronas,
+        su rugosidad, su peso, su tama\xF1o, su forma, ser\xEDa lo que determinar\xEDa
+        cada instante de nuestras vidas."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_11
+    - theList:
+      - say
+      - <img src="http://sp.depositphotos.com/18770365/stock-photo-the-sheeps-brain.html">
+      - don't wait
+      - 
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_12
+    - theList:
+      - branchTo
+      - ElectrodoCasaAmarilla_2/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Ya, pero cuando dices \u201Cyo\u201D, te est\xE1s refiriendo a tu conciencia,
+        que es algo m\xE1s que tu cuerpo y tu cerebro f\xEDsicos. No creo que lo que
+        me est\xE1s queriendo decir sea que fue la estructura que forman los \xE1tomos
+        y mol\xE9culas en tu cerebro la que caus\xF3 el movimiento, m\xE1s bien entiendo
+        que me est\xE1s diciendo que t\xFA de manera consciente iniciaste ese movimiento."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_0
+    - theList:
+      - say
+      - "S\xED, fui yo, claro."
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_1
+    - theList:
+      - say
+      - "Pues una cosa es que lo que t\xFA haces parta de la estructura que tienen
+        los \xE1tomos y mol\xE9culas de tu cerebro, y otra cosa es que parta de ti,
+        de tu conciencia. Y que esa conciencia no f\xEDsica sea la causante del movimiento
+        de energ\xEDas que tiene lugar en tu cerebro y que dirige cada cosa que haces."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_2
+    - theList:
+      - say
+      - "Ya\u2026"
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_3
+    - theList:
+      - say
+      - "Quiz\xE1 lo veas m\xE1s claro si fuera un electrodo colocado en tu cr\xE1neo
+        lo que diera origen al movimiento de tu pierna. Porque en ese caso ser\xEDa
+        una corriente el\xE9ctrica partiendo del electrodo lo que har\xEDa que tu
+        pierna se moviera sola. Lo mismo que si t\xFA decides voluntariamente mover
+        la pierna: tu conciencia ser\xE1 la causante de que en tu cerebro se genere
+        una se\xF1al el\xE9ctrica que viaje hasta tu pierna, movi\xE9ndola. "
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_4
+      - 
+    - theList:
+      - say
+      - "En ambos casos se trata de una corriente el\xE9ctrica. La clave est\xE1 en
+        lo que origina esa corriente el\xE9ctrica. Puede ser algo f\xEDsico, o puede
+        ser algo no f\xEDsico."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_5
+    - theList:
+      - say
+      - "Ya voy viendo\u2026"
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_6
+    - theList:
+      - say
+      - "Si t\xFA fueras solo tu cuerpo f\xEDsico, entonces no deber\xEDas sentir
+        nada distinto si la corriente el\xE9ctrica parte del electrodo que si parte
+        de tu cerebro f\xEDsico. Porque en ambos casos parte de algo material, y la
+        materia sigue siendo materia, forme parte del tejido cerebral o de un electrodo."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_7
+    - theList:
+      - say
+      - "Quiz\xE1 lo m\xE1s asombroso de esto es que si fu\xE9ramos solo algo f\xEDsico,
+        entonces cada cosa que hacemos vendr\xEDa dada por nuestro cuerpo f\xEDsico,
+        y eso significar\xEDa que no ser\xEDamos libres. Y yo desde luego siento que
+        tengo libre albedr\xEDo y tomo mis propias decisiones"
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_8
+    - theList:
+      - say
+      - "Estoy seguro de que cada cosa que haces no est\xE1 grabada en tu cerebro
+        ni en tus genes. T\xFA eres libre, tomas tus propias decisiones. Tienes una
+        serie de h\xE1bitos est\xE1 claro, pero puedes cambiarlos si quieres, precisamente
+        porque la causa \xFAltima de cada cosa que haces no es c\xF3mo est\xE1n colocados
+        los \xE1tomos y mol\xE9culas de tu cerebro, eres algo m\xE1s que eso."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_9
+    - theList:
+      - say
+      - "Eres una conciencia m\xE1s all\xE1 del mundo de lo f\xEDsico y que act\xFAa
+        sobre el mundo f\xEDsico, concretamente sobre el cuerpo f\xEDsico que est\xE1
+        habitando temporalmente. Pero no puedes ser \xFAnicamente ese cuerpo f\xEDsico,
+        porque entonces no ser\xEDas libre."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_10
+    - theList:
+      - say
+      - "Si fu\xE9ramos solo algo f\xEDsico ser\xEDa como decir que la disposici\xF3n
+        de las neuronas en nuestro cerebro es la causa \xFAltima de cada cosa que
+        hacemos. Que la estructura at\xF3mica de las mol\xE9culas de tus neuronas,
+        su rugosidad, su peso, su tama\xF1o, su forma, ser\xEDa lo que determinar\xEDa
+        cada instante de nuestras vidas."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_11
+    - theList:
+      - say
+      - <img src="http://sp.depositphotos.com/18770365/stock-photo-the-sheeps-brain.html">
+      - don't wait
+      - 
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_1_12
+    - theList:
+      - branchTo
+      - ElectrodoCasaAmarilla_2/0
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1036
+  windowY: -3

@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1500598820607486}
+  m_IsPrefabParent: 1
+--- !u!1 &1500598820607486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4714236489889746}
+  - component: {fileID: 114283207743913384}
+  m_Layer: 0
+  m_Name: ElectrodoCasaAmarilla_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4714236489889746
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1500598820607486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114283207743913384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1500598820607486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Hay 2 maneras de hacerlo. Una es coloc\xE1ndote unos electrodos en la cabeza
+        que lancen una se\xF1al el\xE9ctrica que active la regi\xF3n del cerebro que
+        controla el movimiento de la pierna. La otra es m\xE1s sencilla: consiste
+        en golpearte en el hueso de la risa, tambi\xE9n as\xED se activar\xE1 el nervio
+        que mueve el m\xFAsculo de la pierna."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_0
+    - theList:
+      - say
+      - "\xBFD\xF3nde est\xE1 ese hueso?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_1
+    - theList:
+      - say
+      - "En un hueco que hay justo debajo del hueso de la rodilla. No hace falta que
+        sea un s\xFAper-golpe, pero s\xED un golpe que se note y que sea justo en
+        ese lugar. Mejor si utilizas alg\xFAn objeto para darte el golpe, y si te
+        lo hace otra persona. Si golpeas justo en la hendidura que hay bajo la rodilla
+        ver\xE1s c\xF3mo tu pierna se levanta sola, como por arte de magia."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_2
+    - theList:
+      - say
+      - "Vale, \xBFy qu\xE9?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_3
+    - theList:
+      - say
+      - "Y ahora levanta la pierna tu solo, por ti mismo. \xBFNotas alguna diferencia
+        respecto a la primera vez?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_4
+    - theList:
+      - say
+      - "S\xED. Que la primera vez la pierna se levant\xF3 sola. Y la segunda la he
+        movido yo."
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_5
+    - theList:
+      - say
+      - "\xBFNo te das cuenta de que es la prueba de que vosotros los Cocorolocos
+        ten\xEDais raz\xF3n, que somos algo m\xE1s que materia f\xEDsica?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_6
+    - theList:
+      - say
+      - "\xBFPor qu\xE9?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_7
+    - theList:
+      - say
+      - "Porque si fu\xE9ramos solo algo f\xEDsico, no deber\xEDas haber sentido ninguna
+        diferencia en cada uno de los dos casos. Porque en ambos casos el movimiento
+        partir\xEDa de una causa f\xEDsica, lo \xFAnico que cambia es que esa causa
+        f\xEDsica parta de un origen material u otro."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_8
+    - theList:
+      - say
+      - "En un caso la causa est\xE1 en el golpe que te das en la rodilla, que activa
+        el nervio de tu rodilla que conecta con los m\xFAsculos que mueven tu pierna."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_9
+    - theList:
+      - say
+      - "En el otro caso la causa est\xE1 en las mol\xE9culas de tu cerebro. De ah\xED
+        surge una se\xF1al el\xE9ctrica que llega hasta el nervio de tu rodilla que
+        conecta con los m\xFAsculos que mueven tu pierna."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_10
+    - theList:
+      - say
+      - "En un caso la causa f\xEDsica tiene su origen en tu rodilla, y en el otro
+        est\xE1 en el interior de tu cr\xE1neo. Pero el lugar da lo mismo, en ambos
+        casos es algo f\xEDsico lo que inicia el movimiento, y por tanto deber\xEDamos
+        sentir lo mismo en uno y otro caso. Pero no es as\xED. \xBFPor qu\xE9, si
+        la materia f\xEDsica de tu cerebro est\xE1 hecha de los mismos \xE1tomos que
+        la materia f\xEDsica de tu rodilla?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_11
+    - theList:
+      - say
+      - Pero en un caso yo fui el causante del movimiento y en el otro no, esa es
+        la diferencia.
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_12
+    - theList:
+      - branchTo
+      - ElectrodoCasaAmarilla_1/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Hay 2 maneras de hacerlo. Una es coloc\xE1ndote unos electrodos en la cabeza
+        que lancen una se\xF1al el\xE9ctrica que active la regi\xF3n del cerebro que
+        controla el movimiento de la pierna. La otra es m\xE1s sencilla: consiste
+        en golpearte en el hueso de la risa, tambi\xE9n as\xED se activar\xE1 el nervio
+        que mueve el m\xFAsculo de la pierna."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_0
+    - theList:
+      - say
+      - "\xBFD\xF3nde est\xE1 ese hueso?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_1
+    - theList:
+      - say
+      - "En un hueco que hay justo debajo del hueso de la rodilla. No hace falta que
+        sea un s\xFAper-golpe, pero s\xED un golpe que se note y que sea justo en
+        ese lugar. Mejor si utilizas alg\xFAn objeto para darte el golpe, y si te
+        lo hace otra persona. Si golpeas justo en la hendidura que hay bajo la rodilla
+        ver\xE1s c\xF3mo tu pierna se levanta sola, como por arte de magia."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_2
+    - theList:
+      - say
+      - "Vale, \xBFy qu\xE9?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_3
+    - theList:
+      - say
+      - "Y ahora levanta la pierna tu solo, por ti mismo. \xBFNotas alguna diferencia
+        respecto a la primera vez?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_4
+    - theList:
+      - say
+      - "S\xED. Que la primera vez la pierna se levant\xF3 sola. Y la segunda la he
+        movido yo."
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_5
+    - theList:
+      - say
+      - "\xBFNo te das cuenta de que es la prueba de que vosotros los Cocorolocos
+        ten\xEDais raz\xF3n, que somos algo m\xE1s que materia f\xEDsica?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_6
+    - theList:
+      - say
+      - "\xBFPor qu\xE9?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_7
+    - theList:
+      - say
+      - "Porque si fu\xE9ramos solo algo f\xEDsico, no deber\xEDas haber sentido ninguna
+        diferencia en cada uno de los dos casos. Porque en ambos casos el movimiento
+        partir\xEDa de una causa f\xEDsica, lo \xFAnico que cambia es que esa causa
+        f\xEDsica parta de un origen material u otro."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_8
+    - theList:
+      - say
+      - "En un caso la causa est\xE1 en el golpe que te das en la rodilla, que activa
+        el nervio de tu rodilla que conecta con los m\xFAsculos que mueven tu pierna."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_9
+    - theList:
+      - say
+      - "En el otro caso la causa est\xE1 en las mol\xE9culas de tu cerebro. De ah\xED
+        surge una se\xF1al el\xE9ctrica que llega hasta el nervio de tu rodilla que
+        conecta con los m\xFAsculos que mueven tu pierna."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_10
+    - theList:
+      - say
+      - "En un caso la causa f\xEDsica tiene su origen en tu rodilla, y en el otro
+        est\xE1 en el interior de tu cr\xE1neo. Pero el lugar da lo mismo, en ambos
+        casos es algo f\xEDsico lo que inicia el movimiento, y por tanto deber\xEDamos
+        sentir lo mismo en uno y otro caso. Pero no es as\xED. \xBFPor qu\xE9, si
+        la materia f\xEDsica de tu cerebro est\xE1 hecha de los mismos \xE1tomos que
+        la materia f\xEDsica de tu rodilla?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_11
+    - theList:
+      - say
+      - Pero en un caso yo fui el causante del movimiento y en el otro no, esa es
+        la diferencia.
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_0_12
+    - theList:
+      - branchTo
+      - ElectrodoCasaAmarilla_1/0
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 719
+  windowY: -9

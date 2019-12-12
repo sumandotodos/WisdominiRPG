@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 3cf5df2b9e55c4bab8a9cf5342cdf5b5
+timeCreated: 1463217451
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: curve1
+    100002: curve2
+    100004: curve3
+    100006: curve4
+    100008: curve5
+    100010: curve6
+    100012: //RootNode
+    100014: group1_pSphere2
+    100016: joint10
+    100018: joint10 1
+    100020: joint10 2
+    100022: joint10 3
+    100024: joint11
+    100026: joint11 1
+    100028: joint11 2
+    100030: joint11 3
+    100032: joint12
+    100034: joint12 1
+    100036: joint12 2
+    100038: joint12 3
+    100040: joint13
+    100042: joint13 1
+    100044: joint13 2
+    100046: joint13 3
+    100048: joint14
+    100050: joint15
+    100052: joint16
+    100054: joint7
+    100056: joint8
+    100058: joint8 1
+    100060: joint8 2
+    100062: joint8 3
+    100064: joint9
+    100066: joint9 1
+    100068: joint9 2
+    100070: joint9 3
+    100072: loftedSurface1
+    100074: nurbsToPoly1
+    100076: nurbsToPoly2
+    100078: nurbsToPoly3
+    100080: nurbsToPoly4
+    100082: pPlane2
+    100084: pPlane3
+    100086: pPlane4
+    100088: pPlane5
+    100090: pPlane6
+    100092: pPlane7
+    400000: curve1
+    400002: curve2
+    400004: curve3
+    400006: curve4
+    400008: curve5
+    400010: curve6
+    400012: //RootNode
+    400014: group1_pSphere2
+    400016: joint10
+    400018: joint10 1
+    400020: joint10 2
+    400022: joint10 3
+    400024: joint11
+    400026: joint11 1
+    400028: joint11 2
+    400030: joint11 3
+    400032: joint12
+    400034: joint12 1
+    400036: joint12 2
+    400038: joint12 3
+    400040: joint13
+    400042: joint13 1
+    400044: joint13 2
+    400046: joint13 3
+    400048: joint14
+    400050: joint15
+    400052: joint16
+    400054: joint7
+    400056: joint8
+    400058: joint8 1
+    400060: joint8 2
+    400062: joint8 3
+    400064: joint9
+    400066: joint9 1
+    400068: joint9 2
+    400070: joint9 3
+    400072: loftedSurface1
+    400074: nurbsToPoly1
+    400076: nurbsToPoly2
+    400078: nurbsToPoly3
+    400080: nurbsToPoly4
+    400082: pPlane2
+    400084: pPlane3
+    400086: pPlane4
+    400088: pPlane5
+    400090: pPlane6
+    400092: pPlane7
+    2300000: group1_pSphere2
+    2300002: pPlane2
+    2300004: pPlane3
+    2300006: pPlane4
+    2300008: pPlane5
+    2300010: pPlane6
+    2300012: pPlane7
+    3300000: group1_pSphere2
+    3300002: pPlane2
+    3300004: pPlane3
+    3300006: pPlane4
+    3300008: pPlane5
+    3300010: pPlane6
+    3300012: pPlane7
+    4300000: nurbsToPoly1
+    4300002: nurbsToPoly2
+    4300004: nurbsToPoly3
+    4300006: nurbsToPoly4
+    4300008: pPlane2
+    4300010: pPlane3
+    4300012: pPlane4
+    4300014: pPlane5
+    4300016: pPlane6
+    4300018: pPlane7
+    4300020: group1_pSphere2
+    7400000: FloripondioOpen
+    9500000: //RootNode
+    13700000: nurbsToPoly1
+    13700002: nurbsToPoly2
+    13700004: nurbsToPoly3
+    13700006: nurbsToPoly4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FloripondioOpen
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: curve1
+        weight: 1
+      - path: curve2
+        weight: 1
+      - path: curve3
+        weight: 1
+      - path: curve4
+        weight: 1
+      - path: curve5
+        weight: 1
+      - path: curve6
+        weight: 1
+      - path: group1_pSphere2
+        weight: 1
+      - path: joint7
+        weight: 1
+      - path: joint7/joint8 3
+        weight: 1
+      - path: joint7/joint8 3/joint9 3
+        weight: 1
+      - path: joint7/joint8 3/joint9 3/joint10 3
+        weight: 1
+      - path: joint7/joint8 3/joint9 3/joint10 3/joint11 3
+        weight: 1
+      - path: joint7/joint8 3/joint9 3/joint10 3/joint11 3/joint12 3
+        weight: 1
+      - path: joint7/joint8 3/joint9 3/joint10 3/joint11 3/joint12 3/joint13 3
+        weight: 1
+      - path: joint14
+        weight: 1
+      - path: joint14/joint8
+        weight: 1
+      - path: joint14/joint8/joint9
+        weight: 1
+      - path: joint14/joint8/joint9/joint10
+        weight: 1
+      - path: joint14/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint14/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint14/joint8/joint9/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint15
+        weight: 1
+      - path: joint15/joint8 1
+        weight: 1
+      - path: joint15/joint8 1/joint9 1
+        weight: 1
+      - path: joint15/joint8 1/joint9 1/joint10 1
+        weight: 1
+      - path: joint15/joint8 1/joint9 1/joint10 1/joint11 1
+        weight: 1
+      - path: joint15/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1
+        weight: 1
+      - path: joint15/joint8 1/joint9 1/joint10 1/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint16
+        weight: 1
+      - path: joint16/joint8 2
+        weight: 1
+      - path: joint16/joint8 2/joint9 2
+        weight: 1
+      - path: joint16/joint8 2/joint9 2/joint10 2
+        weight: 1
+      - path: joint16/joint8 2/joint9 2/joint10 2/joint11 2
+        weight: 1
+      - path: joint16/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2
+        weight: 1
+      - path: joint16/joint8 2/joint9 2/joint10 2/joint11 2/joint12 2/joint13 2
+        weight: 1
+      - path: loftedSurface1
+        weight: 1
+      - path: nurbsToPoly1
+        weight: 1
+      - path: nurbsToPoly2
+        weight: 1
+      - path: nurbsToPoly3
+        weight: 1
+      - path: nurbsToPoly4
+        weight: 1
+      - path: pPlane2
+        weight: 1
+      - path: pPlane3
+        weight: 1
+      - path: pPlane4
+        weight: 1
+      - path: pPlane5
+        weight: 1
+      - path: pPlane6
+        weight: 1
+      - path: pPlane7
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

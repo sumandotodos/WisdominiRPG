@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &181766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 475850}
+  - component: {fileID: 11490592}
+  m_Layer: 0
+  m_Name: "StringBank(Conversation_N5_5\xBAEspiritu_Guru_2)"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &475850
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181766}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11490592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: "Conv_N5_5\xBAEspiritu_Guru_2_"
+  randomYield: 0
+  phrase:
+  - "Valoramos a las personas sabias. Las personas cuya sabidur\xEDa les permite darse
+    cuenta de que no tiene ning\xFAn sentido creerse superior a los dem\xE1s por el
+    hecho de que las circunstancias actuales hayan dado lugar a que en el momento
+    presente resulte que ellos tengan mucho m\xE1s dinero que t\xFA"
+  - "o est\xE9n viviendo un momento de gran fama y reconocimiento, o est\xE9n ocupando
+    una posici\xF3n de responsabilidad, con el poder que ello conlleva"
+  - "Tambi\xE9n valoramos a las personas cuya sabidur\xEDa les permite no sentirse
+    superiores a los dem\xE1s por el hecho de haber nacido con una determinada habilidad
+    o con un talento destacado"
+  - "Desde luego valoramos a las personas que se esfuerzan, pero cuando ese esfuerzo
+    va dirigido en la direcci\xF3n correcta"
+  - "Esforzarse mucho para lograr un fin ego\xEDsta no tiene sentido ni para uno mismo
+    ni para los dem\xE1s, ya que nunca aportar\xE1 la felicidad esperada: ni a uno
+    mismo, ni a los dem\xE1s"
+  - "En cambio esforzarse en desarrollar nuestro interior, nuestro lado sabio, amable,
+    y bondadoso, s\xED que es algo con todo el sentido del mundo"
+  - " Conocerse a uno mismo es fundamental para poder sentirse en calma, en paz, y
+    a gusto con uno mismo. Y solo cuando uno mismo est\xE1 bien puede verdaderamente
+    aportar alegr\xEDa y felicidad a los que est\xE1n a su alrededor"
+  - "\xBFPor qu\xE9?\r"
+  - "Porque no se dejar\xE1 llevar por sus impulsos, sino que ser\xE1 capaces de controlarlos,
+    evitando as\xED da\xF1ar a otros"
+  - "Porque mirar\xE1 con afecto sincero a los dem\xE1s, y no les ver\xE1n como extra\xF1os
+    o competidores, sino como amigos e iguales: personas que como \xE9l, est\xE1n
+    tratando de ser felices y no sufrir"
+  - "Porque se sentir\xE1 libre, al haberse liberado de la necesidad de ganar, de
+    tener raz\xF3n, o de sentirse superior"
+  - "Al no necesitar sentirse mejor que nadie, no necesita aferrarse al dinero, a
+    la fama, al poder, al \xE9xito, o al reconocimiento externo buscando seguridad.
+    Y naturalmente no estar\xE1 en su horizonte da\xF1ar a nadie para lograr cualquiera
+    de estas cosas"
+  - "En cambio una cosa que no les abandonar\xE1 nunca una persona as\xED es la humildad,
+    pues recordar\xE1 bien que \xE9l ha podido alcanzar ese estado de calma y alegr\xEDa
+    gracias a lo que le ense\xF1aron sus maestros en el pasado"
+  - " Y es por ello que de manera natural surgir\xE1 en \xE9l la voluntad de ayudar
+    a otras personas a alcanzar el mismo estado que \xE9l ha alcanzado"
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 181766}
+  m_IsPrefabParent: 1

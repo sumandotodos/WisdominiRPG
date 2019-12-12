@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1253156725210162}
+  m_IsPrefabParent: 1
+--- !u!1 &1253156725210162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4837027072138808}
+  - component: {fileID: 114356812615503306}
+  m_Layer: 0
+  m_Name: StringBank(N2OjosRojosMaestrasTrabajo)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4837027072138808
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253156725210162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114356812615503306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253156725210162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: Trabajo
+  rosetta: {fileID: 0}
+  wisdom: Maestros
+  extra: N2OjosRojos
+  randomYield: 0
+  phrase:
+  - Disfruto hablando de mis virtudes, tratando de que no se note mucho
+  - "A veces no te valorar\xE9 como te mereces"
+  - Estoy encantado de haberme conocido
+  - "Disfruto al ver una cierta envidia en los dem\xE1s al verme"
+  - "Muchas veces s\xF3lo pensar\xE9 en m\xED"
+  - "Me encanta que la gente me alabe por ah\xED"
+  - "Siento que soy especial y los dem\xE1s no est\xE1n a mi altura"
+  correntAnswer: 

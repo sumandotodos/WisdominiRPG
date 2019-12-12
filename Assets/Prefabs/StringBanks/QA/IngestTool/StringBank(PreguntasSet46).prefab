@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1372511681656032}
+  m_IsPrefabParent: 1
+--- !u!1 &1372511681656032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4459044467287590}
+  - component: {fileID: 114836623225005342}
+  m_Layer: 0
+  m_Name: StringBank(PreguntasSet46)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4459044467287590
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1372511681656032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114836623225005342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1372511681656032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: PreguntasSet46
+  randomYield: 0
+  phrase:
+  - "\xBFLas micro-expresiones (expresiones involuntarias fruto de una emoci\xF3n)
+    pueden ser percibidas de manera consciente?"
+  - "\xBFCu\xE1l es la mejor manera de atajar la falta de atenci\xF3n de un ni\xF1o?"
+  - "\xBFQu\xE9 encontr\xF3 el psic\xF3logo Bruce Hood en un estudio realizado a c\xF3nyuges
+    de personas recientemente fallecidas?"
+  - "\xBFPor qu\xE9 durante la crisis han aumentado los negocios dedicados al cuidado
+    de la imagen?"
+  - "\xBFDecir frases positivas y amorosas a una gota de agua, puede hacer que a nivel
+    microscopio su estructura cambie formando una estructura bella y ordenada?"
+  correntAnswer: 0200000002000000020000000100000001000000

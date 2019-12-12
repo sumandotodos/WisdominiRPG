@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1383966986406846}
+  m_IsPrefabParent: 1
+--- !u!1 &1383966986406846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4687596521920808}
+  - component: {fileID: 114092291687543880}
+  - component: {fileID: 65543479576623058}
+  - component: {fileID: 135120846092769532}
+  m_Layer: 0
+  m_Name: N1_0_PuertaGris2Program
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4687596521920808
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383966986406846}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 64.54, y: -6.54, z: -208.49}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65543479576623058
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383966986406846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 1, z: 3}
+  m_Center: {x: 0, y: 0, z: -0.75}
+--- !u!114 &114092291687543880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383966986406846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a17f8e4e0194471bb45e937426a4abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - sendMessage
+      - Player
+      - hideIcon
+    - theList:
+      - if
+      - =
+      - openDoor
+      - explain
+      - Retrieve data
+      - Constant
+      - HasChispaExplainedDoors
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - explain
+    - theList:
+      - replaceProgram
+      - ExplicacionPuertaProgram
+      - onInteract
+      - False
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - openDoor
+    - theList:
+      - sendMessage
+      - greyDoorGeoCasa2
+      - switch
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - sendMessage
+      - Player
+      - showIcon
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - sendMessage
+      - Player
+      - hideIcon
+    - theList:
+      - if
+      - =
+      - openDoor
+      - explain
+      - Retrieve data
+      - Constant
+      - HasChispaExplainedDoors
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - explain
+    - theList:
+      - replaceProgram
+      - ExplicacionPuertaProgram
+      - onInteract
+      - False
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - openDoor
+    - theList:
+      - sendMessage
+      - greyDoorGeoCasa2
+      - switch
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - sendMessage
+      - Player
+      - showIcon
+  eventNamesInOrder:
+  - onInteract
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  spriteHolder: {fileID: 0}
+  namer: 
+  nEvents: 0
+  interactable: 0
+  pickable: 0
+  images:
+  - {fileID: 2800000, guid: 53f2ae917f1c0491cae9b29c35f619a6, type: 3}
+  rgb:
+    R: 0
+    G: 0
+    B: 0
+  ready:
+    R: 0
+    G: 0
+    B: 0
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 04000000
+  action:
+  - theList: 0a000000020000000f0000000d000000190000000e0000000d000000020000000d0000000b00000002000000
+  animationSpeed: 4
+  NextProgram:
+  - {fileID: 0}
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 8300000, guid: f3a815f331eea45f89777879e58a6751, type: 3}
+  music: []
+  interactIconName: Hand
+  FlameHeroClass: 0
+  FlameNumber: 0
+--- !u!135 &135120846092769532
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383966986406846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 3
+  m_Center: {x: 0, y: 0, z: 0}

@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1149634816678256}
+  m_IsPrefabParent: 1
+--- !u!1 &1149634816678256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4477725390109542}
+  - component: {fileID: 114873604986433936}
+  m_Layer: 0
+  m_Name: CasaNaranjaN7P2_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4477725390109542
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149634816678256}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114873604986433936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1149634816678256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFCrees que llorar\xEDan a la vez, que beber\xEDan al un\xEDsono, que masticar\xEDan
+        a la vez, que la primera palabra que dir\xEDan ser\xEDa la misma, pronunciada
+        en el mismo instante y sonando exactamente igual?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_0
+    - theList:
+      - say
+      - " \xBFCrees que pondr\xEDan la televisi\xF3n al mismo tiempo, que cambiar\xEDan
+        de canal a la vez, que les har\xEDan gracia las mismas cosas y reir\xEDan
+        con las mismas ganas, que al jugar a un videojuego tocar\xEDan los mismos
+        botones a la vez y llegar\xEDan hasta la misma pantalla? \xBFCrees que recordar\xEDan
+        las mismas cosas del pasado y al mismo tiempo? \xBFCrees que sus pensamientos
+        sobre el futuro ser\xEDan id\xE9nticos?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_1
+    - theList:
+      - say
+      - "Sin embargo si somos solo algo f\xEDsico eso ser\xEDa lo que tendr\xEDa que
+        ocurrir. No hay que olvidar que los 4 embriones son exactamente iguales, y
+        que absolutamente todo en el interior de las casas es tambi\xE9n id\xE9ntico.
+        La comida es fabricada por una impresora 3D alimentada de materia org\xE1nica,
+        incluso las mol\xE9culas del aire son inyectadas en cada casa por 4 tubos
+        que inyectan exactamente el mismo aire a cada casa."
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_2
+    - theList:
+      - say
+      - "En cuanto al aislamiento, est\xE1n recubiertas por un material que impide
+        el paso de cualquier clase de radiaci\xF3n. En definitiva: todo es f\xEDsicamente
+        igual dentro de esas 4 casas, por tanto si solo somos algo f\xEDsico, nada
+        de lo que suceda en el interior de las 4 casas deber\xEDa variar en lo m\xE1s
+        m\xEDnimo."
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_3
+    - theList:
+      - say
+      - "\xBFNo crees visitante?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_4
+    - theList:
+      - ask
+      - 3
+      - "En teor\xEDa s\xED."
+      - Tengo que reflexionar sobre ello.
+      - "Quiz\xE1 no seamos solo algo f\xEDsico y material."
+      - CasaNaranjaN7P2_7/6
+      - CasaNaranjaN7P2_7/6
+      - CasaNaranjaN7P2_7/6
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_5
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_6
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_7
+    - theList:
+      - say
+      - "Gracias por compartir conmigo tu parecer. Querr\xEDa pedirte un favor: \xBFPodr\xEDas
+        donar al proyecto tu material gen\xE9tico para que en el futuro podamos llevar
+        a cabo el experimento al otro lado del cristal?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_8
+    - theList:
+      - say
+      - "De esta manera si fuera verdad que somos solo algo f\xEDsico, tendr\xEDas
+        4 hijos id\xE9nticos."
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_9
+    - theList:
+      - ask
+      - 2
+      - "Me har\xEDa mucha ilusi\xF3n, pero ando escaso de genes hoy.."
+      - "En otra ocasi\xF3n."
+      - CasaNaranjaN7P2_7/9
+      - CasaNaranjaN7P2_7/9
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_10
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_11
+    - theList:
+      - say
+      - "No pasa nada, es tu decisi\xF3n. Si quieres saber c\xF3mo entrar en el volc\xE1n,
+        pregunta en la casa de buz\xF3n morado."
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_12
+    - theList:
+      - addToInventory
+      - 
+    - theList:
+      - clearDialogue
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenNaranja
+      - true
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFCrees que llorar\xEDan a la vez, que beber\xEDan al un\xEDsono, que masticar\xEDan
+        a la vez, que la primera palabra que dir\xEDan ser\xEDa la misma, pronunciada
+        en el mismo instante y sonando exactamente igual?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_0
+    - theList:
+      - say
+      - " \xBFCrees que pondr\xEDan la televisi\xF3n al mismo tiempo, que cambiar\xEDan
+        de canal a la vez, que les har\xEDan gracia las mismas cosas y reir\xEDan
+        con las mismas ganas, que al jugar a un videojuego tocar\xEDan los mismos
+        botones a la vez y llegar\xEDan hasta la misma pantalla? \xBFCrees que recordar\xEDan
+        las mismas cosas del pasado y al mismo tiempo? \xBFCrees que sus pensamientos
+        sobre el futuro ser\xEDan id\xE9nticos?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_1
+    - theList:
+      - say
+      - "Sin embargo si somos solo algo f\xEDsico eso ser\xEDa lo que tendr\xEDa que
+        ocurrir. No hay que olvidar que los 4 embriones son exactamente iguales, y
+        que absolutamente todo en el interior de las casas es tambi\xE9n id\xE9ntico.
+        La comida es fabricada por una impresora 3D alimentada de materia org\xE1nica,
+        incluso las mol\xE9culas del aire son inyectadas en cada casa por 4 tubos
+        que inyectan exactamente el mismo aire a cada casa."
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_2
+    - theList:
+      - say
+      - "En cuanto al aislamiento, est\xE1n recubiertas por un material que impide
+        el paso de cualquier clase de radiaci\xF3n. En definitiva: todo es f\xEDsicamente
+        igual dentro de esas 4 casas, por tanto si solo somos algo f\xEDsico, nada
+        de lo que suceda en el interior de las 4 casas deber\xEDa variar en lo m\xE1s
+        m\xEDnimo."
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_3
+    - theList:
+      - say
+      - "\xBFNo crees visitante?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_4
+    - theList:
+      - ask
+      - 3
+      - "En teor\xEDa s\xED."
+      - Tengo que reflexionar sobre ello.
+      - "Quiz\xE1 no seamos solo algo f\xEDsico y material."
+      - CasaNaranjaN7P2_7/6
+      - CasaNaranjaN7P2_7/6
+      - CasaNaranjaN7P2_7/6
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_5
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_6
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_7
+    - theList:
+      - say
+      - "Gracias por compartir conmigo tu parecer. Querr\xEDa pedirte un favor: \xBFPodr\xEDas
+        donar al proyecto tu material gen\xE9tico para que en el futuro podamos llevar
+        a cabo el experimento al otro lado del cristal?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_8
+    - theList:
+      - say
+      - "De esta manera si fuera verdad que somos solo algo f\xEDsico, tendr\xEDas
+        4 hijos id\xE9nticos."
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_9
+    - theList:
+      - ask
+      - 2
+      - "Me har\xEDa mucha ilusi\xF3n, pero ando escaso de genes hoy.."
+      - "En otra ocasi\xF3n."
+      - CasaNaranjaN7P2_7/9
+      - CasaNaranjaN7P2_7/9
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_10
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_11
+    - theList:
+      - say
+      - "No pasa nada, es tu decisi\xF3n. Si quieres saber c\xF3mo entrar en el volc\xE1n,
+        pregunta en la casa de buz\xF3n morado."
+      - wait
+      - NPC1
+      - Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_12
+    - theList:
+      - addToInventory
+      - 
+    - theList:
+      - clearDialogue
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenNaranja
+      - true
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000c0000000b0000000b0000000c0000000b000000000000000f00000018000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 2060
+  windowY: 13

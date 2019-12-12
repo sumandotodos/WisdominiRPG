@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1844429473738910}
+  m_IsPrefabParent: 1
+--- !u!1 &1844429473738910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4210447069250556}
+  - component: {fileID: 114976680916497440}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_ViejoBunker_QueDirigioLaEvolucion_1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4210447069250556
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1844429473738910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114976680916497440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1844429473738910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_ViejoBunker_QueDirigioLaEvolucion_1_
+  randomYield: 0
+  phrase:
+  - "\xBFEntonces t\xFA no crees que las mutaciones sean fruto del azar?"
+  - "Observar la evoluci\xF3n humana te da la respuesta. Por ejemplo: cuando el ser
+    humano descubri\xF3 el fuego y empez\xF3 a cocinar dej\xF3 de necesitar tanto
+    tiempo y energ\xEDa para digerir la comida, ya que un alimento cocinado se digiere
+    mucho m\xE1s f\xE1cilmente que uno crudo"
+  - "Lo que hizo que el cuerpo cambiara: los genes cambiaron y se dej\xF3 de aportar
+    tanta energ\xEDa al aparato digestivo y se empez\xF3 a aportar m\xE1s al cerebro.
+    Gracias a esto se crearon nuevas conexiones neuronales y nos volvimos m\xE1s inteligentes"
+  - "Fue un cambio evolutivo que no sucedi\xF3 movido por el azar, sino por la inteligencia"
+  - "Y como esto cualquier otra cosa. Los tibetanos por ejemplo tienen una modificaci\xF3n
+    gen\xE9tica que les permite vivir con menos ox\xEDgeno. Esta mutaci\xF3n se produjo
+    cuando sus primeros habitantes se establecieron en monta\xF1as situadas a miles
+    de metros de altura donde hay menos ox\xEDgeno"
+  - "Los primeros ping\xFCinos que llegaron a las islas gal\xE1pagos mediante corrientes
+    submarinas se aclimataron a ese clima mucho m\xE1s caluroso haci\xE9ndose m\xE1s
+    peque\xF1os para poder refrigerar mejor su cuerpo"
+  - "Y tambi\xE9n en las Gal\xE1pagos hay 15 especies de tortugas diferentes adaptadas
+    al modo de vida que llevan en cada isla"
+  - "Unas no pueden levantar el cuello porque tienen la comida a ras de suelo. Otras
+    tienen el cuello m\xE1s largo porque comen hojas de plantas que se elevan un poco
+    del suelo. Otras tienen m\xE1s facilidad para nadar, etc..."
+  correntAnswer: 

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1081084193432950}
+  m_IsPrefabParent: 1
+--- !u!1 &1081084193432950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4865438634042770}
+  - component: {fileID: 114194243868596220}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N2_0_MagoAzul_Base_5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4865438634042770
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081084193432950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114194243868596220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1081084193432950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N2_0_MagoAzul_Base_5_
+  randomYield: 0
+  phrase:
+  - "Coge cualquier ecuaci\xF3n. La ley de la gravitaci\xF3n universal. La ley de
+    la relatividad, cualquiera. O cualquier constante f\xEDsica: la gravedad, la velocidad
+    de la luz, la que sea..."
+  - "Esas leyes o esas constantes f\xEDsicas son reglas que describen el funcionamiento
+    del universo."
+  - "Pero no pueden ser distintas de c\xF3mo son."
+  - "Si fueran ligeramente distintas, aunque fuera una variaci\xF3n m\xEDnima, entonces
+    dejar\xEDan de mantener su coherencia con el resto del universo.\r"
+  - "Y eso significar\xEDa el caos.\r"
+  - "El azar no puede ser la causa de que las leyes y las constantes f\xEDsicas sean
+    exactamente las que son."
+  - "Porque la f\xF3rmula matem\xE1tica de la probabilidad es esta:"
+  - Probabilidad = casos favorables / casos posibles
+  - "Los casos favorables que dar\xEDan lugar a un universo ordenado son finitos.
+    Mientras que los casos posibles son infinitos. Hay infinitas posibilidades que
+    dar\xEDan lugar a un universo ca\xF3tico."
+  - "Por tanto si todas las posibilidades son igual de probables debido a que el azar
+    es la \xFAnica ley de movimiento de la existencia, entonces el resultado matem\xE1tico
+    de esa probabilidad es cero."
+  - "Es decir que la probabilidad de que el universo se haya formado por azar es cero.\r"
+  - "Pero no es solo eso. Imagina que contraviniendo las leyes de la l\xF3gica, llegara
+    a formarse."
+  - "Si el azar es lo que rige toda la existencia, no habr\xEDa ninguna raz\xF3n por
+    la que esas leyes f\xEDsicas debieran mantenerse en el tiempo."
+  - "Esas leyes se habr\xEDan formado por azar, e igualmente por azar podr\xEDan desaparecer
+    en cualquier momento."
+  - "En el segundo siguiente el universo podr\xEDa convertirse en un absoluto caos"
+  - "La ley de la gravedad podr\xEDa volverse negativa; las fuerzas at\xF3micas podr\xEDan
+    cambiar de valor haciendo que nuestros cuerpos dejaran de estar ordenados y unidos,
+    en definitiva: el caos."
+  - "La existencia y la vida ya\r no ser\xEDan posibles.\r"
+  - Bueno, ya va siendo hora de que te hable de la magia que conozco. Aunque en parte
+    ya lo estoy haciendo.
+  - "Pero antes debo\r preguntarte algo.\r"
+  - "\xBFQu\xE9 es para ti el azar?\r"
+  - Azar es aleatoriedad
+  - "Azar es que las cosas suceden porque s\xED, sin que haya una raz\xF3n para ello"
+  - Azar es caos. Ausencia de sentido. Ausencia de inteligencia, de mente.
+  correntAnswer: 

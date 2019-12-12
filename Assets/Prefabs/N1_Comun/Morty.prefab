@@ -1,0 +1,448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &114268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 488762}
+  - component: {fileID: 11408764}
+  - component: {fileID: 6554160}
+  - component: {fileID: 5446514}
+  - component: {fileID: 13523098}
+  m_Layer: 0
+  m_Name: Morty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &146470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 480538}
+  - component: {fileID: 3351484}
+  - component: {fileID: 6470938}
+  - component: {fileID: 2364598}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &480538
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.7263535, y: 2.6337376, z: 1.4389306}
+  m_Children: []
+  m_Father: {fileID: 488762}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &488762
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.689556, y: 1.55, z: 92.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 480538}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2364598
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146470}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3351484
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146470}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &5446514
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114268}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!64 &6470938
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &6554160
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7413396, y: 2.5058088, z: 1.0973797}
+  m_Center: {x: -0.024810791, y: -0.08400977, z: -0.048689842}
+--- !u!114 &11408764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: 0
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - "Hola, soy Morty. \xBFQu\xE9 es lo que m\xE1s te gusta?"
+      - wait
+      - NPC1
+      - Morty0_0
+    - theList:
+      - say
+      - Ahora te lo digo...
+      - don't wait
+      - Player
+      - Morty0_1
+    - theList:
+      - ask
+      - 5
+      - La cerveza
+      - Los gorilas
+      - Dormir
+      - Los delfines
+      - Los videojuegos
+      - Comun
+      - Comun
+      - Comun
+      - Comun
+      - ShowGate
+      - Morty0_2
+      - Morty0_3
+      - Morty0_4
+      - Morty0_5
+      - Morty0_6
+    - theList:
+      - makeLabel
+      - Comun
+    - theList:
+      - say
+      - "A m\xED tambien..."
+      - wait
+      - NPC1
+      - Morty0_7
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - ShowGate
+    - theList:
+      - sendMessage
+      - Main Camera
+      - moveToMarker
+      - 0
+    - theList:
+      - delay
+      - 5
+    - theList:
+      - sendMessage
+      - Main Camera
+      - moveToOriginalPosition
+    - theList:
+      - delay
+      - 5
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - saveGame
+  programs:
+  - theList:
+    - theList:
+      - recordConversation
+      - Morty and Rick
+      - Morty0_0
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - "Hola, soy Morty. \xBFQu\xE9 es lo que m\xE1s te gusta?"
+      - wait
+      - NPC1
+      - Morty0_1
+    - theList:
+      - say
+      - Ahora te lo digo...
+      - don't wait
+      - Player
+      - Morty0_2
+    - theList:
+      - ask
+      - 5
+      - La cerveza
+      - Los gorilas
+      - Dormir
+      - Los delfines
+      - Los videojuegos
+      - Comun
+      - Comun
+      - Comun
+      - Comun
+      - ShowGate
+      - Morty0_3
+      - Morty0_4
+      - Morty0_5
+      - Morty0_6
+      - Morty0_7
+    - theList:
+      - makeLabel
+      - Comun
+    - theList:
+      - say
+      - "A m\xED tambien..."
+      - wait
+      - NPC1
+      - Morty0_8
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - ShowGate
+    - theList:
+      - sendMessage
+      - Main Camera
+      - moveToMarker
+      - 0
+    - theList:
+      - delay
+      - 5
+    - theList:
+      - sendMessage
+      - Main Camera
+      - moveToOriginalPosition
+    - theList:
+      - delay
+      - 5
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - onSpeak
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffff01000000ffffffffffffffffffffffffffffffff02000000ffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  cameraPivot: {fileID: 0}
+  spriteHolder: {fileID: 146470}
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: c5724e3221b1e4b208d2cfde29ea774d, type: 3}
+  IdleAnimationSpeed: 1
+  WalkingFront:
+  - {fileID: 2800000, guid: c5724e3221b1e4b208d2cfde29ea774d, type: 3}
+  - {fileID: 2800000, guid: 904d5b6006d344b05b66334e72e6060d, type: 3}
+  - {fileID: 2800000, guid: 2695205af19e04fe8be83995257e3ca9, type: 3}
+  - {fileID: 2800000, guid: 3c006404b4a684f6a8c352e9707d5e71, type: 3}
+  - {fileID: 2800000, guid: 045c3a661667e4bf7a8ff59ad7e7944f, type: 3}
+  - {fileID: 2800000, guid: e2afaf8e8ae3849e5b0ec80b2bac2d8e, type: 3}
+  - {fileID: 2800000, guid: 16af21497f4a54e95be25dd11506f4fa, type: 3}
+  - {fileID: 2800000, guid: fa8aca80d0e8341c0b6dbadeb3408d89, type: 3}
+  - {fileID: 2800000, guid: 3c9702927f9204ce1b9eb0c47d687538, type: 3}
+  WalkingFrontLeft: []
+  WalkingLeft:
+  - {fileID: 2800000, guid: 97136f7cb46144a17b4089820d8bafea, type: 3}
+  - {fileID: 2800000, guid: 0a20c5c10ed334aba986ec0545d11b8a, type: 3}
+  - {fileID: 2800000, guid: a29ecbba87ca04319b2411317205b801, type: 3}
+  - {fileID: 2800000, guid: 29035fb94ef084edb8612cd68e2d565e, type: 3}
+  - {fileID: 2800000, guid: 0c81ace0072f64e6a91326ad45ce1f57, type: 3}
+  - {fileID: 2800000, guid: 41fd3f0e26ac04a628614209b99073db, type: 3}
+  - {fileID: 2800000, guid: f42f262f303e1468d85813a05fa3aa50, type: 3}
+  - {fileID: 2800000, guid: 690ba0d599c2d4331b9b5c49b09ec917, type: 3}
+  - {fileID: 2800000, guid: f6cf34fefcc514fcd9288e97da9c4f00, type: 3}
+  WalkingLeftBack: []
+  WalkingBack:
+  - {fileID: 2800000, guid: b9e79176a77bd4dd79be9b53815a08a7, type: 3}
+  - {fileID: 2800000, guid: 5c0781f1772af434cab135713fd82ed8, type: 3}
+  - {fileID: 2800000, guid: 318e1d0dd1a294cc38b63aa03cef43df, type: 3}
+  - {fileID: 2800000, guid: aedc43b2ecf5a4c6b9706e45509b738d, type: 3}
+  - {fileID: 2800000, guid: 6a993bae58dea47c4ac1d89df8b3ecdf, type: 3}
+  - {fileID: 2800000, guid: 10c184fb62004448684adbe4c290b4ab, type: 3}
+  - {fileID: 2800000, guid: 20ed6d5134e824aa0a7e087802a4a5f5, type: 3}
+  - {fileID: 2800000, guid: b0a91c04ddeec44ab99692d8d68dd673, type: 3}
+  - {fileID: 2800000, guid: 78e101c752ee349b0a86867de13e7acf, type: 3}
+  WalkingBackRight: []
+  WalkingRight:
+  - {fileID: 2800000, guid: 6e935cb088a3c4a2e81b349ccd62d7be, type: 3}
+  - {fileID: 2800000, guid: 78b6e2fad05e544b5a12bac7dc95fd50, type: 3}
+  - {fileID: 2800000, guid: 3b9d0d8b3b4134c2abe5d0c9d1e791cf, type: 3}
+  - {fileID: 2800000, guid: 10cd61b3e65e448a69fafdc8789e424a, type: 3}
+  - {fileID: 2800000, guid: a028128dd085148a8a80af100fde05a8, type: 3}
+  - {fileID: 2800000, guid: f1467e5b22b1d4e2f8fe8d271ced6249, type: 3}
+  - {fileID: 2800000, guid: 9797335768ae04277b7150bec50ee85d, type: 3}
+  - {fileID: 2800000, guid: b5b75de8c362d4c918f053d9a26e1870, type: 3}
+  - {fileID: 2800000, guid: 8c7ff347b0d874e6194cc4a1503da81d, type: 3}
+  WalkingRightFront: []
+  NextProgram:
+  - {fileID: 0}
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 2800000, guid: 4a61c6eb4d7a94de8a023b016a920662, type: 3}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 01000000
+  action:
+  - theList: 1b000000100000000b0000000b0000000c000000130000000b000000140000001300000002000000040000000200000004000000130000000f00000011000000
+  animationSpeed: 10
+  walkingSpeed: 6
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 0}
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: 
+  followDistance: 4
+--- !u!135 &13523098
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 114268}
+  m_IsPrefabParent: 1

@@ -1,0 +1,227 @@
+#! /Applications/Nuke9.0v5/Nuke9.0v5.app/Contents/MacOS//libnuke-9.0.5.dylib -nx
+#write_info Write1 file:"/Users/flandre/Desktop/FLAMAGORDA/flam.%03d.png" format:"184 256 1" chans:":rgba.red:rgba.green:rgba.blue:rgba.alpha:" framerange:"1 41" fps:"24" colorspace:"default (sRGB)" datatype:"8 bit" transfer:"unknown" views:"main" timecode:"00:00:00:00"
+version 9.0 v5
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="0" y="23" w="1280" h="732" screen="0">
+        <splitter orientation="1">
+            <split size="40"/>
+            <dock id="" hideTitles="1" activePageId="Toolbar.1">
+                <page id="Toolbar.1"/>
+            </dock>
+            <split size="617" stretch="1"/>
+            <splitter orientation="2">
+                <split size="415"/>
+                <dock id="" activePageId="Viewer.1" focus="true">
+                    <page id="Viewer.1"/>
+                </dock>
+                <split size="291"/>
+                <dock id="" activePageId="DAG.1">
+                    <page id="DAG.1"/>
+                    <page id="Curve Editor.1"/>
+                    <page id="DopeSheet.1"/>
+                </dock>
+            </splitter>
+            <split size="615"/>
+            <dock id="" activePageId="Properties.1">
+                <page id="Properties.1"/>
+            </dock>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name "/Users/flandre/Unity Projects/Wisdomini/scriptFlama.nk"
+ frame 13
+ last_frame 41
+ lock_range true
+ format "184 256 0 0 184 256 1 sprite"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+}
+Roto {
+ inputs 0
+ format "184 256 0 0 184 256 1 sprite"
+ curves {{{v x3f99999a}
+  {f 0}
+  {n
+   {layer Root
+    {f 2097152}
+    {t x44800000 x44428000}
+    {a pt1x 0 pt1y 0 pt2x 0 pt2y 0 pt3x 0 pt3y 0 pt4x 0 pt4y 0 ptex00 0 ptex01 0 ptex02 0 ptex03 0 ptex10 0 ptex11 0 ptex12 0 ptex13 0 ptex20 0 ptex21 0 ptex22 0 ptex23 0 ptex30 0 ptex31 0 ptex32 0 ptex33 0 ptof1x 0 ptof1y 0 ptof2x 0 ptof2y 0 ptof3x 0 ptof3y 0 ptof4x 0 ptof4y 0 pterr 0 ptrefset 0 ptmot x40800000 ptref 0}
+    {curvegroup Bezier1 512 bezier
+     {{cc
+       {f 8192}
+       {px x41d00000
+        {{{0 -}}
+      {{0 -}}}
+        {{{xc202ccb7 xbf5996e0 1 0 1}}
+      {{x43783333 x40a33330 1 0 1}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{x43504cd2 xbf599700 1 0 1}}
+      {{x437b3333 x40a33330 1 0 1}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{x43770000 -}}
+      {{xc2e40000 -}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{1 -}}
+      {{0 -}}}
+        {{{xc2820000 -}}
+      {{xc2da0000 -}}}
+        {{{xbf800000 -}}
+      {{0 -}}}}}
+      {cc
+       {f 8192}
+       {px x41d00000
+        {{{0 -}}
+      {{0 -}}}
+        {{{xc0a33330 x3f5999c0 1 0 1}}
+      {{xc2379994 x41880004 1 0 1}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{xc0a33340 -}}
+      {{xc2453330 x4174ccd0 1 0 1}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{1 -}}
+      {{0 -}}}
+        {{{0 -}}
+      {{0 -}}}
+        {{{xbf800000 -}}
+      {{0 -}}}}}}
+     {tx x41c00000 x42b48000 x42800000}
+     {a osw x41200000 osf 0 str 1 spx x44800000 spy x44428000 sb 1 ltn x41c00000 ltm x41c00000 tt x40800000}}}}}}
+ toolbox {selectAll {
+  { selectAll str 1 ssx 1 ssy 1 sf 1 }
+  { createBezier str 1 ssx 1 ssy 1 sf 1 sb 1 tt 4 }
+  { createBezierCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createBSpline str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createEllipse str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangle str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { createRectangleCusped str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { brush str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { eraser src 2 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { clone src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { reveal src 3 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { dodge src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { burn src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { blur src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { sharpen src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+  { smear src 1 str 1 ssx 1 ssy 1 sf 1 sb 1 }
+} }
+ toolbar_brush_hardness 0.200000003
+ toolbar_source_transform_scale {1 1}
+ toolbar_source_transform_center {1024 778}
+ colorOverlay {0 0 0 0}
+ lifetime_type "all frames"
+ lifetime_start 24
+ lifetime_end 24
+ motionblur_shutter_offset_type centred
+ source_black_outside true
+ name Roto1
+ xpos 79
+ ypos 89
+}
+Read {
+ inputs 0
+ file /Users/flandre/Desktop/temporal.mov
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ last 41
+ origlast 41
+ origset true
+ mov32_codec {{0} "Apple ProRes 422 HQ (appl - apch)"}
+ mov32_pixel_format {{0} "default (YCbCr  10-bit 422 (v210))" "RGBA  8-bit" "RGBA  16-bit (b64a)" "YCbCrA 8-bit 444 (v408)" "YCbCrA 8-bit 444 Biased (r408)" "YCbCr  8-bit 422 (2vuy)" "YCbCrA 32-bit 444 Float (r4fl)" "YCbCr  16-bit 444 (y416)" "YCbCr  10-bit 422 (v210)" "YCbCr  16-bit 422 (v216)"}
+ name Read1
+ xpos -19
+ ypos -124
+}
+set N8ac6e5a0 [stack 0]
+FrameHold {
+ first_frame 33
+ name FrameHold2
+ xpos 111
+ ypos -60
+}
+push $N8ac6e5a0
+FrameHold {
+ name FrameHold1
+ xpos 151
+ ypos -100
+}
+Merge2 {
+ inputs 2
+ operation screen
+ mix 0.355
+ name Scrn
+ xpos 201
+ ypos -15
+}
+push $N8ac6e5a0
+Merge2 {
+ inputs 2
+ mix {{curve x32 0 1}}
+ name Merge1
+ xpos 47
+ ypos -3
+}
+Crop {
+ box {525 0 1305 1090}
+ name Crop1
+ xpos -26
+ ypos 45
+}
+Reformat {
+ format "184 256 0 0 184 256 1 sprite"
+ resize height
+ name Reformat1
+ xpos -68
+ ypos 89
+}
+Merge2 {
+ inputs 2
+ operation multiply
+ name Multiply
+ xpos -31
+ ypos 140
+}
+Shuffle {
+ alpha red
+ name Shuffle1
+ xpos -31
+ ypos 184
+}
+Write {
+ channels rgba
+ file /Users/flandre/Desktop/FLAMAGORDA/flam.###.png
+ file_type png
+ checkHashOnRead false
+ version 1
+ name Write1
+ xpos -31
+ ypos 234
+}
+Viewer {
+ frame 13
+ frame_range 2-33
+ frame_range_lock true
+ name Viewer1
+ selected true
+ xpos -110
+ ypos 310
+}

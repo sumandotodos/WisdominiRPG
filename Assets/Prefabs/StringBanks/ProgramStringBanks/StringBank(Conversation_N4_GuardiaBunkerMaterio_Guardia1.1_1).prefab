@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1035034026254324}
+  m_IsPrefabParent: 1
+--- !u!1 &1035034026254324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4382087224208630}
+  - component: {fileID: 114090007569004738}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_GuardiaBunkerMaterio_Guardia1.1_1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4382087224208630
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035034026254324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114090007569004738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1035034026254324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_GuardiaBunkerMaterio_Guardia1.1_1_
+  randomYield: 0
+  phrase:
+  - "Os pondr\xE9 un ejemplo. El d\xEDa que le pusieron delante un piano a Mozart
+    empez\xF3 a tocarlo como si llevara toda la vida haci\xE9ndolo. De hecho siendo
+    un ni\xF1o tocaba mucho mejor que la mayor\xEDa de la gente adulta que lleva a\xF1os
+    practicando."
+  - "\xBFPod\xEDa eso estar grabado en sus genes? \xBFEn la disposici\xF3n de unos
+    \xE1tomos en el espacio, en las uniones de unos \xE1tomos con otros?"
+  - "\xBFPuede estar grabada la intuici\xF3n que lleva a un m\xFAsico a saber qu\xE9
+    notas van a sonar de manera armoniosa y mel\xF3dica, causando una emoci\xF3n en
+    la mente, y cu\xE1les no? \xBFPuede depender de una cadena de \xE1tomos formando
+    una estructura molecular el hecho de que pieza musical nos cause alegr\xEDa o
+    tristeza?"
+  correntAnswer: 

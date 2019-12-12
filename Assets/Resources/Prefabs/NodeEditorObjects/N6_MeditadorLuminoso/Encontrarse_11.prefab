@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &177090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 489282}
+  - component: {fileID: 11482686}
+  m_Layer: 0
+  m_Name: Encontrarse_11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &489282
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11482686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "De acuerdo, entonces \xBFqui\xE9n soy yo?\r"
+      - wait
+      - Player
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_0
+    - theList:
+      - say
+      - "No es qui\xE9n, es qu\xE9"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_1
+    - theList:
+      - say
+      - "T\xFA eres lo que vives en el momento presente, que es el \xFAnico que existe.
+        El pasado ya no existe ya, y el futuro no existe todav\xEDa"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_2
+    - theList:
+      - say
+      - "Eres las sensaciones que sientes: placer, dolor, sonidos, im\xE1genes, olores...\r"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_3
+    - theList:
+      - say
+      - "Eres las emociones que sientes: tristeza, alegr\xEDa, enfado, amor "
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_4
+    - theList:
+      - say
+      - "Eres los miles de pensamientos que pasan por tu cabeza a lo largo del d\xEDa"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_5
+    - theList:
+      - say
+      - "Eres la experiencia de paz y conexi\xF3n con el mundo que surge de la meditaci\xF3n,
+        si es que la practicas"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_6
+    - theList:
+      - say
+      - "En definitiva, eres sensaciones, emociones, pensamientos, y meditaci\xF3n.
+        Eres las experiencias que vives en tu vida. Eso eres t\xFA. Y como esas experiencias
+        son temporales, lo que llamas  yo  tambi\xE9n es algo temporal"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_7
+    - theList:
+      - say
+      - "La creencia en el  yo  no es m\xE1s que otro pensamiento m\xE1s, otro concepto
+        de tantos que surgen de tu mente. Es el pensamiento por el que crees que t\xFA
+        eres solo el cuerpo f\xEDsico con el que interact\xFAas con el mundo exterior.
+        La \xFAnica diferencia entre este pensamiento y otros, es que \xE9ste lo llevas
+        tomando como real durante mucho tiempo"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_8
+    - theList:
+      - say
+      - "Pi\xE9nsalo: es la mente la que experimenta, la que percibe, de la que surgen
+        tus pensamientos. Y la mente no es algo que puedas ver o tocar, no es algo
+        f\xEDsico. Es simplemente mente"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_9
+    - theList:
+      - say
+      - "La mente es como la espada que no puede cortarse a s\xED misma, o como el
+        ojo que no puede verse a s\xED mismo. La mente simplemente es"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_10
+    - theList:
+      - say
+      - "Y la mente, la mente absoluta, es no nacida. No tiene un origen porque est\xE1
+        m\xE1s all\xE1 del tiempo. En cambio la mente individual s\xED tiene un origen:
+        todos hemos surgido en alg\xFAn momento de esa mente absoluta: del todo, del
+        amor infinito, del esp\xEDritu universal "
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_11
+    - theList:
+      - say
+      - "no importa el nombre, y a partir de ese momento unos y otros comenzamos a
+        experimentar sensaciones, emociones y pensamientos diferentes. Empezamos a
+        crear conceptos y a creer en ellos. En el momento en que una conciencia individual
+        se separa de la mente absoluta, empieza la separaci\xF3n y la dualidad. Pero
+        la esencia \xFAltima de cada uno de nosotros seguir\xE1 siendo mente"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_12
+    - theList:
+      - say
+      - "Esa separaci\xF3n ocurri\xF3 hace mucho, mucho tiempo. M\xE1s tiempo del
+        que puedes llegar a imaginar. Porque si te digo que la separaci\xF3n tuvo
+        lugar hace trillones de a\xF1os, te parecer\xE1 un tiempo muy largo, pero
+        no te har\xE1s una verdadera idea de su magnitud. No estar\xE1s imaginando
+        ni sintiendo lo que significa  trillones de a\xF1os   Y sin embargo todo ese
+        tiempo es el que llevamos creyendo en la existencia real de un  yo "
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_13
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "De acuerdo, entonces \xBFqui\xE9n soy yo?\r"
+      - wait
+      - Player
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_0
+    - theList:
+      - say
+      - "No es qui\xE9n, es qu\xE9"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_1
+    - theList:
+      - say
+      - "T\xFA eres lo que vives en el momento presente, que es el \xFAnico que existe.
+        El pasado ya no existe ya, y el futuro no existe todav\xEDa"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_2
+    - theList:
+      - say
+      - "Eres las sensaciones que sientes: placer, dolor, sonidos, im\xE1genes, olores...\r"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_3
+    - theList:
+      - say
+      - "Eres las emociones que sientes: tristeza, alegr\xEDa, enfado, amor "
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_4
+    - theList:
+      - say
+      - "Eres los miles de pensamientos que pasan por tu cabeza a lo largo del d\xEDa"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_5
+    - theList:
+      - say
+      - "Eres la experiencia de paz y conexi\xF3n con el mundo que surge de la meditaci\xF3n,
+        si es que la practicas"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_6
+    - theList:
+      - say
+      - "En definitiva, eres sensaciones, emociones, pensamientos, y meditaci\xF3n.
+        Eres las experiencias que vives en tu vida. Eso eres t\xFA. Y como esas experiencias
+        son temporales, lo que llamas  yo  tambi\xE9n es algo temporal"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_7
+    - theList:
+      - say
+      - "La creencia en el  yo  no es m\xE1s que otro pensamiento m\xE1s, otro concepto
+        de tantos que surgen de tu mente. Es el pensamiento por el que crees que t\xFA
+        eres solo el cuerpo f\xEDsico con el que interact\xFAas con el mundo exterior.
+        La \xFAnica diferencia entre este pensamiento y otros, es que \xE9ste lo llevas
+        tomando como real durante mucho tiempo"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_8
+    - theList:
+      - say
+      - "Pi\xE9nsalo: es la mente la que experimenta, la que percibe, de la que surgen
+        tus pensamientos. Y la mente no es algo que puedas ver o tocar, no es algo
+        f\xEDsico. Es simplemente mente"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_9
+    - theList:
+      - say
+      - "La mente es como la espada que no puede cortarse a s\xED misma, o como el
+        ojo que no puede verse a s\xED mismo. La mente simplemente es"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_10
+    - theList:
+      - say
+      - "Y la mente, la mente absoluta, es no nacida. No tiene un origen porque est\xE1
+        m\xE1s all\xE1 del tiempo. En cambio la mente individual s\xED tiene un origen:
+        todos hemos surgido en alg\xFAn momento de esa mente absoluta: del todo, del
+        amor infinito, del esp\xEDritu universal "
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_11
+    - theList:
+      - say
+      - "no importa el nombre, y a partir de ese momento unos y otros comenzamos a
+        experimentar sensaciones, emociones y pensamientos diferentes. Empezamos a
+        crear conceptos y a creer en ellos. En el momento en que una conciencia individual
+        se separa de la mente absoluta, empieza la separaci\xF3n y la dualidad. Pero
+        la esencia \xFAltima de cada uno de nosotros seguir\xE1 siendo mente"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_12
+    - theList:
+      - say
+      - "Esa separaci\xF3n ocurri\xF3 hace mucho, mucho tiempo. M\xE1s tiempo del
+        que puedes llegar a imaginar. Porque si te digo que la separaci\xF3n tuvo
+        lugar hace trillones de a\xF1os, te parecer\xE1 un tiempo muy largo, pero
+        no te har\xE1s una verdadera idea de su magnitud. No estar\xE1s imaginando
+        ni sintiendo lo que significa  trillones de a\xF1os   Y sin embargo todo ese
+        tiempo es el que llevamos creyendo en la existencia real de un  yo "
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_11_13
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000110000000f000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 4377
+  windowY: 3550
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 177090}
+  m_IsPrefabParent: 1

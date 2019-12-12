@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &116938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 415276}
+  - component: {fileID: 11464582}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Guru_Super4_12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &415276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11464582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Guru_Super4_12_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "Tienes raz\xF3n. La felicidad para nosotros ahora son momentos. Pero eso es porque
+    todav\xEDa no hemos aprendido a vivir en un estado de fluir continuo, en donde
+    la calma y la armon\xEDa sean lo habitual, y no lo excepcional."
+  - "Todav\xEDa estamos sometidos a las emociones negativas que surgen cuando las
+    cosas a nuestro alrededor no son como a nuestro ego le gustar\xEDa."
+  - "Dime una cosa. \xBFCu\xE1ntos momentos a lo largo del d\xEDa dir\xEDas que son
+    momentos felices para ti?"
+  - Todos o casi todos.
+  - "Cuando llego a casa y puedo descansar por fin un poco. O alg\xFAn rato que quedo
+    con alguien y al fin puedo desconectar."
+  - Muy pocos.
+  correntAnswer: 

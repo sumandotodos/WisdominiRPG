@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011448538378}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011448538378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013678877668}
+  - component: {fileID: 114000010824209624}
+  m_Layer: 0
+  m_Name: YoReplico_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013678877668
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011448538378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010824209624
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011448538378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Yo creo que no, y la noticia que estaba leyendo me lo viene a confirmar.
+        Dice que unos cient\xEDficos japoneses han logrado crear un ri\xF1\xF3n artificial.
+        Ya crearon manos y brazos artificiales en el pasado, y ahora van y crean un
+        ri\xF1\xF3n. Dinos t\xFA, visitante \xBFcrees que se podr\xEDa llegar a crear
+        un cerebro artificial."
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_0
+    - theList:
+      - ask
+      - 2
+      - Un cerebro puede, una conciencia no.
+      - "Creo que s\xED, es cuesti\xF3n de tiempo."
+      - YoReplico_0/2
+      - YoReplico_0/2
+      - Conv_N7_ReplicarteP2_YoReplico_0_1
+      - Conv_N7_ReplicarteP2_YoReplico_0_2
+    - theList:
+      - say
+      - "Te\xF3ricamente con la tecnolog\xEDa adecuada podr\xEDamos llegar a construir
+        cualquier cosa, incluso a nivel at\xF3mico o molecular. Por tanto podr\xEDamos
+        llegar a construir una r\xE9plica exacta de tu cerebro, visitante de azul,
+        tal y como es ahora. Pero ahora imagina que en lugar de conectarlo a tus canales
+        nerviosos, lo conect\xE1ramos a un cableado por el que enviar\xEDamos sinapsis
+        el\xE9ctricas id\xE9nticas a las que llegan a tu cerebro real a trav\xE9s
+        de tus canales nerviosos (previamente hemos colocado sensores en tu cabeza
+        para detectar estas sinapsis)."
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_3
+    - theList:
+      - say
+      - "Y ponte que tambi\xE9n conectamos una r\xE9plica de tu riego sangu\xEDneo
+        a la r\xE9plica de tu cerebro. En ese caso \xBFqu\xE9 crees que tendr\xEDmos
+        ah\xED: un trozo de materia conectada a un cableado, o tu conciencia."
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_4
+    - theList:
+      - say
+      - img src="CEREBRO RARO CON OJOS"
+      - don't wait
+      - 
+      - Conv_N7_ReplicarteP2_YoReplico_0_5
+    - theList:
+      - ask
+      - 2
+      - "hmmmm  \xBFun trozo de materia?"
+      - "-hmmmm \xBFun duplicado de mi conciencia?"
+      - Conv_N7_ReplicarteP2_YoReplico_0_6
+      - 
+      - Conv_N7_ReplicarteP2_YoReplico_0_6
+      - Conv_N7_ReplicarteP2_YoReplico_0_7
+    - theList:
+      - say
+      - "\xBFT\xFA estar\xEDas sintiendo 2 veces?"
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_8
+    - theList:
+      - ask
+      - 2
+      - "No, yo solo sentir\xEDa una vez."
+      - "S\xED, supongo."
+      - YoReplico_0/8
+      - YoReplico_0/8
+      - Conv_N7_ReplicarteP2_YoReplico_0_9
+      - Conv_N7_ReplicarteP2_YoReplico_0_10
+    - theList:
+      - say
+      - "\xBFHabr\xEDa alguien con tu misma personalidad, con los mismos recuerdos
+        que t\xFA, sintiendo exactamente lo mismo que t\xFA en cada instante del momento
+        presente?"
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_11
+    - theList:
+      - ask
+      - 2
+      - "S\xED, supongo."
+      - hmmmm...
+      - YoReplico_0/10
+      - YoReplico_0/10
+      - Conv_N7_ReplicarteP2_YoReplico_0_12
+      - Conv_N7_ReplicarteP2_YoReplico_0_13
+    - theList:
+      - say
+      - "\xBFY ese  alguien   no ser\xEDas t\xFA?"
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_14
+    - theList:
+      - branchTo
+      - YoReplico_1/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Yo creo que no, y la noticia que estaba leyendo me lo viene a confirmar.
+        Dice que unos cient\xEDficos japoneses han logrado crear un ri\xF1\xF3n artificial.
+        Ya crearon manos y brazos artificiales en el pasado, y ahora van y crean un
+        ri\xF1\xF3n. Dinos t\xFA, visitante \xBFcrees que se podr\xEDa llegar a crear
+        un cerebro artificial."
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_0
+    - theList:
+      - ask
+      - 2
+      - Un cerebro puede, una conciencia no.
+      - "Creo que s\xED, es cuesti\xF3n de tiempo."
+      - YoReplico_0/2
+      - YoReplico_0/2
+      - Conv_N7_ReplicarteP2_YoReplico_0_1
+      - Conv_N7_ReplicarteP2_YoReplico_0_2
+    - theList:
+      - say
+      - "Te\xF3ricamente con la tecnolog\xEDa adecuada podr\xEDamos llegar a construir
+        cualquier cosa, incluso a nivel at\xF3mico o molecular. Por tanto podr\xEDamos
+        llegar a construir una r\xE9plica exacta de tu cerebro, visitante de azul,
+        tal y como es ahora. Pero ahora imagina que en lugar de conectarlo a tus canales
+        nerviosos, lo conect\xE1ramos a un cableado por el que enviar\xEDamos sinapsis
+        el\xE9ctricas id\xE9nticas a las que llegan a tu cerebro real a trav\xE9s
+        de tus canales nerviosos (previamente hemos colocado sensores en tu cabeza
+        para detectar estas sinapsis)."
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_3
+    - theList:
+      - say
+      - "Y ponte que tambi\xE9n conectamos una r\xE9plica de tu riego sangu\xEDneo
+        a la r\xE9plica de tu cerebro. En ese caso \xBFqu\xE9 crees que tendr\xEDmos
+        ah\xED: un trozo de materia conectada a un cableado, o tu conciencia."
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_4
+    - theList:
+      - say
+      - img src="CEREBRO RARO CON OJOS"
+      - don't wait
+      - 
+      - Conv_N7_ReplicarteP2_YoReplico_0_5
+    - theList:
+      - ask
+      - 2
+      - "hmmmm  \xBFun trozo de materia?"
+      - "-hmmmm \xBFun duplicado de mi conciencia?"
+      - Conv_N7_ReplicarteP2_YoReplico_0_6
+      - 
+      - Conv_N7_ReplicarteP2_YoReplico_0_6
+      - Conv_N7_ReplicarteP2_YoReplico_0_7
+    - theList:
+      - say
+      - "\xBFT\xFA estar\xEDas sintiendo 2 veces?"
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_8
+    - theList:
+      - ask
+      - 2
+      - "No, yo solo sentir\xEDa una vez."
+      - "S\xED, supongo."
+      - YoReplico_0/8
+      - YoReplico_0/8
+      - Conv_N7_ReplicarteP2_YoReplico_0_9
+      - Conv_N7_ReplicarteP2_YoReplico_0_10
+    - theList:
+      - say
+      - "\xBFHabr\xEDa alguien con tu misma personalidad, con los mismos recuerdos
+        que t\xFA, sintiendo exactamente lo mismo que t\xFA en cada instante del momento
+        presente?"
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_11
+    - theList:
+      - ask
+      - 2
+      - "S\xED, supongo."
+      - hmmmm...
+      - YoReplico_0/10
+      - YoReplico_0/10
+      - Conv_N7_ReplicarteP2_YoReplico_0_12
+      - Conv_N7_ReplicarteP2_YoReplico_0_13
+    - theList:
+      - say
+      - "\xBFY ese  alguien   no ser\xEDas t\xFA?"
+      - wait
+      - NPC1
+      - Conv_N7_ReplicarteP2_YoReplico_0_14
+    - theList:
+      - branchTo
+      - YoReplico_1/0
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000c0000000b0000000b0000000b0000000c0000000b0000000c0000000b0000000c0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 385
+  windowY: 15

@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1947851288496054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4816089156190494}
+  - component: {fileID: 114429710114543326}
+  m_Layer: 0
+  m_Name: Base_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4816089156190494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947851288496054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114429710114543326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947851288496054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - Hay una cosa que debes saber antes de marchar.
+      - wait
+      - NPC1
+      - Conv_N1_0_Traficante_Base_9_0
+    - theList:
+      - say
+      - "El conocimiento lo hallar\xE1s en los cristales frontera. Cada vez que atravieses
+        uno, la informaci\xF3n que contienen pasar\xE1 de este lado del cristal, al
+        otro. Y all\xED podr\xE1s leerla."
+      - wait
+      - NPC1
+      - Conv_N1_0_Traficante_Base_9_1
+    - theList:
+      - say
+      - "Hay dos clases de cristales frontera: azules y violetas. Cada uno de los
+        cristales azules atesoran siete conocimientos relacionados con lo que est\xE1
+        sucediendo en la isla de Wisdomini en la que te encuentras en ese momento."
+      - wait
+      - NPC1
+      - Conv_N1_0_Traficante_Base_9_2
+    - theList:
+      - say
+      - "Los cristales violetas contienen informaci\xF3n relativa a algunas cosas
+        que habr\xE1s visto u o\xEDdo en Wisdomini y que puede que te hayan llamado
+        la atenci\xF3n. Atraviesa los cristales violetas y obtendr\xE1s m\xE1s informaci\xF3n,
+        tambi\xE9n al otro lado del cristal."
+      - wait
+      - NPC1
+      - Conv_N1_0_Traficante_Base_9_3
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenWithTraficante
+      - true
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - say
+      - Hay una cosa que debes saber antes de marchar.
+      - wait
+      - NPC1
+      - Conv_N1_0_Traficante_Base_9_0
+    - theList:
+      - say
+      - "El conocimiento lo hallar\xE1s en los cristales frontera. Cada vez que atravieses
+        uno, la informaci\xF3n que contienen pasar\xE1 de este lado del cristal, al
+        otro. Y all\xED podr\xE1s leerla."
+      - wait
+      - NPC1
+      - Conv_N1_0_Traficante_Base_9_1
+    - theList:
+      - say
+      - "Hay dos clases de cristales frontera: azules y violetas. Cada uno de los
+        cristales azules atesoran siete conocimientos relacionados con lo que est\xE1
+        sucediendo en la isla de Wisdomini en la que te encuentras en ese momento."
+      - wait
+      - NPC1
+      - Conv_N1_0_Traficante_Base_9_2
+    - theList:
+      - say
+      - "Los cristales violetas contienen informaci\xF3n relativa a algunas cosas
+        que habr\xE1s visto u o\xEDdo en Wisdomini y que puede que te hayan llamado
+        la atenci\xF3n. Atraviesa los cristales violetas y obtendr\xE1s m\xE1s informaci\xF3n,
+        tambi\xE9n al otro lado del cristal."
+      - wait
+      - NPC1
+      - Conv_N1_0_Traficante_Base_9_3
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenWithTraficante
+      - true
+    - theList:
+      - clearDialogue
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b00000011000000180000000f000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 3972
+  windowY: 2391

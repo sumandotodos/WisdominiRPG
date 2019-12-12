@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013350267386}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013350267386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012024737326}
+  - component: {fileID: 114000011398566678}
+  m_Layer: 0
+  m_Name: DialogoFinal_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012024737326
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013350267386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011398566678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013350267386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Entonces tienes dos posibilidades, dos v\xEDas, dos caminos: uno es decirte
+        \u201Cno s\xE9\u201D. Considerarte incapaz de hallar una respuesta. Pensar
+        que tu inteligencia, tu potencial mental no es lo suficientemente poderoso
+        como para dar con la respuesta, y por tanto no tiene sentido ni siquiera intentarlo."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_0
+    - theList:
+      - say
+      - "Es darse por vencido antes de empezar. Es creerte tan listo como para poder
+        afirmar sin ning\xFAn g\xE9nero de duda que eres incapaz de hallar esa respuesta,
+        aunque lo cierto es que no puedes saberlo. Por supuesto quienes piensan as\xED
+        no se consideran solo a s\xED mismos incapaces de hallar la respuesta, sino
+        a todo el mundo. Nadie es capaz. Y si alguien dice lo contrario, miente."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_1
+    - theList:
+      - say
+      - "Y la otra posibilidad es ser m\xE1s humilde. Es decirte a ti mismo. De acuerdo,
+        hasta ahora no he hallado algunas respuestas. No he encontrado el sentido
+        de la vida, no s\xE9 qu\xE9 hacemos aqu\xED, no s\xE9 por qu\xE9 existe todo.
+        Desconozco si hay algo m\xE1s que lo f\xEDsico que tenemos ante nuestras narices."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_2
+    - theList:
+      - say
+      - "Hay un mont\xF3n de respuestas que hoy por hoy, no tengo. Pero voy a ser
+        humilde, y no voy a afirmar que es imposible hallarlas. Al fin y al cabo no
+        he dedicado demasiado tiempo a buscarlas\u2026 El hecho de que no las haya
+        hallado hasta ahora, no significa que no pueda hallarlas en el futuro."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_3
+    - theList:
+      - say
+      - "Entonces, si eliges esta v\xEDa, seguramente decidas sencillamente ponerte
+        a buscar. Sin presi\xF3n, sin prisa, pero alerta. Meditando sobre esas cuestiones
+        de vez en cuando. Haci\xE9ndote nuevas preguntas. Desarrollando tu creatividad
+        para encontrar respuestas. Aprendiendo de los dem\xE1s, sobre todo si son
+        personas humildes que no buscan adoctrinar a nadie, ni que nadie les siga."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_4
+    - theList:
+      - say
+      - "La pregunta de por qu\xE9 existe todo, en lugar de que nada existiera, es
+        una pregunta especial. \xDAnica. Si aceptas con el coraz\xF3n, y no con el
+        intelecto en alg\xFAn momento llegar\xE1s a sentir asombro, quiz\xE1 v\xE9rtigo."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_5
+    - theList:
+      - say
+      - "Puede que en alg\xFAn momento, de pronto la pregunta llegue por sorpresa
+        a tu mente, y sientas desconcierto, incredulidad, extra\xF1eza. Puede que
+        te des cuenta de que perfectamente pod\xEDamos decir que se trata de algo
+        \u201Cm\xE1gico\u201D el que todo exista. Y eso significar\xEDa nada m\xE1s
+        y nada menos, que todo lo que hay a nuestro alrededor, incluy\xE9ndonos a
+        nosotros mismos, es algo m\xE1gico."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_6
+    - theList:
+      - addToInventory
+    - theList:
+      - clearDialogue
+      - 
+    - theList:
+      - unblockPlayerControls
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Entonces tienes dos posibilidades, dos v\xEDas, dos caminos: uno es decirte
+        \u201Cno s\xE9\u201D. Considerarte incapaz de hallar una respuesta. Pensar
+        que tu inteligencia, tu potencial mental no es lo suficientemente poderoso
+        como para dar con la respuesta, y por tanto no tiene sentido ni siquiera intentarlo."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_0
+    - theList:
+      - say
+      - "Es darse por vencido antes de empezar. Es creerte tan listo como para poder
+        afirmar sin ning\xFAn g\xE9nero de duda que eres incapaz de hallar esa respuesta,
+        aunque lo cierto es que no puedes saberlo. Por supuesto quienes piensan as\xED
+        no se consideran solo a s\xED mismos incapaces de hallar la respuesta, sino
+        a todo el mundo. Nadie es capaz. Y si alguien dice lo contrario, miente."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_1
+    - theList:
+      - say
+      - "Y la otra posibilidad es ser m\xE1s humilde. Es decirte a ti mismo. De acuerdo,
+        hasta ahora no he hallado algunas respuestas. No he encontrado el sentido
+        de la vida, no s\xE9 qu\xE9 hacemos aqu\xED, no s\xE9 por qu\xE9 existe todo.
+        Desconozco si hay algo m\xE1s que lo f\xEDsico que tenemos ante nuestras narices."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_2
+    - theList:
+      - say
+      - "Hay un mont\xF3n de respuestas que hoy por hoy, no tengo. Pero voy a ser
+        humilde, y no voy a afirmar que es imposible hallarlas. Al fin y al cabo no
+        he dedicado demasiado tiempo a buscarlas\u2026 El hecho de que no las haya
+        hallado hasta ahora, no significa que no pueda hallarlas en el futuro."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_3
+    - theList:
+      - say
+      - "Entonces, si eliges esta v\xEDa, seguramente decidas sencillamente ponerte
+        a buscar. Sin presi\xF3n, sin prisa, pero alerta. Meditando sobre esas cuestiones
+        de vez en cuando. Haci\xE9ndote nuevas preguntas. Desarrollando tu creatividad
+        para encontrar respuestas. Aprendiendo de los dem\xE1s, sobre todo si son
+        personas humildes que no buscan adoctrinar a nadie, ni que nadie les siga."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_4
+    - theList:
+      - say
+      - "La pregunta de por qu\xE9 existe todo, en lugar de que nada existiera, es
+        una pregunta especial. \xDAnica. Si aceptas con el coraz\xF3n, y no con el
+        intelecto en alg\xFAn momento llegar\xE1s a sentir asombro, quiz\xE1 v\xE9rtigo."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_5
+    - theList:
+      - say
+      - "Puede que en alg\xFAn momento, de pronto la pregunta llegue por sorpresa
+        a tu mente, y sientas desconcierto, incredulidad, extra\xF1eza. Puede que
+        te des cuenta de que perfectamente pod\xEDamos decir que se trata de algo
+        \u201Cm\xE1gico\u201D el que todo exista. Y eso significar\xEDa nada m\xE1s
+        y nada menos, que todo lo que hay a nuestro alrededor, incluy\xE9ndonos a
+        nosotros mismos, es algo m\xE1gico."
+      - wait
+      - NPC1
+      - Conv_N4_DialogoFinal_DialogoFinal_3_6
+    - theList:
+      - addToInventory
+    - theList:
+      - clearDialogue
+      - 
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b000000000000000f00000011000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1014
+  windowY: 9

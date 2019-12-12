@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1496014675078618}
+  m_IsPrefabParent: 1
+--- !u!1 &1496014675078618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4582720258660028}
+  - component: {fileID: 114774197030990426}
+  m_Layer: 0
+  m_Name: StringBank(PreguntasSet42)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4582720258660028
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1496014675078618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114774197030990426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1496014675078618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: PreguntasSet42
+  randomYield: 0
+  phrase:
+  - "\xBFCu\xE1nto tiempo tardamos en volver a nuestros niveles de felicidad habituales
+    despu\xE9s de un acontecimiento feliz importante, como por ejemplo contraer matrimonio?"
+  - "\xBFQu\xE9 t\xE9rmino empleaban los griegos para la palabra \u201Cplacer\u201D?"
+  - "\xBFPor qu\xE9 diversos estudios levados a cabo por Mihaly Csikszentmihalyi en
+    distintos pa\xEDses han descubierto que la gente es m\xE1s infeliz en fin de semana,
+    que entre semana?"
+  - "\xBFQu\xE9 nos hace m\xE1s felices en relaci\xF3n con el trabajo?"
+  - "\xBFQu\xE9 puede estar diciendo en t\xE9rminos de comunicaci\xF3n no verbal,
+    que el otro tenga los brazos cruzados?"
+  correntAnswer: 0200000002000000010000000200000001000000

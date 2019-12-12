@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &137998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 417944}
+  - component: {fileID: 11456530}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Traficante_Test)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &417944
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11456530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Traficante_Test_
+  randomYield: 0
+  phrase:
+  - "Una l\xEDnea. Pero ahora de pronto se transforma en una cosa muy larga para demostrar
+    que el primer bocadillo podr\xE1 quedar correctamente colocado en el lugar que
+    le corresponde. \xBFA que no te esperabas que semejante cosa pudiera llegar a
+    ocurrir? Claro que no, porque eres un muerde-l\xE1pices de mierda..."
+  - "otra l\xEDnea"
+  - "Un par de l\xEDneas, espero y supongo que se llegar\xE1n a llenar... necesitaba
+    un poco m\xE1s..."
+  - "Esto ya son m\xFAltiples l\xEDneas, te lo creas o lo dejes de creer, eso es irrelevante
+    para mi plan de acci\xF3n por las ma\xF1anas..."
+  - "Otra vez una l\xEDnea simple"
+  - Hay que ver, hay que ver....
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 137998}
+  m_IsPrefabParent: 1

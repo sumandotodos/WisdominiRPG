@@ -1,0 +1,332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1763712384995646}
+  m_IsPrefabParent: 1
+--- !u!1 &1279770401886890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4582338411506248}
+  - component: {fileID: 33202633639485740}
+  - component: {fileID: 64103607795101566}
+  - component: {fileID: 23004561710624916}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1763712384995646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4004106489079164}
+  - component: {fileID: 114040270500167470}
+  - component: {fileID: 135510781077357240}
+  - component: {fileID: 136230848406540018}
+  - component: {fileID: 54510421412822620}
+  m_Layer: 0
+  m_Name: "N7_NPC_Llave_Volca\u0301nP1"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4004106489079164
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763712384995646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -97.6, y: 124.82, z: -350.2}
+  m_LocalScale: {x: 1.4999193, y: 1.4999198, z: 1.4999198}
+  m_Children:
+  - {fileID: 4582338411506248}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4582338411506248
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279770401886890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.37, z: 0}
+  m_LocalScale: {x: 1.9342905, y: 3.4857628, z: 1.6122477}
+  m_Children: []
+  m_Father: {fileID: 4004106489079164}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23004561710624916
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279770401886890}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33202633639485740
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279770401886890}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54510421412822620
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763712384995646}
+  serializedVersion: 2
+  m_Mass: 1000000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!64 &64103607795101566
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279770401886890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114040270500167470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763712384995646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 0000
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - walkTo
+      - -88.48275
+      - -350.8741
+      - blocking
+    - theList:
+      - walkTo
+      - -108.711
+      - -349.8933
+      - blocking
+    - theList:
+      - loop
+  programs:
+  - theList:
+    - theList:
+      - replaceProgram
+      - "Convesaci\xF3nLlaveVolc\xE1n"
+      - none
+      - False
+  - theList:
+    - theList:
+      - walkTo
+      - -88.48275
+      - -350.8741
+      - blocking
+    - theList:
+      - walkTo
+      - -108.711
+      - -349.8933
+      - blocking
+    - theList:
+      - loop
+  eventNamesInOrder:
+  - onSpeak
+  - onAwake
+  isProgramRunning: 000000
+  programPointer_: 0000000000000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  - 0
+  waitingForAnswer: 0000
+  ConversationFolderName: "N7_NPC_Llave_Volc\xE1nP1"
+  instructionColor:
+  - theList: ffffffff
+  - theList: ffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  spriteHolder: {fileID: 1279770401886890}
+  showingFrame: 0
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: e7477b5fdcf6415458d9fdaf0a03cbc7, type: 3}
+  IdleAnimationSpeed: 1
+  WalkingFront:
+  - {fileID: 2800000, guid: e7477b5fdcf6415458d9fdaf0a03cbc7, type: 3}
+  WalkingFrontLeft:
+  - {fileID: 2800000, guid: e7477b5fdcf6415458d9fdaf0a03cbc7, type: 3}
+  WalkingLeft:
+  - {fileID: 2800000, guid: 92c0320f08f582c409d23ec64511c2ca, type: 3}
+  - {fileID: 2800000, guid: 8306cf3ef4d8f6e4f99cffc56aefcd27, type: 3}
+  - {fileID: 2800000, guid: ef2d6ec1a4ccc8b4e9e517d0b1c8838e, type: 3}
+  - {fileID: 2800000, guid: 2ebfe33bb0bbe1b42a13cfed5eed3463, type: 3}
+  - {fileID: 2800000, guid: ef88aba291ea42f418cc4d1bafc78d19, type: 3}
+  - {fileID: 2800000, guid: e2b94290834ca994db98b2c90f73c65b, type: 3}
+  - {fileID: 2800000, guid: c6ae4eec906aae64bb11ad8cc862b3e8, type: 3}
+  - {fileID: 2800000, guid: c102c58b381c41e4f897eabd7c740b9c, type: 3}
+  - {fileID: 2800000, guid: b1c4ae237f7e5e743bed861f6224500d, type: 3}
+  - {fileID: 2800000, guid: d2c0cba2dbe13e943a235317e793716d, type: 3}
+  WalkingLeftBack:
+  - {fileID: 2800000, guid: a5852c1bf313bc94e817f5a3268bd728, type: 3}
+  WalkingBack:
+  - {fileID: 2800000, guid: 44c7862f26256924c8474a1faf9cc44c, type: 3}
+  WalkingBackRight:
+  - {fileID: 2800000, guid: 44c7862f26256924c8474a1faf9cc44c, type: 3}
+  WalkingRight:
+  - {fileID: 2800000, guid: 66a96766352075947af1e0c8b4df12d9, type: 3}
+  - {fileID: 2800000, guid: f3402ef2b519ff7479333b6555cc882a, type: 3}
+  - {fileID: 2800000, guid: 7b9f2fa66afa94941a0a9384939979e9, type: 3}
+  - {fileID: 2800000, guid: f1ded0d9d6ff7b046add6f26648feddc, type: 3}
+  - {fileID: 2800000, guid: 1f588c0f6ee4d8b478509b7b4e6ac773, type: 3}
+  - {fileID: 2800000, guid: d233cae6550ff6745ba5050c739534bd, type: 3}
+  - {fileID: 2800000, guid: 3bceb35bd17ce584a86cc102d65bc6f3, type: 3}
+  - {fileID: 2800000, guid: 7a6388251f555794ea17d914407353f4, type: 3}
+  - {fileID: 2800000, guid: da1179ee86fa33040a91b8633be35f41, type: 3}
+  - {fileID: 2800000, guid: 25a8d01cb1a7ca647bf10817934cef88, type: 3}
+  - {fileID: 2800000, guid: 18916c136a607eb40845bc95576ab501, type: 3}
+  WalkingRightFront:
+  - {fileID: 2800000, guid: 66a96766352075947af1e0c8b4df12d9, type: 3}
+  NextProgram:
+  - {fileID: 114206639326763646, guid: 499130333eb85814f9d62c39d72b919f, type: 2}
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  images: []
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 0100000000000000
+  action:
+  - theList: 1a000000
+  - theList: 0a0000000a00000012000000
+  animationSpeed: 8
+  animationDelay: 0
+  frameTime: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Mouth
+  followDistance: 4
+--- !u!135 &135510781077357240
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763712384995646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.008109
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136230848406540018
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1763712384995646}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3.6522422
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.45, z: 0}

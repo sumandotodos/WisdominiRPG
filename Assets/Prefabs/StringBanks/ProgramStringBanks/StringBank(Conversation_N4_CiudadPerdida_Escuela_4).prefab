@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1205967392758206}
+  m_IsPrefabParent: 1
+--- !u!1 &1205967392758206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4089397278148992}
+  - component: {fileID: 114326544227378270}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_CiudadPerdida_Escuela_4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4089397278148992
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205967392758206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114326544227378270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205967392758206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_CiudadPerdida_Escuela_4_
+  randomYield: 0
+  phrase:
+  - "Cada d\xEDa recibimos miles de impactos publicitarios, es inevitable que nos
+    influyan. La publicidad nos dice que lograremos ser felices si somos altos, guapos,
+    fuertes, exitosos, si tenemos dinero y si tenemos los objetos que ellos venden."
+  - "Los investigadores y psic\xF3logos nos dicen que  lograremos ser felices mediante
+    el desarrollo personal, la atenci\xF3n consciente y el manejo de nuestras emociones."
+  - "La mayor\xEDa de la gente cree a los primeros, y no a los segundos. Y por eso
+    dedica la mayor parte de su tiempo y energ\xEDa a buscar la felicidad all\xED
+    donde apuntan los anuncios publicitarios."
+  - "Y como casi todos venden cosas exclusivas y nos dicen que solo seremos felices
+    si somos nosotros los poseedores de esas cosas que pocos pueden poseer porque
+    para que sean exclusivas deben excluir a muchos, nos empe\xF1amos en tratar de
+    ser el n\xFAmero uno, y nos llegamos a creer que la vida es una eterna competici\xF3n,
+    una lucha constante contra los dem\xE1s."
+  - "Y este paradigma ha llegado tambi\xE9n de alguna manera hasta las escuelas, los
+    centros del saber. El sistema educativo est\xE1 basado mayormente en la competencia,
+    a pesar de que es la cooperaci\xF3n la causa del progreso que ha vivido la humanidad
+    desde siempre."
+  - "Ahora s\xED, parece que ya empiezo a entender..."
+  - "Es bueno desaprender a competir constantemente, para as\xED poder aprender a
+    cooperar."
+  - "Conviene tambi\xE9n desaprender el miedo al fracaso que nos han inculcado con
+    tantas notas, tantas comparaciones, y tanta competencia. Esto permitir\xEDa ampliar
+    horizontes y desarrollar nuestro lado creativo, aprendiendo a explorar nuevos
+    caminos a trav\xE9s del m\xE9todo del ensayo y el error. "
+  - "Tambi\xE9n nos har\xEDa m\xE1s felices desaprender la necesidad de agradar a
+    todo el mundo y de estar pendiente siempre de lo que piensen los dem\xE1s, para
+    poder as\xED atesorar el coraje necesario para buscar y hacer aquello que verdaderamente
+    nos apasiona. De esta manera podr\xEDamos dedicarnos a ello con nuestro mejor
+    empe\xF1o y aportar nuestro granito de arena a la consecuci\xF3n de un mundo mejor."
+  - "Desaprender a juzgar a los dem\xE1s nos har\xEDa estar en paz con nosotros mismos,
+    y nos permitir\xEDa aceptarnos tal y como somos, con nuestros defectos y nuestras
+    virtudes."
+  - "Y por \xFAltimo convendr\xEDa desaprender la creencia de que solo tenemos medio
+    cerebro, porque de hecho tenemos uno entero. "
+  - "Nos han ense\xF1ado a usar el hemisferio izquierdo del cerebro: el l\xF3gico
+    y racional, el matem\xE1tico, el de los datos y los conceptos. Pero nos hemos
+    olvidado de la otra mitad: el hemisferio derecho: el intuitivo, el de las emociones
+    y la creatividad, el de la filosof\xEDa y la trascendencia."
+  correntAnswer: 

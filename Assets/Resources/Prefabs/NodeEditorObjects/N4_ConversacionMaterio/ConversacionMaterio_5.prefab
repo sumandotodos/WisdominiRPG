@@ -1,0 +1,387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1560825655018026}
+  m_IsPrefabParent: 1
+--- !u!1 &1560825655018026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4155961313121374}
+  - component: {fileID: 114084901268369114}
+  m_Layer: 0
+  m_Name: ConversacionMaterio_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4155961313121374
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560825655018026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114084901268369114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1560825655018026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - Porque algunas mutaciones aleatorias que tuvieron lugar resulta que se extendieron,
+        mientras que otras desaparecieron
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_0
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 algunas mutaciones se expandieron mientras que otras desaparecieron?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_1
+    - theList:
+      - say
+      - "Porque unas permit\xEDan a los seres vivos adaptarse mejor al entorno que
+        otras"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_2
+    - theList:
+      - say
+      - "\xBFY por qu\xE9 tuvieron lugar esas mutaciones?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_3
+    - theList:
+      - say
+      - "Porque a veces se pasa la informaci\xF3n gen\xE9tica a la descendencia, la
+        prote\xEDna del ADN no se replica de manera id\xE9ntica en las nuevas c\xE9lulas,
+        y esas diferencias es lo que llamamos mutaciones"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_4
+    - theList:
+      - say
+      - "\xBFQu\xE9 hace que una c\xE9lula pueda replicarse tal cual?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_5
+    - theList:
+      - say
+      - "En la tierra en sus inicios hab\xEDa un mar primigenio del que surgi\xF3
+        la vida. Se cree que la vida empez\xF3 por organismos unicelulares como microbios
+        o bacterias, pero que en un momento dado apareci\xF3 un primer organismo unicelular
+        que ten\xEDa la propiedad dividirse en dos estructuras moleculares exactamente
+        iguales al original"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_6
+    - theList:
+      - say
+      - "\xBFC\xF3mo se form\xF3 ese primer organismo unicelular?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_7
+    - theList:
+      - say
+      - "Fue producto de encuentros fortuitos entre muchas cadenas de \xE1tomos que
+        se iban encontrando en ese oc\xE9ano primigenio. Y como algunas de esas cadenas
+        eran m\xE1s estables unidas que por separado, ocurri\xF3 que como resultado
+        de algunos de esos choques aparecieron estructuras de \xE1tomos m\xE1s complejas.
+        As\xED hasta dar con esa primera c\xE9lula"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_8
+    - theList:
+      - say
+      - "Algunas de esas estructuras incluso se piensa que captaban energ\xEDa engullendo
+        otras estructuras de \xE1tomos m\xE1s simples cuando se encontraban con ellas,
+        y las transformaban dentro de ellas igual que hacemos nosotros al comer. El
+        caso es que esas estructuras continuaron encontr\xE1ndose unas con otras y
+        si al encontrarse con otra formaban entre las dos una s\xFAper-estructura
+        m\xE1s estable, entonces ambas permanec\xEDan unidas"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_9
+    - theList:
+      - say
+      - "Adem\xE1s de esto, tambi\xE9n a nivel interno la estructura ir\xEDa cambiando,
+        y como resultado de todo esto acab\xF3 form\xE1ndose ese primer organismo
+        unicelular capaz de replicarse"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_10
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 algunas de esas estructuras de \xE1tomos eran m\xE1s estables
+        unidas que por separado?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_11
+    - theList:
+      - say
+      - "A causa de las propiedades f\xEDsico-qu\xEDmicas de los \xE1tomos que formaban
+        esas estructuras"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_12
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 esos \xE1tomos ten\xEDan precisamente esas propiedades y no
+        otras cualesquiera?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_13
+    - theList:
+      - say
+      - "Porque en el momento del big bang que inici\xF3 nuestro universo, las condiciones
+        iniciales y las leyes f\xEDsicas eran tales que de ah\xED acabar\xEDan surgiendo
+        los 108 \xE1tomos que conocemos, cada uno con sus propiedades f\xEDsico-qu\xEDmicas"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_14
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 esas condiciones iniciales y leyes f\xEDsicas eran as\xED
+        y no de otra manera?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_15
+    - theList:
+      - say
+      - "\xBF\xBF?? No lo s\xE9... Eran as\xED y punto. \xBFA d\xF3nde quieres ir
+        a parar?"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_16
+    - theList:
+      - ask
+      - 2
+      - "A veces tengo la sensaci\xF3n de que la ciencia da a entender que puede explicarlo
+        todo, pero lo que hace en realidad es llevar la pregunta hacia atr\xE1s en
+        el tiempo. Sin responderla"
+      - "Creo si no existe una causa para que algo exista, seg\xFAn el m\xE9todo cient\xEDfico
+        ese \u201Calgo\u201D no deber\xEDa existir. Y hasta ahora no hab\xE9is dado
+        una explicaci\xF3n para la existencia del universo"
+      - ConversacionMaterio_7/0
+      - ConversacionMaterio_7/0
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_17
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_18
+  programs:
+  - theList:
+    - theList:
+      - say
+      - Porque algunas mutaciones aleatorias que tuvieron lugar resulta que se extendieron,
+        mientras que otras desaparecieron
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_0
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 algunas mutaciones se expandieron mientras que otras desaparecieron?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_1
+    - theList:
+      - say
+      - "Porque unas permit\xEDan a los seres vivos adaptarse mejor al entorno que
+        otras"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_2
+    - theList:
+      - say
+      - "\xBFY por qu\xE9 tuvieron lugar esas mutaciones?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_3
+    - theList:
+      - say
+      - "Porque a veces se pasa la informaci\xF3n gen\xE9tica a la descendencia, la
+        prote\xEDna del ADN no se replica de manera id\xE9ntica en las nuevas c\xE9lulas,
+        y esas diferencias es lo que llamamos mutaciones"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_4
+    - theList:
+      - say
+      - "\xBFQu\xE9 hace que una c\xE9lula pueda replicarse tal cual?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_5
+    - theList:
+      - say
+      - "En la tierra en sus inicios hab\xEDa un mar primigenio del que surgi\xF3
+        la vida. Se cree que la vida empez\xF3 por organismos unicelulares como microbios
+        o bacterias, pero que en un momento dado apareci\xF3 un primer organismo unicelular
+        que ten\xEDa la propiedad dividirse en dos estructuras moleculares exactamente
+        iguales al original"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_6
+    - theList:
+      - say
+      - "\xBFC\xF3mo se form\xF3 ese primer organismo unicelular?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_7
+    - theList:
+      - say
+      - "Fue producto de encuentros fortuitos entre muchas cadenas de \xE1tomos que
+        se iban encontrando en ese oc\xE9ano primigenio. Y como algunas de esas cadenas
+        eran m\xE1s estables unidas que por separado, ocurri\xF3 que como resultado
+        de algunos de esos choques aparecieron estructuras de \xE1tomos m\xE1s complejas.
+        As\xED hasta dar con esa primera c\xE9lula"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_8
+    - theList:
+      - say
+      - "Algunas de esas estructuras incluso se piensa que captaban energ\xEDa engullendo
+        otras estructuras de \xE1tomos m\xE1s simples cuando se encontraban con ellas,
+        y las transformaban dentro de ellas igual que hacemos nosotros al comer. El
+        caso es que esas estructuras continuaron encontr\xE1ndose unas con otras y
+        si al encontrarse con otra formaban entre las dos una s\xFAper-estructura
+        m\xE1s estable, entonces ambas permanec\xEDan unidas"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_9
+    - theList:
+      - say
+      - "Adem\xE1s de esto, tambi\xE9n a nivel interno la estructura ir\xEDa cambiando,
+        y como resultado de todo esto acab\xF3 form\xE1ndose ese primer organismo
+        unicelular capaz de replicarse"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_10
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 algunas de esas estructuras de \xE1tomos eran m\xE1s estables
+        unidas que por separado?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_11
+    - theList:
+      - say
+      - "A causa de las propiedades f\xEDsico-qu\xEDmicas de los \xE1tomos que formaban
+        esas estructuras"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_12
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 esos \xE1tomos ten\xEDan precisamente esas propiedades y no
+        otras cualesquiera?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_13
+    - theList:
+      - say
+      - "Porque en el momento del big bang que inici\xF3 nuestro universo, las condiciones
+        iniciales y las leyes f\xEDsicas eran tales que de ah\xED acabar\xEDan surgiendo
+        los 108 \xE1tomos que conocemos, cada uno con sus propiedades f\xEDsico-qu\xEDmicas"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_14
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 esas condiciones iniciales y leyes f\xEDsicas eran as\xED
+        y no de otra manera?"
+      - wait
+      - Player
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_15
+    - theList:
+      - say
+      - "\xBF\xBF?? No lo s\xE9... Eran as\xED y punto. \xBFA d\xF3nde quieres ir
+        a parar?"
+      - wait
+      - NPC1
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_16
+    - theList:
+      - ask
+      - 2
+      - "A veces tengo la sensaci\xF3n de que la ciencia da a entender que puede explicarlo
+        todo, pero lo que hace en realidad es llevar la pregunta hacia atr\xE1s en
+        el tiempo. Sin responderla"
+      - "Creo si no existe una causa para que algo exista, seg\xFAn el m\xE9todo cient\xEDfico
+        ese \u201Calgo\u201D no deber\xEDa existir. Y hasta ahora no hab\xE9is dado
+        una explicaci\xF3n para la existencia del universo"
+      - ConversacionMaterio_7/0
+      - ConversacionMaterio_7/0
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_17
+      - Conv_N4_ConversacionMaterio_ConversacionMaterio_5_18
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1398
+  windowY: 795

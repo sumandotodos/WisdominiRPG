@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1869143845822594}
+  m_IsPrefabParent: 1
+--- !u!1 &1869143845822594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4866569184728816}
+  - component: {fileID: 114941293765107560}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N2_0_MagoGris_Base_0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4866569184728816
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869143845822594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114941293765107560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869143845822594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N2_0_MagoGris_Base_0_
+  randomYield: 0
+  phrase:
+  - "Bien, me alegro de tenerte aqu\xED, pero antes de hablarte de la magia que conozco,
+    he de hacerte una pregunta"
+  - "Mejor dicho, te har\xE9 dos preguntas"
+  - "Y t\xFA elegir\xE1s cu\xE1l de las 2 me contestar\xE1s"
+  - "La primera pregunta es: si en el universo no hubiera existido nunca una conciencia
+    que lo habitara, ni existiera tampoco en en el momento presente, ni fuera a existir
+    jam\xE1s en el futuro  en ese caso, \xBFcrees que el universo existir\xEDa?"
+  - "No te dejes enga\xF1ar por la manera en la que te he formulado la pregunta, ya
+    que en mi pregunta me estoy refiriendo al universo, dando por hecho por tanto
+    que el universo existe. Cuando eso es lo mismo que te estoy preguntando: si existir\xEDa
+    el universo, o si por el contrario no habr\xEDa nada, la completa nada."
+  - "La segunda pregunta es: \xBFhay algo que nunca haya comenzado, y que nunca vaya
+    a terminar, pero que sin embargo est\xE9 ah\xED?"
+  - Puedes tomarte tu tiempo
+  - "Te contestar\xE9 a la primera pregunta: creo que la respuesta es \"s\xED\" "
+  - "Te contestar\xE9 a la primera pregunta: creo que  la respuesta es  \"no\" "
+  - "Te contestar\xE9 a la segunda pregunta: la respuesta es \"si\""
+  - "Te contestar\xE9 a la segunda pregunta: la respuesta es  \"no\""
+  correntAnswer: 

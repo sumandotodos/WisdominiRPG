@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &142786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 482382}
+  - component: {fileID: 11419182}
+  m_Layer: 0
+  m_Name: Super4_15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11419182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - Hay dos maneras de vivir la vida. Una es pasar la mayor parte de tu tiempo
+        de vida esperando que lleguen esos escasos momentos que consideras buenos.
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_0
+    - theList:
+      - say
+      - "Otra es trabajar contigo mismo, para ir aprendiendo gradualmente a vivir
+        con alegr\xEDa todos los momentos de tu vida."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_1
+    - theList:
+      - say
+      - "La primera manera es la f\xE1cil. No tienes que esforzarte ni hacer nada
+        especial. Si eliges esa v\xEDa s\xF3lo tienes que dejarte arrastrar por la
+        inercia."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_2
+    - theList:
+      - say
+      - "La segunda no es una v\xEDa f\xE1cil, porque implica cambiar una serie de
+        h\xE1bitos mantenidos durante mucho tiempo."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_3
+    - theList:
+      - say
+      - "\xBFQuieres que te diga lo que pienso con sinceridad?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_4
+    - theList:
+      - say
+      - "Si lo que fueras a obtener fuese algo pasajero, como que te tocara el gordo
+        de la loter\xEDa, o encontrar esa pareja que siempre deseaste, entonces te
+        dir\xEDa que el esfuerzo no merece la pena."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_5
+    - theList:
+      - say
+      - "Pero es que lo que est\xE1 en juego es mucho m\xE1s que eso. Te juegas tu
+        tiempo de vida. La felicidad aut\xE9ntica que todos anhelamos aun sin ser
+        conscientes de ello."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_6
+    - theList:
+      - say
+      - "De lo que te estoy hablando es de una felicidad que no depende de las circunstancias,
+        sino que estar\xE1 contigo en todo momento."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_7
+    - theList:
+      - say
+      - Las cosas van y vienen, el dinero, las parejas, los objetos...
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_8
+    - theList:
+      - say
+      - "Pero lo que trabajes de tu ser interior permanecer\xE1 contigo para siempre.
+        Repito, para siempre."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_9
+    - theList:
+      - say
+      - "Controlar todas las circunstancias externas para que todo sea como a ti te
+        gustar\xEDa es imposible, adem\xE1s de frustrante y agotador. Y aun as\xED
+        mucha gente lo intenta, ponen toda su energ\xEDa en la b\xFAsqueda de lo externo."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_10
+    - theList:
+      - say
+      - "Pero lo hacen porque desconocen que hay una alternativa, o simplemente son
+        incapaces de reflexionar acerca de s\xED mismos, de sus objetivos en la vida,
+        de si tiene sentido c\xF3mo est\xE1n llevando su vida."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_11
+    - theList:
+      - say
+      - "Les da miedo mirarse y quiz\xE1 llegar a darse cuenta de que llevan mucho
+        tiempo persiguiendo un sue\xF1o falso."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_12
+    - theList:
+      - ask
+      - 2
+      - "H\xE1blame de esa alternativa"
+      - "Algunos s\xED que consiguen su sue\xF1os de gran fama o riqueza, aunque sea
+        uno de cada 10 millones m\xE1s o menos..."
+      - Super4_16/0
+      - Super4_16/0
+      - Conv_Guru_Super4_15_13
+      - Conv_Guru_Super4_15_14
+  programs:
+  - theList:
+    - theList:
+      - say
+      - Hay dos maneras de vivir la vida. Una es pasar la mayor parte de tu tiempo
+        de vida esperando que lleguen esos escasos momentos que consideras buenos.
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_0
+    - theList:
+      - say
+      - "Otra es trabajar contigo mismo, para ir aprendiendo gradualmente a vivir
+        con alegr\xEDa todos los momentos de tu vida."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_1
+    - theList:
+      - say
+      - "La primera manera es la f\xE1cil. No tienes que esforzarte ni hacer nada
+        especial. Si eliges esa v\xEDa s\xF3lo tienes que dejarte arrastrar por la
+        inercia."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_2
+    - theList:
+      - say
+      - "La segunda no es una v\xEDa f\xE1cil, porque implica cambiar una serie de
+        h\xE1bitos mantenidos durante mucho tiempo."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_3
+    - theList:
+      - say
+      - "\xBFQuieres que te diga lo que pienso con sinceridad?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_4
+    - theList:
+      - say
+      - "Si lo que fueras a obtener fuese algo pasajero, como que te tocara el gordo
+        de la loter\xEDa, o encontrar esa pareja que siempre deseaste, entonces te
+        dir\xEDa que el esfuerzo no merece la pena."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_5
+    - theList:
+      - say
+      - "Pero es que lo que est\xE1 en juego es mucho m\xE1s que eso. Te juegas tu
+        tiempo de vida. La felicidad aut\xE9ntica que todos anhelamos aun sin ser
+        conscientes de ello."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_6
+    - theList:
+      - say
+      - "De lo que te estoy hablando es de una felicidad que no depende de las circunstancias,
+        sino que estar\xE1 contigo en todo momento."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_7
+    - theList:
+      - say
+      - Las cosas van y vienen, el dinero, las parejas, los objetos...
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_8
+    - theList:
+      - say
+      - "Pero lo que trabajes de tu ser interior permanecer\xE1 contigo para siempre.
+        Repito, para siempre."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_9
+    - theList:
+      - say
+      - "Controlar todas las circunstancias externas para que todo sea como a ti te
+        gustar\xEDa es imposible, adem\xE1s de frustrante y agotador. Y aun as\xED
+        mucha gente lo intenta, ponen toda su energ\xEDa en la b\xFAsqueda de lo externo."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_10
+    - theList:
+      - say
+      - "Pero lo hacen porque desconocen que hay una alternativa, o simplemente son
+        incapaces de reflexionar acerca de s\xED mismos, de sus objetivos en la vida,
+        de si tiene sentido c\xF3mo est\xE1n llevando su vida."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_11
+    - theList:
+      - say
+      - "Les da miedo mirarse y quiz\xE1 llegar a darse cuenta de que llevan mucho
+        tiempo persiguiendo un sue\xF1o falso."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_15_12
+    - theList:
+      - ask
+      - 2
+      - "H\xE1blame de esa alternativa"
+      - "Algunos s\xED que consiguen su sue\xF1os de gran fama o riqueza, aunque sea
+        uno de cada 10 millones m\xE1s o menos..."
+      - Super4_16/0
+      - Super4_16/0
+      - Conv_Guru_Super4_15_13
+      - Conv_Guru_Super4_15_14
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 4810
+  windowY: 6460

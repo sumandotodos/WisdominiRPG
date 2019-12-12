@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1441099148522784}
+  m_IsPrefabParent: 1
+--- !u!1 &1441099148522784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4250628012297516}
+  - component: {fileID: 114797561829773486}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Siaomi_Super6_3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4250628012297516
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1441099148522784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114797561829773486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1441099148522784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Siaomi_Super6_3_
+  randomYield: 0
+  phrase:
+  - "Hay muchos m\xE9todos. Lo mejor es que vayas a un centro donde se practique la
+    meditaci\xF3n, con un buen maestro: sincero, humilde y buena persona."
+  - "Para empezar a meditar simplemente has de sentarte en un coj\xEDn con las piernas
+    cruzadas en posici\xF3n de loto y la espalda bien recta, y poner tu atenci\xF3n
+    en la respiraci\xF3n o en tu cuerpo. Escucha el sonido que haces al respirar o
+    las sensaciones que sientes en el cuerpo: el contacto con el coj\xEDn, el contacto
+    de las manos apoyadas sobre la rodillas. Si el coj\xEDn te resulta inc\xF3modo
+    puedes usar tambi\xE9n una silla."
+  - "Ten siempre presente que el estado natural de tu mente es un estado calmado en
+    el que la mente reposa en la paz y la espaciosidad. Desde luego aparecer\xE1n
+    los pensamientos y te distraer\xE1s, de hecho al principio pasa cada dos por tres.
+    No pasa nada: observa el pensamiento y d\xE9jalo ir sin m\xE1s: sin analizar ni
+    juzgar. Simplemente vuelve a la respiraci\xF3n o a las sensaciones."
+  - "Haciendo esto llega un momento en que de manera natural te haces uno con tu respiraci\xF3n:
+    deja de haber un  yo  que est\xE1 meditando. Simplemente eres las sensaciones
+    que est\xE1s sintiendo en ese momento. Al principio lo mejor es meditar varias
+    veces al d\xEDa periodos cortos de tiempo, 5 minutos, luego. Ponte el cron\xF3metro
+    si te es m\xE1s c\xF3modo."
+  - "Y s\xE9 creativo, como te dije hay muchos m\xE9todos para meditar: estate atento
+    a lo que va contigo y pract\xEDcalo. Y ten en cuenta de que adem\xE1s de sentado
+    en el coj\xEDn, puedes meditar tambi\xE9n mientras paseas por el parque, mientras
+    vas en metro, en la cola del s\xFAper... en cualquier momento o lugar en el que
+    decidas apartar tu mente de los pensamientos y llevarla a la respiraci\xF3n y
+    la espaciosidad."
+  correntAnswer: 

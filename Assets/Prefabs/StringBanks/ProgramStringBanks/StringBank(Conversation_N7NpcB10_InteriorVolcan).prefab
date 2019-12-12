@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &105400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 494066}
+  - component: {fileID: 11473296}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7NpcB10_InteriorVolcan)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494066
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11473296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7NpcB10_InteriorVolcan_
+  randomYield: 0
+  phrase:
+  - Hola viajero
+  - Hola
+  - "Lo que buscas no est\xE1 aqu\xED. No est\xE1 en esta isla. Aqu\xED quiz\xE1 puedas
+    aprender algo o quiz\xE1 no, depende de ti"
+  - "Pero si lo que quieres es poder entrar al interior del volc\xE1n para obtener
+    la mayor fuente de poder que existe, tendr\xE1s que viajar a otra isla"
+  - "\xBFCual?"
+  - "La isla donde no hay nada. Solo t\xFA contigo mismo. Para conocer el secreto
+    del volc\xE1n hace falta antes conocerse a uno mismo"
+  - "Para conocer el secreto del volc\xE1n hace falta antes conocerse a uno mismo.
+    Y para conocerse a uno mismo, hay que tener el coraje necesario para estar a solas
+    uno mismo"
+  - "\xBFTe has dado cuenta de que apenas pasamos unos minutos al d\xEDa solos?"
+  - "\xBFunos minutos dices?"
+  - "siempre estamos con distracciones: televisi\xF3n, internet, radio, redes sociales,
+    amigos, familia"
+  - "Esto no es por casualidad. Mucha gente tiene miedo de estar sola. Teme a sus
+    propios pensamientos porque le hacen pasarlo mal. Pero esas distracciones no son
+    m\xE1s que un parche que retrasa lo inevitable: el encuentro con uno mismo"
+  - "la \xFAnica isla vac\xEDa que conozco es la isla llamada Noname, \xBFpero c\xF3mo
+    llegar\xE9 hasta all\xED?"
+  - "esa isla ahora no estar\xE1 vac\xEDa. Ve al volc\xE1n y busca una puerta dimensional
+    en su interior"
+  - "Sin embargo para que la puerta dimensional te lleve hasta all\xED deber\xE1s
+    antes conocer la respuesta a la siguiente pregunta. Si un \xE1rbol cae en mitad
+    de un bosque donde no hay nadie, \xBFhar\xE1 ruido?"
+  - "S\xED,claro"
+  - No
+  - "Depende, \xBFhay alg\xFAn animal cerca?"
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 105400}
+  m_IsPrefabParent: 1

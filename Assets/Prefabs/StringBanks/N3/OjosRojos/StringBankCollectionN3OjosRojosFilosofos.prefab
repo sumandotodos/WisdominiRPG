@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1544451179143110}
+  m_IsPrefabParent: 1
+--- !u!1 &1544451179143110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4884729740471408}
+  - component: {fileID: 114475315556806330}
+  m_Layer: 0
+  m_Name: StringBankCollectionN3OjosRojosFilosofos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4884729740471408
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544451179143110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 68.99017, y: 0.03732705, z: -53}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114475315556806330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544451179143110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96eb52b0f39a41549f03a8ff51d2174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bank:
+  - {fileID: 114489739704954436, guid: a076584e0643447c48f4bd01e224ac8b, type: 2}
+  - {fileID: 114840123279966680, guid: e95e90c9710fc496380af0f21c003ffb, type: 2}
+  - {fileID: 114358669543356346, guid: 08a89927d19304f10ba61e083a1314a8, type: 2}
+  - {fileID: 114337029643561656, guid: e68fd31471d7349abbb51df33f4d03a7, type: 2}
+  random: 0
+  rosetta: {fileID: 0}

@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1379281669872294}
+  m_IsPrefabParent: 1
+--- !u!1 &1379281669872294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4989623619140836}
+  - component: {fileID: 114608231538648066}
+  m_Layer: 0
+  m_Name: Boquino_21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4989623619140836
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1379281669872294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114608231538648066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1379281669872294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - delay
+      - 2
+    - theList:
+      - say
+      - "Tienes raz\xF3n, me has pillado"
+      - wait
+      - NPC1
+      - Conv_N3_0_Naranja_Boquino_21_0
+    - theList:
+      - say
+      - "Acepto que eres el due\xF1o leg\xEDtimo de esta casa"
+      - wait
+      - NPC1
+      - Conv_N3_0_Naranja_Boquino_21_1
+    - theList:
+      - say
+      - "Si quieres ordenarme comandos, da vueltas sobre ti mismo, yo te dir\xE9 cu\xE1ndo
+        parar..."
+      - wait
+      - NPC1
+      - Conv_N3_0_Naranja_Boquino_21_2
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - delay
+      - 10
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - "... puedes parar ya. No s\xE9 si habr\xE1s notado ya que te estaba tomando
+        el pelo. Ha sido divertido verte girar... Lo siento, mi flag de sarcasmo est\xE1
+        ON"
+      - wait
+      - NPC1
+      - Conv_N3_0_Naranja_Boquino_21_3
+    - theList:
+      - branchTo
+      - Boquino_8/2
+  programs:
+  - theList:
+    - theList:
+      - delay
+      - 2
+    - theList:
+      - say
+      - "Tienes raz\xF3n, me has pillado"
+      - wait
+      - NPC1
+      - Conv_N3_0_Naranja_Boquino_21_0
+    - theList:
+      - say
+      - "Acepto que eres el due\xF1o leg\xEDtimo de esta casa"
+      - wait
+      - NPC1
+      - Conv_N3_0_Naranja_Boquino_21_1
+    - theList:
+      - say
+      - "Si quieres ordenarme comandos, da vueltas sobre ti mismo, yo te dir\xE9 cu\xE1ndo
+        parar..."
+      - wait
+      - NPC1
+      - Conv_N3_0_Naranja_Boquino_21_2
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - delay
+      - 10
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - "... puedes parar ya. No s\xE9 si habr\xE1s notado ya que te estaba tomando
+        el pelo. Ha sido divertido verte girar... Lo siento, mi flag de sarcasmo est\xE1
+        ON"
+      - wait
+      - NPC1
+      - Conv_N3_0_Naranja_Boquino_21_3
+    - theList:
+      - branchTo
+      - Boquino_8/2
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 040000000b0000000b0000000b0000001100000004000000100000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1947
+  windowY: 1279

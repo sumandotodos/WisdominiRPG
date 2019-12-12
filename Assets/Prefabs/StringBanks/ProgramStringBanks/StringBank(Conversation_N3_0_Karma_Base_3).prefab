@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1487319191147964}
+  m_IsPrefabParent: 1
+--- !u!1 &1487319191147964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4625537791038024}
+  - component: {fileID: 114932476361641056}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N3_0_Karma_Base_3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4625537791038024
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487319191147964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114932476361641056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487319191147964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N3_0_Karma_Base_3_
+  randomYield: 0
+  phrase:
+  - "Se trata del siguiente dilema. Imagina que eres un m\xE9dico al cuidado de 5
+    pacientes a los que les queda menos de una hora de vida a menos que reciban cada
+    uno una donaci\xF3n del \xF3rgano que les falla"
+  - "T\xFA sabes que van a morir porque  en ese tiempo es imposible que aparezca un
+    donante... cuando de pronto aparece en tu consulta un hombre perfectamente sano,"
+  - "aunque por un error administrativo en su expediente figura que est\xE1 gravemente
+    enfermo y a punto de morir"
+  - "Entonces pasa por tu cabeza una idea: si mato a este hombre nadie se enterar\xE1,
+    y con ello podr\xE9 salvar la vida de 5 personas. Una vida a cambio de 5, \xBFlo
+    hago?\r"
+  - "Dime: \xBFT\xFA lo har\xEDas?\r"
+  - "No. Se tratar\xEDa de un asesinato"
+  - "S\xED. Porque as\xED salvar\xEDa a 5 personas"
+  correntAnswer: 

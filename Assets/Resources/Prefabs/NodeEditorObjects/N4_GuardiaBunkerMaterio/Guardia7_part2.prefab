@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1895562885481982}
+  m_IsPrefabParent: 1
+--- !u!1 &1895562885481982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4432088251170978}
+  - component: {fileID: 114648204102799998}
+  m_Layer: 0
+  m_Name: Guardia7_part2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4432088251170978
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1895562885481982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114648204102799998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1895562885481982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFOtra vez t\xFA por aqu\xED? \xBFNo te qued\xF3 clara la explicaci\xF3n?"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_0
+    - theList:
+      - say
+      - "Vengo con un amigo que no tiene claro en qu\xE9 momento empezamos a tener
+        conciencia"
+      - wait
+      - Player
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_1
+    - theList:
+      - say
+      - "Somos un cuerpo f\xEDsico y adquirimos la conciencia al nacer"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_2
+    - theList:
+      - say
+      - "Ya pero, \xBFexactamente cu\xE1ndo? \xBFCu\xE1ndo salimos de la tripa de
+        nuestra madre? \xBFunas semanas antes? \xBFunos meses antes? \xBFCu\xE1ndo
+        el \xF3vulo es fecundado? \xBFcuando el rabito del espermatozoide ha terminado
+        de entrar en el \xF3vulo? \xBFO cuando ha ocurrido la \xFAltima conexi\xF3n
+        entre las mol\xE9culas de ambos?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_3
+    - theList:
+      - say
+      - "\xBFO quiz\xE1 no la \xFAltima mol\xE9cula, sino el \xFAltimo \xE1tomo? \xBFO
+        puede que sea cuando la \xFAltima mol\xE9cula del cerebro ocup\xF3 su posici\xF3n?
+        Pero esto no puede ser, porque un \xF3rgano tan complejo como el cerebro est\xE1
+        permanentemente cambiando. Nuevas c\xE9lulas conteniendo millones de mol\xE9culas
+        surgen a cada momento, y viejas desaparecen. No, no lo logro entender"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_4
+    - theList:
+      - fullscreenImage
+      - Spermato
+    - theList:
+      - say
+      - "Pues........ no s\xE9..... Hmmmmm"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_5
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFOtra vez t\xFA por aqu\xED? \xBFNo te qued\xF3 clara la explicaci\xF3n?"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_0
+    - theList:
+      - say
+      - "Vengo con un amigo que no tiene claro en qu\xE9 momento empezamos a tener
+        conciencia"
+      - wait
+      - Player
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_1
+    - theList:
+      - say
+      - "Somos un cuerpo f\xEDsico y adquirimos la conciencia al nacer"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_2
+    - theList:
+      - say
+      - "Ya pero, \xBFexactamente cu\xE1ndo? \xBFCu\xE1ndo salimos de la tripa de
+        nuestra madre? \xBFunas semanas antes? \xBFunos meses antes? \xBFCu\xE1ndo
+        el \xF3vulo es fecundado? \xBFcuando el rabito del espermatozoide ha terminado
+        de entrar en el \xF3vulo? \xBFO cuando ha ocurrido la \xFAltima conexi\xF3n
+        entre las mol\xE9culas de ambos?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_3
+    - theList:
+      - say
+      - "\xBFO quiz\xE1 no la \xFAltima mol\xE9cula, sino el \xFAltimo \xE1tomo? \xBFO
+        puede que sea cuando la \xFAltima mol\xE9cula del cerebro ocup\xF3 su posici\xF3n?
+        Pero esto no puede ser, porque un \xF3rgano tan complejo como el cerebro est\xE1
+        permanentemente cambiando. Nuevas c\xE9lulas conteniendo millones de mol\xE9culas
+        surgen a cada momento, y viejas desaparecen. No, no lo logro entender"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_4
+    - theList:
+      - fullscreenImage
+      - Spermato
+    - theList:
+      - say
+      - "Pues........ no s\xE9..... Hmmmmm"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia7_part2_5
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b000000280000000b000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 45
+  windowY: 60

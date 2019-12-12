@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011875570266}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011875570266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000010451005626}
+  - component: {fileID: 114000013891090480}
+  m_Layer: 0
+  m_Name: TablaMaterio3y4_6_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010451005626
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011875570266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013891090480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011875570266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Pero lo que tenemos es algo m\xE1s que eso. Cuando se forma la estructura
+        at\xF3mica de la primera c\xE9lula no es que tengamos una estructura muy compleja
+        y ya est\xE1. Lo que tenemos es un ente aut\xF3nomo. Capaz de moverse, de
+        comer, de reproducirse, y de seguir evolucionando."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_0
+    - theList:
+      - say
+      - "Y en un momento dado podr\xE1 tomar decisiones, decisiones que no vendr\xE1n
+        dadas por la materia de la que est\xE1 compuesto, sino de su ser, de su mente,
+        o como quieras llamarlo."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_1
+    - theList:
+      - say
+      - "Es por esto que no entiendo qu\xE9 tiene que ver ah\xED el azar."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_2
+    - theList:
+      - say
+      - "Vas por ah\xED enga\xF1ando a la gente, pero de aqu\xED no pasar\xE1s. El
+        universo se form\xF3 por azar, la primera c\xE9lula apareci\xF3 por azar y
+        evolucion\xF3 tambi\xE9n por azar. De ah\xED hasta el ser humano. No hay m\xE1s.\r"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_3
+      - Constant
+      - 
+      - 
+    - theList:
+      - say
+      - "Durante mucho tiempo he vivido pensando que todo es azar. Que el mundo es
+        azar. Que lo f\xEDsico es azar. Que la materia es como es, \xFAnicamente a
+        causa del azar. Pero hay algo que por m\xE1s vueltas que le doy, no alcanzo
+        a entender, y es que en el mundo tambi\xE9n existe el no-azar. Nosotros por
+        ejemplo somos libres, no actuamos movidos por el azar. De tal manera que en
+        alg\xFAn momento el azar tuvo que terminar y dar paso al no-azar. Lo que no
+        entiendo es, \xBFqu\xE9 pas\xF3 en ese momento y por qu\xE9?"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_4
+    - theList:
+      - say
+      - "S\xED claro, es evidente."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_5
+    - theList:
+      - say
+      - "Pero en cambio me dices que todo era azar antes de que apareciera el primer
+        ser vivo, el primer ser dotado de una cierta inteligencia, aunque fuera m\xEDnima."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_6
+    - theList:
+      - say
+      - "S\xED. Ya te estoy diciendo que el primer ser vivo apareci\xF3 por azar."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_7
+    - theList:
+      - say
+      - "\xBFY cu\xE1l dir\xEDas que fue ese primer ser vivo inteligente? \xBFUna
+        c\xE9lula? \xBFun pez? \xBFun primate? \xBFun humano?"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_8
+    - theList:
+      - say
+      - "hmmm, no s\xE9, una c\xE9lula quiz\xE1. Una c\xE9lula es un ser vivo que
+        no es movido por el azar, aunque su inteligencia se reduzca a mantenerse a
+        base de comer y auto-replicarse. O quiz\xE1 fuera un gusano acu\xE1tico el
+        primer ser inteligente, \xBFpero a qu\xE9 viene esa pregunta?"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_9
+    - theList:
+      - say
+      - "En realidad da igual cu\xE1l sea. Lo que no entiendo es que antes de que
+        apareciera ese primer ser vivo todo era materia movi\xE9ndose de manera aleatoria.
+        Todo el universo, todo lo que existe era \xFAnicamente puro azar."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_10
+    - theList:
+      - say
+      - "Y entonces de pronto, como por arte de magia, parte de esa materia deja de
+        ser \xFAnicamente materia inerte movi\xE9ndose a merced del azar."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_11
+    - theList:
+      - branchTo
+      - TablaMaterio3y4_6_4/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Pero lo que tenemos es algo m\xE1s que eso. Cuando se forma la estructura
+        at\xF3mica de la primera c\xE9lula no es que tengamos una estructura muy compleja
+        y ya est\xE1. Lo que tenemos es un ente aut\xF3nomo. Capaz de moverse, de
+        comer, de reproducirse, y de seguir evolucionando."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_0
+    - theList:
+      - say
+      - "Y en un momento dado podr\xE1 tomar decisiones, decisiones que no vendr\xE1n
+        dadas por la materia de la que est\xE1 compuesto, sino de su ser, de su mente,
+        o como quieras llamarlo."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_1
+    - theList:
+      - say
+      - "Es por esto que no entiendo qu\xE9 tiene que ver ah\xED el azar."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_2
+    - theList:
+      - say
+      - "Vas por ah\xED enga\xF1ando a la gente, pero de aqu\xED no pasar\xE1s. El
+        universo se form\xF3 por azar, la primera c\xE9lula apareci\xF3 por azar y
+        evolucion\xF3 tambi\xE9n por azar. De ah\xED hasta el ser humano. No hay m\xE1s.\r"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_3
+      - Constant
+      - 
+      - 
+    - theList:
+      - say
+      - "Durante mucho tiempo he vivido pensando que todo es azar. Que el mundo es
+        azar. Que lo f\xEDsico es azar. Que la materia es como es, \xFAnicamente a
+        causa del azar. Pero hay algo que por m\xE1s vueltas que le doy, no alcanzo
+        a entender, y es que en el mundo tambi\xE9n existe el no-azar. Nosotros por
+        ejemplo somos libres, no actuamos movidos por el azar. De tal manera que en
+        alg\xFAn momento el azar tuvo que terminar y dar paso al no-azar. Lo que no
+        entiendo es, \xBFqu\xE9 pas\xF3 en ese momento y por qu\xE9?"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_4
+    - theList:
+      - say
+      - "S\xED claro, es evidente."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_5
+    - theList:
+      - say
+      - "Pero en cambio me dices que todo era azar antes de que apareciera el primer
+        ser vivo, el primer ser dotado de una cierta inteligencia, aunque fuera m\xEDnima."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_6
+    - theList:
+      - say
+      - "S\xED. Ya te estoy diciendo que el primer ser vivo apareci\xF3 por azar."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_7
+    - theList:
+      - say
+      - "\xBFY cu\xE1l dir\xEDas que fue ese primer ser vivo inteligente? \xBFUna
+        c\xE9lula? \xBFun pez? \xBFun primate? \xBFun humano?"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_8
+    - theList:
+      - say
+      - "hmmm, no s\xE9, una c\xE9lula quiz\xE1. Una c\xE9lula es un ser vivo que
+        no es movido por el azar, aunque su inteligencia se reduzca a mantenerse a
+        base de comer y auto-replicarse. O quiz\xE1 fuera un gusano acu\xE1tico el
+        primer ser inteligente, \xBFpero a qu\xE9 viene esa pregunta?"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_9
+    - theList:
+      - say
+      - "En realidad da igual cu\xE1l sea. Lo que no entiendo es que antes de que
+        apareciera ese primer ser vivo todo era materia movi\xE9ndose de manera aleatoria.
+        Todo el universo, todo lo que existe era \xFAnicamente puro azar."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_10
+    - theList:
+      - say
+      - "Y entonces de pronto, como por arte de magia, parte de esa materia deja de
+        ser \xFAnicamente materia inerte movi\xE9ndose a merced del azar."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_3_11
+    - theList:
+      - branchTo
+      - TablaMaterio3y4_6_4/0
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1375
+  windowY: 1

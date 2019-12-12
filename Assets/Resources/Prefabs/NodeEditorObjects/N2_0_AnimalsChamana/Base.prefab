@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1845777271852500}
+  m_IsPrefabParent: 1
+--- !u!1 &1845777271852500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4429895250293826}
+  - component: {fileID: 114410912306710996}
+  m_Layer: 0
+  m_Name: Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4429895250293826
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1845777271852500}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114410912306710996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1845777271852500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - Base_2/0
+      - Base/2
+      - Retrieve data
+      - Constant
+      - SpokenAChamana
+      - Boolean
+      - true
+    - theList:
+      - say
+      - "Ten cuidado amigo. Por aqu\xED vive aquella a la que llaman la Chamana, o
+        la bruja, el nombre no importa."
+      - wait
+      - NPC1
+      - Conv_N2_0_AnimalsChamana_Base_0
+    - theList:
+      - say
+      - Lo que importa es que es una mujer peligrosa...
+      - wait
+      - NPC1
+      - Conv_N2_0_AnimalsChamana_Base_1
+    - theList:
+      - say
+      - "Est\xE1 loca. Ser\xE1 mejor que vuelvas por donde has venido."
+      - wait
+      - NPC1
+      - Conv_N2_0_AnimalsChamana_Base_2
+    - theList:
+      - ask
+      - 2
+      - "\xBFPor qu\xE9 dices que est\xE1 loca? "
+      - "Dices que es peligrosa. \xBFC\xF3mo podr\xEDa da\xF1arme?"
+      - Base_0/0
+      - Base_1/0
+      - Conv_N2_0_AnimalsChamana_Base_3
+      - Conv_N2_0_AnimalsChamana_Base_4
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - Base_2/0
+      - Base/2
+      - Retrieve data
+      - Constant
+      - SpokenAChamana
+      - Boolean
+      - true
+    - theList:
+      - say
+      - "Ten cuidado amigo. Por aqu\xED vive aquella a la que llaman la Chamana, o
+        la bruja, el nombre no importa."
+      - wait
+      - NPC1
+      - Conv_N2_0_AnimalsChamana_Base_0
+    - theList:
+      - say
+      - Lo que importa es que es una mujer peligrosa...
+      - wait
+      - NPC1
+      - Conv_N2_0_AnimalsChamana_Base_1
+    - theList:
+      - say
+      - "Est\xE1 loca. Ser\xE1 mejor que vuelvas por donde has venido."
+      - wait
+      - NPC1
+      - Conv_N2_0_AnimalsChamana_Base_2
+    - theList:
+      - ask
+      - 2
+      - "\xBFPor qu\xE9 dices que est\xE1 loca? "
+      - "Dices que es peligrosa. \xBFC\xF3mo podr\xEDa da\xF1arme?"
+      - Base_0/0
+      - Base_1/0
+      - Conv_N2_0_AnimalsChamana_Base_3
+      - Conv_N2_0_AnimalsChamana_Base_4
+  eventNamesInOrder:
+  - onSpeak
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 0000000000000000
+  action:
+  - theList: 10000000150000000b0000000b0000000b0000000c000000
+  - theList: 
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 25
+  windowY: 2

@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &186654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 446786}
+  - component: {fileID: 11472488}
+  m_Layer: 0
+  m_Name: FelicidadPersonas_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &446786
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11472488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFQu\xE9 crees que te hace m\xE1s feliz? \xBFno discutir agriamente con
+        tu pareja cada dos por tres o estrenar smartphone cada a\xF1o?"
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_0
+    - theList:
+      - say
+      - "\xBFTener una buena relaci\xF3n con tus padres o poder comprarte el maquillaje
+        que sale en los anuncios?"
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_1
+    - theList:
+      - say
+      - "\xBFIr contento al trabajo cada ma\xF1ana porque te llevas bien con tus compa\xF1eros
+        de trabajo, o ganar m\xE1s dinero?"
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_2
+    - theList:
+      - say
+      - "\xBFVivir con la tranquilidad de que puedes confiar en tu hijo aunque t\xFA
+        no est\xE9s ah\xED, o alojarte rodeado de lujo en un hotel de 5 estrellas?"
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_3
+    - theList:
+      - say
+      - "La felicidad no est\xE1 en las cosas, sino en las personas. En c\xF3mo nos
+        relacionamos unos con otros."
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_4
+    - theList:
+      - say
+      - "Y para relacionarte de una manera sana y saludable con los dem\xE1s, no hay
+        m\xE1s secreto que sentirse bien con uno mismo: conocerse, aceptarse, y desarrollar
+        y mejorar aquellos aspectos personales que necesitan un empuj\xF3n."
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_5
+    - theList:
+      - say
+      - "Cuando te conoces bien a ti mismo, conoces bien a los dem\xE1s. Y entonces
+        eres capaz de llevarte bien con la gente, evitar discusiones in\xFAtiles,
+        y vivir la vida con alegr\xEDa, contagiando de ese estado de \xE1nimo positivo
+        y optimista a los que est\xE1n a tu alrededor."
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_6
+    - theList:
+      - say
+      - "La felicidad no es un secreto, si buscas lo que han encontrado los cient\xEDficos
+        al respecto encontrar\xE1s que todos sin excepci\xF3n coinciden en lo que
+        te acabo de decir."
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_7
+    - theList:
+      - say
+      - "Quiz\xE1 el \xFAnico secreto es el que guardamos cada uno de nosotros: la
+        causa inconsciente que hace que no tomemos y mantengamos la decisi\xF3n de
+        emprender el camino del desarrollo personal que conduce a la felicidad."
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_8
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+    - theList:
+      - storeData
+      - Boolean
+      - SpokenCampo2
+      - true
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFQu\xE9 crees que te hace m\xE1s feliz? \xBFno discutir agriamente con
+        tu pareja cada dos por tres o estrenar smartphone cada a\xF1o?"
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_0
+    - theList:
+      - say
+      - "\xBFTener una buena relaci\xF3n con tus padres o poder comprarte el maquillaje
+        que sale en los anuncios?"
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_1
+    - theList:
+      - say
+      - "\xBFIr contento al trabajo cada ma\xF1ana porque te llevas bien con tus compa\xF1eros
+        de trabajo, o ganar m\xE1s dinero?"
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_2
+    - theList:
+      - say
+      - "\xBFVivir con la tranquilidad de que puedes confiar en tu hijo aunque t\xFA
+        no est\xE9s ah\xED, o alojarte rodeado de lujo en un hotel de 5 estrellas?"
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_3
+    - theList:
+      - say
+      - "La felicidad no est\xE1 en las cosas, sino en las personas. En c\xF3mo nos
+        relacionamos unos con otros."
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_4
+    - theList:
+      - say
+      - "Y para relacionarte de una manera sana y saludable con los dem\xE1s, no hay
+        m\xE1s secreto que sentirse bien con uno mismo: conocerse, aceptarse, y desarrollar
+        y mejorar aquellos aspectos personales que necesitan un empuj\xF3n."
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_5
+    - theList:
+      - say
+      - "Cuando te conoces bien a ti mismo, conoces bien a los dem\xE1s. Y entonces
+        eres capaz de llevarte bien con la gente, evitar discusiones in\xFAtiles,
+        y vivir la vida con alegr\xEDa, contagiando de ese estado de \xE1nimo positivo
+        y optimista a los que est\xE1n a tu alrededor."
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_6
+    - theList:
+      - say
+      - "La felicidad no es un secreto, si buscas lo que han encontrado los cient\xEDficos
+        al respecto encontrar\xE1s que todos sin excepci\xF3n coinciden en lo que
+        te acabo de decir."
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_7
+    - theList:
+      - say
+      - "Quiz\xE1 el \xFAnico secreto es el que guardamos cada uno de nosotros: la
+        causa inconsciente que hace que no tomemos y mantengamos la decisi\xF3n de
+        emprender el camino del desarrollo personal que conduce a la felicidad."
+      - wait
+      - NPC1
+      - Conv_N3_NPCcampo - campo 2_FelicidadPersonas_0_8
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+    - theList:
+      - storeData
+      - Boolean
+      - SpokenCampo2
+      - true
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000110000000f00000018000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 861
+  windowY: 158
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 186654}
+  m_IsPrefabParent: 1

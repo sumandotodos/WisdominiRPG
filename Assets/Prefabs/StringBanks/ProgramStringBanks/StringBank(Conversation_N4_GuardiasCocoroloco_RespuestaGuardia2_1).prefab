@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1993191022828800}
+  m_IsPrefabParent: 1
+--- !u!1 &1993191022828800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4130411370610610}
+  - component: {fileID: 114951163349412746}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_GuardiasCocoroloco_RespuestaGuardia2_1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4130411370610610
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993191022828800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114951163349412746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993191022828800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_GuardiasCocoroloco_RespuestaGuardia2_1_
+  randomYield: 0
+  phrase:
+  - "Se trata de lo siguiente: yo puedo crear un robot, y si le dedico mucho tiempo
+    y esfuerzo, ese robot podr\xE1 hacer muchas cosas, incluso ser casi igual que
+    un humano. Pero nunca ser\xE1 igual en lo fundamental, \xBFpor qu\xE9? Porque
+    nunca dejar\xE1 de ser un conjunto de chips, metal, y cableado"
+  - "Nunca sentir\xE1 nada, como s\xED lo podemos sentir t\xFA o yo. Puedo programarle
+    para que parezca que siente, pero en verdad la experiencia de sentir no tendr\xE1
+    lugar en ning\xFAn momento"
+  - "Puedo programarle para que parezca que siente, pero en verdad la experiencia
+    de sentir no tendr\xE1 lugar en ning\xFAn momento. El robot no sentir\xE1 emociones
+    como la tristeza, el amor, el enfado, ni cualquier otra. Tampoco percibir\xE1
+    sensaciones como fr\xEDo o calor, dulce o salado. Puedo ponerle un term\xF3metro
+    que mande una se\xF1al a su procesador, y hacer que hable diciendo \u201Cqu\xE9
+    calor hace\u201D, pero nunca nada en \xE9l experimentar\xE1 la sensaci\xF3n del
+    calor"
+  - "Y cosas que el robot tampoco vivir\xE1 nunca es tener pensamientos, escuchar
+    m\xFAsica, o tomar cualquier decisi\xF3n fuera del c\xF3digo que ha sido programado
+    por m\xED. Es decir, no ser\xE1 libre"
+  - "\xBFy qu\xE9 tiene que ver este ejemplo que has puesto de construir un robot,
+    con dios y nosotros?"
+  - "\xBFDices que el robot no podr\xE1 percibir ninguna sensaci\xF3n?"
+  correntAnswer: 

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1776156897920266}
+  m_IsPrefabParent: 1
+--- !u!1 &1776156897920266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4057259528073296}
+  - component: {fileID: 114062801979545512}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_BBB_PruebaDeFuego_7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4057259528073296
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776156897920266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114062801979545512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776156897920266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_BBB_PruebaDeFuego_7_
+  randomYield: 0
+  phrase:
+  - "Este dictado nos cuenta que encontraremos la felicidad en objetos externos. Y
+    en parte es verdad: esos objetos producen una cierta satisfacci\xF3n, \xBFpero
+    es eso lo que buscamos?"
+  - "\xBFEs esa la felicidad a la que aspiramos? \xBFcu\xE1nto dura? \xBFnos quedamos
+    satisfechos de verdad cuando conseguimos el objeto que sea, o por el contrario
+    al poco tiempo queremos m\xE1s porque nos hemos quedado igual de vac\xEDos que
+    est\xE1bamos antes?"
+  - "\xBFY cu\xE1l es la alternativa?"
+  - "Imag\xEDnate que hubiera una v\xEDa, una manera, un camino, para llegar a ser
+    feliz."
+  - "Un camino que quiz\xE1 sea muy distinto de lo que habr\xEDas imaginado, pero
+    que sin embargo psic\xF3logos, expertos, y sabios de la antig\xFCedad, coinciden
+    en que es el camino. El \xFAnico que realmente funciona."
+  - "Soy esc\xE9ptico."
+  - "Querr\xEDa conocerlo."
+  correntAnswer: 

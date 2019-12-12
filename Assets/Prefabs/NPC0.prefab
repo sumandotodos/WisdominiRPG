@@ -1,0 +1,402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1776224910093096}
+  m_IsPrefabParent: 1
+--- !u!1 &1776224910093096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4610632104393286}
+  - component: {fileID: 114134798960896644}
+  - component: {fileID: 135603319660535014}
+  - component: {fileID: 136064372216885120}
+  - component: {fileID: 54448154833928094}
+  - component: {fileID: 65908310230768704}
+  m_Layer: 16
+  m_Name: NPC0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1964028172819782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4256957409715900}
+  - component: {fileID: 33470358093227556}
+  - component: {fileID: 64194283358838776}
+  - component: {fileID: 23604176227408968}
+  - component: {fileID: 114267476537529886}
+  m_Layer: 16
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4256957409715900
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964028172819782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.5, y: 4.5, z: 2}
+  m_Children: []
+  m_Father: {fileID: 4610632104393286}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4610632104393286
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776224910093096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 108.8, y: -7.87, z: -199.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4256957409715900}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23604176227408968
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964028172819782}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33470358093227556
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964028172819782}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54448154833928094
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776224910093096}
+  serializedVersion: 2
+  m_Mass: 1000000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!64 &64194283358838776
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964028172819782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65908310230768704
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776224910093096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 1, z: 4}
+  m_Center: {x: 0, y: 0, z: -0.5}
+--- !u!114 &114134798960896644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776224910093096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList: []
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - hasAlphabet
+      - doesntHaveAlphabet
+      - Retrieve data
+      - Constant
+      - HasAlphabet
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - hasAlphabet
+    - theList:
+      - say
+      - Te doy la bienvenida a Wisdomini
+      - wait
+      - NPC1
+      - NPC00_0
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - doesntHaveAlphabet
+    - theList:
+      - sendMessage
+      - DialogueObject
+      - useAlienFont
+    - theList:
+      - say
+      - "No todo en el monte es or\xE9gano"
+      - wait
+      - NPC1
+      - NPC00_1
+    - theList:
+      - sendMessage
+      - DialogueObject
+      - useNormalFont
+    - theList:
+      - ask
+      - 2
+      - Hablas Raro
+      - No te entiendo
+      - next
+      - next
+      - NPC00_2
+      - NPC00_3
+    - theList:
+      - makeLabel
+      - next
+    - theList:
+      - sendMessage
+      - DialogueObject
+      - useAlienFont
+    - theList:
+      - say
+      - "Una econom\xEDa basada en un crecimiento sin fin es INSOSTENIBLE"
+      - wait
+      - NPC1
+      - NPC00_4
+    - theList:
+      - sendMessage
+      - DialogueObject
+      - useNormalFont
+    - theList:
+      - ask
+      - 2
+      - "\xBFHablas mi idioma?"
+      - Adios
+      - next2
+      - fin
+      - NPC00_5
+      - NPC00_6
+    - theList:
+      - makeLabel
+      - next2
+    - theList:
+      - sendMessage
+      - DialogueObject
+      - useAlienFont
+    - theList:
+      - say
+      - "Habr\xEDa sido mejor hacer este juego en Unreal"
+      - wait
+      - NPC1
+      - NPC00_7
+    - theList:
+      - sendMessage
+      - DialogueObject
+      - useNormalFont
+    - theList:
+      - say
+      - Adios
+      - wait
+      - Player
+      - NPC00_8
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - onSpeak
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01000000ffffffffffffffffffffffffffffffff02000000ffffffffffffffffffffffffffffffff00000000ffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  cameraPivot: {fileID: 0}
+  spriteHolder: {fileID: 1964028172819782}
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: da5dbca5ec3844466934e9d2112a8e59, type: 3}
+  IdleAnimationSpeed: 1
+  WalkingFront:
+  - {fileID: 2800000, guid: da5dbca5ec3844466934e9d2112a8e59, type: 3}
+  WalkingFrontLeft: []
+  WalkingLeft: []
+  WalkingLeftBack: []
+  WalkingBack: []
+  WalkingBackRight: []
+  WalkingRight: []
+  WalkingRightFront: []
+  NextProgram: []
+  leftMiniatureN: {fileID: 2800000, guid: 68538804cdddc46a8a1e93f108ca6506, type: 3}
+  leftMiniatureB: {fileID: 2800000, guid: cb7628a54cc5e4faa9beca05ba7e445a, type: 3}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 2800000, guid: 7c1afc8a13c15447582b09bd7746944f, type: 3}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 01000000
+  action:
+  - theList: 1000000015000000130000000b0000001400000013000000020000000b000000020000000c00000013000000020000000b000000020000000c00000013000000020000000b000000020000000b000000130000000f00000011000000
+  animationSpeed: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 0}
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Mouth
+  followDistance: 4
+--- !u!114 &114267476537529886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1964028172819782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bbe7e10946b44654a57ec78c37f0dc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  m_Camera: {fileID: 0}
+--- !u!135 &135603319660535014
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776224910093096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 3.008109
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136064372216885120
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776224910093096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 4.7
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5, z: 0}

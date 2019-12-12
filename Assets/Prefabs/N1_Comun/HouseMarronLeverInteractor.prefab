@@ -1,0 +1,303 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &162672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 491782}
+  - component: {fileID: 3324412}
+  - component: {fileID: 6428232}
+  - component: {fileID: 2371716}
+  m_Layer: 0
+  m_Name: spriteHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &188038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 425986}
+  - component: {fileID: 11416912}
+  - component: {fileID: 6506094}
+  - component: {fileID: 13539114}
+  m_Layer: 0
+  m_Name: HouseMarronLeverInteractor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &425986
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.97, y: -2.7851105, z: 11.76}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 491782}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &491782
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.7899032, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425986}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2371716
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162672}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3324412
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162672}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &6428232
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &6506094
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11416912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a17f8e4e0194471bb45e937426a4abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 0000
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - if
+      - =
+      - activated
+      - fin
+      - Retrieve data
+      - Constant
+      - Level1HouseMarronLeverActivated
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - activated
+    - theList:
+      - sendMessage
+      - alfombraEnrolla_v2
+      - open
+    - theList:
+      - makeLabel
+      - fin
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - sendMessage
+      - Main Camera
+      - disableLookAt
+    - theList:
+      - startAction
+      - Main Camera
+      - moveToMarker
+      - blocking
+      - 0
+    - theList:
+      - delay
+      - 1
+    - theList:
+      - sendMessage
+      - alfombraEnrolla_v2
+      - open
+    - theList:
+      - delay
+      - 2
+    - theList:
+      - startAction
+      - Main Camera
+      - moveToOriginalPosition
+      - blocking
+    - theList:
+      - sendMessage
+      - Main Camera
+      - enableLookAt
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - storeData
+      - Boolean
+      - Level1HouseMarronLeverActivated
+      - true
+  - theList:
+    - theList:
+      - if
+      - =
+      - activated
+      - fin
+      - Retrieve data
+      - Constant
+      - Level1HouseMarronLeverActivated
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - activated
+    - theList:
+      - sendMessage
+      - alfombraEnrolla_v2
+      - open
+    - theList:
+      - makeLabel
+      - fin
+  eventNamesInOrder:
+  - onInteract
+  - onAwake
+  isProgramRunning: 0000
+  programPointer_: 0000000000000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  - 0
+  waitingForAnswer: 0000
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  spriteHolder: {fileID: 162672}
+  namer: 
+  nEvents: 0
+  interactable: 0
+  pickable: 0
+  images:
+  - {fileID: 2800000, guid: 53f2ae917f1c0491cae9b29c35f619a6, type: 3}
+  - {fileID: 2800000, guid: e998a75888ac84c1dbee3d4e2a458a57, type: 3}
+  - {fileID: 2800000, guid: 905fbd637312a4e60862ee9820d2a8e0, type: 3}
+  rgb:
+    R: 0
+    G: 0
+    B: 0
+  ready:
+    R: 0
+    G: 0
+    B: 0
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 0400000003000000
+  action:
+  - theList: 0a000000020000000300000004000000020000000400000003000000020000000b00000010000000
+  - theList: 0f0000000d000000020000000d000000
+  animationSpeed: 4
+  NextProgram: []
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 8300000, guid: f3a815f331eea45f89777879e58a6751, type: 3}
+  music: []
+  interactIconName: Hand
+  FlameHeroClass: 0
+  FlameNumber: 0
+--- !u!135 &13539114
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 188038}
+  m_IsPrefabParent: 1

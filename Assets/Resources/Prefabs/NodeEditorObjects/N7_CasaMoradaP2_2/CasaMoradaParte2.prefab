@@ -1,0 +1,300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013890305204}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013890305204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000010102860972}
+  - component: {fileID: 114000014105161118}
+  m_Layer: 0
+  m_Name: CasaMoradaParte2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010102860972
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013890305204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000014105161118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013890305204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+      - 0.0
+    - theList:
+      - say
+      - Hola, me ha parecido escuchar que hablaban algo sobre los ciegos y yo soy
+        ciego, por eso me he acercado.
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_0
+    - theList:
+      - say
+      - "\xBFEs usted ciego? \xA1Excelente!."
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_1
+      - Constant
+      - 
+      - 
+    - theList:
+      - say
+      - "\xBFSe alegra usted de que yo sea ciego?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_2
+    - theList:
+      - say
+      - No, no es eso. Es que le voy a mostrar lo que es el color rojo para poder
+        cerrarle la boca a mi amigo.
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_3
+    - theList:
+      - say
+      - "\xBFEn serio? Nunca hab\xEDa visto el color rojo. De hecho nunca hab\xEDa
+        visto ning\xFAn color, soy ciego de nacimiento \xBFsabe? Mu\xE9stremelo cuanto
+        antes por favor, estoy ansioso."
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_4
+    - theList:
+      - say
+      - "Claro, claro. Pues mire usted, el color rojo es  es un color c\xE1lido."
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_5
+    - theList:
+      - say
+      - "\xBFQu\xE9 es un color c\xE1lido?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_6
+    - theList:
+      - say
+      - "Bueno  un color c\xE1lido es un color m\xE1s bien intenso"
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_7
+    - theList:
+      - say
+      - "\xBFY qu\xE9 es un color m\xE1s bien intenso?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_8
+    - theList:
+      - say
+      - Pues un color fuerte e impactante. No como el azul claro por ejemplo.
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_9
+    - theList:
+      - say
+      - "Pues un color impactante es lo contrario de un color tenue \xBFqu\xE9 va
+        a ser?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_10
+    - theList:
+      - say
+      - "\xBFC\xF3mo es un color tenue?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_11
+    - theList:
+      - say
+      - "Bufffff  necesito un ciego m\xE1s inteligente y m\xE1s abierto de mente para
+        poder explicarle lo que es el color rojo."
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_12
+    - theList:
+      - say
+      - "\xBF\xA1Como dice?! No he venido aqu\xED a que me insulten. \xA1Me voy!"
+      - don't wait
+      - 
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_13
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+      - 0.0
+    - theList:
+      - say
+      - Hola, me ha parecido escuchar que hablaban algo sobre los ciegos y yo soy
+        ciego, por eso me he acercado.
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_0
+    - theList:
+      - say
+      - "\xBFEs usted ciego? \xA1Excelente!."
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_1
+      - Constant
+      - 
+      - 
+    - theList:
+      - say
+      - "\xBFSe alegra usted de que yo sea ciego?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_2
+    - theList:
+      - say
+      - No, no es eso. Es que le voy a mostrar lo que es el color rojo para poder
+        cerrarle la boca a mi amigo.
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_3
+    - theList:
+      - say
+      - "\xBFEn serio? Nunca hab\xEDa visto el color rojo. De hecho nunca hab\xEDa
+        visto ning\xFAn color, soy ciego de nacimiento \xBFsabe? Mu\xE9stremelo cuanto
+        antes por favor, estoy ansioso."
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_4
+    - theList:
+      - say
+      - "Claro, claro. Pues mire usted, el color rojo es  es un color c\xE1lido."
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_5
+    - theList:
+      - say
+      - "\xBFQu\xE9 es un color c\xE1lido?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_6
+    - theList:
+      - say
+      - "Bueno  un color c\xE1lido es un color m\xE1s bien intenso"
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_7
+    - theList:
+      - say
+      - "\xBFY qu\xE9 es un color m\xE1s bien intenso?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_8
+    - theList:
+      - say
+      - Pues un color fuerte e impactante. No como el azul claro por ejemplo.
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_9
+    - theList:
+      - say
+      - "Pues un color impactante es lo contrario de un color tenue \xBFqu\xE9 va
+        a ser?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_10
+    - theList:
+      - say
+      - "\xBFC\xF3mo es un color tenue?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_11
+    - theList:
+      - say
+      - "Bufffff  necesito un ciego m\xE1s inteligente y m\xE1s abierto de mente para
+        poder explicarle lo que es el color rojo."
+      - wait
+      - NPC2
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_12
+    - theList:
+      - say
+      - "\xBF\xA1Como dice?! No he venido aqu\xED a que me insulten. \xA1Me voy!"
+      - don't wait
+      - 
+      - Conv_N7_CasaMoradaP2_2_CasaMoradaParte2_13
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 100000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000f00000011000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 1
+  windowY: 0

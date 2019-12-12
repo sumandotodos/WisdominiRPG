@@ -1,0 +1,450 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &141690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 470488}
+  - component: {fileID: 3354910}
+  - component: {fileID: 6492326}
+  - component: {fileID: 2374274}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &168986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 438362}
+  - component: {fileID: 3327850}
+  - component: {fileID: 2320152}
+  - component: {fileID: 9532974}
+  m_Layer: 0
+  m_Name: SatPeople
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &186506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 403580}
+  - component: {fileID: 11487252}
+  - component: {fileID: 13534444}
+  m_Layer: 0
+  m_Name: N4Peter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403580
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -53.77254, y: 124.961716, z: -382.1986}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 470488}
+  - {fileID: 438362}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &438362
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168986}
+  m_LocalRotation: {x: -0.00000011364193, y: 0.7165564, z: -0.6975292, w: -0.00000011674185}
+  m_LocalPosition: {x: -0.2, y: -0.7, z: -0.25}
+  m_LocalScale: {x: 182.60799, y: 275.4839, z: 275.4839}
+  m_Children: []
+  m_Father: {fileID: 403580}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 88.4582, y: 180, z: 0}
+--- !u!4 &470488
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141690}
+  m_LocalRotation: {x: 0, y: 0.007550547, z: 0, w: 0.9999715}
+  m_LocalPosition: {x: 0.02, y: -0.2899933, z: -0}
+  m_LocalScale: {x: 2.5023367, y: 3.8175845, z: 2.08572}
+  m_Children: []
+  m_Father: {fileID: 403580}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0.8652, z: 0}
+--- !u!23 &2320152
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168986}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!23 &2374274
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141690}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3327850
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168986}
+  m_Mesh: {fileID: 4300000, guid: fa057f26f7b0b4f0caf3eee837e3f49e, type: 3}
+--- !u!33 &3354910
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141690}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &6492326
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141690}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &9532974
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168986}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: fa057f26f7b0b4f0caf3eee837e3f49e, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11487252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 0000
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - if
+      - =
+      - kill
+      - nokill
+      - Retrieve data
+      - Constant
+      - N4PeterInHouse
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - kill
+    - theList:
+      - destroy
+    - theList:
+      - makeLabel
+      - nokill
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - primeraVez
+      - otrasVeces
+      - Retrieve data
+      - Constant
+      - SpokenWithN4Peter
+      - Integer
+      - 0
+    - theList:
+      - makeLabel
+      - primeraVez
+    - theList:
+      - replaceProgram
+      - DialogoPeter
+      - none
+      - True
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+    - theList:
+      - storeData
+      - Integer
+      - SpokenWithN4Peter
+      - 1
+    - theList:
+      - sendMessage
+      - GorilaMaterio
+      - enable
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - otrasVeces
+    - theList:
+      - if
+      - =
+      - segundaVez
+      - otrasVecesMas
+      - Retrieve data
+      - Constant
+      - SpokenWithN4Peter
+      - Integer
+      - 1
+    - theList:
+      - makeLabel
+      - segundaVez
+    - theList:
+      - replaceProgram
+      - DialogoPeter_2
+      - none
+      - True
+    - theList:
+      - storeData
+      - Integer
+      - SpokenWithN4Peter
+      - 2
+    - theList:
+      - sendMessage
+      - GorilaCocoroloco
+      - enable
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - otrasVecesMas
+    - theList:
+      - replaceProgram
+      - DialogoPeter_4
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - fin
+  - theList:
+    - theList:
+      - if
+      - =
+      - kill
+      - nokill
+      - Retrieve data
+      - Constant
+      - N4PeterInHouse
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - kill
+    - theList:
+      - hide
+    - theList:
+      - makeLabel
+      - nokill
+  eventNamesInOrder:
+  - onSpeak
+  - onAwake
+  isProgramRunning: 000000
+  programPointer_: 0000000000000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  - 0
+  waitingForAnswer: 0000
+  ConversationFolderName: N4_Peter
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000
+  - theList: ffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  cameraPivot: {fileID: 0}
+  spriteHolder: {fileID: 168986}
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: 78bda9bef1ca1422e8d72aef0e0ab067, type: 3}
+  IdleAnimationSpeed: 1
+  WalkingFront: []
+  WalkingFrontLeft: []
+  WalkingLeft: []
+  WalkingLeftBack: []
+  WalkingBack: []
+  WalkingBackRight: []
+  WalkingRight: []
+  WalkingRightFront: []
+  NextProgram:
+  - {fileID: 11431112, guid: ceb5c92a3e19e4b02bf92b1049c3d4f7, type: 2}
+  - {fileID: 11441030, guid: be3c111d53a6146f2a4e0a781d20c337, type: 2}
+  - {fileID: 0}
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 0100000000000000
+  action:
+  - theList: 1000000015000000130000001a000000110000000f0000001800000002000000140000001300000015000000130000001a000000180000000200000014000000130000001a00000013000000
+  - theList: 15000000130000002800000013000000
+  animationSpeed: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Mouth
+  followDistance: 4
+--- !u!135 &13534444
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.008109
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 186506}
+  m_IsPrefabParent: 1

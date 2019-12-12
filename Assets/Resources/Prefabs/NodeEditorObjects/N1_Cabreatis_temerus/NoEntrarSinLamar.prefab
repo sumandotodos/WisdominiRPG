@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &158232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 452644}
+  - component: {fileID: 11446168}
+  m_Layer: 0
+  m_Name: NoEntrarSinLamar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 180, z: 180}
+--- !u!114 &11446168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - NoEntrarSinLamar_6/0
+      - NoEntrarSinLamar/2
+      - Retrieve data
+      - Constant
+      - HasSpokenCabreatis
+      - Boolean
+      - true
+    - theList:
+      - say
+      - "\xBFQu\xE9 demonios haces aqu\xED? Sueles hacer mucho esto de entrar a las
+        casas sin llamar"
+      - wait
+      - NPC1
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_0
+    - theList:
+      - say
+      - "D\xE9jale. El pobre debe tener miedo"
+      - wait
+      - NPC2
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_1
+    - theList:
+      - say
+      - "ese es su problema. Quien est\xE9 tan loco de pisar la oscuridad no merece
+        que nadie le d\xE9 cobijo"
+      - wait
+      - NPC1
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_2
+    - theList:
+      - say
+      - "Dinos, \xBFqui\xE9n eres? Creo que nunca hab\xEDa visto llegar a nadie desde
+        la oscuridad\r"
+      - wait
+      - NPC2
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_3
+    - theList:
+      - ask
+      - 2
+      - "eso mismo os iba a preguntar a vosotros, \xBFqui\xE9nes sois?"
+      - "pues la verdad es que aqu\xED dentro no s\xE9 muy bien cu\xE1l ser\xEDa mi
+        nombre "
+      - NoEntrarSinLamar_0/0
+      - NoEntrarSinLamar_1/0
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_4
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_5
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - NoEntrarSinLamar_6/0
+      - NoEntrarSinLamar/2
+      - Retrieve data
+      - Constant
+      - HasSpokenCabreatis
+      - Boolean
+      - true
+    - theList:
+      - say
+      - "\xBFQu\xE9 demonios haces aqu\xED? Sueles hacer mucho esto de entrar a las
+        casas sin llamar"
+      - wait
+      - NPC1
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_0
+    - theList:
+      - say
+      - "D\xE9jale. El pobre debe tener miedo"
+      - wait
+      - NPC2
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_1
+    - theList:
+      - say
+      - "ese es su problema. Quien est\xE9 tan loco de pisar la oscuridad no merece
+        que nadie le d\xE9 cobijo"
+      - wait
+      - NPC1
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_2
+    - theList:
+      - say
+      - "Dinos, \xBFqui\xE9n eres? Creo que nunca hab\xEDa visto llegar a nadie desde
+        la oscuridad\r"
+      - wait
+      - NPC2
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_3
+    - theList:
+      - ask
+      - 2
+      - "eso mismo os iba a preguntar a vosotros, \xBFqui\xE9nes sois?"
+      - "pues la verdad es que aqu\xED dentro no s\xE9 muy bien cu\xE1l ser\xEDa mi
+        nombre "
+      - NoEntrarSinLamar_0/0
+      - NoEntrarSinLamar_1/0
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_4
+      - Conv_N1_Cabreatis_temerus_NoEntrarSinLamar_5
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 10000000150000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 65
+  windowY: 24

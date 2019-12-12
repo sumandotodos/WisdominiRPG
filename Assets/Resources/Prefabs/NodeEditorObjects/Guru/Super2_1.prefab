@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &194510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 437900}
+  - component: {fileID: 11487250}
+  m_Layer: 0
+  m_Name: Super2_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &437900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11487250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - En el mundo relativo en el que vivimos ahora todo tiene una causa previa.
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_0
+    - theList:
+      - say
+      - "Cada pensamiento que aparece en tu mente surge de otro pensamiento anterior,
+        o de algo que has visto o sentido a tu alrededor. Pero adem\xE1s ha sido precisamente
+        ese pensamiento y no cualquier otro de entre los infinitos pensamientos posibles,
+        a causa de todas tus vivencias anteriores."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_1
+    - theList:
+      - say
+      - Y lo mismo que pasa con los pensamientos, pasa con todo lo que dices o lo
+        que haces, porque de hecho nuestros pensamientos son el paso previo a nuestras
+        palabras y nuestras acciones.
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_2
+    - theList:
+      - say
+      - "Todo tiene una causa: quien tiene mucho miedo a algo es porque ha vivido
+        experiencias traum\xE1ticas, quiz\xE1 durante su infancia, que son el origen
+        de ese miedo. Quien desea algo con fuerza es porque ha visto a otros disfrutar
+        de ello o se ha perdido en enso\xF1aciones sobre lo feliz que ser\xEDa \xE9l
+        si lo tuviera."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_3
+    - theList:
+      - say
+      - Todo proviene de algo, y en algunas ocasiones buscar ese origen nos puede
+        ayudar a conocernos mejor a nosotros mismos y a transformar nuestras debilidades
+        en fortalezas.
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_4
+    - theList:
+      - say
+      - "Supongo que \xE9se es el sentido del autoconocimiento."
+      - wait
+      - Player
+      - Conv_Guru_Super2_1_5
+    - theList:
+      - say
+      - "Exacto. La clave es que podemos entrenar nuestra mente para ir apartando
+        de ella los pensamientos que nos hacen sufrir a nosotros y a los dem\xE1s,
+        e irlos reemplazando por pensamientos positivos."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_6
+    - theList:
+      - say
+      - "Esto nos permitir\xE1 empezar a vivir de manera plena el momento presente:
+        disfrutar de un paisaje, del canto de los p\xE1jaros, de la arquitectura de
+        los edificios, o de lo que sea que estemos haciendo en cada momento, sin tener
+        que estar sometidos a la tiran\xEDa de los pensamientos repetitivos e in\xFAtiles."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_7
+    - theList:
+      - say
+      - "\xBFC\xF3mo se logra eso?"
+      - wait
+      - Player
+      - Conv_Guru_Super2_1_8
+    - theList:
+      - say
+      - "Ir sustituyendo pensamientos negativos por otros positivos nos da alegr\xEDa
+        y bienestar. El bienestar nos da paz, y la paz nos permite vivir el momento
+        presente. Vivirlo sin m\xE1s, sin necesidad de seguir una cadena interminable
+        de pensamientos."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_9
+    - theList:
+      - say
+      - "Esto es algo que lograremos un poco m\xE1s adelante. Y lo haremos a trav\xE9s
+        de la atenci\xF3n consciente, es decir estar atentos a los pensamientos que
+        nos pasan por la cabeza."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_10
+    - theList:
+      - ask
+      - 2
+      - "\xBFY dices que lo \xFAnico que tengo que hacer es estar atento a mis pensamientos?
+        Eso parece muy sencillo."
+      - "No s\xE9 si ser\xE9 capaz..."
+      - Super2_2/0
+      - Super2_3/0
+      - Conv_Guru_Super2_1_11
+      - Conv_Guru_Super2_1_12
+  programs:
+  - theList:
+    - theList:
+      - say
+      - En el mundo relativo en el que vivimos ahora todo tiene una causa previa.
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_0
+    - theList:
+      - say
+      - "Cada pensamiento que aparece en tu mente surge de otro pensamiento anterior,
+        o de algo que has visto o sentido a tu alrededor. Pero adem\xE1s ha sido precisamente
+        ese pensamiento y no cualquier otro de entre los infinitos pensamientos posibles,
+        a causa de todas tus vivencias anteriores."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_1
+    - theList:
+      - say
+      - Y lo mismo que pasa con los pensamientos, pasa con todo lo que dices o lo
+        que haces, porque de hecho nuestros pensamientos son el paso previo a nuestras
+        palabras y nuestras acciones.
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_2
+    - theList:
+      - say
+      - "Todo tiene una causa: quien tiene mucho miedo a algo es porque ha vivido
+        experiencias traum\xE1ticas, quiz\xE1 durante su infancia, que son el origen
+        de ese miedo. Quien desea algo con fuerza es porque ha visto a otros disfrutar
+        de ello o se ha perdido en enso\xF1aciones sobre lo feliz que ser\xEDa \xE9l
+        si lo tuviera."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_3
+    - theList:
+      - say
+      - Todo proviene de algo, y en algunas ocasiones buscar ese origen nos puede
+        ayudar a conocernos mejor a nosotros mismos y a transformar nuestras debilidades
+        en fortalezas.
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_4
+    - theList:
+      - say
+      - "Supongo que \xE9se es el sentido del autoconocimiento."
+      - wait
+      - Player
+      - Conv_Guru_Super2_1_5
+    - theList:
+      - say
+      - "Exacto. La clave es que podemos entrenar nuestra mente para ir apartando
+        de ella los pensamientos que nos hacen sufrir a nosotros y a los dem\xE1s,
+        e irlos reemplazando por pensamientos positivos."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_6
+    - theList:
+      - say
+      - "Esto nos permitir\xE1 empezar a vivir de manera plena el momento presente:
+        disfrutar de un paisaje, del canto de los p\xE1jaros, de la arquitectura de
+        los edificios, o de lo que sea que estemos haciendo en cada momento, sin tener
+        que estar sometidos a la tiran\xEDa de los pensamientos repetitivos e in\xFAtiles."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_7
+    - theList:
+      - say
+      - "\xBFC\xF3mo se logra eso?"
+      - wait
+      - Player
+      - Conv_Guru_Super2_1_8
+    - theList:
+      - say
+      - "Ir sustituyendo pensamientos negativos por otros positivos nos da alegr\xEDa
+        y bienestar. El bienestar nos da paz, y la paz nos permite vivir el momento
+        presente. Vivirlo sin m\xE1s, sin necesidad de seguir una cadena interminable
+        de pensamientos."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_9
+    - theList:
+      - say
+      - "Esto es algo que lograremos un poco m\xE1s adelante. Y lo haremos a trav\xE9s
+        de la atenci\xF3n consciente, es decir estar atentos a los pensamientos que
+        nos pasan por la cabeza."
+      - wait
+      - NPC1
+      - Conv_Guru_Super2_1_10
+    - theList:
+      - ask
+      - 2
+      - "\xBFY dices que lo \xFAnico que tengo que hacer es estar atento a mis pensamientos?
+        Eso parece muy sencillo."
+      - "No s\xE9 si ser\xE9 capaz..."
+      - Super2_2/0
+      - Super2_3/0
+      - Conv_Guru_Super2_1_11
+      - Conv_Guru_Super2_1_12
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 798
+  windowY: 410

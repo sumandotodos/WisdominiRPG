@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1898283071945340}
+  m_IsPrefabParent: 1
+--- !u!1 &1898283071945340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4587175166468430}
+  - component: {fileID: 114398011726573896}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_GuardiaBunkerMaterio_Guardia1.3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4587175166468430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1898283071945340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114398011726573896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1898283071945340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_GuardiaBunkerMaterio_Guardia1.3_
+  randomYield: 0
+  phrase:
+  - "Disc\xFAlpeme pero hay algo que entiendo. Un gen es algo as\xED como un micro-moco
+    \xBFno?. Es un trozo de materia tan peque\xF1a que es invisible a la vista. Y
+    si resulta que todo lo que somos est\xE1 almacenado ah\xED, entonces, \xBFd\xF3nde
+    queda nuestra libertad?"
+  - "\xBFNuestra libertad? Pues est\xE1 justamente ah\xED, en nuestros genes"
+  - "Eso es lo que no me termina de cuadrar. Que esos genes son solo materia org\xE1nica
+    con unas propiedades f\xEDsicas dadas. \xBFMe est\xE1 diciendo que en la forma,
+    el tama\xF1o, la rugosidad, la dureza, la densidad, y el color de los genes est\xE1
+    grabada nuestra alegr\xEDa y nuestra tristeza. Nuestra sabidur\xEDa y nuestra
+    confusi\xF3n. Nuestra fuerza para saber sobreponernos a los obst\xE1culos de la
+    vida, y tambi\xE9n nuestros h\xE1bitos da\xF1inos como gritar o no escuchar"
+  - "En definitiva: \xBFme est\xE1 diciendo que nuestra felicidad y nuestra infelicidad
+    vienen dados por un micro-moco invisible que alguien bautiz\xF3 con el nombre
+    de gen? Si es as\xED, \xBFpor qu\xE9 esforzarse por mejorar y ser feliz? Total,
+    si todo est\xE1 grabado en nuestros genes"
+  - "Bueno, tambi\xE9n influye el entorno claro"
+  - "Eso tambi\xE9n lo pens\xE9. Pero sigo sin comprender. Porque hay un mont\xF3n
+    de casos documentados de gemelos que son criados igual y que sin embargo terminan
+    siendo muy distintos. Tienen gustos diferentes, caracteres diferentes y dedican
+    sus vidas a cosas que no tienen nada que ver, a pesar de haber recibido la misma
+    educaci\xF3n y haber tenido los mismos est\xEDmulos en su juventud. \xBFC\xF3mo
+    es posible?"
+  correntAnswer: 

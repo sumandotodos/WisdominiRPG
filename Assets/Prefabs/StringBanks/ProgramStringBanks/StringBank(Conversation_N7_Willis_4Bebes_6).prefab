@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &175510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 499678}
+  - component: {fileID: 11429894}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7_Willis_4Bebes_6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499678
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11429894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7_Willis_4Bebes_6_
+  randomYield: 0
+  phrase:
+  - "\xBFCrees que llorar\xEDan a la vez, que beber\xEDan al un\xEDsono, que masticar\xEDan
+    a la vez, que la primera palabra que dir\xEDan ser\xEDa la misma, pronunciada
+    en el mismo instante y sonando exactamente igual? \xBFCrees que pondr\xEDan la
+    televisi\xF3n al mismo tiempo, que cambiar\xEDan de canal a la vez, que les har\xEDan
+    gracia las mismas cosas y reir\xEDan con las mismas ganas, que al jugar a un videojuego
+    tocar\xEDan los mismos botones a la vez y llegar\xEDan hasta la misma pantalla?"
+  - "\xBFCrees que recordar\xEDan las mismas cosas del pasado y al mismo tiempo? \xBFCrees
+    que sus pensamientos sobre el futuro ser\xEDan id\xE9nticos?"
+  - "Sin embargo si somos solo algo f\xEDsico eso ser\xEDa lo que tendr\xEDa que ocurrir"
+  - "No hay que olvidar que los 4 embriones son exactamente iguales, y que absolutamente
+    todo en el interior de las casas es tambi\xE9n id\xE9ntico. La comida es fabricada
+    por una impresora 3D alimentada de materia org\xE1nica, incluso las mol\xE9culas
+    del aire son inyectadas en cada casa por 4 tubos que inyectan exactamente el mismo
+    aire a cada casa. En cuanto al aislamiento, est\xE1n recubiertas por un material
+    que impide el paso de cualquier clase de radiaci\xF3n. En definitiva: todo es
+    f\xEDsicamente igual dentro de esas 4 casas, por tanto si solo somos algo f\xEDsico,
+    nada de lo que suceda en el interior de las 4 casas deber\xEDa variar en lo m\xE1s
+    m\xEDnimo. \xBFNo crees visitante?\r"
+  - "En teor\xEDa s\xED "
+  - 'Tengo que reflexionar sobre ello '
+  - "Quiz\xE1 no seamos solo algo f\xEDsico y material "
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 175510}
+  m_IsPrefabParent: 1

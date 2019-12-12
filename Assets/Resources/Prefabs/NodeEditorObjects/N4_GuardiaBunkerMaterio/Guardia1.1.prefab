@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1258724205840690}
+  m_IsPrefabParent: 1
+--- !u!1 &1258724205840690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4321682764261702}
+  - component: {fileID: 114758361425845044}
+  m_Layer: 0
+  m_Name: Guardia1.1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4321682764261702
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258724205840690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114758361425845044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1258724205840690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Todo lo que somos es nuestro cuerpo f\xEDsico. Ni alma, ni esp\xEDritu, ni
+        mente y coraz\xF3n. Solo materia: genes y cromosomas"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_0
+    - theList:
+      - say
+      - "Un momento se\xF1or. A m\xED hay algo que no me acaba de quedar claro. \xBFPuede
+        estar grabado en los genes lo que es el ajedrez?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_1
+    - theList:
+      - say
+      - "\xBFEl ajedrez?"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_2
+    - theList:
+      - say
+      - "S\xED, o el ballet, el violonchelo, la pintura, la escritura, o cualquier
+        otro arte o actividad que requiera de talento y creatividad. \xBFPuede estar
+        eso grabado en los genes?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3
+    - theList:
+      - say
+      - "S\xED claro, tendr\xE1 que estarlo, \xBFc\xF3mo iba a ser si no?"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_4
+    - theList:
+      - say
+      - "\xBFUsted ha visto alguna vez un gen de cerca?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_5
+    - theList:
+      - say
+      - "No, no es mi especialidad. Yo me dedico a la nanotecnolog\xEDa y al control
+        de accesos"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_6
+    - theList:
+      - say
+      - "Esto son genes vistos al microscopio electr\xF3nico"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_7
+    - theList:
+      - fullscreenImage
+      - Chromo
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_8
+    - theList:
+      - say
+      - "Nuestro material gen\xE9tico est\xE1 guardado en el interior de nuestras
+        c\xE9lulas. Es el llamado ADN, y no es otra cosa que prote\xEDnas, es decir
+        cadenas de mol\xE9culas ordenadas de una determinada manera. Los genes son
+        como un libro de instrucciones para fabricar mol\xE9culas grandes con una
+        funci\xF3n espec\xEDfica dentro de nuestro cuerpo: el aparato digestivo, el
+        auditivo, o cualquier otro \xF3rgano, m\xFAsculo o tejido"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_8
+    - theList:
+      - say
+      - "Es razonable pensar que esas cadenas de mol\xE9culas que llamamos genes sean
+        determinantes para definir las caracter\xEDsticas f\xEDsicas de nuestro cuerpo,
+        como el color de los ojos, o del pelo, o nuestro tama\xF1o y forma corporal"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_9
+    - theList:
+      - say
+      - "Pero atribuir a una masa de mol\xE9culas la causa \xFAltima de nuestro potencial
+        mental me parece excesivo..."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_10
+    - theList:
+      - branchTo
+      - Guardia1.1_0/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Todo lo que somos es nuestro cuerpo f\xEDsico. Ni alma, ni esp\xEDritu, ni
+        mente y coraz\xF3n. Solo materia: genes y cromosomas"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_0
+    - theList:
+      - say
+      - "Un momento se\xF1or. A m\xED hay algo que no me acaba de quedar claro. \xBFPuede
+        estar grabado en los genes lo que es el ajedrez?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_1
+    - theList:
+      - say
+      - "\xBFEl ajedrez?"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_2
+    - theList:
+      - say
+      - "S\xED, o el ballet, el violonchelo, la pintura, la escritura, o cualquier
+        otro arte o actividad que requiera de talento y creatividad. \xBFPuede estar
+        eso grabado en los genes?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3
+    - theList:
+      - say
+      - "S\xED claro, tendr\xE1 que estarlo, \xBFc\xF3mo iba a ser si no?"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_4
+    - theList:
+      - say
+      - "\xBFUsted ha visto alguna vez un gen de cerca?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_5
+    - theList:
+      - say
+      - "No, no es mi especialidad. Yo me dedico a la nanotecnolog\xEDa y al control
+        de accesos"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_6
+    - theList:
+      - say
+      - "Esto son genes vistos al microscopio electr\xF3nico"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_7
+    - theList:
+      - fullscreenImage
+      - Chromo
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_8
+    - theList:
+      - say
+      - "Nuestro material gen\xE9tico est\xE1 guardado en el interior de nuestras
+        c\xE9lulas. Es el llamado ADN, y no es otra cosa que prote\xEDnas, es decir
+        cadenas de mol\xE9culas ordenadas de una determinada manera. Los genes son
+        como un libro de instrucciones para fabricar mol\xE9culas grandes con una
+        funci\xF3n espec\xEDfica dentro de nuestro cuerpo: el aparato digestivo, el
+        auditivo, o cualquier otro \xF3rgano, m\xFAsculo o tejido"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_8
+    - theList:
+      - say
+      - "Es razonable pensar que esas cadenas de mol\xE9culas que llamamos genes sean
+        determinantes para definir las caracter\xEDsticas f\xEDsicas de nuestro cuerpo,
+        como el color de los ojos, o del pelo, o nuestro tama\xF1o y forma corporal"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_9
+    - theList:
+      - say
+      - "Pero atribuir a una masa de mol\xE9culas la causa \xFAltima de nuestro potencial
+        mental me parece excesivo..."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_10
+    - theList:
+      - branchTo
+      - Guardia1.1_0/0
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000280000000b0000000b0000000b00000014000000
+  sayImages:
+  - {fileID: 21300000, guid: 005530a7504ab4c73a93dccacd870731, type: 3}
+  - {fileID: 21300000, guid: 1885c21143c9748b18bc3613d3c39f41, type: 3}
+  - {fileID: 21300000, guid: af24d1eee569e47d4ab8df6f17857de5, type: 3}
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 12
+  windowY: 28

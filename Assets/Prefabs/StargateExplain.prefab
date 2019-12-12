@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1886438797172620}
+  m_IsPrefabParent: 1
+--- !u!1 &1886438797172620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4873992592529252}
+  - component: {fileID: 114584650444042588}
+  - component: {fileID: 65805947576089484}
+  m_Layer: 0
+  m_Name: StargateExplain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4873992592529252
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1886438797172620}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 14.6, y: -7.8, z: -73.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65805947576089484
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1886438797172620}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30.006126, y: 7.0483646, z: 12.405483}
+  m_Center: {x: -1.7323761, y: 1.2007589, z: -5.702736}
+--- !u!114 &114584650444042588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1886438797172620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a17f8e4e0194471bb45e937426a4abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 0000
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - chispAlert
+      - 
+      - wait
+      - StargateExplain1_0
+    - theList:
+      - closeChispAlert
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - destroy
+  programs:
+  - theList:
+    - theList:
+      - if
+      - =
+      - kill
+      - fin
+      - Retrieve data
+      - Constant
+      - Level1StargateActivated
+      - Boolean
+      - false
+    - theList:
+      - makeLabel
+      - kill
+    - theList:
+      - destroy
+    - theList:
+      - makeLabel
+      - fin
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - chispAlert
+      - "La puerta verde te llevar\xE1 a un lugar donde hay magos y animales"
+      - wait
+      - StargateExplain1_0
+    - theList:
+      - chispAlert
+      - "La puerta blanca te llevar\xE1 a un lugar muy solitario"
+      - wait
+      - StargateExplain1_1
+    - theList:
+      - if
+      - =
+      - skip
+      - warn
+      - Retrieve data
+      - Constant
+      - Level1AllDroplets
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - warn
+    - theList:
+      - chispAlert
+      - "Pero... percibo que en el plano superior todav\xEDa quedan gotas de agua
+        con preguntas por ser le\xEDdas, quiz\xE1 deber\xEDamos ir..."
+      - don't wait
+      - StargateExplain1_2
+    - theList:
+      - makeLabel
+      - skip
+    - theList:
+      - closeChispAlert
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - destroy
+  eventNamesInOrder:
+  - onAwake
+  - onOverlap
+  isProgramRunning: 0000
+  programPointer_: 0000000000000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  - 0
+  waitingForAnswer: 0000
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  spriteHolder: {fileID: 0}
+  namer: 
+  nEvents: 0
+  interactable: 0
+  pickable: 0
+  images:
+  - {fileID: 2800000, guid: 53f2ae917f1c0491cae9b29c35f619a6, type: 3}
+  rgb:
+    R: 0
+    G: 0
+    B: 0
+  ready:
+    R: 0
+    G: 0
+    B: 0
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 0300000001000000
+  action:
+  - theList: 0f0000000d000000010000000d000000
+  - theList: 0a00000013000000130000000f0000000d000000130000000d000000140000000b00000001000000
+  animationSpeed: 6
+  NextProgram: []
+  messageTargets:
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 8300000, guid: ce7ebd5ae497d42fc9cc793a2509dfbd, type: 3}
+  music: []
+  interactIconName: 
+  FlameHeroClass: 0
+  FlameNumber: 0

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &165558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 412594}
+  - component: {fileID: 11468510}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N5_esforcianos_Esfuerzo_0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &412594
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11468510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N5_esforcianos_Esfuerzo_0_
+  randomYield: 0
+  phrase:
+  - Los Clasistas son unos cabecicubos
+  - "Pero si cabe, los Talentianos me dan a\xFAn m\xE1s l\xE1stima"
+  - "Porque critican a los Clasistas por algo que ellos mismos tambi\xE9n hacen"
+  - Les parece mal que los Clasistas admiren a los ricos y poderosos argumentando
+    que lo son solamente por haber nacido en el seno de una buena familia
+  - "\xBFPero qu\xE9 hacen ellos? Ser\xE1 mejor que lo compruebes por ti mismo. Lanza
+    los dados"
+  - "\xBFHas visto? \xBFacaso los Talentianos no admiraban a tambi\xE9n a las personas
+    solo por el hecho de haber nacido con un talento o unos genes determinados?\r"
+  - "Dime una cosa: alguien que nace con un talento especial, \xBFacaso ha hecho algo
+    antes de nacer para adquirir tener ese talento?\r"
+  - "\xBFAcaso tiene alg\xFAn m\xE9rito el mero hecho de nacer?\r"
+  - "\xBFAcaso es justo y razonable colocar a alguien en la c\xFAspide de la pir\xE1mide
+    solo por el hecho de nacer como el hijo de unos determinados padres?\r"
+  - No hay duda de que tanto clasistas como talentianos andaban muy perdidos
+  - "Lo esencial no es el talento con el que naces, sino c\xF3mo te esfuerzas para
+    desarrollarlo y ponerlo al servicio de la sociedad"
+  - "Por eso en nuestra civilizaci\xF3n las cosas eran de otra manera. Nosotros no
+    valor\xE1bamos a la gente por nacer con unos talentos determinados"
+  - " Ni tampoco por que el azar les sonriera m\xE1s adelante en su vidas"
+  - "Para nosotros lo m\xE1s importante es el trabajo y el esfuerzo"
+  - "En la c\xFAspide de nuestra pir\xE1mide social estaba la gente que m\xE1s se
+    esforzaba"
+  - "La gente que sudaba para lograr sus objetivos. Que se dejaba la piel para conseguir
+    superarse a s\xED misma y alcanzar los objetivos que se hab\xEDa marcado, a costa
+    de lo que fuera"
+  - Solo aquel que progresaba a base de trabajo era alguien digno de ser alabado en
+    nuestra sociedad
+  - " Y solo esta clase de personas ocupaban las posiciones m\xE1s distinguidas de
+    nuestra pir\xE1mide social"
+  - "No nos importaba su dinero, ni su talento innato, ni su fama, ni su belleza f\xEDsica...\r"
+  - "En la sociedad de los Esforcianos admir\xE1bamos por encima de todo a las personas
+    que se esforzaban en la vida para llegar a ser los primeros"
+  - "Y ahora antes de darte nuestra escala de valores, la \xFAnica digna de ser seguida
+    por una civilizaci\xF3n que se precie, "
+  - voy a hacerte una pregunta que necesito dejar resuelta antes de irme para siempre
+    de lo que durante tanto tiempo fue mi hogar
+  - "Si tu respuesta me parece coherente, te dejar\xE9 entrar en mis catacumbas"
+  - 'Mi pregunta es la siguiente:'
+  - "\xBFQu\xE9 son el tiempo y el espacio?\r"
+  - El tiempo y el espacio son siempre algo fijo, constante, y real
+  - "Puede que el tiempo y el espacio sean solo una creaci\xF3n de la mente "
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 165558}
+  m_IsPrefabParent: 1

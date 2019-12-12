@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1809996966796086}
+  m_IsPrefabParent: 1
+--- !u!1 &1809996966796086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4986824064741160}
+  - component: {fileID: 114953065641096536}
+  m_Layer: 0
+  m_Name: StringBankCollectionPreguntasSet47
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4986824064741160
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809996966796086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114953065641096536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809996966796086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96eb52b0f39a41549f03a8ff51d2174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bank:
+  - {fileID: 114633245019717740, guid: 3ba596a7cf069489eb45f0ad56901bb7, type: 2}
+  - {fileID: 114454011521039460, guid: 2e0d46033b149452984a58b137efc1d7, type: 2}
+  - {fileID: 114590054465978044, guid: 8f9be3e29e78f48808e9ce5ddcfc1dac, type: 2}
+  - {fileID: 114195380822946612, guid: 4a1c9d9723b3c40c487245a4ce7e2014, type: 2}
+  - {fileID: 114288829884675434, guid: 06faee0bfec3e4176b9ab3cf379df867, type: 2}
+  - {fileID: 114064848439244524, guid: 129f1a8fed31e490b9cc06dd8e9d46f7, type: 2}
+  random: 0
+  rosetta: {fileID: 0}

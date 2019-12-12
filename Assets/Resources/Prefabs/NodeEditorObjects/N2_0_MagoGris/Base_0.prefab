@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1402395876863674}
+  m_IsPrefabParent: 1
+--- !u!1 &1402395876863674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4238827312623520}
+  - component: {fileID: 114491462277003048}
+  m_Layer: 0
+  m_Name: Base_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4238827312623520
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402395876863674}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114491462277003048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402395876863674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Bien, me alegro de tenerte aqu\xED, pero antes de hablarte de la magia que
+        conozco, he de hacerte una pregunta"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_0
+    - theList:
+      - say
+      - "Mejor dicho, te har\xE9 dos preguntas"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_1
+    - theList:
+      - say
+      - "Y t\xFA elegir\xE1s cu\xE1l de las 2 me contestar\xE1s"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_2
+    - theList:
+      - say
+      - "La primera pregunta es: si en el universo no hubiera existido nunca una conciencia
+        que lo habitara, ni existiera tampoco en en el momento presente, ni fuera
+        a existir jam\xE1s en el futuro  en ese caso, \xBFcrees que el universo existir\xEDa?"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_3
+    - theList:
+      - say
+      - "No te dejes enga\xF1ar por la manera en la que te he formulado la pregunta,
+        ya que en mi pregunta me estoy refiriendo al universo, dando por hecho por
+        tanto que el universo existe. Cuando eso es lo mismo que te estoy preguntando:
+        si existir\xEDa el universo, o si por el contrario no habr\xEDa nada, la completa
+        nada."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_4
+    - theList:
+      - say
+      - "La segunda pregunta es: \xBFhay algo que nunca haya comenzado, y que nunca
+        vaya a terminar, pero que sin embargo est\xE9 ah\xED?"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_5
+    - theList:
+      - say
+      - Puedes tomarte tu tiempo
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_6
+    - theList:
+      - ask
+      - 4
+      - "Te contestar\xE9 a la primera pregunta: creo que la respuesta es \"s\xED\" "
+      - "Te contestar\xE9 a la primera pregunta: creo que  la respuesta es  \"no\" "
+      - "Te contestar\xE9 a la segunda pregunta: la respuesta es \"si\""
+      - "Te contestar\xE9 a la segunda pregunta: la respuesta es  \"no\""
+      - Base_4/0
+      - Base_3/0
+      - Base_2/0
+      - Base_1/0
+      - Conv_N2_0_MagoGris_Base_0_7
+      - Conv_N2_0_MagoGris_Base_0_8
+      - Conv_N2_0_MagoGris_Base_0_9
+      - Conv_N2_0_MagoGris_Base_0_10
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Bien, me alegro de tenerte aqu\xED, pero antes de hablarte de la magia que
+        conozco, he de hacerte una pregunta"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_0
+    - theList:
+      - say
+      - "Mejor dicho, te har\xE9 dos preguntas"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_1
+    - theList:
+      - say
+      - "Y t\xFA elegir\xE1s cu\xE1l de las 2 me contestar\xE1s"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_2
+    - theList:
+      - say
+      - "La primera pregunta es: si en el universo no hubiera existido nunca una conciencia
+        que lo habitara, ni existiera tampoco en en el momento presente, ni fuera
+        a existir jam\xE1s en el futuro  en ese caso, \xBFcrees que el universo existir\xEDa?"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_3
+    - theList:
+      - say
+      - "No te dejes enga\xF1ar por la manera en la que te he formulado la pregunta,
+        ya que en mi pregunta me estoy refiriendo al universo, dando por hecho por
+        tanto que el universo existe. Cuando eso es lo mismo que te estoy preguntando:
+        si existir\xEDa el universo, o si por el contrario no habr\xEDa nada, la completa
+        nada."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_4
+    - theList:
+      - say
+      - "La segunda pregunta es: \xBFhay algo que nunca haya comenzado, y que nunca
+        vaya a terminar, pero que sin embargo est\xE9 ah\xED?"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_5
+    - theList:
+      - say
+      - Puedes tomarte tu tiempo
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_0_6
+    - theList:
+      - ask
+      - 4
+      - "Te contestar\xE9 a la primera pregunta: creo que la respuesta es \"s\xED\" "
+      - "Te contestar\xE9 a la primera pregunta: creo que  la respuesta es  \"no\" "
+      - "Te contestar\xE9 a la segunda pregunta: la respuesta es \"si\""
+      - "Te contestar\xE9 a la segunda pregunta: la respuesta es  \"no\""
+      - Base_4/0
+      - Base_3/0
+      - Base_2/0
+      - Base_1/0
+      - Conv_N2_0_MagoGris_Base_0_7
+      - Conv_N2_0_MagoGris_Base_0_8
+      - Conv_N2_0_MagoGris_Base_0_9
+      - Conv_N2_0_MagoGris_Base_0_10
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 568
+  windowY: -64

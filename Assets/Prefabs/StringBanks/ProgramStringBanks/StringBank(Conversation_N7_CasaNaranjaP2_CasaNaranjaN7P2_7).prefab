@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1661540011414300}
+  m_IsPrefabParent: 1
+--- !u!1 &1661540011414300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4899600116986120}
+  - component: {fileID: 114536675541206256}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7_CasaNaranjaP2_CasaNaranjaN7P2_7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4899600116986120
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1661540011414300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114536675541206256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1661540011414300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_7_
+  randomYield: 0
+  phrase:
+  - "\xBFCrees que llorar\xEDan a la vez, que beber\xEDan al un\xEDsono, que masticar\xEDan
+    a la vez, que la primera palabra que dir\xEDan ser\xEDa la misma, pronunciada
+    en el mismo instante y sonando exactamente igual?"
+  - " \xBFCrees que pondr\xEDan la televisi\xF3n al mismo tiempo, que cambiar\xEDan
+    de canal a la vez, que les har\xEDan gracia las mismas cosas y reir\xEDan con
+    las mismas ganas, que al jugar a un videojuego tocar\xEDan los mismos botones
+    a la vez y llegar\xEDan hasta la misma pantalla? \xBFCrees que recordar\xEDan
+    las mismas cosas del pasado y al mismo tiempo? \xBFCrees que sus pensamientos
+    sobre el futuro ser\xEDan id\xE9nticos?"
+  - "Sin embargo si somos solo algo f\xEDsico eso ser\xEDa lo que tendr\xEDa que ocurrir.
+    No hay que olvidar que los 4 embriones son exactamente iguales, y que absolutamente
+    todo en el interior de las casas es tambi\xE9n id\xE9ntico. La comida es fabricada
+    por una impresora 3D alimentada de materia org\xE1nica, incluso las mol\xE9culas
+    del aire son inyectadas en cada casa por 4 tubos que inyectan exactamente el mismo
+    aire a cada casa."
+  - "En cuanto al aislamiento, est\xE1n recubiertas por un material que impide el
+    paso de cualquier clase de radiaci\xF3n. En definitiva: todo es f\xEDsicamente
+    igual dentro de esas 4 casas, por tanto si solo somos algo f\xEDsico, nada de
+    lo que suceda en el interior de las 4 casas deber\xEDa variar en lo m\xE1s m\xEDnimo."
+  - "\xBFNo crees visitante?"
+  - "En teor\xEDa s\xED."
+  - Tengo que reflexionar sobre ello.
+  - "Quiz\xE1 no seamos solo algo f\xEDsico y material."
+  - "Gracias por compartir conmigo tu parecer. Querr\xEDa pedirte un favor: \xBFPodr\xEDas
+    donar al proyecto tu material gen\xE9tico para que en el futuro podamos llevar
+    a cabo el experimento al otro lado del cristal?"
+  - "De esta manera si fuera verdad que somos solo algo f\xEDsico, tendr\xEDas 4 hijos
+    id\xE9nticos."
+  - "Me har\xEDa mucha ilusi\xF3n, pero ando escaso de genes hoy.."
+  - "En otra ocasi\xF3n."
+  - "No pasa nada, es tu decisi\xF3n. Si quieres saber c\xF3mo entrar en el volc\xE1n,
+    pregunta en la casa de buz\xF3n morado."
+  correntAnswer: 

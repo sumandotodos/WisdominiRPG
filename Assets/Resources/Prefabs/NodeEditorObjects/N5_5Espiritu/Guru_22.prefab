@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &142266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 468648}
+  - component: {fileID: 11405868}
+  m_Layer: 0
+  m_Name: Guru_22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &468648
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11405868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Exacto. Porque mucha gente ignora que la verdadera fuente de felicidad est\xE1
+        en dar"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_0
+    - theList:
+      - say
+      - "En hacer cosas por los dem\xE1s. En buscar el bien de los otros, el bien
+        com\xFAn"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_1
+    - theList:
+      - say
+      - Cuando tu mirada deja de estar puesta en el  yo   y pasa a estar puesta en
+        los otros, todo empieza a cambiar
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_2
+    - theList:
+      - say
+      - "Tus problemas y preocupaciones, que antes te parec\xEDan tan graves e importantes,
+        pasan gradualmente a ser mucho menos importantes de lo que eran"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_3
+    - theList:
+      - say
+      - "Y poco a poco tu vida va adquiriendo un nuevo sentido: el de tratar de ayudar
+        a los dem\xE1s, pensar en ellos, escucharles, ponerte en su lugar, no ofenderles,
+        no da\xF1arles"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_4
+    - theList:
+      - say
+      - ' En definitiva: tratar de que sean felices, y de que no sufran'
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_5
+    - theList:
+      - say
+      - "Y cuando haces esto y ves que tu esfuerzo da sus frutos. Que en este preciso
+        instante, en otra parte, hay alguien que es m\xE1s feliz  gracias a ti"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_6
+    - theList:
+      - say
+      - " entonces autom\xE1ticamente tu vida adquiere un significado distinto"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_7
+    - theList:
+      - say
+      - "T\xFA tambi\xE9n te sientes bien. Feliz. En paz. Y no es una felicidad fruto
+        de una euforia pasajera. Es una felicidad permanente, una felicidad que te
+        acompa\xF1ar\xE1 siempre"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_8
+    - theList:
+      - say
+      - Del mismo modo que el nuevo rumbo que has decidido dar a tu vida no es tampoco
+        algo pasajero
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_9
+    - theList:
+      - say
+      - "As\xED, poco a poco, la calma, el bienestar, la alegr\xEDa y el optimismo
+        ir\xE1n formando parte de tu vida"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_10
+    - theList:
+      - ask
+      - 2
+      - "Trato de llevar esa filosof\xEDa de vida lo mejor que puedo"
+      - "Mi vida no es nada f\xE1cil ahora mismo. Tengo mis propios problemas para
+        andar ocup\xE1ndome de los problemas de los dem\xE1s"
+      - Guru_23/0
+      - Guru_24/0
+      - Conv_N5_5Espiritu_Guru_22_11
+      - Conv_N5_5Espiritu_Guru_22_12
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Exacto. Porque mucha gente ignora que la verdadera fuente de felicidad est\xE1
+        en dar"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_0
+    - theList:
+      - say
+      - "En hacer cosas por los dem\xE1s. En buscar el bien de los otros, el bien
+        com\xFAn"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_1
+    - theList:
+      - say
+      - Cuando tu mirada deja de estar puesta en el  yo   y pasa a estar puesta en
+        los otros, todo empieza a cambiar
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_2
+    - theList:
+      - say
+      - "Tus problemas y preocupaciones, que antes te parec\xEDan tan graves e importantes,
+        pasan gradualmente a ser mucho menos importantes de lo que eran"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_3
+    - theList:
+      - say
+      - "Y poco a poco tu vida va adquiriendo un nuevo sentido: el de tratar de ayudar
+        a los dem\xE1s, pensar en ellos, escucharles, ponerte en su lugar, no ofenderles,
+        no da\xF1arles"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_4
+    - theList:
+      - say
+      - ' En definitiva: tratar de que sean felices, y de que no sufran'
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_5
+    - theList:
+      - say
+      - "Y cuando haces esto y ves que tu esfuerzo da sus frutos. Que en este preciso
+        instante, en otra parte, hay alguien que es m\xE1s feliz  gracias a ti"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_6
+    - theList:
+      - say
+      - " entonces autom\xE1ticamente tu vida adquiere un significado distinto"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_7
+    - theList:
+      - say
+      - "T\xFA tambi\xE9n te sientes bien. Feliz. En paz. Y no es una felicidad fruto
+        de una euforia pasajera. Es una felicidad permanente, una felicidad que te
+        acompa\xF1ar\xE1 siempre"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_8
+    - theList:
+      - say
+      - Del mismo modo que el nuevo rumbo que has decidido dar a tu vida no es tampoco
+        algo pasajero
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_9
+    - theList:
+      - say
+      - "As\xED, poco a poco, la calma, el bienestar, la alegr\xEDa y el optimismo
+        ir\xE1n formando parte de tu vida"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_22_10
+    - theList:
+      - ask
+      - 2
+      - "Trato de llevar esa filosof\xEDa de vida lo mejor que puedo"
+      - "Mi vida no es nada f\xE1cil ahora mismo. Tengo mis propios problemas para
+        andar ocup\xE1ndome de los problemas de los dem\xE1s"
+      - Guru_23/0
+      - Guru_24/0
+      - Conv_N5_5Espiritu_Guru_22_11
+      - Conv_N5_5Espiritu_Guru_22_12
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 2317
+  windowY: 9945
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 142266}
+  m_IsPrefabParent: 1

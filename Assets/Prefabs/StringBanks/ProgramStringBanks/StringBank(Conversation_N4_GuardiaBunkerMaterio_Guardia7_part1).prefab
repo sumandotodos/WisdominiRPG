@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1427910753584708}
+  m_IsPrefabParent: 1
+--- !u!1 &1427910753584708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4688238038851592}
+  - component: {fileID: 114556058187719232}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_GuardiaBunkerMaterio_Guardia7_part1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4688238038851592
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1427910753584708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114556058187719232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1427910753584708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_GuardiaBunkerMaterio_Guardia7_part1_
+  randomYield: 0
+  phrase:
+  - "T\xFA eres el pesao que no acepta ninguna respuesta, \xBFno? Pues m\xEDrame.
+    M\xEDrate. Eres algo f\xEDsico. \xBFPor qu\xE9 liarse tanto con genes, mutaciones,
+    y leyes f\xEDsicas? \xBFPor qu\xE9 no crees simplemente en lo que ves y punto?"
+  - "Es lo que yo hago. Soy un cuerpo f\xEDsico y material, y este cuerpo es lo que
+    me otorga la conciencia. Cuando nac\xED empec\xE9 a tener conciencia. Punto. \xBFQu\xE9
+    m\xE1s puede haber?"
+  - "Hay muchas cosas que no vemos pero est\xE1n ah\xED: las ondas del m\xF3vil, las
+    ondas luminosas que son invisibles para nosotros pero no para otros animales,
+    las frecuencias de sonido inaudibles para el hombre... hay un mont\xF3n de cosas,
+    \xBFtampoco crees en ellas?"
+  - "Pero eso son cosas que la ciencia ha descubierto, que est\xE1n ah\xED"
+  - "La ciencia tambi\xE9n ha descubierto y probado la mec\xE1nica cu\xE1ntica y sin
+    embargo en occidente se sigue creyendo que la vida y la conciencia surgieron de
+    la materia que hab\xEDa en un universo vac\xEDo de conciencia. Y seg\xFAn la mec\xE1nica
+    cu\xE1ntica eso no es posible\u2190 la mec\xE1nica cu\xE1ntica no dice eso\u2026"
+  - "La ciencia s\xF3lo estudia los fen\xF3menos f\xEDsicos. Por eso nunca podr\xE1
+    estudiar algo como la conciencia, que va m\xE1s all\xE1 de lo f\xEDsico"
+  - "Quiz\xE1 tengas raz\xF3n..."
+  correntAnswer: 

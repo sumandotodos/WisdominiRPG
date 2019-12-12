@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &179316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 439498}
+  - component: {fileID: 11435358}
+  m_Layer: 0
+  m_Name: Super3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &439498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 180, z: 180}
+--- !u!114 &11435358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Desde el punto de vista absoluto podr\xEDa decirse que est\xE1 ya escrito.
+        Ser\xE1 de una manera y s\xF3lo de esa manera y de ninguna otra. Pero desde
+        el punto de vista relativo el futuro lo vamos creando nosotros con lo que
+        hacemos a cada instante."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_0
+    - theList:
+      - say
+      - "Y donde vivimos ahora nosotros es en el plano relativo. Por eso s\xF3lo tiene
+        sentido que lo veamos desde esta perspectiva."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_1
+    - theList:
+      - say
+      - "Relativo y absoluto son en realidad dos maneras de percibir de la mente,
+        y el tiempo es s\xF3lo una ilusi\xF3n mental: el futuro no existe todav\xEDa,
+        el pasado no existe ya s\xF3lo existe el presente."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_2
+    - theList:
+      - say
+      - "Y siendo as\xED..."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_3
+    - theList:
+      - say
+      - "\xBFNo te resulta sorprendente que pasemos tan poco tiempo viviendo de verdad
+        el momento presente, y tanto tiempo recordando el pasado, o divagando sobre
+        el futuro?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_4
+    - theList:
+      - ask
+      - 4
+      - "S\xED"
+      - No
+      - "Nunca lo hab\xEDa pensado"
+      - "No s\xE9 si te acabo de entender"
+      - Super3_0/0
+      - Super3_1/0
+      - Super3_2/0
+      - Super3_3/0
+      - Conv_Guru_Super3_5
+      - Conv_Guru_Super3_6
+      - Conv_Guru_Super3_7
+      - Conv_Guru_Super3_8
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Desde el punto de vista absoluto podr\xEDa decirse que est\xE1 ya escrito.
+        Ser\xE1 de una manera y s\xF3lo de esa manera y de ninguna otra. Pero desde
+        el punto de vista relativo el futuro lo vamos creando nosotros con lo que
+        hacemos a cada instante."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_0
+    - theList:
+      - say
+      - "Y donde vivimos ahora nosotros es en el plano relativo. Por eso s\xF3lo tiene
+        sentido que lo veamos desde esta perspectiva."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_1
+    - theList:
+      - say
+      - "Relativo y absoluto son en realidad dos maneras de percibir de la mente,
+        y el tiempo es s\xF3lo una ilusi\xF3n mental: el futuro no existe todav\xEDa,
+        el pasado no existe ya s\xF3lo existe el presente."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_2
+    - theList:
+      - say
+      - "Y siendo as\xED..."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_3
+    - theList:
+      - say
+      - "\xBFNo te resulta sorprendente que pasemos tan poco tiempo viviendo de verdad
+        el momento presente, y tanto tiempo recordando el pasado, o divagando sobre
+        el futuro?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_4
+    - theList:
+      - ask
+      - 4
+      - "S\xED"
+      - No
+      - "Nunca lo hab\xEDa pensado"
+      - "No s\xE9 si te acabo de entender"
+      - Super3_0/0
+      - Super3_1/0
+      - Super3_2/0
+      - Super3_3/0
+      - Conv_Guru_Super3_5
+      - Conv_Guru_Super3_6
+      - Conv_Guru_Super3_7
+      - Conv_Guru_Super3_8
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 18
+  windowY: 14

@@ -1,0 +1,318 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &171406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 451880}
+  - component: {fileID: 11405076}
+  m_Layer: 0
+  m_Name: Guru_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &451880
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11405076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Valoramos a las personas sabias. Las personas cuya sabidur\xEDa les permite
+        darse cuenta de que no tiene ning\xFAn sentido creerse superior a los dem\xE1s
+        por el hecho de que las circunstancias actuales hayan dado lugar a que en
+        el momento presente resulte que ellos tengan mucho m\xE1s dinero que t\xFA"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_0
+    - theList:
+      - say
+      - "o est\xE9n viviendo un momento de gran fama y reconocimiento, o est\xE9n
+        ocupando una posici\xF3n de responsabilidad, con el poder que ello conlleva"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_1
+    - theList:
+      - say
+      - "Tambi\xE9n valoramos a las personas cuya sabidur\xEDa les permite no sentirse
+        superiores a los dem\xE1s por el hecho de haber nacido con una determinada
+        habilidad o con un talento destacado"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_2
+    - theList:
+      - say
+      - "Desde luego valoramos a las personas que se esfuerzan, pero cuando ese esfuerzo
+        va dirigido en la direcci\xF3n correcta"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_3
+    - theList:
+      - say
+      - "Esforzarse mucho para lograr un fin ego\xEDsta no tiene sentido ni para uno
+        mismo ni para los dem\xE1s, ya que nunca aportar\xE1 la felicidad esperada:
+        ni a uno mismo, ni a los dem\xE1s"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_4
+    - theList:
+      - say
+      - "En cambio esforzarse en desarrollar nuestro interior, nuestro lado sabio,
+        amable, y bondadoso, s\xED que es algo con todo el sentido del mundo"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_5
+    - theList:
+      - say
+      - " Conocerse a uno mismo es fundamental para poder sentirse en calma, en paz,
+        y a gusto con uno mismo. Y solo cuando uno mismo est\xE1 bien puede verdaderamente
+        aportar alegr\xEDa y felicidad a los que est\xE1n a su alrededor"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_6
+    - theList:
+      - say
+      - "\xBFPor qu\xE9?\r"
+      - wait
+      - Player
+      - Conv_N5_5Espiritu_Guru_2_7
+    - theList:
+      - say
+      - "Porque no se dejar\xE1 llevar por sus impulsos, sino que ser\xE1 capaces
+        de controlarlos, evitando as\xED da\xF1ar a otros"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_8
+    - theList:
+      - say
+      - "Porque mirar\xE1 con afecto sincero a los dem\xE1s, y no les ver\xE1n como
+        extra\xF1os o competidores, sino como amigos e iguales: personas que como
+        \xE9l, est\xE1n tratando de ser felices y no sufrir"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_9
+    - theList:
+      - say
+      - "Porque se sentir\xE1 libre, al haberse liberado de la necesidad de ganar,
+        de tener raz\xF3n, o de sentirse superior"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_10
+    - theList:
+      - say
+      - "Al no necesitar sentirse mejor que nadie, no necesita aferrarse al dinero,
+        a la fama, al poder, al \xE9xito, o al reconocimiento externo buscando seguridad.
+        Y naturalmente no estar\xE1 en su horizonte da\xF1ar a nadie para lograr cualquiera
+        de estas cosas"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_11
+    - theList:
+      - say
+      - "En cambio una cosa que no les abandonar\xE1 nunca una persona as\xED es la
+        humildad, pues recordar\xE1 bien que \xE9l ha podido alcanzar ese estado de
+        calma y alegr\xEDa gracias a lo que le ense\xF1aron sus maestros en el pasado"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_12
+    - theList:
+      - say
+      - " Y es por ello que de manera natural surgir\xE1 en \xE9l la voluntad de ayudar
+        a otras personas a alcanzar el mismo estado que \xE9l ha alcanzado"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_13
+    - theList:
+      - branchTo
+      - Guru_1/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Valoramos a las personas sabias. Las personas cuya sabidur\xEDa les permite
+        darse cuenta de que no tiene ning\xFAn sentido creerse superior a los dem\xE1s
+        por el hecho de que las circunstancias actuales hayan dado lugar a que en
+        el momento presente resulte que ellos tengan mucho m\xE1s dinero que t\xFA"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_0
+    - theList:
+      - say
+      - "o est\xE9n viviendo un momento de gran fama y reconocimiento, o est\xE9n
+        ocupando una posici\xF3n de responsabilidad, con el poder que ello conlleva"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_1
+    - theList:
+      - say
+      - "Tambi\xE9n valoramos a las personas cuya sabidur\xEDa les permite no sentirse
+        superiores a los dem\xE1s por el hecho de haber nacido con una determinada
+        habilidad o con un talento destacado"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_2
+    - theList:
+      - say
+      - "Desde luego valoramos a las personas que se esfuerzan, pero cuando ese esfuerzo
+        va dirigido en la direcci\xF3n correcta"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_3
+    - theList:
+      - say
+      - "Esforzarse mucho para lograr un fin ego\xEDsta no tiene sentido ni para uno
+        mismo ni para los dem\xE1s, ya que nunca aportar\xE1 la felicidad esperada:
+        ni a uno mismo, ni a los dem\xE1s"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_4
+    - theList:
+      - say
+      - "En cambio esforzarse en desarrollar nuestro interior, nuestro lado sabio,
+        amable, y bondadoso, s\xED que es algo con todo el sentido del mundo"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_5
+    - theList:
+      - say
+      - " Conocerse a uno mismo es fundamental para poder sentirse en calma, en paz,
+        y a gusto con uno mismo. Y solo cuando uno mismo est\xE1 bien puede verdaderamente
+        aportar alegr\xEDa y felicidad a los que est\xE1n a su alrededor"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_6
+    - theList:
+      - say
+      - "\xBFPor qu\xE9?\r"
+      - wait
+      - Player
+      - Conv_N5_5Espiritu_Guru_2_7
+    - theList:
+      - say
+      - "Porque no se dejar\xE1 llevar por sus impulsos, sino que ser\xE1 capaces
+        de controlarlos, evitando as\xED da\xF1ar a otros"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_8
+    - theList:
+      - say
+      - "Porque mirar\xE1 con afecto sincero a los dem\xE1s, y no les ver\xE1n como
+        extra\xF1os o competidores, sino como amigos e iguales: personas que como
+        \xE9l, est\xE1n tratando de ser felices y no sufrir"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_9
+    - theList:
+      - say
+      - "Porque se sentir\xE1 libre, al haberse liberado de la necesidad de ganar,
+        de tener raz\xF3n, o de sentirse superior"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_10
+    - theList:
+      - say
+      - "Al no necesitar sentirse mejor que nadie, no necesita aferrarse al dinero,
+        a la fama, al poder, al \xE9xito, o al reconocimiento externo buscando seguridad.
+        Y naturalmente no estar\xE1 en su horizonte da\xF1ar a nadie para lograr cualquiera
+        de estas cosas"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_11
+    - theList:
+      - say
+      - "En cambio una cosa que no les abandonar\xE1 nunca una persona as\xED es la
+        humildad, pues recordar\xE1 bien que \xE9l ha podido alcanzar ese estado de
+        calma y alegr\xEDa gracias a lo que le ense\xF1aron sus maestros en el pasado"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_12
+    - theList:
+      - say
+      - " Y es por ello que de manera natural surgir\xE1 en \xE9l la voluntad de ayudar
+        a otras personas a alcanzar el mismo estado que \xE9l ha alcanzado"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_2_13
+    - theList:
+      - branchTo
+      - Guru_1/0
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 2612
+  windowY: 296
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 171406}
+  m_IsPrefabParent: 1

@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: 534b51169a7d81c49b7969f7e5030608
+timeCreated: 1482330944
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Agua
+    100002: Agua1
+    100004: Cueva 1
+    100006: Cueva1
+    100008: Cueva10
+    100010: Cueva11
+    100012: Cueva12
+    100014: Cueva134
+    100016: Cueva135
+    100018: Cueva136
+    100020: Cueva137
+    100022: Cueva138
+    100024: Cueva139
+    100026: Cueva146
+    100028: Cueva146 1
+    100030: Cueva147
+    100032: Cueva148
+    100034: Cueva149
+    100036: Cueva150
+    100038: Cueva151
+    100040: Cueva152
+    100042: Cueva153
+    100044: Cueva2
+    100046: Cueva3
+    100048: Cueva4
+    100050: Cueva7
+    100052: Cueva8
+    100054: Cueva9
+    100056: //RootNode
+    100058: Lamapara
+    100060: Lamapara 1
+    100062: Lamapara 10
+    100064: Lamapara 11
+    100066: Lamapara 2
+    100068: Lamapara 3
+    100070: Lamapara 4
+    100072: Lamapara 5
+    100074: Lamapara 6
+    100076: Lamapara 7
+    100078: Lamapara 8
+    100080: Lamapara 9
+    100082: ParedPiedra
+    100084: ParedPiedra 1
+    100086: ParedPiedra 10
+    100088: ParedPiedra 11
+    100090: ParedPiedra 2
+    100092: ParedPiedra 3
+    100094: ParedPiedra 4
+    100096: ParedPiedra 5
+    100098: ParedPiedra 6
+    100100: ParedPiedra 7
+    100102: ParedPiedra 8
+    100104: ParedPiedra 9
+    100106: ParedPiedra1
+    100108: ParedPiedra1 1
+    100110: ParedPiedra1 10
+    100112: ParedPiedra1 11
+    100114: ParedPiedra1 2
+    100116: ParedPiedra1 3
+    100118: ParedPiedra1 4
+    100120: ParedPiedra1 5
+    100122: ParedPiedra1 6
+    100124: ParedPiedra1 7
+    100126: ParedPiedra1 8
+    100128: ParedPiedra1 9
+    100130: ParedPiedra2
+    100132: ParedPiedra2 1
+    100134: ParedPiedra2 10
+    100136: ParedPiedra2 11
+    100138: ParedPiedra2 2
+    100140: ParedPiedra2 3
+    100142: ParedPiedra2 4
+    100144: ParedPiedra2 5
+    100146: ParedPiedra2 6
+    100148: ParedPiedra2 7
+    100150: ParedPiedra2 8
+    100152: ParedPiedra2 9
+    100154: ParedPiedra3
+    100156: ParedPiedra4
+    100158: ParedPiedra5
+    100160: ParedPiedra6
+    100162: ParedPiedra7
+    100164: ParedPiedra8
+    100166: Piedra
+    100168: Piedra 1
+    100170: Piedra 10
+    100172: Piedra 2
+    100174: Piedra 3
+    100176: Piedra 4
+    100178: Piedra 5
+    100180: Piedra 6
+    100182: Piedra 7
+    100184: Piedra 8
+    100186: Piedra 9
+    100188: Piedra1
+    100190: Piedra1 1
+    100192: Piedra1 10
+    100194: Piedra1 11
+    100196: Piedra1 2
+    100198: Piedra1 3
+    100200: Piedra1 4
+    100202: Piedra1 5
+    100204: Piedra1 6
+    100206: Piedra1 7
+    100208: Piedra1 8
+    100210: Piedra1 9
+    100212: SueloArena
+    100214: SueloArena 1
+    100216: SueloArena 10
+    100218: SueloArena 11
+    100220: SueloArena 2
+    100222: SueloArena 3
+    100224: SueloArena 4
+    100226: SueloArena 5
+    100228: SueloArena 6
+    100230: SueloArena 7
+    100232: SueloArena 8
+    100234: SueloArena 9
+    100236: SueloArena1
+    100238: Puente
+    400000: Agua
+    400002: Agua1
+    400004: Cueva 1
+    400006: Cueva1
+    400008: Cueva10
+    400010: Cueva11
+    400012: Cueva12
+    400014: Cueva134
+    400016: Cueva135
+    400018: Cueva136
+    400020: Cueva137
+    400022: Cueva138
+    400024: Cueva139
+    400026: Cueva146
+    400028: Cueva146 1
+    400030: Cueva147
+    400032: Cueva148
+    400034: Cueva149
+    400036: Cueva150
+    400038: Cueva151
+    400040: Cueva152
+    400042: Cueva153
+    400044: Cueva2
+    400046: Cueva3
+    400048: Cueva4
+    400050: Cueva7
+    400052: Cueva8
+    400054: Cueva9
+    400056: //RootNode
+    400058: Lamapara
+    400060: Lamapara 1
+    400062: Lamapara 10
+    400064: Lamapara 11
+    400066: Lamapara 2
+    400068: Lamapara 3
+    400070: Lamapara 4
+    400072: Lamapara 5
+    400074: Lamapara 6
+    400076: Lamapara 7
+    400078: Lamapara 8
+    400080: Lamapara 9
+    400082: ParedPiedra
+    400084: ParedPiedra 1
+    400086: ParedPiedra 10
+    400088: ParedPiedra 11
+    400090: ParedPiedra 2
+    400092: ParedPiedra 3
+    400094: ParedPiedra 4
+    400096: ParedPiedra 5
+    400098: ParedPiedra 6
+    400100: ParedPiedra 7
+    400102: ParedPiedra 8
+    400104: ParedPiedra 9
+    400106: ParedPiedra1
+    400108: ParedPiedra1 1
+    400110: ParedPiedra1 10
+    400112: ParedPiedra1 11
+    400114: ParedPiedra1 2
+    400116: ParedPiedra1 3
+    400118: ParedPiedra1 4
+    400120: ParedPiedra1 5
+    400122: ParedPiedra1 6
+    400124: ParedPiedra1 7
+    400126: ParedPiedra1 8
+    400128: ParedPiedra1 9
+    400130: ParedPiedra2
+    400132: ParedPiedra2 1
+    400134: ParedPiedra2 10
+    400136: ParedPiedra2 11
+    400138: ParedPiedra2 2
+    400140: ParedPiedra2 3
+    400142: ParedPiedra2 4
+    400144: ParedPiedra2 5
+    400146: ParedPiedra2 6
+    400148: ParedPiedra2 7
+    400150: ParedPiedra2 8
+    400152: ParedPiedra2 9
+    400154: ParedPiedra3
+    400156: ParedPiedra4
+    400158: ParedPiedra5
+    400160: ParedPiedra6
+    400162: ParedPiedra7
+    400164: ParedPiedra8
+    400166: Piedra
+    400168: Piedra 1
+    400170: Piedra 10
+    400172: Piedra 2
+    400174: Piedra 3
+    400176: Piedra 4
+    400178: Piedra 5
+    400180: Piedra 6
+    400182: Piedra 7
+    400184: Piedra 8
+    400186: Piedra 9
+    400188: Piedra1
+    400190: Piedra1 1
+    400192: Piedra1 10
+    400194: Piedra1 11
+    400196: Piedra1 2
+    400198: Piedra1 3
+    400200: Piedra1 4
+    400202: Piedra1 5
+    400204: Piedra1 6
+    400206: Piedra1 7
+    400208: Piedra1 8
+    400210: Piedra1 9
+    400212: SueloArena
+    400214: SueloArena 1
+    400216: SueloArena 10
+    400218: SueloArena 11
+    400220: SueloArena 2
+    400222: SueloArena 3
+    400224: SueloArena 4
+    400226: SueloArena 5
+    400228: SueloArena 6
+    400230: SueloArena 7
+    400232: SueloArena 8
+    400234: SueloArena 9
+    400236: SueloArena1
+    400238: Puente
+    2300000: Agua
+    2300002: Agua1
+    2300004: Cueva134
+    2300006: Cueva135
+    2300008: Cueva136
+    2300010: Cueva137
+    2300012: Cueva138
+    2300014: Cueva139
+    2300016: Cueva146
+    2300018: Cueva146 1
+    2300020: Cueva147
+    2300022: Cueva148
+    2300024: Cueva149
+    2300026: Cueva150
+    2300028: Cueva151
+    2300030: Cueva152
+    2300032: Lamapara
+    2300034: Lamapara 1
+    2300036: Lamapara 10
+    2300038: Lamapara 11
+    2300040: Lamapara 2
+    2300042: Lamapara 3
+    2300044: Lamapara 4
+    2300046: Lamapara 5
+    2300048: Lamapara 6
+    2300050: Lamapara 7
+    2300052: Lamapara 8
+    2300054: Lamapara 9
+    2300056: ParedPiedra
+    2300058: ParedPiedra 1
+    2300060: ParedPiedra 10
+    2300062: ParedPiedra 11
+    2300064: ParedPiedra 2
+    2300066: ParedPiedra 3
+    2300068: ParedPiedra 4
+    2300070: ParedPiedra 5
+    2300072: ParedPiedra 6
+    2300074: ParedPiedra 7
+    2300076: ParedPiedra 8
+    2300078: ParedPiedra 9
+    2300080: ParedPiedra1
+    2300082: ParedPiedra1 1
+    2300084: ParedPiedra1 10
+    2300086: ParedPiedra1 11
+    2300088: ParedPiedra1 2
+    2300090: ParedPiedra1 3
+    2300092: ParedPiedra1 4
+    2300094: ParedPiedra1 5
+    2300096: ParedPiedra1 6
+    2300098: ParedPiedra1 7
+    2300100: ParedPiedra1 8
+    2300102: ParedPiedra1 9
+    2300104: ParedPiedra2
+    2300106: ParedPiedra2 1
+    2300108: ParedPiedra2 10
+    2300110: ParedPiedra2 11
+    2300112: ParedPiedra2 2
+    2300114: ParedPiedra2 3
+    2300116: ParedPiedra2 4
+    2300118: ParedPiedra2 5
+    2300120: ParedPiedra2 6
+    2300122: ParedPiedra2 7
+    2300124: ParedPiedra2 8
+    2300126: ParedPiedra2 9
+    2300128: ParedPiedra3
+    2300130: ParedPiedra4
+    2300132: ParedPiedra5
+    2300134: ParedPiedra6
+    2300136: ParedPiedra7
+    2300138: ParedPiedra8
+    2300140: Piedra
+    2300142: Piedra 1
+    2300144: Piedra 10
+    2300146: Piedra 2
+    2300148: Piedra 3
+    2300150: Piedra 4
+    2300152: Piedra 5
+    2300154: Piedra 6
+    2300156: Piedra 7
+    2300158: Piedra 8
+    2300160: Piedra 9
+    2300162: Piedra1
+    2300164: Piedra1 1
+    2300166: Piedra1 10
+    2300168: Piedra1 11
+    2300170: Piedra1 2
+    2300172: Piedra1 3
+    2300174: Piedra1 4
+    2300176: Piedra1 5
+    2300178: Piedra1 6
+    2300180: Piedra1 7
+    2300182: Piedra1 8
+    2300184: Piedra1 9
+    2300186: SueloArena
+    2300188: SueloArena 1
+    2300190: SueloArena 10
+    2300192: SueloArena 11
+    2300194: SueloArena 2
+    2300196: SueloArena 3
+    2300198: SueloArena 4
+    2300200: SueloArena 5
+    2300202: SueloArena 6
+    2300204: SueloArena 7
+    2300206: SueloArena 8
+    2300208: SueloArena 9
+    2300210: SueloArena1
+    2300212: Puente
+    3300000: Agua
+    3300002: Agua1
+    3300004: Cueva134
+    3300006: Cueva135
+    3300008: Cueva136
+    3300010: Cueva137
+    3300012: Cueva138
+    3300014: Cueva139
+    3300016: Cueva146
+    3300018: Cueva146 1
+    3300020: Cueva147
+    3300022: Cueva148
+    3300024: Cueva149
+    3300026: Cueva150
+    3300028: Cueva151
+    3300030: Cueva152
+    3300032: Lamapara
+    3300034: Lamapara 1
+    3300036: Lamapara 10
+    3300038: Lamapara 11
+    3300040: Lamapara 2
+    3300042: Lamapara 3
+    3300044: Lamapara 4
+    3300046: Lamapara 5
+    3300048: Lamapara 6
+    3300050: Lamapara 7
+    3300052: Lamapara 8
+    3300054: Lamapara 9
+    3300056: ParedPiedra
+    3300058: ParedPiedra 1
+    3300060: ParedPiedra 10
+    3300062: ParedPiedra 11
+    3300064: ParedPiedra 2
+    3300066: ParedPiedra 3
+    3300068: ParedPiedra 4
+    3300070: ParedPiedra 5
+    3300072: ParedPiedra 6
+    3300074: ParedPiedra 7
+    3300076: ParedPiedra 8
+    3300078: ParedPiedra 9
+    3300080: ParedPiedra1
+    3300082: ParedPiedra1 1
+    3300084: ParedPiedra1 10
+    3300086: ParedPiedra1 11
+    3300088: ParedPiedra1 2
+    3300090: ParedPiedra1 3
+    3300092: ParedPiedra1 4
+    3300094: ParedPiedra1 5
+    3300096: ParedPiedra1 6
+    3300098: ParedPiedra1 7
+    3300100: ParedPiedra1 8
+    3300102: ParedPiedra1 9
+    3300104: ParedPiedra2
+    3300106: ParedPiedra2 1
+    3300108: ParedPiedra2 10
+    3300110: ParedPiedra2 11
+    3300112: ParedPiedra2 2
+    3300114: ParedPiedra2 3
+    3300116: ParedPiedra2 4
+    3300118: ParedPiedra2 5
+    3300120: ParedPiedra2 6
+    3300122: ParedPiedra2 7
+    3300124: ParedPiedra2 8
+    3300126: ParedPiedra2 9
+    3300128: ParedPiedra3
+    3300130: ParedPiedra4
+    3300132: ParedPiedra5
+    3300134: ParedPiedra6
+    3300136: ParedPiedra7
+    3300138: ParedPiedra8
+    3300140: Piedra
+    3300142: Piedra 1
+    3300144: Piedra 10
+    3300146: Piedra 2
+    3300148: Piedra 3
+    3300150: Piedra 4
+    3300152: Piedra 5
+    3300154: Piedra 6
+    3300156: Piedra 7
+    3300158: Piedra 8
+    3300160: Piedra 9
+    3300162: Piedra1
+    3300164: Piedra1 1
+    3300166: Piedra1 10
+    3300168: Piedra1 11
+    3300170: Piedra1 2
+    3300172: Piedra1 3
+    3300174: Piedra1 4
+    3300176: Piedra1 5
+    3300178: Piedra1 6
+    3300180: Piedra1 7
+    3300182: Piedra1 8
+    3300184: Piedra1 9
+    3300186: SueloArena
+    3300188: SueloArena 1
+    3300190: SueloArena 10
+    3300192: SueloArena 11
+    3300194: SueloArena 2
+    3300196: SueloArena 3
+    3300198: SueloArena 4
+    3300200: SueloArena 5
+    3300202: SueloArena 6
+    3300204: SueloArena 7
+    3300206: SueloArena 8
+    3300208: SueloArena 9
+    3300210: SueloArena1
+    3300212: Puente
+    4300000: ParedPiedra3
+    4300002: SueloArena1
+    4300004: SueloArena
+    4300006: ParedPiedra
+    4300008: ParedPiedra1
+    4300010: ParedPiedra2
+    4300012: Piedra
+    4300014: Piedra1
+    4300016: Lamapara
+    4300018: ParedPiedra4
+    4300020: ParedPiedra5
+    4300022: ParedPiedra6
+    4300024: ParedPiedra7
+    4300026: SueloArena
+    4300028: ParedPiedra
+    4300030: ParedPiedra1
+    4300032: ParedPiedra2
+    4300034: Piedra
+    4300036: Piedra1
+    4300038: Lamapara
+    4300040: SueloArena
+    4300042: ParedPiedra
+    4300044: ParedPiedra1
+    4300046: ParedPiedra2
+    4300048: Piedra
+    4300050: Piedra1
+    4300052: Lamapara
+    4300054: SueloArena
+    4300056: ParedPiedra
+    4300058: ParedPiedra1
+    4300060: ParedPiedra2
+    4300062: Piedra1
+    4300064: Lamapara
+    4300066: SueloArena
+    4300068: ParedPiedra
+    4300070: ParedPiedra1
+    4300072: ParedPiedra2
+    4300074: Piedra
+    4300076: Piedra1
+    4300078: Lamapara
+    4300080: SueloArena
+    4300082: ParedPiedra
+    4300084: ParedPiedra1
+    4300086: ParedPiedra2
+    4300088: Piedra
+    4300090: Piedra1
+    4300092: Lamapara
+    4300094: SueloArena
+    4300096: ParedPiedra
+    4300098: ParedPiedra1
+    4300100: ParedPiedra2
+    4300102: Piedra
+    4300104: Piedra1
+    4300106: Lamapara
+    4300108: SueloArena
+    4300110: ParedPiedra
+    4300112: ParedPiedra1
+    4300114: ParedPiedra2
+    4300116: Piedra
+    4300118: Piedra1
+    4300120: Lamapara
+    4300122: SueloArena
+    4300124: ParedPiedra
+    4300126: ParedPiedra1
+    4300128: ParedPiedra2
+    4300130: Piedra
+    4300132: Piedra1
+    4300134: Lamapara
+    4300136: SueloArena
+    4300138: ParedPiedra
+    4300140: ParedPiedra1
+    4300142: ParedPiedra2
+    4300144: Piedra
+    4300146: Piedra1
+    4300148: Lamapara
+    4300150: SueloArena
+    4300152: ParedPiedra
+    4300154: ParedPiedra1
+    4300156: ParedPiedra2
+    4300158: Piedra
+    4300160: Piedra1
+    4300162: Lamapara
+    4300164: Cueva134
+    4300166: Cueva135
+    4300168: Cueva136
+    4300170: Cueva137
+    4300172: Cueva146
+    4300174: Cueva138
+    4300176: Cueva139
+    4300178: Cueva147
+    4300180: Cueva146
+    4300182: Cueva148
+    4300184: Cueva149
+    4300186: Agua
+    4300188: Agua1
+    4300190: Cueva150
+    4300192: Cueva151
+    4300194: Cueva152
+    4300196: SueloArena
+    4300198: ParedPiedra
+    4300200: ParedPiedra1
+    4300202: ParedPiedra2
+    4300204: Piedra
+    4300206: Piedra1
+    4300208: Lamapara
+    4300210: ParedPiedra8
+    4300212: Puente
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

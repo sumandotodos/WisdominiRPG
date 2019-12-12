@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &111496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 435564}
+  - component: {fileID: 11455240}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Siaomi_AcercaDeWis_1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &435564
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111496}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11455240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Siaomi_AcercaDeWis_1_
+  randomYield: 0
+  phrase:
+  - "Te pondr\xE9 un ejemplo: imagina un palacio. Un bello palacio de m\xE1rmol blanco.
+    Cuando imaginas este palacio en tu mente, \xBFexiste ese palacio? \xBFEst\xE1
+    en alg\xFAn lugar? \xBFEs s\xF3lido y real? \xBFO por el contrario es pura vacuidad,
+    algo que existe s\xF3lo en tu mente?"
+  - "Pues lo mismo pasa con cualquier pensamiento que tienes: te parece algo muy real...
+    hasta que lo observas y comprendes verdaderamente lo que es: s\xF3lo una idea,
+    algo vac\xEDo de realidad por s\xED mismo. S\xF3lo tiene la realidad que t\xFA
+    quieras otorgarle."
+  - "Imagina, por ejemplo, que alguien te insulta: puedes tom\xE1rtelo tan en serio
+    que llegues a sentirte mal, o puedes darte cuenta de que cualquier pensamiento
+    que tengas relacionado con el hecho de que te acaban de llamar idiota no es m\xE1s
+    que eso, una idea. No tiene color, ni forma, ni peso, ni tama\xF1o. No es algo
+    que pueda da\xF1arte de por s\xED. Es algo tan inexistente como el palacio que
+    imaginaste, que no est\xE1 en ninguna parte. S\xF3lo en tu mente, que es vacuidad."
+  - "Por tanto, cuando te insultan puedes dejarte invadir por pensamientos que te
+    hagan sentir mal, o puedes darte cuenta de que ninguno de esos pensamientos es
+    real. Ni tampoco los que tuvo la persona que te llam\xF3 idiota. Ni siquiera tus
+    emociones son algo s\xF3lido y real. Tampoco tienen peso, ni forma, ni tama\xF1o.
+    Y si las observas, si pones tu atenci\xF3n \xFAnicamente en la emoci\xF3n, y no
+    en lo que causa la emoci\xF3n, podr\xE1s ver c\xF3mo esa emoci\xF3n empieza a
+    desaparecer como por arte de magia."
+  - Los pensamientos y las emociones son pura vacuidad, y lo mismo pasa con Wisdomini.
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 111496}
+  m_IsPrefabParent: 1

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &119836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 429402}
+  - component: {fileID: 11424040}
+  m_Layer: 0
+  m_Name: StringBank(PreguntasFamilia)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &429402
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.61206, y: 0.75922775, z: 21.22237}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11424040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: PreguntasFamilia
+  randomYield: 0
+  phrase:
+  - "Por sexo, \xBFqui\xE9nes son capaces de percibir mejor las emociones del otro?"
+  - "\xBFCu\xE1l es el factor que m\xE1s influye a la hora de empezar a tomar alcoholu
+    otras drogas en el instituto o en la universidad?"
+  - "\xBFQu\xE9 podemos hacer si un beb\xE9 nos coge el m\xF3vil y lo zarandea con
+    el consiguiente riesgo de destrozo?"
+  - "\xBFQu\xE9 es m\xE1s efectivo a la hora de educar a ni\xF1os peque\xF1os para
+    que no tengan ciertos comportamientos negativos, como por ejemplo quitarles sus
+    juguetes a otros ni\xF1os?"
+  - "Ante un ruido o susto repentino, \xBFreaccionar\xE1n igual una persona que medita
+    y una que no medita?"
+  correntAnswer: 0300000001000000030000000200000002000000
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 119836}
+  m_IsPrefabParent: 1

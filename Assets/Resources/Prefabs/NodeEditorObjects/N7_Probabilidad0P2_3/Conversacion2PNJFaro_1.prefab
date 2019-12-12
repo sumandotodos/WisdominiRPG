@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010125352780}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010125352780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012579620288}
+  - component: {fileID: 114000013827811516}
+  m_Layer: 0
+  m_Name: Conversacion2PNJFaro_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012579620288
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010125352780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013827811516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010125352780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Pues con el universo pasa lo mismo. Desconocemos cada una de las causas previas
+        que hicieron que en un momento dado surgiera este universo y fuera evolucionando
+        de una manera perfectamente ordenada. Pero que las desconozcamos no hace que
+        esas causas dejen de estar ah\xED. A partir de un tiempo tan peque\xF1o como
+        una millon\xE9sima de segundo desde que surgi\xF3 el universo s\xED que hemos
+        sido capaces de estudiarlo, y todo nos parece racional. Entonces lo estudiamos
+        y punto, sin hacernos m\xE1s preguntas."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_0
+    - theList:
+      - say
+      - "En cambio antes de ese tiempo no podemos estudiar nada, porque se produjo
+        lo que en matem\xE1ticas se llama una singularidad, que significa que al querer
+        estudiar o analizar algo, obtenemos como resultado un infinito. Y antes de
+        esa millon\xE9sima de segundo los resultados hallados dec\xEDan que la temperatura
+        era infinitamente alta, y el espacio que ocupaba el universo era infinitamente
+        peque\xF1o."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_1
+    - theList:
+      - say
+      - "Entonces \xBFqu\xE9 pasa? Que como no podemos estudiar ni experimentar lo
+        anterior a esa millon\xE9sima de segundo, decimos que la causa de todo fue
+        el azar. Que por azar se dieron las condiciones y leyes f\xEDsicas para que
+        surgiera el universo. Y nos quedamos tan panchos."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_2
+    - theList:
+      - say
+      - "\xBFY para ti no es el azar?"
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_3
+    - theList:
+      - say
+      - "El azar no es m\xE1s que un concepto, una explicaci\xF3n que nos damos, pero
+        no es una fuerza causante de ning\xFAn movimiento en el universo."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_4
+    - theList:
+      - say
+      - "Visto as\xED\u2026"
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_5
+    - theList:
+      - say
+      - "A veces empleamos el azar para llegar a creernos que ya tenemos todas las
+        respuestas. Que lo que no hemos estudiado y analizado es as\xED por arte de
+        magia, por generaci\xF3n espont\xE1nea, que no hay nada que cause que sea
+        as\xED. Sin embargo esto no tiene sentido, todo suceso f\xEDsico tiene una
+        causa f\xEDsica. Dime un solo suceso que no tenga una causa previa."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_6
+    - theList:
+      - say
+      - "Ya\u2026"
+      - don't wait
+      - 
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_7
+    - theList:
+      - say
+      - <img src = "https://www.google.es/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6f%2FEarth_Eastern_Hemisphere.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWorld&docid=f_cUa_k0VC7HhM&tbnid=IC_MWs-cbpxMdM%3A&w=2048&h=2048&safe=active&bih=541&biw=1164&ved=0ahUKEwimgau95_fOAhUoLMAKHV6rBckQMwgdKAEwAQ&iact=mrc&uact=8">
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_8
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Pues con el universo pasa lo mismo. Desconocemos cada una de las causas previas
+        que hicieron que en un momento dado surgiera este universo y fuera evolucionando
+        de una manera perfectamente ordenada. Pero que las desconozcamos no hace que
+        esas causas dejen de estar ah\xED. A partir de un tiempo tan peque\xF1o como
+        una millon\xE9sima de segundo desde que surgi\xF3 el universo s\xED que hemos
+        sido capaces de estudiarlo, y todo nos parece racional. Entonces lo estudiamos
+        y punto, sin hacernos m\xE1s preguntas."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_0
+    - theList:
+      - say
+      - "En cambio antes de ese tiempo no podemos estudiar nada, porque se produjo
+        lo que en matem\xE1ticas se llama una singularidad, que significa que al querer
+        estudiar o analizar algo, obtenemos como resultado un infinito. Y antes de
+        esa millon\xE9sima de segundo los resultados hallados dec\xEDan que la temperatura
+        era infinitamente alta, y el espacio que ocupaba el universo era infinitamente
+        peque\xF1o."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_1
+    - theList:
+      - say
+      - "Entonces \xBFqu\xE9 pasa? Que como no podemos estudiar ni experimentar lo
+        anterior a esa millon\xE9sima de segundo, decimos que la causa de todo fue
+        el azar. Que por azar se dieron las condiciones y leyes f\xEDsicas para que
+        surgiera el universo. Y nos quedamos tan panchos."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_2
+    - theList:
+      - say
+      - "\xBFY para ti no es el azar?"
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_3
+    - theList:
+      - say
+      - "El azar no es m\xE1s que un concepto, una explicaci\xF3n que nos damos, pero
+        no es una fuerza causante de ning\xFAn movimiento en el universo."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_4
+    - theList:
+      - say
+      - "Visto as\xED\u2026"
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_5
+    - theList:
+      - say
+      - "A veces empleamos el azar para llegar a creernos que ya tenemos todas las
+        respuestas. Que lo que no hemos estudiado y analizado es as\xED por arte de
+        magia, por generaci\xF3n espont\xE1nea, que no hay nada que cause que sea
+        as\xED. Sin embargo esto no tiene sentido, todo suceso f\xEDsico tiene una
+        causa f\xEDsica. Dime un solo suceso que no tenga una causa previa."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_6
+    - theList:
+      - say
+      - "Ya\u2026"
+      - don't wait
+      - 
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_7
+    - theList:
+      - say
+      - <img src = "https://www.google.es/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6f%2FEarth_Eastern_Hemisphere.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWorld&docid=f_cUa_k0VC7HhM&tbnid=IC_MWs-cbpxMdM%3A&w=2048&h=2048&safe=active&bih=541&biw=1164&ved=0ahUKEwimgau95_fOAhUoLMAKHV6rBckQMwgdKAEwAQ&iact=mrc&uact=8">
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1_8
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000f00000011000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 710
+  windowY: 13

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1770217602913598}
+  m_IsPrefabParent: 1
+--- !u!1 &1770217602913598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4874422071188872}
+  - component: {fileID: 114766387109958622}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_BBB_PruebaDeFuego_6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4874422071188872
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1770217602913598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114766387109958622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1770217602913598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_BBB_PruebaDeFuego_6_
+  randomYield: 0
+  phrase:
+  - "\xBFQu\xE9 te hace pensar que podemos aprender matem\xE1ticas, jardiner\xEDa
+    o a pilotar un avi\xF3n, pero que no podemos aprender a manejarnos a nosotros
+    mismos para que las emociones negativas no duren m\xE1s all\xE1 de lo necesario,
+    y para fomentar las emociones positivas que nos hacen estar alegres, en calma
+    y en paz?"
+  - Los seres humanos somos seres emocionales. Las emociones son parte de nuestro
+    ser.
+  - "Claro que lo son. El problema es que dejamos que los gu\xEDas de nuestras emociones
+    no sean los m\xE1s adecuados. Tendemos a tomar el camino f\xE1cil."
+  - "Que no es investigar lo que dicen los sabios o los cient\xEDficos, sino dejarnos
+    guiar por la que dicta la publicidad, la televisi\xF3n, o las personas que ya
+    han interiorizado inconscientemente lo que dice la publicidad y la televisi\xF3n."
+  - "Este dictado nos cuenta que encontraremos la felicidad en objetos externos. Y
+    en parte es verdad: esos objetos producen una cierta satisfacci\xF3n, \xBFpero
+    es eso lo que buscamos?"
+  - "\xBFEs esa la felicidad a la que aspiramos? \xBFcu\xE1nto dura? \xBFnos quedamos
+    satisfechos de verdad cuando conseguimos el objeto que sea, o por el contrario
+    al poco tiempo queremos m\xE1s porque nos hemos quedado igual de vac\xEDos que
+    est\xE1bamos antes?"
+  correntAnswer: 

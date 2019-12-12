@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1541503382863400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4206750260052888}
+  - component: {fileID: 114757102601006390}
+  m_Layer: 0
+  m_Name: MinijuegoParte03_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4206750260052888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541503382863400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114757102601006390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541503382863400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - ask
+      - 4
+      - El sentido del humor
+      - "Que solo los humanos tenemos una vertiente altruista por la que somos capaces
+        de hacer cosas por los dem\xE1s"
+      - Que solo los humanos somos capaces de resolver problemas de manera creativa
+        y usando herramientas
+      - "Que ning\xFAn otro animal tiene una memoria tan buena como la nuestra"
+      - MinijuegoParte03_2/0
+      - MinijuegoParte03_3/0
+      - MinijuegoParte03_4/0
+      - MinijuegoParte03_5/0
+      - Conv_N2_0_Chamana_MinijuegoParte03_1_0
+      - Conv_N2_0_Chamana_MinijuegoParte03_1_1
+      - Conv_N2_0_Chamana_MinijuegoParte03_1_2
+      - Conv_N2_0_Chamana_MinijuegoParte03_1_3
+  programs:
+  - theList:
+    - theList:
+      - ask
+      - 4
+      - El sentido del humor
+      - "Que solo los humanos tenemos una vertiente altruista por la que somos capaces
+        de hacer cosas por los dem\xE1s"
+      - Que solo los humanos somos capaces de resolver problemas de manera creativa
+        y usando herramientas
+      - "Que ning\xFAn otro animal tiene una memoria tan buena como la nuestra"
+      - MinijuegoParte03_2/0
+      - MinijuegoParte03_3/0
+      - MinijuegoParte03_4/0
+      - MinijuegoParte03_5/0
+      - Conv_N2_0_Chamana_MinijuegoParte03_1_0
+      - Conv_N2_0_Chamana_MinijuegoParte03_1_1
+      - Conv_N2_0_Chamana_MinijuegoParte03_1_2
+      - Conv_N2_0_Chamana_MinijuegoParte03_1_3
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 419
+  windowY: 1811

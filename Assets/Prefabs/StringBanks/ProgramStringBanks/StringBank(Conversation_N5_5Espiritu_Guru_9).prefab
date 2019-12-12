@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &172372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 415792}
+  - component: {fileID: 11475996}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N5_5Espiritu_Guru_9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &415792
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11475996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N5_5Espiritu_Guru_9_
+  randomYield: 0
+  phrase:
+  - " de nuevo si creemos que el hecho de nacer en una familia u otra es fruto del
+    azar, entonces heredar unos genes u otros y nacer con un talento innato u con
+    otro, tambi\xE9n ser\xEDa equivalente a sacar al azar una carta u otra del mont\xF3n"
+  - Te entiendo
+  - 
+  - "\xBFTiene sentido admirar al que se lo curra pensando solo en s\xED mismos? El
+    hecho de estar obsesionado con lograr fama, riqueza o poder, solo tiene una raz\xF3n
+    de ser, que es tratar alcanzar a trav\xE9s de lo externo una seguridad que no
+    existe en lo interno"
+  - "Si buscas en el interior de personas as\xED solo encontrar\xE1s una autoestima
+    da\xF1ada que trata de buscar consuelo en la aprobaci\xF3n y la admiraci\xF3n
+    de los dem\xE1s, para tratar as\xED de suplir sus carencias emocionales"
+  - " Por desgracia desconocen que este ant\xEDdoto solo le dar\xE1 un resultado parcial
+    y durante poco tiempo"
+  - "A pesar de esto, mucha gente admira a las personas que han logrado fama, dinero,
+    o poder, y esto es algo que no deja de resultar parad\xF3jico, ya que incluso
+    desde un punto de vista ego\xEDsta es algo carece de todo sentido"
+  - "Porque dime, a ti, ego\xEDstamente a qui\xE9n te interesa m\xE1s admirar, \xBFa
+    aqu\xE9l que solo busca su propio beneficio y por esa v\xEDa ha logrado hacerse
+    millonario"
+  - " famoso o poderoso, o a aquel que busca el beneficio de los dem\xE1s y trabaja
+    prest\xE1ndoles su ayuda sin importarle si su nombre y su cara aparecen en las
+    portadas o en las pantallas de la gente?\r"
+  - "Sin embargo en la sociedad de la que vienes al otro lado del cristal, es mucho
+    m\xE1s frecuente admirar al primero que al segundo... "
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 172372}
+  m_IsPrefabParent: 1

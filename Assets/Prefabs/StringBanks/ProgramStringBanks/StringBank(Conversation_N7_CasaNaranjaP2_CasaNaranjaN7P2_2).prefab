@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1578063256574746}
+  m_IsPrefabParent: 1
+--- !u!1 &1578063256574746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4468990985364660}
+  - component: {fileID: 114870464109079968}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7_CasaNaranjaP2_CasaNaranjaN7P2_2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4468990985364660
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1578063256574746}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114870464109079968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1578063256574746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7_CasaNaranjaP2_CasaNaranjaN7P2_2_
+  randomYield: 0
+  phrase:
+  - "Se parecer\xE1n bastante. Si son del mismo embri\xF3n y todo dentro de cada casa
+    todo es igual..."
+  - "Conozco muchos hermanos gemelos que han salido cada uno de su padre y de su madre.
+    Con estos 4 puede pasar lo mismo, no tienen por qu\xE9 parecerse en nada."
+  - "Si tuvieras que elegir entre predecir que no se parecer\xE1n en nada, o que ser\xE1n
+    iguales en todo, \xBFqu\xE9 dir\xEDas?"
+  - "Que no se parecer\xE1n en nada."
+  - "Que ser\xE1n iguales en todo."
+  - "\xBFY t\xFA Willis, qu\xE9 opinas?."
+  - "Yo creo que cada uno saldr\xEDa como saliese, no ienen por qu\xE9 ser iguales
+    en todo."
+  - "No s\xE9 qu\xE9 te lleva a pensar eso, Willis, pero si somos solo algo f\xEDsico
+    eso no podr\xEDa ocurrir."
+  - "\xBFC\xF3mo que no? \xBFY que ocurrir\xEDa entonces?"
+  - "\xBFQu\xE9 te parecer\xEDa que los 4 hicieran lo mismo a cada momento?"
+  - "\xBFA qu\xE9 te refieres?"
+  - "A eso: a que cada uno de los 4 beb\xE9s hiciera exactamente lo mismo a lo largo
+    los 86.400 segundos que tiene un d\xEDa, y as\xED durante los 10 a\xF1os que pasen
+    dentro de la casa: que movieran cada m\xFAsculo exactamente igual y al mismo tiempo,
+    que inhalaran a la vez y con la misma intensidad, y que exhalaran tambi\xE9n a
+    la vez."
+  - " Que hicieran las mismas cosas. Que imaginaran lo mismo. Que sintieran las mismas
+    emociones, que tuvieran id\xE9nticos pensamientos en cada instante, que so\xF1aran
+    con lo mismo... en definitiva que fueran 4 ni\xF1os diferentes pero una \xFAnica
+    experiencia vital, una \xFAnica conciencia para los 4, \xBFqu\xE9 te parecer\xEDa?\r."
+  correntAnswer: 

@@ -1,0 +1,610 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1160588466331242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4520121504971316}
+  - component: {fileID: 33458725740385288}
+  - component: {fileID: 64398349933846294}
+  - component: {fileID: 23983063364272780}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4520121504971316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160588466331242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.7263535, y: 2.6337376, z: 1.4389306}
+  m_Children: []
+  m_Father: {fileID: 4236379884196226}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33458725740385288
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160588466331242}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &64398349933846294
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160588466331242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &23983063364272780
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160588466331242}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1629875307213896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4236379884196226}
+  - component: {fileID: 114019214116442100}
+  - component: {fileID: 135961109386253392}
+  m_Layer: 0
+  m_Name: SiaomiSuperDialogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4236379884196226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629875307213896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.109321594, y: 22.75, z: 0.96868134}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4520121504971316}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114019214116442100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629875307213896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - sendMessage
+      - SiaomiSuperDialogoHelper
+      - selectAnswers
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - ask
+      - 8
+      - "A veces me encuentro con personas que me parece que est\xE1n todav\xEDa m\xE1s
+        desorientadas que yo \xBFqui\xE9nes son esas personas con las que me encuentro?"
+      - "\xBFQu\xE9 es Wisdomini?"
+      - "\xBFPor qu\xE9 estoy aqu\xED? \xBFCu\xE1l es mi misi\xF3n?"
+      - "\xBFPor qu\xE9 te refieres al mundo donde vivo como \"el mundo al que llam\xE1is
+        real\"?"
+      - "Entiendo que estoy en Wisd\xF3mini para hacer que prevalezca la luz sobre
+        la oscuridad, \xBFpero c\xF3mo?"
+      - super2
+      - super3
+      - super4
+      - super1
+      - super2
+      - super3
+      - super4
+      - super5
+      - super6
+      - super7
+      - super8
+      - SiaomiSuperDialogo0_0
+      - SiaomiSuperDialogo0_1
+      - SiaomiSuperDialogo0_2
+      - SiaomiSuperDialogo0_3
+      - SiaomiSuperDialogo0_4
+      - SiaomiSuperDialogo0_5
+      - SiaomiSuperDialogo0_6
+      - SiaomiSuperDialogo0_7
+    - theList:
+      - makeLabel
+      - super1
+    - theList:
+      - resetAnswers
+      - 0.0
+      - false
+      - false
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 1
+    - theList:
+      - replaceProgram
+      - Super1
+      - onAwake
+      - False
+    - theList:
+      - makeLabel
+      - super2
+    - theList:
+      - resetAnswers
+      - 
+      - false
+      - false
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 2
+    - theList:
+      - replaceProgram
+      - Super2
+      - onAwake
+      - False
+    - theList:
+      - makeLabel
+      - super3
+    - theList:
+      - resetAnswers
+      - 
+      - false
+      - false
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 3
+    - theList:
+      - replaceProgram
+      - Super3
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - super4
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 4
+    - theList:
+      - resetAnswers
+      - 
+      - false
+      - false
+    - theList:
+      - replaceProgram
+      - Super4
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - super5
+    - theList:
+      - resetAnswers
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 5
+    - theList:
+      - replaceProgram
+      - Super5
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - super6
+    - theList:
+      - resetAnswers
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 6
+    - theList:
+      - replaceProgram
+      - Super6
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - super7
+    - theList:
+      - resetAnswers
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 7
+    - theList:
+      - replaceProgram
+      - Super7
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - super8
+    - theList:
+      - resetAnswers
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 8
+    - theList:
+      - replaceProgram
+      - Super8
+      - none
+      - False
+  programs:
+  - theList:
+    - theList:
+      - sendMessage
+      - SiaomiSuperDialogoHelper
+      - selectAnswers
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - ask
+      - 8
+      - "A veces me encuentro con personas que me parece que est\xE1n todav\xEDa m\xE1s
+        desorientadas que yo \xBFqui\xE9nes son esas personas con las que me encuentro?"
+      - "\xBFQu\xE9 es Wisdomini?"
+      - "\xBFPor qu\xE9 estoy aqu\xED? \xBFCu\xE1l es mi misi\xF3n?"
+      - "\xBFPor qu\xE9 te refieres al mundo donde vivo como \"el mundo al que llam\xE1is
+        real\"?"
+      - "Entiendo que estoy en Wisd\xF3mini para hacer que prevalezca la luz sobre
+        la oscuridad, \xBFpero c\xF3mo?"
+      - super2
+      - super3
+      - super4
+      - super1
+      - super2
+      - super3
+      - super4
+      - super5
+      - super6
+      - super7
+      - super8
+      - SiaomiSuperDialogo0_0
+      - SiaomiSuperDialogo0_1
+      - SiaomiSuperDialogo0_2
+      - SiaomiSuperDialogo0_3
+      - SiaomiSuperDialogo0_4
+      - SiaomiSuperDialogo0_5
+      - SiaomiSuperDialogo0_6
+      - SiaomiSuperDialogo0_7
+    - theList:
+      - makeLabel
+      - super1
+    - theList:
+      - resetAnswers
+      - 0.0
+      - false
+      - false
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 1
+    - theList:
+      - replaceProgram
+      - Super1
+      - onAwake
+      - False
+    - theList:
+      - makeLabel
+      - super2
+    - theList:
+      - resetAnswers
+      - 
+      - false
+      - false
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 2
+    - theList:
+      - replaceProgram
+      - Super2
+      - onAwake
+      - False
+    - theList:
+      - makeLabel
+      - super3
+    - theList:
+      - resetAnswers
+      - 
+      - false
+      - false
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 3
+    - theList:
+      - replaceProgram
+      - Super3
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - super4
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 4
+    - theList:
+      - resetAnswers
+      - 
+      - false
+      - false
+    - theList:
+      - replaceProgram
+      - Super4
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - super5
+    - theList:
+      - resetAnswers
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 5
+    - theList:
+      - replaceProgram
+      - Super5
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - super6
+    - theList:
+      - resetAnswers
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 6
+    - theList:
+      - replaceProgram
+      - Super6
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - super7
+    - theList:
+      - resetAnswers
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 7
+    - theList:
+      - replaceProgram
+      - Super7
+      - none
+      - False
+    - theList:
+      - makeLabel
+      - super8
+    - theList:
+      - resetAnswers
+    - theList:
+      - storeData
+      - Integer
+      - SiaomiSuperAnswer
+      - 8
+    - theList:
+      - replaceProgram
+      - Super8
+      - none
+      - False
+  eventNamesInOrder:
+  - onSpeak
+  isProgramRunning: 0000
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: Siaomi
+  instructionColor:
+  - theList: ffffffffffffffffffffffff00000000ffffffffffffffffffffffff01000000ffffffffffffffffffffffff02000000ffffffffffffffffffffffff03000000ffffffffffffffffffffffff04000000ffffffffffffffffffffffff05000000ffffffffffffffffffffffff00000000ffffffffffffffffffffffff01000000ffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  pivotYRotation: 0
+  distanceToPlayer: 0
+  followingState: 0
+  followState: 0
+  markedAsStartFollowing: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  cameraPivotY: {fileID: 0}
+  spriteHolder: {fileID: 1160588466331242}
+  showingFrame: 0
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  IdleAnimationSpeed: 1
+  Idle:
+  - {fileID: 0}
+  IdleSprite: []
+  WalkingFront: []
+  WalkingFrontSprite: []
+  WalkingFrontLeft: []
+  WalkingFrontLeftSprite: []
+  WalkingLeft: []
+  WalkingLeftSprite: []
+  WalkingLeftBack: []
+  WalkingLeftBackSprite: []
+  WalkingBack: []
+  WalkingBackSprite: []
+  WalkingBackRight: []
+  WalkingBackRightSprite: []
+  WalkingRight: []
+  WalkingRightSprite: []
+  WalkingRightFront: []
+  WalkingRightFrontSprite: []
+  NextProgram:
+  - {fileID: 114192826950613076, guid: db8c914b0c2354af58b39e9865393ea0, type: 3}
+  - {fileID: 114205770445931172, guid: 3f2b61e7175ce4866b45c4562089d98f, type: 3}
+  - {fileID: 114927473385586720, guid: 6a0c52e92aeba4f96b281ccc09f50587, type: 3}
+  - {fileID: 114434753281494422, guid: 90234c2be334a45b7b59742b2c16dadb, type: 3}
+  - {fileID: 114905502073868838, guid: 5295b40208155ff4abb36374d489b4c1, type: 3}
+  - {fileID: 114195798315564272, guid: d0726e7e885f68941ab7be36565edc45, type: 3}
+  - {fileID: 114263365550285122, guid: 6664d1d51c20202499c0ef5440a43e62, type: 3}
+  - {fileID: 114076488213343760, guid: cd970c01c51457a489999e2f3337fc6b, type: 3}
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  images: []
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 01000000
+  action:
+  - theList: 02000000100000000c000000130000002c000000180000001a000000130000002c000000180000001a000000130000002c000000180000001a00000013000000180000002c0000001a000000130000002c000000180000001a000000130000002c000000180000001a000000130000002c000000180000001a000000130000002c000000180000001a000000
+  animationSpeed: 0
+  animationDelay: 0
+  frameTime: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Sprite: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Sprite: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Sprite: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 0}
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: mouth
+  followDistance: 4
+  autopilotAbsolute: 1
+--- !u!135 &135961109386253392
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629875307213896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 5.02
+  m_Center: {x: 0, y: 0, z: 0}

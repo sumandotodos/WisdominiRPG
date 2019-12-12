@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1519627560071324}
+  m_IsPrefabParent: 1
+--- !u!1 &1519627560071324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4534762212833690}
+  - component: {fileID: 114323956083248732}
+  - component: {fileID: 65360088494383172}
+  m_Layer: 0
+  m_Name: MeditationExplainProgram
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4534762212833690
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1519627560071324}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.68, y: 1.5199995, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65360088494383172
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1519627560071324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114323956083248732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1519627560071324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a17f8e4e0194471bb45e937426a4abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - <
+      - fullExplain
+      - lightExplain
+      - Retrieve data
+      - Constant
+      - NTimeExplainMeditation
+      - Integer
+      - 5
+    - theList:
+      - makeLabel
+      - fullExplain
+    - theList:
+      - chispAlert
+      - "Para ascender al plano superior es necesario llevar la mente a un estado
+        de relajaci\xF3n."
+      - wait
+      - MeditationExplainProgram0_0
+    - theList:
+      - chispAlert
+      - "Centra la atenci\xF3n en tu respiraci\xF3n, observa tu respiraci\xF3n sin
+        modificarla."
+      - wait
+      - MeditationExplainProgram0_1
+    - theList:
+      - chispAlert
+      - "Toca la pantalla cada vez que vac\xEDes tus pulmones, evita hacerlo de forma
+        mec\xE1nica."
+      - wait
+      - MeditationExplainProgram0_2
+    - theList:
+      - chispAlert
+      - "Antes de empezar ponte c\xF3modo y observa la postura de tu cuerpo. Respira
+        profundamente 3 veces para soltar tensiones y centrar la mente."
+      - wait
+      - MeditationExplainProgram0_3
+    - theList:
+      - delay
+      - 4
+    - theList:
+      - updateData
+      - Integer
+      - NTimeExplainMeditation
+      - Add
+      - Constant
+      - 1
+    - theList:
+      - closeChispAlert
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - lightExplain
+    - theList:
+      - chispAlert
+      - "Ya sabes que para ascender al plano superior es necesario llevar la mente
+        a un estado de relajaci\xF3n. Haz lo mismo siempre."
+      - wait
+      - MeditationExplainProgram0_4
+    - theList:
+      - closeChispAlert
+    - theList:
+      - makeLabel
+      - fin
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - sendMessage
+      - Player
+      - hideIcon
+    - theList:
+      - if
+      - <
+      - fullExplain
+      - lightExplain
+      - Retrieve data
+      - Constant
+      - NTimeExplainMeditation
+      - Integer
+      - 5
+    - theList:
+      - makeLabel
+      - fullExplain
+    - theList:
+      - chispAlert
+      - "Para ascender al plano superior es necesario llevar la mente a un estado
+        de relajaci\xF3n."
+      - wait
+      - MeditationExplainProgram0_0
+    - theList:
+      - chispAlert
+      - "Centra la atenci\xF3n en tu respiraci\xF3n, observa tu respiraci\xF3n sin
+        modificarla."
+      - wait
+      - MeditationExplainProgram0_1
+    - theList:
+      - chispAlert
+      - "Toca la pantalla cada vez que vac\xEDes tus pulmones, evita hacerlo de forma
+        mec\xE1nica."
+      - wait
+      - MeditationExplainProgram0_2
+    - theList:
+      - chispAlert
+      - "Antes de empezar ponte c\xF3modo y observa la postura de tu cuerpo. Respira
+        profundamente 3 veces para soltar tensiones y centrar la mente."
+      - wait
+      - MeditationExplainProgram0_3
+    - theList:
+      - closeChispAlert
+    - theList:
+      - sendMessage
+      - CountDown
+      - launch
+    - theList:
+      - delay
+      - 3
+    - theList:
+      - updateData
+      - Integer
+      - NTimeExplainMeditation
+      - Add
+      - Constant
+      - 1
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - lightExplain
+    - theList:
+      - chispAlert
+      - "Ya sabes que para ascender al plano superior es necesario llevar la mente
+        a un estado de relajaci\xF3n. Haz lo mismo siempre."
+      - wait
+      - MeditationExplainProgram0_4
+    - theList:
+      - closeChispAlert
+    - theList:
+      - makeLabel
+      - fin
+  eventNamesInOrder:
+  - customEvent1
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  spriteHolder: {fileID: 0}
+  namer: 
+  nEvents: 0
+  interactable: 0
+  pickable: 0
+  images:
+  - {fileID: 2800000, guid: 53f2ae917f1c0491cae9b29c35f619a6, type: 3}
+  rgb:
+    R: 0
+    G: 0
+    B: 0
+  ready:
+    R: 0
+    G: 0
+    B: 0
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 05000000
+  action:
+  - theList: 0a000000020000000f0000000d00000013000000130000001300000013000000140000000200000004000000110000000e0000000d00000013000000140000000d000000
+  animationSpeed: 6
+  NextProgram: []
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 8300000, guid: ce7ebd5ae497d42fc9cc793a2509dfbd, type: 3}
+  music: []
+  interactIconName: 
+  FlameHeroClass: 0
+  FlameNumber: 0

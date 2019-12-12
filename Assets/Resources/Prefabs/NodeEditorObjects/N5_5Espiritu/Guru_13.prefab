@@ -1,0 +1,578 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &198512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 495222}
+  - component: {fileID: 11475576}
+  m_Layer: 0
+  m_Name: Guru_13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &495222
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11475576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Muy sencillo: sab\xEDan que lo \xFAnico que es verdaderamente digno de admiraci\xF3n
+        es el hecho de pensar en los dem\xE1s por encima de pensar solo en uno mismo.
+        Querer contribuir a que los dem\xE1s sean felices y actuar para ayudarles
+        a lograrlo es lo que es digno de admiraci\xF3n, \xBFno crees?\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_0
+    - theList:
+      - say
+      - "\xBFTe parece que hay causa m\xE1s noble que esa? "
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_1
+    - theList:
+      - say
+      - "\xBFCrees que hay otro modo de lograr una sociedad donde la paz y la alegr\xEDa
+        se sobrepongan a la competitividad y a la envidia? "
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_2
+    - theList:
+      - say
+      - "Se te ocurre alguna manera mejor de que todo el mundo viva feliz y sin miedos?\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_3
+    - theList:
+      - say
+      - "Y hay otra raz\xF3n por la que esas personas rechazaban esa escala de valores:
+        no cre\xEDan en las divisiones, ni ten\xEDan necesidad alguna de sentirse
+        admiradas por los dem\xE1s"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_4
+    - theList:
+      - say
+      - "Alguien que sabe distinguir las verdaderas causas de la felicidad de las
+        aparentes   \xBFcrees que se sentir\xEDa atra\xEDdo por el hecho de ser admirado
+        por los dem\xE1s? "
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_5
+    - theList:
+      - ask
+      - 2
+      - "S\xED"
+      - No
+      - Guru_13/7
+      - Guru_13/7
+      - Conv_N5_5Espiritu_Guru_13_6
+      - Conv_N5_5Espiritu_Guru_13_7
+    - theList:
+      - say
+      - "\xBFCu\xE1l crees que es la raz\xF3n por la que tanta gente hace suyas escalas
+        sociales que en lugar de hacerles felices, les volver\xE1n desgraciados?\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_8
+    - theList:
+      - ask
+      - 3
+      - La impotencia
+      - El miedo
+      - "No lo s\xE9"
+      - Guru_14/0
+      - Guru_15/0
+      - 
+      - Conv_N5_5Espiritu_Guru_13_9
+      - Conv_N5_5Espiritu_Guru_13_10
+      - Conv_N5_5Espiritu_Guru_13_11
+    - theList:
+      - say
+      - "El tiempo que hemos pasado reflexionando acerca de cu\xE1l queremos que sea
+        nuestra propia escala de valores. Nuestra propia constituci\xF3n personal"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_12
+    - theList:
+      - say
+      - "O m\xE1s bien, el tiempo que NO hemos dedicado a reflexionar sobre esta cuesti\xF3n"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_13
+    - theList:
+      - say
+      - "Esta es la causa por la que la mayor\xEDa de la gente al otro lado del cristal,
+        ha hecho suya una escala social que admira las cosas equivocadas"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_14
+    - theList:
+      - say
+      - Cosas que no conducen a la felicidad
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_15
+    - theList:
+      - say
+      - 'Admiran a los ricos, los famosos, los poderosos '
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_16
+    - theList:
+      - say
+      - "Quieren ser como ellos, les ven como personas triunfadoras, y se sienten
+        inferiores a ellos. Su ambici\xF3n en la vida es llegar a ser ricos, famosos
+        o poderosos. Y dedican a ello todo su esfuerzo y energ\xEDa"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_17
+    - theList:
+      - say
+      - Sin comprender que eso no les da la felicidad que buscan. Y sin pararse tampoco
+        a pensar en que otros miles de millones de personas persiguen exactamente
+        lo mismo
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_18
+    - theList:
+      - say
+      - "persiguen exactamente lo mismo, y lograrlo ser\xEDa tan f\xE1cil como ser
+        golpeado por un meteorito en la cabeza...\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_19
+    - theList:
+      - say
+      - "Y aun as\xED casi todos se pasar\xE1n su vida intent\xE1ndolo. Y casi todos
+        morir\xE1n sin lograrlo"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_20
+    - theList:
+      - say
+      - "\xBFQu\xE9 te parece?\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_21
+    - theList:
+      - ask
+      - 2
+      - "Que es una l\xE1stima "
+      - "Que visto as\xED el camino del crecimiento personal es una v\xEDa mucho m\xE1s
+        r\xE1pida y segura para alcanzar la felicidad "
+      - Guru_16/0
+      - Guru_17/0
+      - Conv_N5_5Espiritu_Guru_13_22
+      - Conv_N5_5Espiritu_Guru_13_23
+    - theList:
+      - say
+      - 'De todos modos ten cuidado: la influencia de la escala de valores del otro
+        lado del cristal de donde vienes, es poderosa'
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_24
+    - theList:
+      - say
+      - "La televisi\xF3n, la publicidad, las redes sociales, la gente a tu alrededor
+        que ya ha aceptado como suyo ese sistema de valores son una influencia permanente
+        que siempre estar\xE1 al acecho..\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_25
+    - theList:
+      - say
+      - "Puede que ahora te parezca muy razonable lo que te estoy diciendo. Pero si
+        no reflexionas t\xFA mismo sobre ello el tiempo suficiente..\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_26
+    - theList:
+      - say
+      - "Si no investigas. No analizas. No verificas por ti mismo estas palabras..\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_27
+    - theList:
+      - say
+      - "Si no haces tu propia b\xFAsqueda en definitiva...puede que al volver a tu
+        vida cotidiana rodeada de los mismos est\xEDmulos de siempre"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_28
+    - theList:
+      - say
+      - "el recuerdo de Wisd\xF3mini se vaya desvaneciendo poco a poco en tu mente,
+        y entonces nada cambie en tu vida al otro lado del cristal"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_29
+    - theList:
+      - say
+      - Todo depende de ti
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_30
+    - theList:
+      - say
+      - 'Por eso te vuelvo a decir: piensa por ti mismo'
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_31
+    - theList:
+      - say
+      - "Hazlo, porque cuanto m\xE1s tiempo dediques a reflexionar, con m\xE1s certeza
+        abrazar\xE1s las conclusiones que alcances acerca de cu\xE1l es el camino
+        que te dar\xE1 la aut\xE9ntica felicidad que andas buscando"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_32
+    - theList:
+      - say
+      - "Porque m\xE1s seguro estar\xE1s de qui\xE9n eres y de qu\xE9 es lo que buscas
+        en la vida"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_33
+    - theList:
+      - say
+      - "M\xE1s firmes y s\xF3lidas ser\xE1n tus convicciones, y m\xE1s avanzar\xE1s
+        cada d\xEDa en tu senda hacia esa felicidad aut\xE9ntica"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_34
+    - theList:
+      - ask
+      - 3
+      - "Entonces \xBFen la c\xFAspide de vuestra pir\xE1mide social, estar\xEDa tambi\xE9n
+        la gente feliz?"
+      - "\xBFEntonces vosotros no ten\xE9is pir\xE1mide social, verdad? "
+      - Creo que comprendo. Gracias por tus palabras
+      - Guru_18/1
+      - Guru_19/0
+      - Guru_12/0
+      - Conv_N5_5Espiritu_Guru_13_35
+      - Conv_N5_5Espiritu_Guru_13_36
+      - Conv_N5_5Espiritu_Guru_13_37
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Muy sencillo: sab\xEDan que lo \xFAnico que es verdaderamente digno de admiraci\xF3n
+        es el hecho de pensar en los dem\xE1s por encima de pensar solo en uno mismo.
+        Querer contribuir a que los dem\xE1s sean felices y actuar para ayudarles
+        a lograrlo es lo que es digno de admiraci\xF3n, \xBFno crees?\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_0
+    - theList:
+      - say
+      - "\xBFTe parece que hay causa m\xE1s noble que esa? "
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_1
+    - theList:
+      - say
+      - "\xBFCrees que hay otro modo de lograr una sociedad donde la paz y la alegr\xEDa
+        se sobrepongan a la competitividad y a la envidia? "
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_2
+    - theList:
+      - say
+      - "Se te ocurre alguna manera mejor de que todo el mundo viva feliz y sin miedos?\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_3
+    - theList:
+      - say
+      - "Y hay otra raz\xF3n por la que esas personas rechazaban esa escala de valores:
+        no cre\xEDan en las divisiones, ni ten\xEDan necesidad alguna de sentirse
+        admiradas por los dem\xE1s"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_4
+    - theList:
+      - say
+      - "Alguien que sabe distinguir las verdaderas causas de la felicidad de las
+        aparentes   \xBFcrees que se sentir\xEDa atra\xEDdo por el hecho de ser admirado
+        por los dem\xE1s? "
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_5
+    - theList:
+      - ask
+      - 2
+      - "S\xED"
+      - No
+      - Guru_13/7
+      - Guru_13/7
+      - Conv_N5_5Espiritu_Guru_13_6
+      - Conv_N5_5Espiritu_Guru_13_7
+    - theList:
+      - say
+      - "\xBFCu\xE1l crees que es la raz\xF3n por la que tanta gente hace suyas escalas
+        sociales que en lugar de hacerles felices, les volver\xE1n desgraciados?\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_8
+    - theList:
+      - ask
+      - 3
+      - La impotencia
+      - El miedo
+      - "No lo s\xE9"
+      - Guru_14/0
+      - Guru_15/0
+      - 
+      - Conv_N5_5Espiritu_Guru_13_9
+      - Conv_N5_5Espiritu_Guru_13_10
+      - Conv_N5_5Espiritu_Guru_13_11
+    - theList:
+      - say
+      - "El tiempo que hemos pasado reflexionando acerca de cu\xE1l queremos que sea
+        nuestra propia escala de valores. Nuestra propia constituci\xF3n personal"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_12
+    - theList:
+      - say
+      - "O m\xE1s bien, el tiempo que NO hemos dedicado a reflexionar sobre esta cuesti\xF3n"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_13
+    - theList:
+      - say
+      - "Esta es la causa por la que la mayor\xEDa de la gente al otro lado del cristal,
+        ha hecho suya una escala social que admira las cosas equivocadas"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_14
+    - theList:
+      - say
+      - Cosas que no conducen a la felicidad
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_15
+    - theList:
+      - say
+      - 'Admiran a los ricos, los famosos, los poderosos '
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_16
+    - theList:
+      - say
+      - "Quieren ser como ellos, les ven como personas triunfadoras, y se sienten
+        inferiores a ellos. Su ambici\xF3n en la vida es llegar a ser ricos, famosos
+        o poderosos. Y dedican a ello todo su esfuerzo y energ\xEDa"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_17
+    - theList:
+      - say
+      - Sin comprender que eso no les da la felicidad que buscan. Y sin pararse tampoco
+        a pensar en que otros miles de millones de personas persiguen exactamente
+        lo mismo
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_18
+    - theList:
+      - say
+      - "persiguen exactamente lo mismo, y lograrlo ser\xEDa tan f\xE1cil como ser
+        golpeado por un meteorito en la cabeza...\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_19
+    - theList:
+      - say
+      - "Y aun as\xED casi todos se pasar\xE1n su vida intent\xE1ndolo. Y casi todos
+        morir\xE1n sin lograrlo"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_20
+    - theList:
+      - say
+      - "\xBFQu\xE9 te parece?\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_21
+    - theList:
+      - ask
+      - 2
+      - "Que es una l\xE1stima "
+      - "Que visto as\xED el camino del crecimiento personal es una v\xEDa mucho m\xE1s
+        r\xE1pida y segura para alcanzar la felicidad "
+      - Guru_16/0
+      - Guru_17/0
+      - Conv_N5_5Espiritu_Guru_13_22
+      - Conv_N5_5Espiritu_Guru_13_23
+    - theList:
+      - say
+      - 'De todos modos ten cuidado: la influencia de la escala de valores del otro
+        lado del cristal de donde vienes, es poderosa'
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_24
+    - theList:
+      - say
+      - "La televisi\xF3n, la publicidad, las redes sociales, la gente a tu alrededor
+        que ya ha aceptado como suyo ese sistema de valores son una influencia permanente
+        que siempre estar\xE1 al acecho..\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_25
+    - theList:
+      - say
+      - "Puede que ahora te parezca muy razonable lo que te estoy diciendo. Pero si
+        no reflexionas t\xFA mismo sobre ello el tiempo suficiente..\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_26
+    - theList:
+      - say
+      - "Si no investigas. No analizas. No verificas por ti mismo estas palabras..\r"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_27
+    - theList:
+      - say
+      - "Si no haces tu propia b\xFAsqueda en definitiva...puede que al volver a tu
+        vida cotidiana rodeada de los mismos est\xEDmulos de siempre"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_28
+    - theList:
+      - say
+      - "el recuerdo de Wisd\xF3mini se vaya desvaneciendo poco a poco en tu mente,
+        y entonces nada cambie en tu vida al otro lado del cristal"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_29
+    - theList:
+      - say
+      - Todo depende de ti
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_30
+    - theList:
+      - say
+      - 'Por eso te vuelvo a decir: piensa por ti mismo'
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_31
+    - theList:
+      - say
+      - "Hazlo, porque cuanto m\xE1s tiempo dediques a reflexionar, con m\xE1s certeza
+        abrazar\xE1s las conclusiones que alcances acerca de cu\xE1l es el camino
+        que te dar\xE1 la aut\xE9ntica felicidad que andas buscando"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_32
+    - theList:
+      - say
+      - "Porque m\xE1s seguro estar\xE1s de qui\xE9n eres y de qu\xE9 es lo que buscas
+        en la vida"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_33
+    - theList:
+      - say
+      - "M\xE1s firmes y s\xF3lidas ser\xE1n tus convicciones, y m\xE1s avanzar\xE1s
+        cada d\xEDa en tu senda hacia esa felicidad aut\xE9ntica"
+      - wait
+      - NPC1
+      - Conv_N5_5Espiritu_Guru_13_34
+    - theList:
+      - ask
+      - 3
+      - "Entonces \xBFen la c\xFAspide de vuestra pir\xE1mide social, estar\xEDa tambi\xE9n
+        la gente feliz?"
+      - "\xBFEntonces vosotros no ten\xE9is pir\xE1mide social, verdad? "
+      - Creo que comprendo. Gracias por tus palabras
+      - Guru_18/1
+      - Guru_19/0
+      - Guru_12/0
+      - Conv_N5_5Espiritu_Guru_13_35
+      - Conv_N5_5Espiritu_Guru_13_36
+      - Conv_N5_5Espiritu_Guru_13_37
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000c0000000b0000000c0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 975
+  windowY: 2156
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 198512}
+  m_IsPrefabParent: 1

@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011262104844}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011262104844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011467125196}
+  - component: {fileID: 114000013004681992}
+  m_Layer: 0
+  m_Name: 4Bebes_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011467125196
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011262104844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013004681992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011262104844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "No s\xE9 qu\xE9 te lleva a pensar eso, Willis, pero si somos solo algo f\xEDsico
+        eso no podr\xEDa ocurrir"
+      - wait
+      - NPC1
+      - Conv_N7_Willis_4Bebes_2_0
+    - theList:
+      - say
+      - "\xBFC\xF3mo que no? \xBFY que ocurrir\xEDa entonces?\r"
+      - wait
+      - NPC2
+      - Conv_N7_Willis_4Bebes_2_1
+    - theList:
+      - say
+      - "\xBFQu\xE9 te parecer\xEDa que los 4 hicieran lo mismo a cada momento?\r"
+      - wait
+      - NPC1
+      - Conv_N7_Willis_4Bebes_2_2
+    - theList:
+      - say
+      - "\xBFA qu\xE9 te refieres?\r"
+      - wait
+      - NPC2
+      - Conv_N7_Willis_4Bebes_2_3
+    - theList:
+      - say
+      - "A eso: a que cada uno de los 4 beb\xE9s hiciera exactamente lo mismo a lo
+        largo los 86.400 segundos que tiene un d\xEDa, y as\xED durante los 10 a\xF1os
+        que pasen dentro de la casa:"
+      - wait
+      - NPC1
+      - Conv_N7_Willis_4Bebes_2_4
+    - theList:
+      - say
+      - "que movieran cada m\xFAsculo exactamente igual y al mismo tiempo, que inhalaran
+        a la vez y con la misma intensidad, y que exhalaran tambi\xE9n a la vez. Que
+        hicieran las mismas cosas. Que imaginaran lo mismo. Que sintieran las mismas
+        emociones, que tuvieran id\xE9nticos pensamientos en cada instante, que so\xF1aran
+        con lo mismo... en definitiva que fueran 4 ni\xF1os diferentes pero una \xFAnica
+        experiencia vital, una \xFAnica conciencia para los 4, \xBFqu\xE9 te parecer\xEDa?"
+      - wait
+      - NPC1
+      - Conv_N7_Willis_4Bebes_2_5
+    - theList:
+      - say
+      - EVENTO
+      - wait
+      - NPC1
+      - Conv_N7_Willis_4Bebes_2_6
+    - theList:
+      - say
+      - "Eso es imposible. No tiene sentido. \xBFT\xFA qu\xE9 opinas, visitante?\r"
+      - wait
+      - NPC2
+      - Conv_N7_Willis_4Bebes_2_7
+    - theList:
+      - ask
+      - 3
+      - "No puede ser que hagan exactamente lo mismo por m\xE1s que el robot sea id\xE9ntico,
+        que sus genes sean id\xE9nticos y que las casas sean id\xE9nticas"
+      - "Somos \xFAnicamente algo f\xEDsico, por lo que en teor\xEDa si todo es f\xEDsicamente
+        igual, los 4 beb\xE9s tendr\xEDan que hacer lo mismo en cada momento. Por
+        extra\xF1o que parezca"
+      - "\xBFTanto el embri\xF3n como las casas son completamente id\xE9nticas? "
+      - 4Bebes_3/0
+      - 4Bebes_4/0
+      - 4Bebes_5/0
+      - Conv_N7_Willis_4Bebes_2_8
+      - Conv_N7_Willis_4Bebes_2_9
+      - Conv_N7_Willis_4Bebes_2_10
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "No s\xE9 qu\xE9 te lleva a pensar eso, Willis, pero si somos solo algo f\xEDsico
+        eso no podr\xEDa ocurrir"
+      - wait
+      - NPC1
+      - Conv_N7_Willis_4Bebes_2_0
+    - theList:
+      - say
+      - "\xBFC\xF3mo que no? \xBFY que ocurrir\xEDa entonces?\r"
+      - wait
+      - NPC2
+      - Conv_N7_Willis_4Bebes_2_1
+    - theList:
+      - say
+      - "\xBFQu\xE9 te parecer\xEDa que los 4 hicieran lo mismo a cada momento?\r"
+      - wait
+      - NPC1
+      - Conv_N7_Willis_4Bebes_2_2
+    - theList:
+      - say
+      - "\xBFA qu\xE9 te refieres?\r"
+      - wait
+      - NPC2
+      - Conv_N7_Willis_4Bebes_2_3
+    - theList:
+      - say
+      - "A eso: a que cada uno de los 4 beb\xE9s hiciera exactamente lo mismo a lo
+        largo los 86.400 segundos que tiene un d\xEDa, y as\xED durante los 10 a\xF1os
+        que pasen dentro de la casa:"
+      - wait
+      - NPC1
+      - Conv_N7_Willis_4Bebes_2_4
+    - theList:
+      - say
+      - "que movieran cada m\xFAsculo exactamente igual y al mismo tiempo, que inhalaran
+        a la vez y con la misma intensidad, y que exhalaran tambi\xE9n a la vez. Que
+        hicieran las mismas cosas. Que imaginaran lo mismo. Que sintieran las mismas
+        emociones, que tuvieran id\xE9nticos pensamientos en cada instante, que so\xF1aran
+        con lo mismo... en definitiva que fueran 4 ni\xF1os diferentes pero una \xFAnica
+        experiencia vital, una \xFAnica conciencia para los 4, \xBFqu\xE9 te parecer\xEDa?"
+      - wait
+      - NPC1
+      - Conv_N7_Willis_4Bebes_2_5
+    - theList:
+      - say
+      - EVENTO
+      - wait
+      - NPC1
+      - Conv_N7_Willis_4Bebes_2_6
+    - theList:
+      - say
+      - "Eso es imposible. No tiene sentido. \xBFT\xFA qu\xE9 opinas, visitante?\r"
+      - wait
+      - NPC2
+      - Conv_N7_Willis_4Bebes_2_7
+    - theList:
+      - ask
+      - 3
+      - "No puede ser que hagan exactamente lo mismo por m\xE1s que el robot sea id\xE9ntico,
+        que sus genes sean id\xE9nticos y que las casas sean id\xE9nticas"
+      - "Somos \xFAnicamente algo f\xEDsico, por lo que en teor\xEDa si todo es f\xEDsicamente
+        igual, los 4 beb\xE9s tendr\xEDan que hacer lo mismo en cada momento. Por
+        extra\xF1o que parezca"
+      - "\xBFTanto el embri\xF3n como las casas son completamente id\xE9nticas? "
+      - 4Bebes_3/0
+      - 4Bebes_4/0
+      - 4Bebes_5/0
+      - Conv_N7_Willis_4Bebes_2_8
+      - Conv_N7_Willis_4Bebes_2_9
+      - Conv_N7_Willis_4Bebes_2_10
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 831
+  windowY: 0

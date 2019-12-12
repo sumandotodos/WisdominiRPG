@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: 3f4a9eca3d644eb45a30712cf6ab8f30
+timeCreated: 1482083637
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ala10
+    100002: Ala11
+    100004: Ala12
+    100006: Ala13
+    100008: Ala14
+    100010: Ala15
+    100012: Ala16
+    100014: Ala17
+    100016: Ala18
+    100018: Ala19
+    100020: Ala20
+    100022: Ala7
+    100024: Ala8
+    100026: Ala9
+    100028: AlaDre
+    100030: AlaDre2
+    100032: AlaIzq
+    100034: AlaIzq2
+    100036: Cola
+    100038: Cola 1
+    100040: Cola2
+    100042: Cola2 1
+    100044: Cola3
+    100046: Cuello
+    100048: Cuello2
+    100050: CuelloBase
+    100052: CuelloSup
+    100054: EsconderDre
+    100056: EsconderIzq
+    100058: GEO
+    100060: HombroDre
+    100062: HombroDre2
+    100064: HombroIzq2
+    100066: HombroIzq3
+    100068: ikHandle1
+    100070: ikHandle2
+    100072: MasterPajaro
+    100074: Muslo
+    100076: Muslo1
+    100078: //RootNode
+    100080: PajaroCentral
+    100082: PajaroLow
+    100084: Pata1
+    100086: Pata2
+    100088: Pie
+    100090: Pie 1
+    100092: PieDre
+    100094: PieIzq
+    100096: Plumas
+    100098: Plumas 1
+    100100: Plumas2
+    100102: Plumas2 1
+    100104: PuntaAlaDre
+    100106: PuntaAlaIzq
+    100108: PuntaCola
+    100110: Talon
+    100112: Talon 1
+    100114: transform1
+    100116: transform2
+    400000: Ala10
+    400002: Ala11
+    400004: Ala12
+    400006: Ala13
+    400008: Ala14
+    400010: Ala15
+    400012: Ala16
+    400014: Ala17
+    400016: Ala18
+    400018: Ala19
+    400020: Ala20
+    400022: Ala7
+    400024: Ala8
+    400026: Ala9
+    400028: AlaDre
+    400030: AlaDre2
+    400032: AlaIzq
+    400034: AlaIzq2
+    400036: Cola
+    400038: Cola 1
+    400040: Cola2
+    400042: Cola2 1
+    400044: Cola3
+    400046: Cuello
+    400048: Cuello2
+    400050: CuelloBase
+    400052: CuelloSup
+    400054: EsconderDre
+    400056: EsconderIzq
+    400058: GEO
+    400060: HombroDre
+    400062: HombroDre2
+    400064: HombroIzq2
+    400066: HombroIzq3
+    400068: ikHandle1
+    400070: ikHandle2
+    400072: MasterPajaro
+    400074: Muslo
+    400076: Muslo1
+    400078: //RootNode
+    400080: PajaroCentral
+    400082: PajaroLow
+    400084: Pata1
+    400086: Pata2
+    400088: Pie
+    400090: Pie 1
+    400092: PieDre
+    400094: PieIzq
+    400096: Plumas
+    400098: Plumas 1
+    400100: Plumas2
+    400102: Plumas2 1
+    400104: PuntaAlaDre
+    400106: PuntaAlaIzq
+    400108: PuntaCola
+    400110: Talon
+    400112: Talon 1
+    400114: transform1
+    400116: transform2
+    4300000: Pata2
+    4300002: Pata1
+    4300004: PajaroLow
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: PajaroLow
+    13700002: Pata1
+    13700004: Pata2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 98
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 30
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GEO
+        weight: 1
+      - path: GEO/PajaroLow
+        weight: 1
+      - path: GEO/Pata1
+        weight: 1
+      - path: GEO/Pata2
+        weight: 1
+      - path: MasterPajaro
+        weight: 1
+      - path: MasterPajaro/Cola
+        weight: 1
+      - path: MasterPajaro/Cola/Cola2
+        weight: 1
+      - path: MasterPajaro/Cola/Cola2/Cola3
+        weight: 1
+      - path: MasterPajaro/CuelloBase
+        weight: 1
+      - path: MasterPajaro/CuelloBase/CuelloSup
+        weight: 1
+      - path: MasterPajaro/EsconderDre
+        weight: 1
+      - path: MasterPajaro/EsconderDre/transform1
+        weight: 1
+      - path: MasterPajaro/EsconderDre/transform1/Muslo
+        weight: 1
+      - path: MasterPajaro/EsconderDre/transform1/Muslo/Talon
+        weight: 1
+      - path: MasterPajaro/EsconderDre/transform1/Muslo/Talon/Pie
+        weight: 1
+      - path: MasterPajaro/EsconderIzq
+        weight: 1
+      - path: MasterPajaro/EsconderIzq/transform2
+        weight: 1
+      - path: MasterPajaro/EsconderIzq/transform2/Muslo1
+        weight: 1
+      - path: MasterPajaro/EsconderIzq/transform2/Muslo1/Talon 1
+        weight: 1
+      - path: MasterPajaro/EsconderIzq/transform2/Muslo1/Talon 1/Pie 1
+        weight: 1
+      - path: MasterPajaro/HombroDre
+        weight: 1
+      - path: MasterPajaro/HombroDre/HombroDre2
+        weight: 1
+      - path: MasterPajaro/HombroDre/HombroDre2/AlaDre
+        weight: 1
+      - path: MasterPajaro/HombroDre/HombroDre2/AlaDre/AlaDre2
+        weight: 1
+      - path: MasterPajaro/HombroDre/HombroDre2/AlaDre/AlaDre2/PuntaAlaDre
+        weight: 1
+      - path: MasterPajaro/HombroDre/HombroDre2/AlaDre/Plumas2
+        weight: 1
+      - path: MasterPajaro/HombroDre/HombroDre2/Plumas
+        weight: 1
+      - path: MasterPajaro/HombroIzq3
+        weight: 1
+      - path: MasterPajaro/HombroIzq3/HombroIzq2
+        weight: 1
+      - path: MasterPajaro/HombroIzq3/HombroIzq2/AlaIzq
+        weight: 1
+      - path: MasterPajaro/HombroIzq3/HombroIzq2/AlaIzq/AlaIzq2
+        weight: 1
+      - path: MasterPajaro/HombroIzq3/HombroIzq2/AlaIzq/AlaIzq2/PuntaAlaIzq
+        weight: 1
+      - path: MasterPajaro/HombroIzq3/HombroIzq2/AlaIzq/Plumas2 1
+        weight: 1
+      - path: MasterPajaro/HombroIzq3/HombroIzq2/Plumas 1
+        weight: 1
+      - path: MasterPajaro/PajaroCentral
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala7
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala7/Ala9
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala7/Ala9/Ala11
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala7/Ala9/Ala11/Ala13
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala7/Ala9/Ala11/Ala13/Ala15
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala7/Ala9/Ala11/Ala17
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala7/Ala9/Ala19
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala8
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala8/Ala10
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala8/Ala10/Ala12
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala8/Ala10/Ala12/Ala14
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala8/Ala10/Ala12/Ala14/Ala16
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala8/Ala10/Ala12/Ala18
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Ala8/Ala10/Ala20
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Cola 1
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Cola 1/Cola2 1
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Cola 1/Cola2 1/PuntaCola
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Cuello
+        weight: 1
+      - path: MasterPajaro/PajaroCentral/Cuello/Cuello2
+        weight: 1
+      - path: PieDre
+        weight: 1
+      - path: PieDre/ikHandle1
+        weight: 1
+      - path: PieIzq
+        weight: 1
+      - path: PieIzq/ikHandle2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

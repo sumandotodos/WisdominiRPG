@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &148074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 459188}
+  - component: {fileID: 11486296}
+  - component: {fileID: 13571416}
+  - component: {fileID: 5429312}
+  - component: {fileID: 13694924}
+  m_Layer: 16
+  m_Name: Insultador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &151122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 425246}
+  - component: {fileID: 3353042}
+  - component: {fileID: 6497748}
+  - component: {fileID: 2367564}
+  m_Layer: 16
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &425246
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.38, z: 0}
+  m_LocalScale: {x: 3.2066202, y: 5.1169367, z: 1.4389306}
+  m_Children: []
+  m_Father: {fileID: 459188}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &459188
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 187.81, y: -7.87, z: -66}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 425246}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2367564
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151122}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3353042
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151122}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &5429312
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148074}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!64 &6497748
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151122}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &11486296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 0000000000
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - if
+      - =
+      - kill
+      - nokill
+      - Retrieve data
+      - Constant
+      - HasSpokenWithInsultador
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - kill
+    - theList:
+      - sendMessage
+      - WallOfFire
+      - stop
+    - theList:
+      - sendMessage
+      - greyDoorGeoCasaInsultador
+      - close
+    - theList:
+      - makeLabel
+      - nokill
+    - theList:
+      - destroy
+    - theList:
+      - sendMessage
+      - greyDoorGeoCasaInsultador
+      - open
+    - theList:
+      - runEvent
+      - customEvent2
+  programs:
+  - theList:
+    - theList:
+      - replaceProgram
+      - Insultos
+      - onAwake
+      - False
+  - theList:
+    - theList:
+      - if
+      - =
+      - kill
+      - nokill
+      - Retrieve data
+      - Constant
+      - HasSpokenWithInsultador
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - kill
+    - theList:
+      - sendMessage
+      - WallOfFire
+      - stop
+    - theList:
+      - sendMessage
+      - greyDoorGeoCasaInsultador
+      - close
+    - theList:
+      - destroy
+    - theList:
+      - makeLabel
+      - nokill
+    - theList:
+      - sendMessage
+      - greyDoorGeoCasaInsultador
+      - open
+    - theList:
+      - runEvent
+      - customEvent2
+  - theList:
+    - theList:
+      - walkTo
+      - 173.8566
+      - 39.92647
+      - blocking
+    - theList:
+      - sendMessage
+      - WallOfFire
+      - stop
+    - theList:
+      - playCustomAnim
+      - 1
+    - theList:
+      - say
+      - "\xA1AAAaaaahhhhh...! \xA1Esto apagar\xEDa el mism\xEDsimo infierno!"
+      - wait
+      - NPC1
+      - Insultador2_0
+    - theList:
+      - clearDialogue
+    - theList:
+      - delay
+      - 2
+    - theList:
+      - stopCustomAnim
+    - theList:
+      - walkTo
+      - 176.9818
+      - 38.7058
+      - blocking
+    - theList:
+      - walkTo
+      - 168.4138
+      - 24.4096
+      - blocking
+    - theList:
+      - walkTo
+      - 163.3526
+      - 18.58129
+      - blocking
+    - theList:
+      - walkTo
+      - 154.787
+      - 16.78965
+      - blocking
+    - theList:
+      - walkTo
+      - 149.7391
+      - 19.39306
+      - blocking
+    - theList:
+      - walkTo
+      - 148.983
+      - 23.87615
+      - blocking
+    - theList:
+      - sendMessage
+      - greyDoorGeoCasaInsultador
+      - close
+  - theList:
+    - theList:
+      - delay
+      - 2
+    - theList:
+      - walkTo
+      - 182.5583
+      - 20
+      - blocking
+    - theList:
+      - delay
+      - 2
+    - theList:
+      - walkTo
+      - 167.842
+      - 24.4677
+      - blocking
+    - theList:
+      - loop
+  - theList: []
+  eventNamesInOrder:
+  - onSpeak
+  - onAwake
+  - customEvent1
+  - customEvent2
+  - none
+  isProgramRunning: 0000000000
+  programPointer_: 0000000000000000000000000000000000000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  waitingForAnswer: 0000000000
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffff
+  - theList: 
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  spriteHolder: {fileID: 151122}
+  showingFrame: 0
+  namer: 
+  nEvents: -1
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: 46c49be95f85b4a988fb74ed2dfda58f, type: 3}
+  IdleAnimationSpeed: 1
+  WalkingFront:
+  - {fileID: 2800000, guid: d7fd19174d9174ca58b02c0788300201, type: 3}
+  - {fileID: 2800000, guid: c5f8d2a3ae3184124a9bf1ea9cd3a785, type: 3}
+  - {fileID: 2800000, guid: 9906f7305247140f4a4db1c1098a1813, type: 3}
+  - {fileID: 2800000, guid: b57f6e7cde37447e0bea777eac525322, type: 3}
+  - {fileID: 2800000, guid: 75f0639e221a54fc1bdce3691af75fac, type: 3}
+  - {fileID: 2800000, guid: 042014b1412af4224b08a86c3eece328, type: 3}
+  - {fileID: 2800000, guid: 08bc96cab62dc4fa79688e3a5545aaf6, type: 3}
+  - {fileID: 2800000, guid: c338958f94d0c4ff9950df4ac844cd3c, type: 3}
+  - {fileID: 2800000, guid: 36988c572106d4f428de0f87c3855e29, type: 3}
+  - {fileID: 2800000, guid: 26f1655159e674b2cbf7c0b3ccd68fb9, type: 3}
+  - {fileID: 2800000, guid: 913d0fcc5867f4364962f45fb0b7e5cf, type: 3}
+  WalkingFrontLeft: []
+  WalkingLeft:
+  - {fileID: 2800000, guid: 3857b6b5d5b4647dba3d8e95566d13c2, type: 3}
+  - {fileID: 2800000, guid: e5cc3e652244b4876bd8982b8beda7da, type: 3}
+  - {fileID: 2800000, guid: 656cde0c43f454a319ac62ac8ef5282f, type: 3}
+  - {fileID: 2800000, guid: 7328cc2b3d23a487daa6c076720f5f6b, type: 3}
+  - {fileID: 2800000, guid: af6a0301a89ca4eb999613a69b014e4d, type: 3}
+  - {fileID: 2800000, guid: 83ad06322bdc347d8bbf7986ae48a79d, type: 3}
+  - {fileID: 2800000, guid: d1a9f9a9668d04309a9b861adf649bc9, type: 3}
+  - {fileID: 2800000, guid: 65eb8eac0a6864f16a35b4ef9f7a39a5, type: 3}
+  - {fileID: 2800000, guid: d631dc7b5282b43f4971ca6d4fd5ccc2, type: 3}
+  - {fileID: 2800000, guid: ca5ccce3190e14fb3a7cd9a41df123de, type: 3}
+  WalkingLeftBack: []
+  WalkingBack:
+  - {fileID: 2800000, guid: 7540be95d46f449cdb6d46be0a338476, type: 3}
+  - {fileID: 2800000, guid: 691514f2e3a6142f78529aff8cbbc313, type: 3}
+  - {fileID: 2800000, guid: 20b5b9b3e78464e8aa6c2d5f6f03358b, type: 3}
+  - {fileID: 2800000, guid: e3fd35ba08ccc45a79faa77137502bc5, type: 3}
+  - {fileID: 2800000, guid: 0416c7bbcb2b6403da63e706deb1e680, type: 3}
+  - {fileID: 2800000, guid: a6993dcaf194b451ead721aa97dd8cfd, type: 3}
+  - {fileID: 2800000, guid: 0256534a2e5e84b3782628f3c33d83fd, type: 3}
+  - {fileID: 2800000, guid: 811fcda3e5f2d4e25ace073bc08d0808, type: 3}
+  - {fileID: 2800000, guid: f396c11b99b75490ba12cbf869d7ca8e, type: 3}
+  - {fileID: 2800000, guid: 5c28bd4abe99d431f92cb5877328a6a8, type: 3}
+  WalkingBackRight: []
+  WalkingRight:
+  - {fileID: 2800000, guid: b92559ffb610542fea0d70ab720e7ae5, type: 3}
+  - {fileID: 2800000, guid: 945b09dcdaf0842e68632358f509b495, type: 3}
+  - {fileID: 2800000, guid: e46f9715a51474f6a81b6e0349363e56, type: 3}
+  - {fileID: 2800000, guid: 8d105bc17ee2243e2b284ccc4d9ba8fc, type: 3}
+  - {fileID: 2800000, guid: 1298a303cf32b4af39cc1c80889ed39a, type: 3}
+  - {fileID: 2800000, guid: 5c8a56d8555604d1283b8195ef8b2776, type: 3}
+  - {fileID: 2800000, guid: 98f7feb53b3754bafb4d339d7cdcab2d, type: 3}
+  - {fileID: 2800000, guid: 0bdddc4247c82437997f3144947a72f4, type: 3}
+  - {fileID: 2800000, guid: ae4c204dcb03c4b2bb38572c84fe6e52, type: 3}
+  - {fileID: 2800000, guid: 0613b79d616304697be316e38df3326d, type: 3}
+  WalkingRightFront: []
+  NextProgram:
+  - {fileID: 0}
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 2800000, guid: 5383d7c7c008c451bb313f37bd2dd4bc, type: 3}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  images: []
+  sayImages: []
+  WalkingAnimationSpeed: 12
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 01000000000000000400000005000000
+  action:
+  - theList: 1a000000
+  - theList: 1500000013000000020000000200000001000000130000000200000024000000
+  - theList: 0a00000002000000250000000b0000000f00000004000000260000000a0000000a0000000a0000000a0000000a0000000a00000002000000
+  - theList: 040000000a000000040000000a00000012000000
+  animationSpeed: 8
+  animationDelay: 0
+  frameTime: 0
+  walkingSpeed: 8
+  customAnimation1:
+  - {fileID: 2800000, guid: f568671fa3efe49d5b98dfde74916ad2, type: 3}
+  customAnimation1Speed: 1
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 8300000, guid: fea9f28182fd04444b76925d6c429d1c, type: 3}
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Mouth
+  followDistance: 4
+--- !u!135 &13571416
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.008109
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &13694924
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148074}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 4.7
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 148074}
+  m_IsPrefabParent: 1

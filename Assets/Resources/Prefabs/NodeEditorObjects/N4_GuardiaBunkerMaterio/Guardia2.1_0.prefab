@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1807137705460264}
+  m_IsPrefabParent: 1
+--- !u!1 &1807137705460264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4422753919510434}
+  - component: {fileID: 114035019064841442}
+  m_Layer: 0
+  m_Name: Guardia2.1_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4422753919510434
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807137705460264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114035019064841442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1807137705460264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFNo?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_0
+    - theList:
+      - say
+      - "S\xED"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_1
+    - theList:
+      - say
+      - "Es aqu\xED llega la parte que no comprendo. Porque d\xEDgame:"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_2
+    - theList:
+      - say
+      - "\xBFEliges la gen\xE9tica que tiene el embri\xF3n de d\xF3nde naciste?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_3
+    - theList:
+      - say
+      - "\xBFEliges los est\xEDmulos externos que han ocurrido a tu alrededor desde
+        que naciste hasta ahora?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_4
+    - theList:
+      - say
+      - "\xBFEliges los est\xEDmulos que est\xE1n teniendo lugar en este momento presente
+        a tu alrededor?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_5
+    - theList:
+      - say
+      - "hmmm\u2026a ver. No\u2026 No\u2026 Y tampoco, no"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_6
+    - theList:
+      - say
+      - "Entonces, \xBFtiene sentido afirmar que somos libres?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_7
+    - theList:
+      - say
+      - "\xBF\xBFC\xF3mo?? \xBFQu\xE9 quieres decir? \xBF\xBFQu\xE9 tiene que ver??"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_8
+    - theList:
+      - say
+      - "Pues que si somos \xFAnicamente nuestro cuerpo f\xEDsico, entonces esas son
+        las 3 cosas que determinan cada peque\xF1a acci\xF3n que hacemos o cada pensamiento
+        que cruza nuestra mente. Si resulta que no elegimos ninguna de las 3, entonces
+        es lo mismo que decir que no somos libres. Y eso es lo que me tiene descolocado,
+        porque yo desde luego siento que soy libre"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_9
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFNo?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_0
+    - theList:
+      - say
+      - "S\xED"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_1
+    - theList:
+      - say
+      - "Es aqu\xED llega la parte que no comprendo. Porque d\xEDgame:"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_2
+    - theList:
+      - say
+      - "\xBFEliges la gen\xE9tica que tiene el embri\xF3n de d\xF3nde naciste?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_3
+    - theList:
+      - say
+      - "\xBFEliges los est\xEDmulos externos que han ocurrido a tu alrededor desde
+        que naciste hasta ahora?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_4
+    - theList:
+      - say
+      - "\xBFEliges los est\xEDmulos que est\xE1n teniendo lugar en este momento presente
+        a tu alrededor?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_5
+    - theList:
+      - say
+      - "hmmm\u2026a ver. No\u2026 No\u2026 Y tampoco, no"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_6
+    - theList:
+      - say
+      - "Entonces, \xBFtiene sentido afirmar que somos libres?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_7
+    - theList:
+      - say
+      - "\xBF\xBFC\xF3mo?? \xBFQu\xE9 quieres decir? \xBF\xBFQu\xE9 tiene que ver??"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_8
+    - theList:
+      - say
+      - "Pues que si somos \xFAnicamente nuestro cuerpo f\xEDsico, entonces esas son
+        las 3 cosas que determinan cada peque\xF1a acci\xF3n que hacemos o cada pensamiento
+        que cruza nuestra mente. Si resulta que no elegimos ninguna de las 3, entonces
+        es lo mismo que decir que no somos libres. Y eso es lo que me tiene descolocado,
+        porque yo desde luego siento que soy libre"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia2.1_0_9
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 496
+  windowY: 104

@@ -1,0 +1,485 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &114160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 418686}
+  - component: {fileID: 3333506}
+  - component: {fileID: 6494906}
+  - component: {fileID: 2369900}
+  m_Layer: 0
+  m_Name: spriteHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &130056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 460414}
+  - component: {fileID: 11423170}
+  - component: {fileID: 6507542}
+  m_Layer: 0
+  m_Name: N4AmarilloEstanteria
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &418686
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1.8622277, z: 1}
+  m_Children: []
+  m_Father: {fileID: 460414}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &460414
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6, y: -0.91, z: 2.58}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 418686}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2369900
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114160}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3333506
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114160}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &6494906
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &6507542
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.52, y: 3.71, z: 4.8}
+  m_Center: {x: 0, y: 0.68, z: 0}
+--- !u!114 &11423170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a17f8e4e0194471bb45e937426a4abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - alert
+      - Hay espacio para tres libros...
+      - 0
+      - wait
+      - N4AmarilloEstanteria0_0
+    - theList:
+      - if
+      - =
+      - tieneLibro1
+      - noTieneLibro1
+      - Retrieve data
+      - Constant
+      - HasN4Book1
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - tieneLibro1
+    - theList:
+      - storeData
+      - Boolean
+      - HasN4Libro1
+      - false
+    - theList:
+      - alert
+      - Has colocado "La Comunidad del Anillo"
+      - 2
+      - wait
+      - N4AmarilloEstanteria0_1
+    - theList:
+      - updateData
+      - Integer
+      - N4AmarilloTemp
+      - Add
+      - Constant
+      - 1
+    - theList:
+      - makeLabel
+      - noTieneLibro1
+    - theList:
+      - if
+      - =
+      - tieneLibro2
+      - noTieneLibro2
+      - Retrieve data
+      - Constant
+      - HasN4Book2
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - tieneLibro2
+    - theList:
+      - storeData
+      - Boolean
+      - HasN4Libro2
+      - false
+    - theList:
+      - alert
+      - Has colocado "Las Dos Torres"
+      - 2
+      - wait
+      - N4AmarilloEstanteria0_2
+    - theList:
+      - updateData
+      - Integer
+      - N4AmarilloTemp
+      - Add
+      - Constant
+      - 1
+    - theList:
+      - makeLabel
+      - noTieneLibro2
+    - theList:
+      - if
+      - =
+      - tieneLibro3
+      - noTieneLibro3
+      - Retrieve data
+      - Constant
+      - HasN4Book3
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - tieneLibro3
+    - theList:
+      - storeData
+      - Boolean
+      - HasN4Book3
+      - false
+      - Constant
+      - false
+    - theList:
+      - alert
+      - Has colocado "El Retorno del Rey"
+      - 2
+      - wait
+      - N4AmarilloEstanteria0_3
+    - theList:
+      - updateData
+      - Integer
+      - N4AmarilloTemp
+      - Add
+      - Constant
+      - 1
+    - theList:
+      - makeLabel
+      - noTieneLibro3
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+    - theList:
+      - if
+      - <
+      - fin
+      - SiguienteEtapa
+      - Retrieve data
+      - Constant
+      - N4AmarilloTemp
+      - Integer
+      - 3
+    - theList:
+      - makeLabel
+      - SiguienteEtapa
+    - theList:
+      - sendMessage
+      - Estanteria
+      - open
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - unblockPlayerControls
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - alert
+      - Hay espacio para tres libros...
+      - 0
+      - wait
+      - N4AmarilloEstanteria0_0
+    - theList:
+      - if
+      - =
+      - tieneLibro1
+      - noTieneLibro1
+      - Retrieve data
+      - Constant
+      - HasN4Libro1
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - tieneLibro1
+    - theList:
+      - storeData
+      - Boolean
+      - HasN4Libro1
+      - false
+    - theList:
+      - alert
+      - Has colocado "La Comunidad del Anillo"
+      - 2
+      - wait
+      - N4AmarilloEstanteria0_1
+    - theList:
+      - updateData
+      - Integer
+      - N4AmarilloTemp
+      - Add
+      - Constant
+      - 1
+    - theList:
+      - makeLabel
+      - noTieneLibro1
+    - theList:
+      - if
+      - =
+      - tieneLibro2
+      - noTieneLibro2
+      - Retrieve data
+      - Constant
+      - HasN4Libro2
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - tieneLibro2
+    - theList:
+      - storeData
+      - Boolean
+      - HasN4Libro2
+      - false
+    - theList:
+      - alert
+      - Has colocado "Las Dos Torres"
+      - 2
+      - wait
+      - N4AmarilloEstanteria0_2
+    - theList:
+      - updateData
+      - Integer
+      - N4AmarilloTemp
+      - Add
+      - Constant
+      - 1
+    - theList:
+      - makeLabel
+      - noTieneLibro2
+    - theList:
+      - if
+      - =
+      - tieneLibro3
+      - noTieneLibro3
+      - Retrieve data
+      - Constant
+      - HasN4Libro3
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - tieneLibro3
+    - theList:
+      - storeData
+      - Boolean
+      - HasN4Book3
+      - false
+      - Constant
+      - false
+    - theList:
+      - alert
+      - Has colocado "El Retorno del Rey"
+      - 2
+      - wait
+      - N4AmarilloEstanteria0_3
+    - theList:
+      - updateData
+      - Integer
+      - N4AmarilloTemp
+      - Add
+      - Constant
+      - 1
+    - theList:
+      - makeLabel
+      - noTieneLibro3
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+    - theList:
+      - if
+      - <
+      - fin
+      - SiguienteEtapa
+      - Retrieve data
+      - Constant
+      - N4AmarilloTemp
+      - Integer
+      - 3
+    - theList:
+      - makeLabel
+      - SiguienteEtapa
+    - theList:
+      - sendMessage
+      - Estanteria
+      - open
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - onInteract
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  spriteHolder: {fileID: 114160}
+  namer: 
+  nEvents: 0
+  interactable: 0
+  pickable: 0
+  images:
+  - {fileID: 2800000, guid: 53f2ae917f1c0491cae9b29c35f619a6, type: 3}
+  rgb:
+    R: 0
+    G: 0
+    B: 0
+  ready:
+    R: 0
+    G: 0
+    B: 0
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 04000000
+  action:
+  - theList: 0a000000120000000f0000000d0000001000000012000000110000000d0000000f0000000d0000001000000012000000110000000d0000000f0000000d0000001000000012000000110000000d0000000f0000000d000000020000000d0000000b000000
+  animationSpeed: 6
+  NextProgram: []
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 8300000, guid: fa9296c8f3a1f46b98cce7c92c14c66a, type: 3}
+  music: []
+  interactIconName: Eye
+  FlameHeroClass: 0
+  FlameNumber: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 130056}
+  m_IsPrefabParent: 1

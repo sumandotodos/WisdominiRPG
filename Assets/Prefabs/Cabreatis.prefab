@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1416174941385118}
+  m_IsPrefabParent: 1
+--- !u!1 &1416174941385118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4279213522903410}
+  - component: {fileID: 114578651116994660}
+  - component: {fileID: 65885673145781170}
+  m_Layer: 0
+  m_Name: Cabreatis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1474727189352916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4752690417544064}
+  - component: {fileID: 33218891881184186}
+  - component: {fileID: 64621887486926606}
+  - component: {fileID: 23749224877655934}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4279213522903410
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1416174941385118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -91.48, y: 36.48, z: -66.01}
+  m_LocalScale: {x: 1.12, y: 1.12, z: 1.12}
+  m_Children:
+  - {fileID: 4752690417544064}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4752690417544064
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474727189352916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.14, y: -0.7, z: 0}
+  m_LocalScale: {x: 2.5, y: 3.5, z: 1.4712071}
+  m_Children: []
+  m_Father: {fileID: 4279213522903410}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23749224877655934
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474727189352916}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33218891881184186
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474727189352916}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &64621887486926606
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474727189352916}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65885673145781170
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1416174941385118}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 1, z: 3}
+  m_Center: {x: -1, y: 0, z: -1}
+--- !u!114 &114578651116994660
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1416174941385118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - Gilipollas
+      - wait
+      - NPC1
+      - Cabreatis0_0
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - replaceProgram
+      - NoEntrarSinLamar
+      - none
+      - False
+      - Cabreatis0_0
+  eventNamesInOrder:
+  - onSpeak
+  isProgramRunning: 0000
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: N1_Cabreatis_temerus
+  instructionColor:
+  - theList: ffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  direction: {x: 0, y: 0, z: 0}
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  spriteHolder: {fileID: 1474727189352916}
+  showingFrame: 0
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: 9db5d68c90d0a49e9857710f891b355e, type: 3}
+  - {fileID: 2800000, guid: 6f3309443e47b41a895cd7bf979fc3e4, type: 3}
+  - {fileID: 2800000, guid: 041f788c30dc2417a9f0a1d89fe39139, type: 3}
+  - {fileID: 2800000, guid: 041f788c30dc2417a9f0a1d89fe39139, type: 3}
+  - {fileID: 2800000, guid: 041f788c30dc2417a9f0a1d89fe39139, type: 3}
+  - {fileID: 2800000, guid: 041f788c30dc2417a9f0a1d89fe39139, type: 3}
+  - {fileID: 2800000, guid: 6f3309443e47b41a895cd7bf979fc3e4, type: 3}
+  - {fileID: 2800000, guid: 9db5d68c90d0a49e9857710f891b355e, type: 3}
+  - {fileID: 2800000, guid: 9db5d68c90d0a49e9857710f891b355e, type: 3}
+  - {fileID: 2800000, guid: 9db5d68c90d0a49e9857710f891b355e, type: 3}
+  - {fileID: 2800000, guid: 9db5d68c90d0a49e9857710f891b355e, type: 3}
+  - {fileID: 2800000, guid: 9db5d68c90d0a49e9857710f891b355e, type: 3}
+  - {fileID: 2800000, guid: 6f3309443e47b41a895cd7bf979fc3e4, type: 3}
+  - {fileID: 2800000, guid: 041f788c30dc2417a9f0a1d89fe39139, type: 3}
+  - {fileID: 2800000, guid: 041f788c30dc2417a9f0a1d89fe39139, type: 3}
+  - {fileID: 2800000, guid: 6f3309443e47b41a895cd7bf979fc3e4, type: 3}
+  IdleAnimationSpeed: 8
+  WalkingFront: []
+  WalkingFrontLeft: []
+  WalkingLeft: []
+  WalkingLeftBack: []
+  WalkingBack: []
+  WalkingBackRight: []
+  WalkingRight: []
+  WalkingRightFront: []
+  NextProgram:
+  - {fileID: 11446168, guid: 8e7a894a4af53314596446cb0a817ddb, type: 2}
+  leftMiniatureN: {fileID: 2800000, guid: 6d4f9687cce754b0fbcf7a6e3f418685, type: 3}
+  leftMiniatureB: {fileID: 2800000, guid: 6d4f9687cce754b0fbcf7a6e3f418685, type: 3}
+  centerMiniatureN: {fileID: 2800000, guid: a951f6082845e4e428ed0a98fd4b3f5b, type: 3}
+  centerMiniatureB: {fileID: 2800000, guid: a951f6082845e4e428ed0a98fd4b3f5b, type: 3}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  images: []
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 01000000
+  action:
+  - theList: 1a000000
+  animationSpeed: 0
+  animationDelay: 0
+  frameTime: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Mouth
+  followDistance: 4

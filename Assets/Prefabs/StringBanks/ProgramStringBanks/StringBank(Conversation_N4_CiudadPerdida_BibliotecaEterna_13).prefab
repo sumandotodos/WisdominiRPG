@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1738311892706062}
+  m_IsPrefabParent: 1
+--- !u!1 &1738311892706062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4855736589650390}
+  - component: {fileID: 114943497268350784}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_CiudadPerdida_BibliotecaEterna_13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4855736589650390
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738311892706062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114943497268350784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738311892706062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_CiudadPerdida_BibliotecaEterna_13_
+  randomYield: 0
+  phrase:
+  - "Yo antes cre\xEDa que todo lo que exist\xEDa es lo que viene en los libros y
+    publicaciones cient\xEDficas. Quiz\xE1 la principal consecuencia de acabar con
+    los l\xEDmites mentales es que cambia la escala de lo que es importante para ti"
+  - "El conocimiento est\xE1 muy bien, es necesario, y estoy muy agradecida a mis
+    maestros del pasado y a los investigadores, profesionales y profesores que han
+    dedicado y dedican sus vidas a transmitir conocimiento a las nuevas generaciones"
+  - "Pero si el conocimiento no va acompa\xF1ado de auto-reflexi\xF3n, inevitablemente
+    acaba cayendo en el olvido. Es papel mojado, como un trozo de papel higi\xE9nico
+    despu\xE9s de tirar de la cadena"
+  - "El conocimiento debe servirnos para crecer como personas, para comprender mejor
+    el mundo que nos rodea, a nosotros mismos y a los dem\xE1s. El conocimiento es
+    solo un escal\xF3n m\xE1s en el camino hacia la felicidad, y para que el conocimiento
+    adquiera su verdadero valor hay que saber reflexionar sobre el mismo, y meditar
+    sobre sus implicaciones"
+  - "Quien se embarca en la aventura del conocimiento est\xE1 eligiendo conocer el
+    mundo de una de las m\xFAltiples maneras que se puede conocer, quiz\xE1 no sea
+    la m\xE1s r\xE1pida, pero puede que sus investigaciones le lleven a un descubrimiento
+    que inspire a otros"
+  - "El descubrimiento de la mec\xE1nica cu\xE1ntica por ejemplo, no habr\xEDa sido
+    posible sin muchos descubrimientos previos, y la mec\xE1nica cu\xE1ntica nos est\xE1
+    mostrando c\xF3mo la senda de la ciencia y la senda de la meditaci\xF3n acaban
+    en el mismo punto, dando la misma explicaci\xF3n de la realidad"
+  - "\xBFNo te parece asombroso?"
+  - "Claro que para darse cuenta de esto es necesario reflexionar. No hace falta dedicar
+    6 a\xF1os de tu vida en sacarte el doctorado en f\xEDsicas y saber resolver ecuaciones
+    s\xFAper-complejas, sino ser capaz de sacar tus propias conclusiones tras ver
+    un documental de divulgaci\xF3n cient\xEDfica que dura media hora, aunque esas
+    conclusiones no sean expuestas de manera expl\xEDcita en el documental"
+  - "Muchos doctores en f\xEDsica no son capaces de hacer esto. Y no porque no tengan
+    la inteligencia necesaria, sino simplemente porque nunca se han parado a hacerlo,
+    ni nadie les ha dicho nunca que es algo que merece la pena hacer"
+  - "No s\xE9 si me ha quedado claro, \xBFentonces el conocimiento te parece \xFAtil
+    o no?"
+  - "\xBFY qu\xE9 es lo que m\xE1s sentido tiene aprender para ti?"
+  correntAnswer: 

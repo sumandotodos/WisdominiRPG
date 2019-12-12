@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &170924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 413684}
+  - component: {fileID: 11400600}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Siaomi_AcercaDeWis)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &413684
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400600
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Siaomi_AcercaDeWis_
+  randomYield: 0
+  phrase:
+  - "Wisdomini es el reflejo del mundo del que vienes. El cristal oscuro que est\xE1s
+    mirando ahora mismo desde donde t\xFA vives (el otro lado), es la frontera que
+    divide los dos mundos, y t\xFA lo has atravesado."
+  - "Wisdomini es s\xF3lo un mundo donde habitan ideas, pensamientos y emociones.
+    Es pura vacuidad. S\xE9 que en el mundo del que vienes tend\xE9is a considerar
+    vuestros pensamientos y emociones como algo completamente s\xF3lido y real, pero
+    ello se debe a que vuestra mente vive permanentemente sumida en la interminable
+    cadena de pensamientos que pasan por ella."
+  - "Nunca os par\xE1is a observar vuestra mente: lo que est\xE1is pensando en cada
+    momento, ni las emociones que est\xE1is sintiendo. Por eso, a menudo os atrapan
+    y os hacen sufrir, porque sois incapaces de daros cuenta de que esas emociones
+    son pura vacuidad, igual que vuestros pensamientos."
+  - Comprendo
+  - "No s\xE9 si te acabo de entender"
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 170924}
+  m_IsPrefabParent: 1

@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1961685163564234}
+  m_IsPrefabParent: 1
+--- !u!1 &1961685163564234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4871187797126134}
+  - component: {fileID: 114883078542079394}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_GuardiaBunkerMaterio_Guardia5.1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4871187797126134
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961685163564234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114883078542079394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961685163564234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_GuardiaBunkerMaterio_Guardia5.1_
+  randomYield: 0
+  phrase:
+  - "Esa es justamente la idea que yo ten\xEDa, que esa primera c\xE9lula apareci\xF3
+    a partir de que los \xE1tomos y mol\xE9culas del mar primigenio fueran chocando
+    entre s\xED al azar una y otra vez, hasta que al cabo de much\xEDsimos choques
+    acab\xF3 por formarse la primera c\xE9lula"
+  - "Pero le\xED algo en un art\xEDculo cient\xEDfico que me hizo darme cuenta de
+    que esa visi\xF3n era incompleta. Al parecer algunos \xE1tomos ten\xEDan ya las
+    propiedades f\xEDsico-qu\xEDmicas adecuadas para que algunos enlaces se dieran
+    y otros no. Es como si fuera un gran puzzle en el que solo algunas piezas encajan
+    con otras: algunos \xE1tomos o estructuras de \xE1tomos encajaban con otras, y
+    algunos no. Y no por probar muchas veces, 2 piezas que no conectan van a acabar
+    conectando"
+  - "Y es por esto que no se ha solventado mi inc\xF3gnita fundamental. Es por eso
+    que me sigo preguntando por qu\xE9. \xBFPor qu\xE9 algunos \xE1tomos ten\xEDan
+    las propiedades f\xEDsicas y qu\xEDmicas tales que exist\xEDa en ellos el potencial
+    de acabar formando esa primera c\xE9lula?"
+  - "Ya te he respondido a eso. Esos \xE1tomos ten\xEDan esas propiedades f\xEDsico-qu\xEDmicas
+    por puro azar"
+  - Ya. Pues eso es precisamente lo que no acabo de entender...
+  - "\xBF\xBFC\xF3mo es posible que esos \xE1tomos tuvieran exactamente las propiedades
+    necesarias para poder combinarse precisamente con otros \xE1tomos con los que
+    acabar\xEDan creando estructuras cada vez m\xE1s complejas que acabar\xEDan dando
+    lugar a la primera c\xE9lula??"
+  - "Ten en cuenta que una c\xE9lula no es s\xF3lo una estructura muy compleja hecha
+    a partir de millones de \xE1tomos; es algo m\xE1s, es una estructura aut\xF3noma:
+    es capaz de ingerir alimento, es decir, engulle otras estructuras de \xE1tomos
+    y las descompone para que pasen a formar parte de su propia estructura, al mismo
+    tiempo que absorbe energ\xEDa."
+  - "Esto es prodigioso de por s\xED, pero es que adem\xE1s es capaz de duplicarse,
+    es decir dividirse en dos pero manteniendo la estructura original: el orden y
+    la disposici\xF3n espacial de los \xE1tomos que la conforman"
+  - "Y no s\xF3lo esto: llegar\xE1 un momento en que esas r\xE9plicas no van a ser
+    exactamente id\xE9nticas al original, sino que van a ser ligeramente diferentes
+    haciendo que unas c\xE9lulas sean distintas de otras, con lo que podr\xE1n llevar
+    a cabo unas misiones u otras dentro de un organismo m\xE1s complejo: unas se especializar\xE1n
+    en la digesti\xF3n del alimento, otras en el transporte de ox\xEDgeno, etc..."
+  - "Lo que trato de decirte es que lo que tenemos ante nosotros no es el producto
+    de remover una caja que contiene en su interior un mont\xF3n de piezas de un puzzle,
+    de tal manera que al abrirla en un momento dado resulte que por azar puede que
+    todas las piezas est\xE9n ordenadas. Eso con la paciencia suficiente podr\xEDa
+    pasar"
+  - "Pero lo que tenemos es algo m\xE1s que eso. Cuando se forma la estructura at\xF3mica
+    de la primera c\xE9lula no es que tengamos una estructura muy compleja y ya est\xE1.
+    Lo que tenemos es un ente aut\xF3nomo. Capaz de moverse, de comer, de reproducirse,
+    y de seguir evolucionando"
+  - "Y en un momento dado podr\xE1 tomar decisiones, decisiones que no vendr\xE1n
+    dadas por la materia de la que est\xE1 compuesto, sino de su ser, de su mente,
+    o como quieras llamarlo"
+  - "Es por esto que no entiendo qu\xE9 tiene que ver ah\xED el azar"
+  - "Hmmmm... me est\xE1s liando, enano..."
+  - Hmmmmm
+  correntAnswer: 

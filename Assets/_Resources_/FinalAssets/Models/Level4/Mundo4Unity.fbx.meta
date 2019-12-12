@@ -1,0 +1,885 @@
+fileFormatVersion: 2
+guid: afb59662e5813804b800f159dced9326
+timeCreated: 1474614280
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bifucacion
+    100002: Bifucacion1
+    100004: CarreteraRecta
+    100006: CarreteraRecta1
+    100008: CarreteraRecta10
+    100010: CarreteraRecta11
+    100012: CarreteraRecta12
+    100014: CarreteraRecta16
+    100016: CarreteraRecta17
+    100018: CarreteraRecta18
+    100020: CarreteraRecta19
+    100022: CarreteraRecta2
+    100024: CarreteraRecta20
+    100026: CarreteraRecta21
+    100028: CarreteraRecta22
+    100030: CarreteraRecta23
+    100032: CarreteraRecta3
+    100034: CarreteraRecta4
+    100036: CarreteraRecta8
+    100038: Casa
+    100040: Casa10
+    100042: Casa11
+    100044: Casa12
+    100046: Casa2
+    100048: Casa3
+    100050: Casa4
+    100052: Casa5
+    100054: Casa6
+    100056: Casa7
+    100058: Casa8
+    100060: Casa9
+    100062: Casas
+    100064: LittleHouse1
+    100066: LittleHouse10
+    100068: LittleHouse11
+    100070: LittleHouse12
+    100072: LittleHouse2
+    100074: LittleHouse2 1
+    100076: LittleHouse2 2
+    100078: LittleHouse2 3
+    100080: LittleHouse2 4
+    100082: LittleHouse2 5
+    100084: LittleHouse2 6
+    100086: LittleHouse2 7
+    100088: LittleHouse2 8
+    100090: LittleHouse3
+    100092: LittleHouse4
+    100094: LittleHouse5
+    100096: LittleHouse7
+    100098: LittleHouse8
+    100100: LittleHouse9
+    100102: //RootNode
+    100104: pCube1
+    100106: pCube1 1
+    100108: pCube1 10
+    100110: pCube1 11
+    100112: pCube1 2
+    100114: pCube1 3
+    100116: pCube1 4
+    100118: pCube1 5
+    100120: pCube1 6
+    100122: pCube1 7
+    100124: pCube1 8
+    100126: pCube1 9
+    100128: pCube20
+    100130: pCube20 1
+    100132: pCube20 10
+    100134: pCube20 11
+    100136: pCube20 2
+    100138: pCube20 3
+    100140: pCube20 4
+    100142: pCube20 5
+    100144: pCube20 6
+    100146: pCube20 7
+    100148: pCube20 8
+    100150: pCube20 9
+    100152: pCube36
+    100154: pCube36 1
+    100156: pCube36 10
+    100158: pCube36 11
+    100160: pCube36 2
+    100162: pCube36 3
+    100164: pCube36 4
+    100166: pCube36 5
+    100168: pCube36 6
+    100170: pCube36 7
+    100172: pCube36 8
+    100174: pCube36 9
+    100176: pCube37
+    100178: pCube37 1
+    100180: pCube37 10
+    100182: pCube37 11
+    100184: pCube37 2
+    100186: pCube37 3
+    100188: pCube37 4
+    100190: pCube37 5
+    100192: pCube37 6
+    100194: pCube37 7
+    100196: pCube37 8
+    100198: pCube37 9
+    100200: pCube38
+    100202: pCube38 1
+    100204: pCube38 10
+    100206: pCube38 11
+    100208: pCube38 2
+    100210: pCube38 3
+    100212: pCube38 4
+    100214: pCube38 5
+    100216: pCube38 6
+    100218: pCube38 7
+    100220: pCube38 8
+    100222: pCube38 9
+    100224: pPlane30
+    100226: pPlane31
+    100228: pPlane32
+    100230: PuetaCasa
+    100232: PuetaCasa 1
+    100234: PuetaCasa 2
+    100236: PuetaCasa 3
+    100238: PuetaCasa 4
+    100240: PuetaCasa 5
+    100242: PuetaCasa 6
+    100244: PuetaCasa 7
+    100246: PuetaCasa 8
+    100248: PuetaCasa1
+    100250: PuetaCasa1 1
+    100252: PuetaCasa1 10
+    100254: PuetaCasa1 11
+    100256: PuetaCasa1 2
+    100258: PuetaCasa1 3
+    100260: PuetaCasa1 4
+    100262: PuetaCasa1 5
+    100264: PuetaCasa1 6
+    100266: PuetaCasa1 7
+    100268: PuetaCasa1 8
+    100270: PuetaCasa1 9
+    100272: PuetaCasa3
+    100274: PuetaCasa3 1
+    100276: PuetaCasa3 10
+    100278: PuetaCasa3 11
+    100280: PuetaCasa3 2
+    100282: PuetaCasa3 3
+    100284: PuetaCasa3 4
+    100286: PuetaCasa3 5
+    100288: PuetaCasa3 6
+    100290: PuetaCasa3 7
+    100292: PuetaCasa3 8
+    100294: PuetaCasa3 9
+    100296: SueloCemento_1
+    100298: SueloCemento_10
+    100300: SueloCemento_11
+    100302: SueloCemento_12
+    100304: SueloCemento_13
+    100306: SueloCemento_14
+    100308: SueloCemento_15
+    100310: SueloCemento_16
+    100312: SueloCemento_17
+    100314: SueloCemento_18
+    100316: SueloCemento_19
+    100318: SueloCemento_2
+    100320: SueloCemento_20
+    100322: SueloCemento_21
+    100324: SueloCemento_3
+    100326: SueloCemento_4
+    100328: SueloCemento_5
+    100330: SueloCemento_6
+    100332: SueloCemento_7
+    100334: SueloCemento_8
+    100336: SueloCemento_9
+    100338: SueloCiudad
+    100340: CarreteraRecta9
+    100342: CarreteraRecta24
+    100344: CarreteraRecta25
+    100346: CarreteraRecta26
+    100348: CarreteraRecta27
+    100350: CarreteraRecta28
+    100352: CarreteraRecta29
+    400000: Bifucacion
+    400002: Bifucacion1
+    400004: CarreteraRecta
+    400006: CarreteraRecta1
+    400008: CarreteraRecta10
+    400010: CarreteraRecta11
+    400012: CarreteraRecta12
+    400014: CarreteraRecta16
+    400016: CarreteraRecta17
+    400018: CarreteraRecta18
+    400020: CarreteraRecta19
+    400022: CarreteraRecta2
+    400024: CarreteraRecta20
+    400026: CarreteraRecta21
+    400028: CarreteraRecta22
+    400030: CarreteraRecta23
+    400032: CarreteraRecta3
+    400034: CarreteraRecta4
+    400036: CarreteraRecta8
+    400038: Casa
+    400040: Casa10
+    400042: Casa11
+    400044: Casa12
+    400046: Casa2
+    400048: Casa3
+    400050: Casa4
+    400052: Casa5
+    400054: Casa6
+    400056: Casa7
+    400058: Casa8
+    400060: Casa9
+    400062: Casas
+    400064: LittleHouse1
+    400066: LittleHouse10
+    400068: LittleHouse11
+    400070: LittleHouse12
+    400072: LittleHouse2
+    400074: LittleHouse2 1
+    400076: LittleHouse2 2
+    400078: LittleHouse2 3
+    400080: LittleHouse2 4
+    400082: LittleHouse2 5
+    400084: LittleHouse2 6
+    400086: LittleHouse2 7
+    400088: LittleHouse2 8
+    400090: LittleHouse3
+    400092: LittleHouse4
+    400094: LittleHouse5
+    400096: LittleHouse7
+    400098: LittleHouse8
+    400100: LittleHouse9
+    400102: //RootNode
+    400104: pCube1
+    400106: pCube1 1
+    400108: pCube1 10
+    400110: pCube1 11
+    400112: pCube1 2
+    400114: pCube1 3
+    400116: pCube1 4
+    400118: pCube1 5
+    400120: pCube1 6
+    400122: pCube1 7
+    400124: pCube1 8
+    400126: pCube1 9
+    400128: pCube20
+    400130: pCube20 1
+    400132: pCube20 10
+    400134: pCube20 11
+    400136: pCube20 2
+    400138: pCube20 3
+    400140: pCube20 4
+    400142: pCube20 5
+    400144: pCube20 6
+    400146: pCube20 7
+    400148: pCube20 8
+    400150: pCube20 9
+    400152: pCube36
+    400154: pCube36 1
+    400156: pCube36 10
+    400158: pCube36 11
+    400160: pCube36 2
+    400162: pCube36 3
+    400164: pCube36 4
+    400166: pCube36 5
+    400168: pCube36 6
+    400170: pCube36 7
+    400172: pCube36 8
+    400174: pCube36 9
+    400176: pCube37
+    400178: pCube37 1
+    400180: pCube37 10
+    400182: pCube37 11
+    400184: pCube37 2
+    400186: pCube37 3
+    400188: pCube37 4
+    400190: pCube37 5
+    400192: pCube37 6
+    400194: pCube37 7
+    400196: pCube37 8
+    400198: pCube37 9
+    400200: pCube38
+    400202: pCube38 1
+    400204: pCube38 10
+    400206: pCube38 11
+    400208: pCube38 2
+    400210: pCube38 3
+    400212: pCube38 4
+    400214: pCube38 5
+    400216: pCube38 6
+    400218: pCube38 7
+    400220: pCube38 8
+    400222: pCube38 9
+    400224: pPlane30
+    400226: pPlane31
+    400228: pPlane32
+    400230: PuetaCasa
+    400232: PuetaCasa 1
+    400234: PuetaCasa 2
+    400236: PuetaCasa 3
+    400238: PuetaCasa 4
+    400240: PuetaCasa 5
+    400242: PuetaCasa 6
+    400244: PuetaCasa 7
+    400246: PuetaCasa 8
+    400248: PuetaCasa1
+    400250: PuetaCasa1 1
+    400252: PuetaCasa1 10
+    400254: PuetaCasa1 11
+    400256: PuetaCasa1 2
+    400258: PuetaCasa1 3
+    400260: PuetaCasa1 4
+    400262: PuetaCasa1 5
+    400264: PuetaCasa1 6
+    400266: PuetaCasa1 7
+    400268: PuetaCasa1 8
+    400270: PuetaCasa1 9
+    400272: PuetaCasa3
+    400274: PuetaCasa3 1
+    400276: PuetaCasa3 10
+    400278: PuetaCasa3 11
+    400280: PuetaCasa3 2
+    400282: PuetaCasa3 3
+    400284: PuetaCasa3 4
+    400286: PuetaCasa3 5
+    400288: PuetaCasa3 6
+    400290: PuetaCasa3 7
+    400292: PuetaCasa3 8
+    400294: PuetaCasa3 9
+    400296: SueloCemento_1
+    400298: SueloCemento_10
+    400300: SueloCemento_11
+    400302: SueloCemento_12
+    400304: SueloCemento_13
+    400306: SueloCemento_14
+    400308: SueloCemento_15
+    400310: SueloCemento_16
+    400312: SueloCemento_17
+    400314: SueloCemento_18
+    400316: SueloCemento_19
+    400318: SueloCemento_2
+    400320: SueloCemento_20
+    400322: SueloCemento_21
+    400324: SueloCemento_3
+    400326: SueloCemento_4
+    400328: SueloCemento_5
+    400330: SueloCemento_6
+    400332: SueloCemento_7
+    400334: SueloCemento_8
+    400336: SueloCemento_9
+    400338: SueloCiudad
+    400340: CarreteraRecta9
+    400342: CarreteraRecta24
+    400344: CarreteraRecta25
+    400346: CarreteraRecta26
+    400348: CarreteraRecta27
+    400350: CarreteraRecta28
+    400352: CarreteraRecta29
+    2300000: Bifucacion
+    2300002: Bifucacion1
+    2300004: CarreteraRecta
+    2300006: CarreteraRecta1
+    2300008: CarreteraRecta10
+    2300010: CarreteraRecta11
+    2300012: CarreteraRecta12
+    2300014: CarreteraRecta16
+    2300016: CarreteraRecta17
+    2300018: CarreteraRecta18
+    2300020: CarreteraRecta19
+    2300022: CarreteraRecta2
+    2300024: CarreteraRecta20
+    2300026: CarreteraRecta21
+    2300028: CarreteraRecta22
+    2300030: CarreteraRecta23
+    2300032: CarreteraRecta3
+    2300034: CarreteraRecta4
+    2300036: CarreteraRecta8
+    2300038: LittleHouse12
+    2300040: LittleHouse2
+    2300042: LittleHouse2 1
+    2300044: LittleHouse2 2
+    2300046: LittleHouse2 3
+    2300048: LittleHouse2 4
+    2300050: LittleHouse2 5
+    2300052: LittleHouse2 6
+    2300054: LittleHouse2 7
+    2300056: LittleHouse2 8
+    2300058: pCube1
+    2300060: pCube1 1
+    2300062: pCube1 10
+    2300064: pCube1 11
+    2300066: pCube1 2
+    2300068: pCube1 3
+    2300070: pCube1 4
+    2300072: pCube1 5
+    2300074: pCube1 6
+    2300076: pCube1 7
+    2300078: pCube1 8
+    2300080: pCube1 9
+    2300082: pCube20
+    2300084: pCube20 1
+    2300086: pCube20 10
+    2300088: pCube20 11
+    2300090: pCube20 2
+    2300092: pCube20 3
+    2300094: pCube20 4
+    2300096: pCube20 5
+    2300098: pCube20 6
+    2300100: pCube20 7
+    2300102: pCube20 8
+    2300104: pCube20 9
+    2300106: pCube36
+    2300108: pCube36 1
+    2300110: pCube36 10
+    2300112: pCube36 11
+    2300114: pCube36 2
+    2300116: pCube36 3
+    2300118: pCube36 4
+    2300120: pCube36 5
+    2300122: pCube36 6
+    2300124: pCube36 7
+    2300126: pCube36 8
+    2300128: pCube36 9
+    2300130: pCube37
+    2300132: pCube37 1
+    2300134: pCube37 10
+    2300136: pCube37 11
+    2300138: pCube37 2
+    2300140: pCube37 3
+    2300142: pCube37 4
+    2300144: pCube37 5
+    2300146: pCube37 6
+    2300148: pCube37 7
+    2300150: pCube37 8
+    2300152: pCube37 9
+    2300154: pCube38
+    2300156: pCube38 1
+    2300158: pCube38 10
+    2300160: pCube38 11
+    2300162: pCube38 2
+    2300164: pCube38 3
+    2300166: pCube38 4
+    2300168: pCube38 5
+    2300170: pCube38 6
+    2300172: pCube38 7
+    2300174: pCube38 8
+    2300176: pCube38 9
+    2300178: pPlane30
+    2300180: pPlane31
+    2300182: pPlane32
+    2300184: PuetaCasa
+    2300186: PuetaCasa 1
+    2300188: PuetaCasa 2
+    2300190: PuetaCasa 3
+    2300192: PuetaCasa 4
+    2300194: PuetaCasa 5
+    2300196: PuetaCasa 6
+    2300198: PuetaCasa 7
+    2300200: PuetaCasa 8
+    2300202: PuetaCasa1
+    2300204: PuetaCasa1 1
+    2300206: PuetaCasa1 10
+    2300208: PuetaCasa1 11
+    2300210: PuetaCasa1 2
+    2300212: PuetaCasa1 3
+    2300214: PuetaCasa1 4
+    2300216: PuetaCasa1 5
+    2300218: PuetaCasa1 6
+    2300220: PuetaCasa1 7
+    2300222: PuetaCasa1 8
+    2300224: PuetaCasa1 9
+    2300226: PuetaCasa3
+    2300228: PuetaCasa3 1
+    2300230: PuetaCasa3 10
+    2300232: PuetaCasa3 11
+    2300234: PuetaCasa3 2
+    2300236: PuetaCasa3 3
+    2300238: PuetaCasa3 4
+    2300240: PuetaCasa3 5
+    2300242: PuetaCasa3 6
+    2300244: PuetaCasa3 7
+    2300246: PuetaCasa3 8
+    2300248: PuetaCasa3 9
+    2300250: SueloCemento_1
+    2300252: SueloCemento_10
+    2300254: SueloCemento_11
+    2300256: SueloCemento_12
+    2300258: SueloCemento_13
+    2300260: SueloCemento_14
+    2300262: SueloCemento_15
+    2300264: SueloCemento_16
+    2300266: SueloCemento_17
+    2300268: SueloCemento_18
+    2300270: SueloCemento_19
+    2300272: SueloCemento_2
+    2300274: SueloCemento_20
+    2300276: SueloCemento_21
+    2300278: SueloCemento_3
+    2300280: SueloCemento_4
+    2300282: SueloCemento_5
+    2300284: SueloCemento_6
+    2300286: SueloCemento_7
+    2300288: SueloCemento_8
+    2300290: SueloCemento_9
+    2300292: CarreteraRecta9
+    2300294: CarreteraRecta24
+    2300296: CarreteraRecta25
+    2300298: CarreteraRecta26
+    2300300: CarreteraRecta27
+    2300302: CarreteraRecta28
+    2300304: CarreteraRecta29
+    3300000: Bifucacion
+    3300002: Bifucacion1
+    3300004: CarreteraRecta
+    3300006: CarreteraRecta1
+    3300008: CarreteraRecta10
+    3300010: CarreteraRecta11
+    3300012: CarreteraRecta12
+    3300014: CarreteraRecta16
+    3300016: CarreteraRecta17
+    3300018: CarreteraRecta18
+    3300020: CarreteraRecta19
+    3300022: CarreteraRecta2
+    3300024: CarreteraRecta20
+    3300026: CarreteraRecta21
+    3300028: CarreteraRecta22
+    3300030: CarreteraRecta23
+    3300032: CarreteraRecta3
+    3300034: CarreteraRecta4
+    3300036: CarreteraRecta8
+    3300038: LittleHouse12
+    3300040: LittleHouse2
+    3300042: LittleHouse2 1
+    3300044: LittleHouse2 2
+    3300046: LittleHouse2 3
+    3300048: LittleHouse2 4
+    3300050: LittleHouse2 5
+    3300052: LittleHouse2 6
+    3300054: LittleHouse2 7
+    3300056: LittleHouse2 8
+    3300058: pCube1
+    3300060: pCube1 1
+    3300062: pCube1 10
+    3300064: pCube1 11
+    3300066: pCube1 2
+    3300068: pCube1 3
+    3300070: pCube1 4
+    3300072: pCube1 5
+    3300074: pCube1 6
+    3300076: pCube1 7
+    3300078: pCube1 8
+    3300080: pCube1 9
+    3300082: pCube20
+    3300084: pCube20 1
+    3300086: pCube20 10
+    3300088: pCube20 11
+    3300090: pCube20 2
+    3300092: pCube20 3
+    3300094: pCube20 4
+    3300096: pCube20 5
+    3300098: pCube20 6
+    3300100: pCube20 7
+    3300102: pCube20 8
+    3300104: pCube20 9
+    3300106: pCube36
+    3300108: pCube36 1
+    3300110: pCube36 10
+    3300112: pCube36 11
+    3300114: pCube36 2
+    3300116: pCube36 3
+    3300118: pCube36 4
+    3300120: pCube36 5
+    3300122: pCube36 6
+    3300124: pCube36 7
+    3300126: pCube36 8
+    3300128: pCube36 9
+    3300130: pCube37
+    3300132: pCube37 1
+    3300134: pCube37 10
+    3300136: pCube37 11
+    3300138: pCube37 2
+    3300140: pCube37 3
+    3300142: pCube37 4
+    3300144: pCube37 5
+    3300146: pCube37 6
+    3300148: pCube37 7
+    3300150: pCube37 8
+    3300152: pCube37 9
+    3300154: pCube38
+    3300156: pCube38 1
+    3300158: pCube38 10
+    3300160: pCube38 11
+    3300162: pCube38 2
+    3300164: pCube38 3
+    3300166: pCube38 4
+    3300168: pCube38 5
+    3300170: pCube38 6
+    3300172: pCube38 7
+    3300174: pCube38 8
+    3300176: pCube38 9
+    3300178: pPlane30
+    3300180: pPlane31
+    3300182: pPlane32
+    3300184: PuetaCasa
+    3300186: PuetaCasa 1
+    3300188: PuetaCasa 2
+    3300190: PuetaCasa 3
+    3300192: PuetaCasa 4
+    3300194: PuetaCasa 5
+    3300196: PuetaCasa 6
+    3300198: PuetaCasa 7
+    3300200: PuetaCasa 8
+    3300202: PuetaCasa1
+    3300204: PuetaCasa1 1
+    3300206: PuetaCasa1 10
+    3300208: PuetaCasa1 11
+    3300210: PuetaCasa1 2
+    3300212: PuetaCasa1 3
+    3300214: PuetaCasa1 4
+    3300216: PuetaCasa1 5
+    3300218: PuetaCasa1 6
+    3300220: PuetaCasa1 7
+    3300222: PuetaCasa1 8
+    3300224: PuetaCasa1 9
+    3300226: PuetaCasa3
+    3300228: PuetaCasa3 1
+    3300230: PuetaCasa3 10
+    3300232: PuetaCasa3 11
+    3300234: PuetaCasa3 2
+    3300236: PuetaCasa3 3
+    3300238: PuetaCasa3 4
+    3300240: PuetaCasa3 5
+    3300242: PuetaCasa3 6
+    3300244: PuetaCasa3 7
+    3300246: PuetaCasa3 8
+    3300248: PuetaCasa3 9
+    3300250: SueloCemento_1
+    3300252: SueloCemento_10
+    3300254: SueloCemento_11
+    3300256: SueloCemento_12
+    3300258: SueloCemento_13
+    3300260: SueloCemento_14
+    3300262: SueloCemento_15
+    3300264: SueloCemento_16
+    3300266: SueloCemento_17
+    3300268: SueloCemento_18
+    3300270: SueloCemento_19
+    3300272: SueloCemento_2
+    3300274: SueloCemento_20
+    3300276: SueloCemento_21
+    3300278: SueloCemento_3
+    3300280: SueloCemento_4
+    3300282: SueloCemento_5
+    3300284: SueloCemento_6
+    3300286: SueloCemento_7
+    3300288: SueloCemento_8
+    3300290: SueloCemento_9
+    3300292: CarreteraRecta9
+    3300294: CarreteraRecta24
+    3300296: CarreteraRecta25
+    3300298: CarreteraRecta26
+    3300300: CarreteraRecta27
+    3300302: CarreteraRecta28
+    3300304: CarreteraRecta29
+    4300000: PuetaCasa
+    4300002: LittleHouse2
+    4300004: PuetaCasa
+    4300006: LittleHouse2
+    4300008: PuetaCasa
+    4300010: LittleHouse2
+    4300012: pCube1
+    4300014: PuetaCasa3
+    4300016: PuetaCasa1
+    4300018: pCube20
+    4300020: pCube36
+    4300022: pCube37
+    4300024: pCube38
+    4300026: pCube1
+    4300028: PuetaCasa3
+    4300030: PuetaCasa1
+    4300032: pCube20
+    4300034: pCube36
+    4300036: pCube37
+    4300038: pCube38
+    4300040: pCube1
+    4300042: PuetaCasa3
+    4300044: PuetaCasa1
+    4300046: pCube20
+    4300048: pCube36
+    4300050: pCube37
+    4300052: pCube38
+    4300054: pCube1
+    4300056: PuetaCasa3
+    4300058: PuetaCasa1
+    4300060: pCube20
+    4300062: pCube36
+    4300064: pCube37
+    4300066: pCube38
+    4300068: pCube1
+    4300070: PuetaCasa3
+    4300072: PuetaCasa1
+    4300074: pCube20
+    4300076: pCube36
+    4300078: pCube37
+    4300080: pCube38
+    4300082: PuetaCasa
+    4300084: LittleHouse2
+    4300086: LittleHouse12
+    4300088: pCube1
+    4300090: PuetaCasa3
+    4300092: PuetaCasa1
+    4300094: pCube20
+    4300096: pCube36
+    4300098: pCube37
+    4300100: pCube38
+    4300102: PuetaCasa
+    4300104: LittleHouse2
+    4300106: PuetaCasa
+    4300108: LittleHouse2
+    4300110: pCube1
+    4300112: PuetaCasa3
+    4300114: PuetaCasa1
+    4300116: pCube20
+    4300118: pCube36
+    4300120: pCube37
+    4300122: pCube38
+    4300124: pCube1
+    4300126: PuetaCasa3
+    4300128: PuetaCasa1
+    4300130: pCube20
+    4300132: pCube36
+    4300134: pCube37
+    4300136: pCube38
+    4300138: pCube1
+    4300140: PuetaCasa3
+    4300142: PuetaCasa1
+    4300144: pCube20
+    4300146: pCube36
+    4300148: pCube37
+    4300150: pCube38
+    4300152: pCube1
+    4300154: PuetaCasa3
+    4300156: PuetaCasa1
+    4300158: pCube20
+    4300160: pCube36
+    4300162: pCube37
+    4300164: pCube38
+    4300166: pCube1
+    4300168: PuetaCasa3
+    4300170: PuetaCasa1
+    4300172: pCube20
+    4300174: pCube36
+    4300176: pCube37
+    4300178: pCube38
+    4300180: PuetaCasa
+    4300182: LittleHouse2
+    4300184: PuetaCasa
+    4300186: LittleHouse2
+    4300188: pCube1
+    4300190: PuetaCasa3
+    4300192: PuetaCasa1
+    4300194: pCube20
+    4300196: pCube36
+    4300198: pCube37
+    4300200: pCube38
+    4300202: PuetaCasa
+    4300204: LittleHouse2
+    4300206: SueloCemento_11
+    4300208: SueloCemento_12
+    4300210: SueloCemento_13
+    4300212: SueloCemento_14
+    4300214: CarreteraRecta10
+    4300216: CarreteraRecta11
+    4300218: CarreteraRecta12
+    4300220: Bifucacion1
+    4300222: CarreteraRecta16
+    4300224: SueloCemento_15
+    4300226: SueloCemento_16
+    4300228: SueloCemento_17
+    4300230: SueloCemento_18
+    4300232: CarreteraRecta17
+    4300234: SueloCemento_19
+    4300236: CarreteraRecta18
+    4300238: CarreteraRecta19
+    4300240: SueloCemento_20
+    4300242: CarreteraRecta20
+    4300244: pPlane30
+    4300246: pPlane31
+    4300248: CarreteraRecta21
+    4300250: CarreteraRecta22
+    4300252: CarreteraRecta23
+    4300254: CarreteraRecta8
+    4300256: SueloCemento_10
+    4300258: SueloCemento_9
+    4300260: CarreteraRecta4
+    4300262: CarreteraRecta3
+    4300264: SueloCemento_8
+    4300266: SueloCemento_7
+    4300268: SueloCemento_6
+    4300270: SueloCemento_5
+    4300272: SueloCemento_3
+    4300274: SueloCemento_4
+    4300276: SueloCemento_2
+    4300278: SueloCemento_1
+    4300280: CarreteraRecta1
+    4300282: CarreteraRecta
+    4300284: Bifucacion
+    4300286: CarreteraRecta2
+    4300288: pPlane32
+    4300290: SueloCemento_21
+    4300292: CarreteraRecta9
+    4300294: CarreteraRecta24
+    4300296: CarreteraRecta25
+    4300298: CarreteraRecta26
+    4300300: CarreteraRecta27
+    4300302: CarreteraRecta28
+    4300304: CarreteraRecta29
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

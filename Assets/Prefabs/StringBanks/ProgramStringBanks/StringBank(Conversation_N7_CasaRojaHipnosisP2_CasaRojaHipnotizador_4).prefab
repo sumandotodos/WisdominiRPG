@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1645960350785566}
+  m_IsPrefabParent: 1
+--- !u!1 &1645960350785566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4795429686728858}
+  - component: {fileID: 114582739606164860}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4795429686728858
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645960350785566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114582739606164860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645960350785566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_4_
+  randomYield: 0
+  phrase:
+  - "Compru\xE9balo mejor por ti mismo, porque s\xE9 que es bastante sorprendente.
+    Si realmente la experiencia de sentir fr\xEDo, calor, dolor, etc. fuera solo algo
+    f\xEDsico que tiene lugar en el cerebro, \xBFc\xF3mo ser\xEDa posible que la hipnosis
+    funcionara? La mente no jugar\xEDa ning\xFAn papel ah\xED y todos percibir\xEDamos
+    calor si hace calor, o fr\xEDo si hace fr\xEDo. Sin embargo no es as\xED."
+  - "Es tan extra\xF1o como los casos de ceguera espont\xE1nea que aparecen de pronto
+    en personas con estr\xE9s post-traum\xE1tico, como las que han vivido una guerra
+    en primera l\xEDnea de batalla. "
+  - "Esas personas no tienen ning\xFAn problema f\xEDsico con sus ojos o su nervio
+    \xF3ptico, pero de pronto su mente ya no quiere ver m\xE1s y deja de percibir
+    est\xEDmulos visuales. En teor\xEDa si somos solo algo f\xEDsico esto no ser\xEDa
+    posible, porque si los est\xEDmulos est\xE1n ah\xED y los receptores f\xEDsicos
+    tambi\xE9n est\xE1n y no les ha pasado nada, entonces deber\xEDamos seguir viendo,
+    \xBFno te parece?"
+  - "En fin, ahora te debo pedir que me disculpes, pero si lo que tratas es de entrar
+    al interior del volc\xE1n, ve a la casa del buz\xF3n amarillo. Creo que all\xED
+    saben algo."
+  correntAnswer: 

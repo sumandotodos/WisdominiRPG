@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &181618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 479750}
+  - component: {fileID: 11456366}
+  m_Layer: 0
+  m_Name: PozoDeSabiduria
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479750
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11456366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Bien hecho. Acabas de sumergirte con \xE9xito en el primer pozo de sabidur\xEDa."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_0
+    - theList:
+      - say
+      - "El agua es vida, y el prop\xF3sito de la vida es volvernos m\xE1s sabios
+        con cada experiencia que vivimos. La sabidur\xEDa nos ense\xF1a a pensar en
+        el otro y antes o despu\xE9s nos traer\xE1 felicidad."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_1
+    - theList:
+      - say
+      - "No encontrar\xE1s a ning\xFAn sabio que no sea feliz. Por los r\xEDos subterr\xE1neos
+        de Wisdomini corri\xF3 hace mucho tiempo sabidur\xEDa a raudales. Sabiduri\u0301a
+        en forma de breves frases que fueron pronunciadas por sabios y maestros al
+        otro lado del cristal donde tu\u0301 vives. "
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_2
+    - theList:
+      - say
+      - "Pero las acciones negativas que tambie\u0301n se llevaron a cabo al otro
+        lado del cristal acabaron pesando sobre Wisdo\u0301mini: las guerras, la desigualdad,
+        el egoi\u0301smo, las peleas entre parejas, compan\u0303eros o amigos, la
+        destruccio\u0301n del medio ambiente todo esto dio lugar a que el agua cristalina
+        de Wisdo\u0301mini se fuera volviendo cada vez ma\u0301s turbia. Y la sabiduri\u0301a
+        quedara eclipsada por la ignorancia."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_3
+    - theList:
+      - say
+      - "Sin embargo la esencia de la sabiduri\u0301a sigue ahi\u0301, del mismo modo
+        que sigue en el interior de cada uno de nosotros. Trata de recomponer las
+        oraciones que encontrara\u0301s en los pozos. Hacerlo te permitira\u0301 ir
+        interiorizando esos mensajes poco a poco, y encarnar en tu vida la sabiduri\u0301a
+        que encierran."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_4
+    - theList:
+      - say
+      - "Y eso tendra\u0301 su reflejo a este lado del cristal, pues recomponer las
+        frases te dara\u0301 mana\u0301 con el que podra\u0301s incrementar la fuerza
+        y el control de tus he\u0301roes."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_5
+    - theList:
+      - say
+      - "El mana\u0301 rojo te aportara\u0301 fuerza: fuerza de voluntad para seguir
+        creciendo, y conviccio\u0301n en tus propios ideales."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_6
+    - theList:
+      - say
+      - "Y el mana\u0301 azul te aportara\u0301 control: el control necesario para
+        mantener el dominio de tu propia mente ante las situaciones adversas que nos
+        ponen a prueba en el d\xEDa a d\xEDa."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_7
+    - theList:
+      - say
+      - "Tambie\u0301n encontrara\u0301s mana\u0301 en los cristales de cuarzo partidos,
+        que esta\u0301n escondidos en los rincones de Wisdo\u0301mini, bu\u0301scalos
+        y haz ma\u0301s poderosos a tus he\u0301roes para que puedan enfrenarse con
+        e\u0301xito a las sombras."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_8
+    - theList:
+      - ask
+      - 2
+      - "\xBFPero que\u0301 son las sombras realmente?"
+      - "\xBFCo\u0301mo sabre\u0301 cua\u0301nto mana\u0301 necesitare\u0301?"
+      - PozoDeSabiduria_0/0
+      - PozoDeSabiduria_1/0
+      - Conv_Siaomi_PozoDeSabiduria_9
+      - Conv_Siaomi_PozoDeSabiduria_10
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Bien hecho. Acabas de sumergirte con \xE9xito en el primer pozo de sabidur\xEDa."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_0
+    - theList:
+      - say
+      - "El agua es vida, y el prop\xF3sito de la vida es volvernos m\xE1s sabios
+        con cada experiencia que vivimos. La sabidur\xEDa nos ense\xF1a a pensar en
+        el otro y antes o despu\xE9s nos traer\xE1 felicidad."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_1
+    - theList:
+      - say
+      - "No encontrar\xE1s a ning\xFAn sabio que no sea feliz. Por los r\xEDos subterr\xE1neos
+        de Wisdomini corri\xF3 hace mucho tiempo sabidur\xEDa a raudales. Sabiduri\u0301a
+        en forma de breves frases que fueron pronunciadas por sabios y maestros al
+        otro lado del cristal donde tu\u0301 vives. "
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_2
+    - theList:
+      - say
+      - "Pero las acciones negativas que tambie\u0301n se llevaron a cabo al otro
+        lado del cristal acabaron pesando sobre Wisdo\u0301mini: las guerras, la desigualdad,
+        el egoi\u0301smo, las peleas entre parejas, compan\u0303eros o amigos, la
+        destruccio\u0301n del medio ambiente todo esto dio lugar a que el agua cristalina
+        de Wisdo\u0301mini se fuera volviendo cada vez ma\u0301s turbia. Y la sabiduri\u0301a
+        quedara eclipsada por la ignorancia."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_3
+    - theList:
+      - say
+      - "Sin embargo la esencia de la sabiduri\u0301a sigue ahi\u0301, del mismo modo
+        que sigue en el interior de cada uno de nosotros. Trata de recomponer las
+        oraciones que encontrara\u0301s en los pozos. Hacerlo te permitira\u0301 ir
+        interiorizando esos mensajes poco a poco, y encarnar en tu vida la sabiduri\u0301a
+        que encierran."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_4
+    - theList:
+      - say
+      - "Y eso tendra\u0301 su reflejo a este lado del cristal, pues recomponer las
+        frases te dara\u0301 mana\u0301 con el que podra\u0301s incrementar la fuerza
+        y el control de tus he\u0301roes."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_5
+    - theList:
+      - say
+      - "El mana\u0301 rojo te aportara\u0301 fuerza: fuerza de voluntad para seguir
+        creciendo, y conviccio\u0301n en tus propios ideales."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_6
+    - theList:
+      - say
+      - "Y el mana\u0301 azul te aportara\u0301 control: el control necesario para
+        mantener el dominio de tu propia mente ante las situaciones adversas que nos
+        ponen a prueba en el d\xEDa a d\xEDa."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_7
+    - theList:
+      - say
+      - "Tambie\u0301n encontrara\u0301s mana\u0301 en los cristales de cuarzo partidos,
+        que esta\u0301n escondidos en los rincones de Wisdo\u0301mini, bu\u0301scalos
+        y haz ma\u0301s poderosos a tus he\u0301roes para que puedan enfrenarse con
+        e\u0301xito a las sombras."
+      - wait
+      - NPC1
+      - Conv_Siaomi_PozoDeSabiduria_8
+    - theList:
+      - ask
+      - 2
+      - "\xBFPero que\u0301 son las sombras realmente?"
+      - "\xBFCo\u0301mo sabre\u0301 cua\u0301nto mana\u0301 necesitare\u0301?"
+      - PozoDeSabiduria_0/0
+      - PozoDeSabiduria_1/0
+      - Conv_Siaomi_PozoDeSabiduria_9
+      - Conv_Siaomi_PozoDeSabiduria_10
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 31
+  windowY: 24
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 181618}
+  m_IsPrefabParent: 1

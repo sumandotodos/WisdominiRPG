@@ -1,0 +1,403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &130512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 426184}
+  - component: {fileID: 11478990}
+  - component: {fileID: 13548364}
+  m_Layer: 0
+  m_Name: SmallCircleProgramClockwise
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &163312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 438246}
+  - component: {fileID: 3350854}
+  - component: {fileID: 6406980}
+  - component: {fileID: 2364892}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &426184
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130512}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.57, z: -0.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 438246}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &438246
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.37, z: 0}
+  m_LocalScale: {x: 1.9342905, y: 3.4857628, z: 1.6122477}
+  m_Children: []
+  m_Father: {fileID: 426184}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2364892
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163312}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3350854
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163312}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &6406980
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &11478990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - walkTo
+      - -0.04108084
+      - 2.403297
+      - blocking
+    - theList:
+      - walkTo
+      - 0.7805589
+      - 2.177346
+      - blocking
+    - theList:
+      - walkTo
+      - 2.054101
+      - 1.520034
+      - blocking
+    - theList:
+      - walkTo
+      - 2.300593
+      - 0.7394763
+      - blocking
+    - theList:
+      - walkTo
+      - 2.526544
+      - -0.2875735
+      - blocking
+    - theList:
+      - walkTo
+      - 1.889773
+      - -1.581656
+      - blocking
+    - theList:
+      - walkTo
+      - 1.314625
+      - -2.341673
+      - blocking
+    - theList:
+      - walkTo
+      - 0.04108305
+      - -2.403296
+      - blocking
+    - theList:
+      - walkTo
+      - -0.8421799
+      - -2.054099
+      - blocking
+    - theList:
+      - walkTo
+      - -1.684361
+      - -1.66382
+      - blocking
+    - theList:
+      - walkTo
+      - -2.444378
+      - -0.6162295
+      - blocking
+    - theList:
+      - walkTo
+      - -2.403296
+      - 0.4313612
+      - blocking
+    - theList:
+      - walkTo
+      - -1.848689
+      - 1.355706
+      - blocking
+    - theList:
+      - walkTo
+      - -1.232459
+      - 2.218428
+      - blocking
+    - theList:
+      - loop
+  programs:
+  - theList:
+    - theList:
+      - walkTo
+      - -0.01941878
+      - 0.02249612
+      - blocking
+    - theList:
+      - walkTo
+      - 1.009841
+      - -0.1522838
+      - blocking
+    - theList:
+      - walkTo
+      - 1.844901
+      - -0.8902438
+      - blocking
+    - theList:
+      - walkTo
+      - 2.291561
+      - -1.861243
+      - blocking
+    - theList:
+      - walkTo
+      - 2.526544
+      - -2.847574
+      - blocking
+    - theList:
+      - walkTo
+      - 1.980842
+      - -3.842083
+      - blocking
+    - theList:
+      - walkTo
+      - 1.301142
+      - -4.580044
+      - blocking
+    - theList:
+      - walkTo
+      - 0.1747811
+      - -4.851924
+      - blocking
+    - theList:
+      - walkTo
+      - -0.8544788
+      - -4.618884
+      - blocking
+    - theList:
+      - walkTo
+      - -1.650699
+      - -4.036283
+      - blocking
+    - theList:
+      - walkTo
+      - -2.019679
+      - -3.104124
+      - blocking
+    - theList:
+      - walkTo
+      - -2.505178
+      - -1.977764
+      - blocking
+    - theList:
+      - walkTo
+      - -1.980839
+      - -1.065024
+      - blocking
+    - theList:
+      - walkTo
+      - -1.281718
+      - -0.3464837
+      - blocking
+    - theList:
+      - loop
+  eventNamesInOrder:
+  - onOverlap
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  pivotYRotation: 0
+  distanceToPlayer: 0
+  followingState: 0
+  followState: 0
+  markedAsStartFollowing: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  spriteHolder: {fileID: 163312}
+  showingFrame: 0
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  IdleAnimationSpeed: 1
+  Idle:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  IdleSprite: []
+  WalkingFront: []
+  WalkingFrontSprite: []
+  WalkingFrontLeft: []
+  WalkingFrontLeftSprite: []
+  WalkingLeft: []
+  WalkingLeftSprite: []
+  WalkingLeftBack: []
+  WalkingLeftBackSprite: []
+  WalkingBack: []
+  WalkingBackSprite: []
+  WalkingBackRight: []
+  WalkingBackRightSprite: []
+  WalkingRight: []
+  WalkingRightSprite: []
+  WalkingRightFront: []
+  WalkingRightFrontSprite: []
+  NextProgram: []
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  images: []
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 04000000
+  action:
+  - theList: 0a0000000a0000000a0000000a0000000a0000000a0000000a0000000a0000000a0000000a0000000a0000000a0000000a0000000a00000012000000
+  animationSpeed: 0
+  animationDelay: 0
+  frameTime: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Sprite: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Sprite: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Sprite: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  walkingDirection: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: 
+  followDistance: 4
+--- !u!135 &13548364
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.008109
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 130512}
+  m_IsPrefabParent: 1

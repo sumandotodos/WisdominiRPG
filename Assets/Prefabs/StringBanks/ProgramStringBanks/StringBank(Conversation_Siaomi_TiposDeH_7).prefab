@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1887685955193446}
+  m_IsPrefabParent: 1
+--- !u!1 &1887685955193446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4707470733854772}
+  - component: {fileID: 114565193264829820}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Siaomi_TiposDeH_7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4707470733854772
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887685955193446}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114565193264829820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887685955193446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Siaomi_TiposDeH_7_
+  randomYield: 0
+  phrase:
+  - "Son siete, aunque en algunos lugares de Wisdomini s\xF3lo hallar\xE1s h\xE9roes
+    de algunas clases, no de todas. En este lugar, por ejemplo, hallar\xE1s cuatro
+    h\xE9roes distintos. Las siete clases de h\xE9roes son las siguientes:"
+  - "Los Guerreros pac\xEDficos - su fuente de energ\xEDa es el fuego. Con \xE9l son
+    capaces de destruir el fuego de la c\xF3lera empleando distintas armas o sabidur\xEDas,
+    que les permiten salir victoriosos de cada conflicto, no s\xF3lo a ellos, sino
+    tambi\xE9n a sus oponentes."
+  - "Las Maestras inmutables - su fuente de energ\xEDa es la tierra. Sus valores son
+    tan firmes e inmutables como la tierra, ya que provienen de su propia reflexi\xF3n
+    personal y no de los c\xE1nones marcados por la sociedad."
+  - "Los Fil\xF3sofos de la vida - su fuente de energ\xEDa es el agua. Saben adaptarse
+    y aceptar las circunstancias cambiantes de la vida, del mismo modo que el agua
+    se adapta de manera natural al recipiente que la contiene."
+  - "Los Sabios del no juicio - su fuente de energ\xEDa es el aire. Son buenos conocedores
+    de que los mayores huracanes que han azotado a la humanidad han tenido siempre
+    su origen en un simple pensamiento en el que juzgamos a la persona que tenemos
+    delante. Por eso evitan juzgar o encasillar a los dem\xE1s, conocedores de que
+    cada uno solo puede actuar en funci\xF3n de su sabidur\xEDa y a la etapa del camino
+    que est\xE9 recorriendo en ese momento."
+  - "Las Exploradoras de la Auto-Aceptaci\xF3n \u2013 su fuente de energ\xEDa es el
+    espacio. Las exploradoras saben que est\xE1n hechas de \xE1tomos que no son sino
+    espacio vac\xEDo: pura espaciosidad y vacuidad. Y del mismo modo que su cuerpo
+    es vac\xEDo, tambi\xE9n lo es el sost\xE9n de sus h\xE1bitos y obst\xE1culos internos.
+    Saben que no existe nada s\xF3lido o permanente que impida que esos h\xE1bitos
+    sean transformados en sabidur\xEDa, por eso viven la vida como una evoluci\xF3n
+    y un cambio permanente."
+  - "Las Magas del Coraz\xF3n \u2013 su fuente de energ\xEDa es la luna. Saben que
+    la aut\xE9ntica felicidad proviene de mantener una relaci\xF3n afectuosa y sincera
+    con las personas que nos rodean, por eso las magas son como lunas de verano que
+    arropan con su calidez y su frescura a todo el que tiene la suerte de estar a
+    su lado."
+  - "Los Yogui de la Visi\xF3n Penetrante \u2013 su fuente de energ\xEDa es la tierra.
+    Siendo uno con la tierra, los yoguis son capaces de comprender la naturaleza de
+    la mente gracias a su gran visi\xF3n, comprendiendo las causas y condiciones que
+    hay detr\xE1s de cada suceso que tiene lugar, y viendo lo que otros no ven."
+  - "Si act\xFAas con inteligencia y sabidur\xEDa pronto los h\xE9roes dejar\xE1n
+    de ser entes externos y pasar\xE1n a formar parte de ti.Pero no estar\xE1s solo
+    en tu viaje: cada vez que vuelvas a este plano a trav\xE9s del \xE1rbol de la
+    meditaci\xF3n, nos encontrar\xE1s al Gur\xFA o a m\xED, y podr\xE1s hacernos una
+    pregunta, solo una."
+  - "El Gur\xFA tambi\xE9n est\xE1 aqu\xED para ayudarte: \xE9l es un ser dotado de
+    una gran sabidur\xEDa y una gran bondad.\r Que la sabidur\xEDa te acompa\xF1e
+    en tu camino..."
+  correntAnswer: 

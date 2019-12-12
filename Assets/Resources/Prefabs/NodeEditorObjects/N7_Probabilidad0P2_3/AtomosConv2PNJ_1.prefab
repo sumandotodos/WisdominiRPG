@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1740843889598602}
+  m_IsPrefabParent: 1
+--- !u!1 &1740843889598602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4164505928437612}
+  - component: {fileID: 114409688894047894}
+  m_Layer: 0
+  m_Name: AtomosConv2PNJ_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4164505928437612
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1740843889598602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114409688894047894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1740843889598602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Que va. Estamos en contacto con trillones de \xE1tomos cada d\xEDa, solo
+        que como tu conciencia los est\xE1 percibiendo, se est\xE1n comportando como
+        part\xEDculas con masa."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_0
+    - theList:
+      - say
+      - "Pero a ver, \xBFquieres decir que cuando por ejemplo los zapatos que me acabo
+        de comprar est\xE1n todav\xEDa dentro de la caja y por tanto no los estoy
+        viendo, no est\xE1n ah\xED? Eso es una tonter\xEDa."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_1
+    - theList:
+      - say
+      - "Observar no se limita a ver con los ojos, significa que percibamos mentalmente
+        de la manera que sea una influencia proveniente de esos \xE1tomos, es decir
+        que esos \xE1tomos est\xE9n entrelazados de alguna manera con el resto del
+        mundo. Vamos, que no est\xE9n aislados. Y tus zapatos no est\xE1n aislados,
+        puedes percibir su peso por ejemplo."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_2
+    - theList:
+      - say
+      - "Incluso si fuera un objeto de peso imperceptible, si los \xE1tomos est\xE1n
+        interaccionando con el exterior de la manera que sea, por ejemplo intercambiando
+        calor con el exterior, entonces esos \xE1tomos estar\xEDan entrelazados con
+        el resto del mundo y seguir\xEDan comport\xE1ndose como part\xEDculas con
+        masa igual que si los estuvi\xE9ramos viendo."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_3
+    - theList:
+      - say
+      - "Pero si estuvieran completamente aislados de toda percepci\xF3n mental directa
+        o indirecta, entonces ya no ser\xEDan part\xEDculas ocupando un lugar concreto
+        en un momento dado, sino que ser\xEDan ondas. Y para que este estado de aislamiento
+        sea efectivo es necesario que no pase ninguna radiaci\xF3n, crear una atm\xF3sfera
+        de vac\xEDo, fijar una temperatura cercana al cero absoluto, etc."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_4
+    - theList:
+      - say
+      - "No me lo explico \xBFquieres decir que las cosas no existen mientras no las
+        percibimos? No puede ser \xBFQu\xE9 puede cambiar el hecho de que las observemos
+        o las dejemos de observar? Los \xE1tomos, la materia, tiene que estar ah\xED
+        igualmente."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_5
+    - theList:
+      - say
+      - "Pues la mec\xE1nica cu\xE1ntica est\xE1 completamente probada y todas sus
+        predicciones han resultado acertadas. De hecho un tercio de la econom\xEDa
+        se basa en ella, desde el l\xE1ser hasta el transistor, pasando por ordenadores,
+        smartphones... ."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_6
+    - theList:
+      - say
+      - "\xBFPero est\xE1 comprobado eso de que un objeto f\xEDsico puede ser bien
+        una part\xEDcula o bien una onda?."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_7
+    - theList:
+      - say
+      - "S\xED. Al estado ondulatorio se le llama estado de superposici\xF3n, y ya
+        se han puesto en este estado objetos relativamente grandes: una macromol\xE9cula
+        de 70 \xE1tomos de carbono de forma esf\xE9rica, una pieza de un chip... ."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_8
+    - theList:
+      - say
+      - "Y tambi\xE9n se han hecho experimentos en los que cada uno de los millones
+        de electrones implicados se desplazaba simult\xE1neamente en dos direcciones
+        a la vez, o en los que m\xE1s de un millar de \xE1tomos se distribuye por
+        un \xE1rea de varios mil\xEDmetros. Un titular del American Institute of Physics
+        dec\xEDa: \u20183600 \xE1tomos en 2 sitios a la vez\u2019."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_9
+    - theList:
+      - say
+      - "Lo m\xE1s asombroso es que no hay otro l\xEDmite que el presupuesto, porque
+        se trata de experimentos muy costosos, pero con la tecnolog\xEDa adecuada
+        hasta un planeta entero podr\xEDa dejar de estar ah\xED como un objeto f\xEDsico
+        con masa y pasar a ser una onda de vac\xEDo. Solo habr\xEDa que aislarlo completamente
+        de todo lo dem\xE1s."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_10
+    - theList:
+      - say
+      - "\xBFEst\xE1s de broma."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_11
+    - theList:
+      - say
+      - "No. El universo en el que vivimos no es una onda \xFAnicamente porque lo
+        estamos percibiendo a trav\xE9s de la conciencia."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_12
+    - theList:
+      - branchTo
+      - AtomosConv2PNJ_2/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Que va. Estamos en contacto con trillones de \xE1tomos cada d\xEDa, solo
+        que como tu conciencia los est\xE1 percibiendo, se est\xE1n comportando como
+        part\xEDculas con masa."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_0
+    - theList:
+      - say
+      - "Pero a ver, \xBFquieres decir que cuando por ejemplo los zapatos que me acabo
+        de comprar est\xE1n todav\xEDa dentro de la caja y por tanto no los estoy
+        viendo, no est\xE1n ah\xED? Eso es una tonter\xEDa."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_1
+    - theList:
+      - say
+      - "Observar no se limita a ver con los ojos, significa que percibamos mentalmente
+        de la manera que sea una influencia proveniente de esos \xE1tomos, es decir
+        que esos \xE1tomos est\xE9n entrelazados de alguna manera con el resto del
+        mundo. Vamos, que no est\xE9n aislados. Y tus zapatos no est\xE1n aislados,
+        puedes percibir su peso por ejemplo."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_2
+    - theList:
+      - say
+      - "Incluso si fuera un objeto de peso imperceptible, si los \xE1tomos est\xE1n
+        interaccionando con el exterior de la manera que sea, por ejemplo intercambiando
+        calor con el exterior, entonces esos \xE1tomos estar\xEDan entrelazados con
+        el resto del mundo y seguir\xEDan comport\xE1ndose como part\xEDculas con
+        masa igual que si los estuvi\xE9ramos viendo."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_3
+    - theList:
+      - say
+      - "Pero si estuvieran completamente aislados de toda percepci\xF3n mental directa
+        o indirecta, entonces ya no ser\xEDan part\xEDculas ocupando un lugar concreto
+        en un momento dado, sino que ser\xEDan ondas. Y para que este estado de aislamiento
+        sea efectivo es necesario que no pase ninguna radiaci\xF3n, crear una atm\xF3sfera
+        de vac\xEDo, fijar una temperatura cercana al cero absoluto, etc."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_4
+    - theList:
+      - say
+      - "No me lo explico \xBFquieres decir que las cosas no existen mientras no las
+        percibimos? No puede ser \xBFQu\xE9 puede cambiar el hecho de que las observemos
+        o las dejemos de observar? Los \xE1tomos, la materia, tiene que estar ah\xED
+        igualmente."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_5
+    - theList:
+      - say
+      - "Pues la mec\xE1nica cu\xE1ntica est\xE1 completamente probada y todas sus
+        predicciones han resultado acertadas. De hecho un tercio de la econom\xEDa
+        se basa en ella, desde el l\xE1ser hasta el transistor, pasando por ordenadores,
+        smartphones... ."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_6
+    - theList:
+      - say
+      - "\xBFPero est\xE1 comprobado eso de que un objeto f\xEDsico puede ser bien
+        una part\xEDcula o bien una onda?."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_7
+    - theList:
+      - say
+      - "S\xED. Al estado ondulatorio se le llama estado de superposici\xF3n, y ya
+        se han puesto en este estado objetos relativamente grandes: una macromol\xE9cula
+        de 70 \xE1tomos de carbono de forma esf\xE9rica, una pieza de un chip... ."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_8
+    - theList:
+      - say
+      - "Y tambi\xE9n se han hecho experimentos en los que cada uno de los millones
+        de electrones implicados se desplazaba simult\xE1neamente en dos direcciones
+        a la vez, o en los que m\xE1s de un millar de \xE1tomos se distribuye por
+        un \xE1rea de varios mil\xEDmetros. Un titular del American Institute of Physics
+        dec\xEDa: \u20183600 \xE1tomos en 2 sitios a la vez\u2019."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_9
+    - theList:
+      - say
+      - "Lo m\xE1s asombroso es que no hay otro l\xEDmite que el presupuesto, porque
+        se trata de experimentos muy costosos, pero con la tecnolog\xEDa adecuada
+        hasta un planeta entero podr\xEDa dejar de estar ah\xED como un objeto f\xEDsico
+        con masa y pasar a ser una onda de vac\xEDo. Solo habr\xEDa que aislarlo completamente
+        de todo lo dem\xE1s."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_10
+    - theList:
+      - say
+      - "\xBFEst\xE1s de broma."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_11
+    - theList:
+      - say
+      - "No. El universo en el que vivimos no es una onda \xFAnicamente porque lo
+        estamos percibiendo a trav\xE9s de la conciencia."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1_12
+    - theList:
+      - branchTo
+      - AtomosConv2PNJ_2/0
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 673
+  windowY: 13

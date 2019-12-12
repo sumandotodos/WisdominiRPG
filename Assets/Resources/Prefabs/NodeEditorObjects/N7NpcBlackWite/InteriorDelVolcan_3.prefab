@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011505438216}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011505438216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000010285022974}
+  - component: {fileID: 114000013653424708}
+  m_Layer: 0
+  m_Name: InteriorDelVolcan_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010285022974
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011505438216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &114000013653424708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011505438216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFte das cuenta de que a nivel existencial no habr\xEDa ninguna diferencia
+        entre que tu supuesta conciencia duplicada existiera o dejara de existir?\r"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_0
+    - theList:
+      - say
+      - "Si ella siente y percibe todo exactamente igual que t\xFA, entonces esa r\xE9plica
+        percibir\xEDa que ella es la verdadera conciencia"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_1
+    - theList:
+      - say
+      - "Que ella eres t\xFA, y que t\xFA eres ella, es decir que hay una r\xE9plica
+        artificial de s\xED misma construida en ese cerebro conectado a un cableado"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_2
+    - theList:
+      - say
+      - "Como lo percibir\xEDa todo igual que t\xFA, podr\xEDamos de hecho decir que
+        ser\xEDas t\xFA, porque no habr\xEDa ninguna diferencia entre tu manera de
+        percibir la realidad, y la de la r\xE9plica"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_3
+    - theList:
+      - say
+      - "Pero todo esto, como creo que empezabas a sospechar, es solo una tomadura
+        de pelo: por el hecho de replicar un cerebro mol\xE9cula por mol\xE9cula y
+        conectarlo a una se\xF1ales el\xE9ctricas iguales a las que se env\xEDan al
+        cerebro de un ser vivo, no estar\xEDamos creando un \xF3rgano biol\xF3gico
+        vivo"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_4
+    - theList:
+      - say
+      - "Y mucho menos una conciencia. Al cabo de poco tiempo empezar\xEDa a oler
+        a podrido porque se empezar\xEDa a descomponer, y es que habr\xEDa algo que
+        seguir\xEDa faltando: la conciencia, que es la energ\xEDa que da vida y movimiento
+        a nuestro cuerpo f\xEDsico. Esa energ\xEDa entra en el embri\xF3n reci\xE9n
+        fecundado y no abandona el cuerpo hasta el momento de la muerte"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_5
+    - theList:
+      - ask
+      - 2
+      - Interesante charla
+      - Se me ha puesto la cabeza como un bombo
+      - InteriorDelVolcan_3/7
+      - InteriorDelVolcan_3/7
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_6
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_7
+    - theList:
+      - say
+      - "Ha sido un placer\r."
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_8
+    - theList:
+      - say
+      - "Si quieres saber c\xF3mo entrar en el volc\xE1n pregunta cerca de la casa
+        naranja. Suerte"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_9
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFte das cuenta de que a nivel existencial no habr\xEDa ninguna diferencia
+        entre que tu supuesta conciencia duplicada existiera o dejara de existir?\r"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_0
+    - theList:
+      - say
+      - "Si ella siente y percibe todo exactamente igual que t\xFA, entonces esa r\xE9plica
+        percibir\xEDa que ella es la verdadera conciencia"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_1
+    - theList:
+      - say
+      - "Que ella eres t\xFA, y que t\xFA eres ella, es decir que hay una r\xE9plica
+        artificial de s\xED misma construida en ese cerebro conectado a un cableado"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_2
+    - theList:
+      - say
+      - "Como lo percibir\xEDa todo igual que t\xFA, podr\xEDamos de hecho decir que
+        ser\xEDas t\xFA, porque no habr\xEDa ninguna diferencia entre tu manera de
+        percibir la realidad, y la de la r\xE9plica"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_3
+    - theList:
+      - say
+      - "Pero todo esto, como creo que empezabas a sospechar, es solo una tomadura
+        de pelo: por el hecho de replicar un cerebro mol\xE9cula por mol\xE9cula y
+        conectarlo a una se\xF1ales el\xE9ctricas iguales a las que se env\xEDan al
+        cerebro de un ser vivo, no estar\xEDamos creando un \xF3rgano biol\xF3gico
+        vivo"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_4
+    - theList:
+      - say
+      - "Y mucho menos una conciencia. Al cabo de poco tiempo empezar\xEDa a oler
+        a podrido porque se empezar\xEDa a descomponer, y es que habr\xEDa algo que
+        seguir\xEDa faltando: la conciencia, que es la energ\xEDa que da vida y movimiento
+        a nuestro cuerpo f\xEDsico. Esa energ\xEDa entra en el embri\xF3n reci\xE9n
+        fecundado y no abandona el cuerpo hasta el momento de la muerte"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_5
+    - theList:
+      - ask
+      - 2
+      - Interesante charla
+      - Se me ha puesto la cabeza como un bombo
+      - InteriorDelVolcan_3/7
+      - InteriorDelVolcan_3/7
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_6
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_7
+    - theList:
+      - say
+      - "Ha sido un placer\r."
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_8
+    - theList:
+      - say
+      - "Si quieres saber c\xF3mo entrar en el volc\xE1n pregunta cerca de la casa
+        naranja. Suerte"
+      - wait
+      - NPC1
+      - Conv_N7NpcBlackWite_InteriorDelVolcan_3_9
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000c0000000b0000000b000000110000000f000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 701
+  windowY: 22

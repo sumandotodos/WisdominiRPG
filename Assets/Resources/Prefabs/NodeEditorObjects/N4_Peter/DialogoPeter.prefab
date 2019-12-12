@@ -1,0 +1,378 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1139521334448310}
+  m_IsPrefabParent: 1
+--- !u!1 &1139521334448310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4261999520847472}
+  - component: {fileID: 114763224586924264}
+  m_Layer: 0
+  m_Name: DialogoPeter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4261999520847472
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1139521334448310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &114763224586924264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1139521334448310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Hola amigo, \xBFpuedes hablarme de este lugar? Acabo de llegar"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_0
+    - theList:
+      - say
+      - "\xBFUn forastero, eh\u2026? no s\xE9 si durar\xE1s mucho aqu\xED"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_1
+    - theList:
+      - say
+      - "Todos los que vivimos aqu\xED estamos sometidos a uno de los dos grandes
+        pont\xEDfices que reinan este lugar y trabajamos para ellos"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2
+    - theList:
+      - say
+      - "Si no tienes cuidado, pronto acabar\xE1s a las \xF3rdenes de uno de los dos"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_3
+    - theList:
+      - say
+      - "\xBFQui\xE9nes son?"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_4
+    - theList:
+      - say
+      - Uno es el Gran Obispo Cocoroloco. Propugna que existe un dios creador superior
+        a nosotros
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_5
+    - theList:
+      - say
+      - "El otro es el Gran Dictador Materio. Su dogma es que solo existe lo f\xEDsico
+        y material, y que cualquier cosa que no haya sido descubierta por la ciencia
+        sencillamente no existe"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_6
+    - theList:
+      - say
+      - "Yo estoy buscando la Ciudad Perdida. Me han dicho que all\xED puedo encontrar
+        los mapas imaginarios"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_7
+    - theList:
+      - say
+      - "No conozco a nadie que haya llegado hasta all\xED. Quiz\xE1 tambi\xE9n la
+        Ciudad Perdida sea imaginaria"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_8
+    - theList:
+      - say
+      - "Me han dicho que est\xE1 al otro lado de las monta\xF1as, \xBFsabes c\xF3mo
+        llegar hasta ella?"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_9
+    - theList:
+      - runEvent
+      - customEvent2
+    - theList:
+      - say
+      - "S\xF3lo hay que mirar para darse cuenta de que las monta\xF1as son infranqueables
+        por el exterior. Pero he escuchado que hab\xEDa dos grutas subterr\xE1neas
+        que conduc\xEDan hasta all\xED"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_10
+    - theList:
+      - say
+      - "Una part\xEDa de las entra\xF1as del Bunker del Dictador Materio, y la otra
+        de las entra\xF1as del Bunker del Obispo Cocoroloco. Pero una de ellas ya
+        no existe"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_11
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 no?"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_12
+    - theList:
+      - say
+      - "Dicen que el Obispo Cocoroloco la dinamit\xF3. No quer\xEDa que nadie llegara
+        hasta all\xED"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_13
+    - theList:
+      - say
+      - "El Dictador Materio tambi\xE9n orden\xF3 que bloquearan la suya, pero sus
+        cient\xEDficos se pusieron a discutir acerca de cu\xE1l era el m\xE9todo tecnol\xF3gicamente
+        m\xE1s efectivo, y por lo que s\xE9 todav\xEDa siguen debatiendo sobre el
+        tema. Pero no te hagas ilusiones, las entradas de los bunkers siempre est\xE1n
+        o cerradas, o vigiladas por sus respectivos guardianes"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_14
+    - theList:
+      - say
+      - "Ve a verlo por ti mismo si no me crees. Ver\xE1s un tipo duro vestido de
+        color blanco guardando el b\xFAnker de Materio. Yo que s\xE9, ve a ver si
+        eres capaz de hacer migas con \xE9l, h\xE1blale de aleaciones del magnesio,
+        o algo... "
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_15
+    - theList:
+      - say
+      - "Gracias, eso har\xE9"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_16
+    - theList:
+      - say
+      - "Me llamo Peter, a todo esto, estar\xE9 aqu\xED por si me necesitas"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_17
+    - theList:
+      - say
+      - Gracias nuevamente
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_18
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Hola amigo, \xBFpuedes hablarme de este lugar? Acabo de llegar"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_0
+    - theList:
+      - say
+      - "\xBFUn forastero, eh\u2026? no s\xE9 si durar\xE1s mucho aqu\xED"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_1
+    - theList:
+      - say
+      - "Todos los que vivimos aqu\xED estamos sometidos a uno de los dos grandes
+        pont\xEDfices que reinan este lugar y trabajamos para ellos"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2
+    - theList:
+      - say
+      - "Si no tienes cuidado, pronto acabar\xE1s a las \xF3rdenes de uno de los dos"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_3
+    - theList:
+      - say
+      - "\xBFQui\xE9nes son?"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_4
+    - theList:
+      - say
+      - Uno es el Gran Obispo Cocoroloco. Propugna que existe un dios creador superior
+        a nosotros
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_5
+    - theList:
+      - say
+      - "El otro es el Gran Dictador Materio. Su dogma es que solo existe lo f\xEDsico
+        y material, y que cualquier cosa que no haya sido descubierta por la ciencia
+        sencillamente no existe"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_6
+    - theList:
+      - say
+      - "Yo estoy buscando la Ciudad Perdida. Me han dicho que all\xED puedo encontrar
+        los mapas imaginarios"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_7
+    - theList:
+      - say
+      - "No conozco a nadie que haya llegado hasta all\xED. Quiz\xE1 tambi\xE9n la
+        Ciudad Perdida sea imaginaria"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_8
+    - theList:
+      - say
+      - "Me han dicho que est\xE1 al otro lado de las monta\xF1as, \xBFsabes c\xF3mo
+        llegar hasta ella?"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_9
+    - theList:
+      - runEvent
+      - customEvent2
+    - theList:
+      - say
+      - "S\xF3lo hay que mirar para darse cuenta de que las monta\xF1as son infranqueables
+        por el exterior. Pero he escuchado que hab\xEDa dos grutas subterr\xE1neas
+        que conduc\xEDan hasta all\xED"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_10
+    - theList:
+      - say
+      - "Una part\xEDa de las entra\xF1as del Bunker del Dictador Materio, y la otra
+        de las entra\xF1as del Bunker del Obispo Cocoroloco. Pero una de ellas ya
+        no existe"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_11
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 no?"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_12
+    - theList:
+      - say
+      - "Dicen que el Obispo Cocoroloco la dinamit\xF3. No quer\xEDa que nadie llegara
+        hasta all\xED"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_13
+    - theList:
+      - say
+      - "El Dictador Materio tambi\xE9n orden\xF3 que bloquearan la suya, pero sus
+        cient\xEDficos se pusieron a discutir acerca de cu\xE1l era el m\xE9todo tecnol\xF3gicamente
+        m\xE1s efectivo, y por lo que s\xE9 todav\xEDa siguen debatiendo sobre el
+        tema. Pero no te hagas ilusiones, las entradas de los bunkers siempre est\xE1n
+        o cerradas, o vigiladas por sus respectivos guardianes"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_14
+    - theList:
+      - say
+      - "Ve a verlo por ti mismo si no me crees. Ver\xE1s un tipo duro vestido de
+        color blanco guardando el b\xFAnker de Materio. Yo que s\xE9, ve a ver si
+        eres capaz de hacer migas con \xE9l, h\xE1blale de aleaciones del magnesio,
+        o algo... "
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_15
+    - theList:
+      - say
+      - "Gracias, eso har\xE9"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_16
+    - theList:
+      - say
+      - "Me llamo Peter, a todo esto, estar\xE9 aqu\xED por si me necesitas"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_17
+    - theList:
+      - say
+      - Gracias nuevamente
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_18
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000230000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 103
+  windowY: 33

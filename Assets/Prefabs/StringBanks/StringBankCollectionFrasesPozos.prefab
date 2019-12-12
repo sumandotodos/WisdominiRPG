@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1544130021539684}
+  m_IsPrefabParent: 1
+--- !u!1 &1544130021539684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4018179504890528}
+  - component: {fileID: 114612163044138378}
+  m_Layer: 0
+  m_Name: StringBankCollectionFrasesPozos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4018179504890528
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544130021539684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 190.23402, y: -91.27229, z: -3.3345032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114612163044138378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544130021539684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3b512151c9c9c408cd12d9d8aa0bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bank:
+  - {fileID: 11459800, guid: 249e64ce901eaab428e0bf3fdda58fab, type: 2}
+  - {fileID: 11406584, guid: d40ce67f02f6f0d41840d64b711b9185, type: 2}
+  - {fileID: 114016258928313968, guid: 5b18ca27bc889524eb14e911771feb5b, type: 2}
+  - {fileID: 114582882172646578, guid: 714a222fd5f2a00469e9ef7af47f4d92, type: 2}
+  - {fileID: 114478637598858966, guid: d82f0a9d63e3b304786d418cdd17049a, type: 2}
+  - {fileID: 114473893510823332, guid: b57407b70c0b350418d9665033580cd8, type: 2}
+  - {fileID: 114197563525900610, guid: bfa38c9d79b6a0a4799288cc74410448, type: 2}
+  - {fileID: 114294177338380150, guid: 845cfc87ff39a6c4486ae86078bf2ab5, type: 2}
+  - {fileID: 114642959673060882, guid: aee8f9c3cd61ff248a385d1bd918ce0a, type: 2}
+  - {fileID: 114521840851916566, guid: eb3630dfe666c614fa4b2d9eade56e32, type: 2}
+  - {fileID: 114517409909970580, guid: ec29e362dbb88d543b068794db712fe0, type: 2}
+  - {fileID: 114782492453957330, guid: 3dde3741b47bb444c9e33ad50b2e815c, type: 2}
+  - {fileID: 114077229045541754, guid: 7e78ef0883ce1ea4dbb44fa8516c412f, type: 2}
+  - {fileID: 114782831895718768, guid: 70b927e1840802f49a8dd245446a33c6, type: 2}
+  - {fileID: 114755694505580560, guid: 0d0612e099c436e45b24e17c3aa716db, type: 2}
+  - {fileID: 114157630035158190, guid: 99986d79bbb5d24408fa0da4b3d08ccc, type: 2}
+  - {fileID: 114216720511892188, guid: 2522ea4675baa5a409507d441d70415b, type: 2}
+  - {fileID: 114070660410455658, guid: 5cb9b3c69d82a6047a3beba28bb29f09, type: 2}
+  - {fileID: 114393008420953512, guid: 3db28abdc0d41aa4b83ea5113a83ac06, type: 2}
+  - {fileID: 114943094887642360, guid: cabe6a80119135f49bf6b413e0f90c28, type: 2}
+  random: 1
+  rosetta: {fileID: 0}
+  objName: Pozos

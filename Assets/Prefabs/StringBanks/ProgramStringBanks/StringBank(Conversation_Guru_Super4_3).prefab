@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &187898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469702}
+  - component: {fileID: 11491722}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Guru_Super4_3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11491722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Guru_Super4_3_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "Claro, como todos. Pero f\xEDjate: \xBFcu\xE1nto tiempo hemos dedicado a investigar
+    c\xF3mo podemos llegar a ser felices?"
+  - "\xBFCu\xE1nto tiempo hemos dedicado a analizar qu\xE9 nos hace estar alegres,
+    optimistas y en paz, y qu\xE9 nos hace estar tensos y pas\xE1ndolo mal?"
+  - "\xBFCu\xE1nto tiempo hemos dedicado a buscar y analizar lo que han descubierto
+    al respecto los psic\xF3logos y expertos en la materia, o los sabios de la antig\xFCedad?"
+  - La verdad es que no he dedicado mucho tiempo...
+  - 'La felicidad no es algo que se pueda investigar. Viene dada por las circunstancias
+    externas de tu vida: tu trabajo, tu pareja, tu tiempo libre...'
+  - La felicidad no se hace, se nace con ella o sin ella.
+  correntAnswer: 

@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &119480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 405066}
+  - component: {fileID: 11414818}
+  m_Layer: 0
+  m_Name: Super4_16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &405066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11414818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "La alternativa consiste en dedicar parte de tu energ\xEDa a trabajar tu interior."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_0
+    - theList:
+      - say
+      - "No es algo que se pueda hacer de un d\xEDa para otro, porque lo que est\xE1
+        en juego es llevar a cabo una transformaci\xF3n trascendental de tu vida."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_1
+    - theList:
+      - say
+      - "Se trata de aprender a vivir las m\xE1s o menos 6000 horas que pasamos despiertos
+        al a\xF1o, de manera plena y feliz."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_2
+    - theList:
+      - say
+      - En lugar de pasar 5900 horas frustrados y amargados, esperando que lleguen
+        esos escasos ratos que nos parecen buenos.
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_3
+    - theList:
+      - say
+      - "Es algo tan sencillo como no vivir estresados cuando hacemos cosas como ir
+        de casa al trabajo, o del trabajo a casa, o cuando hacemos cualquier cosa
+        que etiquetamos como \"No me gusta\". Estamos estresados porque queremos que
+        acabe cuanto antes. \xBFPara qu\xE9? Para ahorrar 5 minutos. \xBFY merecer\xE1
+        la pena? Desde luego que no."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_4
+    - theList:
+      - say
+      - "Ser\xE1n 5 minutos m\xE1s dedicados a una actividad que etiquetamos como
+        \"S\xED me gusta\", pero esos 5 minutos no traer\xE1n m\xE1s felicidad a nuestra
+        vida."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_5
+    - theList:
+      - say
+      - "Frente a esto, est\xE1 la alternativa de vivir la vida en calma. Todo el
+        rato, todo el d\xEDa. Vivir una vida plena y feliz. Y la manera de lograrlo
+        es practicar mindfulness y meditar."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_6
+    - theList:
+      - say
+      - "\xBFMindfulness?"
+      - wait
+      - Player
+      - Conv_Guru_Super4_16_7
+    - theList:
+      - say
+      - "S\xED, o atenci\xF3n plena. Se trata simplemente de estar presente al 100%.
+        Normalmente solemos ir en modo autom\xE1tico: si alguien nos da un abraza
+        nos sentimos bien. Pero si no nos dan un abrazo que esper\xE1bamos, nos sentimos
+        mal. Si alguien nos insulta nos enfadamos. Si no conseguimos algo que quer\xEDamos,
+        nos sentimos decepcionados."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_8
+    - theList:
+      - say
+      - "Y casi constantemente vamos siguiendo sin darnos cuenta la cadena de pensamientos
+        que es la que esta\u0301 fomentando estas emociones, ma\u0301s negativas que
+        positivas. Nos comportamos como auto\u0301matas. Practicar mindfulness es
+        recuperar la consciencia."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_9
+    - theList:
+      - say
+      - "Cuando est\xE1s presente al 100% no te puede pasar nada malo, porque no te
+        dejar\xE1s llevar por impulsos, t\xFA tienes el control de lo que haces."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_10
+    - theList:
+      - say
+      - En cambio las personas que no son conscientes de sus emociones, como mucho
+        pueden aspirar a tener resultados mediocres en su vida.
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_11
+    - theList:
+      - say
+      - "\xBFSe te ocurre algo mejor en lo que emplear nuestro tiempo y esfuerzo?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_12
+    - theList:
+      - ask
+      - 2
+      - "S\xED"
+      - No
+      - Super4_17/0
+      - Super4_17/0
+      - Conv_Guru_Super4_16_13
+      - Conv_Guru_Super4_16_14
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "La alternativa consiste en dedicar parte de tu energ\xEDa a trabajar tu interior."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_0
+    - theList:
+      - say
+      - "No es algo que se pueda hacer de un d\xEDa para otro, porque lo que est\xE1
+        en juego es llevar a cabo una transformaci\xF3n trascendental de tu vida."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_1
+    - theList:
+      - say
+      - "Se trata de aprender a vivir las m\xE1s o menos 6000 horas que pasamos despiertos
+        al a\xF1o, de manera plena y feliz."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_2
+    - theList:
+      - say
+      - En lugar de pasar 5900 horas frustrados y amargados, esperando que lleguen
+        esos escasos ratos que nos parecen buenos.
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_3
+    - theList:
+      - say
+      - "Es algo tan sencillo como no vivir estresados cuando hacemos cosas como ir
+        de casa al trabajo, o del trabajo a casa, o cuando hacemos cualquier cosa
+        que etiquetamos como \"No me gusta\". Estamos estresados porque queremos que
+        acabe cuanto antes. \xBFPara qu\xE9? Para ahorrar 5 minutos. \xBFY merecer\xE1
+        la pena? Desde luego que no."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_4
+    - theList:
+      - say
+      - "Ser\xE1n 5 minutos m\xE1s dedicados a una actividad que etiquetamos como
+        \"S\xED me gusta\", pero esos 5 minutos no traer\xE1n m\xE1s felicidad a nuestra
+        vida."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_5
+    - theList:
+      - say
+      - "Frente a esto, est\xE1 la alternativa de vivir la vida en calma. Todo el
+        rato, todo el d\xEDa. Vivir una vida plena y feliz. Y la manera de lograrlo
+        es practicar mindfulness y meditar."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_6
+    - theList:
+      - say
+      - "\xBFMindfulness?"
+      - wait
+      - Player
+      - Conv_Guru_Super4_16_7
+    - theList:
+      - say
+      - "S\xED, o atenci\xF3n plena. Se trata simplemente de estar presente al 100%.
+        Normalmente solemos ir en modo autom\xE1tico: si alguien nos da un abraza
+        nos sentimos bien. Pero si no nos dan un abrazo que esper\xE1bamos, nos sentimos
+        mal. Si alguien nos insulta nos enfadamos. Si no conseguimos algo que quer\xEDamos,
+        nos sentimos decepcionados."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_8
+    - theList:
+      - say
+      - "Y casi constantemente vamos siguiendo sin darnos cuenta la cadena de pensamientos
+        que es la que esta\u0301 fomentando estas emociones, ma\u0301s negativas que
+        positivas. Nos comportamos como auto\u0301matas. Practicar mindfulness es
+        recuperar la consciencia."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_9
+    - theList:
+      - say
+      - "Cuando est\xE1s presente al 100% no te puede pasar nada malo, porque no te
+        dejar\xE1s llevar por impulsos, t\xFA tienes el control de lo que haces."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_10
+    - theList:
+      - say
+      - En cambio las personas que no son conscientes de sus emociones, como mucho
+        pueden aspirar a tener resultados mediocres en su vida.
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_11
+    - theList:
+      - say
+      - "\xBFSe te ocurre algo mejor en lo que emplear nuestro tiempo y esfuerzo?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_16_12
+    - theList:
+      - ask
+      - 2
+      - "S\xED"
+      - No
+      - Super4_17/0
+      - Super4_17/0
+      - Conv_Guru_Super4_16_13
+      - Conv_Guru_Super4_16_14
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 5251
+  windowY: 9098

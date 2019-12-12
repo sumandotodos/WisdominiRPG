@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &154030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 445008}
+  - component: {fileID: 11441420}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7NpcBlackWite_InteriorDelVolcan_3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &445008
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11441420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7NpcBlackWite_InteriorDelVolcan_3_
+  randomYield: 0
+  phrase:
+  - "\xBFte das cuenta de que a nivel existencial no habr\xEDa ninguna diferencia
+    entre que tu supuesta conciencia duplicada existiera o dejara de existir?\r"
+  - "Si ella siente y percibe todo exactamente igual que t\xFA, entonces esa r\xE9plica
+    percibir\xEDa que ella es la verdadera conciencia"
+  - "Que ella eres t\xFA, y que t\xFA eres ella, es decir que hay una r\xE9plica artificial
+    de s\xED misma construida en ese cerebro conectado a un cableado"
+  - "Como lo percibir\xEDa todo igual que t\xFA, podr\xEDamos de hecho decir que ser\xEDas
+    t\xFA, porque no habr\xEDa ninguna diferencia entre tu manera de percibir la realidad,
+    y la de la r\xE9plica"
+  - "Pero todo esto, como creo que empezabas a sospechar, es solo una tomadura de
+    pelo: por el hecho de replicar un cerebro mol\xE9cula por mol\xE9cula y conectarlo
+    a una se\xF1ales el\xE9ctricas iguales a las que se env\xEDan al cerebro de un
+    ser vivo, no estar\xEDamos creando un \xF3rgano biol\xF3gico vivo"
+  - "Y mucho menos una conciencia. Al cabo de poco tiempo empezar\xEDa a oler a podrido
+    porque se empezar\xEDa a descomponer, y es que habr\xEDa algo que seguir\xEDa
+    faltando: la conciencia, que es la energ\xEDa que da vida y movimiento a nuestro
+    cuerpo f\xEDsico. Esa energ\xEDa entra en el embri\xF3n reci\xE9n fecundado y
+    no abandona el cuerpo hasta el momento de la muerte"
+  - Interesante charla
+  - Se me ha puesto la cabeza como un bombo
+  - "Ha sido un placer\r"
+  - "Si quieres saber c\xF3mo entrar en el volc\xE1n pregunta cerca de la casa naranja.
+    Suerte"
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 154030}
+  m_IsPrefabParent: 1

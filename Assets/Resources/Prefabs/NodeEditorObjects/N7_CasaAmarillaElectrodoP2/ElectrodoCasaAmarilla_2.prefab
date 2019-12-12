@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1037670225229732}
+  m_IsPrefabParent: 1
+--- !u!1 &1037670225229732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4512678223483118}
+  - component: {fileID: 114550571988653124}
+  m_Layer: 0
+  m_Name: ElectrodoCasaAmarilla_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4512678223483118
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037670225229732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114550571988653124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037670225229732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Y entonces el pensamiento y sentimiento que nos lleva a concluir que somos
+        libres ser\xEDa tambi\xE9n un enga\xF1o pre-grabado en esas mismas mol\xE9culas...
+        \xBFExtra\xF1o verdad? Me parecer\xEDa muy raro que esta hip\xF3tesis sin
+        sentido pudiera ser verdad. Es algo demasiado rebuscado."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_0
+    - theList:
+      - say
+      - "Estamos hechos de \xE1tomos, pero lo que mueve esos \xE1tomos no son esos
+        mismos \xE1tomos. Es la mente, la conciencia, lo que los mueve."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_1
+    - theList:
+      - say
+      - "Ya. \xBFt\xFA qu\xE9 opinas visitante? "
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_2
+    - theList:
+      - ask
+      - 3
+      - Que el conductor del coche no puede ser lo mismo que el coche, como la conciencia
+        no puede lo mismo que el cuerpo
+      - "Creo que somos solo un cuerpo f\xEDsico."
+      - Creo que voy a probar a golpearme el hueso de la risa antes de opinar.
+      - ElectrodoCasaAmarilla_2/4
+      - ElectrodoCasaAmarilla_2/4
+      - ElectrodoCasaAmarilla_2/4
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_3
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_4
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_5
+    - theList:
+      - say
+      - "Hasta la vista, por cierto si realmente quieres encontrar la mayor fuente
+        de poder que existe, busca la casa del buz\xF3n rosa."
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_6
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenCasaRosa
+      - true
+    - theList:
+      - say
+      - "Adi\xF3s."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_7
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Y entonces el pensamiento y sentimiento que nos lleva a concluir que somos
+        libres ser\xEDa tambi\xE9n un enga\xF1o pre-grabado en esas mismas mol\xE9culas...
+        \xBFExtra\xF1o verdad? Me parecer\xEDa muy raro que esta hip\xF3tesis sin
+        sentido pudiera ser verdad. Es algo demasiado rebuscado."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_0
+    - theList:
+      - say
+      - "Estamos hechos de \xE1tomos, pero lo que mueve esos \xE1tomos no son esos
+        mismos \xE1tomos. Es la mente, la conciencia, lo que los mueve."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_1
+    - theList:
+      - say
+      - "Ya. \xBFt\xFA qu\xE9 opinas visitante? "
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_2
+    - theList:
+      - ask
+      - 3
+      - Que el conductor del coche no puede ser lo mismo que el coche, como la conciencia
+        no puede lo mismo que el cuerpo
+      - "Creo que somos solo un cuerpo f\xEDsico."
+      - Creo que voy a probar a golpearme el hueso de la risa antes de opinar.
+      - ElectrodoCasaAmarilla_2/4
+      - ElectrodoCasaAmarilla_2/4
+      - ElectrodoCasaAmarilla_2/4
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_3
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_4
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_5
+    - theList:
+      - say
+      - "Hasta la vista, por cierto si realmente quieres encontrar la mayor fuente
+        de poder que existe, busca la casa del buz\xF3n rosa."
+      - wait
+      - NPC2
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_6
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenCasaRosa
+      - true
+    - theList:
+      - say
+      - "Adi\xF3s."
+      - wait
+      - NPC1
+      - Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_7
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000c0000000b000000180000000b0000000f00000011000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1352
+  windowY: 12

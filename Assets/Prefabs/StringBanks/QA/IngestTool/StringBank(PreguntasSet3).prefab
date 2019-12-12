@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1869693477640070}
+  m_IsPrefabParent: 1
+--- !u!1 &1869693477640070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4124482944288622}
+  - component: {fileID: 114751066881019464}
+  m_Layer: 0
+  m_Name: StringBank(PreguntasSet3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4124482944288622
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869693477640070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114751066881019464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869693477640070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: PreguntasSet3
+  randomYield: 0
+  phrase:
+  - "Generalmente, \xBFC\xF3mo se aprende mejor, a trav\xE9s de la reflexi\xF3n o
+    por medio de la repetici\xF3n de conceptos?"
+  - "\xBFEn general, por qu\xE9 nos apropiamos de determinadas creencias o puntos
+    de vista?"
+  - "\xBFC\xF3mo afecta a la creatividad del alumno un sistema educativo basado en
+    ex\xE1menes y notas?"
+  - "\xBFQu\xE9 efectos tiene sobre un beb\xE9 establecer un contacto f\xEDsico con
+    \xE9l por medio de conductas como cogerle en brazos y masajearle?"
+  - "\xBFEs posible controlar nuestro lenguaje no verbal?"
+  correntAnswer: 0200000004000000010000000100000004000000

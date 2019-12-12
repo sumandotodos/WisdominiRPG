@@ -1,0 +1,432 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1124248199798582}
+  m_IsPrefabParent: 1
+--- !u!1 &1124248199798582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4601029959876982}
+  - component: {fileID: 114993060901682448}
+  m_Layer: 0
+  m_Name: Daltonismo_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4601029959876982
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1124248199798582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &114993060901682448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1124248199798582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "La luz son ondas con distintas longitudes de onda. La experiencia de ver
+        el rojo en determinados objetos surge de que los \xE1tomos de esos objetos
+        reflejan las ondas con la longitud de onda del rojo, y absorben todas las
+        dem\xE1s"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_0
+    - theList:
+      - say
+      - "Esas otras ondas que se reflejan llegan a nuestro ojo, del ojo se env\xEDa
+        una se\xF1al el\xE9ctrica discreta al cerebro, y del cerebro pasa a la mente"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_1
+    - theList:
+      - say
+      - "Esto es un resumen de lo que es capaz de estudiar la ciencia con mucho m\xE1s
+        detalle. Pero aunque haya mucho m\xE1s detalle siempre se tratar\xE1 de correlaciones
+        entre el mundo f\xEDsico y la mente"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_2
+    - theList:
+      - say
+      - "La ciencia analiza el mundo f\xEDsico: los \xF3rganos de los sentidos, las
+        regiones del cerebro que se activan ante distintos est\xEDmulos, los canales
+        nerviosos, etc. Despu\xE9s crea conceptos: nombra y categoriza esos conceptos,
+        y correlaciona todo esto con lo que la persona dice estar percibiendo, por
+        ejemplo el color rojo"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_3
+    - theList:
+      - say
+      - "Pero l\xF3gicamente no existe ninguna herramienta mediante la que un cient\xEDfico
+        pueda meterse dentro de la mente de alguien para poder experimentar de primera
+        mano lo que est\xE1 experimentando esa persona"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_4
+    - theList:
+      - say
+      - "Y no es que no pueda porque la ciencia todav\xEDa no ha avanzado lo suficiente,
+        no puede porque la mente no es algo f\xEDsico, la mente son las experiencias
+        que vamos viviendo a cada instante. Y cada uno vivimos experiencias \xFAnicas"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_5
+    - theList:
+      - say
+      - "Cuando tienes un pensamiento, o sientes una emoci\xF3n, o ves un color, o
+        cualquier otra cosa, la ciencia podr\xE1 saber qu\xE9 regiones de tu cerebro
+        se activan, durante cu\xE1nto tiempo, con qu\xE9 intensidad, y muchos otros
+        par\xE1metros, pero ning\xFAn cient\xEDfico podr\xE1 sentir lo que t\xFA est\xE1s
+        sintiendo en ese momento, ni experimentar ese pensamiento o ese color de la
+        manera que t\xFA lo experimentas. No puede porque la mente no es algo f\xEDsico"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_6
+    - theList:
+      - say
+      - "Sab\xE9is lo que es el daltonismo, \xBFno? Si t\xFA fueras dalt\xF3nico te
+        pasar\xEDa que donde otros ven el color rojo, t\xFA ver\xEDas el verde, donde
+        otros ven el naranja, t\xFA ver\xEDas un verde m\xE1s claro, y con otros colores
+        igual. \r"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_7
+    - theList:
+      - say
+      - "Y quiz\xE1 sep\xE1is tambi\xE9n que hay distintos tipos de daltonismo, y
+        cada uno da lugar a una percepci\xF3n distinta de los colores"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_8
+    - theList:
+      - say
+      - "\xBFA d\xF3nde quieres llegar?"
+      - wait
+      - Player
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_9
+    - theList:
+      - say
+      - "Imaginad un planeta en el que cada persona naciera con un tipo espec\xEDfico
+        de daltonismo y no hubiera dos daltonismos iguales. \xBFQu\xE9 pasar\xEDa?
+        Pues que no habr\xEDa 2 personas en ese planeta que experimentaran los colores
+        de la misma manera"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_10
+    - theList:
+      - say
+      - "Y entonces la ciencia se encontrar\xEDa con que no puede establecer correlaciones.
+        No habr\xEDa rojo, ni verde ni amarillo, porque la mente de cada uno percibir\xEDa
+        los colores a su manera, y por tanto no ser\xEDa posible categorizar y definir
+        colores porque es imposible conocer lo que est\xE1n experimentando los otros"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_11
+    - theList:
+      - say
+      - "\xBFY qu\xE9?"
+      - wait
+      - Player
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_12
+    - theList:
+      - say
+      - "El ojo y el cerebro son herramientas de conexi\xF3n con el mundo f\xEDsico,
+        pero no son la experiencia \xFAltima. La experiencia \xFAltima es mente. Y
+        lo que percibe la mente son simplemente experiencias  algo m\xE1s all\xE1
+        de lo f\xEDsico"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_13
+    - theList:
+      - say
+      - "Pero precisamente el daltonismo proviene de una alteraci\xF3n gen\xE9tica.
+        Por eso los dalt\xF3nicos perciben los colores de manera distinta, si sus
+        ojos son f\xEDsicamente diferentes, procesar\xE1n las ondas luminosas de manera
+        distinta y enviar\xE1n una se\xF1al el\xE9ctrica distinta al cerebro. Ah\xED
+        est\xE1 la explicaci\xF3n: es el cerebro el que ve los colores y no la mente"
+      - wait
+      - NPC2
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_14
+    - theList:
+      - say
+      - "Ver un color no es el recorrido se\xF1al el\xE9ctrica de un punto a otro.
+        Ver un color es una experiencia \xBFA que no podr\xEDas explicarle a un ciego
+        de nacimiento lo que es el color rojo?"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_15
+    - theList:
+      - say
+      - "claro que podr\xEDa"
+      - wait
+      - NPC2
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_16
+    - theList:
+      - say
+      - "no podr\xEDas"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_17
+    - theList:
+      - say
+      - Traeme a un ciego y te lo demuestro
+      - wait
+      - NPC2
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_18
+    - theList:
+      - say
+      - "No conozco a ninguno, adem\xE1s necesito ir al ba\xF1o a hacer del 2"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_19
+    - theList:
+      - say
+      - EVENTO
+      - wait
+      - NPC2
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_20
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "La luz son ondas con distintas longitudes de onda. La experiencia de ver
+        el rojo en determinados objetos surge de que los \xE1tomos de esos objetos
+        reflejan las ondas con la longitud de onda del rojo, y absorben todas las
+        dem\xE1s"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_0
+    - theList:
+      - say
+      - "Esas otras ondas que se reflejan llegan a nuestro ojo, del ojo se env\xEDa
+        una se\xF1al el\xE9ctrica discreta al cerebro, y del cerebro pasa a la mente"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_1
+    - theList:
+      - say
+      - "Esto es un resumen de lo que es capaz de estudiar la ciencia con mucho m\xE1s
+        detalle. Pero aunque haya mucho m\xE1s detalle siempre se tratar\xE1 de correlaciones
+        entre el mundo f\xEDsico y la mente"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_2
+    - theList:
+      - say
+      - "La ciencia analiza el mundo f\xEDsico: los \xF3rganos de los sentidos, las
+        regiones del cerebro que se activan ante distintos est\xEDmulos, los canales
+        nerviosos, etc. Despu\xE9s crea conceptos: nombra y categoriza esos conceptos,
+        y correlaciona todo esto con lo que la persona dice estar percibiendo, por
+        ejemplo el color rojo"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_3
+    - theList:
+      - say
+      - "Pero l\xF3gicamente no existe ninguna herramienta mediante la que un cient\xEDfico
+        pueda meterse dentro de la mente de alguien para poder experimentar de primera
+        mano lo que est\xE1 experimentando esa persona"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_4
+    - theList:
+      - say
+      - "Y no es que no pueda porque la ciencia todav\xEDa no ha avanzado lo suficiente,
+        no puede porque la mente no es algo f\xEDsico, la mente son las experiencias
+        que vamos viviendo a cada instante. Y cada uno vivimos experiencias \xFAnicas"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_5
+    - theList:
+      - say
+      - "Cuando tienes un pensamiento, o sientes una emoci\xF3n, o ves un color, o
+        cualquier otra cosa, la ciencia podr\xE1 saber qu\xE9 regiones de tu cerebro
+        se activan, durante cu\xE1nto tiempo, con qu\xE9 intensidad, y muchos otros
+        par\xE1metros, pero ning\xFAn cient\xEDfico podr\xE1 sentir lo que t\xFA est\xE1s
+        sintiendo en ese momento, ni experimentar ese pensamiento o ese color de la
+        manera que t\xFA lo experimentas. No puede porque la mente no es algo f\xEDsico"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_6
+    - theList:
+      - say
+      - "Sab\xE9is lo que es el daltonismo, \xBFno? Si t\xFA fueras dalt\xF3nico te
+        pasar\xEDa que donde otros ven el color rojo, t\xFA ver\xEDas el verde, donde
+        otros ven el naranja, t\xFA ver\xEDas un verde m\xE1s claro, y con otros colores
+        igual. \r"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_7
+    - theList:
+      - say
+      - "Y quiz\xE1 sep\xE1is tambi\xE9n que hay distintos tipos de daltonismo, y
+        cada uno da lugar a una percepci\xF3n distinta de los colores"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_8
+    - theList:
+      - say
+      - "\xBFA d\xF3nde quieres llegar?"
+      - wait
+      - Player
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_9
+    - theList:
+      - say
+      - "Imaginad un planeta en el que cada persona naciera con un tipo espec\xEDfico
+        de daltonismo y no hubiera dos daltonismos iguales. \xBFQu\xE9 pasar\xEDa?
+        Pues que no habr\xEDa 2 personas en ese planeta que experimentaran los colores
+        de la misma manera"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_10
+    - theList:
+      - say
+      - "Y entonces la ciencia se encontrar\xEDa con que no puede establecer correlaciones.
+        No habr\xEDa rojo, ni verde ni amarillo, porque la mente de cada uno percibir\xEDa
+        los colores a su manera, y por tanto no ser\xEDa posible categorizar y definir
+        colores porque es imposible conocer lo que est\xE1n experimentando los otros"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_11
+    - theList:
+      - say
+      - "\xBFY qu\xE9?"
+      - wait
+      - Player
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_12
+    - theList:
+      - say
+      - "El ojo y el cerebro son herramientas de conexi\xF3n con el mundo f\xEDsico,
+        pero no son la experiencia \xFAltima. La experiencia \xFAltima es mente. Y
+        lo que percibe la mente son simplemente experiencias  algo m\xE1s all\xE1
+        de lo f\xEDsico"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_13
+    - theList:
+      - say
+      - "Pero precisamente el daltonismo proviene de una alteraci\xF3n gen\xE9tica.
+        Por eso los dalt\xF3nicos perciben los colores de manera distinta, si sus
+        ojos son f\xEDsicamente diferentes, procesar\xE1n las ondas luminosas de manera
+        distinta y enviar\xE1n una se\xF1al el\xE9ctrica distinta al cerebro. Ah\xED
+        est\xE1 la explicaci\xF3n: es el cerebro el que ve los colores y no la mente"
+      - wait
+      - NPC2
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_14
+    - theList:
+      - say
+      - "Ver un color no es el recorrido se\xF1al el\xE9ctrica de un punto a otro.
+        Ver un color es una experiencia \xBFA que no podr\xEDas explicarle a un ciego
+        de nacimiento lo que es el color rojo?"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_15
+    - theList:
+      - say
+      - "claro que podr\xEDa"
+      - wait
+      - NPC2
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_16
+    - theList:
+      - say
+      - "no podr\xEDas"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_17
+    - theList:
+      - say
+      - Traeme a un ciego y te lo demuestro
+      - wait
+      - NPC2
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_18
+    - theList:
+      - say
+      - "No conozco a ninguno, adem\xE1s necesito ir al ba\xF1o a hacer del 2"
+      - wait
+      - NPC1
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_19
+    - theList:
+      - say
+      - EVENTO
+      - wait
+      - NPC2
+      - Conv_N7_NpcDaltonismo_Daltonismo_2_20
+    - theList:
+      - clearDialogue
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000f000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 926
+  windowY: 1378

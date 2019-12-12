@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &149716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 474400}
+  - component: {fileID: 11490286}
+  m_Layer: 0
+  m_Name: StringBank(WordFightTutorial)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &474400
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11490286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: WordFightTutorial
+  randomYield: 0
+  phrase:
+  - "Ahora aprender\xE1s a enfrentarte a las sombras."
+  - "Debes elegir una de las siete clases de h\xE9roe."
+  - "Considera los pensamientos que han brotado de esas sombras y elige la clase de
+    sabidur\xEDa adecuada para superar con \xE9xito la situaci\xF3n que los provoc\xF3. "
+  - "No tienes ning\xFAn h\xE9roe. No te puedes enfrentar a las sombras."
+  - "No tienes el h\xE9roe adecuado para enfrentarte a estas sombras. Has perdido."
+  - "\xBFCon qu\xE9 h\xE9roe te enfrentar\xE1s a las sombras? Elige cuidadosamente..."
+  - No has elegido sabiamente.
+  - "\xA1Muy bien! Has elegido con sabidur\xEDa. Ahora comenzar\xE1 la lucha de palabras."
+  - "Tanto t\xFA como tu sombra ten\xE9is un aura de energ\xEDa."
+  - "Tu aura es luminosa, mientras que el aura de tu sombra es oscura. Debes tratar
+    de convertir en luminosa el \xE1ura de tu sombra antes de que tu sombra oscurezca
+    tu propia aura..."
+  - "\xBFQu\xE9 tienes que hacer para conseguirlo? Presta atenci\xF3n: el Yin Yang
+    que puedes ver ante es el Tao, la naturaleza \xFAltima de la mente, uni\xF3n de
+    claridad y vacuidad."
+  - "Ese Yin Yang es tu futuro, que ahora est\xE1 temporalmente recubierto por los
+    velos de la ignorancia. Por eso de ese Yin Yang brotar\xE1n palabras tanto de
+    naturaleza sabia como de naturaleza ignorante..."
+  - "Debes tocar las palabras o frases de naturaleza sabia y devolverlas al Yin Yang.
+    Asimismo tendr\xE1s que tocar las frases de naturaleza oscura y disolverlas en
+    la oscuridad del pasado."
+  - "F\xEDjate: el Yin Yang ha emitido un elemento positivo. T\xF3calo y arr\xE1stralo
+    de regreso al Yin Yang. Si no lo haces quedar\xE1 olvidado en el pasado..."
+  - "\xA1Bien! Has iluminado un poco a tu sombra..."
+  - "El Yin Yang ha emitido un elemento negativo. T\xF3calo y l\xE1nzalo al pasado,
+    lejos del Yin Yang. Si no lo haces regresar\xE1 al Yin Yang y te oscurecer\xE1..."
+  - "Ahora contin\xFAa el duelo hasta que el aura de uno de los dos haya cambiado
+    completamente. \xA1Que la sabidur\xEDa te acompa\xF1e!"
+  - "Has derrotado a todas las sombras. Los portales que te permitir\xE1n progresar
+    se han abierto."
+  - Has perdido la batalla...
+  - "Has derrotado a todas las sombras. Los portales que te permitir\xE1n progresar
+    se han abierto."
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 149716}
+  m_IsPrefabParent: 1

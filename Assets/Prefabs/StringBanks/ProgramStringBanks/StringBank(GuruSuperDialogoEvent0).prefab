@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1998035648562540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4504182264527164}
+  - component: {fileID: 114588879239321818}
+  m_Layer: 0
+  m_Name: StringBank(GuruSuperDialogoEvent0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4504182264527164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998035648562540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114588879239321818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998035648562540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: GuruSuperDialogo0_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "\xBFDe qu\xE9 depende el futuro de la humanidad?"
+  - "\xBFQu\xE9 significa la pregunta \"por qu\xE9 hago lo que hago en cada momento
+    de mi vida, por qu\xE9 digo lo que digo, o por qu\xE9 aparecen en mi mente los
+    pensamientos que aparecen, en lugar de cualquier otro de entre la infinita variedad
+    de pensamientos que podr\xEDan aparecer\"?"
+  - "El futuro de la humanidad, \xBFya est\xE1 escrito, o lo vamos creando nosotros
+    con nuestras acciones?"
+  - "Cuando estaba en la transicio\u0301n hasta Wisdomini apareci\xF3 una pregunta
+    que me llam\xF3 la atencio\u0301n, dec\xEDa: \"\xBFcua\u0301nto tiempo has dedicado
+    a meditar acerca de a qu\xE9 dedicas tu tiempo de vida?\""
+  correntAnswer: 

@@ -1,0 +1,369 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1221148461794912}
+  m_IsPrefabParent: 1
+--- !u!1 &1221148461794912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4140809425845382}
+  - component: {fileID: 114603484984131708}
+  m_Layer: 0
+  m_Name: QueDirigioLaEvolucion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4140809425845382
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221148461794912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114603484984131708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221148461794912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFT\xFA otra vez por aqu\xED? Dime, \xBFen qu\xE9 puedo ayudarte?"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_0
+    - theList:
+      - say
+      - "A veces sigo haci\xE9ndome la pregunta de por qu\xE9 estamos aqu\xED. Y tambi\xE9n
+        me hago otra: si la evoluci\xF3n de las especies no fue dirigida por el azar.
+        \xBFQu\xE9 fue lo que la dirigi\xF3?"
+      - wait
+      - Player
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_1
+    - theList:
+      - say
+      - "La mente. La inteligencia. Todo es mente: la tierra, lo que hay en la tierra,
+        las estrellas, las personas, los animales, los meteoritos, el universo\u2026
+        todo"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_2
+    - theList:
+      - say
+      - "\xBFSabes cu\xE1ntas galaxias tiene el universo? Unos 100.000 millones de
+        galaxias, m\xE1s o menos las mismas que neuronas hay en un cerebro humano:
+        100.000 millones"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_3
+    - theList:
+      - say
+      - "Te contar\xE9 otro hecho singular que da que pensar: un grupo de astrof\xEDsicos
+        hizo una simulaci\xF3n de la evoluci\xF3n del universo. El resultado puedes
+        verlo a la derecha. A la izquierda est\xE1 la imagen de una neurona captada
+        por fluoroluminiscencia"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_4
+    - theList:
+      - fullscreenImage
+      - Neuron
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_5
+    - theList:
+      - say
+      - "Sin tener ni idea de esto los sabios de la antig\xFCedad ya dec\xEDan que
+        el hombre es un universo en miniatura, y que el universo es como un hombre
+        grande"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_5
+    - theList:
+      - say
+      - "Creemos que la materia es algo s\xF3lido y real, algo que existe por s\xED
+        mismo, por eso diferenciamos entre mente y materia. Pero no es eso lo que
+        ha encontrado la ciencia"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_6
+    - theList:
+      - say
+      - "La mec\xE1nica ha descubierto que las part\xEDculas subat\xF3micas solo existen
+        como entes materiales si son percibidos por una conciencia. Pero esto no aplica
+        solo al microcosmos de las part\xEDculas subat\xF3micas, aplica a todo. Las
+        leyes de la mec\xE1nica cu\xE1ntica son igualmente v\xE1lidas para un \xE1tomo
+        de helio que para un universo entero"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_7
+    - theList:
+      - say
+      - "Esto significa que sin mente, sin conciencia, no habr\xEDa materia. Por tanto
+        la causa de que estemos aqu\xED no puede ser que hubiera materia inerte en
+        un universo sin vida, y que por alguna extra\xF1a casualidad de esa materia
+        inerte surgiera de pronto la vida"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_8
+    - theList:
+      - say
+      - "No puede ser porque sin conciencia esa materia nunca habr\xEDa estado ah\xED"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_9
+    - theList:
+      - say
+      - "Por tanto si el universo solo existe en caso de que exista la mente o la
+        conciencia, eso es lo mismo que decir que el universo es una proyecci\xF3n
+        de la mente, o que el universo es mente"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_10
+    - theList:
+      - say
+      - "F\xEDjate en una cosa. Cuando sue\xF1as lo percibes todo como real, no te
+        das cuenta de que todo lo que est\xE1s viviendo es \xFAnicamente una proyecci\xF3n
+        de la mente, y que nada de lo que aparece en tu sue\xF1o existe realmente.
+        Aparece ante ti, pero no existe por s\xED mismo. Existe porque tu mente lo
+        est\xE1 proyectando"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_11
+    - theList:
+      - say
+      - "Pues lo mismo sucede con el universo, solo que ah\xED no se trata de la proyecci\xF3n
+        de una \xFAnica mente individual, sino de lo que podr\xEDamos llamar el inconsciente
+        colectivo o la mente absoluta. La mente no es singular ni es plural, es simplemente
+        mente, y es la mente la que ha proyectado el universo desde su inicio hasta
+        su final"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_12
+    - theList:
+      - say
+      - "Un sue\xF1o comienza cuando empiezas a so\xF1ar, y acaba cuando despiertas.
+        Y el universo igual: tuvo un inicio y tendr\xE1 un final. Y fuera de ese intervalo
+        de tiempo el universo no ser\xE1 nada, tendr\xE1 la misma entidad real que
+        el sue\xF1o que tuviste anoche"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_13
+    - theList:
+      - fullscreenImage
+      - Babycakes
+      - don't wait
+      - 
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_14
+    - theList:
+      - branchTo
+      - QueDirigioLaEvolucion_0/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFT\xFA otra vez por aqu\xED? Dime, \xBFen qu\xE9 puedo ayudarte?"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_0
+    - theList:
+      - say
+      - "A veces sigo haci\xE9ndome la pregunta de por qu\xE9 estamos aqu\xED. Y tambi\xE9n
+        me hago otra: si la evoluci\xF3n de las especies no fue dirigida por el azar.
+        \xBFQu\xE9 fue lo que la dirigi\xF3?"
+      - wait
+      - Player
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_1
+    - theList:
+      - say
+      - "La mente. La inteligencia. Todo es mente: la tierra, lo que hay en la tierra,
+        las estrellas, las personas, los animales, los meteoritos, el universo\u2026
+        todo"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_2
+    - theList:
+      - say
+      - "\xBFSabes cu\xE1ntas galaxias tiene el universo? Unos 100.000 millones de
+        galaxias, m\xE1s o menos las mismas que neuronas hay en un cerebro humano:
+        100.000 millones"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_3
+    - theList:
+      - say
+      - "Te contar\xE9 otro hecho singular que da que pensar: un grupo de astrof\xEDsicos
+        hizo una simulaci\xF3n de la evoluci\xF3n del universo. El resultado puedes
+        verlo a la derecha. A la izquierda est\xE1 la imagen de una neurona captada
+        por fluoroluminiscencia"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_4
+    - theList:
+      - fullscreenImage
+      - Neuron
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_5
+    - theList:
+      - say
+      - "Sin tener ni idea de esto los sabios de la antig\xFCedad ya dec\xEDan que
+        el hombre es un universo en miniatura, y que el universo es como un hombre
+        grande"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_5
+    - theList:
+      - say
+      - "Creemos que la materia es algo s\xF3lido y real, algo que existe por s\xED
+        mismo, por eso diferenciamos entre mente y materia. Pero no es eso lo que
+        ha encontrado la ciencia"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_6
+    - theList:
+      - say
+      - "La mec\xE1nica ha descubierto que las part\xEDculas subat\xF3micas solo existen
+        como entes materiales si son percibidos por una conciencia. Pero esto no aplica
+        solo al microcosmos de las part\xEDculas subat\xF3micas, aplica a todo. Las
+        leyes de la mec\xE1nica cu\xE1ntica son igualmente v\xE1lidas para un \xE1tomo
+        de helio que para un universo entero"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_7
+    - theList:
+      - say
+      - "Esto significa que sin mente, sin conciencia, no habr\xEDa materia. Por tanto
+        la causa de que estemos aqu\xED no puede ser que hubiera materia inerte en
+        un universo sin vida, y que por alguna extra\xF1a casualidad de esa materia
+        inerte surgiera de pronto la vida"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_8
+    - theList:
+      - say
+      - "No puede ser porque sin conciencia esa materia nunca habr\xEDa estado ah\xED"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_9
+    - theList:
+      - say
+      - "Por tanto si el universo solo existe en caso de que exista la mente o la
+        conciencia, eso es lo mismo que decir que el universo es una proyecci\xF3n
+        de la mente, o que el universo es mente"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_10
+    - theList:
+      - say
+      - "F\xEDjate en una cosa. Cuando sue\xF1as lo percibes todo como real, no te
+        das cuenta de que todo lo que est\xE1s viviendo es \xFAnicamente una proyecci\xF3n
+        de la mente, y que nada de lo que aparece en tu sue\xF1o existe realmente.
+        Aparece ante ti, pero no existe por s\xED mismo. Existe porque tu mente lo
+        est\xE1 proyectando"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_11
+    - theList:
+      - say
+      - "Pues lo mismo sucede con el universo, solo que ah\xED no se trata de la proyecci\xF3n
+        de una \xFAnica mente individual, sino de lo que podr\xEDamos llamar el inconsciente
+        colectivo o la mente absoluta. La mente no es singular ni es plural, es simplemente
+        mente, y es la mente la que ha proyectado el universo desde su inicio hasta
+        su final"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_12
+    - theList:
+      - say
+      - "Un sue\xF1o comienza cuando empiezas a so\xF1ar, y acaba cuando despiertas.
+        Y el universo igual: tuvo un inicio y tendr\xE1 un final. Y fuera de ese intervalo
+        de tiempo el universo no ser\xE1 nada, tendr\xE1 la misma entidad real que
+        el sue\xF1o que tuviste anoche"
+      - wait
+      - NPC1
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_13
+    - theList:
+      - fullscreenImage
+      - Babycakes
+      - don't wait
+      - 
+      - Conv_N4_ViejoBunker_QueDirigioLaEvolucion_14
+    - theList:
+      - branchTo
+      - QueDirigioLaEvolucion_0/0
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b000000280000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000002800000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 91
+  windowY: 63

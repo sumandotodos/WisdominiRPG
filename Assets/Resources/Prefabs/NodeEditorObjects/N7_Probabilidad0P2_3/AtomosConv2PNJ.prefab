@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1164156541546376}
+  m_IsPrefabParent: 1
+--- !u!1 &1164156541546376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4843656788648372}
+  - component: {fileID: 114669658099843712}
+  m_Layer: 0
+  m_Name: AtomosConv2PNJ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4843656788648372
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1164156541546376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114669658099843712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1164156541546376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - "Esta puerta me est\xE1 empezando a mosquear... ."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_0
+    - theList:
+      - say
+      - "D\xE9jala, habr\xE1 sido el gato. \xBFEn qu\xE9 estabas pensando?."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1
+    - theList:
+      - say
+      - "En los \xE1tomos, en que no s\xE9 por qu\xE9 nos los pintaban como bolitas
+        en el cole sin en realidad no son as\xED."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_2
+    - theList:
+      - say
+      - <src img="IMAGEN ATOMO WORD DIALOGOS BLANCONEGROV4">
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_3
+    - theList:
+      - say
+      - Ya... .
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_4
+    - theList:
+      - say
+      - "\xBFSab\xEDas que cuando vas al mundo de lo microsc\xF3pico las cosas no
+        funcionan igual que en el mundo macrosc\xF3pico?."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_5
+    - theList:
+      - say
+      - "Me suena haber o\xEDdo algo. Y es algo que siempre me ha sorprendido la verdad,
+        porque \xBFcu\xE1l es la frontera entre el mundo micro y el mundo macro? \xBFHay
+        una barrera invisible y si la cruzas las cosas empiezan a funcionar de manera
+        diferente?."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_6
+    - theList:
+      - say
+      - "\xBFA un lado deja de existir el tiempo y el espacio tal y como lo conocemos,
+        y al otro sigue existiendo? \xBFa un lado pasan cosas fant\xE1sticas como
+        que las part\xEDculas llegan a su destino antes de haber partido, est\xE1n
+        en varios sitios a la vez, etc\u2026 y al otro lado no? Me resulta sorprendente."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_7
+    - theList:
+      - say
+      - "Esa frontera invisible no existe, viene dada por la mente. Las cosas suceden
+        de una manera o de otra seg\xFAn si hay una conciencia percibiendo la part\xEDcula
+        o no. Por ejemplo: t\xFA sabes que un \xE1tomo simple como el Helio o una
+        part\xEDcula subat\xF3mica no est\xE1 en ning\xFAn lugar concreto hasta que
+        no es observado por una conciencia, \xBFno?."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_8
+    - theList:
+      - say
+      - "\xBFNo est\xE1 en ning\xFAn lugar concreto, o lo que pasa es que no sabemos
+        d\xF3nde est\xE1?."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_9
+    - theList:
+      - say
+      - "No, no es que no sepamos d\xF3nde est\xE1, es que NO est\xE1 en un determinado
+        punto del espacio. Un \xE1tomo simple es algo min\xFAsculo y el 99,999% es
+        espacio vac\xEDo. Quiz\xE1 recuerdes que un \xE1tomo tiene un n\xFAcleo y
+        uno o varios electrones orbitando alrededor de ese n\xFAcleo. Para que te
+        hagas una idea de hasta qu\xE9 punto un \xE1tomo es espacio vac\xEDo, si el
+        n\xFAcleo del \xE1tomo fuera tan grande como un bal\xF3n de f\xFAtbol y estuviera
+        en medio de un estadio, los electrones estar\xEDan en las gradas dando vueltas
+        y ser\xEDan tan peque\xF1os como canicas. "
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_10
+    - theList:
+      - say
+      - "O sea, que casi todo en un \xE1tomo es espacio vac\xEDo, pero aun as\xED
+        tiene masa. Es algo f\xEDsico y por tanto debe estar en alg\xFAn lugar del
+        espacio."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_11
+    - theList:
+      - branchTo
+      - AtomosConv2PNJ_0/0
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - "Esta puerta me est\xE1 empezando a mosquear... ."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_0
+    - theList:
+      - say
+      - "D\xE9jala, habr\xE1 sido el gato. \xBFEn qu\xE9 estabas pensando?."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_1
+    - theList:
+      - say
+      - "En los \xE1tomos, en que no s\xE9 por qu\xE9 nos los pintaban como bolitas
+        en el cole sin en realidad no son as\xED."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_2
+    - theList:
+      - say
+      - <src img="IMAGEN ATOMO WORD DIALOGOS BLANCONEGROV4">
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_3
+    - theList:
+      - say
+      - Ya... .
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_4
+    - theList:
+      - say
+      - "\xBFSab\xEDas que cuando vas al mundo de lo microsc\xF3pico las cosas no
+        funcionan igual que en el mundo macrosc\xF3pico?."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_5
+    - theList:
+      - say
+      - "Me suena haber o\xEDdo algo. Y es algo que siempre me ha sorprendido la verdad,
+        porque \xBFcu\xE1l es la frontera entre el mundo micro y el mundo macro? \xBFHay
+        una barrera invisible y si la cruzas las cosas empiezan a funcionar de manera
+        diferente?."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_6
+    - theList:
+      - say
+      - "\xBFA un lado deja de existir el tiempo y el espacio tal y como lo conocemos,
+        y al otro sigue existiendo? \xBFa un lado pasan cosas fant\xE1sticas como
+        que las part\xEDculas llegan a su destino antes de haber partido, est\xE1n
+        en varios sitios a la vez, etc\u2026 y al otro lado no? Me resulta sorprendente."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_7
+    - theList:
+      - say
+      - "Esa frontera invisible no existe, viene dada por la mente. Las cosas suceden
+        de una manera o de otra seg\xFAn si hay una conciencia percibiendo la part\xEDcula
+        o no. Por ejemplo: t\xFA sabes que un \xE1tomo simple como el Helio o una
+        part\xEDcula subat\xF3mica no est\xE1 en ning\xFAn lugar concreto hasta que
+        no es observado por una conciencia, \xBFno?."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_8
+    - theList:
+      - say
+      - "\xBFNo est\xE1 en ning\xFAn lugar concreto, o lo que pasa es que no sabemos
+        d\xF3nde est\xE1?."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_9
+    - theList:
+      - say
+      - "No, no es que no sepamos d\xF3nde est\xE1, es que NO est\xE1 en un determinado
+        punto del espacio. Un \xE1tomo simple es algo min\xFAsculo y el 99,999% es
+        espacio vac\xEDo. Quiz\xE1 recuerdes que un \xE1tomo tiene un n\xFAcleo y
+        uno o varios electrones orbitando alrededor de ese n\xFAcleo. Para que te
+        hagas una idea de hasta qu\xE9 punto un \xE1tomo es espacio vac\xEDo, si el
+        n\xFAcleo del \xE1tomo fuera tan grande como un bal\xF3n de f\xFAtbol y estuviera
+        en medio de un estadio, los electrones estar\xEDan en las gradas dando vueltas
+        y ser\xEDan tan peque\xF1os como canicas. "
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_10
+    - theList:
+      - say
+      - "O sea, que casi todo en un \xE1tomo es espacio vac\xEDo, pero aun as\xED
+        tiene masa. Es algo f\xEDsico y por tanto debe estar en alg\xFAn lugar del
+        espacio."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_AtomosConv2PNJ_11
+    - theList:
+      - branchTo
+      - AtomosConv2PNJ_0/0
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 100000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 20
+  windowY: 24

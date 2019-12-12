@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1750911653715590}
+  m_IsPrefabParent: 1
+--- !u!1 &1750911653715590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4033310131092028}
+  - component: {fileID: 114086596456759542}
+  m_Layer: 0
+  m_Name: StringBank(PreguntasSet29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4033310131092028
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1750911653715590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114086596456759542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1750911653715590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: PreguntasSet29
+  randomYield: 0
+  phrase:
+  - "\xBFQu\xE9 mostr\xF3 el estudio llevado a cabo por Michael Norton acerca de la
+    desigualdad en el que se entrevist\xF3 a m\xE1s de 5000 ciudadanos norteamericanos?"
+  - "\xBFQu\xE9 efectos tiene la meditaci\xF3n en el cerebro?"
+  - "\xBFQu\xE9 es la intuici\xF3n?"
+  - "El 1% de la poblaci\xF3n m\xE1s rica en Espa\xF1a concentra m\xE1s riqueza que\u2026"
+  - "\xBFPor qu\xE9 algunas personas conducen de manera temeraria poniendo en riesgo
+    su vida y la de los dem\xE1s?"
+  correntAnswer: 0500000005000000040000000300000004000000

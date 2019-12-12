@@ -1,0 +1,784 @@
+fileFormatVersion: 2
+guid: 398afa549dcee5348bfff6ed48987ef1
+timeCreated: 1475501006
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ascensor
+    100002: Camara
+    100004: Camara 1
+    100006: Camara 2
+    100008: Centro
+    100010: //RootNode
+    100012: CentroComercial1
+    100014: CentroComercial2
+    100016: CentroComercial3
+    100018: CentroComercial4
+    100020: ColumnaLOD
+    100022: CulumnaHight
+    100024: CulumnaLow
+    100026: Escaleras
+    100028: Escaparate
+    100030: Escaparate 1
+    100032: Escaparate 2
+    100034: Escaparate 3
+    100036: Escaparate1
+    100038: Escaparate1 1
+    100040: Escaparate1 2
+    100042: Escaparate1 3
+    100044: Escaparate2
+    100046: Escaparate2 1
+    100048: Escaparate2 2
+    100050: Escaparate3
+    100052: Escaparate3 1
+    100054: Escaparate3 2
+    100056: Escaparate3 3
+    100058: Escaparate4
+    100060: Escaparate4 1
+    100062: Escaparate4 2
+    100064: Escaparate4 3
+    100066: Escaparate5
+    100068: Escaparate5 1
+    100070: Escaparate5 2
+    100072: Escaparate5 3
+    100074: InteriorAscensor1
+    100076: MacetaLOD
+    100078: MarcoAscensor
+    100080: pCube6
+    100082: pCube8
+    100084: Pilar14
+    100086: Pilar8
+    100088: Pilar8 1
+    100090: Pilar9
+    100092: Pilar9 1
+    100094: PlantaHight
+    100096: PlantaLow
+    100098: PlantaMid
+    100100: Puente
+    100102: Puente 1
+    100104: Puente 2
+    100106: Valla10
+    100108: Valla10 1
+    100110: Valla10 2
+    100112: Valla10 3
+    100114: Valla10 4
+    100116: Valla10 5
+    100118: Valla10 6
+    100120: Valla10 7
+    100122: Valla11
+    100124: Valla11 1
+    100126: Valla11 2
+    100128: Valla11 3
+    100130: Valla11 4
+    100132: Valla11 5
+    100134: Valla11 6
+    100136: Valla11 7
+    100138: Valla12
+    100140: Valla12 1
+    100142: Valla12 2
+    100144: Valla12 3
+    100146: Valla12 4
+    100148: Valla12 5
+    100150: Valla12 6
+    100152: Valla12 7
+    100154: Valla13
+    100156: Valla13 1
+    100158: Valla13 2
+    100160: Valla13 3
+    100162: Valla13 4
+    100164: Valla13 5
+    100166: Valla14
+    100168: Valla14 1
+    100170: Valla14 2
+    100172: Valla14 3
+    100174: Valla14 4
+    100176: Valla14 5
+    100178: Valla15
+    100180: Valla15 1
+    100182: Valla15 2
+    100184: Valla15 3
+    100186: Valla15 4
+    100188: Valla15 5
+    100190: Valla16
+    100192: Valla16 1
+    100194: Valla16 2
+    100196: Valla16 3
+    100198: Valla16 4
+    100200: Valla16 5
+    100202: Valla17
+    100204: Valla17 1
+    100206: Valla17 2
+    100208: Valla17 3
+    100210: Valla17 4
+    100212: Valla17 5
+    100214: Valla17 6
+    100216: Valla17 7
+    100218: Valla18
+    100220: Valla18 1
+    100222: Valla18 2
+    100224: Valla18 3
+    100226: Valla18 4
+    100228: Valla18 5
+    100230: Valla18 6
+    100232: Valla19
+    100234: Valla19 1
+    100236: Valla19 2
+    100238: Valla19 3
+    100240: Valla19 4
+    100242: Valla19 5
+    100244: Valla19 6
+    100246: Valla20
+    100248: Valla20 1
+    100250: Valla20 2
+    100252: Valla20 3
+    100254: Valla21
+    100256: Valla21 1
+    100258: Valla21 2
+    100260: Valla21 3
+    100262: Valla22
+    100264: Valla22 1
+    100266: Valla22 2
+    100268: Valla22 3
+    100270: Valla23
+    100272: Valla23 1
+    100274: Valla23 2
+    100276: Valla23 3
+    100278: Valla24
+    100280: Valla24 1
+    100282: Valla25
+    100284: Valla26
+    100286: Valla27
+    100288: Vallas
+    100290: Vallas 1
+    100292: Vallas 2
+    100294: Vallas 3
+    100296: Vallas1
+    100298: Vallas1 1
+    100300: Vallas1 2
+    100302: Vallas1 3
+    400000: Ascensor
+    400002: Camara
+    400004: Camara 1
+    400006: Camara 2
+    400008: Centro
+    400010: //RootNode
+    400012: CentroComercial1
+    400014: CentroComercial2
+    400016: CentroComercial3
+    400018: CentroComercial4
+    400020: ColumnaLOD
+    400022: CulumnaHight
+    400024: CulumnaLow
+    400026: Escaleras
+    400028: Escaparate
+    400030: Escaparate 1
+    400032: Escaparate 2
+    400034: Escaparate 3
+    400036: Escaparate1
+    400038: Escaparate1 1
+    400040: Escaparate1 2
+    400042: Escaparate1 3
+    400044: Escaparate2
+    400046: Escaparate2 1
+    400048: Escaparate2 2
+    400050: Escaparate3
+    400052: Escaparate3 1
+    400054: Escaparate3 2
+    400056: Escaparate3 3
+    400058: Escaparate4
+    400060: Escaparate4 1
+    400062: Escaparate4 2
+    400064: Escaparate4 3
+    400066: Escaparate5
+    400068: Escaparate5 1
+    400070: Escaparate5 2
+    400072: Escaparate5 3
+    400074: InteriorAscensor1
+    400076: MacetaLOD
+    400078: MarcoAscensor
+    400080: pCube6
+    400082: pCube8
+    400084: Pilar14
+    400086: Pilar8
+    400088: Pilar8 1
+    400090: Pilar9
+    400092: Pilar9 1
+    400094: PlantaHight
+    400096: PlantaLow
+    400098: PlantaMid
+    400100: Puente
+    400102: Puente 1
+    400104: Puente 2
+    400106: Valla10
+    400108: Valla10 1
+    400110: Valla10 2
+    400112: Valla10 3
+    400114: Valla10 4
+    400116: Valla10 5
+    400118: Valla10 6
+    400120: Valla10 7
+    400122: Valla11
+    400124: Valla11 1
+    400126: Valla11 2
+    400128: Valla11 3
+    400130: Valla11 4
+    400132: Valla11 5
+    400134: Valla11 6
+    400136: Valla11 7
+    400138: Valla12
+    400140: Valla12 1
+    400142: Valla12 2
+    400144: Valla12 3
+    400146: Valla12 4
+    400148: Valla12 5
+    400150: Valla12 6
+    400152: Valla12 7
+    400154: Valla13
+    400156: Valla13 1
+    400158: Valla13 2
+    400160: Valla13 3
+    400162: Valla13 4
+    400164: Valla13 5
+    400166: Valla14
+    400168: Valla14 1
+    400170: Valla14 2
+    400172: Valla14 3
+    400174: Valla14 4
+    400176: Valla14 5
+    400178: Valla15
+    400180: Valla15 1
+    400182: Valla15 2
+    400184: Valla15 3
+    400186: Valla15 4
+    400188: Valla15 5
+    400190: Valla16
+    400192: Valla16 1
+    400194: Valla16 2
+    400196: Valla16 3
+    400198: Valla16 4
+    400200: Valla16 5
+    400202: Valla17
+    400204: Valla17 1
+    400206: Valla17 2
+    400208: Valla17 3
+    400210: Valla17 4
+    400212: Valla17 5
+    400214: Valla17 6
+    400216: Valla17 7
+    400218: Valla18
+    400220: Valla18 1
+    400222: Valla18 2
+    400224: Valla18 3
+    400226: Valla18 4
+    400228: Valla18 5
+    400230: Valla18 6
+    400232: Valla19
+    400234: Valla19 1
+    400236: Valla19 2
+    400238: Valla19 3
+    400240: Valla19 4
+    400242: Valla19 5
+    400244: Valla19 6
+    400246: Valla20
+    400248: Valla20 1
+    400250: Valla20 2
+    400252: Valla20 3
+    400254: Valla21
+    400256: Valla21 1
+    400258: Valla21 2
+    400260: Valla21 3
+    400262: Valla22
+    400264: Valla22 1
+    400266: Valla22 2
+    400268: Valla22 3
+    400270: Valla23
+    400272: Valla23 1
+    400274: Valla23 2
+    400276: Valla23 3
+    400278: Valla24
+    400280: Valla24 1
+    400282: Valla25
+    400284: Valla26
+    400286: Valla27
+    400288: Vallas
+    400290: Vallas 1
+    400292: Vallas 2
+    400294: Vallas 3
+    400296: Vallas1
+    400298: Vallas1 1
+    400300: Vallas1 2
+    400302: Vallas1 3
+    2300000: Camara
+    2300002: Camara 1
+    2300004: Camara 2
+    2300006: Centro
+    2300008: CulumnaHight
+    2300010: CulumnaLow
+    2300012: Escaleras
+    2300014: Escaparate
+    2300016: Escaparate 1
+    2300018: Escaparate 2
+    2300020: Escaparate 3
+    2300022: Escaparate1
+    2300024: Escaparate1 1
+    2300026: Escaparate1 2
+    2300028: Escaparate1 3
+    2300030: Escaparate2
+    2300032: Escaparate2 1
+    2300034: Escaparate2 2
+    2300036: Escaparate3
+    2300038: Escaparate3 1
+    2300040: Escaparate3 2
+    2300042: Escaparate3 3
+    2300044: Escaparate4
+    2300046: Escaparate4 1
+    2300048: Escaparate4 2
+    2300050: Escaparate4 3
+    2300052: Escaparate5
+    2300054: Escaparate5 1
+    2300056: Escaparate5 2
+    2300058: Escaparate5 3
+    2300060: InteriorAscensor1
+    2300062: MarcoAscensor
+    2300064: pCube6
+    2300066: pCube8
+    2300068: Pilar14
+    2300070: Pilar8
+    2300072: Pilar8 1
+    2300074: Pilar9
+    2300076: Pilar9 1
+    2300078: PlantaHight
+    2300080: PlantaLow
+    2300082: PlantaMid
+    2300084: Puente
+    2300086: Puente 1
+    2300088: Puente 2
+    2300090: Valla10
+    2300092: Valla10 1
+    2300094: Valla10 2
+    2300096: Valla10 3
+    2300098: Valla10 4
+    2300100: Valla10 5
+    2300102: Valla10 6
+    2300104: Valla10 7
+    2300106: Valla11
+    2300108: Valla11 1
+    2300110: Valla11 2
+    2300112: Valla11 3
+    2300114: Valla11 4
+    2300116: Valla11 5
+    2300118: Valla11 6
+    2300120: Valla11 7
+    2300122: Valla12
+    2300124: Valla12 1
+    2300126: Valla12 2
+    2300128: Valla12 3
+    2300130: Valla12 4
+    2300132: Valla12 5
+    2300134: Valla12 6
+    2300136: Valla12 7
+    2300138: Valla13
+    2300140: Valla13 1
+    2300142: Valla13 2
+    2300144: Valla13 3
+    2300146: Valla13 4
+    2300148: Valla13 5
+    2300150: Valla14
+    2300152: Valla14 1
+    2300154: Valla14 2
+    2300156: Valla14 3
+    2300158: Valla14 4
+    2300160: Valla14 5
+    2300162: Valla15
+    2300164: Valla15 1
+    2300166: Valla15 2
+    2300168: Valla15 3
+    2300170: Valla15 4
+    2300172: Valla15 5
+    2300174: Valla16
+    2300176: Valla16 1
+    2300178: Valla16 2
+    2300180: Valla16 3
+    2300182: Valla16 4
+    2300184: Valla16 5
+    2300186: Valla17
+    2300188: Valla17 1
+    2300190: Valla17 2
+    2300192: Valla17 3
+    2300194: Valla17 4
+    2300196: Valla17 5
+    2300198: Valla17 6
+    2300200: Valla17 7
+    2300202: Valla18
+    2300204: Valla18 1
+    2300206: Valla18 2
+    2300208: Valla18 3
+    2300210: Valla18 4
+    2300212: Valla18 5
+    2300214: Valla18 6
+    2300216: Valla19
+    2300218: Valla19 1
+    2300220: Valla19 2
+    2300222: Valla19 3
+    2300224: Valla19 4
+    2300226: Valla19 5
+    2300228: Valla19 6
+    2300230: Valla20
+    2300232: Valla20 1
+    2300234: Valla20 2
+    2300236: Valla20 3
+    2300238: Valla21
+    2300240: Valla21 1
+    2300242: Valla21 2
+    2300244: Valla21 3
+    2300246: Valla22
+    2300248: Valla22 1
+    2300250: Valla22 2
+    2300252: Valla22 3
+    2300254: Valla23
+    2300256: Valla23 1
+    2300258: Valla23 2
+    2300260: Valla23 3
+    2300262: Valla24
+    2300264: Valla24 1
+    2300266: Valla25
+    2300268: Valla26
+    2300270: Valla27
+    3300000: Camara
+    3300002: Camara 1
+    3300004: Camara 2
+    3300006: Centro
+    3300008: CulumnaHight
+    3300010: CulumnaLow
+    3300012: Escaleras
+    3300014: Escaparate
+    3300016: Escaparate 1
+    3300018: Escaparate 2
+    3300020: Escaparate 3
+    3300022: Escaparate1
+    3300024: Escaparate1 1
+    3300026: Escaparate1 2
+    3300028: Escaparate1 3
+    3300030: Escaparate2
+    3300032: Escaparate2 1
+    3300034: Escaparate2 2
+    3300036: Escaparate3
+    3300038: Escaparate3 1
+    3300040: Escaparate3 2
+    3300042: Escaparate3 3
+    3300044: Escaparate4
+    3300046: Escaparate4 1
+    3300048: Escaparate4 2
+    3300050: Escaparate4 3
+    3300052: Escaparate5
+    3300054: Escaparate5 1
+    3300056: Escaparate5 2
+    3300058: Escaparate5 3
+    3300060: InteriorAscensor1
+    3300062: MarcoAscensor
+    3300064: pCube6
+    3300066: pCube8
+    3300068: Pilar14
+    3300070: Pilar8
+    3300072: Pilar8 1
+    3300074: Pilar9
+    3300076: Pilar9 1
+    3300078: PlantaHight
+    3300080: PlantaLow
+    3300082: PlantaMid
+    3300084: Puente
+    3300086: Puente 1
+    3300088: Puente 2
+    3300090: Valla10
+    3300092: Valla10 1
+    3300094: Valla10 2
+    3300096: Valla10 3
+    3300098: Valla10 4
+    3300100: Valla10 5
+    3300102: Valla10 6
+    3300104: Valla10 7
+    3300106: Valla11
+    3300108: Valla11 1
+    3300110: Valla11 2
+    3300112: Valla11 3
+    3300114: Valla11 4
+    3300116: Valla11 5
+    3300118: Valla11 6
+    3300120: Valla11 7
+    3300122: Valla12
+    3300124: Valla12 1
+    3300126: Valla12 2
+    3300128: Valla12 3
+    3300130: Valla12 4
+    3300132: Valla12 5
+    3300134: Valla12 6
+    3300136: Valla12 7
+    3300138: Valla13
+    3300140: Valla13 1
+    3300142: Valla13 2
+    3300144: Valla13 3
+    3300146: Valla13 4
+    3300148: Valla13 5
+    3300150: Valla14
+    3300152: Valla14 1
+    3300154: Valla14 2
+    3300156: Valla14 3
+    3300158: Valla14 4
+    3300160: Valla14 5
+    3300162: Valla15
+    3300164: Valla15 1
+    3300166: Valla15 2
+    3300168: Valla15 3
+    3300170: Valla15 4
+    3300172: Valla15 5
+    3300174: Valla16
+    3300176: Valla16 1
+    3300178: Valla16 2
+    3300180: Valla16 3
+    3300182: Valla16 4
+    3300184: Valla16 5
+    3300186: Valla17
+    3300188: Valla17 1
+    3300190: Valla17 2
+    3300192: Valla17 3
+    3300194: Valla17 4
+    3300196: Valla17 5
+    3300198: Valla17 6
+    3300200: Valla17 7
+    3300202: Valla18
+    3300204: Valla18 1
+    3300206: Valla18 2
+    3300208: Valla18 3
+    3300210: Valla18 4
+    3300212: Valla18 5
+    3300214: Valla18 6
+    3300216: Valla19
+    3300218: Valla19 1
+    3300220: Valla19 2
+    3300222: Valla19 3
+    3300224: Valla19 4
+    3300226: Valla19 5
+    3300228: Valla19 6
+    3300230: Valla20
+    3300232: Valla20 1
+    3300234: Valla20 2
+    3300236: Valla20 3
+    3300238: Valla21
+    3300240: Valla21 1
+    3300242: Valla21 2
+    3300244: Valla21 3
+    3300246: Valla22
+    3300248: Valla22 1
+    3300250: Valla22 2
+    3300252: Valla22 3
+    3300254: Valla23
+    3300256: Valla23 1
+    3300258: Valla23 2
+    3300260: Valla23 3
+    3300262: Valla24
+    3300264: Valla24 1
+    3300266: Valla25
+    3300268: Valla26
+    3300270: Valla27
+    4300000: Escaparate5
+    4300002: Puente
+    4300004: Valla10
+    4300006: Valla11
+    4300008: Valla12
+    4300010: Valla13
+    4300012: Valla14
+    4300014: Valla15
+    4300016: Valla16
+    4300018: Valla17
+    4300020: Valla18
+    4300022: Valla19
+    4300024: CulumnaLow
+    4300026: CulumnaHight
+    4300028: Camara
+    4300030: PlantaHight
+    4300032: PlantaMid
+    4300034: PlantaLow
+    4300036: Pilar8
+    4300038: Escaparate4
+    4300040: Escaparate3
+    4300042: Valla10
+    4300044: Valla11
+    4300046: Valla12
+    4300048: Valla13
+    4300050: Valla14
+    4300052: Valla15
+    4300054: Valla16
+    4300056: Valla17
+    4300058: Valla18
+    4300060: Valla19
+    4300062: Valla20
+    4300064: Valla21
+    4300066: Valla22
+    4300068: Valla23
+    4300070: Escaparate2
+    4300072: Escaparate1
+    4300074: Escaparate
+    4300076: Pilar14
+    4300078: Escaparate5
+    4300080: Puente
+    4300082: Valla10
+    4300084: Valla11
+    4300086: Valla12
+    4300088: Valla13
+    4300090: Valla14
+    4300092: Valla15
+    4300094: Valla16
+    4300096: Valla17
+    4300098: Valla24
+    4300100: Camara
+    4300102: Escaparate4
+    4300104: Escaparate3
+    4300106: Valla10
+    4300108: Valla11
+    4300110: Valla12
+    4300112: Valla13
+    4300114: Valla14
+    4300116: Valla15
+    4300118: Valla16
+    4300120: Valla17
+    4300122: Valla18
+    4300124: Valla19
+    4300126: Valla20
+    4300128: Valla21
+    4300130: Valla22
+    4300132: Valla23
+    4300134: Escaparate2
+    4300136: Escaparate1
+    4300138: Escaparate
+    4300140: Pilar9
+    4300142: Escaparate5
+    4300144: Puente
+    4300146: Valla10
+    4300148: Valla11
+    4300150: Valla12
+    4300152: Valla13
+    4300154: Valla14
+    4300156: Valla15
+    4300158: Valla16
+    4300160: Valla17
+    4300162: Valla18
+    4300164: Valla19
+    4300166: Valla25
+    4300168: Valla26
+    4300170: Camara
+    4300172: Pilar8
+    4300174: Escaparate4
+    4300176: Escaparate3
+    4300178: Valla10
+    4300180: Valla11
+    4300182: Valla12
+    4300184: Valla13
+    4300186: Valla14
+    4300188: Valla15
+    4300190: Valla16
+    4300192: Valla17
+    4300194: Valla18
+    4300196: Valla19
+    4300198: Valla20
+    4300200: Valla21
+    4300202: Valla22
+    4300204: Valla23
+    4300206: Escaparate1
+    4300208: Escaparate
+    4300210: Escaparate5
+    4300212: Valla10
+    4300214: Valla11
+    4300216: Valla12
+    4300218: Valla17
+    4300220: Valla18
+    4300222: Valla19
+    4300224: Valla24
+    4300226: Valla27
+    4300228: Escaparate4
+    4300230: Escaparate3
+    4300232: Valla10
+    4300234: Valla11
+    4300236: Valla12
+    4300238: Valla17
+    4300240: Valla18
+    4300242: Valla19
+    4300244: Valla20
+    4300246: Valla21
+    4300248: Valla22
+    4300250: Valla23
+    4300252: Escaparate2
+    4300254: Escaparate1
+    4300256: Escaparate
+    4300258: Pilar9
+    4300260: Escaleras
+    4300262: Centro
+    4300264: MarcoAscensor
+    4300266: pCube8
+    4300268: pCube6
+    4300270: InteriorAscensor1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

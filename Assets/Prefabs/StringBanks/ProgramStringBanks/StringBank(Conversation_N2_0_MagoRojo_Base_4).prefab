@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1466676207486932}
+  m_IsPrefabParent: 1
+--- !u!1 &1466676207486932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4927756864168678}
+  - component: {fileID: 114534146238033878}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N2_0_MagoRojo_Base_4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4927756864168678
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1466676207486932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114534146238033878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1466676207486932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N2_0_MagoRojo_Base_4_
+  randomYield: 0
+  phrase:
+  - "Da igual, no esperaba una respuesta... Es solo una pregunta que te puede llevar
+    a reflexiones m\xE1s profundas si t\xFA as\xED lo decides."
+  - "Y si reflexionas sobre ello lo suficiente sabr\xE1s y comprender\xE1s la respuesta
+    a la siguiente pregunta que voy a hacerte."
+  - "\xBFQu\xE9 pregunta?"
+  - "\xBFPuede algo surgir de la nada? (de la completa nada)\r"
+  - '...'
+  - '...'
+  - "Pero t\xFA has venido aqu\xED por otra raz\xF3n. Buscando una llave \xBFno es
+    as\xED?"
+  - "As\xED es."
+  - Bien, bien. Buscas una llave pero...
+  - "\xBFC\xF3mo podr\xEDas saber si la llave que yo te puedo dar ser\xEDa la llave
+    correcta. Ya habr\xE1s o\xEDdo hablar por ah\xED acerca de un falso mago..."
+  - "Solo podr\xEDa saberlo si antes me contaras algo acerca de la magia que dices
+    conocer"
+  - "Prob\xE1ndola"
+  correntAnswer: 

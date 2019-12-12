@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1727510186474768}
+  m_IsPrefabParent: 1
+--- !u!1 &1727510186474768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4227300526813176}
+  - component: {fileID: 114165491001749222}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N2_0_MagoMorado_Base_2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4227300526813176
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1727510186474768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114165491001749222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1727510186474768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N2_0_MagoMorado_Base_2_
+  randomYield: 0
+  phrase:
+  - "\xBFA qu\xE9 llamas t\xFA tener\r sentido?"
+  - "A la coherencia. A la armon\xEDa e\r inter-dependencia entre todas\r las cosas.\r"
+  - "En el mundo hay mucho\r sufrimiento. Est\xE1 lleno de\r injusticias. \xBFA eso
+    le\r llamas t\xFA sentido y\r armon\xEDa?"
+  - "... tienes raz\xF3n. La verdad es que no tengo ni idea de por qu\xE9 el mundo
+    es como es."
+  - "En el mundo hay sufrimiento a causa del miedo y la ignorancia que todos mostramos
+    a veces. Pero a medida que vamos aprendiendo y avanzando por el camino de la vida,
+    esa ignorancia y ese miedo se van disipando. Eso es lo que creo, que el sentido
+    de la vida es volvernos m\xE1s sabios, para de esa manera aprender a tratar a
+    los dem\xE1s como nos gustar\xEDa que nos trataran a nosotros."
+  correntAnswer: 

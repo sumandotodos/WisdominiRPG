@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1405302690268620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4166952291441252}
+  - component: {fileID: 114195294223051720}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N2_0_Chamana_MinijuegoParte03_3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4166952291441252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405302690268620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114195294223051720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405302690268620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N2_0_Chamana_MinijuegoParte03_3_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "No somos los \xFAnicos seres altruistas. Algunos perros se juegan la vida por
+    ayudar a sus cong\xE9neres, e incluso una rata si tiene al lado a una compa\xF1era
+    que est\xE1 atrapada sufriendo"
+  - "tratar\xE1 de ayudarla y se sentir\xE1 estresada si no lo consigue"
+  - "Tambi\xE9n son frecuentes los ejemplos de altruismo entre especies: por ejemplo
+    en el zoo Taman Safari de Indonesia cuando una madre rechaz\xF3 a su cachorro
+    de tigre"
+  - "los trabajadores lo juntaron con dos hermanos de orangut\xE1n, y se hicieron
+    grandes amigos"
+  - " Y en el centro Shamwari de Sud\xE1frica fue una oveja la que dio consuelo a
+    una cr\xEDa de elefante hu\xE9rfana"
+  correntAnswer: 

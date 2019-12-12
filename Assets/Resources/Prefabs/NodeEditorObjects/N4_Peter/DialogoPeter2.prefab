@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1043539075886170}
+  m_IsPrefabParent: 1
+--- !u!1 &1043539075886170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4274241731382938}
+  - component: {fileID: 114714630795563616}
+  m_Layer: 0
+  m_Name: DialogoPeter2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4274241731382938
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043539075886170}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &114714630795563616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1043539075886170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - if
+      - <
+      - DialogoPeter2/1
+      - DialogoPeter2_2/0
+      - Retrieve data
+      - Constant
+      - N4Peter2Branch
+      - Integer
+      - 2
+    - theList:
+      - say
+      - "Veo que los pocos consejos que te di te fueron de utilidad. Has logrado entrar
+        al b\xFAnker de Materio."
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_0
+    - theList:
+      - say
+      - "As\xED es, muchas gracias."
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter2_1
+    - theList:
+      - say
+      - "Ahora me gustar\xEDa pedirte algo a ti. Durante este tiempo he estado yendo
+        al bosque. He hablado con los duendes y he reflexionado con ellos. He aprendido
+        mucho, y cr\xE9eme que gracias a eso ha cambiado mi visi\xF3n de m\xED mismo,
+        del mundo, y de los dem\xE1s, de una manera que nunca imagin\xE9."
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_2
+    - theList:
+      - say
+      - "\rPero tambi\xE9n con estos aprendizajes han ido surgiendo en m\xED nuevas
+        preguntas que nunca me hab\xEDa hecho antes. Para algunas de ellas he encontrado
+        respuesta, pero hay una para la que sigo sin encontrar respuesta."
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_3
+    - theList:
+      - say
+      - Me parece algo milagroso. Un milagro que todos tenemos delante de las narices
+        desde siempre y sin embargo no nos damos cuenta de ello.
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_4
+    - theList:
+      - say
+      - La pregunta es...
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_5
+    - theList:
+      - say
+      - "\xBFPor que\u0301 existe todo?"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_6
+    - theList:
+      - say
+      - "\xBF...en lugar de no existir nada?"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_7
+    - theList:
+      - if
+      - <
+      - DialogoPeter2/10
+      - DialogoPeter2_2/0
+      - Retrieve data
+      - Constant
+      - N4Peter2Branch
+      - Integer
+      - 2
+    - theList:
+      - ask
+      - 2
+      - "\xBFLes has preguntado a los duendes?"
+      - "\xBFA qu\xE9 te refieres exactamente?"
+      - DialogoPeter2_0/0
+      - DialogoPeter2_1/0
+      - Conv_N4_Peter_DialogoPeter2_8
+      - Conv_N4_Peter_DialogoPeter2_9
+  programs:
+  - theList:
+    - theList:
+      - if
+      - <
+      - DialogoPeter2/1
+      - DialogoPeter2_2/0
+      - Retrieve data
+      - Constant
+      - N4Peter2Branch
+      - Integer
+      - 2
+    - theList:
+      - say
+      - "Veo que los pocos consejos que te di te fueron de utilidad. Has logrado entrar
+        al b\xFAnker de Materio."
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_0
+    - theList:
+      - say
+      - "As\xED es, muchas gracias."
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter2_1
+    - theList:
+      - say
+      - "Ahora me gustar\xEDa pedirte algo a ti. Durante este tiempo he estado yendo
+        al bosque. He hablado con los duendes y he reflexionado con ellos. He aprendido
+        mucho, y cr\xE9eme que gracias a eso ha cambiado mi visi\xF3n de m\xED mismo,
+        del mundo, y de los dem\xE1s, de una manera que nunca imagin\xE9."
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_2
+    - theList:
+      - say
+      - "\rPero tambi\xE9n con estos aprendizajes han ido surgiendo en m\xED nuevas
+        preguntas que nunca me hab\xEDa hecho antes. Para algunas de ellas he encontrado
+        respuesta, pero hay una para la que sigo sin encontrar respuesta."
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_3
+    - theList:
+      - say
+      - Me parece algo milagroso. Un milagro que todos tenemos delante de las narices
+        desde siempre y sin embargo no nos damos cuenta de ello.
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_4
+    - theList:
+      - say
+      - La pregunta es...
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_5
+    - theList:
+      - say
+      - "\xBFPor que\u0301 existe todo?"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_6
+    - theList:
+      - say
+      - "\xBF...en lugar de no existir nada?"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter2_7
+    - theList:
+      - if
+      - <
+      - DialogoPeter2/10
+      - DialogoPeter2_2/0
+      - Retrieve data
+      - Constant
+      - N4Peter2Branch
+      - Integer
+      - 2
+    - theList:
+      - ask
+      - 2
+      - "\xBFLes has preguntado a los duendes?"
+      - "\xBFA qu\xE9 te refieres exactamente?"
+      - DialogoPeter2_0/0
+      - DialogoPeter2_1/0
+      - Conv_N4_Peter_DialogoPeter2_8
+      - Conv_N4_Peter_DialogoPeter2_9
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 150000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000150000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 72
+  windowY: 59

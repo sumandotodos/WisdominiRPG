@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1867555989499390}
+  m_IsPrefabParent: 1
+--- !u!1 &1867555989499390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4747371361268192}
+  - component: {fileID: 114064678680121506}
+  m_Layer: 0
+  m_Name: StringBank(FerfuflosRespuestasSabias6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4747371361268192
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1867555989499390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.61206, y: 0.75922775, z: 21.22237}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114064678680121506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1867555989499390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: FerfuflosRespuestasSabias6
+  randomYield: 0
+  standard: 0
+  phrase:
+  - Los errores son solamente oportunidades si te paras unos minutos a buscar el aprendizaje
+    que encierran, que no siempre es obvio.
+  - "Cada error es un aprendizaje. Deja de darle vueltas a lo que ocurri\xF3 porque
+    de lo contrario corres el riesgo de convertir lo ocurrido en una experiencia demasiado
+    desagradable que tu cerebro tratar\xE1 de olvidar. Y entonces no podr\xE1s aprender
+    gran cosa de la experiencia."
+  - "Acepta que con el grado de sabidur\xEDa que ten\xEDas en ese momento es imposible
+    que hubieras actuado de otro modo, y que si no hubiera sido en ese momento, hubieras
+    cometido un error similar en otro momento futuro. Aprende la lecci\xF3n para volverte
+    m\xE1s sabio, y no equivocarte cuando vuelvan a surgir circunstancias parecidas
+    m\xE1s adelante."
+  correntAnswer: 

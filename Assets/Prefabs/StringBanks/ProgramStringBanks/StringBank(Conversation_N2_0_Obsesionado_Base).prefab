@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1671487994426304}
+  m_IsPrefabParent: 1
+--- !u!1 &1671487994426304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4283731084290032}
+  - component: {fileID: 114253126890073734}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N2_0_Obsesionado_Base)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4283731084290032
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1671487994426304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114253126890073734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1671487994426304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N2_0_Obsesionado_Base_
+  randomYield: 0
+  phrase:
+  - "Hola, \xBFpuedo hacer algo por ti?"
+  - "Quiz\xE1 s\xED. Ayudarme. Investigo acerca de qu\xE9 cualidades nos hacen \xFAnicos
+    a los humanos."
+  - "Buff, pues ni idea. Pero me viene bien que me hagas esa pregunta. Es una pregunta
+    para pensar largo tiempo, y a m\xED me viene bien pensar en otras cosas."
+  - "\xBFSabes? \xDAltimamente estoy algo obsesionado por un proyecto personal que
+    quiero llevar a cabo."
+  - "\xBF\xBFAyuda en algo a que el proyecto salga bien el hecho de que te obsesiones
+    con \xE9l?"
+  - "Hazlo lo mejor que puedas y ya est\xE1."
+  correntAnswer: 

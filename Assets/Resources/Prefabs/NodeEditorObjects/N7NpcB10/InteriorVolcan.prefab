@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000014100428358}
+  m_IsPrefabParent: 1
+--- !u!1 &1000014100428358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013435609292}
+  - component: {fileID: 114000011922630262}
+  m_Layer: 0
+  m_Name: InteriorVolcan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013435609292
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014100428358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011922630262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014100428358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - Hola viajero
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_0
+    - theList:
+      - say
+      - Hola
+      - wait
+      - Player
+      - Conv_N7NpcB10_InteriorVolcan_1
+    - theList:
+      - say
+      - "Lo que buscas no est\xE1 aqu\xED. No est\xE1 en esta isla. Aqu\xED quiz\xE1
+        puedas aprender algo o quiz\xE1 no, depende de ti"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_2
+    - theList:
+      - say
+      - "Pero si lo que quieres es poder entrar al interior del volc\xE1n para obtener
+        la mayor fuente de poder que existe, tendr\xE1s que viajar a otra isla"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_3
+    - theList:
+      - say
+      - "\xBFCual?"
+      - wait
+      - Player
+      - Conv_N7NpcB10_InteriorVolcan_4
+    - theList:
+      - say
+      - "La isla donde no hay nada. Solo t\xFA contigo mismo. Para conocer el secreto
+        del volc\xE1n hace falta antes conocerse a uno mismo"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_5
+    - theList:
+      - say
+      - "Para conocer el secreto del volc\xE1n hace falta antes conocerse a uno mismo.
+        Y para conocerse a uno mismo, hay que tener el coraje necesario para estar
+        a solas uno mismo"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_6
+    - theList:
+      - say
+      - "\xBFTe has dado cuenta de que apenas pasamos unos minutos al d\xEDa solos?"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_7
+    - theList:
+      - say
+      - "\xBFunos minutos dices?"
+      - wait
+      - Player
+      - Conv_N7NpcB10_InteriorVolcan_8
+    - theList:
+      - say
+      - "siempre estamos con distracciones: televisi\xF3n, internet, radio, redes
+        sociales, amigos, familia"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_9
+    - theList:
+      - say
+      - "Esto no es por casualidad. Mucha gente tiene miedo de estar sola. Teme a
+        sus propios pensamientos porque le hacen pasarlo mal. Pero esas distracciones
+        no son m\xE1s que un parche que retrasa lo inevitable: el encuentro con uno
+        mismo"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_10
+    - theList:
+      - say
+      - "La \xFAnica isla vac\xEDa que conozco es la isla llamada Noname, \xBFpero
+        c\xF3mo llegar\xE9 hasta all\xED?"
+      - wait
+      - Player
+      - Conv_N7NpcB10_InteriorVolcan_11
+    - theList:
+      - say
+      - "Esa isla ahora no estar\xE1 vac\xEDa. Ve al volc\xE1n y busca una puerta
+        dimensional en su interior"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_12
+    - theList:
+      - say
+      - "Sin embargo para que la puerta dimensional te lleve hasta all\xED deber\xE1s
+        antes conocer la respuesta a la siguiente pregunta. Si un \xE1rbol cae en
+        mitad de un bosque donde no hay nadie, \xBFhar\xE1 ruido?"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_13
+    - theList:
+      - ask
+      - 3
+      - "S\xED,claro"
+      - No
+      - "Depende, \xBFhay alg\xFAn animal cerca?"
+      - InteriorVolcan_2/0
+      - InteriorVolcan_1/0
+      - InteriorVolcan_0/0
+      - Conv_N7NpcB10_InteriorVolcan_14
+      - Conv_N7NpcB10_InteriorVolcan_15
+      - Conv_N7NpcB10_InteriorVolcan_16
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - Hola viajero
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_0
+    - theList:
+      - say
+      - Hola
+      - wait
+      - Player
+      - Conv_N7NpcB10_InteriorVolcan_1
+    - theList:
+      - say
+      - "Lo que buscas no est\xE1 aqu\xED. No est\xE1 en esta isla. Aqu\xED quiz\xE1
+        puedas aprender algo o quiz\xE1 no, depende de ti"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_2
+    - theList:
+      - say
+      - "Pero si lo que quieres es poder entrar al interior del volc\xE1n para obtener
+        la mayor fuente de poder que existe, tendr\xE1s que viajar a otra isla"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_3
+    - theList:
+      - say
+      - "\xBFCual?"
+      - wait
+      - Player
+      - Conv_N7NpcB10_InteriorVolcan_4
+    - theList:
+      - say
+      - "La isla donde no hay nada. Solo t\xFA contigo mismo. Para conocer el secreto
+        del volc\xE1n hace falta antes conocerse a uno mismo"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_5
+    - theList:
+      - say
+      - "Para conocer el secreto del volc\xE1n hace falta antes conocerse a uno mismo.
+        Y para conocerse a uno mismo, hay que tener el coraje necesario para estar
+        a solas uno mismo"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_6
+    - theList:
+      - say
+      - "\xBFTe has dado cuenta de que apenas pasamos unos minutos al d\xEDa solos?"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_7
+    - theList:
+      - say
+      - "\xBFunos minutos dices?"
+      - wait
+      - Player
+      - Conv_N7NpcB10_InteriorVolcan_8
+    - theList:
+      - say
+      - "siempre estamos con distracciones: televisi\xF3n, internet, radio, redes
+        sociales, amigos, familia"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_9
+    - theList:
+      - say
+      - "Esto no es por casualidad. Mucha gente tiene miedo de estar sola. Teme a
+        sus propios pensamientos porque le hacen pasarlo mal. Pero esas distracciones
+        no son m\xE1s que un parche que retrasa lo inevitable: el encuentro con uno
+        mismo"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_10
+    - theList:
+      - say
+      - "La \xFAnica isla vac\xEDa que conozco es la isla llamada Noname, \xBFpero
+        c\xF3mo llegar\xE9 hasta all\xED?"
+      - wait
+      - Player
+      - Conv_N7NpcB10_InteriorVolcan_11
+    - theList:
+      - say
+      - "Esa isla ahora no estar\xE1 vac\xEDa. Ve al volc\xE1n y busca una puerta
+        dimensional en su interior"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_12
+    - theList:
+      - say
+      - "Sin embargo para que la puerta dimensional te lleve hasta all\xED deber\xE1s
+        antes conocer la respuesta a la siguiente pregunta. Si un \xE1rbol cae en
+        mitad de un bosque donde no hay nadie, \xBFhar\xE1 ruido?"
+      - wait
+      - NPC1
+      - Conv_N7NpcB10_InteriorVolcan_13
+    - theList:
+      - ask
+      - 3
+      - "S\xED,claro"
+      - No
+      - "Depende, \xBFhay alg\xFAn animal cerca?"
+      - InteriorVolcan_2/0
+      - InteriorVolcan_1/0
+      - InteriorVolcan_0/0
+      - Conv_N7NpcB10_InteriorVolcan_14
+      - Conv_N7NpcB10_InteriorVolcan_15
+      - Conv_N7NpcB10_InteriorVolcan_16
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 100000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 26
+  windowY: 10

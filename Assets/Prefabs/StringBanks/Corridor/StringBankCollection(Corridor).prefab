@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &139936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 428830}
+  - component: {fileID: 11411700}
+  m_Layer: 0
+  m_Name: StringBankCollection(Corridor)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &428830
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 165.99927, y: -5.7348404, z: 0.92676544}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11411700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96eb52b0f39a41549f03a8ff51d2174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bank:
+  - {fileID: 11476288, guid: 31f8200b7f4e0453c8172702870d15bb, type: 2}
+  - {fileID: 11417886, guid: f425456539fcf4b0ea45a0921a49d848, type: 2}
+  - {fileID: 11438844, guid: 4f276d4fa965b4851827fdf832338606, type: 2}
+  - {fileID: 11428516, guid: b5283e8b4d8c0410ab21864b453ae0c6, type: 2}
+  - {fileID: 11468168, guid: bf838c5c7016b41308f2798e1a9a3aa7, type: 2}
+  - {fileID: 11489402, guid: 93de173eb546a45cbbfcfdbc378fb2ab, type: 2}
+  - {fileID: 11488942, guid: eebffda2415d241519c79b83d8c6f67a, type: 2}
+  random: 0
+  rosetta: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 139936}
+  m_IsPrefabParent: 1

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1378925157370612}
+  m_IsPrefabParent: 1
+--- !u!1 &1378925157370612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4642256912731482}
+  - component: {fileID: 114539434772591220}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4642256912731482
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1378925157370612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114539434772591220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1378925157370612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7_CasaAmarillaElectrodoP2_ElectrodoCasaAmarilla_2_
+  randomYield: 0
+  phrase:
+  - "Y entonces el pensamiento y sentimiento que nos lleva a concluir que somos libres
+    ser\xEDa tambi\xE9n un enga\xF1o pre-grabado en esas mismas mol\xE9culas... \xBFExtra\xF1o
+    verdad? Me parecer\xEDa muy raro que esta hip\xF3tesis sin sentido pudiera ser
+    verdad. Es algo demasiado rebuscado."
+  - "Estamos hechos de \xE1tomos, pero lo que mueve esos \xE1tomos no son esos mismos
+    \xE1tomos. Es la mente, la conciencia, lo que los mueve."
+  - "Ya. \xBFt\xFA qu\xE9 opinas visitante? "
+  - Que el conductor del coche no puede ser lo mismo que el coche, como la conciencia
+    no puede lo mismo que el cuerpo
+  - "Creo que somos solo un cuerpo f\xEDsico."
+  - Creo que voy a probar a golpearme el hueso de la risa antes de opinar.
+  - "Hasta la vista, por cierto si realmente quieres encontrar la mayor fuente de
+    poder que existe, busca la casa del buz\xF3n rosa."
+  - "Adi\xF3s."
+  correntAnswer: 

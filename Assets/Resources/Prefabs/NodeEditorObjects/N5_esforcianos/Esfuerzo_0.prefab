@@ -1,0 +1,450 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &188194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 409932}
+  - component: {fileID: 11417838}
+  m_Layer: 0
+  m_Name: Esfuerzo_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &409932
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11417838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - Los Clasistas son unos cabecicubos
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_0
+    - theList:
+      - say
+      - "Pero si cabe, los Talentianos me dan a\xFAn m\xE1s l\xE1stima"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_1
+    - theList:
+      - say
+      - "Porque critican a los Clasistas por algo que ellos mismos tambi\xE9n hacen"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_2
+    - theList:
+      - say
+      - Les parece mal que los Clasistas admiren a los ricos y poderosos argumentando
+        que lo son solamente por haber nacido en el seno de una buena familia
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_3
+    - theList:
+      - say
+      - "\xBFPero qu\xE9 hacen ellos? Ser\xE1 mejor que lo compruebes por ti mismo.
+        Lanza los dados"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_4
+    - theList:
+      - say
+      - "\xBFHas visto? \xBFacaso los Talentianos no admiraban a tambi\xE9n a las
+        personas solo por el hecho de haber nacido con un talento o unos genes determinados?\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_5
+    - theList:
+      - say
+      - "Dime una cosa: alguien que nace con un talento especial, \xBFacaso ha hecho
+        algo antes de nacer para adquirir tener ese talento?\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_6
+    - theList:
+      - say
+      - "\xBFAcaso tiene alg\xFAn m\xE9rito el mero hecho de nacer?\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_7
+    - theList:
+      - say
+      - "\xBFAcaso es justo y razonable colocar a alguien en la c\xFAspide de la pir\xE1mide
+        solo por el hecho de nacer como el hijo de unos determinados padres?\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_8
+    - theList:
+      - say
+      - No hay duda de que tanto clasistas como talentianos andaban muy perdidos
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_9
+    - theList:
+      - say
+      - "Lo esencial no es el talento con el que naces, sino c\xF3mo te esfuerzas
+        para desarrollarlo y ponerlo al servicio de la sociedad"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_10
+    - theList:
+      - say
+      - "Por eso en nuestra civilizaci\xF3n las cosas eran de otra manera. Nosotros
+        no valor\xE1bamos a la gente por nacer con unos talentos determinados"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_11
+    - theList:
+      - say
+      - " Ni tampoco por que el azar les sonriera m\xE1s adelante en su vidas"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_12
+    - theList:
+      - say
+      - "Para nosotros lo m\xE1s importante es el trabajo y el esfuerzo"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_13
+    - theList:
+      - say
+      - "En la c\xFAspide de nuestra pir\xE1mide social estaba la gente que m\xE1s
+        se esforzaba"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_14
+    - theList:
+      - say
+      - "La gente que sudaba para lograr sus objetivos. Que se dejaba la piel para
+        conseguir superarse a s\xED misma y alcanzar los objetivos que se hab\xEDa
+        marcado, a costa de lo que fuera"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_15
+    - theList:
+      - say
+      - Solo aquel que progresaba a base de trabajo era alguien digno de ser alabado
+        en nuestra sociedad
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_16
+    - theList:
+      - say
+      - " Y solo esta clase de personas ocupaban las posiciones m\xE1s distinguidas
+        de nuestra pir\xE1mide social"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_17
+    - theList:
+      - say
+      - "No nos importaba su dinero, ni su talento innato, ni su fama, ni su belleza
+        f\xEDsica...\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_18
+    - theList:
+      - say
+      - "En la sociedad de los Esforcianos admir\xE1bamos por encima de todo a las
+        personas que se esforzaban en la vida para llegar a ser los primeros"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_19
+    - theList:
+      - say
+      - "Y ahora antes de darte nuestra escala de valores, la \xFAnica digna de ser
+        seguida por una civilizaci\xF3n que se precie, "
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_20
+    - theList:
+      - say
+      - voy a hacerte una pregunta que necesito dejar resuelta antes de irme para
+        siempre de lo que durante tanto tiempo fue mi hogar
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_21
+    - theList:
+      - say
+      - "Si tu respuesta me parece coherente, te dejar\xE9 entrar en mis catacumbas"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_22
+    - theList:
+      - say
+      - 'Mi pregunta es la siguiente:'
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_23
+    - theList:
+      - say
+      - "\xBFQu\xE9 son el tiempo y el espacio?\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_24
+    - theList:
+      - ask
+      - 2
+      - El tiempo y el espacio son siempre algo fijo, constante, y real
+      - "Puede que el tiempo y el espacio sean solo una creaci\xF3n de la mente "
+      - Esfuerzo_1/0
+      - Esfuerzo_2/0
+      - Conv_N5_esforcianos_Esfuerzo_0_25
+      - Conv_N5_esforcianos_Esfuerzo_0_26
+  programs:
+  - theList:
+    - theList:
+      - say
+      - Los Clasistas son unos cabecicubos
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_0
+    - theList:
+      - say
+      - "Pero si cabe, los Talentianos me dan a\xFAn m\xE1s l\xE1stima"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_1
+    - theList:
+      - say
+      - "Porque critican a los Clasistas por algo que ellos mismos tambi\xE9n hacen"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_2
+    - theList:
+      - say
+      - Les parece mal que los Clasistas admiren a los ricos y poderosos argumentando
+        que lo son solamente por haber nacido en el seno de una buena familia
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_3
+    - theList:
+      - say
+      - "\xBFPero qu\xE9 hacen ellos? Ser\xE1 mejor que lo compruebes por ti mismo.
+        Lanza los dados"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_4
+    - theList:
+      - say
+      - "\xBFHas visto? \xBFacaso los Talentianos no admiraban a tambi\xE9n a las
+        personas solo por el hecho de haber nacido con un talento o unos genes determinados?\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_5
+    - theList:
+      - say
+      - "Dime una cosa: alguien que nace con un talento especial, \xBFacaso ha hecho
+        algo antes de nacer para adquirir tener ese talento?\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_6
+    - theList:
+      - say
+      - "\xBFAcaso tiene alg\xFAn m\xE9rito el mero hecho de nacer?\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_7
+    - theList:
+      - say
+      - "\xBFAcaso es justo y razonable colocar a alguien en la c\xFAspide de la pir\xE1mide
+        solo por el hecho de nacer como el hijo de unos determinados padres?\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_8
+    - theList:
+      - say
+      - No hay duda de que tanto clasistas como talentianos andaban muy perdidos
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_9
+    - theList:
+      - say
+      - "Lo esencial no es el talento con el que naces, sino c\xF3mo te esfuerzas
+        para desarrollarlo y ponerlo al servicio de la sociedad"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_10
+    - theList:
+      - say
+      - "Por eso en nuestra civilizaci\xF3n las cosas eran de otra manera. Nosotros
+        no valor\xE1bamos a la gente por nacer con unos talentos determinados"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_11
+    - theList:
+      - say
+      - " Ni tampoco por que el azar les sonriera m\xE1s adelante en su vidas"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_12
+    - theList:
+      - say
+      - "Para nosotros lo m\xE1s importante es el trabajo y el esfuerzo"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_13
+    - theList:
+      - say
+      - "En la c\xFAspide de nuestra pir\xE1mide social estaba la gente que m\xE1s
+        se esforzaba"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_14
+    - theList:
+      - say
+      - "La gente que sudaba para lograr sus objetivos. Que se dejaba la piel para
+        conseguir superarse a s\xED misma y alcanzar los objetivos que se hab\xEDa
+        marcado, a costa de lo que fuera"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_15
+    - theList:
+      - say
+      - Solo aquel que progresaba a base de trabajo era alguien digno de ser alabado
+        en nuestra sociedad
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_16
+    - theList:
+      - say
+      - " Y solo esta clase de personas ocupaban las posiciones m\xE1s distinguidas
+        de nuestra pir\xE1mide social"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_17
+    - theList:
+      - say
+      - "No nos importaba su dinero, ni su talento innato, ni su fama, ni su belleza
+        f\xEDsica...\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_18
+    - theList:
+      - say
+      - "En la sociedad de los Esforcianos admir\xE1bamos por encima de todo a las
+        personas que se esforzaban en la vida para llegar a ser los primeros"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_19
+    - theList:
+      - say
+      - "Y ahora antes de darte nuestra escala de valores, la \xFAnica digna de ser
+        seguida por una civilizaci\xF3n que se precie, "
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_20
+    - theList:
+      - say
+      - voy a hacerte una pregunta que necesito dejar resuelta antes de irme para
+        siempre de lo que durante tanto tiempo fue mi hogar
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_21
+    - theList:
+      - say
+      - "Si tu respuesta me parece coherente, te dejar\xE9 entrar en mis catacumbas"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_22
+    - theList:
+      - say
+      - 'Mi pregunta es la siguiente:'
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_23
+    - theList:
+      - say
+      - "\xBFQu\xE9 son el tiempo y el espacio?\r"
+      - wait
+      - NPC1
+      - Conv_N5_esforcianos_Esfuerzo_0_24
+    - theList:
+      - ask
+      - 2
+      - El tiempo y el espacio son siempre algo fijo, constante, y real
+      - "Puede que el tiempo y el espacio sean solo una creaci\xF3n de la mente "
+      - Esfuerzo_1/0
+      - Esfuerzo_2/0
+      - Conv_N5_esforcianos_Esfuerzo_0_25
+      - Conv_N5_esforcianos_Esfuerzo_0_26
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 903
+  windowY: 263
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 188194}
+  m_IsPrefabParent: 1

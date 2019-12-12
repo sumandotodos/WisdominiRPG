@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5533070603264554541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7656372728430059760}
+  - component: {fileID: 7895432017083705879}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N1_0_Traficante_Base_15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7656372728430059760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5533070603264554541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7895432017083705879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5533070603264554541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N1_0_Traficante_Base_15_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "Esas llamas no esconden directamente ning\xFAn conocimiento. Esconden un reto:
+    cinco inc\xF3gnitas, cinco l\xE1mparas. S\xF3lo una respuesta es verdadera. Deber\xE1s
+    encender al menos cuatro de las cinco l\xE1mpadas para poder continuar tu camino."
+  - "\xBFSobre qu\xE9 tratan esas inc\xF3gnitas?"
+  - "Sobre todo aquello que siempre quisiste saber pero nunca nadie se atrevi\xF3
+    a ense\xF1ar."
+  - "\xBFPor qu\xE9 te llaman el traficante? \xBFAcaso el conocimiento est\xE1 prohibido?"
+  - "\xBFC\xF3mo puedo discernir el conocimiento que es importante del que no lo es?"
+  correntAnswer: 

@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1915056450841114}
+  m_IsPrefabParent: 1
+--- !u!1 &1915056450841114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4344893101601694}
+  - component: {fileID: 114207655834297144}
+  m_Layer: 0
+  m_Name: "StringBank(Conversation_N7_CasaGranateEvolucio\u0301nEspiritualesP2_GranateEvolucionEspirituales)"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4344893101601694
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915056450841114}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114207655834297144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915056450841114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: "Conv_N7_CasaGranateEvoluci\xF3nEspiritualesP2_GranateEvolucionEspirituales_"
+  randomYield: 0
+  phrase:
+  - Hola, buenas.
+  - Hola.
+  - "Hola. Est\xE1bamos manteniendo una conversaci\xF3n privada, pero ya que est\xE1s
+    aqu\xED\u2026 si quieres qu\xE9date."
+  - "Haz el favor de responder a lo que acabo de preguntarte: \xBFt\xFA crees que
+    encontrar\xE9 una mujer con la que casarme y tener hijos?"
+  - "S\xED, ya te digo que s\xED. Es cuesti\xF3n de tiempo."
+  - "Cuando trabajaba de cient\xEDfico todos dec\xEDan que estaba demasiado metido
+    en mi trabajo y que as\xED era dif\xEDcil que conociera a alguien.  "
+  - "Eso tambi\xE9n es verdad, pero oye \xBFa qu\xE9 viene esto ahora?"
+  - "No s\xE9, me vino la idea a la cabeza. Estaba pensando en lo que habl\xE1bamos
+    antes. En lo de que si fuera cierto lo que dices de que somos solo algo f\xEDsico,
+    entonces las personas como yo nos tendr\xEDamos que haber extinguido hace muchos
+    miles de a\xF1os."
+  - "Vamos, no seas tan duro contigo mismo. Seguro que acabas ech\xE1ndote pareja."
+  - "No, no es eso. Lo digo porque seg\xFAn la teor\xEDa de la evoluci\xF3n de las
+    especies cualquier mutaci\xF3n que no sea \xFAtil para la supervivencia acaba
+    desapareciendo al cabo de unas pocas generaciones. Por ejemplo un \xE1guila con
+    una mutaci\xF3n que le hiciera no soportar bien la bajada en el nivel de ox\xEDgeno
+    que se produce en las alturas, lo tendr\xEDa mucho m\xE1s dif\xEDcil para dejar
+    descendencia y dicha mutaci\xF3n acaba por desaparecer."
+  - " Y lo mismo con cualquier otra cosa. Entonces por esta regla de 3, si realmente
+    no existe la mente, ni la conciencia, ni el esp\xEDritu, ni nada que tenga que
+    ver con lo espiritual, entonces deber\xEDamos habernos extinguido hace muchos
+    miles de a\xF1os las personas que nos seguimos hacemos esta clase de preguntas
+    y buscando una respuesta. Porque si solo son un lastre que conlleva una p\xE9rdida
+    de tiempo y energ\xEDa in\xFAtil, entonces deber\xEDamos habernos extinguido hace
+    muchas generaciones."
+  - "En eso tienes raz\xF3n. En la sociedad moderna de hoy en d\xEDa tenemos bastante
+    tiempo libre, al menos en occidente. Pero hace miles, o incluso cientos de a\xF1os,
+    no era as\xED. Y sin embargo no os hab\xE9is extinguido."
+  - "No, desde que surgi\xF3 el primer ser humano hace m\xE1s de 160.000 a\xF1os esta
+    b\xFAsqueda de lo trascendente nos ha acompa\xF1ado siempre. Incluso en la sociedad
+    materialista actual en la que todo lo que tenga que ver con lo espiritual ha quedado
+    bastante proscrito, sigue habiendo unos cuantos que seguimos emprendiendo el camino
+    de la b\xFAsqueda interior y de la comprensi\xF3n del universo que nos rodea."
+  - "\xBFA ti qu\xE9 te parece visitante?"
+  - <img src="https://commons.wikimedia.org/wiki/File:Stonehenge-Green">
+  correntAnswer: 

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1831155202863858}
+  m_IsPrefabParent: 1
+--- !u!1 &1831155202863858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4732180691961724}
+  - component: {fileID: 114943165709449360}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_ViejoBunker_QueDirigioLaEvolucion)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4732180691961724
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1831155202863858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114943165709449360
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1831155202863858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_ViejoBunker_QueDirigioLaEvolucion_
+  randomYield: 0
+  phrase:
+  - "\xBFT\xFA otra vez por aqu\xED? Dime, \xBFen qu\xE9 puedo ayudarte?"
+  - "A veces sigo haci\xE9ndome la pregunta de por qu\xE9 estamos aqu\xED. Y tambi\xE9n
+    me hago otra: si la evoluci\xF3n de las especies no fue dirigida por el azar.
+    \xBFQu\xE9 fue lo que la dirigi\xF3?"
+  - "La mente. La inteligencia. Todo es mente: la tierra, lo que hay en la tierra,
+    las estrellas, las personas, los animales, los meteoritos, el universo\u2026 todo"
+  - "\xBFSabes cu\xE1ntas galaxias tiene el universo? Unos 100.000 millones de galaxias,
+    m\xE1s o menos las mismas que neuronas hay en un cerebro humano: 100.000 millones"
+  - "Te contar\xE9 otro hecho singular que da que pensar: un grupo de astrof\xEDsicos
+    hizo una simulaci\xF3n de la evoluci\xF3n del universo. El resultado puedes verlo
+    a la derecha. A la izquierda est\xE1 la imagen de una neurona captada por fluoroluminiscencia"
+  - "Sin tener ni idea de esto los sabios de la antig\xFCedad ya dec\xEDan que el
+    hombre es un universo en miniatura, y que el universo es como un hombre grande"
+  - "Creemos que la materia es algo s\xF3lido y real, algo que existe por s\xED mismo,
+    por eso diferenciamos entre mente y materia. Pero no es eso lo que ha encontrado
+    la ciencia"
+  - "La mec\xE1nica ha descubierto que las part\xEDculas subat\xF3micas solo existen
+    como entes materiales si son percibidos por una conciencia. Pero esto no aplica
+    solo al microcosmos de las part\xEDculas subat\xF3micas, aplica a todo. Las leyes
+    de la mec\xE1nica cu\xE1ntica son igualmente v\xE1lidas para un \xE1tomo de helio
+    que para un universo entero"
+  - "Esto significa que sin mente, sin conciencia, no habr\xEDa materia. Por tanto
+    la causa de que estemos aqu\xED no puede ser que hubiera materia inerte en un
+    universo sin vida, y que por alguna extra\xF1a casualidad de esa materia inerte
+    surgiera de pronto la vida"
+  - "No puede ser porque sin conciencia esa materia nunca habr\xEDa estado ah\xED"
+  - "Por tanto si el universo solo existe en caso de que exista la mente o la conciencia,
+    eso es lo mismo que decir que el universo es una proyecci\xF3n de la mente, o
+    que el universo es mente"
+  - "F\xEDjate en una cosa. Cuando sue\xF1as lo percibes todo como real, no te das
+    cuenta de que todo lo que est\xE1s viviendo es \xFAnicamente una proyecci\xF3n
+    de la mente, y que nada de lo que aparece en tu sue\xF1o existe realmente. Aparece
+    ante ti, pero no existe por s\xED mismo. Existe porque tu mente lo est\xE1 proyectando"
+  - "Pues lo mismo sucede con el universo, solo que ah\xED no se trata de la proyecci\xF3n
+    de una \xFAnica mente individual, sino de lo que podr\xEDamos llamar el inconsciente
+    colectivo o la mente absoluta. La mente no es singular ni es plural, es simplemente
+    mente, y es la mente la que ha proyectado el universo desde su inicio hasta su
+    final"
+  - "Un sue\xF1o comienza cuando empiezas a so\xF1ar, y acaba cuando despiertas. Y
+    el universo igual: tuvo un inicio y tendr\xE1 un final. Y fuera de ese intervalo
+    de tiempo el universo no ser\xE1 nada, tendr\xE1 la misma entidad real que el
+    sue\xF1o que tuviste anoche"
+  correntAnswer: 

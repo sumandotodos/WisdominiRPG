@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &191192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 457606}
+  - component: {fileID: 11403812}
+  m_Layer: 0
+  m_Name: Super3_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &457606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11403812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Si te fijas estamos continuamente recordando cosas del pasado: analiz\xE1ndolas,
+        calific\xE1ndolas como buenas o malas, o imaginando de qu\xE9 otra manera
+        podr\xEDan haber sido. Sin comprender que es imposible que hubieran sido de
+        otra manera, imposible."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_4_0
+    - theList:
+      - say
+      - "Y la raz\xF3n por la que es imposible, es que cada cosa que sucede est\xE1
+        relacionada con infinidad de sucesos interdependientes. Pero al no ver nosotros
+        esa interdependencia pensamos que no existe. Pero nada sucede porque s\xED."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_4_1
+    - theList:
+      - say
+      - "\xBFY qu\xE9 me dices del futuro?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_4_2
+    - theList:
+      - ask
+      - 2
+      - 
+      - 
+      - Super3_5/0
+      - Super3_6/0
+      - Conv_Guru_Super3_4_3
+      - Conv_Guru_Super3_4_4
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Si te fijas estamos continuamente recordando cosas del pasado: analiz\xE1ndolas,
+        calific\xE1ndolas como buenas o malas, o imaginando de qu\xE9 otra manera
+        podr\xEDan haber sido. Sin comprender que es imposible que hubieran sido de
+        otra manera, imposible."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_4_0
+    - theList:
+      - say
+      - "Y la raz\xF3n por la que es imposible, es que cada cosa que sucede est\xE1
+        relacionada con infinidad de sucesos interdependientes. Pero al no ver nosotros
+        esa interdependencia pensamos que no existe. Pero nada sucede porque s\xED."
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_4_1
+    - theList:
+      - say
+      - "\xBFY qu\xE9 me dices del futuro?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super3_4_2
+    - theList:
+      - ask
+      - 2
+      - 
+      - 
+      - Super3_5/0
+      - Super3_6/0
+      - Conv_Guru_Super3_4_3
+      - Conv_Guru_Super3_4_4
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 911
+  windowY: 1610

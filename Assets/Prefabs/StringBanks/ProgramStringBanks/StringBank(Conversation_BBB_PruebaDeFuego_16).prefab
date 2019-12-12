@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1677476605405358}
+  m_IsPrefabParent: 1
+--- !u!1 &1677476605405358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4796750443753754}
+  - component: {fileID: 114894978735182672}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_BBB_PruebaDeFuego_16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4796750443753754
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677476605405358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114894978735182672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677476605405358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_BBB_PruebaDeFuego_16_
+  randomYield: 0
+  phrase:
+  - "La alternativa consiste en dedicar parte de tu energ\xEDa a trabajar tu interior."
+  - "No es algo que se pueda hacer de un d\xEDa para otro, porque lo que est\xE1 en
+    juego es llevar a cabo una transformaci\xF3n trascendental de tu vida."
+  - "Se trata de aprender a vivir las m\xE1s o menos 6000 horas que pasamos despiertos
+    al a\xF1o, de manera plena y feliz."
+  - En lugar de pasar 5900 horas frustrados y amargados, esperando que lleguen esos
+    escasos ratos que nos parecen buenos.
+  - "Es algo tan sencillo como no vivir estresados cuando hacemos cosas como ir de
+    casa al trabajo, o del trabajo a casa, o cuando hacemos cualquier cosa que etiquetamos
+    como \"No me gusta\". Estamos estresados porque queremos que acabe cuanto antes.
+    \xBFPara qu\xE9? Para ahorrar 5 minutos. \xBFY merecer\xE1 la pena? Desde luego
+    que no."
+  - "Ser\xE1n 5 minutos m\xE1s dedicados a una actividad que etiquetamos como \"S\xED
+    me gusta\", pero esos 5 minutos no traer\xE1n m\xE1s felicidad a nuestra vida."
+  - "Frente a esto, est\xE1 la alternativa de vivir la vida en calma. Todo el rato,
+    todo el d\xEDa. Vivir una vida plena y feliz. Y la manera de lograrlo es practicar
+    mindfulness y meditar."
+  - "\xBFMindfulness?"
+  - "S\xED, o atenci\xF3n plena. Se trata simplemente de estar presente al 100%. Normalmente
+    solemos ir en modo autom\xE1tico: si alguien nos da un abraza nos sentimos bien.
+    Pero si no nos dan un abrazo que esper\xE1bamos, nos sentimos mal. Si alguien
+    nos insulta nos enfadamos. Si no conseguimos algo que quer\xEDamos, nos sentimos
+    decepcionados."
+  - "Y casi constantemente vamos siguiendo sin darnos cuenta la cadena de pensamientos
+    que es la que esta\u0301 fomentando estas emociones, ma\u0301s negativas que positivas.
+    Nos comportamos como auto\u0301matas. Practicar mindfulness es recuperar la consciencia."
+  - "Cuando est\xE1s presente al 100% no te puede pasar nada malo, porque no te dejar\xE1s
+    llevar por impulsos, t\xFA tienes el control de lo que haces."
+  - En cambio las personas que no son conscientes de sus emociones, como mucho pueden
+    aspirar a tener resultados mediocres en su vida.
+  - "\xBFSe te ocurre algo mejor en lo que emplear nuestro tiempo y esfuerzo?"
+  - "S\xED"
+  - No
+  correntAnswer: 

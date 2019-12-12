@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1672039798693318}
+  m_IsPrefabParent: 1
+--- !u!1 &1672039798693318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4293343110972146}
+  - component: {fileID: 114832164124179312}
+  m_Layer: 0
+  m_Name: StringBank(PreguntasSet38)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4293343110972146
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1672039798693318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114832164124179312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1672039798693318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: PreguntasSet38
+  randomYield: 0
+  phrase:
+  - "\xBFQu\xE9 porcentaje de los 2.600 encuestados en Reino Unido opinaba que la
+    teor\xEDa de la evoluci\xF3n por s\xED sola no es suficiente para explicar las
+    complejas estructuras de algunos seres vivos?"
+  - "\xBFQu\xE9 hizo que el hombre de croma\xF1\xF3n ganara al hombre de neandertal
+    en la lucha por la supervivencia si ambos ten\xEDan tecnolog\xEDa similar?"
+  - "\xBFCu\xE1l es el orden en que las siguientes emociones suelen aparecer?"
+  - "\xBFCu\xE1les son los pasos para tener una comunicaci\xF3n efectiva durante una
+    discusi\xF3n?"
+  - "En promedio, \xBFqu\xE9 porcentaje del ADN de una persona de una determinada
+    nacionalidad, es ADN originario ese pa\xEDs?"
+  correntAnswer: 0300000002000000010000000200000001000000

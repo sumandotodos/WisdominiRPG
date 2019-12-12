@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1661191218174616}
+  m_IsPrefabParent: 1
+--- !u!1 &1661191218174616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4571189489554906}
+  - component: {fileID: 114677865494560004}
+  m_Layer: 0
+  m_Name: Guardia1.1_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4571189489554906
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1661191218174616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114677865494560004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1661191218174616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Os pondr\xE9 un ejemplo. El d\xEDa que le pusieron delante un piano a Mozart
+        empez\xF3 a tocarlo como si llevara toda la vida haci\xE9ndolo. De hecho siendo
+        un ni\xF1o tocaba mucho mejor que la mayor\xEDa de la gente adulta que lleva
+        a\xF1os practicando."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_1_0
+    - theList:
+      - say
+      - "\xBFPod\xEDa eso estar grabado en sus genes? \xBFEn la disposici\xF3n de
+        unos \xE1tomos en el espacio, en las uniones de unos \xE1tomos con otros?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_1_1
+    - theList:
+      - say
+      - "\xBFPuede estar grabada la intuici\xF3n que lleva a un m\xFAsico a saber
+        qu\xE9 notas van a sonar de manera armoniosa y mel\xF3dica, causando una emoci\xF3n
+        en la mente, y cu\xE1les no? \xBFPuede depender de una cadena de \xE1tomos
+        formando una estructura molecular el hecho de que pieza musical nos cause
+        alegr\xEDa o tristeza?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_1_2
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Os pondr\xE9 un ejemplo. El d\xEDa que le pusieron delante un piano a Mozart
+        empez\xF3 a tocarlo como si llevara toda la vida haci\xE9ndolo. De hecho siendo
+        un ni\xF1o tocaba mucho mejor que la mayor\xEDa de la gente adulta que lleva
+        a\xF1os practicando."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_1_0
+    - theList:
+      - say
+      - "\xBFPod\xEDa eso estar grabado en sus genes? \xBFEn la disposici\xF3n de
+        unos \xE1tomos en el espacio, en las uniones de unos \xE1tomos con otros?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_1_1
+    - theList:
+      - say
+      - "\xBFPuede estar grabada la intuici\xF3n que lleva a un m\xFAsico a saber
+        qu\xE9 notas van a sonar de manera armoniosa y mel\xF3dica, causando una emoci\xF3n
+        en la mente, y cu\xE1les no? \xBFPuede depender de una cadena de \xE1tomos
+        formando una estructura molecular el hecho de que pieza musical nos cause
+        alegr\xEDa o tristeza?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_1_2
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b000000
+  sayImages:
+  - {fileID: 21300000, guid: 005530a7504ab4c73a93dccacd870731, type: 3}
+  - {fileID: 21300000, guid: 1885c21143c9748b18bc3613d3c39f41, type: 3}
+  - {fileID: 21300000, guid: af24d1eee569e47d4ab8df6f17857de5, type: 3}
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 799
+  windowY: 719

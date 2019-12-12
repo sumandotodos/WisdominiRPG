@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &159632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 466606}
+  - component: {fileID: 11486804}
+  m_Layer: 0
+  m_Name: "3\xDF4Npcs-2"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &466606
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11486804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - "\xBFHola?"
+      - wait
+      - NPC1
+      - "Conv_3\xBA4Npcs_3\xBA4Npcs-2_0"
+    - theList:
+      - say
+      - "Hola. \xBFPuedes ayudarme? Trato de averiguar qu\xE9 nos hace \xFAnicos a
+        los humanos"
+      - wait
+      - Player
+      - "Conv_3\xBA4Npcs_3\xBA4Npcs-2_1"
+    - theList:
+      - say
+      - "hmmmm. Pues no s\xE9. Pero d\xE9jame pensar. Me ir\xE1 bien. \xDAltimamente
+        estoy obsesionada con 20 cosas a la vez"
+      - wait
+      - NPC1
+      - "Conv_3\xBA4Npcs_3\xBA4Npcs-2_2"
+    - theList:
+      - say
+      - "Me he vuelto una pesimista compulsiva, tengo la sensaci\xF3n de que todo
+        me va a ir mal. Y de hecho  solo pensar as\xED me hace pasarlo bastante mal"
+      - wait
+      - NPC1
+      - "Conv_3\xBA4Npcs_3\xBA4Npcs-2_3"
+    - theList:
+      - ask
+      - 2
+      - "Tratar de predecir el  futuro, es solo una p\xE9rdida de tiempo. Piensa m\xE1s
+        en los dem\xE1s y menos en ti misma"
+      - "Quiz\xE1 est\xE9s demasiado obsesionada con tus propios problemas. \xBFPor
+        qu\xE9 no te metes de voluntaria en alguna ONG? "
+      - "3\xBA4Npcs-2_0/0"
+      - "3\xBA4Npcs-2_0/0"
+      - "Conv_3\xBA4Npcs_3\xBA4Npcs-2_4"
+      - "Conv_3\xBA4Npcs_3\xBA4Npcs-2_5"
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - Is true
+      - "3\xBA4Npcs-2_1/0"
+      - "3\xBA4Npcs-2/2"
+      - Retrieve data
+      - Constant
+      - HasSpokenNpc32
+      - Boolean
+      - 
+    - theList:
+      - say
+      - "\xBFHola?"
+      - wait
+      - NPC1
+      - "Conv_N2_3\xBA4Npcs_3\xBA4Npcs-2_0"
+    - theList:
+      - say
+      - "Hola. \xBFPuedes ayudarme? Trato de averiguar qu\xE9 nos hace \xFAnicos a
+        los humanos"
+      - wait
+      - Player
+      - "Conv_N2_3\xBA4Npcs_3\xBA4Npcs-2_1"
+    - theList:
+      - say
+      - "hmmmm. Pues no s\xE9. Pero d\xE9jame pensar. Me ir\xE1 bien. \xDAltimamente
+        estoy obsesionada con 20 cosas a la vez"
+      - wait
+      - NPC1
+      - "Conv_N2_3\xBA4Npcs_3\xBA4Npcs-2_2"
+    - theList:
+      - say
+      - "Me he vuelto una pesimista compulsiva, tengo la sensaci\xF3n de que todo
+        me va a ir mal. Y de hecho  solo pensar as\xED me hace pasarlo bastante mal"
+      - wait
+      - NPC1
+      - "Conv_N2_3\xBA4Npcs_3\xBA4Npcs-2_3"
+    - theList:
+      - ask
+      - 2
+      - "Tratar de predecir el  futuro, es solo una p\xE9rdida de tiempo. Piensa m\xE1s
+        en los dem\xE1s y menos en ti misma"
+      - "Quiz\xE1 est\xE9s demasiado obsesionada con tus propios problemas. \xBFPor
+        qu\xE9 no te metes de voluntaria en alguna ONG? "
+      - "3\xBA4Npcs-2_0/0"
+      - "3\xBA4Npcs-2_0/0"
+      - "Conv_N2_3\xBA4Npcs_3\xBA4Npcs-2_4"
+      - "Conv_N2_3\xBA4Npcs_3\xBA4Npcs-2_5"
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 10000000150000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 23
+  windowY: 38
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 159632}
+  m_IsPrefabParent: 1

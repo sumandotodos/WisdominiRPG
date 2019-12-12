@@ -1,0 +1,788 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &141006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 486610}
+  - component: {fileID: 11427306}
+  m_Layer: 0
+  m_Name: GanarDinero_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &486610
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11427306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFQu\xE9 otro sentido puede tener la vida aparte de ganar dinero?\r"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_0
+    - theList:
+      - say
+      - "-Eso. \xBFEn qu\xE9 otra cosa mejor podr\xEDamos emplear el tiempo cuando
+        seamos mayores que sea mejor que seguir incrementando la fortuna familiar?"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_1
+    - theList:
+      - say
+      - -Yo creo que en nada
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_2
+    - theList:
+      - say
+      - "-A m\xED tampoco se me ocurre"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_3
+    - theList:
+      - say
+      - "\xBFDe verdad no se os ocurre nada?"
+      - wait
+      - Player
+      - Conv_Ricos_GanarDinero_2_4
+    - theList:
+      - say
+      - "-Bueno, quiz\xE1 pod\xEDamos dedicar parte de nuestro tiempo a devolver a
+        la sociedad parte de lo que \xE9sta nos ha dado. Por ejemplo empleado nuestro
+        dinero en crear fundaciones para dar acceso"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_5
+    - theList:
+      - say
+      - "a sanidad y educaci\xF3n a personas sin recursos, como han hecho por ejemplo
+        Bill Gates, Warren Buffet y otros muchos multimillonarios"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_6
+    - theList:
+      - say
+      - "-S\xED, bueno, eso s\xED. O tambi\xE9n podr\xEDamos dedicar un tiempo a replantearnos
+        las condiciones laborales de nuestros trabajadores. No exigirles trabajar
+        tantas horas por unos salarios tan bajos"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_7
+    - theList:
+      - say
+      - "-O ya puestos podr\xEDamos anteponer el respeto al medio ambiente a la obtenci\xF3n
+        de beneficios"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_8
+    - theList:
+      - say
+      - "-S\xED, s\xED, tambi\xE9n podr\xEDamos hacer eso, pero dime: \xBFen qu\xE9
+        nos beneficiaria a nosotros hacerlo?\r"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_9
+    - theList:
+      - say
+      - "-Eso. \xBFEn qu\xE9?"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_10
+    - theList:
+      - say
+      - -En nada
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_11
+    - theList:
+      - say
+      - "-Eso digo yo. En nada. Bueno, quiz\xE1 en una cosa solamente"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_12
+    - theList:
+      - say
+      - "-Bueno si decidimos ayudar a otras personas a ser m\xE1s felices, se me ocurre
+        que de tanto en tanto podr\xEDamos pararnos a pensar en esas personas. Entonces
+        nos dar\xEDamos cuenta de que es gracias a nosotros que "
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_13
+    - theList:
+      - say
+      - " esas personas son ahora m\xE1s felices. Y eso nos har\xEDa sentir felices
+        a nosotros, \xBFno crees?"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_14
+    - theList:
+      - say
+      - "-S\xED bueno, eso nos har\xEDa sentir bien, es verdad. Pero aparte de eso
+        no nos beneficiar\xEDa en nada m\xE1s"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_15
+    - theList:
+      - say
+      - "-No. En nada m\xE1s"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_16
+    - theList:
+      - say
+      - "-Bueno, quiz\xE1 en una cosa s\xED. Quiz\xE1 evitar\xEDa que tuvi\xE9ramos
+        remordimientos de tanto en tanto. Podr\xEDamos tratar de evitar los remordimientos
+        auto-justific\xE1ndonos, dici\xE9ndonos que si no lo hacemos"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_17
+    - theList:
+      - say
+      - "nosotros, lo har\xE1n otros, y cosas as\xED. Pero aun as\xED a veces los
+        remordimientos aparecer\xEDan y podr\xEDan hacer que no durmi\xE9ramos bien"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_18
+    - theList:
+      - say
+      - "-S\xED, vale, s\xE9 a lo que te refieres, creo que a mi padre le pasa a veces.
+        Pero aparte de sentirnos bien por ayudar a otros y de no tener remordimientos
+        que podr\xEDan hacernos sentir intranquilos"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_19
+    - theList:
+      - say
+      - "\xBFen qu\xE9 nos beneficiaria el pensar en algo m\xE1s que en ganar dinero
+        a toda costa?\r"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_20
+    - theList:
+      - say
+      - "-En nadaBueno, igual en una cosa s\xED"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_21
+    - theList:
+      - say
+      - "-\xBFEn qu\xE9?\r"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_22
+    - theList:
+      - say
+      - "-En que todas las personas a las que ayudar\xEDamos nos estar\xEDan sinceramente
+        agradecidas. No como todos esos pelotas que se nos pegan a todas horas. Ser\xEDa
+        un agradecimiento de coraz\xF3n"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_23
+    - theList:
+      - say
+      - "-S\xED, vale, pero aparte de sentirnos bien nosotros, de no tener remordimientos,
+        y de tener a un mont\xF3n de gente sintiendo un agradecimiento sincero hacia
+        nosotros"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_24
+    - theList:
+      - say
+      - "\xBFen qu\xE9 nos beneficiaria pensar en los dem\xE1s en lugar de pensar
+        solo en ganar dinero?\r"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_25
+    - theList:
+      - say
+      - "-En que dejar\xEDamos un recuerdo grato y un ejemplo a las generaciones venideras.
+        F\xEDjate en Oscar Schindler: emple\xF3 toda su fortuna para salvar a miles
+        de jud\xEDos de ser asesinados durante"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_26
+    - theList:
+      - say
+      - " la segunda guerra mundial hace m\xE1s de medio siglo y todav\xEDa se habla
+        de \xE9l"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_27
+    - theList:
+      - say
+      - "Bueno, s\xED, eso ser\xEDa bonito. Puede que incluso en el futuro alguien
+        hiciera una pel\xEDcula de nuestra vida para recordar nuestra labor. Aun as\xED
+        insisto: aparte de sentirnos bien nosotros, de no tener remordimientos"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_28
+    - theList:
+      - say
+      - "de tener a un mont\xF3n de gente sintiendo un agradecimiento sincero hacia
+        nosotros, y de pasar a la historia como un ejemplo para la humanidad"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_29
+    - theList:
+      - say
+      - "\xBFen qu\xE9 nos beneficiaria ayudar a la gente en lugar de pensar solo
+        en ganar dinero?"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_30
+    - theList:
+      - say
+      - -En nada
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_31
+    - theList:
+      - say
+      - -Pues a eso voy. En nada
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_32
+    - theList:
+      - say
+      - "-Bueno directamente a nosotros no. Pero quiz\xE1 lo que nosotros hici\xE9ramos
+        podr\xEDa servir de inspiraci\xF3n positiva para otros. Vamos que puede que
+        otros millonarios decidieran seguir nuestro ejemplo"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_33
+    - theList:
+      - say
+      - "Ser un buen ejemplo para los dem\xE1s es algo bonito"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_34
+    - theList:
+      - say
+      - "-Vale, ya. Quieres decir que igual que nosotros nos hemos fijado en Bill
+        Gates, habr\xEDa otros que se podr\xEDan fijar en nosotros. De acuerdo, s\xED.
+        Pero aparte de sentirnos bien nosotros, de no tener remordimientos"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_35
+    - theList:
+      - say
+      - "de tener a un mont\xF3n de gente sintiendo un agradecimiento sincero hacia
+        nosotros, de pasar a la historia, y de servir de inspiraci\xF3n para otros
+        \xBFen qu\xE9 nos beneficiaria ayudar a los dem\xE1s en lugar de pensar solo
+        en ganar dinero?\r"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_36
+    - theList:
+      - say
+      - -Absolutamente en nada
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_37
+    - theList:
+      - say
+      - "-Bueno quiz\xE1 en una cosa s\xED. En que le dar\xEDa un nuevo sentido a
+        nuestra vida"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_38
+    - theList:
+      - say
+      - -Te refieres a un sentido distinto del de ganar dinero
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_39
+      - Constant
+      - 
+      - 
+    - theList:
+      - say
+      - "-S\xED. Otra clase de sentido. M\xE1s profundo. Uno que nos llenar\xEDa de
+        verdad"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_40
+    - theList:
+      - say
+      - "Uno que en nuestro lecho de muerte nos har\xEDa sentir que hemos empleado
+        la vida de la mejor de las maneras posibles"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_41
+    - theList:
+      - say
+      - "-Bueno, no s\xE9. Podr\xEDa ser. Vale s\xED, seguramente. Pero a ver: aparte
+        de sentirnos bien nosotros, de no tener remordimientos, de tener a un mont\xF3n
+        de gente sintiendo un agradecimiento sincero hacia nosotros"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_42
+    - theList:
+      - say
+      - "de pasar a la historia, de servir de inspiraci\xF3n para otros, y de darle
+        sentido a nuestra vida \xBFen qu\xE9 nos beneficiaria ayudar a la gente en
+        lugar de pensar solo en ganar dinero?"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_43
+    - theList:
+      - say
+      - -En nada. Estamos de acuerdo
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_44
+    - theList:
+      - say
+      - -Absolutamente en nada
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_45
+    - theList:
+      - say
+      - -Pues eso
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_46
+    - theList:
+      - say
+      - "-Lo que yo dec\xEDa"
+      - wait
+      - NPC1
+      - Conv_Ricos_GanarDinero_2_47
+    - theList:
+      - unblockPlayerControls
+      - Integer
+      - 
+      - Add
+      - Constant
+      - 
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFQu\xE9 otro sentido puede tener la vida aparte de ganar dinero?\r"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_0
+    - theList:
+      - say
+      - "Eso. \xBFEn qu\xE9 otra cosa mejor podr\xEDamos emplear el tiempo cuando
+        seamos mayores que sea mejor que seguir incrementando la fortuna familiar?"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_1
+    - theList:
+      - say
+      - Yo creo que en nada
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_2
+    - theList:
+      - say
+      - "A m\xED tampoco se me ocurre"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_3
+    - theList:
+      - say
+      - "\xBFDe verdad no se os ocurre nada?"
+      - wait
+      - Player
+      - Conv_N3_Ricos_GanarDinero_2_4
+    - theList:
+      - say
+      - "Bueno, quiz\xE1 pod\xEDamos dedicar parte de nuestro tiempo a devolver a
+        la sociedad parte de lo que \xE9sta nos ha dado. Por ejemplo empleado nuestro
+        dinero en crear fundaciones para dar acceso"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_5
+    - theList:
+      - say
+      - "a sanidad y educaci\xF3n a personas sin recursos, como han hecho por ejemplo
+        Bill Gates, Warren Buffet y otros muchos multimillonarios"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_6
+    - theList:
+      - say
+      - "S\xED, bueno, eso s\xED. O tambi\xE9n podr\xEDamos dedicar un tiempo a replantearnos
+        las condiciones laborales de nuestros trabajadores. No exigirles trabajar
+        tantas horas por unos salarios tan bajos"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_7
+    - theList:
+      - say
+      - "O ya puestos podr\xEDamos anteponer el respeto al medio ambiente a la obtenci\xF3n
+        de beneficios"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_8
+    - theList:
+      - say
+      - "S\xED, s\xED, tambi\xE9n podr\xEDamos hacer eso, pero dime: \xBFen qu\xE9
+        nos beneficiaria a nosotros hacerlo?\r"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_9
+    - theList:
+      - say
+      - "Eso,\xBFEn qu\xE9?"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_10
+    - theList:
+      - say
+      - En nada
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_11
+    - theList:
+      - say
+      - "Eso digo yo. En nada. Bueno, quiz\xE1 en una cosa solamente"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_12
+    - theList:
+      - say
+      - "Bueno si decidimos ayudar a otras personas a ser m\xE1s felices, se me ocurre
+        que de tanto en tanto podr\xEDamos pararnos a pensar en esas personas. Entonces
+        nos dar\xEDamos cuenta de que es gracias a nosotros que "
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_13
+    - theList:
+      - say
+      - " esas personas son ahora m\xE1s felices. Y eso nos har\xEDa sentir felices
+        a nosotros, \xBFno crees?"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_14
+    - theList:
+      - say
+      - "S\xED bueno, eso nos har\xEDa sentir bien, es verdad. Pero aparte de eso
+        no nos beneficiar\xEDa en nada m\xE1s"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_15
+    - theList:
+      - say
+      - "No. En nada m\xE1s"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_16
+    - theList:
+      - say
+      - "Bueno, quiz\xE1 en una cosa s\xED. Quiz\xE1 evitar\xEDa que tuvi\xE9ramos
+        remordimientos de tanto en tanto. Podr\xEDamos tratar de evitar los remordimientos
+        auto-justific\xE1ndonos, dici\xE9ndonos que si no lo hacemos"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_17
+    - theList:
+      - say
+      - "nosotros, lo har\xE1n otros, y cosas as\xED. Pero aun as\xED a veces los
+        remordimientos aparecer\xEDan y podr\xEDan hacer que no durmi\xE9ramos bien"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_18
+    - theList:
+      - say
+      - "S\xED, vale, s\xE9 a lo que te refieres, creo que a mi padre le pasa a veces.
+        Pero aparte de sentirnos bien por ayudar a otros y de no tener remordimientos
+        que podr\xEDan hacernos sentir intranquilos"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_19
+    - theList:
+      - say
+      - "\xBFen qu\xE9 nos beneficiaria el pensar en algo m\xE1s que en ganar dinero
+        a toda costa?\r"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_20
+    - theList:
+      - say
+      - "En nada.Bueno, igual en una cosa s\xED"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_21
+    - theList:
+      - say
+      - "\xBFEn qu\xE9?\r"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_22
+    - theList:
+      - say
+      - "En que todas las personas a las que ayudar\xEDamos nos estar\xEDan sinceramente
+        agradecidas. No como todos esos pelotas que se nos pegan a todas horas. Ser\xEDa
+        un agradecimiento de coraz\xF3n"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_23
+    - theList:
+      - say
+      - "S\xED, vale, pero aparte de sentirnos bien nosotros, de no tener remordimientos,
+        y de tener a un mont\xF3n de gente sintiendo un agradecimiento sincero hacia
+        nosotros"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_24
+    - theList:
+      - say
+      - "\xBFen qu\xE9 nos beneficiaria pensar en los dem\xE1s en lugar de pensar
+        solo en ganar dinero?\r"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_25
+    - theList:
+      - say
+      - "En que dejar\xEDamos un recuerdo grato y un ejemplo a las generaciones venideras.
+        F\xEDjate en Oscar Schindler: emple\xF3 toda su fortuna para salvar a miles
+        de jud\xEDos de ser asesinados durante"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_26
+    - theList:
+      - say
+      - " la segunda guerra mundial hace m\xE1s de medio siglo y todav\xEDa se habla
+        de \xE9l"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_27
+    - theList:
+      - say
+      - "Bueno, s\xED, eso ser\xEDa bonito. Puede que incluso en el futuro alguien
+        hiciera una pel\xEDcula de nuestra vida para recordar nuestra labor. Aun as\xED
+        insisto: aparte de sentirnos bien nosotros, de no tener remordimientos"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_28
+    - theList:
+      - say
+      - "de tener a un mont\xF3n de gente sintiendo un agradecimiento sincero hacia
+        nosotros, y de pasar a la historia como un ejemplo para la humanidad"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_29
+    - theList:
+      - say
+      - "\xBFEn qu\xE9 nos beneficiaria ayudar a la gente en lugar de pensar solo
+        en ganar dinero?"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_30
+    - theList:
+      - say
+      - En nada
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_31
+    - theList:
+      - say
+      - Pues a eso voy. En nada
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_32
+    - theList:
+      - say
+      - "Bueno directamente a nosotros no. Pero quiz\xE1 lo que nosotros hici\xE9ramos
+        podr\xEDa servir de inspiraci\xF3n positiva para otros. Vamos que puede que
+        otros millonarios decidieran seguir nuestro ejemplo"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_33
+    - theList:
+      - say
+      - "Ser un buen ejemplo para los dem\xE1s es algo bonito"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_34
+    - theList:
+      - say
+      - "Vale, ya. Quieres decir que igual que nosotros nos hemos fijado en Bill Gates,
+        habr\xEDa otros que se podr\xEDan fijar en nosotros. De acuerdo, s\xED. Pero
+        aparte de sentirnos bien nosotros, de no tener remordimientos"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_35
+    - theList:
+      - say
+      - "de tener a un mont\xF3n de gente sintiendo un agradecimiento sincero hacia
+        nosotros, de pasar a la historia, y de servir de inspiraci\xF3n para otros
+        \xBFen qu\xE9 nos beneficiaria ayudar a los dem\xE1s en lugar de pensar solo
+        en ganar dinero?\r"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_36
+    - theList:
+      - say
+      - Absolutamente en nada
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_37
+    - theList:
+      - say
+      - "Bueno quiz\xE1 en una cosa s\xED. En que le dar\xEDa un nuevo sentido a nuestra
+        vida"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_38
+    - theList:
+      - say
+      - Te refieres a un sentido distinto del de ganar dinero
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_39
+      - Constant
+      - 
+      - 
+    - theList:
+      - say
+      - "S\xED. Otra clase de sentido. M\xE1s profundo. Uno que nos llenar\xEDa de
+        verdad"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_40
+    - theList:
+      - say
+      - "Uno que en nuestro lecho de muerte nos har\xEDa sentir que hemos empleado
+        la vida de la mejor de las maneras posibles"
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_41
+    - theList:
+      - say
+      - "Bueno, no s\xE9. Podr\xEDa ser. Vale s\xED, seguramente. Pero a ver: aparte
+        de sentirnos bien nosotros, de no tener remordimientos, de tener a un mont\xF3n
+        de gente sintiendo un agradecimiento sincero hacia nosotros"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_42
+    - theList:
+      - say
+      - "de pasar a la historia, de servir de inspiraci\xF3n para otros, y de darle
+        sentido a nuestra vida \xBFen qu\xE9 nos beneficiaria ayudar a la gente en
+        lugar de pensar solo en ganar dinero?"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_43
+    - theList:
+      - say
+      - En nada. Estamos de acuerdo
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_44
+    - theList:
+      - say
+      - Absolutamente en nada
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_45
+    - theList:
+      - say
+      - Pues eso
+      - wait
+      - NPC2
+      - Conv_N3_Ricos_GanarDinero_2_46
+    - theList:
+      - say
+      - "Lo que yo dec\xEDa"
+      - wait
+      - NPC1
+      - Conv_N3_Ricos_GanarDinero_2_47
+    - theList:
+      - unblockPlayerControls
+      - Integer
+      - 
+      - Add
+      - Constant
+      - 
+    - theList:
+      - clearDialogue
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000110000000f000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1245
+  windowY: -34
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 141006}
+  m_IsPrefabParent: 1

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1115540406603964}
+  m_IsPrefabParent: 1
+--- !u!1 &1115540406603964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4900964885424798}
+  - component: {fileID: 114108497649496504}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N2_0_MagoMorado_Base_1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4900964885424798
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1115540406603964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114108497649496504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1115540406603964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N2_0_MagoMorado_Base_1_
+  randomYield: 0
+  phrase:
+  - "Exacto. Y esa es la magia\r que conozco querido\r amigo, la magia del azar."
+  - "Todo lo que ves a tu\r alrededor, es producto\r de ese azar, de esa\r aleatoriedad.\r"
+  - "El mundo se ha formado\r a causa de una tremenda\r casualidad. Es fruto de un\r
+    accidente fortuito\r incre\xEDblemente raro. Y\r nosotros tambi\xE9n."
+  - "Por eso no tiene ning\xFAn\r sentido meditar acerca\r del porqu\xE9, y el c\xF3mo."
+  - "Hacerlo solo nos aparta\r de nuestro verdadero\r objetivo vital: la\r supervivencia."
+  - "La lucha por la vida.\r Sobrevivir a la ley de la\r jungla. El mundo se rige\r
+    por la ley del m\xE1s fuerte."
+  - "La magia que conozco es\r la magia de lo que\r podemos ver con\r nuestros propios
+    ojos, y\r tocar con nuestras\r propias manos."
+  - "Sin perdernos en\r invenciones ni en\r fantas\xEDas."
+  - "Amigo, \xBFme permites que\r te haga una \xFAltima\r pregunta?"
+  - "Un momento, no s\xE9 si comparto todo lo que est\xE1s diciendo... quiz\xE1 s\xED
+    que hay un sentido en que el mundo sea como es."
+  - Lo siento, no tengo tiempo.
+  - Claro, adelante.
+  correntAnswer: 

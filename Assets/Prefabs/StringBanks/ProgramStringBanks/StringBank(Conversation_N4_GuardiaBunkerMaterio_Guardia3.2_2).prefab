@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1410553243086106}
+  m_IsPrefabParent: 1
+--- !u!1 &1410553243086106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4343737479957712}
+  - component: {fileID: 114812576535802772}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_GuardiaBunkerMaterio_Guardia3.2_2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4343737479957712
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410553243086106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114812576535802772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410553243086106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_GuardiaBunkerMaterio_Guardia3.2_2_
+  randomYield: 0
+  phrase:
+  - "En definitiva, el primer ser humano naci\xF3 porque hubo una mutaci\xF3n en el
+    c\xF3digo gen\xE9tico de un primate. Y eso dio lugar a que su hijo tuviera exocerebro,
+    una capa adicional en la parte m\xE1s externa del cerebro, que es lo que nos hace
+    humanos"
+  - "Disculpe se\xF1or. Pero yo hay algo que sigo sin tener nada claro. D\xEDgame:
+    por qu\xE9 naci\xF3 esa monita antepasada nuestra madre del primer ser humano?"
+  - "Era hija de tus antepasados, pap\xE1-mono y mam\xE1-mona"
+  - "\xBFPor qu\xE9 nacieron mis antepasados pap\xE1-mono y mam\xE1-mona?"
+  - Eran hijos de tus antepasados abuelito-mono y abuelita mona
+  - "\xBFPor qu\xE9 nacieron mis antepasados abuelito-mono y abuelita mona?"
+  - Eran hijos de tus antepasados, bisabuelito mono y bisabuelita mona
+  - "\xBFPor qu\xE9 nacieron mis antepasados bisabuelito mono y bisabuelita mona?"
+  - "Porque eran hijos de tus antepasados t\xE1tara-abuelito mono y t\xE1tara-abuelita
+    mona"
+  - "\xBFPor qu\xE9 nacieron mis antepasados t\xE1tara-abuelito mono y t\xE1tara-abuelita
+    mona?"
+  - "Porque eran hijos de tus antepasados t\xE1tara- t\xE1tara-abuelito mono y t\xE1tara-
+    t\xE1tara-abuelita mona"
+  - "\xBFPor qu\xE9 nacieron mis antepasados t\xE1tara- t\xE1tara-abuelito mono y
+    t\xE1tara- t\xE1tara-abuelita mona?"
+  - "Porque eran hijos de tus antepasados t\xE1tara- t\xE1tara- t\xE1tara-abuelito
+    mono y t\xE1tara- t\xE1tara- t\xE1tara-abuelita mona"
+  - "\xBFPor qu\xE9 nacieron mis antepasados t\xE1tara- t\xE1tara- t\xE1tara-abuelito
+    mono y t\xE1tara- t\xE1tara- t\xE1tara-abuelita mona?"
+  - "Porque eran hijos de tus antepasados t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelito
+    mono y t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelita mona"
+  - "\xBFPor qu\xE9 nacieron mis antepasados t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelito
+    mono y t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelita mona?"
+  - "Porque eran hijos de tus antepasados t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-
+    t\xE1tara-abuelito mono y t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelita
+    mona"
+  - "\xBFPor qu\xE9 nacieron mis antepasados t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-
+    t\xE1tara-abuelito mono y t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelita
+    mona?"
+  - "Porque eran hijos de tus antepasados t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-
+    t\xE1tara- t\xE1tara-abuelito mono y t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-
+    t\xE1tara- t\xE1tara-abuelita mona"
+  - "\xBFPor qu\xE9 nacieron mis antepasados t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-
+    t\xE1tara- t\xE1tara-abuelito mono y t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-
+    t\xE1tara- t\xE1tara-abuelita mona?"
+  - "Porque eran hijos de tus antepasados t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-
+    t\xE1tara- t\xE1tara- t\xE1tara-abuelito mono y t\xE1tara- t\xE1tara- t\xE1tara-
+    t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelita mona"
+  - "\xBFPor qu\xE9 nacieron mis antepasados t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-
+    t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelito mono y t\xE1tara- t\xE1tara-
+    t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelita mona?"
+  - "Porque eran hijos de tus antepasados t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-
+    t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelito mono y t\xE1tara-
+    t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara- t\xE1tara-abuelita
+    mona"
+  - "Vale, bien pero \xBFpor qu\xE9 naci\xF3 el primer mono de la tierra?"
+  - "Un momento... no, no... a m\xED no me la vas a dar como a mi colega. Ese primer
+    mono naci\xF3 fruto de una mutaci\xF3n gen\xE9tica. Y antes de que me preguntes,
+    te respondo: \xE9l tambi\xE9n naci\xF3 porque tuvo unos padres, abuelos, bisabuelos...
+    que tambi\xE9n mutar\xEDan en alg\xFAn momento anterior de otro mam\xEDfero menos
+    evolucionado"
+  - "Humanos, primates, mam\xEDferos, aves, reptiles, musara\xF1as, anfibios, peces,
+    gusanos acu\xE1ticos, algas... todos fueron evolucionaron del mismo modo: a trav\xE9s
+    de mutaciones gen\xE9ticas"
+  - "Gracias por la explicaci\xF3n. Sin embargo sigue habiendo dos cosas que no tengo
+    claras:"
+  - "\xBFPor qu\xE9 naci\xF3 el primer ser vivo de la tierra?"
+  - "Y la segunda, \xBFpor qu\xE9 se dieron precisamente esas mutaciones y no otras
+    cualesquiera?"
+  correntAnswer: 

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1076997613525362}
+  m_IsPrefabParent: 1
+--- !u!1 &1076997613525362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4312313224589122}
+  - component: {fileID: 114030478815269738}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Siaomi_FerfuflosSiaomi_5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4312313224589122
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076997613525362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114030478815269738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076997613525362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Siaomi_FerfuflosSiaomi_5_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "En todos nosotros hay un lado sabio y uno ignorante. Luz y oscuridad. Blanco
+    y negro. Ying y yang. Y tambi\xE9n en los habitantes del norte est\xE1 este aspecto
+    de sabidur\xEDa, que encontrar\xE1s en las 16 reflexiones olvidadas. Se trata
+    de 16 reflexiones que se hallan ocultas dentro del inconsciente colectivo de sus
+    habitantes. Y solo hay un modo de acceder al mismo: hackeando su sistema inform\xE1tico.
+    La nube de datos que hay en la red se ha convertido en una clara expresi\xF3n
+    del inconsciente de la gente: p\xE1ginas web, documentos personales, redes sociales,
+    creaciones art\xEDsticas todo ello es la forma perfecta de conocer a las personas"
+  - "Y existe una manera de hackear el sistema: los dados de los ferfuflos. Son tres
+    dados cargados electromagn\xE9ticamente. Cada vez que los lances piratear\xE1s
+    el sistema y acceder\xE1s a una de las 16 reflexiones olvidadas. Las reflexiones
+    son una especie de petici\xF3n de ayuda para salir de la confusi\xF3n en la que
+    se hallan"
+  - "Podr\xE1s utilizar los dados con cualquier dispositivo digital que est\xE9 conectado
+    al sistema. Prueba con los televisores. Todos los ciudadanos ricos de esta isla
+    tienen uno de esos"
+  - "Y ah\xED entran en juego los ferfuflos, que te dar\xE1n la respuesta, pero cuidado,
+    los ferfuflos tambi\xE9n son una emanaci\xF3n de ese inconsciente colectivo, y
+    por tanto tienen tambi\xE9n su lado sabio y su lado ignorante. Est\xE1 en tus
+    manos identificar si cada una de las respuestas que te dar\xE1n va acompa\xF1ada
+    de sabidur\xEDa."
+  - "Si lo haces bien, completar\xE1s el c\xF3digo de las llaves blanca y negra que
+    voy a darte, y eso te permitir\xE1 acceder a la Torre de mando. Toma tambi\xE9n
+    uno de los tres dados, te har\xE1 falta."
+  - "Los otros dos dados, deber\xE1s localizarlos por tu cuenta. Hace mucho tiempo,
+    un ciudadano rico y engre\xEDdo vino a visitarme, y me pidi\xF3 los dados..."
+  - "En lugar de usarlos sabiamente, quiso utilizarlos para imponer la publicidad
+    de su tienda en todos los televisores de esta ciudad. Se los ped\xED de vuelta,
+    pero asegur\xF3 haber perdido dos de ellos"
+  - Recuerda, hacen falta los tres dados para hackear el sistema
+  - "\xA1Suerte!"
+  - "\xA1Has obtenido las llaves blanca y negra!"
+  - "\xA1Has obtenido un dado de los ferfuflos!"
+  correntAnswer: 

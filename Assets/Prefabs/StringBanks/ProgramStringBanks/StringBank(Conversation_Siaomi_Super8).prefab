@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1745882934918152}
+  m_IsPrefabParent: 1
+--- !u!1 &1745882934918152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4060549252893208}
+  - component: {fileID: 114549043219075892}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Siaomi_Super8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4060549252893208
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1745882934918152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114549043219075892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1745882934918152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Siaomi_Super8_
+  randomYield: 0
+  phrase:
+  - "Tus h\xE9roes son tu aspecto sabio y luminoso. Ellos te permiten enfrentarte
+    a las sombras del plano oscuro. Cada clase de h\xE9roe atesora la sabidur\xEDa
+    necesaria para enfrentarse a una determinada bandada de sombras."
+  - "En general las sombras en s\xED no son ni buenas ni malas: aparecen como consecuencia
+    de circunstancias que surgen inevitablemente en nuestras vidas. Esas circunstancias
+    no siempre son f\xE1ciles, pero la clave no es que sean f\xE1ciles o dif\xEDciles,
+    sino c\xF3mo reaccionemos ante ellas. Y eso es algo que depende exclusivamente
+    de nosotros."
+  - "Est\xE1 en nuestra mano enfrentarnos a las cirEst\xE1 en nuestra mano enfrentarnos
+    a las circunstancias de la vida con sabidur\xEDa o con ignorancia."
+  - "\xBFQu\xE9 tengo que hacer para enfrentarme a las circunstancias de la vida con
+    sabidur\xEDa?"
+  - "Dicho as\xED parece sencillo..."
+  correntAnswer: 

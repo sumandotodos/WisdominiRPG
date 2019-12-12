@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1465555286712842}
+  m_IsPrefabParent: 1
+--- !u!1 &1465555286712842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4482776919805350}
+  - component: {fileID: 114489954274606822}
+  m_Layer: 0
+  m_Name: Super6_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4482776919805350
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1465555286712842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114489954274606822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1465555286712842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Hay muchos m\xE9todos. Lo mejor es que vayas a un centro donde se practique
+        la meditaci\xF3n, con un buen maestro: sincero, humilde y buena persona."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super6_3_0
+    - theList:
+      - say
+      - "Para empezar a meditar simplemente has de sentarte en un coj\xEDn con las
+        piernas cruzadas en posici\xF3n de loto y la espalda bien recta, y poner tu
+        atenci\xF3n en la respiraci\xF3n o en tu cuerpo. Escucha el sonido que haces
+        al respirar o las sensaciones que sientes en el cuerpo: el contacto con el
+        coj\xEDn, el contacto de las manos apoyadas sobre la rodillas. Si el coj\xEDn
+        te resulta inc\xF3modo puedes usar tambi\xE9n una silla."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super6_3_1
+    - theList:
+      - say
+      - "Ten siempre presente que el estado natural de tu mente es un estado calmado
+        en el que la mente reposa en la paz y la espaciosidad. Desde luego aparecer\xE1n
+        los pensamientos y te distraer\xE1s, de hecho al principio pasa cada dos por
+        tres. No pasa nada: observa el pensamiento y d\xE9jalo ir sin m\xE1s: sin
+        analizar ni juzgar. Simplemente vuelve a la respiraci\xF3n o a las sensaciones."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super6_3_2
+    - theList:
+      - say
+      - "Haciendo esto llega un momento en que de manera natural te haces uno con
+        tu respiraci\xF3n: deja de haber un  yo  que est\xE1 meditando. Simplemente
+        eres las sensaciones que est\xE1s sintiendo en ese momento. Al principio lo
+        mejor es meditar varias veces al d\xEDa periodos cortos de tiempo, 5 minutos,
+        luego. Ponte el cron\xF3metro si te es m\xE1s c\xF3modo."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super6_3_3
+    - theList:
+      - say
+      - "Y s\xE9 creativo, como te dije hay muchos m\xE9todos para meditar: estate
+        atento a lo que va contigo y pract\xEDcalo. Y ten en cuenta de que adem\xE1s
+        de sentado en el coj\xEDn, puedes meditar tambi\xE9n mientras paseas por el
+        parque, mientras vas en metro, en la cola del s\xFAper... en cualquier momento
+        o lugar en el que decidas apartar tu mente de los pensamientos y llevarla
+        a la respiraci\xF3n y la espaciosidad."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super6_3_4
+    - theList:
+      - branchTo
+      - Super6_4/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Hay muchos m\xE9todos. Lo mejor es que vayas a un centro donde se practique
+        la meditaci\xF3n, con un buen maestro: sincero, humilde y buena persona."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super6_3_0
+    - theList:
+      - say
+      - "Para empezar a meditar simplemente has de sentarte en un coj\xEDn con las
+        piernas cruzadas en posici\xF3n de loto y la espalda bien recta, y poner tu
+        atenci\xF3n en la respiraci\xF3n o en tu cuerpo. Escucha el sonido que haces
+        al respirar o las sensaciones que sientes en el cuerpo: el contacto con el
+        coj\xEDn, el contacto de las manos apoyadas sobre la rodillas. Si el coj\xEDn
+        te resulta inc\xF3modo puedes usar tambi\xE9n una silla."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super6_3_1
+    - theList:
+      - say
+      - "Ten siempre presente que el estado natural de tu mente es un estado calmado
+        en el que la mente reposa en la paz y la espaciosidad. Desde luego aparecer\xE1n
+        los pensamientos y te distraer\xE1s, de hecho al principio pasa cada dos por
+        tres. No pasa nada: observa el pensamiento y d\xE9jalo ir sin m\xE1s: sin
+        analizar ni juzgar. Simplemente vuelve a la respiraci\xF3n o a las sensaciones."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super6_3_2
+    - theList:
+      - say
+      - "Haciendo esto llega un momento en que de manera natural te haces uno con
+        tu respiraci\xF3n: deja de haber un  yo  que est\xE1 meditando. Simplemente
+        eres las sensaciones que est\xE1s sintiendo en ese momento. Al principio lo
+        mejor es meditar varias veces al d\xEDa periodos cortos de tiempo, 5 minutos,
+        luego. Ponte el cron\xF3metro si te es m\xE1s c\xF3modo."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super6_3_3
+    - theList:
+      - say
+      - "Y s\xE9 creativo, como te dije hay muchos m\xE9todos para meditar: estate
+        atento a lo que va contigo y pract\xEDcalo. Y ten en cuenta de que adem\xE1s
+        de sentado en el coj\xEDn, puedes meditar tambi\xE9n mientras paseas por el
+        parque, mientras vas en metro, en la cola del s\xFAper... en cualquier momento
+        o lugar en el que decidas apartar tu mente de los pensamientos y llevarla
+        a la respiraci\xF3n y la espaciosidad."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super6_3_4
+    - theList:
+      - branchTo
+      - Super6_4/0
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 86
+  windowY: 767

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1857678470254006}
+  m_IsPrefabParent: 1
+--- !u!1 &1857678470254006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4851530279223136}
+  - component: {fileID: 114430480831468322}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N3_0_SabioCC_PostCC_0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4851530279223136
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1857678470254006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114430480831468322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1857678470254006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N3_0_SabioCC_PostCC_0_
+  randomYield: 0
+  phrase:
+  - "\xBFCu\xE1ndo acaban nuestros deseos? Nos compramos un m\xF3vil nuevo, y al cabo
+    de no mucho tiempo ya queremos uno mejor. O un coche, o una prenda de vestir,
+    o una casa, o lo que sea"
+  - "Dentro de la Mole hay un inmenso centro comercial repleto de objetos. Sus paredes
+    son opacas para que la gente no vea que ah\xED fuera hay un mundo precioso y alucinante"
+  - "Pero para poder apreciar ese mundo es necesario saber mirar. Y antes de poder
+    mirar fuera hay que saber mirar dentro de uno mismo. Esa es la manera de comprender
+    que en nuestro interior ya est\xE1 todo lo que necesitamos para ser felices"
+  - "Una amiga llamada Siaomi me habl\xF3 de la Torre de Mando, \xBFsabes qu\xE9 es?\r"
+  - Supongo que me hablas del palacio que hay encima de La Mole
+  - "Ah\xED viven los millonarios, los que toman las decisiones vamos... Pero no la
+    tomes con ellos"
+  - "Ellos no est\xE1n m\xE1s cegados por los velos de la ignorancia que muchos de
+    los que est\xE1n al sur o al norte del r\xEDo"
+  - "Mucha gente si estuviera en su posici\xF3n har\xEDa exactamente lo mismo que
+    hacen ellos"
+  - "Todo depende del grado de conciencia y sabidur\xEDa que acompa\xF1e a cada uno...\r"
+  - "\xBFC\xF3mo se accede a la Torre de Mando?\r"
+  - "Solo se puede acceder desde el interior de La Mole, siempre y cuando tengas la
+    llave electr\xF3nica correctamente codificada"
+  correntAnswer: 

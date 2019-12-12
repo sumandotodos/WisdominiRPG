@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &121388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 190186, guid: 234fa0be163164f92b996c0935066b38, type: 2}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 457090}
+  - component: {fileID: 11468168}
+  m_Layer: 0
+  m_Name: StringBank(CorridorLevel5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &457090
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 470588, guid: 234fa0be163164f92b996c0935066b38, type: 2}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.61206, y: 0.75922775, z: 21.22237}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11468168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 11442488, guid: 234fa0be163164f92b996c0935066b38,
+    type: 2}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: CorridorLevel5
+  randomYield: 0
+  phrase:
+  - "\xBFY aqu\xED qui\xE9n manda?"
+  - "\xBFQu\xE9 11 cosas de un hombre me ponen cachonda a la primera?"
+  - "\xBFPor qu\xE9 m\xE1s es menos?"
+  - "\xBFHasta qu\xE9 punto nos influyen las series de televisi\xF3n y las pel\xEDculas?"
+  - "\xBFPor qu\xE9 el expresidente de Uruguay, Enrique M\xFAjica, no es como los
+    dem\xE1s pol\xEDticos?"
+  - "\xBFQuieres conocer seis formas seguras de matar tu creatividad?"
+  - "\xBFY t\xFA, cu\xE1nto cuestas?"
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 121388}
+  m_IsPrefabParent: 1

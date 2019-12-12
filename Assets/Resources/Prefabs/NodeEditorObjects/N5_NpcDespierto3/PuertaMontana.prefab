@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &115464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 471288}
+  - component: {fileID: 11474506}
+  m_Layer: 0
+  m_Name: PuertaMontana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &471288
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115464}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11474506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - PuertaMontana_0/0
+      - PuertaMontana/2
+      - Retrieve data
+      - Constant
+      - HasSpokenDesierto5
+      - Boolean
+      - true
+      - Integer
+    - theList:
+      - say
+      - "Hola amigo, \xBFqu\xE9 buscas por aqu\xED?\r"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_0
+    - theList:
+      - say
+      - "\xBFSabes decirme d\xF3nde lleva la puerta oscura que hay en la monta\xF1a
+        que hay al norte?"
+      - wait
+      - Player
+      - Conv_N5_NpcDespierto3_PuertaMontana_1
+    - theList:
+      - say
+      - "Dicen que al atravesar esa puerta encontrar\xE1s el reflejo de tu mente.
+        Del mismo modo que el reflejo de tu mente es lo que te har\xE1 vivir una vida
+        triste o una vida feliz"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_2
+    - theList:
+      - say
+      - Pero solo veo oscuridad cuando atravieso esa puerta
+      - wait
+      - Player
+      - Conv_N5_NpcDespierto3_PuertaMontana_3
+    - theList:
+      - say
+      - "Quiz\xE1 la raz\xF3n sea que la escala de valores que has decidido hacer
+        tuya solo te puede conducir a la oscuridad, antes o despu\xE9s"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_4
+    - theList:
+      - say
+      - "Escucha: solo a trav\xE9s de una reflexi\xF3n calmada puedes decidir cu\xE1l
+        quieres que sea tu constituci\xF3n personal, tu propia escala de valores"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_5
+    - theList:
+      - say
+      - "Sin esa reflexi\xF3n inevitablemente aceptar\xE1s la escala que te venga
+        dada de fuera, la que sea aceptada por la mayor\xEDa"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_6
+    - theList:
+      - say
+      - "Y el que algo sea seguido por muchos no es ninguna garant\xEDa de que eso
+        sea lo mejor"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_7
+    - theList:
+      - say
+      - "\xBFY cu\xE1l es la escala de valores adecuada?\r"
+      - wait
+      - Player
+      - Conv_N5_NpcDespierto3_PuertaMontana_8
+    - theList:
+      - say
+      - "Yo solo s\xE9 que una escala de valores en donde impera la ignorancia inevitablemente
+        conducir\xE1 a luchas, desigualdades, oscuridad, y finalmente a la auto-destrucci\xF3n"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_9
+    - theList:
+      - say
+      - "Es inevitable. Pero nos corresponde a cada uno de nosotros diferenciar qu\xE9
+        es ignorancia y qu\xE9 es sabidur\xEDa"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_10
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenDesierto5
+      - true
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - PuertaMontana_0/0
+      - PuertaMontana/2
+      - Retrieve data
+      - Constant
+      - HasSpokenDesierto5
+      - Boolean
+      - true
+      - Integer
+    - theList:
+      - say
+      - "Hola amigo, \xBFqu\xE9 buscas por aqu\xED?\r"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_0
+    - theList:
+      - say
+      - "\xBFSabes decirme d\xF3nde lleva la puerta oscura que hay en la monta\xF1a
+        que hay al norte?"
+      - wait
+      - Player
+      - Conv_N5_NpcDespierto3_PuertaMontana_1
+    - theList:
+      - say
+      - "Dicen que al atravesar esa puerta encontrar\xE1s el reflejo de tu mente.
+        Del mismo modo que el reflejo de tu mente es lo que te har\xE1 vivir una vida
+        triste o una vida feliz"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_2
+    - theList:
+      - say
+      - Pero solo veo oscuridad cuando atravieso esa puerta
+      - wait
+      - Player
+      - Conv_N5_NpcDespierto3_PuertaMontana_3
+    - theList:
+      - say
+      - "Quiz\xE1 la raz\xF3n sea que la escala de valores que has decidido hacer
+        tuya solo te puede conducir a la oscuridad, antes o despu\xE9s"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_4
+    - theList:
+      - say
+      - "Escucha: solo a trav\xE9s de una reflexi\xF3n calmada puedes decidir cu\xE1l
+        quieres que sea tu constituci\xF3n personal, tu propia escala de valores"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_5
+    - theList:
+      - say
+      - "Sin esa reflexi\xF3n inevitablemente aceptar\xE1s la escala que te venga
+        dada de fuera, la que sea aceptada por la mayor\xEDa"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_6
+    - theList:
+      - say
+      - "Y el que algo sea seguido por muchos no es ninguna garant\xEDa de que eso
+        sea lo mejor"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_7
+    - theList:
+      - say
+      - "\xBFY cu\xE1l es la escala de valores adecuada?\r"
+      - wait
+      - Player
+      - Conv_N5_NpcDespierto3_PuertaMontana_8
+    - theList:
+      - say
+      - "Yo solo s\xE9 que una escala de valores en donde impera la ignorancia inevitablemente
+        conducir\xE1 a luchas, desigualdades, oscuridad, y finalmente a la auto-destrucci\xF3n"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_9
+    - theList:
+      - say
+      - "Es inevitable. Pero nos corresponde a cada uno de nosotros diferenciar qu\xE9
+        es ignorancia y qu\xE9 es sabidur\xEDa"
+      - wait
+      - NPC1
+      - Conv_N5_NpcDespierto3_PuertaMontana_10
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenDesierto5
+      - true
+    - theList:
+      - clearDialogue
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 10000000150000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000011000000180000000f000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 79
+  windowY: 42
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 115464}
+  m_IsPrefabParent: 1

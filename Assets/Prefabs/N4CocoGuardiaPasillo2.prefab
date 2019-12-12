@@ -1,0 +1,749 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1573928924633516}
+  m_IsPrefabParent: 1
+--- !u!1 &1320789261586864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4873770895168300}
+  - component: {fileID: 33462975064543650}
+  - component: {fileID: 64520103675542850}
+  - component: {fileID: 23796189221856978}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1573928924633516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4843073369958478}
+  - component: {fileID: 114181767472446736}
+  - component: {fileID: 65777773784877778}
+  m_Layer: 0
+  m_Name: N4CocoGuardiaPasillo2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4843073369958478
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573928924633516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -66.78, y: 125.61, z: -383.29}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4873770895168300}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4873770895168300
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1320789261586864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.37, z: 0}
+  m_LocalScale: {x: 1.9342905, y: 3.4857628, z: 1.6122477}
+  m_Children: []
+  m_Father: {fileID: 4843073369958478}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23796189221856978
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1320789261586864}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33462975064543650
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1320789261586864}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &64520103675542850
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1320789261586864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65777773784877778
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573928924633516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.51, y: 7.2, z: 1.56}
+  m_Center: {x: 4.08, y: 1.05, z: -0.43}
+--- !u!114 &114181767472446736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573928924633516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - rechazar
+      - probar
+      - Retrieve data
+      - Constant
+      - N4DuendeElegido
+      - Integer
+      - 0
+    - theList:
+      - makeLabel
+      - probar
+    - theList:
+      - say
+      - "\xBFEs est\xE1 la persona con la que puedo compartir mis puntos de vista?
+        A ver, duende, \xBFqu\xE9 te parece esto?"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_0
+    - theList:
+      - say
+      - Dios es todo amor misericordioso, ama a Dios por encima de todas las cosas.
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_1
+    - theList:
+      - if
+      - =
+      - duendeOK
+      - duendeNoOK
+      - Retrieve data
+      - Constant
+      - N4DuendeElegido
+      - Integer
+      - 1
+    - theList:
+      - makeLabel
+      - duendeOK
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+    - theList:
+      - makeLabel
+      - duendeNoOK
+    - theList:
+      - say
+      - "Mmm, lo siento, pero todav\xEDa no he reflexionado lo suficiente sobre esa
+        cuesti\xF3n. Si no se me requiere para otra cosa..."
+      - wait
+      - NPC2
+      - N4CocoGuardiaPasillo10_2
+    - theList:
+      - makeLabel
+      - rechazar
+    - theList:
+      - sendMessage
+      - Player
+      - idlePose
+    - theList:
+      - say
+      - "\xA1Eh! \xA1No puedes estar aqu\xED! \xA1Vete ahora mismo!"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_3
+    - theList:
+      - say
+      - "Adem\xE1s, me distraes, que aprovecho mi relajado turno para reflexionar
+        sobre cosas que t\xFA no podr\xEDas entender jam\xE1s."
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_4
+    - theList:
+      - say
+      - "Hoy llevo todo el d\xEDa pensando esto:"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_5
+    - theList:
+      - say
+      - '"Dios es todo amor misericordioso, ama a Dios por encima de todas las cosas"'
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_6
+    - theList:
+      - say
+      - "As\xED que d\xE9jame en paz, que tengo mucho que pensar. Si hubiera aqu\xED
+        alguien con quien discutir mis puntos de vista..."
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_7
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+    - theList:
+      - startAction
+      - Player
+      - autopilotToRelative
+      - blocking
+      - 0
+      - 0
+      - -2
+    - theList:
+      - storeData
+      - Boolean
+      - N4DuendesConvTipo2
+      - true
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - if
+      - =
+      - fin
+      - detener
+      - Retrieve data
+      - Constant
+      - N4Guardia1Clear
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - detener
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - rechazar
+      - probar
+      - Retrieve data
+      - Constant
+      - N4DuendeElegido
+      - Integer
+      - 0
+    - theList:
+      - makeLabel
+      - probar
+    - theList:
+      - say
+      - "\xBFEs est\xE1 la persona con la que puedo compartir mis puntos de vista?
+        A ver, duende, \xBFqu\xE9 te parece esto?"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_0
+    - theList:
+      - say
+      - "Dios te ha creado. Est\xE1s vivo gracias a Dios. \xA1Alaba a Dios Todopoderoso
+        y dale gracias por existir!"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_1
+    - theList:
+      - if
+      - =
+      - duendeOK
+      - duendeNoOK
+      - Retrieve data
+      - Constant
+      - N4DuendeElegido
+      - Integer
+      - 1
+    - theList:
+      - makeLabel
+      - duendeOK
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+    - theList:
+      - say
+      - "Un momento, yo tengo una duda. Le cuento: si yo creo algo y si eso que yo
+        he creado es solamente creaci\xF3n m\xEDa, entonces mi creaci\xF3n har\xE1
+        l\xF3gicamente todo aquello, y solo aquello para lo que yo la dise\xF1\xE9"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_2
+    - theList:
+      - say
+      - "Ser\xEDa algo as\xED como si hubiera creado un robot, ensamblando todas sus
+        piezas y lo hubiera programado para que act\xFAe de una determinada manera.
+        En ese caso el robot obviamente no ser\xEDa libre, \xBFcierto?\r"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_3
+    - theList:
+      - say
+      - "Y si aceptamos que dios ha creado al hombre, estamos en las mismas. El hombre
+        no puede ser libre si es una creaci\xF3n de un dios superior"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_4
+    - theList:
+      - say
+      - "Dios nos ha creado, pero nos ha creado libres. \xBFResponde eso a tu duda?\r"
+      - wait
+      - NPC2
+      - N4CocoGuardiaPasillo20_5
+    - theList:
+      - say
+      - "La verdad es que no, porque para el hombre su libertad es su cualidad fundamental.
+        Su libertad es su inteligencia, su capacidad de decidir, de aprender, de sentir
+        y de evolucionar como persona. Si es libre no puede ser una creaci\xF3n de
+        un ser divino, m\xE1s bien ser\xEDa parte de ese ser divino y la esencia de
+        ambos ser\xEDa la misma, una sola. En definitiva ser\xEDa lo mismo, solo que
+        temporalmente, separado. Y esa separaci\xF3n lo que le dar\xEDa es todo un
+        camino por recorrer y una sabidur\xEDa que adquirir para interiorizar esto
+        de verdad"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_6
+    - theList:
+      - say
+      - "hmmmm\r"
+      - wait
+      - NPC2
+      - N4CocoGuardiaPasillo20_7
+    - theList:
+      - say
+      - "Yo no s\xE9 si te sigo, duende"
+      - wait
+      - Player
+      - N4CocoGuardiaPasillo20_8
+    - theList:
+      - say
+      - "Se trata de lo siguiente: yo puedo crear un robot, y si le dedico mucho tiempo
+        y esfuerzo, ese robot podr\xE1 hacer muchas cosas, incluso ser casi igual
+        que un humano. Pero nunca ser\xE1 igual en lo fundamental, \xBFpor qu\xE9?
+        Porque nunca dejar\xE1 de ser un conjunto de chips, pl\xE1stico barato, y
+        cableado"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_9
+    - theList:
+      - say
+      - "Nunca sentir\xE1 nada, como s\xED lo podemos sentir t\xFA o yo. Puedo programarle
+        para que parezca que siente, pero en verdad la experiencia de sentir no tendr\xE1
+        lugar en ning\xFAn momento. El robot no sentir\xE1 emociones como la tristeza,
+        el amor, el enfado, ni cualquier otra. Tampoco percibir\xE1 sensaciones como
+        fr\xEDo o calor, dulce o salado. Puedo ponerle un term\xF3metro que mande
+        una se\xF1al a su procesador, y hacer que hable diciendo \u201Cqu\xE9 calor
+        hace\u201D, pero nunca nada en \xE9l experimentar\xE1 la sensaci\xF3n del
+        calor. Y cosas que el robot tampoco vivir\xE1 nunca es tener pensamientos,
+        escuchar m\xFAsica, o tomar cualquier decisi\xF3n fuera del c\xF3digo que
+        ha sido programado por m\xED. Es decir, no ser\xE1 libre"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_10
+    - theList:
+      - say
+      - "\xBFy qu\xE9 tiene que ver este ejemplo que has puesto de construir un robot,
+        con dios y nosotros?\r"
+      - wait
+      - Player
+      - N4CocoGuardiaPasillo20_11
+    - theList:
+      - say
+      - "Que si dios nos ha creado de la nada y como seres separados de \xE9l, entonces
+        nosotros ser\xEDamos como robots, es decir, no ser\xEDamos libres. En cambio
+        s\xED que sentimos que somos libres, y eso solo es posible si somos parte
+        de la esencia de ese dios, al que tambi\xE9n podr\xEDamos llamar divinidad,
+        o simplemente mente"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_12
+    - theList:
+      - say
+      - "\xBFdices que el robot no podr\xE1 percibir ninguna sensaci\xF3n?"
+      - wait
+      - Player
+      - N4CocoGuardiaPasillo20_13
+    - theList:
+      - say
+      - "No. El hecho de experimentar cualquier cosa es algo puramente mental. Te
+        pondr\xE9 un ejemplo: \xBFc\xF3mo sabe el chocolate? Mejor dicho, no me lo
+        digas, trata de recordar la \xFAltima vez que te tomaste algo de chocolate
+        y recuerda las sensaciones que sentiste. No me las describas, porque si lo
+        haces solo me estar\xE1s dando palabras, es decir conceptos. Y eso tambi\xE9n
+        lo puede hacer un robot convenientemente programado. Pero lo que sentiste
+        cuando paladeaste el chocolate, eso es algo que ning\xFAn robot del mundo
+        puede sentir"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_14
+    - theList:
+      - sendMessage
+      - DuendeController
+      - stopFollowingPlayer
+      - 
+      - 
+    - theList:
+      - storeData
+      - Boolean
+      - N4Guardia1Clear
+      - true
+    - theList:
+      - storeData
+      - Integer
+      - N4DuendeElegido
+      - 0
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - duendeNoOK
+    - theList:
+      - say
+      - "Mmm, lo siento, pero todav\xEDa no he reflexionado lo suficiente sobre esa
+        cuesti\xF3n. Si no se me requiere para otra cosa..."
+      - wait
+      - NPC2
+      - N4CocoGuardiaPasillo20_15
+    - theList:
+      - clearDialogue
+    - theList:
+      - sendMessage
+      - DuendeController
+      - walkToRelative
+      - 0
+      - -8
+    - theList:
+      - delay
+      - 2
+    - theList:
+      - sendMessage
+      - DuendeController
+      - hide
+    - theList:
+      - sendMessage
+      - DuendeController
+      - stopFollowingPlayer
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - startAction
+      - Player
+      - autopilotToRelative
+      - blocking
+      - 0
+      - 0
+      - -2
+    - theList:
+      - storeData
+      - Integer
+      - N4DuendeElegido
+      - 0
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - rechazar
+    - theList:
+      - sendMessage
+      - Player
+      - idlePose
+    - theList:
+      - say
+      - "\xA1Eh! \xA1No puedes estar aqu\xED! \xA1Vete ahora mismo!"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_16
+    - theList:
+      - say
+      - "Adem\xE1s, me distraes, que aprovecho mi relajado turno para reflexionar
+        sobre cosas que t\xFA no podr\xEDas entender jam\xE1s."
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_17
+    - theList:
+      - say
+      - "Hoy llevo todo el d\xEDa pensando esto:"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_18
+    - theList:
+      - say
+      - "\"Dios te ha creado. Est\xE1s vivo gracias a Dios. \xA1Alaba a Dios Todopoderoso
+        y dale gracias por existir!\""
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_19
+    - theList:
+      - say
+      - "As\xED que d\xE9jame en paz, que tengo mucho que pensar. Si hubiera aqu\xED
+        alguien con quien discutir mis puntos de vista..."
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo20_20
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+    - theList:
+      - startAction
+      - Player
+      - autopilotToRelative
+      - blocking
+      - 0
+      - 0
+      - -2
+    - theList:
+      - storeData
+      - Boolean
+      - N4DuendesConvTipo2
+      - true
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  eventNamesInOrder:
+  - onOverlap
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  cameraPivot: {fileID: 0}
+  spriteHolder: {fileID: 1320789261586864}
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  IdleAnimationSpeed: 1
+  WalkingFront:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  - {fileID: 2800000, guid: 1f441e9489b1a41e6813331df137080a, type: 3}
+  - {fileID: 2800000, guid: fcf1cad64359746358ee716b51e05c1a, type: 3}
+  - {fileID: 2800000, guid: 88613fdb7c8d24db7a24a5c1838f4fe8, type: 3}
+  - {fileID: 2800000, guid: 9eddf8e88013c41e49e633edb1617e9b, type: 3}
+  - {fileID: 2800000, guid: 7c747dc641a604641a458241d36e3f38, type: 3}
+  - {fileID: 2800000, guid: 146be7ad69a2b491f8ff4a1ac7a91e95, type: 3}
+  - {fileID: 2800000, guid: 9eeab47553f954477b9cfcd39507a39a, type: 3}
+  - {fileID: 2800000, guid: 1fe77ad4fa4874a5b930e369fc4e8568, type: 3}
+  - {fileID: 2800000, guid: 9f8716b9cfc0842478c38d9f7e06fb41, type: 3}
+  WalkingFrontLeft:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  - {fileID: 2800000, guid: bf466798283864b81998b053308d47cf, type: 3}
+  - {fileID: 2800000, guid: dc33e1afb458541f8947d736f16f7f1f, type: 3}
+  - {fileID: 2800000, guid: a1d81058977324ae5ae0b4004752519a, type: 3}
+  - {fileID: 2800000, guid: 159696f81fcdf44aaa463d951f6b24b1, type: 3}
+  - {fileID: 2800000, guid: 81b0f65657e994662a24afff1470f5ac, type: 3}
+  - {fileID: 2800000, guid: 8b6ceeb9281a44520b9b3bdae27efb01, type: 3}
+  - {fileID: 2800000, guid: 3efcc624274e04c9ca235978215b6f3c, type: 3}
+  - {fileID: 2800000, guid: 75bed8a127623401fa94f188085374d7, type: 3}
+  - {fileID: 2800000, guid: c4da358e991054f178dfc97f71a19aab, type: 3}
+  WalkingLeft:
+  - {fileID: 2800000, guid: 3c187819f1c5b447cbdfd198e574f25c, type: 3}
+  - {fileID: 2800000, guid: 16d174b05240a4441a3b2a7fd929405d, type: 3}
+  - {fileID: 2800000, guid: eb4b18f92b1674e15a571c9576f7013b, type: 3}
+  - {fileID: 2800000, guid: 98669e13c442447ecbc1f1a71fed025c, type: 3}
+  - {fileID: 2800000, guid: 41112a6d857c643118eca4896bcc1c6a, type: 3}
+  - {fileID: 2800000, guid: 301543f3f4829485b8b78d91bc4328be, type: 3}
+  - {fileID: 2800000, guid: db31913d0af204010acaf4d5b29fb377, type: 3}
+  - {fileID: 2800000, guid: 2abaea2983ad14a3b88d5528a581b422, type: 3}
+  - {fileID: 2800000, guid: fd9b70367167d4d52b07efad941cf039, type: 3}
+  - {fileID: 2800000, guid: fe00a7659e08a4d318a0f90f656ae75d, type: 3}
+  WalkingLeftBack:
+  - {fileID: 2800000, guid: 3c187819f1c5b447cbdfd198e574f25c, type: 3}
+  - {fileID: 2800000, guid: 7be1194daf146400c9fe0757ade5892f, type: 3}
+  - {fileID: 2800000, guid: 9a29d340df51d4a238be3289a9e368fa, type: 3}
+  - {fileID: 2800000, guid: 623d04957a0474131959a7e1ea3b8146, type: 3}
+  - {fileID: 2800000, guid: 37c1b387815ec43e6a78a8bd04f33210, type: 3}
+  - {fileID: 2800000, guid: 37668ac33946d4ce39ed543d92dc455c, type: 3}
+  - {fileID: 2800000, guid: 96bde184076414e6fb61b4a9fc30fa69, type: 3}
+  - {fileID: 2800000, guid: 658bd17dc525e4afb926a97f9bfa22e5, type: 3}
+  - {fileID: 2800000, guid: c0339795cf3d54827b67e6274e34c832, type: 3}
+  - {fileID: 2800000, guid: c8bd1226560a342368bfecb374bdbe5f, type: 3}
+  WalkingBack:
+  - {fileID: 2800000, guid: ad24949eab35d49da80a0e5ca4681801, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingBackRight:
+  - {fileID: 2800000, guid: ad24949eab35d49da80a0e5ca4681801, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingRight:
+  - {fileID: 2800000, guid: 70a6b6d0c0001421990419796aa24b85, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingRightFront:
+  - {fileID: 2800000, guid: 70a6b6d0c0001421990419796aa24b85, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  NextProgram: []
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 04000000
+  action:
+  - theList: 15000000130000001000000015000000130000000b0000000b00000015000000130000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000002000000180000001800000014000000130000000b0000000f000000020000000400000002000000020000001100000003000000180000001400000013000000020000000b0000000b0000000b0000000b0000000b000000110000000f000000030000001800000013000000110000000f000000
+  animationSpeed: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: 
+  followDistance: 4

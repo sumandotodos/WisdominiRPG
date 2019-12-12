@@ -1,0 +1,315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1305689620499976}
+  m_IsPrefabParent: 1
+--- !u!1 &1305689620499976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4721236211716850}
+  - component: {fileID: 114046211016148452}
+  m_Layer: 0
+  m_Name: Base_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4721236211716850
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1305689620499976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114046211016148452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1305689620499976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Ah\xE1, de manera que eso es el tiempo para ti. Interesante, de todos modos
+        yo no estoy aqu\xED para valorar tu definici\xF3n, sino para contarte la magia
+        que conozco."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_0
+    - theList:
+      - say
+      - "Y esa magia es que al contrario de lo que gente suele creer, el tiempo no
+        es algo fijo y constante.\r"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_1
+    - theList:
+      - say
+      - Y esa magia es que al contrario de lo que gente suele creer, el tiempo no
+        es algo fijo y constante.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_2
+    - theList:
+      - say
+      - "De este modo, si el\r tiempo para m\xED\r transcurre m\xE1s r\xE1pido que
+        para ti, yo envejecer\xE9 antes que tu"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_3
+    - theList:
+      - say
+      - "Si transcurre m\xE1s r\xE1pido para ti que para m\xED, ser\xE1s t\xFA quien
+        envejezca antes"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_4
+    - theList:
+      - say
+      - "Sin embargo ninguno de los dos nos daremos cuenta de ello. No percibiremos
+        que el tiempo pasa a c\xE1mara r\xE1pida ni a c\xE1mara lenta Por el contrario
+        viviremos como si tal cosa, como lo hemos hecho siempre, y experimentaremos
+        las cosas igual que siempre."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_5
+    - theList:
+      - say
+      - "La sorpresa vendr\xE1 cuando nos reencontremos, porque si nos separamos cuando
+        ambos ten\xEDamos por ejemplo 10 a\xF1os, y nos reencontramos m\xE1s adelante,
+        puede que en el reencuentro yo tenga 30 a\xF1os y en cambio tu tengas solo
+        12. \xA1Para m\xED habr\xE1n pasado 20 a\xF1os y para ti solamente 2!"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_6
+    - theList:
+      - say
+      - "Ser\xEDa como si ese tiempo hubi\xE9ramos vivido en planos paralelos, pero
+        lo \xFAnico que ha sucedido es que hemos estado en lugares diferentes y movi\xE9ndonos
+        a velocidades diferentes."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_7
+    - theList:
+      - say
+      - "Creemos que el tiempo transcurre igual para todos, y en todas las circunstancias,
+        pero la magia que conozco dice todo lo contrario.Si solo piensas en esto a
+        nivel intelectual, quiz\xE1 mi magia no te diga mucho, pero si meditas sobre
+        ello en mayor profundidad, te aseguro que te sorprender\xE1s..."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_8
+    - theList:
+      - say
+      - "Eso es todo. Y ahora antes de ganarte la llave que has venido a buscar deber\xE1s
+        responderme a una pregunta que voy a hacerte:"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_9
+    - theList:
+      - say
+      - "Si la magia que conozco fuera verdadera y el tiempo no fuera algo fijo, absoluto
+        e inmutable, \xBFqu\xE9 significar\xEDa eso para ti?"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_10
+    - theList:
+      - ask
+      - 5
+      - "Necesitar\xEDa meditar sobre ello antes de darte una respuesta"
+      - 'No tengo ni idea. Esa pregunta me supera '
+      - 'Tu magia no puede ser verdadera porque el tiempo transcurre siempre a la
+        misma velocidad para todo el mundo. '
+      - "Que quiz\xE1 la realidad no sea algo tan real como hemos pensado siempre. "
+      - "Que habr\xEDa un nicho de mercado para s\xFAper- millonarios dispuestos a
+        lo que sea para posponer su muerte. "
+      - Base_3/0
+      - Base_4/0
+      - Base_5/0
+      - Base_6/0
+      - Base_7/0
+      - Conv_N2_0_MagoAmarillo_Base_2_11
+      - Conv_N2_0_MagoAmarillo_Base_2_12
+      - Conv_N2_0_MagoAmarillo_Base_2_13
+      - Conv_N2_0_MagoAmarillo_Base_2_14
+      - Conv_N2_0_MagoAmarillo_Base_2_15
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Ah\xE1, de manera que eso es el tiempo para ti. Interesante, de todos modos
+        yo no estoy aqu\xED para valorar tu definici\xF3n, sino para contarte la magia
+        que conozco."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_0
+    - theList:
+      - say
+      - "Y esa magia es que al contrario de lo que gente suele creer, el tiempo no
+        es algo fijo y constante.\r"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_1
+    - theList:
+      - say
+      - Y esa magia es que al contrario de lo que gente suele creer, el tiempo no
+        es algo fijo y constante.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_2
+    - theList:
+      - say
+      - "De este modo, si el\r tiempo para m\xED\r transcurre m\xE1s r\xE1pido que
+        para ti, yo envejecer\xE9 antes que tu"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_3
+    - theList:
+      - say
+      - "Si transcurre m\xE1s r\xE1pido para ti que para m\xED, ser\xE1s t\xFA quien
+        envejezca antes"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_4
+    - theList:
+      - say
+      - "Sin embargo ninguno de los dos nos daremos cuenta de ello. No percibiremos
+        que el tiempo pasa a c\xE1mara r\xE1pida ni a c\xE1mara lenta Por el contrario
+        viviremos como si tal cosa, como lo hemos hecho siempre, y experimentaremos
+        las cosas igual que siempre."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_5
+    - theList:
+      - say
+      - "La sorpresa vendr\xE1 cuando nos reencontremos, porque si nos separamos cuando
+        ambos ten\xEDamos por ejemplo 10 a\xF1os, y nos reencontramos m\xE1s adelante,
+        puede que en el reencuentro yo tenga 30 a\xF1os y en cambio tu tengas solo
+        12. \xA1Para m\xED habr\xE1n pasado 20 a\xF1os y para ti solamente 2!"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_6
+    - theList:
+      - say
+      - "Ser\xEDa como si ese tiempo hubi\xE9ramos vivido en planos paralelos, pero
+        lo \xFAnico que ha sucedido es que hemos estado en lugares diferentes y movi\xE9ndonos
+        a velocidades diferentes."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_7
+    - theList:
+      - say
+      - "Creemos que el tiempo transcurre igual para todos, y en todas las circunstancias,
+        pero la magia que conozco dice todo lo contrario.Si solo piensas en esto a
+        nivel intelectual, quiz\xE1 mi magia no te diga mucho, pero si meditas sobre
+        ello en mayor profundidad, te aseguro que te sorprender\xE1s..."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_8
+    - theList:
+      - say
+      - "Eso es todo. Y ahora antes de ganarte la llave que has venido a buscar deber\xE1s
+        responderme a una pregunta que voy a hacerte:"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_9
+    - theList:
+      - say
+      - "Si la magia que conozco fuera verdadera y el tiempo no fuera algo fijo, absoluto
+        e inmutable, \xBFqu\xE9 significar\xEDa eso para ti?"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAmarillo_Base_2_10
+    - theList:
+      - ask
+      - 5
+      - "Necesitar\xEDa meditar sobre ello antes de darte una respuesta"
+      - 'No tengo ni idea. Esa pregunta me supera '
+      - 'Tu magia no puede ser verdadera porque el tiempo transcurre siempre a la
+        misma velocidad para todo el mundo. '
+      - "Que quiz\xE1 la realidad no sea algo tan real como hemos pensado siempre. "
+      - "Que habr\xEDa un nicho de mercado para s\xFAper- millonarios dispuestos a
+        lo que sea para posponer su muerte. "
+      - Base_3/0
+      - Base_4/0
+      - Base_5/0
+      - Base_6/0
+      - Base_7/0
+      - Conv_N2_0_MagoAmarillo_Base_2_11
+      - Conv_N2_0_MagoAmarillo_Base_2_12
+      - Conv_N2_0_MagoAmarillo_Base_2_13
+      - Conv_N2_0_MagoAmarillo_Base_2_14
+      - Conv_N2_0_MagoAmarillo_Base_2_15
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1044
+  windowY: 9

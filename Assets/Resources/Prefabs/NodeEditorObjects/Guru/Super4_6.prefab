@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &123960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 491178}
+  - component: {fileID: 11489608}
+  m_Layer: 0
+  m_Name: Super4_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &491178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11489608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFQu\xE9 te hace pensar que podemos aprender matem\xE1ticas, jardiner\xEDa
+        o a pilotar un avi\xF3n, pero que no podemos aprender a manejarnos a nosotros
+        mismos para que las emociones negativas no duren m\xE1s all\xE1 de lo necesario,
+        y para fomentar las emociones positivas que nos hacen estar alegres, en calma
+        y en paz?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_6_0
+    - theList:
+      - say
+      - Los seres humanos somos seres emocionales. Las emociones son parte de nuestro
+        ser.
+      - wait
+      - Player
+      - Conv_Guru_Super4_6_1
+    - theList:
+      - say
+      - "Claro que lo son. El problema es que dejamos que los gu\xEDas de nuestras
+        emociones no sean los m\xE1s adecuados. Tendemos a tomar el camino f\xE1cil."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_6_2
+    - theList:
+      - say
+      - "Que no es investigar lo que dicen los sabios o los cient\xEDficos, sino dejarnos
+        guiar por la que dicta la publicidad, la televisi\xF3n, o las personas que
+        ya han interiorizado inconscientemente lo que dice la publicidad y la televisi\xF3n."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_6_3
+    - theList:
+      - say
+      - "Este dictado nos cuenta que encontraremos la felicidad en objetos externos.
+        Y en parte es verdad: esos objetos producen una cierta satisfacci\xF3n, \xBFpero
+        es eso lo que buscamos?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_6_4
+    - theList:
+      - say
+      - "\xBFEs esa la felicidad a la que aspiramos? \xBFcu\xE1nto dura? \xBFnos quedamos
+        satisfechos de verdad cuando conseguimos el objeto que sea, o por el contrario
+        al poco tiempo queremos m\xE1s porque nos hemos quedado igual de vac\xEDos
+        que est\xE1bamos antes?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_6_5
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFQu\xE9 te hace pensar que podemos aprender matem\xE1ticas, jardiner\xEDa
+        o a pilotar un avi\xF3n, pero que no podemos aprender a manejarnos a nosotros
+        mismos para que las emociones negativas no duren m\xE1s all\xE1 de lo necesario,
+        y para fomentar las emociones positivas que nos hacen estar alegres, en calma
+        y en paz?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_6_0
+    - theList:
+      - say
+      - Los seres humanos somos seres emocionales. Las emociones son parte de nuestro
+        ser.
+      - wait
+      - Player
+      - Conv_Guru_Super4_6_1
+    - theList:
+      - say
+      - "Claro que lo son. El problema es que dejamos que los gu\xEDas de nuestras
+        emociones no sean los m\xE1s adecuados. Tendemos a tomar el camino f\xE1cil."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_6_2
+    - theList:
+      - say
+      - "Que no es investigar lo que dicen los sabios o los cient\xEDficos, sino dejarnos
+        guiar por la que dicta la publicidad, la televisi\xF3n, o las personas que
+        ya han interiorizado inconscientemente lo que dice la publicidad y la televisi\xF3n."
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_6_3
+    - theList:
+      - say
+      - "Este dictado nos cuenta que encontraremos la felicidad en objetos externos.
+        Y en parte es verdad: esos objetos producen una cierta satisfacci\xF3n, \xBFpero
+        es eso lo que buscamos?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_6_4
+    - theList:
+      - say
+      - "\xBFEs esa la felicidad a la que aspiramos? \xBFcu\xE1nto dura? \xBFnos quedamos
+        satisfechos de verdad cuando conseguimos el objeto que sea, o por el contrario
+        al poco tiempo queremos m\xE1s porque nos hemos quedado igual de vac\xEDos
+        que est\xE1bamos antes?"
+      - wait
+      - NPC1
+      - Conv_Guru_Super4_6_5
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000f00000011000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 914
+  windowY: 2263

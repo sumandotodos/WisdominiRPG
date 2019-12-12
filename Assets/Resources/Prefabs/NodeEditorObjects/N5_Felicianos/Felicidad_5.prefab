@@ -1,0 +1,666 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &193646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 440502}
+  - component: {fileID: 11400742}
+  m_Layer: 0
+  m_Name: Felicidad_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440502
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11400742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - 'Reflexiona sobre ello: uno puede ser rico y sin embargo ser profundamente
+        infeliz'
+      - don't wait
+      - 
+      - Conv_N5_Felicianos_Felicidad_5_0
+    - theList:
+      - say
+      - "El dinero y las posesiones traen problemas consigo. Son fuente de estr\xE9s
+        y de desconfianza hacia los dem\xE1s"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_1
+    - theList:
+      - say
+      - " pues a menudo no sabes si la gente se acerca a ti porque realmente les caes
+        bien y te aprecian, o si lo hacen \xFAnicamente por el inter\xE9s\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_2
+    - theList:
+      - say
+      - "Si lo piensas no tardar\xE1s en darte cuenta de que tampoco tiene ning\xFAn
+        sentido valorar ni perseguir la fama"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_3
+    - theList:
+      - say
+      - "Un famoso no puede salir a divertirse por la calle como una persona normal
+        porque le est\xE1n parando todo el tiempo"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_4
+    - theList:
+      - say
+      - "Tiene que ocultar su vida privada y proteger a los suyos de los medios de
+        comunicaci\xF3n \xE1vidos de noticias sobre sus vidas privadas"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_5
+    - theList:
+      - say
+      - "Siempre sujeto a que alguien le critique p\xFAblicamente en cualquier momento
+        y por cualquier motivo"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_6
+    - theList:
+      - say
+      - "Y por \xFAltimo sabe que en alg\xFAn momento ser\xE1 olvidado, su fama se
+        esfumar\xE1, y entonces \xBFsabr\xE1 adaptarse a su nueva situaci\xF3n vital?\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_7
+    - theList:
+      - say
+      - "Por supuesto tampoco es el poder lo que da la felicidad que todos buscamos.
+        Quien tiene poder est\xE1 rodeado de falsos amigos que est\xE1n ah\xED por
+        conveniencia"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_8
+    - theList:
+      - say
+      - " y de verdaderos enemigos dispuestos a da\xF1arle en cuanto tengan ocasi\xF3n
+        para arrebatarle su posici\xF3n de poder"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_9
+    - theList:
+      - say
+      - "Naturalmente, el talento o el esfuerzo no pueden considerarse como algo que
+        por s\xED mismo d\xE9 lugar a la felicidad"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_10
+    - theList:
+      - say
+      - "Uno se esfuerza solo si es para conseguir algo. Igual que los talentos solo
+        est\xE1n ah\xED para sacar provecho de ellos"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_11
+    - theList:
+      - say
+      - "No s\xE9 si ya ves por d\xF3nde voy. El objetivo que todos buscamos en la
+        vida, aunque no todos sean conscientes de ello, no es otro que el de ser felices"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_12
+    - theList:
+      - say
+      - "Por eso en nuestra desaparecida civilizaci\xF3n lo que admir\xE1bamos por
+        encima de todo, era a las personas felices"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_13
+    - theList:
+      - say
+      - "Ellas eran nuestro modelo a seguir. Eran la cumbre de nuestra pir\xE1mide
+        social. Eran aquello a lo que todos aspir\xE1bamos"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_14
+    - theList:
+      - say
+      - Que tuvieran dinero, fama, poder, talento  eran cosas secundarias, incluso
+        irrelevantes
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_15
+    - theList:
+      - say
+      - "En lo que todos nos fij\xE1bamos era en quienes eran las personas m\xE1s
+        felices. Y era a esas personas a las que admir\xE1bamos, ellas eran las que
+        ocupaban los escalones m\xE1s altos de nuestra extinta civilizaci\xF3n"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_16
+    - theList:
+      - say
+      - "Si ten\xEDa sentido envidiar a alguien, no era ni al rico, ni al famoso,
+        ni al n\xFAmero uno... "
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_17
+    - theList:
+      - say
+      - "para nosotros solo ten\xEDa sentido envidiar a las personas felices. Ellas
+        eran las que estaban en la c\xFAspide"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_18
+    - theList:
+      - say
+      - "Estoy  seguro de que compartes conmigo que esta es la \xFAnica pir\xE1mide
+        social que tiene sentido"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_19
+    - theList:
+      - say
+      - "Sin embargo...\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_20
+    - theList:
+      - say
+      - "Hay algo que nunca llegamos a comprender...\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_21
+    - theList:
+      - say
+      - "En nuestra civilizaci\xF3n hab\xEDa dos tipos de personas felices\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_22
+    - theList:
+      - say
+      - "El primer tipo de personas felices mostraban una felicidad que se parec\xEDa
+        m\xE1s a un estado de euforia, de exaltaci\xF3n"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_23
+    - theList:
+      - say
+      - como si de pronto la persona hubiera recibido un chute de serotonina en el
+        cerebro
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_24
+    - theList:
+      - say
+      - "Y en esta clase de personas felices, parec\xEDa vislumbrarse a veces una
+        tenue sombra, como un temor al futuro"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_25
+    - theList:
+      - say
+      - " Y de hecho este temor no era infundado, pues esta clase de felicidad no
+        sol\xEDa durar mucho tiempo en esta clase de personas"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_26
+    - theList:
+      - say
+      - "El segundo tipo de personas felices era muy diferente: eran personas cuya
+        felicidad se parec\xEDa m\xE1s a una forma de ser y estar en la vida"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_27
+    - theList:
+      - say
+      - "e parec\xEDa m\xE1s a una forma de ser y estar en la vida. Era gente a la
+        que la alegr\xEDa y la calma parec\xEDan acompa\xF1arles siempre, independientemente
+        de las circunstancias"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_28
+    - theList:
+      - say
+      - "En sus ojos pod\xEDa vislumbrarse siempre un optimismo y una ausencia de
+        miedo hacia lo que deparara el futuro"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_29
+    - theList:
+      - say
+      - Y en efecto, la felicidad que disfrutaban esta clase de personas no era temporal
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_30
+    - theList:
+      - say
+      - " Las pocas personas que conoc\xED as\xED vivieron felices y mantuvieron el
+        brillo en sus ojos hasta el final de sus d\xEDas"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_31
+    - theList:
+      - say
+      - "Ha llegado el momento de irme visitante. Y antes de hacerlo te voy a confesar
+        un secreto que nunca le he dicho a nadie: por alg\xFAn motivo que desconozco,
+        esta segunda clase de personas nunca aprob\xF3 nuestro modelo de pir\xE1mide
+        social"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_32
+    - theList:
+      - say
+      - " Ellas no consideraban que alguien deber\xEDa estar en la cumbre por el mero
+        hecho de ser feliz"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_33
+    - theList:
+      - say
+      - "Me explicaron el por qu\xE9, pero lo olvid\xE9...\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_34
+    - theList:
+      - say
+      - "En fin, esto es todo lo que puedo contarte. Ahora debo abandonar lo que lo
+        que un d\xEDa fue una gran civilizaci\xF3n, la mejor de todas, la m\xE1s sensata,
+        la m\xE1s coherente"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_35
+    - theList:
+      - say
+      - " una pregunta clave sobre la que sue\xF1o cada noche. Si me ayudas y me das
+        la respuesta que necesito, te dejar\xE9 entrar en las catacumbas de mi civilizaci\xF3n"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_36
+    - theList:
+      - say
+      - " donde podr\xE1s conseguir la \xFAnica pir\xE1mide de valores con sentido
+        de cuantas han existido.\r La pregunta es la siguiente:\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_37
+    - theList:
+      - say
+      - "\xBFDe d\xF3nde proviene la conciencia?\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_38
+    - theList:
+      - ask
+      - 2
+      - "La conciencia son solo las reacciones f\xEDsico-qu\xEDmicas de nuestro cerebro.
+        Cuando el cerebro deja de funcionar la conciencia pasa de existir a no existir"
+      - "Puede que la conciencia sea algo m\xE1s que nuestro cuerpo f\xEDsico "
+      - Felicidad_6/0
+      - Felicidad_7/0
+      - Conv_N5_Felicianos_Felicidad_5_39
+      - Conv_N5_Felicianos_Felicidad_5_40
+  programs:
+  - theList:
+    - theList:
+      - say
+      - 'Reflexiona sobre ello: uno puede ser rico y sin embargo ser profundamente
+        infeliz'
+      - don't wait
+      - 
+      - Conv_N5_Felicianos_Felicidad_5_0
+    - theList:
+      - say
+      - "El dinero y las posesiones traen problemas consigo. Son fuente de estr\xE9s
+        y de desconfianza hacia los dem\xE1s"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_1
+    - theList:
+      - say
+      - " pues a menudo no sabes si la gente se acerca a ti porque realmente les caes
+        bien y te aprecian, o si lo hacen \xFAnicamente por el inter\xE9s\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_2
+    - theList:
+      - say
+      - "Si lo piensas no tardar\xE1s en darte cuenta de que tampoco tiene ning\xFAn
+        sentido valorar ni perseguir la fama"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_3
+    - theList:
+      - say
+      - "Un famoso no puede salir a divertirse por la calle como una persona normal
+        porque le est\xE1n parando todo el tiempo"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_4
+    - theList:
+      - say
+      - "Tiene que ocultar su vida privada y proteger a los suyos de los medios de
+        comunicaci\xF3n \xE1vidos de noticias sobre sus vidas privadas"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_5
+    - theList:
+      - say
+      - "Siempre sujeto a que alguien le critique p\xFAblicamente en cualquier momento
+        y por cualquier motivo"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_6
+    - theList:
+      - say
+      - "Y por \xFAltimo sabe que en alg\xFAn momento ser\xE1 olvidado, su fama se
+        esfumar\xE1, y entonces \xBFsabr\xE1 adaptarse a su nueva situaci\xF3n vital?\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_7
+    - theList:
+      - say
+      - "Por supuesto tampoco es el poder lo que da la felicidad que todos buscamos.
+        Quien tiene poder est\xE1 rodeado de falsos amigos que est\xE1n ah\xED por
+        conveniencia"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_8
+    - theList:
+      - say
+      - " y de verdaderos enemigos dispuestos a da\xF1arle en cuanto tengan ocasi\xF3n
+        para arrebatarle su posici\xF3n de poder"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_9
+    - theList:
+      - say
+      - "Naturalmente, el talento o el esfuerzo no pueden considerarse como algo que
+        por s\xED mismo d\xE9 lugar a la felicidad"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_10
+    - theList:
+      - say
+      - "Uno se esfuerza solo si es para conseguir algo. Igual que los talentos solo
+        est\xE1n ah\xED para sacar provecho de ellos"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_11
+    - theList:
+      - say
+      - "No s\xE9 si ya ves por d\xF3nde voy. El objetivo que todos buscamos en la
+        vida, aunque no todos sean conscientes de ello, no es otro que el de ser felices"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_12
+    - theList:
+      - say
+      - "Por eso en nuestra desaparecida civilizaci\xF3n lo que admir\xE1bamos por
+        encima de todo, era a las personas felices"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_13
+    - theList:
+      - say
+      - "Ellas eran nuestro modelo a seguir. Eran la cumbre de nuestra pir\xE1mide
+        social. Eran aquello a lo que todos aspir\xE1bamos"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_14
+    - theList:
+      - say
+      - Que tuvieran dinero, fama, poder, talento  eran cosas secundarias, incluso
+        irrelevantes
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_15
+    - theList:
+      - say
+      - "En lo que todos nos fij\xE1bamos era en quienes eran las personas m\xE1s
+        felices. Y era a esas personas a las que admir\xE1bamos, ellas eran las que
+        ocupaban los escalones m\xE1s altos de nuestra extinta civilizaci\xF3n"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_16
+    - theList:
+      - say
+      - "Si ten\xEDa sentido envidiar a alguien, no era ni al rico, ni al famoso,
+        ni al n\xFAmero uno... "
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_17
+    - theList:
+      - say
+      - "para nosotros solo ten\xEDa sentido envidiar a las personas felices. Ellas
+        eran las que estaban en la c\xFAspide"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_18
+    - theList:
+      - say
+      - "Estoy  seguro de que compartes conmigo que esta es la \xFAnica pir\xE1mide
+        social que tiene sentido"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_19
+    - theList:
+      - say
+      - "Sin embargo...\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_20
+    - theList:
+      - say
+      - "Hay algo que nunca llegamos a comprender...\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_21
+    - theList:
+      - say
+      - "En nuestra civilizaci\xF3n hab\xEDa dos tipos de personas felices\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_22
+    - theList:
+      - say
+      - "El primer tipo de personas felices mostraban una felicidad que se parec\xEDa
+        m\xE1s a un estado de euforia, de exaltaci\xF3n"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_23
+    - theList:
+      - say
+      - como si de pronto la persona hubiera recibido un chute de serotonina en el
+        cerebro
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_24
+    - theList:
+      - say
+      - "Y en esta clase de personas felices, parec\xEDa vislumbrarse a veces una
+        tenue sombra, como un temor al futuro"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_25
+    - theList:
+      - say
+      - " Y de hecho este temor no era infundado, pues esta clase de felicidad no
+        sol\xEDa durar mucho tiempo en esta clase de personas"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_26
+    - theList:
+      - say
+      - "El segundo tipo de personas felices era muy diferente: eran personas cuya
+        felicidad se parec\xEDa m\xE1s a una forma de ser y estar en la vida"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_27
+    - theList:
+      - say
+      - "e parec\xEDa m\xE1s a una forma de ser y estar en la vida. Era gente a la
+        que la alegr\xEDa y la calma parec\xEDan acompa\xF1arles siempre, independientemente
+        de las circunstancias"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_28
+    - theList:
+      - say
+      - "En sus ojos pod\xEDa vislumbrarse siempre un optimismo y una ausencia de
+        miedo hacia lo que deparara el futuro"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_29
+    - theList:
+      - say
+      - Y en efecto, la felicidad que disfrutaban esta clase de personas no era temporal
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_30
+    - theList:
+      - say
+      - " Las pocas personas que conoc\xED as\xED vivieron felices y mantuvieron el
+        brillo en sus ojos hasta el final de sus d\xEDas"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_31
+    - theList:
+      - say
+      - "Ha llegado el momento de irme visitante. Y antes de hacerlo te voy a confesar
+        un secreto que nunca le he dicho a nadie: por alg\xFAn motivo que desconozco,
+        esta segunda clase de personas nunca aprob\xF3 nuestro modelo de pir\xE1mide
+        social"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_32
+    - theList:
+      - say
+      - " Ellas no consideraban que alguien deber\xEDa estar en la cumbre por el mero
+        hecho de ser feliz"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_33
+    - theList:
+      - say
+      - "Me explicaron el por qu\xE9, pero lo olvid\xE9...\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_34
+    - theList:
+      - say
+      - "En fin, esto es todo lo que puedo contarte. Ahora debo abandonar lo que lo
+        que un d\xEDa fue una gran civilizaci\xF3n, la mejor de todas, la m\xE1s sensata,
+        la m\xE1s coherente"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_35
+    - theList:
+      - say
+      - " una pregunta clave sobre la que sue\xF1o cada noche. Si me ayudas y me das
+        la respuesta que necesito, te dejar\xE9 entrar en las catacumbas de mi civilizaci\xF3n"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_36
+    - theList:
+      - say
+      - " donde podr\xE1s conseguir la \xFAnica pir\xE1mide de valores con sentido
+        de cuantas han existido.\r La pregunta es la siguiente:\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_37
+    - theList:
+      - say
+      - "\xBFDe d\xF3nde proviene la conciencia?\r"
+      - wait
+      - NPC1
+      - Conv_N5_Felicianos_Felicidad_5_38
+    - theList:
+      - ask
+      - 2
+      - "La conciencia son solo las reacciones f\xEDsico-qu\xEDmicas de nuestro cerebro.
+        Cuando el cerebro deja de funcionar la conciencia pasa de existir a no existir"
+      - "Puede que la conciencia sea algo m\xE1s que nuestro cuerpo f\xEDsico "
+      - Felicidad_6/0
+      - Felicidad_7/0
+      - Conv_N5_Felicianos_Felicidad_5_39
+      - Conv_N5_Felicianos_Felicidad_5_40
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1618
+  windowY: 1894
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 193646}
+  m_IsPrefabParent: 1

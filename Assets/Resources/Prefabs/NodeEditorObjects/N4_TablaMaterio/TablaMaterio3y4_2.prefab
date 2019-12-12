@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012235185866}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012235185866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012521130196}
+  - component: {fileID: 114000011673078692}
+  m_Layer: 0
+  m_Name: TablaMaterio3y4_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012521130196
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012235185866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011673078692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012235185866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Me he enterado de que de alg\xFAn modo has logrado confundir a mi preparad\xEDsimo
+        compa\xF1ero, pero conmigo no te resultar\xE1 tan f\xE1cil. Esta es la respuesta
+        que \xE9l no supo darte:"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_0
+    - theList:
+      - say
+      - "No dejo de preguntarme acerca de la procedencia del primer ser humano. \xBFQu\xE9
+        fue lo que pas\xF3 y por qu\xE9? No lo entiendo.\r"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_1
+    - theList:
+      - say
+      - "El primer ser humano naci\xF3 porque hubo una mutaci\xF3n en el c\xF3digo
+        gen\xE9tico de un primate. Y eso dio lugar a que su hijo tuviera exocerebro,
+        una capa adicional en la parte m\xE1s externa del cerebro, que es lo que nos
+        hace humanos."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_2
+    - theList:
+      - say
+      - "No hay m\xE1s misterio que ese. De hecho si quieres puedo mostrarte ahora
+        mismo la foto de tu t\xE1tara-t\xE1tara-(x5333 veces) -abuelo, \xBFquieres
+        verla?"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_3
+    - theList:
+      - say
+      - "s\xED"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_4
+    - theList:
+      - say
+      - "\xC9l es. \xBFEs guapo verdad? No lo digo porque sea familia tuya, lo pienso
+        de verdad. Claro que ah\xED estaba joven."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_5
+    - theList:
+      - say
+      - <src="IMAGEN MONO">
+      - don't wait
+      - 
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_6
+    - theList:
+      - say
+      - No.
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_7
+    - theList:
+      - say
+      - Vamos, vamos, no seas tan desapegado de la familia. Es de cuando era joven.
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_8
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Me he enterado de que de alg\xFAn modo has logrado confundir a mi preparad\xEDsimo
+        compa\xF1ero, pero conmigo no te resultar\xE1 tan f\xE1cil. Esta es la respuesta
+        que \xE9l no supo darte:"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_0
+    - theList:
+      - say
+      - "No dejo de preguntarme acerca de la procedencia del primer ser humano. \xBFQu\xE9
+        fue lo que pas\xF3 y por qu\xE9? No lo entiendo.\r"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_1
+    - theList:
+      - say
+      - "El primer ser humano naci\xF3 porque hubo una mutaci\xF3n en el c\xF3digo
+        gen\xE9tico de un primate. Y eso dio lugar a que su hijo tuviera exocerebro,
+        una capa adicional en la parte m\xE1s externa del cerebro, que es lo que nos
+        hace humanos."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_2
+    - theList:
+      - say
+      - "No hay m\xE1s misterio que ese. De hecho si quieres puedo mostrarte ahora
+        mismo la foto de tu t\xE1tara-t\xE1tara-(x5333 veces) -abuelo, \xBFquieres
+        verla?"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_3
+    - theList:
+      - say
+      - "s\xED"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_4
+    - theList:
+      - say
+      - "\xC9l es. \xBFEs guapo verdad? No lo digo porque sea familia tuya, lo pienso
+        de verdad. Claro que ah\xED estaba joven."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_5
+    - theList:
+      - say
+      - <src="IMAGEN MONO">
+      - don't wait
+      - 
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_6
+    - theList:
+      - say
+      - No.
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_7
+    - theList:
+      - say
+      - Vamos, vamos, no seas tan desapegado de la familia. Es de cuando era joven.
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_2_8
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 0
+  windowY: 0

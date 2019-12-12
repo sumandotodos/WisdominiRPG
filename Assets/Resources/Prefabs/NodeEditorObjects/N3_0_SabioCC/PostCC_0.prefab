@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1522807667783428}
+  m_IsPrefabParent: 1
+--- !u!1 &1522807667783428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4395530915518062}
+  - component: {fileID: 114642107886439382}
+  m_Layer: 0
+  m_Name: PostCC_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4395530915518062
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1522807667783428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114642107886439382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1522807667783428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFCu\xE1ndo acaban nuestros deseos? Nos compramos un m\xF3vil nuevo, y
+        al cabo de no mucho tiempo ya queremos uno mejor. O un coche, o una prenda
+        de vestir, o una casa, o lo que sea"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_0
+    - theList:
+      - say
+      - "Dentro de la Mole hay un inmenso centro comercial repleto de objetos. Sus
+        paredes son opacas para que la gente no vea que ah\xED fuera hay un mundo
+        precioso y alucinante"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_1
+    - theList:
+      - say
+      - "Pero para poder apreciar ese mundo es necesario saber mirar. Y antes de poder
+        mirar fuera hay que saber mirar dentro de uno mismo. Esa es la manera de comprender
+        que en nuestro interior ya est\xE1 todo lo que necesitamos para ser felices"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_2
+    - theList:
+      - say
+      - "Una amiga llamada Siaomi me habl\xF3 de la Torre de Mando, \xBFsabes qu\xE9
+        es?\r"
+      - wait
+      - Player
+      - Conv_N3_0_SabioCC_PostCC_0_3
+    - theList:
+      - say
+      - Supongo que me hablas del palacio que hay encima de La Mole
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_4
+    - theList:
+      - say
+      - "Ah\xED viven los millonarios, los que toman las decisiones vamos... Pero
+        no la tomes con ellos"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_5
+    - theList:
+      - say
+      - "Ellos no est\xE1n m\xE1s cegados por los velos de la ignorancia que muchos
+        de los que est\xE1n al sur o al norte del r\xEDo"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_6
+    - theList:
+      - say
+      - "Mucha gente si estuviera en su posici\xF3n har\xEDa exactamente lo mismo
+        que hacen ellos"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_7
+    - theList:
+      - say
+      - "Todo depende del grado de conciencia y sabidur\xEDa que acompa\xF1e a cada
+        uno...\r"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_8
+    - theList:
+      - say
+      - "\xBFC\xF3mo se accede a la Torre de Mando?\r"
+      - wait
+      - Player
+      - Conv_N3_0_SabioCC_PostCC_0_9
+    - theList:
+      - say
+      - "Solo se puede acceder desde el interior de La Mole, siempre y cuando tengas
+        la llave electr\xF3nica correctamente codificada"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_10
+    - theList:
+      - unblockPlayerControls
+      - 
+      - don't wait
+      - 
+      - Conv_N3_SabioJuntoMole_FinMole_0_11
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFCu\xE1ndo acaban nuestros deseos? Nos compramos un m\xF3vil nuevo, y
+        al cabo de no mucho tiempo ya queremos uno mejor. O un coche, o una prenda
+        de vestir, o una casa, o lo que sea"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_0
+    - theList:
+      - say
+      - "Dentro de la Mole hay un inmenso centro comercial repleto de objetos. Sus
+        paredes son opacas para que la gente no vea que ah\xED fuera hay un mundo
+        precioso y alucinante"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_1
+    - theList:
+      - say
+      - "Pero para poder apreciar ese mundo es necesario saber mirar. Y antes de poder
+        mirar fuera hay que saber mirar dentro de uno mismo. Esa es la manera de comprender
+        que en nuestro interior ya est\xE1 todo lo que necesitamos para ser felices"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_2
+    - theList:
+      - say
+      - "Una amiga llamada Siaomi me habl\xF3 de la Torre de Mando, \xBFsabes qu\xE9
+        es?\r"
+      - wait
+      - Player
+      - Conv_N3_0_SabioCC_PostCC_0_3
+    - theList:
+      - say
+      - Supongo que me hablas del palacio que hay encima de La Mole
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_4
+    - theList:
+      - say
+      - "Ah\xED viven los millonarios, los que toman las decisiones vamos... Pero
+        no la tomes con ellos"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_5
+    - theList:
+      - say
+      - "Ellos no est\xE1n m\xE1s cegados por los velos de la ignorancia que muchos
+        de los que est\xE1n al sur o al norte del r\xEDo"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_6
+    - theList:
+      - say
+      - "Mucha gente si estuviera en su posici\xF3n har\xEDa exactamente lo mismo
+        que hacen ellos"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_7
+    - theList:
+      - say
+      - "Todo depende del grado de conciencia y sabidur\xEDa que acompa\xF1e a cada
+        uno...\r"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_8
+    - theList:
+      - say
+      - "\xBFC\xF3mo se accede a la Torre de Mando?\r"
+      - wait
+      - Player
+      - Conv_N3_0_SabioCC_PostCC_0_9
+    - theList:
+      - say
+      - "Solo se puede acceder desde el interior de La Mole, siempre y cuando tengas
+        la llave electr\xF3nica correctamente codificada"
+      - wait
+      - NPC1
+      - Conv_N3_0_SabioCC_PostCC_0_10
+    - theList:
+      - unblockPlayerControls
+      - 
+      - don't wait
+      - 
+      - Conv_N3_SabioJuntoMole_FinMole_0_11
+    - theList:
+      - clearDialogue
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000110000000f000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 481
+  windowY: 646

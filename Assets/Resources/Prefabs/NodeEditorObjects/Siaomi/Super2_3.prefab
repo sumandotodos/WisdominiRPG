@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1243174810005794}
+  m_IsPrefabParent: 1
+--- !u!1 &1243174810005794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4932001742350370}
+  - component: {fileID: 114809578255427348}
+  m_Layer: 0
+  m_Name: Super2_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4932001742350370
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243174810005794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114809578255427348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243174810005794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Imagina por ejemplo que alguien te llama idiota. Puedes tom\xE1rtelo tan
+        en serio que llegues a sentirte mal, o puedes darte cuenta de que cualquier
+        pensamiento que tengas relacionado con el hecho de que te acaban de llamar
+        idiota no es m\xE1s que eso, una idea. Y una idea no es algo f\xEDsico con
+        un color, una forma, un peso y un tama\xF1o. "
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_0
+    - theList:
+      - say
+      - "Una idea es un pensamiento... Y por tanto no es algo real que pueda hacerte
+        da\xF1o. Es algo tan vac\xEDo de realidad como el palacio que imaginaste antes.
+        El palacio no est\xE1 en ninguna parte, ni  el pensamiento tampoco..."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_1
+    - theList:
+      - say
+      - "Por tanto si alguien te insulta puedes elegir entre dejarte invadir por pensamientos
+        que te hagan sentir mal, o bien puedes darte cuenta de que ninguno de esos
+        pensamientos es algo s\xF3lido real. En este \xFAltimo caso permanecer\xE1s
+        imperturbable ante cualquier insulto."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_2
+    - theList:
+      - say
+      - "Vamos que los pensamientos no son algo f\xEDsico y real"
+      - wait
+      - Player
+      - Conv_Siaomi_Super2_3_3
+    - theList:
+      - say
+      - "Ni las emociones que sientes tampoco. \xBFConoces alguna emoci\xF3n que pese
+        aunque s\xF3lo sea un gramo? \xBFo que tenga una forma y un tama\xF1o?"
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_4
+    - theList:
+      - say
+      - "Y es justamente por \xE9sto por lo que algo m\xE1gico puede suceder; que
+        si las observas, si pones tu atenci\xF3n \xFAnicamente en la emoci\xF3n que
+        est\xE1s sintiendo, y no en lo que ha causado esa emoci\xF3n, podr\xE1s ver
+        c\xF3mo esa emoci\xF3n se empieza a desvanecer gradualmente como por arte
+        de magia."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_5
+    - theList:
+      - say
+      - Pero me han llamado idiota, y eso probablemente haga que me sienta mal
+      - wait
+      - Player
+      - Conv_Siaomi_Super2_3_6
+    - theList:
+      - say
+      - "Te sentir\xE1s mal hasta que pares a observarte a ti mismo, a las emociones
+        que est\xE9s sintiendo. Quiz\xE1 sientas enfado, o quiz\xE1 sientas tristeza."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_7
+    - theList:
+      - say
+      - "Pero ese enfado, o la emoci\xF3n que sea que est\xE1s sintiendo, es tan s\xF3lo
+        pura vacuidad. \xBFAcaso puedes se\xF1alar una emoci\xF3n con el dedo y decir:
+        'M\xEDrala, est\xE1 ah\xED'. \xBFAcaso puedes tocarla?"
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_8
+    - theList:
+      - say
+      - "\xA1No! Solamente puedes sentirla, y la seguir\xE1s sintiendo mientras la
+        alimentes. Y has de saber que son tus propios pensamientos los que la alimentan,
+        nada m\xE1s..."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_9
+    - theList:
+      - ask
+      - 2
+      - Ya veo lo que quieres decir
+      - "A\xFAn as\xED las emociones negativas nos hacen pasarlo mal"
+      - Super2_4/0
+      - Super2_5/0
+      - Conv_Siaomi_Super2_3_10
+      - Conv_Siaomi_Super2_3_11
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Imagina por ejemplo que alguien te llama idiota. Puedes tom\xE1rtelo tan
+        en serio que llegues a sentirte mal, o puedes darte cuenta de que cualquier
+        pensamiento que tengas relacionado con el hecho de que te acaban de llamar
+        idiota no es m\xE1s que eso, una idea. Y una idea no es algo f\xEDsico con
+        un color, una forma, un peso y un tama\xF1o. "
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_0
+    - theList:
+      - say
+      - "Una idea es un pensamiento... Y por tanto no es algo real que pueda hacerte
+        da\xF1o. Es algo tan vac\xEDo de realidad como el palacio que imaginaste antes.
+        El palacio no est\xE1 en ninguna parte, ni  el pensamiento tampoco..."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_1
+    - theList:
+      - say
+      - "Por tanto si alguien te insulta puedes elegir entre dejarte invadir por pensamientos
+        que te hagan sentir mal, o bien puedes darte cuenta de que ninguno de esos
+        pensamientos es algo s\xF3lido real. En este \xFAltimo caso permanecer\xE1s
+        imperturbable ante cualquier insulto."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_2
+    - theList:
+      - say
+      - "Vamos que los pensamientos no son algo f\xEDsico y real"
+      - wait
+      - Player
+      - Conv_Siaomi_Super2_3_3
+    - theList:
+      - say
+      - "Ni las emociones que sientes tampoco. \xBFConoces alguna emoci\xF3n que pese
+        aunque s\xF3lo sea un gramo? \xBFo que tenga una forma y un tama\xF1o?"
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_4
+    - theList:
+      - say
+      - "Y es justamente por \xE9sto por lo que algo m\xE1gico puede suceder; que
+        si las observas, si pones tu atenci\xF3n \xFAnicamente en la emoci\xF3n que
+        est\xE1s sintiendo, y no en lo que ha causado esa emoci\xF3n, podr\xE1s ver
+        c\xF3mo esa emoci\xF3n se empieza a desvanecer gradualmente como por arte
+        de magia."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_5
+    - theList:
+      - say
+      - Pero me han llamado idiota, y eso probablemente haga que me sienta mal
+      - wait
+      - Player
+      - Conv_Siaomi_Super2_3_6
+    - theList:
+      - say
+      - "Te sentir\xE1s mal hasta que pares a observarte a ti mismo, a las emociones
+        que est\xE9s sintiendo. Quiz\xE1 sientas enfado, o quiz\xE1 sientas tristeza."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_7
+    - theList:
+      - say
+      - "Pero ese enfado, o la emoci\xF3n que sea que est\xE1s sintiendo, es tan s\xF3lo
+        pura vacuidad. \xBFAcaso puedes se\xF1alar una emoci\xF3n con el dedo y decir:
+        'M\xEDrala, est\xE1 ah\xED'. \xBFAcaso puedes tocarla?"
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_8
+    - theList:
+      - say
+      - "\xA1No! Solamente puedes sentirla, y la seguir\xE1s sintiendo mientras la
+        alimentes. Y has de saber que son tus propios pensamientos los que la alimentan,
+        nada m\xE1s..."
+      - wait
+      - NPC1
+      - Conv_Siaomi_Super2_3_9
+    - theList:
+      - ask
+      - 2
+      - Ya veo lo que quieres decir
+      - "A\xFAn as\xED las emociones negativas nos hacen pasarlo mal"
+      - Super2_4/0
+      - Super2_5/0
+      - Conv_Siaomi_Super2_3_10
+      - Conv_Siaomi_Super2_3_11
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 834
+  windowY: 985

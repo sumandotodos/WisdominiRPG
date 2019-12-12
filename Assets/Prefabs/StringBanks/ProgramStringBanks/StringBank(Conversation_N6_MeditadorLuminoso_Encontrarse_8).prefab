@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &113544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 419328}
+  - component: {fileID: 11467480}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N6_MeditadorLuminoso_Encontrarse_8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &419328
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11467480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N6_MeditadorLuminoso_Encontrarse_8_
+  randomYield: 0
+  phrase:
+  - "Mis \xF3rganos, mis m\xFAsculos, mis tejidos, mis huesos  Soy las c\xE9lulas
+    que forman esa materia viva. Las mol\xE9culas que constituyen esas c\xE9lulas
+    y los \xE1tomos que forman esas mol\xE9culas. Ese soy yo"
+  - "Cada d\xEDa se est\xE1n incorporando a tu cuerpo cinco millones de \xE1tomos
+    nuevos y otros tantos lo abandonan"
+  - "Al cabo de 7 a\xF1os todos los \xE1tomos de tu cuerpo se habr\xE1n intercambiado
+    por otros distintos, y cada  una de las c\xE9lulas que forman ahora tu cuerpo,
+    ya no existir\xE1n, habr\xE1n sido reemplazadas por otras nuevas"
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 113544}
+  m_IsPrefabParent: 1

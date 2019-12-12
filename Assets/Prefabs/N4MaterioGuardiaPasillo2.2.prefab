@@ -1,0 +1,697 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1961345236586084}
+  m_IsPrefabParent: 1
+--- !u!1 &1742893272454556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4560046556600846}
+  - component: {fileID: 33735516680450952}
+  - component: {fileID: 64079950310736780}
+  - component: {fileID: 23380813590360830}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1961345236586084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4513009004776154}
+  - component: {fileID: 65146924391636910}
+  - component: {fileID: 114797548929908242}
+  m_Layer: 0
+  m_Name: N4MaterioGuardiaPasillo2.2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4513009004776154
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961345236586084}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.9, y: 125.31, z: -379.24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4560046556600846}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4560046556600846
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1742893272454556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.37, z: 0}
+  m_LocalScale: {x: 1.9342905, y: 3.4857628, z: 1.6122477}
+  m_Children: []
+  m_Father: {fileID: 4513009004776154}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23380813590360830
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1742893272454556}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33735516680450952
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1742893272454556}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &64079950310736780
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1742893272454556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65146924391636910
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961345236586084}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.51, y: 7.2, z: 1.56}
+  m_Center: {x: 4.08, y: 1.05, z: -0.43}
+--- !u!114 &114797548929908242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961345236586084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - rechazar
+      - probar
+      - Retrieve data
+      - Constant
+      - N4DuendeElegido
+      - Integer
+      - 0
+    - theList:
+      - makeLabel
+      - probar
+    - theList:
+      - say
+      - "\xBFEs est\xE1 la persona con la que puedo compartir mis puntos de vista?
+        A ver, duende, \xBFqu\xE9 te parece esto?"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_0
+    - theList:
+      - say
+      - Dios es todo amor misericordioso, ama a Dios por encima de todas las cosas.
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_1
+    - theList:
+      - if
+      - =
+      - duendeOK
+      - duendeNoOK
+      - Retrieve data
+      - Constant
+      - N4DuendeElegido
+      - Integer
+      - 1
+    - theList:
+      - makeLabel
+      - duendeOK
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+    - theList:
+      - makeLabel
+      - duendeNoOK
+    - theList:
+      - say
+      - "Mmm, lo siento, pero todav\xEDa no he reflexionado lo suficiente sobre esa
+        cuesti\xF3n. Si no se me requiere para otra cosa..."
+      - wait
+      - NPC2
+      - N4CocoGuardiaPasillo10_2
+    - theList:
+      - makeLabel
+      - rechazar
+    - theList:
+      - sendMessage
+      - Player
+      - idlePose
+    - theList:
+      - say
+      - "\xA1Eh! \xA1No puedes estar aqu\xED! \xA1Vete ahora mismo!"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_3
+    - theList:
+      - say
+      - "Adem\xE1s, me distraes, que aprovecho mi relajado turno para reflexionar
+        sobre cosas que t\xFA no podr\xEDas entender jam\xE1s."
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_4
+    - theList:
+      - say
+      - "Hoy llevo todo el d\xEDa pensando esto:"
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_5
+    - theList:
+      - say
+      - '"Dios es todo amor misericordioso, ama a Dios por encima de todas las cosas"'
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_6
+    - theList:
+      - say
+      - "As\xED que d\xE9jame en paz, que tengo mucho que pensar. Si hubiera aqu\xED
+        alguien con quien discutir mis puntos de vista..."
+      - wait
+      - NPC1
+      - N4CocoGuardiaPasillo10_7
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+    - theList:
+      - startAction
+      - Player
+      - autopilotToRelative
+      - blocking
+      - 0
+      - 0
+      - -2
+    - theList:
+      - storeData
+      - Boolean
+      - N4DuendesConvTipo2
+      - true
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - if
+      - =
+      - fin
+      - detener
+      - Retrieve data
+      - Constant
+      - N4Guardia1Clear
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - detener
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - rechazar
+      - probar
+      - Retrieve data
+      - Constant
+      - N4DuendeElegido
+      - Integer
+      - 0
+    - theList:
+      - makeLabel
+      - probar
+    - theList:
+      - say
+      - Solo os dire una cosa
+      - wait
+      - NPC2
+      - N4MaterioGuardiaPasillo2.20_0
+    - theList:
+      - say
+      - "Eres un cuerpo formado por m\xFAsculos, huesos, \xF3rganos, pelo, c\xE9lulas,
+        neuronas. Nada m\xE1s que eso"
+      - wait
+      - NPC2
+      - N4MaterioGuardiaPasillo2.20_1
+    - theList:
+      - if
+      - =
+      - duendeOK
+      - duendeNoOK
+      - Retrieve data
+      - Constant
+      - N4DuendeElegido
+      - Integer
+      - 1
+    - theList:
+      - makeLabel
+      - duendeOK
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+    - theList:
+      - say
+      - "Yo eso no lo acabo de entender, porque si somos algo f\xEDsico, entonces
+        estamos sometidos a las mismas leyes f\xEDsicas que cualquier otro objeto
+        material. Que la p\xF3lvora, que unas bolas de acero, o que unas fichas de
+        domin\xF3, \xBFno?"
+      - wait
+      - NPC1
+      - N4MaterioGuardiaPasillo2.20_2
+    - theList:
+      - say
+      - "vale \xBFy qu\xE9?"
+      - wait
+      - NPC2
+      - N4MaterioGuardiaPasillo2.20_3
+    - theList:
+      - say
+      - "La cosa es que si somos solo algo f\xEDsico, entonces en teor\xEDa todo estar\xEDa
+        predeterminado. Porque todas las cosas f\xEDsicas est\xE1n sujetas a las leyes
+        f\xEDsicas, nada m\xE1s. Si somos solo un cuerpo y un cerebro f\xEDsico, entonces
+        cada cosa que hacemos estar\xEDa pre-grabada en ese cerebro.\r"
+      - wait
+      - NPC1
+      - N4MaterioGuardiaPasillo2.20_4
+    - theList:
+      - say
+      - "s\xED, en teor\xEDa s\xED"
+      - wait
+      - NPC2
+      - N4MaterioGuardiaPasillo2.20_5
+    - theList:
+      - say
+      - "pues esto es lo que no me encaja. Porque entonces conociendo todos los datos
+        del entorno f\xEDsico, tanto de la materia biol\xF3gica como del resto de
+        materia, podr\xEDamos en teor\xEDa saber cada cosa que va a suceder en el
+        futuro.\r"
+      - wait
+      - NPC1
+      - N4MaterioGuardiaPasillo2.20_6
+    - theList:
+      - say
+      - "te\xF3ricamente podr\xEDamos"
+      - wait
+      - NPC2
+      - N4MaterioGuardiaPasillo2.20_7
+    - theList:
+      - say
+      - "pero eso no es posible. Porque imag\xEDnate que yo llegara a encontrar la
+        ecuaci\xF3n de lo que suceder\xE1 en el futuro. E imag\xEDnate que la ecuaci\xF3n
+        me dijera que el martes ser\xE9 atropellado en la esquina de mi casa. Yo l\xF3gicamente
+        evitar\xEDa el atropello simplemente no saliendo de casa. Pero hacer eso implica
+        que la ecuaci\xF3n en realidad no ser\xEDa v\xE1lida. Ah\xED est\xE1 el enigma,
+        justo en el momento en el que interviene nuestra libertad, deja de tener sentido
+        la ecuaci\xF3n sobre lo que pasar\xE1 en el futuro basada en que somos solo
+        algo f\xEDsico.\r"
+      - wait
+      - NPC1
+      - N4MaterioGuardiaPasillo2.20_8
+    - theList:
+      - say
+      - "\xBF?\xBF?\xBF?"
+      - wait
+      - NPC2
+      - N4MaterioGuardiaPasillo2.20_9
+    - theList:
+      - sendMessage
+      - DuendeController
+      - stopFollowingPlayer
+      - 
+      - 
+    - theList:
+      - storeData
+      - Boolean
+      - N4Guardia1Clear
+      - true
+    - theList:
+      - storeData
+      - Integer
+      - N4DuendeElegido
+      - 0
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - duendeNoOK
+    - theList:
+      - say
+      - "Mmm, lo siento, pero todav\xEDa no he reflexionado lo suficiente sobre esa
+        cuesti\xF3n. Si no se me requiere para otra cosa..."
+      - wait
+      - NPC2
+      - N4MaterioGuardiaPasillo2.20_10
+    - theList:
+      - clearDialogue
+    - theList:
+      - sendMessage
+      - DuendeController
+      - walkToRelative
+      - 0
+      - -8
+    - theList:
+      - delay
+      - 2
+    - theList:
+      - sendMessage
+      - DuendeController
+      - hide
+    - theList:
+      - sendMessage
+      - DuendeController
+      - stopFollowingPlayer
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - startAction
+      - Player
+      - autopilotToRelative
+      - blocking
+      - 0
+      - 0
+      - -2
+    - theList:
+      - storeData
+      - Integer
+      - N4DuendeElegido
+      - 0
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - rechazar
+    - theList:
+      - sendMessage
+      - Player
+      - idlePose
+    - theList:
+      - say
+      - "\xA1Eh! \xA1No puedes estar aqu\xED! \xA1Vete ahora mismo!"
+      - wait
+      - NPC1
+      - N4MaterioGuardiaPasillo2.20_11
+    - theList:
+      - say
+      - "Adem\xE1s, me distraes, que aprovecho mi relajado turno para reflexionar
+        sobre cosas que t\xFA no podr\xEDas entender jam\xE1s."
+      - wait
+      - NPC1
+      - N4MaterioGuardiaPasillo2.20_12
+    - theList:
+      - say
+      - "Hoy llevo todo el d\xEDa pensando esto:"
+      - wait
+      - NPC1
+      - N4MaterioGuardiaPasillo2.20_13
+    - theList:
+      - say
+      - "\"Eres algo f\xEDsico exclusivamente. Un cuerpo formado por m\xFAsculos,
+        huesos, \xF3rganos, pelo, c\xE9lulas, neuronas. Nada m\xE1s que eso\""
+      - wait
+      - NPC1
+      - N4MaterioGuardiaPasillo2.20_14
+    - theList:
+      - say
+      - "As\xED que d\xE9jame en paz, que tengo mucho que pensar. Si hubiera aqu\xED
+        alguien con quien discutir mis puntos de vista..."
+      - wait
+      - NPC1
+      - N4MaterioGuardiaPasillo2.20_15
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+    - theList:
+      - startAction
+      - Player
+      - autopilotToRelative
+      - blocking
+      - 0
+      - 0
+      - -2
+    - theList:
+      - storeData
+      - Boolean
+      - N4DuendesConvTipo2
+      - true
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  eventNamesInOrder:
+  - onOverlap
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000ffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  cameraPivot: {fileID: 0}
+  spriteHolder: {fileID: 0}
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  IdleAnimationSpeed: 1
+  WalkingFront:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  - {fileID: 2800000, guid: 1f441e9489b1a41e6813331df137080a, type: 3}
+  - {fileID: 2800000, guid: fcf1cad64359746358ee716b51e05c1a, type: 3}
+  - {fileID: 2800000, guid: 88613fdb7c8d24db7a24a5c1838f4fe8, type: 3}
+  - {fileID: 2800000, guid: 9eddf8e88013c41e49e633edb1617e9b, type: 3}
+  - {fileID: 2800000, guid: 7c747dc641a604641a458241d36e3f38, type: 3}
+  - {fileID: 2800000, guid: 146be7ad69a2b491f8ff4a1ac7a91e95, type: 3}
+  - {fileID: 2800000, guid: 9eeab47553f954477b9cfcd39507a39a, type: 3}
+  - {fileID: 2800000, guid: 1fe77ad4fa4874a5b930e369fc4e8568, type: 3}
+  - {fileID: 2800000, guid: 9f8716b9cfc0842478c38d9f7e06fb41, type: 3}
+  WalkingFrontLeft:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  - {fileID: 2800000, guid: bf466798283864b81998b053308d47cf, type: 3}
+  - {fileID: 2800000, guid: dc33e1afb458541f8947d736f16f7f1f, type: 3}
+  - {fileID: 2800000, guid: a1d81058977324ae5ae0b4004752519a, type: 3}
+  - {fileID: 2800000, guid: 159696f81fcdf44aaa463d951f6b24b1, type: 3}
+  - {fileID: 2800000, guid: 81b0f65657e994662a24afff1470f5ac, type: 3}
+  - {fileID: 2800000, guid: 8b6ceeb9281a44520b9b3bdae27efb01, type: 3}
+  - {fileID: 2800000, guid: 3efcc624274e04c9ca235978215b6f3c, type: 3}
+  - {fileID: 2800000, guid: 75bed8a127623401fa94f188085374d7, type: 3}
+  - {fileID: 2800000, guid: c4da358e991054f178dfc97f71a19aab, type: 3}
+  WalkingLeft:
+  - {fileID: 2800000, guid: 3c187819f1c5b447cbdfd198e574f25c, type: 3}
+  - {fileID: 2800000, guid: 16d174b05240a4441a3b2a7fd929405d, type: 3}
+  - {fileID: 2800000, guid: eb4b18f92b1674e15a571c9576f7013b, type: 3}
+  - {fileID: 2800000, guid: 98669e13c442447ecbc1f1a71fed025c, type: 3}
+  - {fileID: 2800000, guid: 41112a6d857c643118eca4896bcc1c6a, type: 3}
+  - {fileID: 2800000, guid: 301543f3f4829485b8b78d91bc4328be, type: 3}
+  - {fileID: 2800000, guid: db31913d0af204010acaf4d5b29fb377, type: 3}
+  - {fileID: 2800000, guid: 2abaea2983ad14a3b88d5528a581b422, type: 3}
+  - {fileID: 2800000, guid: fd9b70367167d4d52b07efad941cf039, type: 3}
+  - {fileID: 2800000, guid: fe00a7659e08a4d318a0f90f656ae75d, type: 3}
+  WalkingLeftBack:
+  - {fileID: 2800000, guid: 3c187819f1c5b447cbdfd198e574f25c, type: 3}
+  - {fileID: 2800000, guid: 7be1194daf146400c9fe0757ade5892f, type: 3}
+  - {fileID: 2800000, guid: 9a29d340df51d4a238be3289a9e368fa, type: 3}
+  - {fileID: 2800000, guid: 623d04957a0474131959a7e1ea3b8146, type: 3}
+  - {fileID: 2800000, guid: 37c1b387815ec43e6a78a8bd04f33210, type: 3}
+  - {fileID: 2800000, guid: 37668ac33946d4ce39ed543d92dc455c, type: 3}
+  - {fileID: 2800000, guid: 96bde184076414e6fb61b4a9fc30fa69, type: 3}
+  - {fileID: 2800000, guid: 658bd17dc525e4afb926a97f9bfa22e5, type: 3}
+  - {fileID: 2800000, guid: c0339795cf3d54827b67e6274e34c832, type: 3}
+  - {fileID: 2800000, guid: c8bd1226560a342368bfecb374bdbe5f, type: 3}
+  WalkingBack:
+  - {fileID: 2800000, guid: ad24949eab35d49da80a0e5ca4681801, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingBackRight:
+  - {fileID: 2800000, guid: ad24949eab35d49da80a0e5ca4681801, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingRight:
+  - {fileID: 2800000, guid: 70a6b6d0c0001421990419796aa24b85, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingRightFront:
+  - {fileID: 2800000, guid: 70a6b6d0c0001421990419796aa24b85, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  NextProgram: []
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 04000000
+  action:
+  - theList: 15000000130000001000000015000000130000000b0000000b00000015000000130000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000002000000180000001800000014000000130000000b0000000f000000020000000400000002000000020000001100000003000000180000001400000013000000020000000b0000000b0000000b0000000b0000000b000000110000000f000000030000001800000013000000110000000f000000
+  animationSpeed: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: 
+  followDistance: 4

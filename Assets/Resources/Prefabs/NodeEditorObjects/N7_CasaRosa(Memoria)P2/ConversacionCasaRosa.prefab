@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1315849997769590}
+  m_IsPrefabParent: 1
+--- !u!1 &1315849997769590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4752806429515594}
+  - component: {fileID: 114601655914565368}
+  m_Layer: 0
+  m_Name: ConversacionCasaRosa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4752806429515594
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315849997769590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114601655914565368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1315849997769590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - branchTo
+      - ConversacionCasaRosa_7/0
+    - theList:
+      - say
+      - "Hola, \xBFqu\xE9 quieres?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_0
+    - theList:
+      - say
+      - "Quer\xEDa preguntaros si sab\xE9is c\xF3mo hallar el secreto del volc\xE1n"
+      - wait
+      - Player
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_1
+      - Constant
+      - 
+      - 
+    - theList:
+      - say
+      - Pues yo ni idea, lo siento.
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_2
+    - theList:
+      - say
+      - "Puede que sepa algo, pero no me pillas en buen momento. Trataba de explicarle
+        a este que lo \xFAnico que existe es lo f\xEDsico y material"
+      - wait
+      - NPC1
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_3
+    - theList:
+      - say
+      - "No hay nada que tengas que explicarme. Te digo que ten\xEDais raz\xF3n vosotros,
+        s\xED que existe algo m\xE1s que lo puramente f\xEDsico."
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_4
+    - theList:
+      - say
+      - "\xBFde qu\xE9 estabais hablando concretamente?"
+      - wait
+      - Player
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_5
+    - theList:
+      - say
+      - De la memoria
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_6
+    - theList:
+      - say
+      - "S\xED, de la memoria."
+      - wait
+      - NPC1
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_7
+    - theList:
+      - say
+      - "Quiz\xE1 nuestro visitante sea capaz de mostrarte aquello que yo no he podido."
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_8
+    - theList:
+      - say
+      - "Resp\xF3ndenos a esta pregunta visitante: \xBFsabes c\xF3mo se almacena un
+        recuerdo?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_9
+    - theList:
+      - ask
+      - 2
+      - En el cerebro.
+      - "Un recuerdo es tan vac\xEDo como un pensamiento. No es algo s\xF3lido y real,
+        algo que podamos decir est\xE1 aqu\xED o est\xE1 all\xED. Es simplemente mente."
+      - ConversacionCasaRosa_0/0
+      - ConversacionCasaRosa_0/0
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_10
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_11
+  programs:
+  - theList:
+    - theList:
+      - branchTo
+      - ConversacionCasaRosa_7/0
+    - theList:
+      - say
+      - "Hola, \xBFqu\xE9 quieres?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_0
+    - theList:
+      - say
+      - "Quer\xEDa preguntaros si sab\xE9is c\xF3mo hallar el secreto del volc\xE1n"
+      - wait
+      - Player
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_1
+      - Constant
+      - 
+      - 
+    - theList:
+      - say
+      - Pues yo ni idea, lo siento.
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_2
+    - theList:
+      - say
+      - "Puede que sepa algo, pero no me pillas en buen momento. Trataba de explicarle
+        a este que lo \xFAnico que existe es lo f\xEDsico y material"
+      - wait
+      - NPC1
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_3
+    - theList:
+      - say
+      - "No hay nada que tengas que explicarme. Te digo que ten\xEDais raz\xF3n vosotros,
+        s\xED que existe algo m\xE1s que lo puramente f\xEDsico."
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_4
+    - theList:
+      - say
+      - "\xBFde qu\xE9 estabais hablando concretamente?"
+      - wait
+      - Player
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_5
+    - theList:
+      - say
+      - De la memoria
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_6
+    - theList:
+      - say
+      - "S\xED, de la memoria."
+      - wait
+      - NPC1
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_7
+    - theList:
+      - say
+      - "Quiz\xE1 nuestro visitante sea capaz de mostrarte aquello que yo no he podido."
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_8
+    - theList:
+      - say
+      - "Resp\xF3ndenos a esta pregunta visitante: \xBFsabes c\xF3mo se almacena un
+        recuerdo?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_9
+    - theList:
+      - ask
+      - 2
+      - En el cerebro.
+      - "Un recuerdo es tan vac\xEDo como un pensamiento. No es algo s\xF3lido y real,
+        algo que podamos decir est\xE1 aqu\xED o est\xE1 all\xED. Es simplemente mente."
+      - ConversacionCasaRosa_0/0
+      - ConversacionCasaRosa_0/0
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_10
+      - Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_11
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 140000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 7
+  windowY: 11

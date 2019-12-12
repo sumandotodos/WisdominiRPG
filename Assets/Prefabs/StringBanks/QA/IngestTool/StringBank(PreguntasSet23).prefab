@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1152360301443672}
+  m_IsPrefabParent: 1
+--- !u!1 &1152360301443672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4223634992910534}
+  - component: {fileID: 114865220141547048}
+  m_Layer: 0
+  m_Name: StringBank(PreguntasSet23)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4223634992910534
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1152360301443672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114865220141547048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1152360301443672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: PreguntasSet23
+  randomYield: 0
+  phrase:
+  - "\xBFEs posible transformar nuestros h\xE1bitos?"
+  - "Cuando consideramos que nos hemos equivocado en algo y ello provoca una respuesta
+    de dura autocr\xEDtica, \xBFqu\xE9 consecuencias puede tener esto para nosotros?"
+  - "\xBFQu\xE9 ser\xEDa en \xFAltimo t\xE9rmino lo m\xE1s importante, o lo esencial
+    a la hora de valorar a un profesional: ya sea un artista, un deportista, un empresario\u2026?"
+  - "\xBFQu\xE9 t\xE9cnica usa la polic\xEDa para adiestrar a sus perros?"
+  - "\xBFAbrazar se parece en algo a una droga?"
+  correntAnswer: 0100000002000000000000000200000002000000

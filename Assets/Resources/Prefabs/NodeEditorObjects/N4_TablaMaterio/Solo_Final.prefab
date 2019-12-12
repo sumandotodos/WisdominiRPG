@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013351217920}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013351217920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013738557098}
+  - component: {fileID: 114000013752248620}
+  m_Layer: 0
+  m_Name: Solo_Final
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013738557098
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013351217920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013752248620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013351217920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "m\xEDrame. M\xEDrate. Eres algo f\xEDsico. \xBFPor qu\xE9 liarse tanto con
+        genes, mutaciones, y leyes f\xEDsicas? \xBFPor qu\xE9 no crees simplemente
+        en lo que ves y punto? Es lo que yo hago. Soy un cuerpo f\xEDsico y material,
+        y este cuerpo es lo que me otorga la conciencia. Cuando nac\xED empec\xE9
+        a tener conciencia. Punto. \xBFQu\xE9 m\xE1s puede haber?"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_Solo_Final_0
+    - theList:
+      - say
+      - "No soy capaz de ver en qu\xE9 momento al nacer empezamos a tener conciencia.
+        Por m\xE1s vueltas que le doy no alcanzo a comprenderlo."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_Solo_Final_1
+    - theList:
+      - say
+      - "hay muchas cosas que no vemos pero est\xE1n ah\xED: las ondas del m\xF3vil,
+        las ondas luminosas que son invisibles para nosotros pero no para otros animales,
+        las frecuencias de sonido inaudibles para el hombre\u2026 hay un mont\xF3n
+        de cosas, \xBFtampoco crees en ellas?"
+      - wait
+      - Player
+      - Conv_N4_TablaMaterio_Solo_Final_2
+    - theList:
+      - say
+      - "pero eso son cosas que la ciencia ha descubierto, que est\xE1n ah\xED."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_Solo_Final_3
+    - theList:
+      - say
+      - "La ciencia tambi\xE9n ha descubierto y probado la mec\xE1nica cu\xE1ntica
+        y sin embargo en occidente se sigue creyendo que la vida y la conciencia surgieron
+        de la materia que hab\xEDa en un universo vac\xEDo de conciencia. Y seg\xFAn
+        la mec\xE1nica cu\xE1ntica eso no es posible."
+      - wait
+      - Player
+      - Conv_N4_TablaMaterio_Solo_Final_4
+    - theList:
+      - say
+      - "La ciencia solo estudia los fen\xF3menos f\xEDsicos. Por eso nunca podr\xE1
+        estudiar algo como la conciencia, que va m\xE1s all\xE1 de lo f\xEDsico."
+      - don't wait
+      - 
+      - Conv_N4_TablaMaterio_Solo_Final_5
+    - theList:
+      - say
+      - "Como veas. Pero por aqu\xED no pasa nadie."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_Solo_Final_6
+    - theList:
+      - say
+      - "Quiz\xE1 tengas raz\xF3n."
+      - wait
+      - Player
+      - Conv_N4_TablaMaterio_Solo_Final_7
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "m\xEDrame. M\xEDrate. Eres algo f\xEDsico. \xBFPor qu\xE9 liarse tanto con
+        genes, mutaciones, y leyes f\xEDsicas? \xBFPor qu\xE9 no crees simplemente
+        en lo que ves y punto? Es lo que yo hago. Soy un cuerpo f\xEDsico y material,
+        y este cuerpo es lo que me otorga la conciencia. Cuando nac\xED empec\xE9
+        a tener conciencia. Punto. \xBFQu\xE9 m\xE1s puede haber?"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_Solo_Final_0
+    - theList:
+      - say
+      - "No soy capaz de ver en qu\xE9 momento al nacer empezamos a tener conciencia.
+        Por m\xE1s vueltas que le doy no alcanzo a comprenderlo."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_Solo_Final_1
+    - theList:
+      - say
+      - "hay muchas cosas que no vemos pero est\xE1n ah\xED: las ondas del m\xF3vil,
+        las ondas luminosas que son invisibles para nosotros pero no para otros animales,
+        las frecuencias de sonido inaudibles para el hombre\u2026 hay un mont\xF3n
+        de cosas, \xBFtampoco crees en ellas?"
+      - wait
+      - Player
+      - Conv_N4_TablaMaterio_Solo_Final_2
+    - theList:
+      - say
+      - "pero eso son cosas que la ciencia ha descubierto, que est\xE1n ah\xED."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_Solo_Final_3
+    - theList:
+      - say
+      - "La ciencia tambi\xE9n ha descubierto y probado la mec\xE1nica cu\xE1ntica
+        y sin embargo en occidente se sigue creyendo que la vida y la conciencia surgieron
+        de la materia que hab\xEDa en un universo vac\xEDo de conciencia. Y seg\xFAn
+        la mec\xE1nica cu\xE1ntica eso no es posible."
+      - wait
+      - Player
+      - Conv_N4_TablaMaterio_Solo_Final_4
+    - theList:
+      - say
+      - "La ciencia solo estudia los fen\xF3menos f\xEDsicos. Por eso nunca podr\xE1
+        estudiar algo como la conciencia, que va m\xE1s all\xE1 de lo f\xEDsico."
+      - don't wait
+      - 
+      - Conv_N4_TablaMaterio_Solo_Final_5
+    - theList:
+      - say
+      - "Como veas. Pero por aqu\xED no pasa nadie."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_Solo_Final_6
+    - theList:
+      - say
+      - "Quiz\xE1 tengas raz\xF3n."
+      - wait
+      - Player
+      - Conv_N4_TablaMaterio_Solo_Final_7
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 0
+  windowY: 0

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1300335516166574}
+  m_IsPrefabParent: 1
+--- !u!1 &1300335516166574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4768950310963300}
+  - component: {fileID: 114205107584108718}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Siaomi_Super5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4768950310963300
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300335516166574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114205107584108718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1300335516166574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Siaomi_Super5_
+  randomYield: 0
+  phrase:
+  - "Empleando a los h\xE9roes con sabidur\xEDa. Imagino que ya comprendes por qu\xE9
+    se llaman as\xED. Actuar con sabidur\xEDa requiere el coraje que solo un h\xE9roe
+    posee. En cambio cuando nos dejamos llevar por el ego\xEDsmo o la ignorancia,
+    son nuestras sombras, nuestras emociones negativas, las que toman el control."
+  - "Algunos sucesos con los que te encontrar\xE1s en el plano oscuro son un reflejo
+    de sucesos que te pueden ocurrir en el futuro al otro lado del cristal, en distintos
+    tiempos y distintos lugares."
+  - "Esos sucesos  te pondr\xE1n a prueba, y como consecuencia de ello un h\xE9roe
+    y una sombra se enfrentar\xE1n en Wisd\xF3mini. Todos tenemos h\xE9roes y sombras.
+    Y se enfrentan continuamente entre s\xED. Solo si eres capaz de actuar con sabidur\xEDa
+    e inteligencia saldr\xE1s vencedor de cada reto, creando conexiones positivas
+    que se expandir\xE1n a tu alrededor."
+  - Todos somos luz, y durante un tiempo, sombra. Para salir victorioso y salvar Wisdomini
+    debes lograr es que la luz prevalezca sobre la oscuridad.
+  correntAnswer: 

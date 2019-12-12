@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 429146}
+  - component: {fileID: 11410580}
+  m_Layer: 0
+  m_Name: Animalia_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &429146
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11410580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Se llama Animalia, y quiz\xE1 te hayas dado cuenta ya de que aqu\xED las
+        cosas no est\xE1n muy claras"
+      - wait
+      - NPC1
+      - Conv_N2_NpcOink_Animalia_1_0
+    - theList:
+      - say
+      - "\xBFA qu\xE9 te refieres?\r"
+      - wait
+      - Player
+      - Conv_N2_NpcOink_Animalia_1_1
+    - theList:
+      - say
+      - "Te hablo de c\xF3mo nosotros nos parecemos a los animales, y de c\xF3mo los
+        animales se parecen a nosotros"
+      - wait
+      - NPC1
+      - Conv_N2_NpcOink_Animalia_1_2
+    - theList:
+      - disableAnswer
+      - 1
+      - false
+      - false
+    - theList:
+      - updateData
+      - Integer
+      - CountOink
+      - Add
+      - Constant
+      - 1
+    - theList:
+      - branchTo
+      - Animalia/3
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Se llama Animalia, y quiz\xE1 te hayas dado cuenta ya de que aqu\xED las
+        cosas no est\xE1n muy claras"
+      - wait
+      - NPC1
+      - Conv_N2_NpcOink_Animalia_1_0
+    - theList:
+      - say
+      - "\xBFA qu\xE9 te refieres?\r"
+      - wait
+      - Player
+      - Conv_N2_NpcOink_Animalia_1_1
+    - theList:
+      - say
+      - "Te hablo de c\xF3mo nosotros nos parecemos a los animales, y de c\xF3mo los
+        animales se parecen a nosotros"
+      - wait
+      - NPC1
+      - Conv_N2_NpcOink_Animalia_1_2
+    - theList:
+      - disableAnswer
+      - 1
+      - false
+      - false
+    - theList:
+      - updateData
+      - Integer
+      - CountOink
+      - Add
+      - Constant
+      - 1
+    - theList:
+      - branchTo
+      - Animalia/3
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b000000250000001900000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 817
+  windowY: -804
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100478}
+  m_IsPrefabParent: 1

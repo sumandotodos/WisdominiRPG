@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1583272912680798}
+  m_IsPrefabParent: 1
+--- !u!1 &1583272912680798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4466277579357016}
+  - component: {fileID: 114951560632087648}
+  m_Layer: 0
+  m_Name: DialogoPeter_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4466277579357016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1583272912680798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &114951560632087648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1583272912680798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "He intentado entrar en el b\xFAnker del Dictador Materio, pero un portero
+        vestido de blanco me impide el paso y es imposible razonar con \xE9l"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_2_0
+    - theList:
+      - say
+      - "Nunca podr\xE1s entrar all\xED, ya te lo he dicho"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_1
+    - theList:
+      - say
+      - "Debe de haber alg\xFAn modo"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_2_2
+    - theList:
+      - say
+      - "La \xFAnica forma en la que quiz\xE1 te dejar\xEDan entrar ser\xEDa si lograras
+        rescatar al profesor Microvio y llevarlo de vuelta al b\xFAnker de Materio"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_3
+    - theList:
+      - say
+      - "Cuentan que una vez Microvio fue a visitar a un sobrino suyo al b\xFAnker
+        de Cocoroloco, ya que al parecer su sobrino es ferviente seguidor de Cocoroloco,
+        y aunque la familia est\xE1 separada a causa de sus creencias, Microvio siempre
+        sinti\xF3 un gran afecto hacia su sobrino"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_4
+    - theList:
+      - say
+      - "Por lo visto, entr\xF3 en el b\xFAnker de Coco, y nunca se lo vio salir"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_5
+    - theList:
+      - say
+      - "Los adeptos a Materio dicen que lo tienen secuestrado. Los adeptos de Cocoroloco
+        dicen que se reconvirti\xF3 voluntariamente a la verdadera fe y se qued\xF3
+        a vivir con ellos"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_6
+    - theList:
+      - say
+      - "Nadie sabe qui\xE9n dice la verdad y qui\xE9n miente, pero lo que est\xE1
+        claro es que si lograras entrar en el Bunker de Cocoroloco y llevarte contigo
+        al profesor Microvio, entonces seguro que en el b\xFAnker de Materio ser\xEDas
+        recibido con los brazos abiertos\u2026"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_7
+    - theList:
+      - say
+      - "Bueno, o al menos el Guardia de la puerta no se atrever\xEDa a vetarte la
+        entrada..."
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_8
+    - theList:
+      - say
+      - "Muchas gracias. Voy a echar un vistazo al b\xFAnker de Cocoroloco"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_2_9
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "He intentado entrar en el b\xFAnker del Dictador Materio, pero un portero
+        vestido de blanco me impide el paso y es imposible razonar con \xE9l"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_2_0
+    - theList:
+      - say
+      - "Nunca podr\xE1s entrar all\xED, ya te lo he dicho"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_1
+    - theList:
+      - say
+      - "Debe de haber alg\xFAn modo"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_2_2
+    - theList:
+      - say
+      - "La \xFAnica forma en la que quiz\xE1 te dejar\xEDan entrar ser\xEDa si lograras
+        rescatar al profesor Microvio y llevarlo de vuelta al b\xFAnker de Materio"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_3
+    - theList:
+      - say
+      - "Cuentan que una vez Microvio fue a visitar a un sobrino suyo al b\xFAnker
+        de Cocoroloco, ya que al parecer su sobrino es ferviente seguidor de Cocoroloco,
+        y aunque la familia est\xE1 separada a causa de sus creencias, Microvio siempre
+        sinti\xF3 un gran afecto hacia su sobrino"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_4
+    - theList:
+      - say
+      - "Por lo visto, entr\xF3 en el b\xFAnker de Coco, y nunca se lo vio salir"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_5
+    - theList:
+      - say
+      - "Los adeptos a Materio dicen que lo tienen secuestrado. Los adeptos de Cocoroloco
+        dicen que se reconvirti\xF3 voluntariamente a la verdadera fe y se qued\xF3
+        a vivir con ellos"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_6
+    - theList:
+      - say
+      - "Nadie sabe qui\xE9n dice la verdad y qui\xE9n miente, pero lo que est\xE1
+        claro es que si lograras entrar en el Bunker de Cocoroloco y llevarte contigo
+        al profesor Microvio, entonces seguro que en el b\xFAnker de Materio ser\xEDas
+        recibido con los brazos abiertos\u2026"
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_7
+    - theList:
+      - say
+      - "Bueno, o al menos el Guardia de la puerta no se atrever\xEDa a vetarte la
+        entrada..."
+      - wait
+      - NPC1
+      - Conv_N4_Peter_DialogoPeter_2_8
+    - theList:
+      - say
+      - "Muchas gracias. Voy a echar un vistazo al b\xFAnker de Cocoroloco"
+      - wait
+      - Player
+      - Conv_N4_Peter_DialogoPeter_2_9
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - clearDialogue
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000110000000f000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 107
+  windowY: 49

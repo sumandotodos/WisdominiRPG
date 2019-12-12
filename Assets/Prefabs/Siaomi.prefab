@@ -1,0 +1,485 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1343377858435044}
+  m_IsPrefabParent: 1
+--- !u!1 &1343377858435044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4202709568341582}
+  - component: {fileID: 114874031768376762}
+  - component: {fileID: 135829583649730054}
+  m_Layer: 0
+  m_Name: Siaomi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1521109709129368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4669433227852586}
+  - component: {fileID: 33759021650740592}
+  - component: {fileID: 64492409621606764}
+  - component: {fileID: 23486549793401658}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4202709568341582
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343377858435044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.21, y: -4, z: 0.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4669433227852586}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4669433227852586
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1521109709129368}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.82, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 4202709568341582}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23486549793401658
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1521109709129368}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33759021650740592
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1521109709129368}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &64492409621606764
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1521109709129368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114874031768376762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343377858435044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 0000
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - sendMessage
+      - SunIndicatorOK
+      - fadeOut
+    - theList:
+      - sendMessage
+      - MoonIndicatorOK
+      - fadeOut
+    - theList:
+      - sendMessage
+      - CameraLerp
+      - moveToMarker
+      - 0
+    - theList:
+      - delay
+      - 1
+    - theList:
+      - if
+      - =
+      - preguntas
+      - presentacion
+      - Retrieve data
+      - Constant
+      - PresentationSiaomiDone
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - presentacion
+    - theList:
+      - replaceProgram
+      - TiposDeH
+      - onAwake
+      - True
+    - theList:
+      - storeData
+      - Boolean
+      - PresentationSiaomiDone
+      - true
+    - theList:
+      - say
+      - "Y dicho \xE9sto..."
+      - wait
+      - NPC1
+      - Siaomi0_0
+    - theList:
+      - makeLabel
+      - preguntas
+    - theList:
+      - say
+      - "\xBFQu\xE9 necesitas saber?"
+      - wait
+      - NPC1
+      - Siaomi0_1
+    - theList:
+      - replaceProgram
+      - SiaomiSuperDialogo
+      - onSpeak
+      - True
+    - theList:
+      - sendMessage
+      - SunIndicatorOK
+      - fadeIn
+    - theList:
+      - sendMessage
+      - MoonIndicatorOK
+      - fadeIn
+    - theList:
+      - clearDialogue
+    - theList:
+      - disableInteraction
+    - theList:
+      - storeData
+      - Boolean
+      - HeavenSpeak
+      - true
+    - theList:
+      - sendMessage
+      - CameraLerp
+      - moveToOriginalPosition
+    - theList:
+      - delay
+      - 4
+    - theList:
+      - unblockPlayerControls
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - sendMessage
+      - SunIndicatorOK
+      - fadeOut
+    - theList:
+      - sendMessage
+      - MoonIndicatorOK
+      - fadeOut
+    - theList:
+      - sendMessage
+      - CameraLerp
+      - moveToMarker
+      - 0
+    - theList:
+      - delay
+      - 1
+    - theList:
+      - if
+      - =
+      - preguntas
+      - presentacion
+      - Retrieve data
+      - Constant
+      - PresentationSiaomiDone
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - presentacion
+    - theList:
+      - replaceProgram
+      - TiposDeH
+      - onAwake
+      - True
+    - theList:
+      - storeData
+      - Boolean
+      - PresentationSiaomiDone
+      - true
+    - theList:
+      - say
+      - "Y dicho \xE9sto..."
+      - wait
+      - NPC1
+      - Siaomi0_0
+    - theList:
+      - makeLabel
+      - preguntas
+    - theList:
+      - say
+      - "\xBFQu\xE9 necesitas saber?"
+      - wait
+      - NPC1
+      - Siaomi0_1
+    - theList:
+      - replaceProgram
+      - SiaomiSuperDialogo
+      - onSpeak
+      - True
+    - theList:
+      - sendMessage
+      - SunIndicatorOK
+      - fadeIn
+    - theList:
+      - sendMessage
+      - MoonIndicatorOK
+      - fadeIn
+    - theList:
+      - clearDialogue
+    - theList:
+      - disableInteraction
+    - theList:
+      - storeData
+      - Boolean
+      - HeavenSpeak
+      - true
+    - theList:
+      - sendMessage
+      - CameraLerp
+      - moveToOriginalPosition
+    - theList:
+      - delay
+      - 4
+    - theList:
+      - unblockPlayerControls
+  - theList:
+    - theList:
+      - if
+      - =
+      - disable
+      - doNotDisable
+      - Retrieve data
+      - Constant
+      - HeavenSpeak
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - disable
+    - theList:
+      - disableInteraction
+    - theList:
+      - makeLabel
+      - doNotDisable
+    - theList:
+      - if
+      - =
+      - isOdd
+      - continue
+      - Retrieve data
+      - Constant
+      - SiaomiSuperAnswerDepleted
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - continue
+    - theList:
+      - if
+      - =
+      - isEven
+      - isOdd
+      - Query
+      - Constant
+      - EvenOddChecker
+      - isEven
+      - \
+      - true
+    - theList:
+      - makeLabel
+      - isOdd
+    - theList:
+      - destroy
+    - theList:
+      - makeLabel
+      - isEven
+  eventNamesInOrder:
+  - onSpeak
+  - onAwake
+  isProgramRunning: 000000
+  programPointer_: 0000000000000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  - 0
+  waitingForAnswer: 0000
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  spriteHolder: {fileID: 1521109709129368}
+  showingFrame: 0
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: dde12aa3bae1040e3b9687c18f1d2d63, type: 3}
+  - {fileID: 2800000, guid: 02a85261563c440b2b03ab621311d7bf, type: 3}
+  - {fileID: 2800000, guid: a81b53cca687b4f1a8371b860c317451, type: 3}
+  - {fileID: 2800000, guid: 9452d3a275e434c0ba09375a37c1c46c, type: 3}
+  - {fileID: 2800000, guid: 2ec386f273bb64fb5b4c45affead050f, type: 3}
+  - {fileID: 2800000, guid: a293ab5b24bbe4633b5de9c114ee827e, type: 3}
+  - {fileID: 2800000, guid: 2ec386f273bb64fb5b4c45affead050f, type: 3}
+  - {fileID: 2800000, guid: 9452d3a275e434c0ba09375a37c1c46c, type: 3}
+  - {fileID: 2800000, guid: a81b53cca687b4f1a8371b860c317451, type: 3}
+  - {fileID: 2800000, guid: 02a85261563c440b2b03ab621311d7bf, type: 3}
+  IdleAnimationSpeed: 8
+  WalkingFront: []
+  WalkingFrontLeft: []
+  WalkingLeft: []
+  WalkingLeftBack: []
+  WalkingBack: []
+  WalkingBackRight: []
+  WalkingRight: []
+  WalkingRightFront: []
+  NextProgram:
+  - {fileID: 0}
+  - {fileID: 114381581374375744, guid: dbfeb0eb556f14f46970b353641f76ab, type: 2}
+  leftMiniatureN: {fileID: 2800000, guid: 690ea5ff122aa4087a33ea434bee38f7, type: 3}
+  leftMiniatureB: {fileID: 2800000, guid: 357cf99afb91e4e3cbf9c2734701368a, type: 3}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  images: []
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 0100000000000000
+  action:
+  - theList: 100000000200000002000000020000000400000015000000130000001a000000180000000b000000130000000b0000001a00000002000000020000000f0000002900000018000000020000000400000011000000
+  - theList: 15000000130000002900000013000000150000001300000015000000130000000100000013000000
+  animationSpeed: 0
+  animationDelay: 0
+  frameTime: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Mouth
+  followDistance: 4
+--- !u!135 &135829583649730054
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1343377858435044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5.558074
+  m_Center: {x: 0, y: 0, z: 0}

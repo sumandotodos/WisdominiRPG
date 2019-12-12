@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &197694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 401258}
+  - component: {fileID: 11452088}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Guru_Super4_15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197694}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11452088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Guru_Super4_15_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - Hay dos maneras de vivir la vida. Una es pasar la mayor parte de tu tiempo de
+    vida esperando que lleguen esos escasos momentos que consideras buenos.
+  - "Otra es trabajar contigo mismo, para ir aprendiendo gradualmente a vivir con
+    alegr\xEDa todos los momentos de tu vida."
+  - "La primera manera es la f\xE1cil. No tienes que esforzarte ni hacer nada especial.
+    Si eliges esa v\xEDa s\xF3lo tienes que dejarte arrastrar por la inercia."
+  - "La segunda no es una v\xEDa f\xE1cil, porque implica cambiar una serie de h\xE1bitos
+    mantenidos durante mucho tiempo."
+  - "\xBFQuieres que te diga lo que pienso con sinceridad?"
+  - "Si lo que fueras a obtener fuese algo pasajero, como que te tocara el gordo de
+    la loter\xEDa, o encontrar esa pareja que siempre deseaste, entonces te dir\xEDa
+    que el esfuerzo no merece la pena."
+  - "Pero es que lo que est\xE1 en juego es mucho m\xE1s que eso. Te juegas tu tiempo
+    de vida. La felicidad aut\xE9ntica que todos anhelamos aun sin ser conscientes
+    de ello."
+  - "De lo que te estoy hablando es de una felicidad que no depende de las circunstancias,
+    sino que estar\xE1 contigo en todo momento."
+  - Las cosas van y vienen, el dinero, las parejas, los objetos...
+  - "Pero lo que trabajes de tu ser interior permanecer\xE1 contigo para siempre.
+    Repito, para siempre."
+  - "Controlar todas las circunstancias externas para que todo sea como a ti te gustar\xEDa
+    es imposible, adem\xE1s de frustrante y agotador. Y aun as\xED mucha gente lo
+    intenta, ponen toda su energ\xEDa en la b\xFAsqueda de lo externo."
+  - "Pero lo hacen porque desconocen que hay una alternativa, o simplemente son incapaces
+    de reflexionar acerca de s\xED mismos, de sus objetivos en la vida, de si tiene
+    sentido c\xF3mo est\xE1n llevando su vida."
+  - "Les da miedo mirarse y quiz\xE1 llegar a darse cuenta de que llevan mucho tiempo
+    persiguiendo un sue\xF1o falso."
+  - "H\xE1blame de esa alternativa"
+  - "Algunos s\xED que consiguen su sue\xF1os de gran fama o riqueza, aunque sea uno
+    de cada 10 millones m\xE1s o menos..."
+  correntAnswer: 

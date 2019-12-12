@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1573498436440234}
+  m_IsPrefabParent: 1
+--- !u!1 &1573498436440234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4434800786314892}
+  - component: {fileID: 114659332570862186}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Siaomi_Super8_0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4434800786314892
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573498436440234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114659332570862186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1573498436440234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Siaomi_Super8_0_
+  randomYield: 0
+  phrase:
+  - "Lo primero es reflexionar sobre tu vida. Sobre qu\xE9 te produce felicidad, y
+    qu\xE9 te causa sufrimiento. Sin una reflexi\xF3n en profundidad sobre esto lo
+    normal es que cuando aparezca cualquier obst\xE1culo en tu vida la inercia de
+    la oscuridad te lleve."
+  - "Y lo que pasar\xE1 entonces es que los Ojos Rojos que surgen de nuestras propias
+    sombras, podr\xE1n llegar a alcanzarnos."
+  - "Y si lo hacen estaremos creando conexiones negativas a nuestro alrededor, conexiones
+    cuyas consecuencias ir\xE1n mucho m\xE1s all\xE1 de lo que podemos llegar a ver.
+    Y pueden llegar a ser desastrosas."
+  - "\xBFDe d\xF3nde surgen las sombras?"
+  - "De la red de interconexiones que ver\xE1s en el plano oscuro: tiene la forma
+    de varias esferas amarillas unidas entre s\xED. Nada sucede por s\xED solo. Cada
+    suceso que vivimos est\xE1 relacionado con una infinidad de sucesos anteriores."
+  - "El hecho de que no los conozcamos no evita que est\xE9n ah\xED y que den lugar
+    a que aparezcan determinadas circunstancias en un momento dado de nuestras vidas.\r"
+  - "Esos momentos son en los que aparecen las sombras, y si no estamos atentos los
+    Ojos Rojos brotar\xE1n de las sombras y nos alcanzar\xE1n: entonces estaremos
+    creando conexiones negativas que dar\xE1n lugar a su vez a m\xE1s negatividad."
+  - "Mant\xE9n tu atenci\xF3n en todo momento. Practica la atenci\xF3n plena"
+  correntAnswer: 

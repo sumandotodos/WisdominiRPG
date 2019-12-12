@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1225852452939454}
+  m_IsPrefabParent: 1
+--- !u!1 &1225852452939454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4447036966188088}
+  - component: {fileID: 114954619595041386}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4447036966188088
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1225852452939454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114954619595041386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1225852452939454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_
+  randomYield: 0
+  phrase:
+  - "Que los genes son como un libro de instrucciones de c\xF3mo construir nuestro
+    cuerpo. Un gen es un conjunto de mol\xE9culas ordenadas a partir de las que se
+    fabricar mol\xE9culas grandes con una funci\xF3n espec\xEDfica dentro de nuestro
+    cuerpo. Por ejemplo, pueden formar las mol\xE9culas grandes que formar\xE1n a
+    su vez las c\xE9lulas que crear\xE1n nuestro aparato digestivo, o nuestro cerebro,
+    o cualquier otro \xF3rgano, m\xFAsculo o tejido."
+  - "Vistos al microscopio los genes se ver\xEDan as\xED. Los genes no son m\xE1s
+    que prote\xEDnas formando ovillos, y las prote\xEDnas son simplemente mol\xE9culas,
+    es decir uniones de \xE1tomos."
+  - img src="https://www.google.es/imgres?imgurl=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2F5f%2F0c%2F45%2F5f0c458a23c9e0fae4139948a3e190a0.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Ffranlacas%2Fbiology%2F&docid=17jPuEbucyIszM&tbnid=v_p2oPwOccRFkM%3A&w=650&h=543&safe=active&bih=541&biw=1164&ved=0ahUKEwjq6an62vfOAhUrKMAKHUNoBSUQMwgeKAAwAA&iact=mrc&uact=8#h=543&imgdii=v_p2oPwOccRFkM%3A%3Bv_p2oPwOccRFkM%3A%3Btf1rFyyxV_ykpM%3A&w=650">
+  - "Ya, pero m\xE1s que el n\xFAmero de genes, lo que importa es c\xF3mo se expresan
+    esos genes, es decir a qu\xE9 \xF3rganos dan lugar."
+  - "Tienes raz\xF3n, pero si adem\xE1s se supone esos genes van a influir tambi\xE9n
+    en nuestro comportamiento, entonces ser\xEDa razonable esperar que cuanto m\xE1s
+    complejo sea el individuo al que van a dar lugar, m\xE1s genes deber\xEDa haber
+    para poder delimitar los infinitos matices que puede haber en el car\xE1cter de
+    una persona. Desde luego parecer\xEDa razonable que tuvi\xE9ramos m\xE1s genes
+    que un rat\xF3n."
+  - "\xBFT\xFA qu\xE9 opinas visitante?"
+  - "\xBF\xBFTengo el mismo n\xBA de genes que un rat\xF3n??"
+  - "Yo sigo creyendo que somos \xFAnicamente un cuerpo f\xEDsico."
+  - "Tendr\xEDa que contar mis genes uno por uno antes de opinar."
+  - "Si quieres saber algo acerca de c\xF3mo obtener la mayor fuente de poder que
+    existe, busca la casa gris."
+  correntAnswer: 

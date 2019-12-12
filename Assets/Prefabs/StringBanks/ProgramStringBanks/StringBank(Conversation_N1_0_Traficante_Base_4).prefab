@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1229759922224096215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4156737616506126963}
+  - component: {fileID: 6214131539146073597}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N1_0_Traficante_Base_4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4156737616506126963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229759922224096215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6214131539146073597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229759922224096215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N1_0_Traficante_Base_4_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "El verdadero conocimiento o sabidur\xEDa s\xF3lo puede surgir de tu propia reflexi\xF3n.
+    Cualquier otra cosa ser\xEDa una p\xE9rdida de tiempo."
+  - "Memorizar no sirve de nada, la mera informaci\xF3n la puede almacenar una m\xE1quina."
+  - "Repetir lo puede hacer una cacat\xFAa. Lo que de verdad sirve es pensar por ti
+    mismo. Cuando descubres algo a trav\xE9s de tu propia reflexi\xF3n personal se
+    produce una chispa en tu interior que no se produce cuando simplemente lees o
+    alguien te cuenta algo."
+  - "Y estoy hablando de manera literal: esa chispa es una nueva conexi\xF3n neuronal
+    que ha aparecido dentro de tu cerebro. Y eso es lo que hace que nunca olvides
+    lo que acabas de descubrir por ti mismo."
+  - "Entiendo que te llaman \"El Traficante\" porque traficas con el conocimiento.
+    \xBFPor qu\xE9 lo haces?"
+  - "\xBFPodr\xE9 acceder ahora al conocimiento que esconden esas llamas?"
+  correntAnswer: 

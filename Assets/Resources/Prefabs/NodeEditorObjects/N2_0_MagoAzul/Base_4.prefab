@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1973347952585126}
+  m_IsPrefabParent: 1
+--- !u!1 &1973347952585126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4379225200321476}
+  - component: {fileID: 114137669895426928}
+  m_Layer: 0
+  m_Name: Base_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4379225200321476
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1973347952585126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114137669895426928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1973347952585126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Hay quien dice que la probabilidad de que se haya formado el universo es
+        tan rara como que un mono aporreando al azar las teclas de una m\xE1quina
+        de escribir, escribiera el Quijote de inicio a fin sin equivocarse ni en una
+        coma.\r"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_0
+    - theList:
+      - say
+      - "Pero esa analog\xEDa, aun siendo muy divertida, no refleja la realidad."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_1
+    - theList:
+      - say
+      - "Porque para que la reflejara, la m\xE1quina de escribir no tendr\xEDa que
+        tener 26 letras. Tendr\xEDa que tener ..."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_2
+    - theList:
+      - say
+      - Infinitas
+      - don't wait
+      - 
+      - Conv_N2_0_MagoAzul_Base_4_3
+    - theList:
+      - say
+      - "Ser\xEDa una m\xE1quina de escribir tan larga que nunca acabar\xEDa"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_4
+    - theList:
+      - say
+      - Nunca
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_5
+    - theList:
+      - say
+      - "Nunca llegar\xEDas a ver su\r final\r"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_6
+    - theList:
+      - say
+      - "Ser\xEDa inabarcable \r"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_7
+    - theList:
+      - ask
+      - 2
+      - Comprendo
+      - "No s\xE9 si veo la relaci\xF3n con las leyes f\xEDsicas del universo "
+      - Base_6/0
+      - Base_5/0
+      - Conv_N2_0_MagoAzul_Base_4_8
+      - Conv_N2_0_MagoAzul_Base_4_9
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Hay quien dice que la probabilidad de que se haya formado el universo es
+        tan rara como que un mono aporreando al azar las teclas de una m\xE1quina
+        de escribir, escribiera el Quijote de inicio a fin sin equivocarse ni en una
+        coma.\r"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_0
+    - theList:
+      - say
+      - "Pero esa analog\xEDa, aun siendo muy divertida, no refleja la realidad."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_1
+    - theList:
+      - say
+      - "Porque para que la reflejara, la m\xE1quina de escribir no tendr\xEDa que
+        tener 26 letras. Tendr\xEDa que tener ..."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_2
+    - theList:
+      - say
+      - Infinitas
+      - don't wait
+      - 
+      - Conv_N2_0_MagoAzul_Base_4_3
+    - theList:
+      - say
+      - "Ser\xEDa una m\xE1quina de escribir tan larga que nunca acabar\xEDa"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_4
+    - theList:
+      - say
+      - Nunca
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_5
+    - theList:
+      - say
+      - "Nunca llegar\xEDas a ver su\r final\r"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_6
+    - theList:
+      - say
+      - "Ser\xEDa inabarcable \r"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_4_7
+    - theList:
+      - ask
+      - 2
+      - Comprendo
+      - "No s\xE9 si veo la relaci\xF3n con las leyes f\xEDsicas del universo "
+      - Base_6/0
+      - Base_5/0
+      - Conv_N2_0_MagoAzul_Base_4_8
+      - Conv_N2_0_MagoAzul_Base_4_9
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1595
+  windowY: -22

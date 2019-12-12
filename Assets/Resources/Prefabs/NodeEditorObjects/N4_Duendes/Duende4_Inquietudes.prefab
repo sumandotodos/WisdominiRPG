@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011279370230}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011279370230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011035158344}
+  - component: {fileID: 114000012339473408}
+  m_Layer: 0
+  m_Name: Duende4_Inquietudes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011035158344
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011279370230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000012339473408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011279370230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Dicen que para alcanzar el cielo o el para\xEDso hay que superar una especie
+        de juicio en el que dios har\xE1 de juez. Pero si dios es omnisciente, es
+        decir su sabidur\xEDa y su amor son infinitos, entonces, \xBFc\xF3mo nos va
+        a juzgar y en su caso a castigar?"
+      - wait
+      - Player
+      - Conv_N4_Duendes_Duende4_Inquietudes_0
+    - theList:
+      - say
+      - Un momento. No acabo de comprender eso de que dios pueda hacer de juez.
+      - wait
+      - NPC1
+      - Conv_N4_Duendes_Duende4_Inquietudes_1
+    - theList:
+      - say
+      - "\xBFAh no? \xBFY por qu\xE9?"
+      - wait
+      - NPC1
+      - Conv_N4_Duendes_Duende4_Inquietudes_2
+    - theList:
+      - say
+      - "Imag\xEDnate que t\xFA mismo tras unas cuantas vidas de aprendizaje alcanzaras
+        un nivel de conciencia tal que solo sintieras un inmenso amor hacia todos
+        los seres, y vieras sus faltas \xFAnicamente como velos de una ignorancia
+        temporal. Una ignorancia que est\xE1 ah\xED todav\xEDa debido a que a\xFAn
+        les queda un camino por recorrer. En ese caso, \xBFcabr\xEDa en tu mente la
+        idea de castigar a alguien por algo que hizo a causa de esa ignorancia? Eso
+        es lo que no puedo entender."
+      - wait
+      - Player
+      - Conv_N4_Duendes_Duende4_Inquietudes_3
+    - theList:
+      - say
+      - "Adem\xE1s ten en cuenta que no es lo mismo nacer en el seno de una buena
+        familia, que te cr\xEDa d\xE1ndote amor y educ\xE1ndote con buenos valores,
+        que nacer en un barrio marginal dentro de una familia desestructurada y violenta.
+        Y si dios decide tambi\xE9n d\xF3nde naces, \xBFc\xF3mo podr\xEDa despu\xE9s
+        juzgarte por actuar de manera da\xF1ina, si resulta que act\xFAas as\xED influido
+        por el lugar donde \xE9l mismo decidi\xF3 que nacer\xEDas? No le veo sentido\u2026"
+      - wait
+      - Player
+      - Conv_N4_Duendes_Duende4_Inquietudes_4
+    - theList:
+      - say
+      - "\u2026hmmmm\u2026"
+      - wait
+      - NPC1
+      - Conv_N4_Duendes_Duende4_Inquietudes_5
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Dicen que para alcanzar el cielo o el para\xEDso hay que superar una especie
+        de juicio en el que dios har\xE1 de juez. Pero si dios es omnisciente, es
+        decir su sabidur\xEDa y su amor son infinitos, entonces, \xBFc\xF3mo nos va
+        a juzgar y en su caso a castigar?"
+      - wait
+      - Player
+      - Conv_N4_Duendes_Duende4_Inquietudes_0
+    - theList:
+      - say
+      - Un momento. No acabo de comprender eso de que dios pueda hacer de juez.
+      - wait
+      - NPC1
+      - Conv_N4_Duendes_Duende4_Inquietudes_1
+    - theList:
+      - say
+      - "\xBFAh no? \xBFY por qu\xE9?"
+      - wait
+      - NPC1
+      - Conv_N4_Duendes_Duende4_Inquietudes_2
+    - theList:
+      - say
+      - "Imag\xEDnate que t\xFA mismo tras unas cuantas vidas de aprendizaje alcanzaras
+        un nivel de conciencia tal que solo sintieras un inmenso amor hacia todos
+        los seres, y vieras sus faltas \xFAnicamente como velos de una ignorancia
+        temporal. Una ignorancia que est\xE1 ah\xED todav\xEDa debido a que a\xFAn
+        les queda un camino por recorrer. En ese caso, \xBFcabr\xEDa en tu mente la
+        idea de castigar a alguien por algo que hizo a causa de esa ignorancia? Eso
+        es lo que no puedo entender."
+      - wait
+      - Player
+      - Conv_N4_Duendes_Duende4_Inquietudes_3
+    - theList:
+      - say
+      - "Adem\xE1s ten en cuenta que no es lo mismo nacer en el seno de una buena
+        familia, que te cr\xEDa d\xE1ndote amor y educ\xE1ndote con buenos valores,
+        que nacer en un barrio marginal dentro de una familia desestructurada y violenta.
+        Y si dios decide tambi\xE9n d\xF3nde naces, \xBFc\xF3mo podr\xEDa despu\xE9s
+        juzgarte por actuar de manera da\xF1ina, si resulta que act\xFAas as\xED influido
+        por el lugar donde \xE9l mismo decidi\xF3 que nacer\xEDas? No le veo sentido\u2026"
+      - wait
+      - Player
+      - Conv_N4_Duendes_Duende4_Inquietudes_4
+    - theList:
+      - say
+      - "\u2026hmmmm\u2026"
+      - wait
+      - NPC1
+      - Conv_N4_Duendes_Duende4_Inquietudes_5
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 0
+  windowY: 0

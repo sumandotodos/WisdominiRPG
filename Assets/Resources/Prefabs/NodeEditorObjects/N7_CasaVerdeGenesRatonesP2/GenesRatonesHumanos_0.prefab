@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1963140181560642}
+  m_IsPrefabParent: 1
+--- !u!1 &1963140181560642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4266008614408192}
+  - component: {fileID: 114964221833425148}
+  m_Layer: 0
+  m_Name: GenesRatonesHumanos_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4266008614408192
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963140181560642}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114964221833425148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963140181560642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Que los genes son como un libro de instrucciones de c\xF3mo construir nuestro
+        cuerpo. Un gen es un conjunto de mol\xE9culas ordenadas a partir de las que
+        se fabricar mol\xE9culas grandes con una funci\xF3n espec\xEDfica dentro de
+        nuestro cuerpo. Por ejemplo, pueden formar las mol\xE9culas grandes que formar\xE1n
+        a su vez las c\xE9lulas que crear\xE1n nuestro aparato digestivo, o nuestro
+        cerebro, o cualquier otro \xF3rgano, m\xFAsculo o tejido."
+      - wait
+      - NPC1
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_0
+    - theList:
+      - say
+      - "Vistos al microscopio los genes se ver\xEDan as\xED. Los genes no son m\xE1s
+        que prote\xEDnas formando ovillos, y las prote\xEDnas son simplemente mol\xE9culas,
+        es decir uniones de \xE1tomos."
+      - wait
+      - NPC1
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_1
+    - theList:
+      - say
+      - img src="https://www.google.es/imgres?imgurl=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2F5f%2F0c%2F45%2F5f0c458a23c9e0fae4139948a3e190a0.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Ffranlacas%2Fbiology%2F&docid=17jPuEbucyIszM&tbnid=v_p2oPwOccRFkM%3A&w=650&h=543&safe=active&bih=541&biw=1164&ved=0ahUKEwjq6an62vfOAhUrKMAKHUNoBSUQMwgeKAAwAA&iact=mrc&uact=8#h=543&imgdii=v_p2oPwOccRFkM%3A%3Bv_p2oPwOccRFkM%3A%3Btf1rFyyxV_ykpM%3A&w=650">
+      - wait
+      - 
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_2
+    - theList:
+      - say
+      - "Ya, pero m\xE1s que el n\xFAmero de genes, lo que importa es c\xF3mo se expresan
+        esos genes, es decir a qu\xE9 \xF3rganos dan lugar."
+      - wait
+      - NPC2
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_3
+    - theList:
+      - say
+      - "Tienes raz\xF3n, pero si adem\xE1s se supone esos genes van a influir tambi\xE9n
+        en nuestro comportamiento, entonces ser\xEDa razonable esperar que cuanto
+        m\xE1s complejo sea el individuo al que van a dar lugar, m\xE1s genes deber\xEDa
+        haber para poder delimitar los infinitos matices que puede haber en el car\xE1cter
+        de una persona. Desde luego parecer\xEDa razonable que tuvi\xE9ramos m\xE1s
+        genes que un rat\xF3n."
+      - wait
+      - NPC1
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_4
+    - theList:
+      - say
+      - "\xBFT\xFA qu\xE9 opinas visitante?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_5
+    - theList:
+      - ask
+      - 3
+      - "\xBF\xBFTengo el mismo n\xBA de genes que un rat\xF3n??"
+      - "Yo sigo creyendo que somos \xFAnicamente un cuerpo f\xEDsico."
+      - "Tendr\xEDa que contar mis genes uno por uno antes de opinar."
+      - GenesRatonesHumanos_0/7
+      - GenesRatonesHumanos_0/7
+      - GenesRatonesHumanos_0/7
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_6
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_7
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_8
+    - theList:
+      - say
+      - "Si quieres saber algo acerca de c\xF3mo obtener la mayor fuente de poder
+        que existe, busca la casa gris."
+      - wait
+      - NPC2
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_9
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenCasaVerde
+      - true
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Que los genes son como un libro de instrucciones de c\xF3mo construir nuestro
+        cuerpo. Un gen es un conjunto de mol\xE9culas ordenadas a partir de las que
+        se fabricar mol\xE9culas grandes con una funci\xF3n espec\xEDfica dentro de
+        nuestro cuerpo. Por ejemplo, pueden formar las mol\xE9culas grandes que formar\xE1n
+        a su vez las c\xE9lulas que crear\xE1n nuestro aparato digestivo, o nuestro
+        cerebro, o cualquier otro \xF3rgano, m\xFAsculo o tejido."
+      - wait
+      - NPC1
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_0
+    - theList:
+      - say
+      - "Vistos al microscopio los genes se ver\xEDan as\xED. Los genes no son m\xE1s
+        que prote\xEDnas formando ovillos, y las prote\xEDnas son simplemente mol\xE9culas,
+        es decir uniones de \xE1tomos."
+      - wait
+      - NPC1
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_1
+    - theList:
+      - say
+      - img src="https://www.google.es/imgres?imgurl=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2F5f%2F0c%2F45%2F5f0c458a23c9e0fae4139948a3e190a0.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Ffranlacas%2Fbiology%2F&docid=17jPuEbucyIszM&tbnid=v_p2oPwOccRFkM%3A&w=650&h=543&safe=active&bih=541&biw=1164&ved=0ahUKEwjq6an62vfOAhUrKMAKHUNoBSUQMwgeKAAwAA&iact=mrc&uact=8#h=543&imgdii=v_p2oPwOccRFkM%3A%3Bv_p2oPwOccRFkM%3A%3Btf1rFyyxV_ykpM%3A&w=650">
+      - wait
+      - 
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_2
+    - theList:
+      - say
+      - "Ya, pero m\xE1s que el n\xFAmero de genes, lo que importa es c\xF3mo se expresan
+        esos genes, es decir a qu\xE9 \xF3rganos dan lugar."
+      - wait
+      - NPC2
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_3
+    - theList:
+      - say
+      - "Tienes raz\xF3n, pero si adem\xE1s se supone esos genes van a influir tambi\xE9n
+        en nuestro comportamiento, entonces ser\xEDa razonable esperar que cuanto
+        m\xE1s complejo sea el individuo al que van a dar lugar, m\xE1s genes deber\xEDa
+        haber para poder delimitar los infinitos matices que puede haber en el car\xE1cter
+        de una persona. Desde luego parecer\xEDa razonable que tuvi\xE9ramos m\xE1s
+        genes que un rat\xF3n."
+      - wait
+      - NPC1
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_4
+    - theList:
+      - say
+      - "\xBFT\xFA qu\xE9 opinas visitante?"
+      - wait
+      - NPC2
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_5
+    - theList:
+      - ask
+      - 3
+      - "\xBF\xBFTengo el mismo n\xBA de genes que un rat\xF3n??"
+      - "Yo sigo creyendo que somos \xFAnicamente un cuerpo f\xEDsico."
+      - "Tendr\xEDa que contar mis genes uno por uno antes de opinar."
+      - GenesRatonesHumanos_0/7
+      - GenesRatonesHumanos_0/7
+      - GenesRatonesHumanos_0/7
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_6
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_7
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_8
+    - theList:
+      - say
+      - "Si quieres saber algo acerca de c\xF3mo obtener la mayor fuente de poder
+        que existe, busca la casa gris."
+      - wait
+      - NPC2
+      - Conv_N7_CasaVerdeGenesRatonesP2_GenesRatonesHumanos_0_9
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenCasaVerde
+      - true
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000c0000000b000000180000000f00000011000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 746
+  windowY: 3

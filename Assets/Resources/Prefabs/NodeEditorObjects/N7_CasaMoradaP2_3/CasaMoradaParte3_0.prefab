@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1855896963740750}
+  m_IsPrefabParent: 1
+--- !u!1 &1855896963740750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4455099633273792}
+  - component: {fileID: 114418837903447466}
+  m_Layer: 0
+  m_Name: CasaMoradaParte3_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4455099633273792
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855896963740750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114418837903447466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855896963740750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Si quiere puedes analizar la composici\xF3n de un lim\xF3n, ver de qu\xE9
+        \xE1tomos est\xE1 compuesto, c\xF3mo est\xE1n unidos esos \xE1tomos entre
+        s\xED. Puedes analizar tambi\xE9n las papilas gustativas, comparar las de
+        unas personas y otras, medir la se\xF1al nerviosa que va desde la boca al
+        cerebro cuando te tomas un lim\xF3n, y hacer todos los estudios que te d\xE9
+        la gana y despu\xE9s correlacionarlos entre s\xED para describir con palabras
+        la experiencia de percibir un sabor que hemos denominado con el nombre de
+        \ \xE1cido."
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_3_CasaMoradaParte3_0_0
+    - theList:
+      - say
+      - "Pero la experiencia, lo que se siente cuando las gotas de lim\xF3n caen sobre
+        tu lengua es algo puramente mental, nada m\xE1s."
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_3_CasaMoradaParte3_0_1
+    - theList:
+      - say
+      - "En cuanto a lo del volc\xE1n  pregunta cerca de la casa del buzon  rojo.
+        Quiz\xE1 all\xED puedan darte alguna pista. O quiz\xE1 no... ."
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_3_CasaMoradaParte3_0_2
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenDaltonicoMorado3
+      - true
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Si quiere puedes analizar la composici\xF3n de un lim\xF3n, ver de qu\xE9
+        \xE1tomos est\xE1 compuesto, c\xF3mo est\xE1n unidos esos \xE1tomos entre
+        s\xED. Puedes analizar tambi\xE9n las papilas gustativas, comparar las de
+        unas personas y otras, medir la se\xF1al nerviosa que va desde la boca al
+        cerebro cuando te tomas un lim\xF3n, y hacer todos los estudios que te d\xE9
+        la gana y despu\xE9s correlacionarlos entre s\xED para describir con palabras
+        la experiencia de percibir un sabor que hemos denominado con el nombre de
+        \ \xE1cido."
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_3_CasaMoradaParte3_0_0
+    - theList:
+      - say
+      - "Pero la experiencia, lo que se siente cuando las gotas de lim\xF3n caen sobre
+        tu lengua es algo puramente mental, nada m\xE1s."
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_3_CasaMoradaParte3_0_1
+    - theList:
+      - say
+      - "En cuanto a lo del volc\xE1n  pregunta cerca de la casa del buzon  rojo.
+        Quiz\xE1 all\xED puedan darte alguna pista. O quiz\xE1 no... ."
+      - wait
+      - NPC1
+      - Conv_N7_CasaMoradaP2_3_CasaMoradaParte3_0_2
+    - theList:
+      - storeData
+      - Boolean
+      - HasSpokenDaltonicoMorado3
+      - true
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b000000180000000f00000011000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 770
+  windowY: 958

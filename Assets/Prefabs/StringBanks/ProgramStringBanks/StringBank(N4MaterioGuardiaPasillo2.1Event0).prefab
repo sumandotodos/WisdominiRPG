@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1311658750718670}
+  m_IsPrefabParent: 1
+--- !u!1 &1311658750718670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4088414595245612}
+  - component: {fileID: 114672449590233666}
+  m_Layer: 0
+  m_Name: StringBank(N4MaterioGuardiaPasillo2.1Event0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4088414595245612
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311658750718670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114672449590233666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311658750718670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: N4MaterioGuardiaPasillo2.10_
+  randomYield: 0
+  phrase:
+  - "\xBFEs esta persona con quien puedo discutir?"
+  - "Veamos, duende, \xBFqu\xE9 me dices acerca de esto? Todo lo que somos es nuestro
+    cuerpo f\xEDsico. Ni alma, ni esp\xEDritu, ni mente y coraz\xF3n. S\xF3lo materia:
+    genes y cromosomas"
+  - "Mmm, lo siento, pero todav\xEDa no he reflexionado lo suficiente sobre esa cuesti\xF3n.
+    Si no se me requiere para otra cosa..."
+  - "\xA1Eh! \xA1Esta es una zona restringida! \xA1Vete ahora mismo!"
+  - "Adem\xE1s, me distraes, que aprovecho mis prolongadas guardias para reflexionar
+    sobre cosas que t\xFA no podr\xEDas entender jam\xE1s."
+  - "Mira, te lo demostrar\xE9. Hoy llevo todo el d\xEDa pensando esto:"
+  - "\"Eres algo f\xEDsico exclusivamente. Tu manera de actuar parte exclusivamente
+    de tu cerebro, de las sinapsis que tienen lugar entre las neuronas de tu cerebro.
+    Nada m\xE1s\""
+  - "\xBFQu\xE9 me dices? Te has quedado mudo, \xBFverdad? D\xE9jame en paz, que tengo
+    mucho que pensar. Si hubiera aqu\xED alguien cualificado con quien discutir mis
+    puntos de vista..."
+  correntAnswer: 

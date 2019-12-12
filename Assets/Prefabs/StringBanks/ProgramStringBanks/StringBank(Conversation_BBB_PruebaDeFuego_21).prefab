@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1102469772922928}
+  m_IsPrefabParent: 1
+--- !u!1 &1102469772922928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4316830346413178}
+  - component: {fileID: 114561192732029312}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_BBB_PruebaDeFuego_21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4316830346413178
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1102469772922928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114561192732029312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1102469772922928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_BBB_PruebaDeFuego_21_
+  randomYield: 0
+  phrase:
+  - "Esa es una buena pregunta. Mucha gente sigue creyendo que no es posible aprender
+    a manejar nuestras emociones para vivir felices y en paz. El ser humano lleva
+    muchas decenas de miles de a\xF1os viviendo en entornos hostiles donde \xFAnicamente
+    ha podido aprender a sobrevivir... y a no ser feliz."
+  - "En la prehistoria o en la jungla, las respuestas emocionales de huida o lucha
+    eran \xFAtiles. Pero ya no lo son."
+  - "Aun as\xED cuando nos enfrentamos a un conflicto seguimos condicionados por esos
+    patrones, y lo normal es que o bien nos enfademos, o bien nos reprimamos. Pero
+    hay otras maneras de enfrentarse a un conflicto."
+  - "\xBFDe verdad que puedo aprender a ser feliz?"
+  - "Si no fuera posible aprender a vivir feliz y en paz, \xBFtendr\xEDa sentido que
+    tanta gente dedique tanto tiempo y esfuerzo a avanzar por el camino del desarrollo
+    personal, practicando t\xE9cnicas como la meditaci\xF3n, el yoga, o profundizando
+    en su autoconocimiento?"
+  - "Aunque todav\xEDa sea una minor\xEDa de pioneros los que han comenzado este camino,
+    se trata de mucha gente. Y este camino no ofrece recompensas inmediatas, por lo
+    que si realmente no funcionase, nadie lo empezar\xEDa y nadie continuar\xEDa en
+    \xE9l."
+  - "Quiz\xE1 el secreto de la felicidad sea simplemente que la felicidad como viene,
+    se va."
+  correntAnswer: 

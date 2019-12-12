@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1889037487223954}
+  m_IsPrefabParent: 1
+--- !u!1 &1889037487223954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4809933309256882}
+  - component: {fileID: 114460820272384240}
+  - component: {fileID: 135081998698704910}
+  - component: {fileID: 136827017014005266}
+  - component: {fileID: 54447562616420620}
+  m_Layer: 0
+  m_Name: NPC_2_Volcan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1928376775204126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4781718802609368}
+  - component: {fileID: 33659321037933898}
+  - component: {fileID: 64816810154506430}
+  - component: {fileID: 23622734177621658}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4781718802609368
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928376775204126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.37, z: 0}
+  m_LocalScale: {x: 1.9342905, y: 3.4857628, z: 1.6122477}
+  m_Children: []
+  m_Father: {fileID: 4809933309256882}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4809933309256882
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1889037487223954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 52.83, y: 122.65, z: -144.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4781718802609368}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23622734177621658
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928376775204126}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33659321037933898
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928376775204126}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54447562616420620
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1889037487223954}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!64 &64816810154506430
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928376775204126}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114460820272384240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1889037487223954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 0000
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - walkTo
+      - 61.08651
+      - -143.5861
+      - blocking
+    - theList:
+      - walkTo
+      - 37.76431
+      - -145.7782
+      - blocking
+    - theList:
+      - loop
+  programs:
+  - theList:
+    - theList:
+      - replaceProgram
+      - Volcancito2P1
+      - none
+      - True
+  - theList:
+    - theList:
+      - walkTo
+      - 61.08651
+      - -143.5861
+      - blocking
+    - theList:
+      - walkTo
+      - 37.76431
+      - -145.7782
+      - blocking
+    - theList:
+      - loop
+  eventNamesInOrder:
+  - onSpeak
+  - onAwake
+  isProgramRunning: 000000
+  programPointer_: 0000000000000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  - 0
+  waitingForAnswer: 0000
+  ConversationFolderName: N7_Npc2_volcanP1
+  instructionColor:
+  - theList: ffffffff
+  - theList: ffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  cameraPivot: {fileID: 0}
+  spriteHolder: {fileID: 1928376775204126}
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  IdleAnimationSpeed: 1
+  WalkingFront:
+  - {fileID: 2800000, guid: 034aefe5b2e97cf489ceb4581b841b71, type: 3}
+  WalkingFrontLeft:
+  - {fileID: 2800000, guid: 034aefe5b2e97cf489ceb4581b841b71, type: 3}
+  WalkingLeft:
+  - {fileID: 2800000, guid: c79cd698ade80dd4691de0deaa24f62f, type: 3}
+  - {fileID: 2800000, guid: 8feb31a29c9526448a308859ca6b9916, type: 3}
+  - {fileID: 2800000, guid: 3e30433df943c3f4ea6f4bfd02f86034, type: 3}
+  - {fileID: 2800000, guid: 574390840efe2804cad86dd720a88968, type: 3}
+  - {fileID: 2800000, guid: 5e4acb4a51d7b0648be2c12f9d2690ce, type: 3}
+  - {fileID: 2800000, guid: da05cd2af85f366449ae0d93fda07f19, type: 3}
+  - {fileID: 2800000, guid: 7e6c59338add30c488d70e3deda3c6c8, type: 3}
+  - {fileID: 2800000, guid: 4744b7b988b78f340b2639b803561169, type: 3}
+  - {fileID: 2800000, guid: aee2514fffd34634294dca9e425f790e, type: 3}
+  - {fileID: 2800000, guid: c043a2bcd488da340b2d5bd904a1667b, type: 3}
+  WalkingLeftBack:
+  - {fileID: 2800000, guid: c79cd698ade80dd4691de0deaa24f62f, type: 3}
+  - {fileID: 2800000, guid: 8feb31a29c9526448a308859ca6b9916, type: 3}
+  - {fileID: 2800000, guid: 3e30433df943c3f4ea6f4bfd02f86034, type: 3}
+  - {fileID: 2800000, guid: 574390840efe2804cad86dd720a88968, type: 3}
+  - {fileID: 2800000, guid: 5e4acb4a51d7b0648be2c12f9d2690ce, type: 3}
+  - {fileID: 2800000, guid: da05cd2af85f366449ae0d93fda07f19, type: 3}
+  - {fileID: 2800000, guid: 7e6c59338add30c488d70e3deda3c6c8, type: 3}
+  - {fileID: 2800000, guid: 4744b7b988b78f340b2639b803561169, type: 3}
+  - {fileID: 2800000, guid: aee2514fffd34634294dca9e425f790e, type: 3}
+  - {fileID: 2800000, guid: c043a2bcd488da340b2d5bd904a1667b, type: 3}
+  WalkingBack:
+  - {fileID: 2800000, guid: ad24949eab35d49da80a0e5ca4681801, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingBackRight:
+  - {fileID: 2800000, guid: 0cb4e9821e17e144eae5242e79dcfbab, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingRight:
+  - {fileID: 2800000, guid: ad9313dc3ed0520429422808ab58f950, type: 3}
+  - {fileID: 2800000, guid: 5b40d12a09169e04a919f36a1711e309, type: 3}
+  - {fileID: 2800000, guid: 590b2700aaf5e9d4faad545bb6c42abb, type: 3}
+  - {fileID: 2800000, guid: 3ba6725cbc58b6a4f8c9d8aad974a10e, type: 3}
+  - {fileID: 2800000, guid: b1715fc521911e440bfb116dceb41f47, type: 3}
+  - {fileID: 2800000, guid: dfd0e454f5de31344a5d49d4ff846bb4, type: 3}
+  - {fileID: 2800000, guid: 9b20f8bf6430d7443b28745bcc6fbc41, type: 3}
+  - {fileID: 2800000, guid: ae7f3c9856778a6459373d3015ebd4d8, type: 3}
+  - {fileID: 2800000, guid: 338707a9d728e874c9ab106a2fbb1176, type: 3}
+  - {fileID: 2800000, guid: f844a64ca2243e84794fb92cc966d274, type: 3}
+  WalkingRightFront:
+  - {fileID: 2800000, guid: 034aefe5b2e97cf489ceb4581b841b71, type: 3}
+  NextProgram:
+  - {fileID: 114959249626868766, guid: 97ef9ba29cdae3344b40a4a8c667353c, type: 2}
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 0100000000000000
+  action:
+  - theList: 1a000000
+  - theList: 0a0000000a00000012000000
+  animationSpeed: 9
+  walkingSpeed: 9
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Mouth
+  followDistance: 4
+--- !u!135 &135081998698704910
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1889037487223954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.008109
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136827017014005266
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1889037487223954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 3.3997192
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.27, z: 0}

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 445958}
+  - component: {fileID: 11465892}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7NpcBlackWite_InteriorDelVolcan_1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &445958
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11465892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7NpcBlackWite_InteriorDelVolcan_1_
+  randomYield: 0
+  phrase:
+  - "\xBFT\xFA estar\xEDas sintiendo 2 veces?\r"
+  - "No, yo solo sentir\xEDa una vez. "
+  - "S\xED, supongo "
+  - "\xBFHabr\xEDa alguien con tu misma personalidad, con los mismos recuerdos que
+    t\xFA, sintiendo exactamente lo mismo que t\xFA en cada instante del momento presente? "
+  - "s\xED, supongo "
+  - Hmmmmm...
+  - "\xBFY ese  alguien   no ser\xEDas t\xFA?\r"
+  - "me est\xE1s liando un poco, pero supongo que no"
+  - "\xBFMe est\xE1s preguntando si yo ser\xEDa un trozo de materia conectada a unos
+    cables...?"
+  - "Perm\xEDteme que te haga otra pregunta, \xBFQu\xE9 pasar\xEDa si t\xFA murieras?
+    \xBFdejar\xEDas de sentir?\r"
+  - "S\xED, claro. Si me muero dejo de sentir"
+  - "Qui\xE9n sabe qu\xE9 nos espera tras la muerte..."
+  - "\xBFY si sigui\xE9ramos enviando se\xF1ales simuladas a la r\xE9plica de tu cerebro,
+    no seguir\xEDas existiendo a trav\xE9s de esa r\xE9plica?\r"
+  - 'Algo me dice que no '
+  - "En teor\xEDa s\xED..."
+  - "Una \xFAltima pregunta: \xBFQu\xE9 pasar\xEDa si la r\xE9plica de tu cerebro
+    fuera desconectada? \xBFdejar\xEDas t\xFA de sentir?"
+  - hmmm, no, yo no
+  - "no pasar\xEDa nada"
+  - "Que mi conciencia duplicada dejar\xEDa de sentir. Es un poco raro esto..."
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100556}
+  m_IsPrefabParent: 1

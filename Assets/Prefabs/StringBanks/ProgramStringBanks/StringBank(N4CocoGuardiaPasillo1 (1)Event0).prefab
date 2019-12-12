@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1527019051687608}
+  m_IsPrefabParent: 1
+--- !u!1 &1527019051687608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4612811374042004}
+  - component: {fileID: 114097247264525582}
+  m_Layer: 0
+  m_Name: StringBank(N4CocoGuardiaPasillo1 (1)Event0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4612811374042004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1527019051687608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114097247264525582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1527019051687608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: N4CocoGuardiaPasillo1 (1)0_
+  randomYield: 0
+  phrase:
+  - "\xBFEs est\xE1 la persona con la que puedo compartir mis puntos de vista? A ver,
+    duende, \xBFqu\xE9 te parece esto?"
+  - "Dios te ha creado. Est\xE1s vivo gracias a Dios. \xA1Alaba a Dios Todopoderoso
+    y dale gracias por existir!"
+  - "F\xEDjate. Si yo creo algo de la nada de tal manera que es una creaci\xF3n completamente
+    m\xEDa, entonces cada cosa que haga eso que yo he creado, ser\xE1 en \xFAltimo
+    t\xE9rmino responsabilidad m\xEDa, \xBFno te parece? Y esto no me puede cuadrar
+    con lo de que dios nos haya creado, porque si fuera as\xED entonces no ser\xEDamos
+    libres ni responsables de nuestros actos"
+  - "La verdad es que no, porque para el hombre su libertad es su cualidad fundamental.
+    Su libertad es su inteligencia, su capacidad de decidir, de aprender, de sentir
+    y de evolucionar como persona. Si es libre no puede ser una creaci\xF3n de un
+    ser divino, m\xE1s bien ser\xEDa parte de ese ser divino y la esencia de ambos
+    ser\xEDa la misma, una sola. En definitiva ser\xEDa lo mismo, solo que temporalmente,
+    separado. Y esa separaci\xF3n lo que le dar\xEDa es todo un camino por recorrer
+    y una sabidur\xEDa que adquirir para interiorizar esto de verdad"
+  - "hmmmm\r"
+  - Yo no se si te sigo duende...
+  - "Se trata de lo siguiente: yo puedo crear un robot, y si le dedico mucho tiempo
+    y esfuerzo, ese robot podr\xE1 hacer muchas cosas, incluso ser casi igual que
+    un humano. Pero nunca ser\xE1 igual en lo fundamental, \xBFpor qu\xE9? Porque
+    nunca dejar\xE1 de ser un conjunto de chips, pl\xE1stico barato, y cableado. Nunca
+    sentir\xE1 nada, como s\xED lo podemos sentir t\xFA o yo. Puedo programarle para
+    que parezca que siente"
+  - "Pero en verdad la experiencia de sentir no tendr\xE1 lugar en ning\xFAn momento.
+    El robot no sentir\xE1 emociones como la tristeza, el amor, el enfado, ni cualquier
+    otra. Tampoco percibir\xE1 sensaciones como fr\xEDo o calor, dulce o salado. Puedo
+    ponerle un term\xF3metro que mande una se\xF1al a su procesador, y hacer que hable
+    diciendo \u201Cqu\xE9 calor hace\u201D, pero nunca nada en \xE9l experimentar\xE1
+    la sensaci\xF3n del calor. Y cosas que el robot tampoco vivir\xE1 nunca es tener
+    pensamientos, escuchar m\xFAsica, o tomar cualquier decisi\xF3n fuera del c\xF3digo
+    que ha sido programado por m\xED. Es decir, no ser\xE1 libre"
+  - "\xBFy qu\xE9 tiene que ver este ejemplo que has puesto de construir un robot,
+    con dios y nosotros?\r"
+  - "Que si dios nos ha creado de la nada y como seres separados de \xE9l, entonces
+    nosotros ser\xEDamos como robots, es decir, no ser\xEDamos libres. En cambio s\xED
+    que sentimos que somos libres, y eso solo es posible si somos parte de la esencia
+    de ese dios, al que tambi\xE9n podr\xEDamos llamar divinidad, o simplemente mente"
+  - "\xBFdices que el robot no podr\xE1 percibir ninguna sensaci\xF3n?\r"
+  - "No. El hecho de experimentar cualquier cosa es algo puramente mental. Te pondr\xE9
+    un ejemplo: \xBFc\xF3mo sabe el chocolate? Mejor dicho, no me lo digas, trata
+    de recordar la \xFAltima vez que te tomaste algo de chocolate y recuerda las sensaciones
+    que sentiste. No me las describas, porque si lo haces solo me estar\xE1s dando
+    palabras, es decir conceptos. Y eso tambi\xE9n lo puede hacer un robot convenientemente
+    programado. Pero lo que sentiste cuando paladeaste el chocolate, eso es algo que
+    ning\xFAn robot del mundo puede sentir"
+  - Dejadme pensar, no termino de comprender todo esto...
+  - "\xA1Eh! \xA1No puedes estar aqu\xED! \xA1Vete ahora mismo!"
+  - "Adem\xE1s, me distraes, que aprovecho mi relajado turno para reflexionar sobre
+    cosas que t\xFA no podr\xEDas entender jam\xE1s."
+  - "Hoy llevo todo el d\xEDa pensando esto:"
+  - '"Dios es todo amor misericordioso, ama a Dios por encima de todas las cosas"'
+  - "As\xED que d\xE9jame en paz, que tengo mucho que pensar. Si hubiera aqu\xED alguien
+    con quien discutir mis puntos de vista..."
+  correntAnswer: 

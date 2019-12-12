@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1591855202758430}
+  m_IsPrefabParent: 1
+--- !u!1 &1591855202758430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4327116203637908}
+  - component: {fileID: 114395415909246556}
+  m_Layer: 0
+  m_Name: Escuela_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4327116203637908
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591855202758430}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114395415909246556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591855202758430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Cada d\xEDa recibimos miles de impactos publicitarios, es inevitable que
+        nos influyan. La publicidad nos dice que lograremos ser felices si somos altos,
+        guapos, fuertes, exitosos, si tenemos dinero y si tenemos los objetos que
+        ellos venden."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_0
+    - theList:
+      - say
+      - "Los investigadores y psic\xF3logos nos dicen que  lograremos ser felices
+        mediante el desarrollo personal, la atenci\xF3n consciente y el manejo de
+        nuestras emociones."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_1
+    - theList:
+      - say
+      - "La mayor\xEDa de la gente cree a los primeros, y no a los segundos. Y por
+        eso dedica la mayor parte de su tiempo y energ\xEDa a buscar la felicidad
+        all\xED donde apuntan los anuncios publicitarios."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_2
+    - theList:
+      - say
+      - "Y como casi todos venden cosas exclusivas y nos dicen que solo seremos felices
+        si somos nosotros los poseedores de esas cosas que pocos pueden poseer porque
+        para que sean exclusivas deben excluir a muchos, nos empe\xF1amos en tratar
+        de ser el n\xFAmero uno, y nos llegamos a creer que la vida es una eterna
+        competici\xF3n, una lucha constante contra los dem\xE1s."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_3
+    - theList:
+      - say
+      - "Y este paradigma ha llegado tambi\xE9n de alguna manera hasta las escuelas,
+        los centros del saber. El sistema educativo est\xE1 basado mayormente en la
+        competencia, a pesar de que es la cooperaci\xF3n la causa del progreso que
+        ha vivido la humanidad desde siempre."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_4
+    - theList:
+      - say
+      - "Ahora s\xED, parece que ya empiezo a entender..."
+      - wait
+      - Player
+      - Conv_N4_CiudadPerdida_Escuela_4_5
+    - theList:
+      - say
+      - "Es bueno desaprender a competir constantemente, para as\xED poder aprender
+        a cooperar."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_6
+    - theList:
+      - say
+      - "Conviene tambi\xE9n desaprender el miedo al fracaso que nos han inculcado
+        con tantas notas, tantas comparaciones, y tanta competencia. Esto permitir\xEDa
+        ampliar horizontes y desarrollar nuestro lado creativo, aprendiendo a explorar
+        nuevos caminos a trav\xE9s del m\xE9todo del ensayo y el error. "
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_7
+    - theList:
+      - say
+      - "Tambi\xE9n nos har\xEDa m\xE1s felices desaprender la necesidad de agradar
+        a todo el mundo y de estar pendiente siempre de lo que piensen los dem\xE1s,
+        para poder as\xED atesorar el coraje necesario para buscar y hacer aquello
+        que verdaderamente nos apasiona. De esta manera podr\xEDamos dedicarnos a
+        ello con nuestro mejor empe\xF1o y aportar nuestro granito de arena a la consecuci\xF3n
+        de un mundo mejor."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_8
+    - theList:
+      - say
+      - "Desaprender a juzgar a los dem\xE1s nos har\xEDa estar en paz con nosotros
+        mismos, y nos permitir\xEDa aceptarnos tal y como somos, con nuestros defectos
+        y nuestras virtudes."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_9
+    - theList:
+      - say
+      - "Y por \xFAltimo convendr\xEDa desaprender la creencia de que solo tenemos
+        medio cerebro, porque de hecho tenemos uno entero. "
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_10
+    - theList:
+      - say
+      - "Nos han ense\xF1ado a usar el hemisferio izquierdo del cerebro: el l\xF3gico
+        y racional, el matem\xE1tico, el de los datos y los conceptos. Pero nos hemos
+        olvidado de la otra mitad: el hemisferio derecho: el intuitivo, el de las
+        emociones y la creatividad, el de la filosof\xEDa y la trascendencia."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_11
+    - theList:
+      - branchTo
+      - Escuela_5/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Cada d\xEDa recibimos miles de impactos publicitarios, es inevitable que
+        nos influyan. La publicidad nos dice que lograremos ser felices si somos altos,
+        guapos, fuertes, exitosos, si tenemos dinero y si tenemos los objetos que
+        ellos venden."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_0
+    - theList:
+      - say
+      - "Los investigadores y psic\xF3logos nos dicen que  lograremos ser felices
+        mediante el desarrollo personal, la atenci\xF3n consciente y el manejo de
+        nuestras emociones."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_1
+    - theList:
+      - say
+      - "La mayor\xEDa de la gente cree a los primeros, y no a los segundos. Y por
+        eso dedica la mayor parte de su tiempo y energ\xEDa a buscar la felicidad
+        all\xED donde apuntan los anuncios publicitarios."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_2
+    - theList:
+      - say
+      - "Y como casi todos venden cosas exclusivas y nos dicen que solo seremos felices
+        si somos nosotros los poseedores de esas cosas que pocos pueden poseer porque
+        para que sean exclusivas deben excluir a muchos, nos empe\xF1amos en tratar
+        de ser el n\xFAmero uno, y nos llegamos a creer que la vida es una eterna
+        competici\xF3n, una lucha constante contra los dem\xE1s."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_3
+    - theList:
+      - say
+      - "Y este paradigma ha llegado tambi\xE9n de alguna manera hasta las escuelas,
+        los centros del saber. El sistema educativo est\xE1 basado mayormente en la
+        competencia, a pesar de que es la cooperaci\xF3n la causa del progreso que
+        ha vivido la humanidad desde siempre."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_4
+    - theList:
+      - say
+      - "Ahora s\xED, parece que ya empiezo a entender..."
+      - wait
+      - Player
+      - Conv_N4_CiudadPerdida_Escuela_4_5
+    - theList:
+      - say
+      - "Es bueno desaprender a competir constantemente, para as\xED poder aprender
+        a cooperar."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_6
+    - theList:
+      - say
+      - "Conviene tambi\xE9n desaprender el miedo al fracaso que nos han inculcado
+        con tantas notas, tantas comparaciones, y tanta competencia. Esto permitir\xEDa
+        ampliar horizontes y desarrollar nuestro lado creativo, aprendiendo a explorar
+        nuevos caminos a trav\xE9s del m\xE9todo del ensayo y el error. "
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_7
+    - theList:
+      - say
+      - "Tambi\xE9n nos har\xEDa m\xE1s felices desaprender la necesidad de agradar
+        a todo el mundo y de estar pendiente siempre de lo que piensen los dem\xE1s,
+        para poder as\xED atesorar el coraje necesario para buscar y hacer aquello
+        que verdaderamente nos apasiona. De esta manera podr\xEDamos dedicarnos a
+        ello con nuestro mejor empe\xF1o y aportar nuestro granito de arena a la consecuci\xF3n
+        de un mundo mejor."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_8
+    - theList:
+      - say
+      - "Desaprender a juzgar a los dem\xE1s nos har\xEDa estar en paz con nosotros
+        mismos, y nos permitir\xEDa aceptarnos tal y como somos, con nuestros defectos
+        y nuestras virtudes."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_9
+    - theList:
+      - say
+      - "Y por \xFAltimo convendr\xEDa desaprender la creencia de que solo tenemos
+        medio cerebro, porque de hecho tenemos uno entero. "
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_10
+    - theList:
+      - say
+      - "Nos han ense\xF1ado a usar el hemisferio izquierdo del cerebro: el l\xF3gico
+        y racional, el matem\xE1tico, el de los datos y los conceptos. Pero nos hemos
+        olvidado de la otra mitad: el hemisferio derecho: el intuitivo, el de las
+        emociones y la creatividad, el de la filosof\xEDa y la trascendencia."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_Escuela_4_11
+    - theList:
+      - branchTo
+      - Escuela_5/0
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1376
+  windowY: 12

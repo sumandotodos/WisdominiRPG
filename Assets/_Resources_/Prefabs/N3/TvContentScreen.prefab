@@ -1,0 +1,996 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1786244837423208}
+  m_IsPrefabParent: 1
+--- !u!1 &1191339932807318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4343871950206380}
+  - component: {fileID: 114917103961046564}
+  - component: {fileID: 135769408409205894}
+  - component: {fileID: 114044252643182644}
+  - component: {fileID: 114428103789932150}
+  m_Layer: 0
+  m_Name: TVInteractor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1722198517822756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4833845162720996}
+  - component: {fileID: 114580092785490702}
+  m_Layer: 0
+  m_Name: TVInteractorAux
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1786244837423208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4419359140798342}
+  - component: {fileID: 114004601726238982}
+  m_Layer: 0
+  m_Name: TvContentScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1869850388445270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4157606572664176}
+  - component: {fileID: 114114833139578908}
+  - component: {fileID: 212234338930197726}
+  m_Layer: 0
+  m_Name: TvContents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1975542458874212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4207774491955812}
+  - component: {fileID: 114335658048942604}
+  - component: {fileID: 212262379255970332}
+  m_Layer: 0
+  m_Name: TvContentsClear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4157606572664176
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869850388445270}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4419359140798342}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 374.725, z: 0}
+--- !u!4 &4207774491955812
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975542458874212}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.03, z: 0}
+  m_LocalScale: {x: 1.2565114, y: 0.7073244, z: 1.1941926}
+  m_Children: []
+  m_Father: {fileID: 4419359140798342}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 374.725, z: 0}
+--- !u!4 &4343871950206380
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191339932807318}
+  m_LocalRotation: {x: -0, y: -0.40615475, z: -0, w: -0.91380435}
+  m_LocalPosition: {x: -0.21062101, y: -1.6924713, z: -1.2365925}
+  m_LocalScale: {x: 0.9410743, y: 1.1753273, z: 0.9655485}
+  m_Children: []
+  m_Father: {fileID: 4419359140798342}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4419359140798342
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1786244837423208}
+  m_LocalRotation: {x: -0, y: 0.12461495, z: -0, w: -0.99220526}
+  m_LocalPosition: {x: -11.502588, y: 3.8390813, z: 1.9163055}
+  m_LocalScale: {x: 0.52555007, y: 0.4799236, z: 0.6768807}
+  m_Children:
+  - {fileID: 4833845162720996}
+  - {fileID: 4343871950206380}
+  - {fileID: 4207774491955812}
+  - {fileID: 4157606572664176}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 345.683, z: 0}
+--- !u!4 &4833845162720996
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1722198517822756}
+  m_LocalRotation: {x: -0, y: -0.40615475, z: -0, w: -0.91380435}
+  m_LocalPosition: {x: -0.21062101, y: -1.6924713, z: -1.2365925}
+  m_LocalScale: {x: 0.9410743, y: 1.1753273, z: 0.9655485}
+  m_Children: []
+  m_Father: {fileID: 4419359140798342}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114004601726238982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1786244837423208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a4b9b1fa8c446db80fdff93c77bb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList: []
+  programs: []
+  eventNamesInOrder: []
+  isProgramRunning: 
+  programPointer_: 
+  programPointer: 0
+  startTime: 0
+  delayTime: []
+  waitingForAnswer: 
+  ConversationFolderName: 
+  instructionColor: []
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  reentrant: 1
+  screenId: casa7
+  channel:
+  - {fileID: 1869850388445270}
+  - {fileID: 1975542458874212}
+--- !u!114 &114044252643182644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191339932807318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82394ec33910e4f188fa6950c1e38c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114114833139578908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869850388445270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c4941e71eea940aa9b42493ff0d771c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image:
+  - {fileID: 21300000, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300000, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300000, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300000, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300000, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300002, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300004, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300006, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300006, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300006, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300006, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300006, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300006, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300002, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300004, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300008, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300008, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300008, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300008, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300008, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300008, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300002, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300004, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300010, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300010, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300010, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300010, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300010, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300010, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300002, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300004, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300012, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300012, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300012, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300012, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300012, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300002, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300014, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300014, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300014, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300014, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300014, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300014, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300002, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300004, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300016, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300016, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300016, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300016, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300016, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300016, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300002, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300004, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300018, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300018, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300018, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300018, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300018, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300018, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300002, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300004, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300020, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300020, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300020, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300020, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300020, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300002, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  - {fileID: 21300004, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  animationSpeed: 12
+  offset: 0
+  useSharedMat: 1
+--- !u!114 &114335658048942604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975542458874212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c4941e71eea940aa9b42493ff0d771c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image:
+  - {fileID: 21300000, guid: da7ddd9db5f294c90adb49063bf767d4, type: 3}
+  - {fileID: 21300000, guid: 3730229ca78b64908936b2f55ebe5a6e, type: 3}
+  - {fileID: 21300000, guid: 6e847062b5bf94035860caeac5c3ebac, type: 3}
+  - {fileID: 21300000, guid: 595ad753253914ee0a8643043af13ee3, type: 3}
+  - {fileID: 21300000, guid: 1943a621bd7664173a9cf742c910482b, type: 3}
+  - {fileID: 21300000, guid: 06143de041e424055a7a3cd1759f3a28, type: 3}
+  - {fileID: 21300000, guid: 9aa5df024b3eb45cca53796fb4c1af61, type: 3}
+  animationSpeed: 24
+  offset: 0
+  useSharedMat: 1
+--- !u!114 &114428103789932150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191339932807318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a610d5916cc8a4d0ca5a18b0d4ed7872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: {fileID: 0}
+  targetLocation: 
+--- !u!114 &114580092785490702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1722198517822756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fef8c0ec454a410b88215782ccce12f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList: []
+  programs: []
+  eventNamesInOrder: []
+  isProgramRunning: 
+  programPointer_: 
+  programPointer: 0
+  startTime: 0
+  delayTime: []
+  waitingForAnswer: 
+  ConversationFolderName: 
+  instructionColor: []
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  id: casa7
+  amount: 2
+  tvChannelSwitch: {fileID: 114004601726238982}
+--- !u!114 &114917103961046564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191339932807318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 0000
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - if
+      - =
+      - loSabe
+      - noLoSabe
+      - Retrieve data
+      - Constant
+      - HasFerfufloDice3
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - noLoSabe
+    - theList:
+      - destroy
+    - theList:
+      - makeLabel
+      - loSabe
+    - theList:
+      - if
+      - =
+      - batchOK
+      - batchNO
+      - Retrieve data
+      - Constant
+      - TVBatchResult
+      - Integer
+      - 1
+    - theList:
+      - makeLabel
+      - batchOK
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - startAction
+      - TVInteractorAux
+      - showPercentage
+      - blocking
+    - theList:
+      - sendMessage
+      - TvContentScreen
+      - switchChannel
+      - 1
+    - theList:
+      - say
+      - "El sistema ha bloqueado este televisor, ser\xE1 mejor que busque otro..."
+      - wait
+      - Player
+      - TVInteractor0_0
+    - theList:
+      - addToInventory
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - destroy
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - batchNO
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+    - theList:
+      - if
+      - =
+      - batchMal
+      - noHaHechoBatch
+      - Retrieve data
+      - Constant
+      - TVBatchResult
+      - Integer
+      - -1
+    - theList:
+      - makeLabel
+      - batchMal
+    - theList:
+      - say
+      - Creo que no lo he hecho bien, no noto que haya pasado nada...
+      - wait
+      - NPC1
+      - TVInteractor0_1
+    - theList:
+      - makeLabel
+      - noHaHechoBatch
+    - theList:
+      - makeLabel
+      - fin
+  programs:
+  - theList:
+    - theList:
+      - if
+      - =
+      - loSabe
+      - noLoSabe
+      - Retrieve data
+      - Constant
+      - HasFerfufloDice3
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - noLoSabe
+    - theList:
+      - destroy
+    - theList:
+      - makeLabel
+      - loSabe
+    - theList:
+      - if
+      - =
+      - batchOK
+      - batchNO
+      - Retrieve data
+      - Constant
+      - TVBatchResult
+      - Integer
+      - 1
+    - theList:
+      - makeLabel
+      - batchOK
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - startAction
+      - TVInteractorAux
+      - showPercentage
+      - blocking
+    - theList:
+      - sendMessage
+      - TvContentScreen
+      - switchChannel
+      - 1
+    - theList:
+      - say
+      - "El sistema ha bloqueado este televisor, ser\xE1 mejor que busque otro..."
+      - wait
+      - Player
+      - TVInteractor0_0
+    - theList:
+      - addToInventory
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - storeData
+      - Integer
+      - TVBatchResult
+      - 0
+      - Constant
+      - 
+    - theList:
+      - destroy
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - batchNO
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+    - theList:
+      - if
+      - =
+      - batchMal
+      - noHaHechoBatch
+      - Retrieve data
+      - Constant
+      - TVBatchResult
+      - Integer
+      - -1
+    - theList:
+      - makeLabel
+      - batchMal
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - Creo que no lo he hecho bien, no noto que haya pasado nada...
+      - wait
+      - NPC1
+      - TVInteractor0_1
+    - theList:
+      - clearDialogue
+    - theList:
+      - storeData
+      - Integer
+      - TVBatchResult
+      - 0
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - makeLabel
+      - noHaHechoBatch
+    - theList:
+      - makeLabel
+      - fin
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - thisTVClear
+      - nonClear
+      - Query
+      - Constant
+      - TVInteractorAux
+      - isClear
+      - \
+      - true
+    - theList:
+      - makeLabel
+      - nonClear
+    - theList:
+      - if
+      - =
+      - todasLasLlaves
+      - noTodasLasLlaves
+      - Retrieve data
+      - Constant
+      - HasAllFerfufloDice
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - todasLasLlaves
+    - theList:
+      - if
+      - =
+      - justDoTheThing
+      - explain
+      - Retrieve data
+      - Constant
+      - N3TVUsed
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - explain
+    - theList:
+      - say
+      - Tengo los tres dados, voy a usarlos con este televisor, a ver si puedo hackearlo...
+      - wait
+      - Player
+      - TVInteractor1_0
+    - theList:
+      - clearDialogue
+    - theList:
+      - makeLabel
+      - justDoTheThing
+    - theList:
+      - storeData
+      - Boolean
+      - N3TVUsed
+      - true
+    - theList:
+      - startAction
+      - Vignette
+      - close
+      - blocking
+    - theList:
+      - sendMessage
+      - LevelController
+      - storeReturnLocation
+    - theList:
+      - setLocation
+      - Ferfuflo
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - noTodasLasLlaves
+    - theList:
+      - say
+      - "Mmm... creo que podr\xEDa intentar hackear el sistema a trav\xE9s de este
+        TV, pero necesito los tres dados de los Ferfuflos..."
+      - wait
+      - Player
+      - TVInteractor1_1
+    - theList:
+      - branchTo
+      - fin
+    - theList:
+      - makeLabel
+      - thisTVClear
+    - theList:
+      - say
+      - "Este televisor est\xE1 desconectado, ser\xE1 mejor que busque otro"
+      - wait
+      - Player
+      - TVInteractor1_2
+    - theList:
+      - makeLabel
+      - fin
+    - theList:
+      - clearDialogue
+    - theList:
+      - unblockPlayerControls
+  eventNamesInOrder:
+  - onAwake
+  - onSpeak
+  isProgramRunning: 000000
+  programPointer_: 0000000000000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  - 0
+  waitingForAnswer: 0000
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000000
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff01000000ffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  pivotYRotation: 0
+  distanceToPlayer: 0
+  followingState: 0
+  followState: 0
+  markedAsStartFollowing: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  cameraPivotY: {fileID: 0}
+  spriteHolder: {fileID: 0}
+  showingFrame: 0
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  IdleAnimationSpeed: 1
+  Idle:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  IdleSprite: []
+  WalkingFront:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  - {fileID: 2800000, guid: 1f441e9489b1a41e6813331df137080a, type: 3}
+  - {fileID: 2800000, guid: fcf1cad64359746358ee716b51e05c1a, type: 3}
+  - {fileID: 2800000, guid: 88613fdb7c8d24db7a24a5c1838f4fe8, type: 3}
+  - {fileID: 2800000, guid: 9eddf8e88013c41e49e633edb1617e9b, type: 3}
+  - {fileID: 2800000, guid: 7c747dc641a604641a458241d36e3f38, type: 3}
+  - {fileID: 2800000, guid: 146be7ad69a2b491f8ff4a1ac7a91e95, type: 3}
+  - {fileID: 2800000, guid: 9eeab47553f954477b9cfcd39507a39a, type: 3}
+  - {fileID: 2800000, guid: 1fe77ad4fa4874a5b930e369fc4e8568, type: 3}
+  - {fileID: 2800000, guid: 9f8716b9cfc0842478c38d9f7e06fb41, type: 3}
+  WalkingFrontSprite: []
+  WalkingFrontLeft:
+  - {fileID: 2800000, guid: 99df35758e50e4779be2013275e24cb8, type: 3}
+  - {fileID: 2800000, guid: bf466798283864b81998b053308d47cf, type: 3}
+  - {fileID: 2800000, guid: dc33e1afb458541f8947d736f16f7f1f, type: 3}
+  - {fileID: 2800000, guid: a1d81058977324ae5ae0b4004752519a, type: 3}
+  - {fileID: 2800000, guid: 159696f81fcdf44aaa463d951f6b24b1, type: 3}
+  - {fileID: 2800000, guid: 81b0f65657e994662a24afff1470f5ac, type: 3}
+  - {fileID: 2800000, guid: 8b6ceeb9281a44520b9b3bdae27efb01, type: 3}
+  - {fileID: 2800000, guid: 3efcc624274e04c9ca235978215b6f3c, type: 3}
+  - {fileID: 2800000, guid: 75bed8a127623401fa94f188085374d7, type: 3}
+  - {fileID: 2800000, guid: c4da358e991054f178dfc97f71a19aab, type: 3}
+  WalkingFrontLeftSprite: []
+  WalkingLeft:
+  - {fileID: 2800000, guid: 3c187819f1c5b447cbdfd198e574f25c, type: 3}
+  - {fileID: 2800000, guid: 16d174b05240a4441a3b2a7fd929405d, type: 3}
+  - {fileID: 2800000, guid: eb4b18f92b1674e15a571c9576f7013b, type: 3}
+  - {fileID: 2800000, guid: 98669e13c442447ecbc1f1a71fed025c, type: 3}
+  - {fileID: 2800000, guid: 41112a6d857c643118eca4896bcc1c6a, type: 3}
+  - {fileID: 2800000, guid: 301543f3f4829485b8b78d91bc4328be, type: 3}
+  - {fileID: 2800000, guid: db31913d0af204010acaf4d5b29fb377, type: 3}
+  - {fileID: 2800000, guid: 2abaea2983ad14a3b88d5528a581b422, type: 3}
+  - {fileID: 2800000, guid: fd9b70367167d4d52b07efad941cf039, type: 3}
+  - {fileID: 2800000, guid: fe00a7659e08a4d318a0f90f656ae75d, type: 3}
+  WalkingLeftSprite: []
+  WalkingLeftBack:
+  - {fileID: 2800000, guid: 3c187819f1c5b447cbdfd198e574f25c, type: 3}
+  - {fileID: 2800000, guid: 7be1194daf146400c9fe0757ade5892f, type: 3}
+  - {fileID: 2800000, guid: 9a29d340df51d4a238be3289a9e368fa, type: 3}
+  - {fileID: 2800000, guid: 623d04957a0474131959a7e1ea3b8146, type: 3}
+  - {fileID: 2800000, guid: 37c1b387815ec43e6a78a8bd04f33210, type: 3}
+  - {fileID: 2800000, guid: 37668ac33946d4ce39ed543d92dc455c, type: 3}
+  - {fileID: 2800000, guid: 96bde184076414e6fb61b4a9fc30fa69, type: 3}
+  - {fileID: 2800000, guid: 658bd17dc525e4afb926a97f9bfa22e5, type: 3}
+  - {fileID: 2800000, guid: c0339795cf3d54827b67e6274e34c832, type: 3}
+  - {fileID: 2800000, guid: c8bd1226560a342368bfecb374bdbe5f, type: 3}
+  WalkingLeftBackSprite: []
+  WalkingBack:
+  - {fileID: 2800000, guid: ad24949eab35d49da80a0e5ca4681801, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingBackSprite: []
+  WalkingBackRight:
+  - {fileID: 2800000, guid: ad24949eab35d49da80a0e5ca4681801, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingBackRightSprite: []
+  WalkingRight:
+  - {fileID: 2800000, guid: 70a6b6d0c0001421990419796aa24b85, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingRightSprite: []
+  WalkingRightFront:
+  - {fileID: 2800000, guid: 70a6b6d0c0001421990419796aa24b85, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  WalkingRightFrontSprite: []
+  NextProgram: []
+  leftMiniatureN: {fileID: 0}
+  leftMiniatureB: {fileID: 0}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  images: []
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 0000000001000000
+  action:
+  - theList: 1500000013000000010000001300000015000000130000001000000003000000020000000b000000000000000f00000011000000180000000100000014000000130000001500000013000000100000000b0000000f00000018000000110000001300000013000000
+  - theList: 100000001500000013000000150000001300000015000000130000000b0000000f000000130000001800000003000000020000000800000014000000130000000b00000014000000130000000b000000130000000f00000011000000
+  animationSpeed: 0
+  animationDelay: 0
+  frameTime: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Sprite: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Sprite: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Sprite: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 1722198517822756}
+  - {fileID: 1786244837423208}
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Eye
+  followDistance: 4
+  autopilotAbsolute: 1
+--- !u!135 &135769408409205894
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1191339932807318}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.008109
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!212 &212234338930197726
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1869850388445270}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 661658dc52371492ca4388f13ddd4fe4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 6.4, y: 3.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!212 &212262379255970332
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975542458874212}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: da7ddd9db5f294c90adb49063bf767d4, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 6.4, y: 3.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0

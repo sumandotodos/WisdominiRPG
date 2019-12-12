@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1654139163462110}
+  m_IsPrefabParent: 1
+--- !u!1 &1654139163462110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4598502664552922}
+  - component: {fileID: 114542584388249456}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4598502664552922
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654139163462110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114542584388249456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654139163462110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7_CasaRosa(Memoria)P2_ConversacionCasaRosa_3_
+  randomYield: 0
+  phrase:
+  - "Un ordenador s\xED que podr\xEDamos decir que  graba  la realidad. Traduce las
+    ondas luminosas a un c\xF3digo de ceros y unos para que luego podamos ver una
+    foto. O traduce las ondas sonoras para que podamos escuchar una canci\xF3n. Y
+    ese c\xF3digo queda grabado en unos chips que pueden adoptar dos posiciones f\xEDsicas:
+    cero y uno."
+  - "Pero el cerebro no es as\xED. Su estructura f\xEDsica no se modifica para almacenar
+    una experiencia que t\xFA hayas podido vivir para luego  revivirla  cuando el
+    recuerdo vuelva a tu mente. Nuestro cerebro est\xE1 formado por neuronas que se
+    comunican entre s\xED a trav\xE9s de sinapsis, que son a veces peque\xF1as corrientes
+    el\xE9ctricas, y a veces neurotransmisores qu\xEDmicos. Pero las neuronas no son
+    un almac\xE9n de datos."
+  - "La estructura molecular del cerebro no se modifica para  grabar  las experiencias.
+    El cerebro es neuropl\xE1stico s\xED, y nuestros h\xE1bitos tienen su reflejo
+    f\xEDsico en el cerebro. Por ejemplo si meditamos las \xE1reas del cerebro relacionadas
+    con las emociones positivas y el optimismo se volver\xE1n m\xE1s activas. Pero
+    cada experiencia no queda grabada f\xEDsicamente como s\xED que queda grabada
+    en un ordenador.\r"
+  - "En cuanto a lo que preguntabas sobre el volc\xE1n, quiz\xE1 en la casa verde
+    te sepan decir algo, no lo s\xE9."
+  correntAnswer: 

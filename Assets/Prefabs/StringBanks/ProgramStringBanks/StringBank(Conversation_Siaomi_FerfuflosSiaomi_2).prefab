@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1461449592381726}
+  m_IsPrefabParent: 1
+--- !u!1 &1461449592381726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4755050270828214}
+  - component: {fileID: 114612051630678932}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Siaomi_FerfuflosSiaomi_2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4755050270828214
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461449592381726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114612051630678932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461449592381726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Siaomi_FerfuflosSiaomi_2_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "B\xE1sicamente creen que solucionar\xE1n sus problemas comprando objetos. Trabajan,
+    compran y tiran. Siguen trabajando, vuelven a comprar y vuelven a tirar. Y as\xED
+    continuamente. No se paran a pensar si realmente necesitan aquello que van a comprar.
+    Simplemente lo ven anunciado y si tienen dinero, lo compran."
+  - "Incluso a veces si no tienen dinero se endeudan para comprarlo. Persiguen llenar
+    el vac\xEDo que hay en sus vidas, pero es imposible que lo logren as\xED. Al contrario,
+    aumenta. Si no tienen el objeto que les atrae, se sienten frustrados. Cuando lo
+    consiguen no tardan en aburrirse de \xE9l y quieren otro. Les da una cierta satisfacci\xF3n,
+    s\xED, pero \xE9sta puede durar dos semanas, mientras que la letra la van a tener
+    que pagar a veces durante a\xF1os."
+  - "No se dan cuenta de que no es esa la felicidad que buscan, pero es que la mayor\xEDa
+    de ellos ni siquiera se han planteado qu\xE9 es la felicidad."
+  - "Y como colof\xF3n tampoco se dan cuenta de que el coste al que pueden acceder
+    a todos esos objetos es muy alto. No ven el coste de los obreros que trabajan
+    en condiciones lamentables en pa\xEDses del sur. Ni el coste medioambiental: har\xEDan
+    falta 4 planetas para mantener el ritmo de consumo de occidente.  Y lo peor de
+    todo es que todo esto no sirve para hacerles felices, m\xE1s bien al contrario."
+  - Claramente veo reflejado en ellos el mundo al otro lado del cristal del que vengo.
+  - Te entiendo, pero creo que solo por dejar de consumir alocadamente tampoco van
+    a encontrar la felicidad.
+  correntAnswer: 

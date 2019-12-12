@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1644622308850976}
+  m_IsPrefabParent: 1
+--- !u!1 &1644622308850976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4884677704910234}
+  - component: {fileID: 114494251360300204}
+  m_Layer: 0
+  m_Name: StringBank(MiPersonajeFantastico (1)Event0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4884677704910234
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644622308850976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114494251360300204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1644622308850976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: MiPersonajeFantastico (1)0_
+  randomYield: 0
+  phrase:
+  - 'Te voy a decir una serie de cosas. Una de ella es que eres un pedazo de trozo
+    de hijo de mio. Otra de ellas, es simplemente: Eres tonto y....'
+  - "Mi primera respuesta no se va a quedar calva. Va a contener partes equitativas
+    de iron\xEDa y humor sincero y sentido desde el fondo del kokoro. poco m\xE1s"
+  - "Mi segunda respo\xF1a va a ser un pipito m\xE1s corta que la anterior: tan s\xF3lo
+    dir\xE9 que, sin dar m\xE1s vueltas a la per\xEDfrasis, que gilip\xF3"
+  - "No tienes ni idea de lo que estoy hablando, \xBFverdad?"
+  - No, la verdad
+  - "Por eso tengo que dejarte arriado. \xA1Ciao!"
+  - "La gente malaaaaaaa es un p\xE1rrafo superlargo para que me de tiempo a mirar
+    qu\xE9 pasa con las cositas aqu\xED dentro......."
+  - "Qu\xE9 mala onda..."
+  - Esto es un gran rollo, porque si no sabes hablar bla bla bla, vamos a hacer globetes
+    muy largos, y tengo todo lo que hay que decir porque con una sola mano pues no
+    se vale hacer cosas diferentes a cosas distintas de la madre del cordero
+  - "Esto es un rollo pera de la coma de la caca de la raz\xF3n vac\xEDa de la costa
+    de los moretes de los d\xEDas que pasan volando. Cl\xE1usula suelo esto es un
+    roolllo abogado de las narrices."
+  - Hay que hacert un podre notarial
+  - jgf kjhg kgfkhgfkhgf jhgf lugkutyfkgv khvj ghvjhvnghvt fjhgvnhvcnvcnhgjyt fj cnbvchgc
+    jhgcnvcgfc jc nbvcngc jtc mhcngchgfc nvcnfgc jytf kgv hgv jhgc jgc hgcmhj kjhg
+    kuf kyfnghnghf jtfjg vjhg
+  - iuhfg sd jhbdsfBy default invisible characters (or whitespace characters) are
+    displayed in Sublime Text 2 whenever you make a selection over some text, but
+    occasionally it helps to see all invisible characters. By default invisible characters
+    (or whitespace characters) are displayed in Sublime Text 2 whenever you make a
+    selection over some text, but occasionally it helps to see all invisible characters.
+    By default invisible characters (or whitespace characters) are displayed in Sublime
+    Text 2 whenever you make a selection over some text, but occasionally it helps
+    to see all invisible characters.
+  - By default invisible characters (or whitespace characters) are displayed in Sublime
+    Text 2 whenever you make a selection over some text, but occasionally it helps
+    to see all invisible characters.
+  - akhoror oroo oro oro oro or oo roo rooro roor oro ro oro oro o roor ooo roor ooro
+    ro or oo ro oro o ro o oro oo ro oro oo ro oo ro o or o or
+  correntAnswer: 

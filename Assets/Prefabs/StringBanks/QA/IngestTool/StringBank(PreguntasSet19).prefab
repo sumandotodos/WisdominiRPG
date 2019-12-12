@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1656186538547994}
+  m_IsPrefabParent: 1
+--- !u!1 &1656186538547994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4402713178358142}
+  - component: {fileID: 114016578563235804}
+  m_Layer: 0
+  m_Name: StringBank(PreguntasSet19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4402713178358142
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656186538547994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114016578563235804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656186538547994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: PreguntasSet19
+  randomYield: 0
+  phrase:
+  - "\xBFCu\xE1l fue la principal causa por la que se produjo la barbarie del nazismo?"
+  - "\xBFQu\xE9 media diaria de horas se llevan los ni\xF1os de deberes a casa en
+    Espa\xF1a?"
+  - "\xBFSirve de algo reconocer las emociones que sientes?"
+  - "\xBFQu\xE9 demostr\xF3 el experimento de \u2018la c\xE1rcel\u2019 realizado en
+    la universidad de Stanford, donde se valor\xF3 en qu\xE9 medida nos vemos influenciados
+    por el entorno a la hora de realizar acciones negativas?"
+  - "\xBFCu\xE1l es la principal causa de que los productos de consumo, como ocurre
+    con la ropa, se hayan abaratado sustancialmente en las \xFAltimas d\xE9cadas?"
+  correntAnswer: 0100000000000000010000000100000001000000

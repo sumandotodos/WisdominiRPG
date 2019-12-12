@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1146287886232272}
+  m_IsPrefabParent: 1
+--- !u!1 &1146287886232272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4887411126357862}
+  - component: {fileID: 114159824794584564}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_GuardiaBunkerMaterio_Guardia4_part1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4887411126357862
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146287886232272}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114159824794584564
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146287886232272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_GuardiaBunkerMaterio_Guardia4_part1_
+  randomYield: 0
+  phrase:
+  - "las mutaciones que han ido ocurriendo en las distintas especies a lo largo de
+    su evoluci\xF3n desde que apareci\xF3 el primer ser vivo sobre la tierra, han
+    ocurrido \xFAnica y exclusivamente por azar"
+  - "Las mutaciones que daban lugar a seres mejor adaptados al entorno hac\xEDan que
+    la mutaci\xF3n se expandiera al cabo de unas pocas generaciones, mientras que
+    las que daban lugar a seres peor adaptados al entorno, desaparec\xEDan. Esa es
+    la raz\xF3n por la que al final se han mantenido solo las mutaciones que han dado
+    lugar a seres m\xE1s complejos y evolucionados"
+  - "Perdone pero eso es justamente lo que yo no entiendo. Si las mutaciones se produc\xEDan
+    por azar, entonces \xBFpor qu\xE9 se produjeron precisamente esas? Me refiero
+    a que si es el azar lo que causaba que el c\xF3digo gen\xE9tico mutara, enton-ces
+    pod\xEDa haberse dado cualquier mutaci\xF3n, cualquiera que se te ocurra"
+  - "\xBFHmm? \xBFQu\xE9? Mira, no entiendo muy bien a qu\xE9 te refieres. Pero nadie
+    puede pasar de aqu\xED. Est\xE1 prohibido, as\xED que \xA1largaos los dos!"
+  correntAnswer: 

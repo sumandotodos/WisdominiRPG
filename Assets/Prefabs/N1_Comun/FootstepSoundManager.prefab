@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &154804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 474528}
+  - component: {fileID: 11496336}
+  - component: {fileID: 8219052}
+  m_Layer: 0
+  m_Name: FootstepSoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &474528
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 97.4, y: 0.037319243, z: -109}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &8219052
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154804}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &11496336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300d9e4438b614aa9894fc865fc899ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bog:
+  - {fileID: 8300000, guid: dde3673c77989436cbe39d2532b06e05, type: 3}
+  - {fileID: 8300000, guid: 9a62118e1621d41b49c87a8f13f09863, type: 3}
+  - {fileID: 8300000, guid: 72a6641050b364eeba101a61d7d28bf5, type: 3}
+  - {fileID: 8300000, guid: 694f927eb1c3b421180f4fd2ccd587ce, type: 3}
+  - {fileID: 8300000, guid: 78c1247b91abd44108859b168f623a85, type: 3}
+  - {fileID: 8300000, guid: a05d01e5b44064346afb446bdb809c84, type: 3}
+  - {fileID: 8300000, guid: 1ea1a5b0516144de5a69a166ff63dfc8, type: 3}
+  - {fileID: 8300000, guid: 7bf4ed1933b0b4de4b945df7bd5e8cc2, type: 3}
+  sand:
+  - {fileID: 8300000, guid: d5a2f8d4a6fa2467eb303727031571ca, type: 3}
+  - {fileID: 8300000, guid: 8fec94d187fd44f49869b258328201c6, type: 3}
+  - {fileID: 8300000, guid: 7f467a1f30e534cb19d69e8f4c4e8d7e, type: 3}
+  - {fileID: 8300000, guid: a5c380667bb9f473d86f06fa7b885506, type: 3}
+  - {fileID: 8300000, guid: b8404bcedaf2049bcbe7cf81113922e3, type: 3}
+  - {fileID: 8300000, guid: 3fa9c5e2c983a4c94995b8664aace19b, type: 3}
+  - {fileID: 8300000, guid: e75c5d22bec7d4de78638b07724721ef, type: 3}
+  - {fileID: 8300000, guid: 7c762ff4889604d7ba2b129711170450, type: 3}
+  grass:
+  - {fileID: 8300000, guid: 03fd5881dcb3b494f859bbb172f2f3df, type: 3}
+  - {fileID: 8300000, guid: 897b8188820164bc8a0c8584ace617ed, type: 3}
+  - {fileID: 8300000, guid: 5b3be80c43b434b06b5c6b3767956ee7, type: 3}
+  - {fileID: 8300000, guid: 7a70ddd2d428a48c0b3c703e09b0d935, type: 3}
+  dirt:
+  - {fileID: 8300000, guid: f3876c4c3aadb402896c10661892175a, type: 3}
+  - {fileID: 8300000, guid: ba96f7e5038eb417697d22e8840d15f2, type: 3}
+  - {fileID: 8300000, guid: 425d782a8e551467ba28c8bb3fc277ed, type: 3}
+  - {fileID: 8300000, guid: 900450673d8cb4d16b3145411751f924, type: 3}
+  - {fileID: 8300000, guid: 642bfd45c0812425b960b09bdea4e54a, type: 3}
+  - {fileID: 8300000, guid: 015a8115326dc4f2daceeaaf11a5164b, type: 3}
+  - {fileID: 8300000, guid: b51961b1ef2604e3d82314e622d9bcb0, type: 3}
+  - {fileID: 8300000, guid: 2c408d3d0dddf404ca2fe2780d5274e0, type: 3}
+  concrete:
+  - {fileID: 8300000, guid: 04db13df138124058ab51a9c8c10e806, type: 3}
+  - {fileID: 8300000, guid: e5e6205d9637142c8881f987d9b883df, type: 3}
+  - {fileID: 8300000, guid: ccf9f3863307a43dfb3b74c6fa65eb06, type: 3}
+  - {fileID: 8300000, guid: 2e2a44f256477438f991d270fc149213, type: 3}
+  - {fileID: 8300000, guid: a64cc656f2c4a46628b5781836e21d94, type: 3}
+  - {fileID: 8300000, guid: d58bb4eb5e0474c2794597d928470f79, type: 3}
+  - {fileID: 8300000, guid: c0acb3c8b5fb0441bafc5cb22262a6c9, type: 3}
+  - {fileID: 8300000, guid: 8178d1cbb9d5043ca94df930fec7e1e9, type: 3}
+  wood:
+  - {fileID: 8300000, guid: d4320d049b9b14d238798740950ba4b1, type: 3}
+  - {fileID: 8300000, guid: fa24d9746edd64c10a37a5d0c3ec9597, type: 3}
+  - {fileID: 8300000, guid: 5201e5b9fd4b94cba9828f69f75aae84, type: 3}
+  - {fileID: 8300000, guid: 72466f5c5c57441688dc5d11ef78d15f, type: 3}
+  - {fileID: 8300000, guid: e20ba0be3f8cd47be95a4b6082db8e9f, type: 3}
+  - {fileID: 8300000, guid: 93ee7541452b14dab9c402bf90a52368, type: 3}
+  - {fileID: 8300000, guid: 6cc0a7c255814400b9b616959ee972a0, type: 3}
+  - {fileID: 8300000, guid: 1e9a92cb83f33450eabbaf4655c288a9, type: 3}
+  marble:
+  - {fileID: 8300000, guid: cebd5ad01360b4552bb873ff2a6d8f73, type: 3}
+  - {fileID: 8300000, guid: e137b65349c5444179e84d0ceaf5838f, type: 3}
+  - {fileID: 8300000, guid: 6b5938c7b633e49b5995dac7194e61f2, type: 3}
+  - {fileID: 8300000, guid: 1f69f1e9da203455096e0e973811b98c, type: 3}
+  - {fileID: 8300000, guid: c576a771f2f2b471d90eda64d177c2b8, type: 3}
+  - {fileID: 8300000, guid: f4b867ee4940a4d4ab8e2963f5f68a3a, type: 3}
+  - {fileID: 8300000, guid: 43fda4e9ca7b6443ca820251502f8748, type: 3}
+  - {fileID: 8300000, guid: 978b69936819c4e7294615671ba58306, type: 3}
+  metal:
+  - {fileID: 8300000, guid: 18d29d159f65e49acb8a0248a11eab71, type: 3}
+  - {fileID: 8300000, guid: a17ed90e3be1f421f9f486619a3481af, type: 3}
+  - {fileID: 8300000, guid: 684f513a8767943698c0b7ccae89c26e, type: 3}
+  - {fileID: 8300000, guid: 699442314d5dc4ad4b3a38580edd2bb2, type: 3}
+  - {fileID: 8300000, guid: 2c40d648dc9a041f19782f4f6e3d33a7, type: 3}
+  - {fileID: 8300000, guid: cd029ec0019a949d8865cc37e7bb1376, type: 3}
+  - {fileID: 8300000, guid: 3016df848e7d14a6bb86f11fd3fcd7a9, type: 3}
+  - {fileID: 8300000, guid: c0918bd66f6024d808c127766f7f10d4, type: 3}
+  polished:
+  - {fileID: 8300000, guid: adeb8ffcce226487c8b5d125a1d6781f, type: 3}
+  - {fileID: 8300000, guid: 0fad07bdcb0d04394b5530697597ed24, type: 3}
+  - {fileID: 8300000, guid: 1a6a4a8bb8b6c4e549485dab07a56d45, type: 3}
+  - {fileID: 8300000, guid: 80f81d18e94a64ab39e9e025cd70c3f4, type: 3}
+  - {fileID: 8300000, guid: 082ec4ebdb18b4fc1b51c15aba9ab707, type: 3}
+  - {fileID: 8300000, guid: a679c8dcaef63419983ad7f4730cfbbc, type: 3}
+  - {fileID: 8300000, guid: c84de648a2c6d4e10850ec8fbff2a6c1, type: 3}
+  - {fileID: 8300000, guid: d220b7cba74014c96b80ea2cffbc0300, type: 3}
+  carpet: []
+  ceramic: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 154804}
+  m_IsPrefabParent: 1

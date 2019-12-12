@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1599756452139868}
+  m_IsPrefabParent: 1
+--- !u!1 &1599756452139868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4901870243192308}
+  - component: {fileID: 114338973609942876}
+  - component: {fileID: 65125848106512740}
+  m_Layer: 0
+  m_Name: LeverHint2Program
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4901870243192308
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599756452139868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 48.84, y: -7.53, z: -215.76}
+  m_LocalScale: {x: 0.7456449, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65125848106512740
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599756452139868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.100815, y: 5.1764154, z: 10.563362}
+  m_Center: {x: 1.0673218, y: -0.26878023, z: -0.00642395}
+--- !u!114 &114338973609942876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599756452139868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a17f8e4e0194471bb45e937426a4abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 0000
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - if
+      - =
+      - kill
+      - nokill
+      - Retrieve data
+      - Constant
+      - HasPlayerReceivedFenceHint
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - kill
+    - theList:
+      - destroy
+    - theList:
+      - makeLabel
+      - nokill
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - =
+      - kill
+      - hint
+      - Retrieve data
+      - Constant
+      - HasPlayerReceivedFence2Hint
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - hint
+    - theList:
+      - chispAlert
+      - "Dir\xEDa que esa palanca sirve para abrir esta puerta, pero no la podemos
+        alcanzar desde aqu\xED..."
+      - wait
+      - LeverHint2Program0_0
+    - theList:
+      - chispAlert
+      - Sugiero que echemos un vistazo por los alrededores...
+      - wait
+      - LeverHint2Program0_1
+    - theList:
+      - closeChispAlert
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - storeData
+      - Boolean
+      - HasPlayerReceivedFence2Hint
+      - true
+    - theList:
+      - makeLabel
+      - kill
+    - theList:
+      - hide
+  - theList:
+    - theList:
+      - if
+      - =
+      - leveron
+      - leveroff
+      - Retrieve data
+      - Constant
+      - IsLever2On
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - leveron
+    - theList:
+      - hide
+    - theList:
+      - makeLabel
+      - leveroff
+    - theList:
+      - if
+      - =
+      - kill
+      - nokill
+      - Retrieve data
+      - Constant
+      - HasPlayerReceivedFence2Hint
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - kill
+    - theList:
+      - hide
+    - theList:
+      - makeLabel
+      - nokill
+  eventNamesInOrder:
+  - onInteract
+  - onAwake
+  isProgramRunning: 0000
+  programPointer_: 0000000000000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  - 0
+  waitingForAnswer: 0000
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  spriteHolder: {fileID: 0}
+  namer: 
+  nEvents: 0
+  interactable: 0
+  pickable: 0
+  images:
+  - {fileID: 2800000, guid: 53f2ae917f1c0491cae9b29c35f619a6, type: 3}
+  rgb:
+    R: 0
+    G: 0
+    B: 0
+  ready:
+    R: 0
+    G: 0
+    B: 0
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 0400000003000000
+  action:
+  - theList: 0a0000000f0000000d0000001300000013000000140000000b000000100000000d00000017000000
+  - theList: 0f0000000d000000170000000d0000000f0000000d000000170000000d000000
+  animationSpeed: 4
+  NextProgram: []
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects:
+  - {fileID: 8300000, guid: f3a815f331eea45f89777879e58a6751, type: 3}
+  music: []
+  interactIconName: Eye
+  FlameHeroClass: 0
+  FlameNumber: 0

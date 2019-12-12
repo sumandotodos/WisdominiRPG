@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1048890643270310}
+  m_IsPrefabParent: 1
+--- !u!1 &1048890643270310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4370034818544328}
+  - component: {fileID: 114084781802383380}
+  m_Layer: 0
+  m_Name: StringBank(PreguntasSet48)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4370034818544328
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1048890643270310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114084781802383380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1048890643270310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: PreguntasSet48
+  randomYield: 0
+  phrase:
+  - "\xBFQu\xE9 es un a\xF1o luz cuando hablamos de distancia?"
+  - "\xBFQu\xE9 es el universo observable?"
+  - "\xBFCu\xE1l es el di\xE1metro del universo observable?"
+  - "Si el universo existe desde hace 14.000 millones de a\xF1os, \xBFc\xF3mo puede
+    tener un tama\xF1o de 93.000 millones de a\xF1os luz si nada puede moverse m\xE1s
+    r\xE1pido que la luz?"
+  - "\xBFA qu\xE9 se refiere la frase \u201Csomos polvo de estrellas\u201D?"
+  correntAnswer: 0200000001000000010000000100000002000000

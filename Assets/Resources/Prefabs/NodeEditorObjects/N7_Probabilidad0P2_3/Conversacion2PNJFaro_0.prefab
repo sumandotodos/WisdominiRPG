@@ -1,0 +1,344 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012077147914}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012077147914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000010674380118}
+  - component: {fileID: 114000011410952962}
+  m_Layer: 0
+  m_Name: Conversacion2PNJFaro_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010674380118
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012077147914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011410952962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012077147914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Estoy contigo en que prefiero las explicaciones naturales a las sobrenaturales.
+        Pero dime, \xBFqu\xE9 es para ti la casualidad?"
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_0
+    - theList:
+      - say
+      - "Casualidad es que algo simplemente va y se da. Se dan las circunstancias
+        necesarias para que se d\xE9 algo, y entonces ese \u2018algo\u2019 sucede.
+        Y no hace falta preguntarse acerca de por qu\xE9 se han dado esas circunstancias
+        porque la causa no es otra que el azar."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_1
+    - theList:
+      - say
+      - "No es que haga falta preguntarse nada, pero si lo haces te puede hacer comprender
+        mejor el mundo en el que vives. Una definici\xF3n de azar es \u2018desorden\u2019,
+        pero en el universo no hay desorden. Otra definici\xF3n de azar es \u2018casualidad\u2019,
+        que ser\xEDa como decir que el universo se ha formado de chiripa."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_2
+    - theList:
+      - say
+      - "Que no hab\xEDa ninguna fuerza que dirigiera la formaci\xF3n del universo.
+        Y eso ser\xEDa como decir que todas que todas las posibilidades para que se
+        formara el universo eran igualmente probables, pero se dieron justamente las
+        que se ten\xEDan que dar para que apareciera un universo habitable y la vida."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_3
+    - theList:
+      - say
+      - Claro.
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_4
+    - theList:
+      - say
+      - "Pero esto no puede ser, porque el n\xFAmero de posibilidades que te\xF3ricamente
+        podr\xEDan haber tenido lugar es infinito. Mientras que el n\xFAmero de posibilidades
+        que puede dar lugar a un universo habitable es finito, de hecho solo unas
+        condiciones s\xFAper-precisas son compatibles con la vida."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_5
+    - theList:
+      - say
+      - "Entonces solo tienes que aplicar la f\xF3rmula de la probabilidad para darte
+        cuenta de que por azar no se pod\xEDa haber formado el universo. Porque si
+        todas las posibilidades son igualmente probables, la probabilidad de que eso
+        hubiera sucedido es cero."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_6
+    - theList:
+      - say
+      - Pero insisto, de hecho el universo se ha formado.
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_7
+    - theList:
+      - say
+      - "Pero porque no todas las posibilidades eran igualmente probables. De hecho
+        unas eran posibles y otras imposibles. Aquellas que ten\xEDan sentido, que
+        eran coherentes con todo lo dem\xE1s en un multiverso completamente interconectado,
+        se han dado. Mientras que aquellas que no ten\xEDan sentido, no se han dado."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_8
+    - theList:
+      - say
+      - "hmmmm\u2026."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_9
+    - theList:
+      - say
+      - "El azar es solo una excusa para no pensar en las causas y creer que no existen.
+        Te pondr\xE9 un ejemplo: si vas al casino a jugar en una ruleta perfectamente
+        equilibrada con 37 n\xFAmeros, la bolita podr\xE1 caer en cualquiera de las
+        casillas y tendr\xE1 la misma probabilidad de caer en cada una de las 37:
+        siendo esa probabilidad 1/37 para cada casilla."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_10
+    - theList:
+      - say
+      - <img src"https://commons.wikimedia.org/wiki/File:13-02-27-spielbank-wiesbaden-by-RalfR-093">
+      - wait
+      - 
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_11
+    - theList:
+      - say
+      - Ok, capisco.
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_12
+    - theList:
+      - say
+      - "sin embargo f\xEDjate que esto no evita que haya una o varias causas que
+        sean las que van a hacer que de hecho la bola caiga en una casilla o en otra.
+        Las causas pueden ser la manera de lanzar del crupier, el peso de la bola,
+        el impulso dado al giro de la ruleta, etc. A lo que voy es que las causas
+        que har\xE1n que la bola caiga, por ejemplo, en el cero, existen. El hecho
+        de que nosotros las conozcamos o no, no influye en absoluto para que de hecho
+        esas causas est\xE9n ah\xED. "
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_13
+    - theList:
+      - say
+      - vale, claro
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_14
+    - theList:
+      - branchTo
+      - Conversacion2PNJFaro_1/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Estoy contigo en que prefiero las explicaciones naturales a las sobrenaturales.
+        Pero dime, \xBFqu\xE9 es para ti la casualidad?"
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_0
+    - theList:
+      - say
+      - "Casualidad es que algo simplemente va y se da. Se dan las circunstancias
+        necesarias para que se d\xE9 algo, y entonces ese \u2018algo\u2019 sucede.
+        Y no hace falta preguntarse acerca de por qu\xE9 se han dado esas circunstancias
+        porque la causa no es otra que el azar."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_1
+    - theList:
+      - say
+      - "No es que haga falta preguntarse nada, pero si lo haces te puede hacer comprender
+        mejor el mundo en el que vives. Una definici\xF3n de azar es \u2018desorden\u2019,
+        pero en el universo no hay desorden. Otra definici\xF3n de azar es \u2018casualidad\u2019,
+        que ser\xEDa como decir que el universo se ha formado de chiripa."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_2
+    - theList:
+      - say
+      - "Que no hab\xEDa ninguna fuerza que dirigiera la formaci\xF3n del universo.
+        Y eso ser\xEDa como decir que todas que todas las posibilidades para que se
+        formara el universo eran igualmente probables, pero se dieron justamente las
+        que se ten\xEDan que dar para que apareciera un universo habitable y la vida."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_3
+    - theList:
+      - say
+      - Claro.
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_4
+    - theList:
+      - say
+      - "Pero esto no puede ser, porque el n\xFAmero de posibilidades que te\xF3ricamente
+        podr\xEDan haber tenido lugar es infinito. Mientras que el n\xFAmero de posibilidades
+        que puede dar lugar a un universo habitable es finito, de hecho solo unas
+        condiciones s\xFAper-precisas son compatibles con la vida."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_5
+    - theList:
+      - say
+      - "Entonces solo tienes que aplicar la f\xF3rmula de la probabilidad para darte
+        cuenta de que por azar no se pod\xEDa haber formado el universo. Porque si
+        todas las posibilidades son igualmente probables, la probabilidad de que eso
+        hubiera sucedido es cero."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_6
+    - theList:
+      - say
+      - Pero insisto, de hecho el universo se ha formado.
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_7
+    - theList:
+      - say
+      - "Pero porque no todas las posibilidades eran igualmente probables. De hecho
+        unas eran posibles y otras imposibles. Aquellas que ten\xEDan sentido, que
+        eran coherentes con todo lo dem\xE1s en un multiverso completamente interconectado,
+        se han dado. Mientras que aquellas que no ten\xEDan sentido, no se han dado."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_8
+    - theList:
+      - say
+      - "hmmmm\u2026."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_9
+    - theList:
+      - say
+      - "El azar es solo una excusa para no pensar en las causas y creer que no existen.
+        Te pondr\xE9 un ejemplo: si vas al casino a jugar en una ruleta perfectamente
+        equilibrada con 37 n\xFAmeros, la bolita podr\xE1 caer en cualquiera de las
+        casillas y tendr\xE1 la misma probabilidad de caer en cada una de las 37:
+        siendo esa probabilidad 1/37 para cada casilla."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_10
+    - theList:
+      - say
+      - <img src"https://commons.wikimedia.org/wiki/File:13-02-27-spielbank-wiesbaden-by-RalfR-093">
+      - wait
+      - 
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_11
+    - theList:
+      - say
+      - Ok, capisco.
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_12
+    - theList:
+      - say
+      - "sin embargo f\xEDjate que esto no evita que haya una o varias causas que
+        sean las que van a hacer que de hecho la bola caiga en una casilla o en otra.
+        Las causas pueden ser la manera de lanzar del crupier, el peso de la bola,
+        el impulso dado al giro de la ruleta, etc. A lo que voy es que las causas
+        que har\xE1n que la bola caiga, por ejemplo, en el cero, existen. El hecho
+        de que nosotros las conozcamos o no, no influye en absoluto para que de hecho
+        esas causas est\xE9n ah\xED. "
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_13
+    - theList:
+      - say
+      - vale, claro
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0_14
+    - theList:
+      - branchTo
+      - Conversacion2PNJFaro_1/0
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 350
+  windowY: 4

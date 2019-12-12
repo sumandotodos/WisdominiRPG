@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3859438188844081158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4131989174457439756}
+  - component: {fileID: 4710235945174001247}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N1_0_Traficante_Base_2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4131989174457439756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3859438188844081158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4710235945174001247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3859438188844081158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N1_0_Traficante_Base_2_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "Dime: si alguien te pega con un palo, \xBFte enfadas con el palo?"
+  - No, claro, me enfado con la persona.
+  - "Pues cuando una persona se muestra agresiva contigo es porque est\xE1 dominada
+    por sus emociones negativas. Ha perdido el control y es como un palo de madera.
+    No deber\xEDas enfadarte con ella, sino con las emociones negativas que hacen
+    que act\xFAe as\xED. Pero bueno, esto es s\xF3lo teor\xEDa, de lo que se trata
+    es de ponerlo en pr\xE1ctica."
+  - "\xBFEres el traficante de conocimiento?"
+  - "\xBFEres t\xFA quien prende esas llamas azules que he visto por ah\xED?"
+  - "\xBFEres t\xFA la voz que me hablaba antes de llegar aqu\xED?"
+  correntAnswer: 

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1255778959729594}
+  m_IsPrefabParent: 1
+--- !u!1 &1255778959729594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4757535986138560}
+  - component: {fileID: 114501450208109532}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4757535986138560
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1255778959729594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114501450208109532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1255778959729594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_
+  randomYield: 0
+  phrase:
+  - "S\xED se puede, mediante la hipnosis. Algunos m\xE9dicos ya la practican en sus
+    operaciones quir\xFArgicas para evitar usar anestesia. La hipnosis consiste en
+    entrar en un estado mental inducido en el que la mente se desconecta parcialmente
+    del entorno f\xEDsico que le rodea."
+  - "<img src=\"IMAGEN DESIERTO WORD n7 parte 2-di\xE1logos blancos y negrosv4\">"
+  - "El cerebro recibe la se\xF1al de calor, pero sin embargo la mente no la recoger\xE1,
+    y por eso no la vivir\xE1. Si has entrado en trance hipn\xF3tico correctamente,
+    para la mente, para ti, har\xE1 fr\xEDo. La mente ha decidido creer que hace fr\xEDo,
+    y har\xE1 fr\xEDo independientemente de lo que ocurra realmente en el mundo f\xEDsico
+    exterior. Por eso para poder ser hipnotizado es necesario que el paciente quiera
+    ser hipnotizado, porque \xE9l tiene control sobre su propia mente."
+  - "Lo que son capaces de hacer los grandes maestros de meditaci\xF3n gracias a su
+    gran dominio de la mente, es controlar la manera en la que su mente experimenta
+    los est\xEDmulos externos sin necesidad de ser hipnotizados. Por eso pueden soportar
+    grandes dolores pr\xE1cticamente sin inmutarse y sin necesidad de anestesia que
+    bloquee sus canales nerviosos."
+  - "\xBFQu\xE9 te parece?"
+  - No me lo creo.
+  - "Me parece tan extra\xF1o como a ti"
+  - 'Me parece algo asombroso '
+  correntAnswer: 

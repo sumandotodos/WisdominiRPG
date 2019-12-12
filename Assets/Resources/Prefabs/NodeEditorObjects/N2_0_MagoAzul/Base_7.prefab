@@ -1,0 +1,397 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1045297092109788}
+  m_IsPrefabParent: 1
+--- !u!1 &1045297092109788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4734793949333822}
+  - component: {fileID: 114985648992220182}
+  m_Layer: 0
+  m_Name: Base_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4734793949333822
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1045297092109788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114985648992220182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1045297092109788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Te hablar\xE9 de la magia que conozco. Dice todo lo contrario."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_0
+    - theList:
+      - say
+      - "Todos los sucesos est\xE1n inter-conectados entre s\xED"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_1
+    - theList:
+      - say
+      - "Lo que sucede es que la mayor\xEDa de las veces no somos cocientes de esas
+        interconexiones"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_2
+    - theList:
+      - say
+      - "Pero est\xE1n ah\xED. Abarcando desde lo m\xE1s grande: estrellas y planetas
+        influy\xE9ndose mutuamente entre s\xED."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_3
+    - theList:
+      - say
+      - "Hasta lo m\xE1s peque\xF1o:dos part\xEDculas subat\xF3micas en dos extremos
+        opuestos del universo tambi\xE9n est\xE1n interconectadas entre s\xED."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_4
+    - theList:
+      - say
+      - "Lo que le suceda a una, afectar\xE1 a la otra."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_5
+    - theList:
+      - say
+      - "En el caso de los planetas y las estrellas. Se afectan entre s\xED a causa
+        de que su presencia provoca que el espacio se curve. \xA1Que el propio espacio...!
+        se curve."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_6
+    - theList:
+      - say
+      - "No intentes imaginarlo...\r"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_7
+    - theList:
+      - say
+      - "En el caso de las part\xEDculas subat\xF3micas, sencillamente est\xE1n conectadas
+        entre s\xED. No a trav\xE9s de ninguna materia o energ\xEDa f\xEDsica. Simplemente
+        est\xE1n conectadas, de manera instant\xE1nea. Y por muy lejos que est\xE9n
+        la una de la otra."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_8
+    - theList:
+      - say
+      - "Y lo mismo sucede con todo lo dem\xE1s. Todo est\xE1 interconectado. El universo
+        es un continuo de materia y energ\xEDa, y somos nosotros los que nos inventamos
+        la separaci\xF3n a trav\xE9s de conceptos mentales."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_9
+    - theList:
+      - say
+      - "\xBFQu\xE9 significa que nada existe por s\xED mismo? Yo veo una monta\xF1a
+        y la monta\xF1a existe \xBFno?"
+      - wait
+      - Player
+      - Conv_N2_0_MagoAzul_Base_7_10
+    - theList:
+      - say
+      - "Pero si no existiera la peque\xF1a mota de polvo que ves volando frente a
+        ti, no existir\xEDa nada de lo dem\xE1s: ni el sol, ni la tierra, ni las personas
+        o animales, ni t\xFA mismo. No existir\xEDa nada porque nada existe por s\xED
+        mismo, todo est\xE1 interconectado con todo lo dem\xE1s."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_11
+    - theList:
+      - say
+      - "Aparece ante ti, pero no existe por s\xED misma. "
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_12
+    - theList:
+      - say
+      - "Incluso algo que nos parece tan s\xF3lido y real como una monta\xF1a, est\xE1
+        ah\xED porque ha habido unas causas previas que la han originado. El movimiento
+        de unas placas tect\xF3nicas, la formaci\xF3n del planeta, y la formaci\xF3n
+        del universo. "
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_13
+    - theList:
+      - say
+      - "Hasta que no se dieron esas circunstancias la monta\xF1a no exist\xEDa, y
+        cuando las circunstancias cambien, la monta\xF1a desaparecer\xE1. No quedar\xE1
+        nada de ella. La monta\xF1a tendr\xE1 la misma entidad que el sue\xF1o que
+        tuviste anoche..."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_14
+    - theList:
+      - say
+      - "No nos damos cuenta de esto \xFAnicamente porque tenemos la mente puesta
+        continuamente en las cosas mundanas del d\xEDa a d\xEDa. Nunca hemos mirado
+        ni imaginado m\xE1s all\xE1: miles de millones de a\xF1os antes o despu\xE9s
+        en el tiempo. "
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_15
+    - theList:
+      - say
+      - "Por eso te dec\xEDa que la monta\xF1a no existir\xEDa si no existiera todo
+        lo dem\xE1s, ya que fueron el resto de cosas las que causaron de manera m\xE1s
+        o menos directa que en un momento dado apareciera la monta\xF1a. "
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_16
+    - theList:
+      - say
+      - "Y lo mismo que pasa con la monta\xF1a, pasa con la mota de polvo, y con todo
+        lo dem\xE1s."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_17
+    - theList:
+      - say
+      - Suerte en tu camino, amigo.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_18
+      - 
+    - theList:
+      - clearDialogue
+      - Integer
+      - 
+      - 
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Te hablar\xE9 de la magia que conozco. Dice todo lo contrario."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_0
+    - theList:
+      - say
+      - "Todos los sucesos est\xE1n inter-conectados entre s\xED"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_1
+    - theList:
+      - say
+      - "Lo que sucede es que la mayor\xEDa de las veces no somos cocientes de esas
+        interconexiones"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_2
+    - theList:
+      - say
+      - "Pero est\xE1n ah\xED. Abarcando desde lo m\xE1s grande: estrellas y planetas
+        influy\xE9ndose mutuamente entre s\xED."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_3
+    - theList:
+      - say
+      - "Hasta lo m\xE1s peque\xF1o:dos part\xEDculas subat\xF3micas en dos extremos
+        opuestos del universo tambi\xE9n est\xE1n interconectadas entre s\xED."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_4
+    - theList:
+      - say
+      - "Lo que le suceda a una, afectar\xE1 a la otra."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_5
+    - theList:
+      - say
+      - "En el caso de los planetas y las estrellas. Se afectan entre s\xED a causa
+        de que su presencia provoca que el espacio se curve. \xA1Que el propio espacio...!
+        se curve."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_6
+    - theList:
+      - say
+      - "No intentes imaginarlo...\r"
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_7
+    - theList:
+      - say
+      - "En el caso de las part\xEDculas subat\xF3micas, sencillamente est\xE1n conectadas
+        entre s\xED. No a trav\xE9s de ninguna materia o energ\xEDa f\xEDsica. Simplemente
+        est\xE1n conectadas, de manera instant\xE1nea. Y por muy lejos que est\xE9n
+        la una de la otra."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_8
+    - theList:
+      - say
+      - "Y lo mismo sucede con todo lo dem\xE1s. Todo est\xE1 interconectado. El universo
+        es un continuo de materia y energ\xEDa, y somos nosotros los que nos inventamos
+        la separaci\xF3n a trav\xE9s de conceptos mentales."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_9
+    - theList:
+      - say
+      - "\xBFQu\xE9 significa que nada existe por s\xED mismo? Yo veo una monta\xF1a
+        y la monta\xF1a existe \xBFno?"
+      - wait
+      - Player
+      - Conv_N2_0_MagoAzul_Base_7_10
+    - theList:
+      - say
+      - "Pero si no existiera la peque\xF1a mota de polvo que ves volando frente a
+        ti, no existir\xEDa nada de lo dem\xE1s: ni el sol, ni la tierra, ni las personas
+        o animales, ni t\xFA mismo. No existir\xEDa nada porque nada existe por s\xED
+        mismo, todo est\xE1 interconectado con todo lo dem\xE1s."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_11
+    - theList:
+      - say
+      - "Aparece ante ti, pero no existe por s\xED misma. "
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_12
+    - theList:
+      - say
+      - "Incluso algo que nos parece tan s\xF3lido y real como una monta\xF1a, est\xE1
+        ah\xED porque ha habido unas causas previas que la han originado. El movimiento
+        de unas placas tect\xF3nicas, la formaci\xF3n del planeta, y la formaci\xF3n
+        del universo. "
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_13
+    - theList:
+      - say
+      - "Hasta que no se dieron esas circunstancias la monta\xF1a no exist\xEDa, y
+        cuando las circunstancias cambien, la monta\xF1a desaparecer\xE1. No quedar\xE1
+        nada de ella. La monta\xF1a tendr\xE1 la misma entidad que el sue\xF1o que
+        tuviste anoche..."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_14
+    - theList:
+      - say
+      - "No nos damos cuenta de esto \xFAnicamente porque tenemos la mente puesta
+        continuamente en las cosas mundanas del d\xEDa a d\xEDa. Nunca hemos mirado
+        ni imaginado m\xE1s all\xE1: miles de millones de a\xF1os antes o despu\xE9s
+        en el tiempo. "
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_15
+    - theList:
+      - say
+      - "Por eso te dec\xEDa que la monta\xF1a no existir\xEDa si no existiera todo
+        lo dem\xE1s, ya que fueron el resto de cosas las que causaron de manera m\xE1s
+        o menos directa que en un momento dado apareciera la monta\xF1a. "
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_16
+    - theList:
+      - say
+      - "Y lo mismo que pasa con la monta\xF1a, pasa con la mota de polvo, y con todo
+        lo dem\xE1s."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_17
+    - theList:
+      - say
+      - Suerte en tu camino, amigo.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoAzul_Base_7_18
+      - 
+    - theList:
+      - clearDialogue
+      - Integer
+      - 
+      - 
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000f000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 2654
+  windowY: 792

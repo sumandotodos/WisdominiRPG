@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1885119959474698}
+  m_IsPrefabParent: 1
+--- !u!1 &1885119959474698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4122820807007212}
+  - component: {fileID: 114730636954740062}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_GuardiaBunkerMaterio_Guardia4_part2_0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4122820807007212
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1885119959474698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114730636954740062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1885119959474698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_GuardiaBunkerMaterio_Guardia4_part2_0_
+  randomYield: 0
+  phrase:
+  - "Ahora yo mismo lo empiezo a ver m\xE1s claro. Se trata de que si las mutaciones
+    estuvieran guiadas por el azar, entonces pod\xEDa haber surgido cualquier cosa.
+    Un animal con la forma m\xE1s extra\xF1a que te puedas imaginar, o m\xE1s bien
+    un animal amorfo, es decir con un organismo incompatible con la vida. Porque cada
+    ser vivo es mucho m\xE1s de lo que vemos en la superficie. El ser m\xE1s simple
+    est\xE1 compuesto por millones de c\xE9lulas y numerosos \xF3rganos trabajando
+    coor-dinadamente a la vez: comunic\xE1ndose entre s\xED, cambiando de tarea en
+    el mo-mento adecuado, regulando la intensidad de cada actividad en funci\xF3n
+    de lo que estemos haciendo o lo que est\xE9 pasando a nuestro alrededor..."
+  - "F\xEDjate: en medio minuto respiramos unas 8 veces, producimos 0,3 gr de CO2,
+    pesta\xF1eamos unas 7 veces, nuestro coraz\xF3n late unas 36 veces, producimos
+    72 millones de gl\xF3bulos rojos, digerimos alimentos, nuestra sangre recorre
+    una distancia equivalente a 6 kil\xF3metros, desechamos 174.000 c\xE9lulas de
+    la epider-mis, nuestro cuerpo generar\xE1 unos 100 vatios de energ\xEDa, y si
+    no practicamos mindfulness tendremos un promedio de 25 pensamientos. Estas son
+    solo unas pocas de las cosas que hace continuamente nuestro cuerpo sin que nos
+    demos cuenta de ello. Para ello hace falta una coordinaci\xF3n y una precisi\xF3n
+    minuciosa. Todos los \xF3rganos y las c\xE9lulas de nuestro cuerpo son exactamente
+    como tie-nen que ser. Un cambio aleatorio dar\xEDa al traste con todo"
+  - "Hmmmm, vale, comparto que es bastante asombroso. Pero entonces \xBFc\xF3mo explic\xE1is
+    que a lo largo de la evoluci\xF3n haya habido mutaciones fallidas? Si el motor
+    de la evoluci\xF3n no es el azar, entonces no deber\xEDa haber habido fallos,
+    mutaciones que dieron lugar a seres peor adaptados al entorno que acabaron por
+    extinguirse"
+  - "\xBFPor qu\xE9 no? Quiz\xE1 la naturaleza tambi\xE9n experimenta a veces por
+    el mecanismo de la prueba y el error"
+  - Algunas de esas mutaciones fallidas se deben al impacto humano, por ejemplo cuando
+    hay escapes radioactivos
+  - "Ah\xED tienes raz\xF3n"
+  correntAnswer: 

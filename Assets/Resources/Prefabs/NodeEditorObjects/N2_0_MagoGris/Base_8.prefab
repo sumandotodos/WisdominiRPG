@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1367746718991594}
+  m_IsPrefabParent: 1
+--- !u!1 &1367746718991594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4871596390683836}
+  - component: {fileID: 114970177900244502}
+  m_Layer: 0
+  m_Name: Base_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4871596390683836
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367746718991594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114970177900244502
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367746718991594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Todo el tiempo que dediques a meditar sobre estas cuestiones ser\xE1 tiempo
+        bien empleado."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_0
+    - theList:
+      - say
+      - "No es una pregunta para que me respondas ahora. Ni m\xE1s adelante tampoco. "
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_1
+    - theList:
+      - say
+      - "Es solo una pregunta sobre la que t\xFA mismo puedes reflexionar si quieres.
+        Sobre la pregunta, y sobre lo que implica la respuesta."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_2
+    - theList:
+      - say
+      - "Mucha gente piensa que la vida surgi\xF3 de un universo sin vida."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_3
+    - theList:
+      - say
+      - Que por azar surgieron en un momento dado todos los virus, las bacterias,
+        las algas, los anfibios, los reptiles, la vida ...
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_4
+    - theList:
+      - say
+      - Y creen que surgieron de un universo material, carente de conciencia.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_5
+    - theList:
+      - say
+      - La magia que yo conozco afirma que eso es imposible.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_6
+    - theList:
+      - say
+      - Que no puede existir nada sin conciencia.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_7
+    - theList:
+      - say
+      - Ni un universo. Ni varios. Ni infinitos. Ni tampoco una simple mota de polvo.
+        Nada puede existir sin conciencia.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_8
+    - theList:
+      - branchTo
+      - Base_9/6
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Todo el tiempo que dediques a meditar sobre estas cuestiones ser\xE1 tiempo
+        bien empleado."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_0
+    - theList:
+      - say
+      - "No es una pregunta para que me respondas ahora. Ni m\xE1s adelante tampoco. "
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_1
+    - theList:
+      - say
+      - "Es solo una pregunta sobre la que t\xFA mismo puedes reflexionar si quieres.
+        Sobre la pregunta, y sobre lo que implica la respuesta."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_2
+    - theList:
+      - say
+      - "Mucha gente piensa que la vida surgi\xF3 de un universo sin vida."
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_3
+    - theList:
+      - say
+      - Que por azar surgieron en un momento dado todos los virus, las bacterias,
+        las algas, los anfibios, los reptiles, la vida ...
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_4
+    - theList:
+      - say
+      - Y creen que surgieron de un universo material, carente de conciencia.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_5
+    - theList:
+      - say
+      - La magia que yo conozco afirma que eso es imposible.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_6
+    - theList:
+      - say
+      - Que no puede existir nada sin conciencia.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_7
+    - theList:
+      - say
+      - Ni un universo. Ni varios. Ni infinitos. Ni tampoco una simple mota de polvo.
+        Nada puede existir sin conciencia.
+      - wait
+      - NPC1
+      - Conv_N2_0_MagoGris_Base_8_8
+    - theList:
+      - branchTo
+      - Base_9/6
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: -1
+  windowY: 995

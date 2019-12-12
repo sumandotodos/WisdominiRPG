@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1921961416013464}
+  m_IsPrefabParent: 1
+--- !u!1 &1921961416013464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4302230010369180}
+  - component: {fileID: 114979481580695120}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_GuardiaBunkerMaterio_Guardia5.2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4302230010369180
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921961416013464}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114979481580695120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1921961416013464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_GuardiaBunkerMaterio_Guardia5.2_
+  randomYield: 0
+  phrase:
+  - "Sin embargo yo hay algo que no entiendo, y es esto: nosotros no actuamos movidos
+    por el azar, \xBFno? Yo decido d\xF3nde quiero ir y qu\xE9 quiero hacer"
+  - "S\xED claro, es evidente"
+  - "Pero en cambio me dices que todo era azar antes de que apareciera el primer ser
+    vivo, el primer ser dotado de una cierta inteligencia, aunque fuera m\xEDnima"
+  - "S\xED. Ya te estoy diciendo que el primer ser vivo apareci\xF3 por azar"
+  - "\xBFY cu\xE1l dir\xEDas que fue ese primer ser vivo inteligente? \xBFUna c\xE9lula?
+    \xBFun pez? \xBFun primate? \xBFun humano?"
+  - "Hmmm, no s\xE9, una c\xE9lula quiz\xE1. Una c\xE9lula es un ser vivo que no es
+    movido por el azar, aunque su inteligencia se reduzca a mantenerse a base de comer
+    y auto-replicarse. O quiz\xE1 fuera un gusano acu\xE1tico el primer ser inteligente,
+    \xBFpero a qu\xE9 viene esa pregunta?"
+  - "En realidad da igual cu\xE1l sea. Lo que no entiendo es que antes de que apareciera
+    ese primer ser vivo todo era materia movi\xE9ndose de manera aleatoria. Todo el
+    universo, todo lo que existe era \xFAnicamente puro azar"
+  - "Y entonces de pronto, como por arte de magia, parte de esa materia deja de ser
+    \xFAnicamente materia inerte movi\xE9ndose a merced del azar"
+  - "\xBFPor qu\xE9 pas\xF3 esto? \xBFQu\xE9 fue lo que cambi\xF3 de pronto? Me refiero
+    a que si observas la materia f\xEDsica que conformaba ese primer gusano acu\xE1tico
+    antes y despu\xE9s de volverse un ser vivo inteligente y no movido por el azar,
+    no creo que encontr\xE1ramos grandes cambios"
+  - "Antes era una estructura de \xE1tomos unidos entre s\xED formando mol\xE9culas
+    y despu\xE9s tambi\xE9n. Si esos \xE1tomos eran movidos por el azar antes, tambi\xE9n
+    deb\xEDan ser movidos por el azar despu\xE9s"
+  - "\xBFPor qu\xE9?"
+  - "Porque siguen siendo \xE1tomos distribuidos por el espacio y enlazados unos con
+    otros"
+  - "Sigue siendo solo materia: con una forma, un tama\xF1o, una rugosidad, un peso,
+    un color, una densidad... pero materia al fin y al cabo"
+  - "Y lo que hay alrededor sigue siendo un universo entero movido por el azar. \xBFQu\xE9
+    ha pasado entonces para que ese min\xFAsculo trozo de materia pase de ser materia
+    inerte movida por el azar, a ser el primer ser vivo aut\xF3nomo e inteligente
+    capaz de tomar sus propias decisiones para sobrevivir?"
+  - "\xBFQu\xE9 cambio puede haber habido en ese trozo de materia aparte de algunos
+    enlaces at\xF3micos nuevos, y otros que se han roto?  Cuanto m\xE1s piensas en
+    ello m\xE1s curioso resulta, porque ocurri\xF3 algo a\xFAn m\xE1s asombroso"
+  - "\xBFEl qu\xE9?"
+  - "Que ese primer ser vivo era un ser sintiente\u2026 Percib\xEDa sensaciones: fr\xEDo,
+    calor, placer, dolor\u2026 Ese ser vivo pas\xF3 de pronto de no sentir nada, a
+    sentir. De la no existencia a existir. \xBFC\xF3mo es posible que un trozo de
+    materia de pronto empiece a sentir? Pase de ser algo inerte y sin vida, a sentir
+    y a existir. \xA1Se trata de la misma materia que hace un instante!"
+  - "\xBFNo te est\xE1s poniendo un poco trascendental con un gusano?"
+  - "Da igual el momento que tomes. Puedes fijarte en el instante en que apareci\xF3
+    el primer gusano, o puedes ir m\xE1s adelante en la cadena evolutiva, hasta que
+    apareci\xF3 el primer ser humano si quieres. El caso es que en alg\xFAn momento
+    se inici\xF3 la vida tal y como la conocemos, es decir percibir el mundo f\xEDsico,
+    sentir emociones, tener pensamientos\u2026 cosas que una piedra no puede hacer"
+  - "Y para m\xED creer que eso ocurri\xF3 porque un \xFAltimo \xE1tomo o grupo de
+    \xE1tomos, ocuparon su lugar en ese trozo de materia inerte que iba a dar lugar
+    al primer ser vivo, me parece excesivo"
+  - Hmmm...
+  correntAnswer: 

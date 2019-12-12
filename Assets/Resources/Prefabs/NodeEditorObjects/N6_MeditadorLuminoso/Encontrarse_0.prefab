@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &186784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 443888}
+  - component: {fileID: 11430004}
+  m_Layer: 0
+  m_Name: Encontrarse_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &443888
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+--- !u!114 &11430004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "Entonces est\xE1s en el lugar adecuado"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_0
+    - theList:
+      - say
+      - "Te contar\xE9 lo que s\xE9. Lo que aprend\xED de seres m\xE1s sabios que
+        yo"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_1
+    - theList:
+      - say
+      - "Pero antes de proseguir esta conversaci\xF3n debo darte un aviso que antes
+        me dieron a m\xED, que es este: no aceptes sin m\xE1s aquello que escuches
+        o leas"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_2
+    - theList:
+      - say
+      - " Anal\xEDzalo, medita sobre ello, ponlo en duda, reflexiona en calma sobre
+        ello"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_3
+    - theList:
+      - say
+      - Y hazlo solamente si sientes que es el momento en el que puedes y quieres
+        hacerlo
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_4
+    - theList:
+      - say
+      - "\xBFY c\xF3mo sabr\xE9 si es el momento adecuado?\r"
+      - don't wait
+      - Player
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_5
+    - theList:
+      - say
+      - "Es f\xE1cil: observ\xE1ndote. Si por ejemplo crees en un Dios del amor. No
+        en un dios del miedo, la culpa y el pecado, sino un dios que simplemente quiere
+        que todos los seres sean felices. Un dios cercano que te acompa\xF1a y gracias
+        al cu\xE1l eres mejor persona, entonces quiz\xE1 no necesites buscar m\xE1s"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_6
+    - theList:
+      - say
+      - "Quiz\xE1 ya hayas encontrado lo que viniste a buscar en esta vida y m\xE1s
+        ideas y conceptos solo sirvan para confundirte. Eso depende de cada uno, del
+        momento que est\xE9 viviendo...\r"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_7
+    - theList:
+      - ask
+      - 3
+      - No cre en dios
+      - Comprendo
+      - "Si te digo la verdad, siempre he cre\xEDdo que solo existe lo f\xEDsico y
+        lo que ha sido demostrado por la ciencia"
+      - Encontrarse_4/0
+      - Encontrarse_4/0
+      - Encontrarse_12/0
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_8
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_9
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_10
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "Entonces est\xE1s en el lugar adecuado"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_0
+    - theList:
+      - say
+      - "Te contar\xE9 lo que s\xE9. Lo que aprend\xED de seres m\xE1s sabios que
+        yo"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_1
+    - theList:
+      - say
+      - "Pero antes de proseguir esta conversaci\xF3n debo darte un aviso que antes
+        me dieron a m\xED, que es este: no aceptes sin m\xE1s aquello que escuches
+        o leas"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_2
+    - theList:
+      - say
+      - " Anal\xEDzalo, medita sobre ello, ponlo en duda, reflexiona en calma sobre
+        ello"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_3
+    - theList:
+      - say
+      - Y hazlo solamente si sientes que es el momento en el que puedes y quieres
+        hacerlo
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_4
+    - theList:
+      - say
+      - "\xBFY c\xF3mo sabr\xE9 si es el momento adecuado?\r"
+      - don't wait
+      - Player
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_5
+    - theList:
+      - say
+      - "Es f\xE1cil: observ\xE1ndote. Si por ejemplo crees en un Dios del amor. No
+        en un dios del miedo, la culpa y el pecado, sino un dios que simplemente quiere
+        que todos los seres sean felices. Un dios cercano que te acompa\xF1a y gracias
+        al cu\xE1l eres mejor persona, entonces quiz\xE1 no necesites buscar m\xE1s"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_6
+    - theList:
+      - say
+      - "Quiz\xE1 ya hayas encontrado lo que viniste a buscar en esta vida y m\xE1s
+        ideas y conceptos solo sirvan para confundirte. Eso depende de cada uno, del
+        momento que est\xE9 viviendo...\r"
+      - wait
+      - NPC1
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_7
+    - theList:
+      - ask
+      - 3
+      - No cre en dios
+      - Comprendo
+      - "Si te digo la verdad, siempre he cre\xEDdo que solo existe lo f\xEDsico y
+        lo que ha sido demostrado por la ciencia"
+      - Encontrarse_4/0
+      - Encontrarse_4/0
+      - Encontrarse_12/0
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_8
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_9
+      - Conv_N6_MeditadorLuminoso_Encontrarse_0_10
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1576
+  windowY: 883
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 186784}
+  m_IsPrefabParent: 1

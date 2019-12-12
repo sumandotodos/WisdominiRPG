@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1439220700108152}
+  m_IsPrefabParent: 1
+--- !u!1 &1439220700108152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4719105851738280}
+  - component: {fileID: 114508716474763578}
+  m_Layer: 0
+  m_Name: PreVerRicos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4719105851738280
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439220700108152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114508716474763578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439220700108152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - '>'
+      - PreVerRicos_2/0
+      - PreVerRicos/2
+      - Retrieve data
+      - Constant
+      - HasSpokenNpcCampo
+      - Integer
+      - 0
+    - theList:
+      - say
+      - "\xBFS\xED?\r"
+      - wait
+      - NPC1
+      - Conv_N3_0_NorteCampo_PreVerRicos_0
+    - theList:
+      - ask
+      - 2
+      - "Hay gente al sur del r\xEDo que lo est\xE1 pasando mal."
+      - "\xA1Eres la primera persona que veo disfrutar de un paseo por el campo! "
+      - PreVerRicos_0/0
+      - PreVerRicos_1/0
+      - Conv_N3_0_NorteCampo_PreVerRicos_1
+      - Conv_N3_0_NorteCampo_PreVerRicos_2
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - if
+      - '>'
+      - PreVerRicos_2/0
+      - PreVerRicos/2
+      - Retrieve data
+      - Constant
+      - HasSpokenNpcCampo
+      - Integer
+      - 0
+    - theList:
+      - say
+      - "\xBFS\xED?\r"
+      - wait
+      - NPC1
+      - Conv_N3_0_NorteCampo_PreVerRicos_0
+    - theList:
+      - ask
+      - 2
+      - "Hay gente al sur del r\xEDo que lo est\xE1 pasando mal."
+      - "\xA1Eres la primera persona que veo disfrutar de un paseo por el campo! "
+      - PreVerRicos_0/0
+      - PreVerRicos_1/0
+      - Conv_N3_0_NorteCampo_PreVerRicos_1
+      - Conv_N3_0_NorteCampo_PreVerRicos_2
+  eventNamesInOrder:
+  - onSpeak
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 0000000000000000
+  action:
+  - theList: 10000000150000000b0000000c000000
+  - theList: 
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 0
+  windowY: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &111720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 415464}
+  - component: {fileID: 11441150}
+  m_Layer: 0
+  m_Name: StringBankCollection(N1_PreguntasSinRespuesta)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &415464
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 626.0093, y: 194.38812, z: 236.19931}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11441150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96eb52b0f39a41549f03a8ff51d2174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bank:
+  - {fileID: 11418614, guid: 26eb4e48fd8bc4faabbc2287ee2e85e3, type: 2}
+  - {fileID: 11427130, guid: 645b8e770472c440b9fbc1e4f601bf98, type: 2}
+  - {fileID: 11422272, guid: 281131fbaba604625be1f6e112085cba, type: 2}
+  - {fileID: 11434800, guid: 9ce94ddbeeec94e86bf4250e6d6a77c4, type: 2}
+  - {fileID: 11418716, guid: b48d830d0248b4ed6867d4b183771109, type: 2}
+  - {fileID: 11406748, guid: cd9dca0117b134741b05fefc0b5631f5, type: 2}
+  - {fileID: 11475130, guid: 5c4de9e3c38674452bb766dca60d0bd9, type: 2}
+  random: 0
+  rosetta: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 111720}
+  m_IsPrefabParent: 1

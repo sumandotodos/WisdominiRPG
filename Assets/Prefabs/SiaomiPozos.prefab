@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1465615498230912}
+  m_IsPrefabParent: 1
+--- !u!1 &1465615498230912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4456881348048992}
+  - component: {fileID: 114974699562209688}
+  - component: {fileID: 114475859898544672}
+  m_Layer: 0
+  m_Name: SiaomiPozos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1976526184061888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4401996996995058}
+  - component: {fileID: 33642100411657136}
+  - component: {fileID: 64822304981882744}
+  - component: {fileID: 23328709069610696}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4401996996995058
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976526184061888}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.33, y: 1.51, z: -3.15}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 4456881348048992}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4456881348048992
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1465615498230912}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 138.15, y: -7.4007683, z: -219.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4401996996995058}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23328709069610696
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976526184061888}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &33642100411657136
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976526184061888}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &64822304981882744
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976526184061888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114475859898544672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1465615498230912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7001d2480fd8647a3581e71701c5d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114974699562209688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1465615498230912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40af3d52ab7a948e1a14652fcf796bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - if
+      - =
+      - congrat
+      - nothing
+      - Retrieve data
+      - Constant
+      - FirstWellDone
+      - Integer
+      - 1
+    - theList:
+      - makeLabel
+      - congrat
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - walkTo
+      - 0
+      - 0
+      - non-blocking
+    - theList:
+      - hide
+    - theList:
+      - delay
+      - 2
+    - theList:
+      - replaceProgram
+      - PozoDeSabiduria
+      - none
+      - True
+    - theList:
+      - hide
+      - Integer
+      - 0
+      - non-blocking
+    - theList:
+      - makeLabel
+      - nothing
+    - theList:
+      - destroy
+  programs:
+  - theList:
+    - theList:
+      - if
+      - =
+      - nothing
+      - continue
+      - Retrieve data
+      - Constant
+      - ConversationManaDone
+      - Boolean
+      - true
+    - theList:
+      - makeLabel
+      - continue
+    - theList:
+      - if
+      - =
+      - congrat
+      - nothing
+      - Retrieve data
+      - Constant
+      - FirstWellDone
+      - Integer
+      - 1
+    - theList:
+      - makeLabel
+      - congrat
+    - theList:
+      - storeData
+      - Boolean
+      - ConversationManaDone
+      - true
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - retrievePlayerPos
+      - 0
+      - 0
+      - non-blocking
+    - theList:
+      - delay
+      - 1.5
+    - theList:
+      - replaceProgram
+      - PozoDeSabiduria
+      - none
+      - True
+    - theList:
+      - storeData
+      - Boolean
+      - PozoSabiduriaFinished
+      - true
+    - theList:
+      - saveGame
+    - theList:
+      - delay
+      - 3
+    - theList:
+      - makeLabel
+      - nothing
+    - theList:
+      - unblockPlayerControls
+    - theList:
+      - destroy
+  eventNamesInOrder:
+  - customEvent1
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: Siaomi
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  interactEnabled: 1
+  distanceToPlayer: 0
+  followingState: 0
+  relativeCoordinatesScale: 1
+  customAnimationPlaying: -1
+  walkingToTarget: 0
+  walkingInitialVector: {x: 0, y: 0, z: 0}
+  targetX: 0
+  targetZ: 0
+  spriteHolder: {fileID: 1976526184061888}
+  showingFrame: 0
+  namer: 
+  nEvents: 0
+  nearRadius: 2
+  speed: 6
+  player: {fileID: 0}
+  canSpeak: 1
+  Idle:
+  - {fileID: 2800000, guid: dde12aa3bae1040e3b9687c18f1d2d63, type: 3}
+  - {fileID: 2800000, guid: 02a85261563c440b2b03ab621311d7bf, type: 3}
+  - {fileID: 2800000, guid: a81b53cca687b4f1a8371b860c317451, type: 3}
+  - {fileID: 2800000, guid: 9452d3a275e434c0ba09375a37c1c46c, type: 3}
+  - {fileID: 2800000, guid: 2ec386f273bb64fb5b4c45affead050f, type: 3}
+  - {fileID: 2800000, guid: a293ab5b24bbe4633b5de9c114ee827e, type: 3}
+  - {fileID: 2800000, guid: 2ec386f273bb64fb5b4c45affead050f, type: 3}
+  - {fileID: 2800000, guid: 9452d3a275e434c0ba09375a37c1c46c, type: 3}
+  - {fileID: 2800000, guid: a81b53cca687b4f1a8371b860c317451, type: 3}
+  - {fileID: 2800000, guid: 02a85261563c440b2b03ab621311d7bf, type: 3}
+  IdleAnimationSpeed: 8
+  WalkingFront: []
+  WalkingFrontLeft: []
+  WalkingLeft: []
+  WalkingLeftBack: []
+  WalkingBack: []
+  WalkingBackRight: []
+  WalkingRight: []
+  WalkingRightFront: []
+  NextProgram:
+  - {fileID: 11456366, guid: 47686ee9c31ec4831be4f37a2d21f8de, type: 2}
+  leftMiniatureN: {fileID: 2800000, guid: 690ea5ff122aa4087a33ea434bee38f7, type: 3}
+  leftMiniatureB: {fileID: 2800000, guid: 357cf99afb91e4e3cbf9c2734701368a, type: 3}
+  centerMiniatureN: {fileID: 0}
+  centerMiniatureB: {fileID: 0}
+  neutralMiniature: {fileID: 0}
+  blinkMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  images: []
+  sayImages: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 05000000
+  action:
+  - theList: 15000000130000001500000013000000180000001000000030000000040000001a000000180000002300000004000000130000001100000001000000
+  animationSpeed: 0
+  animationDelay: 0
+  frameTime: 0
+  walkingSpeed: 2
+  customAnimation1: []
+  customAnimation1Speed: 0
+  customAnimation2: []
+  customAnimation2Speed: 0
+  customAnimation3: []
+  customAnimation3Speed: 0
+  walkingState: 0
+  followState: 0
+  walkingDirection: 0
+  messageTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  soundEffects: []
+  music: []
+  stringBank: []
+  interrupted: 0
+  isRoot: 0
+  interactIconName: Mouth
+  followDistance: 4

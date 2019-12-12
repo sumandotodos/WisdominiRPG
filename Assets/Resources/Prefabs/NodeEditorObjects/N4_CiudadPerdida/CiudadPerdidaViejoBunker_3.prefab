@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012991630682}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012991630682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011524920148}
+  - component: {fileID: 114000013297413396}
+  m_Layer: 0
+  m_Name: CiudadPerdidaViejoBunker_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011524920148
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012991630682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013297413396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012991630682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - updateData
+      - Integer
+      - BunkerViejo0Tem
+      - Substract
+      - Constant
+      - 1
+    - theList:
+      - disableAnswer
+      - 2
+      - false
+      - false
+    - theList:
+      - say
+      - "Escucha pues: aunque la tierra se form\xF3 hace unos 4.500 millones de a\xF1os,
+        la vida en la tierra no surgi\xF3 hasta hace unos 3.500 millones de a\xF1os.
+        No podr\xEDa haber surgido poco despu\xE9s del Big Bang porque entonces solo
+        hab\xEDa \xE1tomos simples como el hidr\xF3geno y el helio, y los seres vivos
+        necesitamos \xE1tomos m\xE1s complejos y pesados, como el carbono y el nitr\xF3geno,
+        o como los metales que catalizan las reacciones esenciales."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_0
+    - theList:
+      - say
+      - "De este modo los primeros microbios (bacterias y arqueas) aparecieron hace
+        unos 3.500 millones de a\xF1os. Se estima que evolucionaron hasta transformarse
+        en la c\xE9lula eucariota, la primera capaz de auto-replicarse hace unos 2.000,
+        o 2.500 millones de a\xF1os."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_1
+    - theList:
+      - say
+      - "Estas c\xE9lulas evolucionaron hacia los primeros organismos multicelulares,
+        que aparecieron hace unos 800 millones de a\xF1os. Y el proceso continu\xF3
+        hasta hoy: algas, gusanos acu\xE1ticos, peces, anfibios, musara\xF1as, reptiles,
+        aves, mam\xEDferos, primates... y finalmente hace el ser humano u Homo sapiens,
+        nuestra especie. Hace tan solo unos 160.000 a\xF1os."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_2
+    - theList:
+      - say
+      - "Interesante aunque con n\xFAmeros tan altos no s\xE9 si me acabo de hacer
+        una idea"
+      - wait
+      - Player
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_3
+      - 
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_3
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_4
+    - theList:
+      - branchTo
+      - CiudadPerdidaViejoBunker_4/0
+  programs:
+  - theList:
+    - theList:
+      - updateData
+      - Integer
+      - BunkerViejo0Tem
+      - Substract
+      - Constant
+      - 1
+    - theList:
+      - disableAnswer
+      - 2
+      - false
+      - false
+    - theList:
+      - say
+      - "Escucha pues: aunque la tierra se form\xF3 hace unos 4.500 millones de a\xF1os,
+        la vida en la tierra no surgi\xF3 hasta hace unos 3.500 millones de a\xF1os.
+        No podr\xEDa haber surgido poco despu\xE9s del Big Bang porque entonces solo
+        hab\xEDa \xE1tomos simples como el hidr\xF3geno y el helio, y los seres vivos
+        necesitamos \xE1tomos m\xE1s complejos y pesados, como el carbono y el nitr\xF3geno,
+        o como los metales que catalizan las reacciones esenciales."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_0
+    - theList:
+      - say
+      - "De este modo los primeros microbios (bacterias y arqueas) aparecieron hace
+        unos 3.500 millones de a\xF1os. Se estima que evolucionaron hasta transformarse
+        en la c\xE9lula eucariota, la primera capaz de auto-replicarse hace unos 2.000,
+        o 2.500 millones de a\xF1os."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_1
+    - theList:
+      - say
+      - "Estas c\xE9lulas evolucionaron hacia los primeros organismos multicelulares,
+        que aparecieron hace unos 800 millones de a\xF1os. Y el proceso continu\xF3
+        hasta hoy: algas, gusanos acu\xE1ticos, peces, anfibios, musara\xF1as, reptiles,
+        aves, mam\xEDferos, primates... y finalmente hace el ser humano u Homo sapiens,
+        nuestra especie. Hace tan solo unos 160.000 a\xF1os."
+      - wait
+      - NPC1
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_2
+    - theList:
+      - say
+      - "Interesante aunque con n\xFAmeros tan altos no s\xE9 si me acabo de hacer
+        una idea"
+      - wait
+      - Player
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_3
+      - 
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_3
+      - Conv_N4_CiudadPerdida_CiudadPerdidaViejoBunker_3_4
+    - theList:
+      - branchTo
+      - CiudadPerdidaViejoBunker_4/0
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 19000000250000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 687
+  windowY: 1840

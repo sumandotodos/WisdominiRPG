@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1045653447225952}
+  m_IsPrefabParent: 1
+--- !u!1 &1045653447225952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4383943446142234}
+  - component: {fileID: 114182288650785750}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_BBB_PruebaDeFuego_3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4383943446142234
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1045653447225952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114182288650785750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1045653447225952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_BBB_PruebaDeFuego_3_
+  randomYield: 0
+  phrase:
+  - "Claro, como todos. Pero f\xEDjate: \xBFcu\xE1nto tiempo hemos dedicado a investigar
+    c\xF3mo podemos llegar a ser felices?"
+  - "\xBFCu\xE1nto tiempo hemos dedicado a analizar qu\xE9 nos hace estar alegres,
+    optimistas y en paz, y qu\xE9 nos hace estar tensos y pas\xE1ndolo mal?"
+  - "\xBFCu\xE1nto tiempo hemos dedicado a buscar y analizar lo que han descubierto
+    al respecto los psic\xF3logos y expertos en la materia, o los sabios de la antig\xFCedad?"
+  - La verdad es que no he dedicado mucho tiempo...
+  - 'La felicidad no es algo que se pueda investigar. Viene dada por las circunstancias
+    externas de tu vida: tu trabajo, tu pareja, tu tiempo libre...'
+  - La felicidad no se hace, se nace con ella o sin ella.
+  correntAnswer: 

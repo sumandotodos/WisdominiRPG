@@ -1,0 +1,480 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1319816326437850}
+  m_IsPrefabParent: 1
+--- !u!1 &1319816326437850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4518021980592754}
+  - component: {fileID: 114304457961379470}
+  m_Layer: 0
+  m_Name: Guardia1.1_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4518021980592754
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319816326437850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114304457961379470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319816326437850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFNuestra libertad? Pues est\xE1 justamente ah\xED, en nuestros genes."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_0
+    - theList:
+      - say
+      - "Eso es lo que no me termina de cuadrar. Que esos genes son solo materia org\xE1nica
+        con unas propiedades f\xEDsicas dadas. \xBFMe est\xE1 diciendo que en la forma,
+        el tama\xF1o, la rugosidad, la dureza, la densidad, y el color de los genes
+        est\xE1 grabada nuestra alegr\xEDa y nuestra tristeza. Nuestra sabidur\xEDa
+        y nuestra confusi\xF3n. Nuestra fuerza para saber sobreponernos a los obst\xE1culos
+        de la vida, y tambi\xE9n nuestros h\xE1bitos da\xF1inos como gritar o no escuchar."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_1
+    - theList:
+      - say
+      - "En definitiva: \xBFme est\xE1 diciendo que nuestra felicidad y nuestra infelicidad
+        vienen dados por un micro-moco invisible que alguien bautiz\xF3 con el nombre
+        de gen? Si es as\xED, \xBFpor qu\xE9 esforzarse por mejorar y ser feliz? Total,
+        si todo est\xE1 grabado en nuestros genes."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_2
+    - theList:
+      - say
+      - <img="OTRA VEZ IMAGEN DE GENES">
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_3
+    - theList:
+      - say
+      - "Bueno, tambi\xE9n influye el entorno claro."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_4
+    - theList:
+      - say
+      - "Eso tambi\xE9n lo pens\xE9. Pero sigo sin comprender. Porque hay un mont\xF3n
+        de casos documentados de gemelos que son criados igual y que sin embargo terminan
+        siendo muy distintos. Tienen gustos diferentes, caracteres diferentes y dedican
+        sus vidas a cosas que no tienen nada que ver, a pesar de haber recibido la
+        misma educaci\xF3n y haber tenido los mismos est\xEDmulos en su juventud.
+        \xBFC\xF3mo es posible?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_5
+    - theList:
+      - say
+      - "No puede ser que todo lo que somos y lo que hacemos parta exclusivamente
+        del cerebro. \xBFSer\xEDamos libres si fuera as\xED? Aparte de que el cerebro
+        no es el \xFAnico \xF3rgano en el que hay neuronas. No lo entiendo."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_6
+    - theList:
+      - say
+      - "Eres algo f\xEDsico exclusivamente. Tu manera de actuar parte exclusivamente
+        de tu cerebro, de las sinapsis que tienen lugar entre las neuronas de tu cerebro.
+        Nada m\xE1s."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_7
+    - theList:
+      - say
+      - "No puede ser que todo lo que somos y lo que hacemos parta exclusivamente
+        del cerebro. \xBFSer\xEDamos libres si fuera as\xED? Aparte de que el cerebro
+        no es el \xFAnico \xF3rgano en el que hay neuronas. No lo entiendo"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_8
+    - theList:
+      - say
+      - "Disculpe se\xF1or pero hay algo que no me acaba de encajar. \xBFPuedo hacerle
+        una pregunta?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_9
+    - theList:
+      - say
+      - Claro, dime
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_10
+    - theList:
+      - say
+      - "\xBFsientes que eres libre o que est\xE1s pre-programado por un c\xF3digo
+        dentro de tus c\xE9lulas?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_11
+    - theList:
+      - say
+      - "Yo soy mi cuerpo f\xEDsico. Soy las sinapsis que tienen lugar en mi cerebro.
+        Pero soy libre, claro."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_12
+    - theList:
+      - say
+      - "Ya, eso es lo que no acabo de entender, porque f\xEDjate. Si somos algo f\xEDsico,
+        esas sinapsis de nuestro cerebro ser\xE1n unas u otras en cada momento presente
+        en funci\xF3n de dos factores"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_13
+    - theList:
+      - say
+      - "los est\xEDmulos externos que estemos percibiendo en ese momento"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_14
+    - theList:
+      - say
+      - "C\xF3mo sea en ese momento la estructura f\xEDsica de nuestro cerebro. A
+        nivel celular, molecular o at\xF3mica, seg\xFAn el zoom con el que lo miremos."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_15
+    - theList:
+      - say
+      - "S\xED, claro."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_16
+    - theList:
+      - say
+      - 'ok. Y la estructura de nuestro cerebro ha devenido tal y como es en el momento
+        presente debido a tres factores:'
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_17
+    - theList:
+      - say
+      - "1-nuestra gen\xE9tica al ser fecundados, que confiri\xF3 unas caracter\xEDsticas
+        iniciales a nuestro cerebro."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_18
+    - theList:
+      - say
+      - "2-los est\xEDmulos externos que hemos ido recibiendo procedentes del mundo
+        exterior a lo largo del tiempo desde que vinimos a este mundo. Cada est\xEDmulo
+        fue captado por los sentidos y produjo un impulso el\xE9ctrico que lleg\xF3
+        al cerebro. Y en el cerebro se produjeron una serie de sinapsis, algunas de
+        las cuales reorganizaron la estructura f\xEDsica de nuestro cerebro."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_19
+    - theList:
+      - say
+      - "3-otras veces no son est\xEDmulos externos, sino la propia estructura f\xEDsica
+        de nuestro cerebro la que da lugar a sinapsis. Esto sucede cuando esas sinapsis
+        dan lugar a pensamientos o a acciones. Esta actividad tambi\xE9n puede cambiar
+        la estructura del cerebro, ya que el cerebro es neuropl\xE1stico."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_20
+    - theList:
+      - say
+      - "Vale s\xED. Pero \xBFa d\xF3nde quieres ir a parar?"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_21
+    - theList:
+      - say
+      - "La reflexi\xF3n que me hice fue que lo que hacemos en el momento presente
+        viene dado \xFAnicamente por dos causas:"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_22
+    - theList:
+      - say
+      - "Los est\xEDmulos externos que estemos percibiendo en ese momento presente."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_23
+    - theList:
+      - say
+      - 2-La estructura del cerebro en ese momento presente.
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_24
+    - theList:
+      - branchTo
+      - Guardia1.1_4/0
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFNuestra libertad? Pues est\xE1 justamente ah\xED, en nuestros genes."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_0
+    - theList:
+      - say
+      - "Eso es lo que no me termina de cuadrar. Que esos genes son solo materia org\xE1nica
+        con unas propiedades f\xEDsicas dadas. \xBFMe est\xE1 diciendo que en la forma,
+        el tama\xF1o, la rugosidad, la dureza, la densidad, y el color de los genes
+        est\xE1 grabada nuestra alegr\xEDa y nuestra tristeza. Nuestra sabidur\xEDa
+        y nuestra confusi\xF3n. Nuestra fuerza para saber sobreponernos a los obst\xE1culos
+        de la vida, y tambi\xE9n nuestros h\xE1bitos da\xF1inos como gritar o no escuchar."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_1
+    - theList:
+      - say
+      - "En definitiva: \xBFme est\xE1 diciendo que nuestra felicidad y nuestra infelicidad
+        vienen dados por un micro-moco invisible que alguien bautiz\xF3 con el nombre
+        de gen? Si es as\xED, \xBFpor qu\xE9 esforzarse por mejorar y ser feliz? Total,
+        si todo est\xE1 grabado en nuestros genes."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_2
+    - theList:
+      - say
+      - <img="OTRA VEZ IMAGEN DE GENES">
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_3
+    - theList:
+      - say
+      - "Bueno, tambi\xE9n influye el entorno claro."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_4
+    - theList:
+      - say
+      - "Eso tambi\xE9n lo pens\xE9. Pero sigo sin comprender. Porque hay un mont\xF3n
+        de casos documentados de gemelos que son criados igual y que sin embargo terminan
+        siendo muy distintos. Tienen gustos diferentes, caracteres diferentes y dedican
+        sus vidas a cosas que no tienen nada que ver, a pesar de haber recibido la
+        misma educaci\xF3n y haber tenido los mismos est\xEDmulos en su juventud.
+        \xBFC\xF3mo es posible?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_5
+    - theList:
+      - say
+      - "No puede ser que todo lo que somos y lo que hacemos parta exclusivamente
+        del cerebro. \xBFSer\xEDamos libres si fuera as\xED? Aparte de que el cerebro
+        no es el \xFAnico \xF3rgano en el que hay neuronas. No lo entiendo."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_6
+    - theList:
+      - say
+      - "Eres algo f\xEDsico exclusivamente. Tu manera de actuar parte exclusivamente
+        de tu cerebro, de las sinapsis que tienen lugar entre las neuronas de tu cerebro.
+        Nada m\xE1s."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_7
+    - theList:
+      - say
+      - "No puede ser que todo lo que somos y lo que hacemos parta exclusivamente
+        del cerebro. \xBFSer\xEDamos libres si fuera as\xED? Aparte de que el cerebro
+        no es el \xFAnico \xF3rgano en el que hay neuronas. No lo entiendo"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_8
+    - theList:
+      - say
+      - "Disculpe se\xF1or pero hay algo que no me acaba de encajar. \xBFPuedo hacerle
+        una pregunta?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_9
+    - theList:
+      - say
+      - Claro, dime
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_10
+    - theList:
+      - say
+      - "\xBFsientes que eres libre o que est\xE1s pre-programado por un c\xF3digo
+        dentro de tus c\xE9lulas?"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_11
+    - theList:
+      - say
+      - "Yo soy mi cuerpo f\xEDsico. Soy las sinapsis que tienen lugar en mi cerebro.
+        Pero soy libre, claro."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_12
+    - theList:
+      - say
+      - "Ya, eso es lo que no acabo de entender, porque f\xEDjate. Si somos algo f\xEDsico,
+        esas sinapsis de nuestro cerebro ser\xE1n unas u otras en cada momento presente
+        en funci\xF3n de dos factores"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_13
+    - theList:
+      - say
+      - "los est\xEDmulos externos que estemos percibiendo en ese momento"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_14
+    - theList:
+      - say
+      - "C\xF3mo sea en ese momento la estructura f\xEDsica de nuestro cerebro. A
+        nivel celular, molecular o at\xF3mica, seg\xFAn el zoom con el que lo miremos."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_15
+    - theList:
+      - say
+      - "S\xED, claro."
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_16
+    - theList:
+      - say
+      - 'ok. Y la estructura de nuestro cerebro ha devenido tal y como es en el momento
+        presente debido a tres factores:'
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_17
+    - theList:
+      - say
+      - "1-nuestra gen\xE9tica al ser fecundados, que confiri\xF3 unas caracter\xEDsticas
+        iniciales a nuestro cerebro."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_18
+    - theList:
+      - say
+      - "2-los est\xEDmulos externos que hemos ido recibiendo procedentes del mundo
+        exterior a lo largo del tiempo desde que vinimos a este mundo. Cada est\xEDmulo
+        fue captado por los sentidos y produjo un impulso el\xE9ctrico que lleg\xF3
+        al cerebro. Y en el cerebro se produjeron una serie de sinapsis, algunas de
+        las cuales reorganizaron la estructura f\xEDsica de nuestro cerebro."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_19
+    - theList:
+      - say
+      - "3-otras veces no son est\xEDmulos externos, sino la propia estructura f\xEDsica
+        de nuestro cerebro la que da lugar a sinapsis. Esto sucede cuando esas sinapsis
+        dan lugar a pensamientos o a acciones. Esta actividad tambi\xE9n puede cambiar
+        la estructura del cerebro, ya que el cerebro es neuropl\xE1stico."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_20
+    - theList:
+      - say
+      - "Vale s\xED. Pero \xBFa d\xF3nde quieres ir a parar?"
+      - wait
+      - NPC1
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_21
+    - theList:
+      - say
+      - "La reflexi\xF3n que me hice fue que lo que hacemos en el momento presente
+        viene dado \xFAnicamente por dos causas:"
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_22
+    - theList:
+      - say
+      - "Los est\xEDmulos externos que estemos percibiendo en ese momento presente."
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_23
+    - theList:
+      - say
+      - 2-La estructura del cerebro en ese momento presente.
+      - wait
+      - NPC2
+      - Conv_N4_GuardiaBunkerMaterio_Guardia1.1_3_24
+    - theList:
+      - branchTo
+      - Guardia1.1_4/0
+  eventNamesInOrder: []
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1349
+  windowY: 8

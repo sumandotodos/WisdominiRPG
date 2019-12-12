@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013596672434}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013596672434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013273952458}
+  - component: {fileID: 114000013111889102}
+  m_Layer: 0
+  m_Name: Conversacion2PNJFaro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013273952458
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013596672434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013111889102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013596672434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - <src img="IMAGEN MURAL TRAS PERSONA ">
+      - wait
+      - 
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0
+    - theList:
+      - say
+      - "\xBFNo te ha parecido o\xEDr un ruido?"
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1
+    - theList:
+      - say
+      - "S\xED, como de la puerta\u2026 bueno, ser\xE1 el viento."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_2
+    - theList:
+      - say
+      - "S\xED, ser\xE1. Pues como te iba diciendo, el universo y la vida es un accidente
+        fortuito. Muy raro, vale, pero que de hecho ha ocurrido, por eso estamos aqu\xED.
+        Y no le busques explicaciones espirituales porque ha ocurrido solamente por
+        azar."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_3
+    - theList:
+      - say
+      - es imposible que haya ocurrido por azar.
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_4
+    - theList:
+      - say
+      - "\xBFC\xF3mo va a ser imposible, si de hecho que estamos aqu\xED?"
+      - don't wait
+      - 
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_5
+    - theList:
+      - say
+      - "Pero no por azar. Estamos aqu\xED porque tiene sentido que estemos aqu\xED,
+        como consecuencia de un mont\xF3n de causas y circunstancias. Por azar no
+        habr\xEDa podido aparecer nunca ni el universo ni la vida."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_6
+    - theList:
+      - say
+      - "Pues yo creo que s\xED."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_7
+    - theList:
+      - say
+      - "\xBFConoces el segundo principio de la termodin\xE1mica, no? Dice que salvo
+        que haya una fuerza que lo evite, todo tiende de manera natural al desorden.
+        \xBFNo te resulta extra\xF1o que todas las leyes f\xEDsicas y constantes universales
+        del universo sean precisamente las que hacen posible la vida?"
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_8
+    - theList:
+      - say
+      - "Pueden ser as\xED por azar."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_9
+    - theList:
+      - say
+      - "Dime una cosa: \xBFqu\xE9 es azar para ti?"
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_10
+    - theList:
+      - say
+      - "\xBFAzar? pues eso, que por casualidad va y se da algo, sin que haya una
+        explicaci\xF3n sobrenatural ni nada parecido."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_11
+    - theList:
+      - branchTo
+      - Conversacion2PNJFaro_0/0
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+  programs:
+  - theList:
+    - theList:
+      - blockPlayerControls
+    - theList:
+      - say
+      - <src img="IMAGEN MURAL TRAS PERSONA ">
+      - wait
+      - 
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_0
+    - theList:
+      - say
+      - "\xBFNo te ha parecido o\xEDr un ruido?"
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_1
+    - theList:
+      - say
+      - "S\xED, como de la puerta\u2026 bueno, ser\xE1 el viento."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_2
+    - theList:
+      - say
+      - "S\xED, ser\xE1. Pues como te iba diciendo, el universo y la vida es un accidente
+        fortuito. Muy raro, vale, pero que de hecho ha ocurrido, por eso estamos aqu\xED.
+        Y no le busques explicaciones espirituales porque ha ocurrido solamente por
+        azar."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_3
+    - theList:
+      - say
+      - es imposible que haya ocurrido por azar.
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_4
+    - theList:
+      - say
+      - "\xBFC\xF3mo va a ser imposible, si de hecho que estamos aqu\xED?"
+      - don't wait
+      - 
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_5
+    - theList:
+      - say
+      - "Pero no por azar. Estamos aqu\xED porque tiene sentido que estemos aqu\xED,
+        como consecuencia de un mont\xF3n de causas y circunstancias. Por azar no
+        habr\xEDa podido aparecer nunca ni el universo ni la vida."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_6
+    - theList:
+      - say
+      - "Pues yo creo que s\xED."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_7
+    - theList:
+      - say
+      - "\xBFConoces el segundo principio de la termodin\xE1mica, no? Dice que salvo
+        que haya una fuerza que lo evite, todo tiende de manera natural al desorden.
+        \xBFNo te resulta extra\xF1o que todas las leyes f\xEDsicas y constantes universales
+        del universo sean precisamente las que hacen posible la vida?"
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_8
+    - theList:
+      - say
+      - "Pueden ser as\xED por azar."
+      - wait
+      - NPC2
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_9
+    - theList:
+      - say
+      - "Dime una cosa: \xBFqu\xE9 es azar para ti?"
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_10
+    - theList:
+      - say
+      - "\xBFAzar? pues eso, que por casualidad va y se da algo, sin que haya una
+        explicaci\xF3n sobrenatural ni nada parecido."
+      - wait
+      - NPC1
+      - Conv_N7_Probabilidad0P2_3_Conversacion2PNJFaro_11
+    - theList:
+      - branchTo
+      - Conversacion2PNJFaro_0/0
+      - 
+      - 
+      - Constant
+      - Constant
+      - 
+      - 
+  eventNamesInOrder:
+  - none
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 100000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 1
+  windowX: 11
+  windowY: 6

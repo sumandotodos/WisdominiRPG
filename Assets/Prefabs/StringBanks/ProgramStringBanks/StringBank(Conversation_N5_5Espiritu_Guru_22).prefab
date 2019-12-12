@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &131664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 467174}
+  - component: {fileID: 11497794}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N5_5Espiritu_Guru_22)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &467174
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11497794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N5_5Espiritu_Guru_22_
+  randomYield: 0
+  phrase:
+  - "Exacto. Porque mucha gente ignora que la verdadera fuente de felicidad est\xE1
+    en dar"
+  - "En hacer cosas por los dem\xE1s. En buscar el bien de los otros, el bien com\xFAn"
+  - Cuando tu mirada deja de estar puesta en el  yo   y pasa a estar puesta en los
+    otros, todo empieza a cambiar
+  - "Tus problemas y preocupaciones, que antes te parec\xEDan tan graves e importantes,
+    pasan gradualmente a ser mucho menos importantes de lo que eran"
+  - "Y poco a poco tu vida va adquiriendo un nuevo sentido: el de tratar de ayudar
+    a los dem\xE1s, pensar en ellos, escucharles, ponerte en su lugar, no ofenderles,
+    no da\xF1arles"
+  - ' En definitiva: tratar de que sean felices, y de que no sufran'
+  - "Y cuando haces esto y ves que tu esfuerzo da sus frutos. Que en este preciso
+    instante, en otra parte, hay alguien que es m\xE1s feliz  gracias a ti"
+  - " entonces autom\xE1ticamente tu vida adquiere un significado distinto"
+  - "T\xFA tambi\xE9n te sientes bien. Feliz. En paz. Y no es una felicidad fruto
+    de una euforia pasajera. Es una felicidad permanente, una felicidad que te acompa\xF1ar\xE1
+    siempre"
+  - Del mismo modo que el nuevo rumbo que has decidido dar a tu vida no es tampoco
+    algo pasajero
+  - "As\xED, poco a poco, la calma, el bienestar, la alegr\xEDa y el optimismo ir\xE1n
+    formando parte de tu vida"
+  - "Trato de llevar esa filosof\xEDa de vida lo mejor que puedo"
+  - "Mi vida no es nada f\xE1cil ahora mismo. Tengo mis propios problemas para andar
+    ocup\xE1ndome de los problemas de los dem\xE1s"
+  correntAnswer: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 131664}
+  m_IsPrefabParent: 1

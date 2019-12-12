@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1474797494924978}
+  m_IsPrefabParent: 1
+--- !u!1 &1474797494924978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4091987103909414}
+  - component: {fileID: 114305205215487284}
+  m_Layer: 0
+  m_Name: StringBank(N3OjosRojosYoguisAmigos)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4091987103909414
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474797494924978}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114305205215487284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474797494924978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: Amigos
+  rosetta: {fileID: 0}
+  wisdom: Yoguis
+  extra: N3OjosRojos
+  randomYield: 0
+  standard: 1
+  phrase:
+  - "Deja de hacerme ilusi\xF3n quiero otro nuevo"
+  - "Siento lo mismo que cuando ten\xEDa el modelo antiguo"
+  - "Ya me he acostumbrado a \xE9l y no me hace ninguna ilusi\xF3n"
+  - "Me he cansado de \xE9l"
+  - "'\xA1Tengo que renovarme ya!'"
+  - "Siento ansiedad por compr\xE1rmelo"
+  - "Cuando veo a alguien con el nuevo modelo me parece que el m\xEDo es viejo y feo"
+  - "Me siento insatisfacho sin \xE9l"
+  correntAnswer: 

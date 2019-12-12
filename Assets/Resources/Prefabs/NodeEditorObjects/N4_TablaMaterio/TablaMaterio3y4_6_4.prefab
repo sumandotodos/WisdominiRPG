@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012205456092}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012205456092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012082985222}
+  - component: {fileID: 114000012416647148}
+  m_Layer: 0
+  m_Name: TablaMaterio3y4_6_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012082985222
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012205456092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000012416647148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012205456092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 pas\xF3 esto? \xBFQu\xE9 fue lo que cambi\xF3 de pronto? Me
+        refiero a que si observas la materia f\xEDsica que conformaba ese primer gusano
+        acu\xE1tico antes y despu\xE9s de volverse un ser vivo inteligente y no movido
+        por el azar, no creo que encontr\xE1ramos grandes cambios."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_0
+    - theList:
+      - say
+      - "Antes era una estructura de \xE1tomos unidos entre s\xED formando mol\xE9culas
+        y despu\xE9s tambi\xE9n. Si esos \xE1tomos eran movidos por el azar antes,
+        tambi\xE9n deb\xEDan ser movidos por el azar despu\xE9s."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_1
+    - theList:
+      - say
+      - <img="IMAGEN ESTRUCTURA RARA">
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_2
+    - theList:
+      - say
+      - "\xBFpor qu\xE9?"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_3
+    - theList:
+      - say
+      - "Porque siguen siendo \xE1tomos distribuidos por el espacio y enlazados unos
+        con otros."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_4
+    - theList:
+      - say
+      - "Sigue siendo solo materia: con una forma, un tama\xF1o, una rugosidad, un
+        peso, un color, una densidad\u2026 pero materia al fin y al cabo."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_5
+    - theList:
+      - say
+      - "Y lo que hay alrededor sigue siendo un universo entero movido por el azar.
+        \xBFQu\xE9 ha pasado entonces para que ese min\xFAsculo trozo de materia pase
+        de ser materia inerte movida por el azar, a ser el primer ser vivo aut\xF3nomo
+        e inteligente capaz de tomar sus propias decisiones para sobrevivir?"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_6
+    - theList:
+      - say
+      - "\xBFQu\xE9 cambio puede haber habido en ese trozo de materia aparte de algunos
+        enlaces at\xF3micos nuevos, y otros que se han roto?  "
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_7
+    - theList:
+      - say
+      - "Cuanto m\xE1s piensas en ello m\xE1s curioso resulta, porque ocurri\xF3 algo
+        a\xFAn m\xE1s asombroso."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_8
+    - theList:
+      - say
+      - "\xBFEl qu\xE9?"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_9
+    - theList:
+      - say
+      - "que ese primer ser vivo era un ser sintiente\u2026 Percib\xEDa sensaciones:
+        fr\xEDo, calor, placer, dolor\u2026"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_10
+    - theList:
+      - say
+      - "Ese ser vivo pas\xF3 de pronto de no sentir nada, a sentir. De la no existencia
+        a existir."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_11
+    - theList:
+      - say
+      - "\xBFC\xF3mo es posible que un trozo de materia de pronto empiece a sentir?
+        Pase de ser algo inerte y sin vida, a sentir y a existir. \xA1Se trata de
+        la misma materia que hace un instante!"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_12
+    - theList:
+      - branchTo
+      - TablaMaterio3y4_6_5/0
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_13
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "\xBFPor qu\xE9 pas\xF3 esto? \xBFQu\xE9 fue lo que cambi\xF3 de pronto? Me
+        refiero a que si observas la materia f\xEDsica que conformaba ese primer gusano
+        acu\xE1tico antes y despu\xE9s de volverse un ser vivo inteligente y no movido
+        por el azar, no creo que encontr\xE1ramos grandes cambios."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_0
+    - theList:
+      - say
+      - "Antes era una estructura de \xE1tomos unidos entre s\xED formando mol\xE9culas
+        y despu\xE9s tambi\xE9n. Si esos \xE1tomos eran movidos por el azar antes,
+        tambi\xE9n deb\xEDan ser movidos por el azar despu\xE9s."
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_1
+    - theList:
+      - say
+      - <img="IMAGEN ESTRUCTURA RARA">
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_2
+    - theList:
+      - say
+      - "\xBFpor qu\xE9?"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_3
+    - theList:
+      - say
+      - "Porque siguen siendo \xE1tomos distribuidos por el espacio y enlazados unos
+        con otros."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_4
+    - theList:
+      - say
+      - "Sigue siendo solo materia: con una forma, un tama\xF1o, una rugosidad, un
+        peso, un color, una densidad\u2026 pero materia al fin y al cabo."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_5
+    - theList:
+      - say
+      - "Y lo que hay alrededor sigue siendo un universo entero movido por el azar.
+        \xBFQu\xE9 ha pasado entonces para que ese min\xFAsculo trozo de materia pase
+        de ser materia inerte movida por el azar, a ser el primer ser vivo aut\xF3nomo
+        e inteligente capaz de tomar sus propias decisiones para sobrevivir?"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_6
+    - theList:
+      - say
+      - "\xBFQu\xE9 cambio puede haber habido en ese trozo de materia aparte de algunos
+        enlaces at\xF3micos nuevos, y otros que se han roto?  "
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_7
+    - theList:
+      - say
+      - "Cuanto m\xE1s piensas en ello m\xE1s curioso resulta, porque ocurri\xF3 algo
+        a\xFAn m\xE1s asombroso."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_8
+    - theList:
+      - say
+      - "\xBFEl qu\xE9?"
+      - wait
+      - NPC1
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_9
+    - theList:
+      - say
+      - "que ese primer ser vivo era un ser sintiente\u2026 Percib\xEDa sensaciones:
+        fr\xEDo, calor, placer, dolor\u2026"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_10
+    - theList:
+      - say
+      - "Ese ser vivo pas\xF3 de pronto de no sentir nada, a sentir. De la no existencia
+        a existir."
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_11
+    - theList:
+      - say
+      - "\xBFC\xF3mo es posible que un trozo de materia de pronto empiece a sentir?
+        Pase de ser algo inerte y sin vida, a sentir y a existir. \xA1Se trata de
+        la misma materia que hace un instante!"
+      - wait
+      - NPC2
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_12
+    - theList:
+      - branchTo
+      - TablaMaterio3y4_6_5/0
+      - Conv_N4_TablaMaterio_TablaMaterio3y4_6_4_13
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b00000014000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1697
+  windowY: 5

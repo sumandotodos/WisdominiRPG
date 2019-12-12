@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1920189786583982}
+  m_IsPrefabParent: 1
+--- !u!1 &1920189786583982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4987231055353284}
+  - component: {fileID: 114751614475397106}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_GuardiaBunkerMaterio_Gurdia1.2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4987231055353284
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1920189786583982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114751614475397106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1920189786583982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_GuardiaBunkerMaterio_Gurdia1.2_
+  randomYield: 0
+  phrase:
+  - "Ya vale, pero yo hay algunas cosas que no acabo de entender. A ver si usted que
+    es un cient\xEDfico puede aclar\xE1rmelas. D\xEDgame por favor: \xBFpuede estar
+    grabado en los genes lo que es una aguja?  "
+  - "\xBFUna aguja? No\r"
+  - "\xBFY lo que es el dinero? "
+  - Tampoco
+  - "\xBFY el polvo de los muebles?  "
+  - "No, no\r"
+  - "\xBFY los valores monetarios como las acciones o las letras? "
+  - "No\r"
+  - "\xBFY los espejos?  "
+  - para nada
+  - "\xBFY lo que es una lombriz, una serpiente, una ara\xF1a, o una rata?"
+  - "\xA1Basta ya! Claro que no. \xBFMe est\xE1s tomando el pelo? \xBFQu\xE9 tonter\xEDa
+    es esta de preguntar si todas esas cosas pueden estar grabadas en los genes? \xBFA
+    d\xF3nde quieres ir a parar?\r"
+  - "Le he hecho todas esas preguntas porque hay personas que tienen fobia a cada
+    una de esas cosas, y a otras que te sorprender\xEDan a\xFAn m\xE1s"
+  - "Vale, muy bien. Habr\xE1n vivido experiencias traum\xE1ticas que les han hecho
+    desarrollar esa fobia. \xBFY qu\xE9?\r"
+  - "Pues esa es la cosa. Que en algunos casos s\xED que fue as\xED. Tiene sentido,
+    y resulta coherente"
+  - vale, pues resuelto el tema
+  - "Pero es que en muchos otros casos no ha existido ninguna experiencia en la vida
+    de esa persona que pueda haber dado lugar a esa fobia. Entonces, \xBFde d\xF3nde
+    proviene?\r"
+  - "\xBFEst\xE1s seguro?\r"
+  - "Completamente. Compru\xE9balo t\xFA mismo."
+  - "Entonces s\xED, tendr\xE1 que provenir de los genes. No va a provenir de una
+    vida anterior"
+  - "\xBFY c\xF3mo codificas en un gen lo que es por ejemplo un perro? Hay ni\xF1os
+    que desde que son peque\xF1os les tienen p\xE1nico a los perros. A pesar de no
+    haber vivido ninguna experiencia traum\xE1tica con uno, de que el ni\xF1o no sea
+    un ni\xF1o asustadizo con otras cosas, y de que sus padres le hayan educado para
+    que vea a los perros como seres amigables. A pesar de todo esto, hay ni\xF1os
+    que tienen fobia a los perros. \xBFPuede un perro estar grabado en un c\xF3digo
+    de mol\xE9culas? "
+  - "Es posible, no quiere decir que se guarde un perro en los genes, \xBFpero y un
+    depredador?Todo siempre tiene una explicaci\xF3n"
+  - "Y no solo con perros. Como te digo hay fobias a los objetos m\xE1s extra\xF1os
+    que puedas imaginar. \xBFC\xF3mo codificas en un gen lo que es el ajo? Pues hay
+    quien le tiene fobia al ajo"
+  - Esas son las cosas que te hacen pensar...
+  correntAnswer: 

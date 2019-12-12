@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1063067051567926}
+  m_IsPrefabParent: 1
+--- !u!1 &1063067051567926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4057430754160968}
+  - component: {fileID: 114815118366163802}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N7_CasaMoradaP2_DaltonicoCasaMorada)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4057430754160968
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1063067051567926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114815118366163802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1063067051567926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N7_CasaMoradaP2_DaltonicoCasaMorada_
+  randomYield: 0
+  phrase:
+  - "Hola visitante, no te hab\xEDa visto nunca por aqu\xED \xBFqu\xE9 quieres?"
+  - "Busco la mayor fuente de poder que se supone que hay en el volc\xE1n. \xBFPod\xE9is
+    ayudarme?"
+  - "No, lo siento, nunca he estado all\xED."
+  - "No es probable  pero podr\xEDa ser."
+  - "\xBFDe qu\xE9 hablabais?"
+  - "Trataba de hacerle ver aqu\xED a mi amigo Roger que ellos ten\xEDan raz\xF3n,
+    que la ciencia ha demostrado claramente que la conciencia es solo la electroqu\xEDmica
+    del cerebro"
+  - "No. la ciencia estudia la electroqu\xEDmica del cerebro y la relaciona con lo
+    que percibe la mente. Pero no ha demostrado en ning\xFAn momento que solo exista
+    lo f\xEDsico. Dime una cosa visitante: \xBFqu\xE9 es para ti el color rojo?"
+  - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Rojos.png/250px-Rojos.png">
+  - "Pues qu\xE9 va a ser. Un color. "
+  - "Hablar de colores es hablar de conceptos. Un color es una idea, un concepto.
+    Aunque quiz\xE1 t\xFA me est\xE1s hablando de la experiencia de percibir el color
+    que hemos bautizado con el nombre de  rojo."
+  correntAnswer: 

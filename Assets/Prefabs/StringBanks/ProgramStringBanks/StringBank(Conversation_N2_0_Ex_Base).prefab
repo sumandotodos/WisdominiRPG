@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1536264105735684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4850233681413416}
+  - component: {fileID: 114399871761694500}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N2_0_Ex_Base)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4850233681413416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536264105735684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114399871761694500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536264105735684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N2_0_Ex_Base_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "\xBFQu\xE9 quieres?\r"
+  - "\xBFPuedes ayudarme? Necesito saber qu\xE9 3 cualidades solo los seres humanos
+    poseemos."
+  - "Oh dios, \xA1qu\xE9 desdichado soy!, \xBFpor qu\xE9 me has tenido que hacer esa
+    pregunta? "
+  - ' No te das cuenta de que me trae a la cabeza el recuerdo de mi ex. Era maravillosa,
+    a ella le encantaban los animales.'
+  - "\xBFPor qu\xE9 tuvo que dejarme? Dime amigo, \xBFqu\xE9 puedo hacer?"
+  - "conoce gente nueva. Cuando lo hagas ver\xE1s que te puedes enamorar de otras
+    mujeres que son tan maravillosas como ella"
+  - "\xBFHas intentado volver con ella?"
+  correntAnswer: 

@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1102971565850692}
+  m_IsPrefabParent: 1
+--- !u!1 &1102971565850692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4564980951241064}
+  - component: {fileID: 114859638534367158}
+  m_Layer: 0
+  m_Name: CasaRojaHipnotizador_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4564980951241064
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1102971565850692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114859638534367158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1102971565850692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoingAction: 0
+  programNotification: -1
+  isWaitingForActionToComplete: 0
+  programIsWaitingForActionToComplete: 00
+  waitingRef: {fileID: 0}
+  currentProgram:
+    theList:
+    - theList:
+      - say
+      - "S\xED se puede, mediante la hipnosis. Algunos m\xE9dicos ya la practican
+        en sus operaciones quir\xFArgicas para evitar usar anestesia. La hipnosis
+        consiste en entrar en un estado mental inducido en el que la mente se desconecta
+        parcialmente del entorno f\xEDsico que le rodea."
+      - wait
+      - NPC1
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_0
+    - theList:
+      - say
+      - "<img src=\"IMAGEN DESIERTO WORD n7 parte 2-di\xE1logos blancos y negrosv4\">"
+      - wait
+      - 
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_1
+    - theList:
+      - say
+      - "El cerebro recibe la se\xF1al de calor, pero sin embargo la mente no la recoger\xE1,
+        y por eso no la vivir\xE1. Si has entrado en trance hipn\xF3tico correctamente,
+        para la mente, para ti, har\xE1 fr\xEDo. La mente ha decidido creer que hace
+        fr\xEDo, y har\xE1 fr\xEDo independientemente de lo que ocurra realmente en
+        el mundo f\xEDsico exterior. Por eso para poder ser hipnotizado es necesario
+        que el paciente quiera ser hipnotizado, porque \xE9l tiene control sobre su
+        propia mente."
+      - wait
+      - NPC1
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_2
+    - theList:
+      - say
+      - "Lo que son capaces de hacer los grandes maestros de meditaci\xF3n gracias
+        a su gran dominio de la mente, es controlar la manera en la que su mente experimenta
+        los est\xEDmulos externos sin necesidad de ser hipnotizados. Por eso pueden
+        soportar grandes dolores pr\xE1cticamente sin inmutarse y sin necesidad de
+        anestesia que bloquee sus canales nerviosos."
+      - wait
+      - NPC1
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_3
+    - theList:
+      - say
+      - "\xBFQu\xE9 te parece?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_4
+    - theList:
+      - ask
+      - 3
+      - No me lo creo.
+      - "Me parece tan extra\xF1o como a ti"
+      - 'Me parece algo asombroso '
+      - CasaRojaHipnotizador_4/0
+      - CasaRojaHipnotizador_4/0
+      - CasaRojaHipnotizador_4/0
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_5
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_6
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_7
+  programs:
+  - theList:
+    - theList:
+      - say
+      - "S\xED se puede, mediante la hipnosis. Algunos m\xE9dicos ya la practican
+        en sus operaciones quir\xFArgicas para evitar usar anestesia. La hipnosis
+        consiste en entrar en un estado mental inducido en el que la mente se desconecta
+        parcialmente del entorno f\xEDsico que le rodea."
+      - wait
+      - NPC1
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_0
+    - theList:
+      - say
+      - "<img src=\"IMAGEN DESIERTO WORD n7 parte 2-di\xE1logos blancos y negrosv4\">"
+      - wait
+      - 
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_1
+    - theList:
+      - say
+      - "El cerebro recibe la se\xF1al de calor, pero sin embargo la mente no la recoger\xE1,
+        y por eso no la vivir\xE1. Si has entrado en trance hipn\xF3tico correctamente,
+        para la mente, para ti, har\xE1 fr\xEDo. La mente ha decidido creer que hace
+        fr\xEDo, y har\xE1 fr\xEDo independientemente de lo que ocurra realmente en
+        el mundo f\xEDsico exterior. Por eso para poder ser hipnotizado es necesario
+        que el paciente quiera ser hipnotizado, porque \xE9l tiene control sobre su
+        propia mente."
+      - wait
+      - NPC1
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_2
+    - theList:
+      - say
+      - "Lo que son capaces de hacer los grandes maestros de meditaci\xF3n gracias
+        a su gran dominio de la mente, es controlar la manera en la que su mente experimenta
+        los est\xEDmulos externos sin necesidad de ser hipnotizados. Por eso pueden
+        soportar grandes dolores pr\xE1cticamente sin inmutarse y sin necesidad de
+        anestesia que bloquee sus canales nerviosos."
+      - wait
+      - NPC1
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_3
+    - theList:
+      - say
+      - "\xBFQu\xE9 te parece?"
+      - wait
+      - NPC1
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_4
+    - theList:
+      - ask
+      - 3
+      - No me lo creo.
+      - "Me parece tan extra\xF1o como a ti"
+      - 'Me parece algo asombroso '
+      - CasaRojaHipnotizador_4/0
+      - CasaRojaHipnotizador_4/0
+      - CasaRojaHipnotizador_4/0
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_5
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_6
+      - Conv_N7_CasaRojaHipnosisP2_CasaRojaHipnotizador_3_7
+  eventNamesInOrder:
+  - program
+  isProgramRunning: 00
+  programPointer_: 00000000
+  programPointer: 0
+  startTime: 0
+  delayTime:
+  - 0
+  waitingForAnswer: 00
+  ConversationFolderName: 
+  instructionColor:
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffff
+  rosetta: {fileID: 0}
+  preventAwake: 0
+  answerIndex: 0
+  namer: 
+  nEvents: 0
+  canSpeak: 0
+  NextProgram: []
+  WalkingAnimationSpeed: 1
+  otherImages: []
+  editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  selection: 00000000
+  action:
+  - theList: 0b0000000b0000000b0000000b0000000b0000000c000000
+  sayImages: []
+  stringBank: []
+  neutralMiniature: {fileID: 0}
+  happyMiniature: {fileID: 0}
+  sadMiniature: {fileID: 0}
+  worriedMiniature: {fileID: 0}
+  animationSpeed: 0
+  messageTargets: []
+  soundEffects: []
+  music: []
+  isRoot: 0
+  windowX: 1072
+  windowY: -44

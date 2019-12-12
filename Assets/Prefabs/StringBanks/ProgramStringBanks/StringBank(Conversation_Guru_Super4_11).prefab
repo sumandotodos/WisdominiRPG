@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &102222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 473424}
+  - component: {fileID: 11449718}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_Guru_Super4_11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &473424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11449718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_Guru_Super4_11_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "Hay una cosa clara. Todos tenemos derecho a ser felices. Aunque a nivel inconsciente
+    no todo el mundo acaba de cre\xE9rselo. Y pensar que es imposible aprender por
+    nosotros mismos a ser feliz suele conllevar un grave peligro: el de convertirnos
+    en v\xEDctimas."
+  - "Esto pasa porque entonces creemos que son los otros los que tienen que darnos
+    aquello que creemos que nos har\xE1 felices. Pero no funciona as\xED, si dejamos
+    de lado nuestra responsabilidad, entonces estamos perdidos."
+  - La palabra responsabilidad viene de responder, de nuestra capacidad de responder
+    ante la vida. Tener coraje y ser proactivos, y no vivir en la queja y la pasividad.
+  - "Comprendo... \xBFpero entonces c\xF3mo se puede llegar a ser feliz?"
+  - "Conoci\xE9ndonos. Siendo conscientes de nuestras emociones. Y haci\xE9ndonos
+    amigos de nuestra mente. Al principio la mente es como un elefante salvaje: nuestros
+    pensamientos nos atrapan y nos arrastran, sin darnos siquiera cuenta de ello."
+  - "Muchas veces son pensamientos negativos que nos hacen pasarlo mal, o simplemente
+    son pensamientos repetitivos e in\xFAtiles. Sin embargo nos siguen atrapando porque
+    nuestra mente no est\xE1 domesticada."
+  - "Pero poco a poco podemos ir haci\xE9ndonos amigos de nuestra mente: identificar
+    qu\xE9 pensamientos son da\xF1inos para nosotros, y cu\xE1les son positivos y
+    nos hacen estar bien. Estar atentos a nuestros pensamientos es igual que tener
+    el tim\xF3n del barco de nuestra mente entre las manos."
+  - "Mejor que ser un bote a la deriva que se mueve a merced del viento y de las olas
+    \xBFno? Esto nos permitir\xE1 al cabo de un tiempo ser capaces de vivir el momento
+    presente, tener nuestra atenci\xF3n en lo que sea que estemos haciendo: una conversaci\xF3n,
+    pasear por la calle, escuchar \rm\xFAsica en lugar de estar perdidos en pensamientos
+    que no nos aportan nada nuevo."
+  - Creo que la felicidad son momentos. No creo que se trate de que nuestra mente
+    sea un barco de vela o un bote a la deriva.
+  - "Si es as\xED, \xBFpor qu\xE9 no se nos ense\xF1a en las escuelas a ser felices?"
+  correntAnswer: 

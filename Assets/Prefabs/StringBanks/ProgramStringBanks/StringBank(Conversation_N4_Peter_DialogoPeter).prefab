@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1908722667262166}
+  m_IsPrefabParent: 1
+--- !u!1 &1908722667262166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4872947059173790}
+  - component: {fileID: 114744604830924898}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N4_Peter_DialogoPeter)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4872947059173790
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1908722667262166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114744604830924898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1908722667262166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N4_Peter_DialogoPeter_
+  randomYield: 0
+  phrase:
+  - "Hola amigo, \xBFpuedes hablarme de este lugar? Acabo de llegar"
+  - "\xBFUn forastero, eh\u2026? no s\xE9 si durar\xE1s mucho aqu\xED"
+  - "Todos los que vivimos aqu\xED estamos sometidos a uno de los dos grandes pont\xEDfices
+    que reinan este lugar y trabajamos para ellos"
+  - "Si no tienes cuidado, pronto acabar\xE1s a las \xF3rdenes de uno de los dos"
+  - "\xBFQui\xE9nes son?"
+  - Uno es el Gran Obispo Cocoroloco. Propugna que existe un dios creador superior
+    a nosotros
+  - "El otro es el Gran Dictador Materio. Su dogma es que solo existe lo f\xEDsico
+    y material, y que cualquier cosa que no haya sido descubierta por la ciencia sencillamente
+    no existe"
+  - "Yo estoy buscando la Ciudad Perdida. Me han dicho que all\xED puedo encontrar
+    los mapas imaginarios"
+  - "No conozco a nadie que haya llegado hasta all\xED. Quiz\xE1 tambi\xE9n la Ciudad
+    Perdida sea imaginaria"
+  - "Me han dicho que est\xE1 al otro lado de las monta\xF1as, \xBFsabes c\xF3mo llegar
+    hasta ella?"
+  - "S\xF3lo hay que mirar para darse cuenta de que las monta\xF1as son infranqueables
+    por el exterior. Pero he escuchado que hab\xEDa dos grutas subterr\xE1neas que
+    conduc\xEDan hasta all\xED"
+  - "Una part\xEDa de las entra\xF1as del Bunker del Dictador Materio, y la otra de
+    las entra\xF1as del Bunker del Obispo Cocoroloco. Pero una de ellas ya no existe"
+  - "\xBFPor qu\xE9 no?"
+  - "Dicen que el Obispo Cocoroloco la dinamit\xF3. No quer\xEDa que nadie llegara
+    hasta all\xED"
+  - "El Dictador Materio tambi\xE9n orden\xF3 que bloquearan la suya, pero sus cient\xEDficos
+    se pusieron a discutir acerca de cu\xE1l era el m\xE9todo tecnol\xF3gicamente
+    m\xE1s efectivo, y por lo que s\xE9 todav\xEDa siguen debatiendo sobre el tema.
+    Pero no te hagas ilusiones, las entradas de los bunkers siempre est\xE1n o cerradas,
+    o vigiladas por sus respectivos guardianes"
+  - "Ve a verlo por ti mismo si no me crees. Ver\xE1s un tipo duro vestido de color
+    blanco guardando el b\xFAnker de Materio. Yo que s\xE9, ve a ver si eres capaz
+    de hacer migas con \xE9l, h\xE1blale de aleaciones del magnesio, o algo... "
+  - "Gracias, eso har\xE9"
+  - "Me llamo Peter, a todo esto, estar\xE9 aqu\xED por si me necesitas"
+  - Gracias nuevamente
+  correntAnswer: 
