@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class MirrorReentryScript : WisdominiObject {
 
 	public LevelControllerScript level;
+    public bool IsStargate = false;
 	public string exteriorLocationName;
 	public int mirrorIndex;
 	public string mirrorName;
@@ -19,7 +20,11 @@ public class MirrorReentryScript : WisdominiObject {
 		ds.storeStringValue ("ReturnLocation", level.locationName);
 		ds.storeIntValue ("ActivateMirror", mirrorIndex);
 		ds.storeStringValue ("ActivatedMirror", mirrorName);
-		ds.storeStringValue ("ReentryCondition", "MirrorActivation");
+        if(IsStargate)
+        {
+            ds.storeBoolValue(exteriorLocationName + "StargateActivated", true);
+        }
+        ds.storeStringValue ("ReentryCondition", "MirrorActivation");
         FindObjectOfType<CameraManager>().StoreCameraAngles();
 
 		SceneManager.LoadScene (exteriorLocationName);

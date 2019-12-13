@@ -10,10 +10,11 @@ public class StargateController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mc = FindObjectOfType<MasterControllerScript>();    
-        for(int i = 1; i <= stargates.Length; ++i)
+        mc = FindObjectOfType<MasterControllerScript>();
+        stargates[0].SetActivated(true);
+        for(int i = 2; i <= stargates.Length; ++i)
         {
-            string key = "Level" + i + "Plane0_exterior" + "StargateActivated";
+            string key = "Warpzone" + i + "StargateActivated";//"Level" + i + "Plane0_exterior" + "StargateActivated";
             if (mc.getStorage().retrieveBoolValue(key))
             {
                 Debug.Log("Stargate " + i + " is activated");
