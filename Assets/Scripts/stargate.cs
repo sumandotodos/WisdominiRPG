@@ -105,8 +105,9 @@ using System.Collections;
 
 public class stargate : WisdominiObject {
 
-	/* references */
+    /* references */
 
+    public string explicitName = "";
 	public LevelControllerScript level;
 	public ParticleSystem particles;
 	public GameObject background;
@@ -135,14 +136,27 @@ public class stargate : WisdominiObject {
 
 	new void Awake () 
 	{
-		level = GameObject.Find ("LevelController").GetComponent<LevelControllerScript> ();
 
-		deactivate ();
+        level = GameObject.Find("LevelController").GetComponent<LevelControllerScript>();
 
-		if (cheat || level.retrieveBoolValue (level.locationName + "StargateActivated")) 
-		{
-			activate ();
-		}
+        if (explicitName!="")
+        {
+            deactivate();
+            if(level.retrieveBoolValue(explicitName + "StargateActivated"))
+            {
+                activate();
+            }
+        }
+
+
+        else {
+            deactivate();
+
+            if (cheat || level.retrieveBoolValue(level.locationName + "StargateActivated"))
+            {
+                activate();
+            }
+        }
 	}
 
 	public void activate() 

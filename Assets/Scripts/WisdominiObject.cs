@@ -2049,7 +2049,7 @@ public class WisdominiObject : MonoBehaviour {
 
 				alertImageController alert = GameObject.Find ("AlertImage").GetComponent<alertImageController> ();
 				if(rosetta == null) rosetta = GameObject.Find ("Rosetta").GetComponent<Rosetta> ();
-				string text = rosetta.retrieveString (op [4]);
+                string text = op[1];//rosetta.retrieveString (op [4]);
 				float delay;
 				float.TryParse (op [2], out delay);
 				alert._wa_setAlertMessageWithTimeout(this, text, delay);
