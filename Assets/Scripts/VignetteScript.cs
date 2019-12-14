@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
-enum VignetteState { open, opening, close, closing };
+enum VignetteState { open, opening, close, closing, delay };
 
 public class VignetteScript : WisdominiObject {
 
@@ -11,6 +11,8 @@ public class VignetteScript : WisdominiObject {
 	public Image padRight;
 	public Image padTop;
 	public Image padBottom;
+    public float Delay = 0.25f;
+    float Remaining;
 
 	bool mustFinishAction = false;
 
@@ -29,7 +31,8 @@ public class VignetteScript : WisdominiObject {
 	// Use this for initialization
 	new void Start () {
 
-		state = VignetteState.open;
+        state = VignetteState.delay;
+        Remaining = Delay;
 		currentScale = OPENSCALE;
 		setVisibility (false);
 		currentScale = OPENSCALE;
@@ -69,6 +72,13 @@ public class VignetteScript : WisdominiObject {
 
 
 		switch (state) {
+        case VignetteState.delay:
+                Remaining -= Time.deltaTime;
+                if(Remaining < 0.0f)
+                {
+                    state = VignetteState.open;
+                }
+                break;
 		case VignetteState.close:
 			break;
 		case VignetteState.closing:

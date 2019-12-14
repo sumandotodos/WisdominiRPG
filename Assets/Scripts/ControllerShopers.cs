@@ -11,7 +11,8 @@ public class ControllerShopers : MonoBehaviour {
 	public AudioClip openSound;
 	public AudioClip closeSound;
 	public float temp;
-	public float maxDist;
+    public float maxtemp;
+    public float maxDist;
 
 	LevelControllerScript lvl;
 	float cont;
@@ -30,7 +31,7 @@ public class ControllerShopers : MonoBehaviour {
 		if (cont <= 0) 
 		{
 			StartCoroutine( SpawnShoper ());
-			cont = temp;
+			cont = Random.Range(temp, maxtemp);
 		}
 	}
 
@@ -51,7 +52,7 @@ public class ControllerShopers : MonoBehaviour {
 		shoper.GetComponent<NPCGoInPath> ().cont = 0;
 		Instantiate (shoper, paths [path].transform.position, shoper.transform.rotation);
 
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (1.0f);
 
 		if (doors [path] != null) {	
 			doors [path].GetComponent<BetterDoor2> ()._wm_close ();
