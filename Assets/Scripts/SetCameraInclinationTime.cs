@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum TriggerMode { onlyPlayer, cameraAndPlayer, playerOnlyInCameraIn };
+public enum TriggerMode { onlyPlayer, cameraAndPlayer, playerOnlyInCameraIn, onlyCamera };
 
 public class SetCameraInclinationTime : WisdominiObject {
 
@@ -32,8 +32,8 @@ public class SetCameraInclinationTime : WisdominiObject {
 
 	ListCameraFollowDirection controller;
 
-	bool cameraIn;
-	bool playerIn;
+	public bool cameraIn;
+	public bool playerIn;
 
 	new void Start () 
 	{
@@ -50,63 +50,70 @@ public class SetCameraInclinationTime : WisdominiObject {
 			enabled = level.retrieveBoolValue ("is" + this.name + "Enabled");
 		}
 
-		//		string getLast = ds.retrieveStringValue("LastTriggerIn" + level.locationName);
-		//		if (getLast == this.transform.name) 
-		//		{
-		//			turnable = true;
-		//		}
-
-		//float _saveY = ds.retrieveFloatValue (this.gameObject.name + level.locationName + "SaveY");
-		//saveY = _saveY;
-		//cam.setTargetY (saveY, 0.0f);
 	}
 
 	void OnTriggerEnter (Collider other)
 	{
-		//Debug.Log ("I-T ENTER: " + other.name);
+        Debug.Log("Entering: " + other.tag);
 		if (!enabled)
 			return;
-		if (other.tag == "Player" || (other.tag == "MainCamera" && mode == TriggerMode.cameraAndPlayer)) 
-		{			
-			if (other.tag == "MainCamera") {
-				cameraHasEntered = true;
-				cameraIn = true;
-			}
-			if (other.tag == "Player") {
-				playerIn = true;
-			}
-			if (directed || gateMode) {
-				// valorar return sin hacer nada
-				Vector3 centerVector = (this.transform.position - other.transform.position);
-				if (Vector3.Dot (this.transform.forward, centerVector) > 0.0f)
-					return;
-			}
-
-			saveY = cam.pivotY.transform.localEulerAngles.y;
-			if (relative) {
 				
-				cam.setTargetX (saveY + angleXin, timeToTurn);
-				//ds.storeFloatValue (this.gameObject.name + level.locationName + "SaveY", saveY + angleY);
-			} else {
-				cam.setTargetX (angleXin);
-				//ds.storeFloatValue (this.gameObject.name + level.locationName + "SaveY", angleY);
-			}
-			//controller.SaveLastTrigger (this.gameObject, level.locationName);
+		if (other.tag == "PhysicalCamera") {
+			cameraHasEntered = true;
+			cameraIn = true;
 		}
+		if (other.tag == "Player") {
+			playerIn = true;
+		}
+        if (mode == TriggerMode.onlyPlayer && (playerIn == false))
+        {
+            return;
+        }
+        if (mode == TriggerMode.onlyCamera && (cameraIn == false))
+        {
+            return;
+        }
+        if (directed || gateMode) {
+			// valorar return sin hacer nada
+			Vector3 centerVector = (this.transform.position - other.transform.position);
+			if (Vector3.Dot (this.transform.forward, centerVector) > 0.0f)
+				return;
+		}
+
+		saveY = cam.pivotY.transform.localEulerAngles.y;
+		if (relative) {
+			
+			cam.setTargetX (saveY + angleXin, timeToTurn);
+			
+		} else {
+			cam.setTargetX (angleXin);
+			
+		}
+			
 	}
 
 	void OnTriggerExit (Collider other)
 	{
-		//Debug.Log ("I-T EXIT: " + other.name);
-		if (!enabled)
+        Debug.Log("Exitting: " + other.tag);
+        if (!enabled)
 			return;
-		//if ((other.tag == "MainCamera" && cameraHasEntered == true && mode == TriggerMode.cameraAndPlayer) || (other.tag == "Player" && cameraHasEntered == false)) 
+		
 		if(other.tag == "Player") 
 			playerIn = false;
-		if (other.tag == "MainCamera")
+
+		if (other.tag == "PhysicalCamera")
 			cameraIn = false;
-		if(((!playerIn) && (!cameraIn) && mode == TriggerMode.cameraAndPlayer) || ((!playerIn) && mode == TriggerMode.onlyPlayer))
-		{			
+
+        if (mode == TriggerMode.onlyPlayer && (playerIn == true))
+        {
+            return;
+        }
+        if (mode == TriggerMode.onlyCamera && (cameraIn == true))
+        {
+            return;
+        }
+        //if (((!playerIn) && (!cameraIn) && mode == TriggerMode.cameraAndPlayer) || ((!playerIn) && mode == TriggerMode.onlyPlayer))
+		//{			
 			cameraHasEntered = false;
 			if (directed || gateMode) {
 				
@@ -123,8 +130,8 @@ public class SetCameraInclinationTime : WisdominiObject {
 				Debug.Log ("restoring angle X");
 			}
 
-			//controller.NextLastTrigger (level.locationName);
-		}
+			
+		//}
 	}
 
 	public void _wm_enable() 

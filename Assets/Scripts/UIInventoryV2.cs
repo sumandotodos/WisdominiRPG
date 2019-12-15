@@ -29,7 +29,8 @@ public class UIInventoryV2 : WisdominiObject {
 	public RawImage back1;
 	public RawImage canvas2;
 
-	// backpack
+    // backpack
+    public Text FerfufloProgress;
 	public RawImage canvas3;
 	public RawImage saltRed0;
 	public Pulsate saltRed1;
@@ -475,7 +476,9 @@ public class UIInventoryV2 : WisdominiObject {
 		if (key && en) {
 			ferfufloCardsWhite.enabled = true;
 			ferfufloCardsBlack.enabled = true;
-		} else {
+            int percent = (int)(((float)levelRef.retrieveIntValue("FerfufloCompleted") / 87.0f) * 100.0f);
+            FerfufloProgress.text = (percent) + "%";
+        } else {
 			ferfufloCardsWhite.enabled = false;
 			ferfufloCardsBlack.enabled = false;
 		}
