@@ -14,6 +14,9 @@ public class AutomaticDoor : WisdominiObject {
 	public LevelControllerScript level;
 	public string permissionVariable = "";
 	public float autoCloseTime = 0.0f;
+    public float RecoilTime = 0.0f;
+    float RecoilRemain = 0.0f;
+    public bool isEnabled = true;
 
 	public bool reentrant = false;
 
@@ -50,6 +53,8 @@ public class AutomaticDoor : WisdominiObject {
 		autocloseEnable = false;
 		targetDisplacement = 0;
 
+        RecoilRemain = RecoilTime; 
+
 		if (reentrant) {
 
 			bool isOpen = level.retrieveBoolValue (this.name + "Open");
@@ -68,7 +73,12 @@ public class AutomaticDoor : WisdominiObject {
 	
 	new void Update ()
 	{
-		if (state == 1) { // door is open
+        if(RecoilRemain > 0.0f)
+        {
+            RecoilRemain -= Time.deltaTime;
+        }
+
+        if (state == 1) { // door is open
 
 			if (autocloseEnable) {
 				if (!autocloseHijack) {
@@ -120,7 +130,12 @@ public class AutomaticDoor : WisdominiObject {
 		close ();
 	}
 
-	public void openImmediately() {
+    public void _wm_SetEnabled(bool en)
+    {
+        isEnabled = en;
+    }
+
+    public void openImmediately() {
 		targetDisplacement = displacement = openDisplacement;
 		Vector3 newLeftPosition = Vector3.zero, newRightPosition = Vector3.zero;
 		switch(axis) {
@@ -172,7 +187,16 @@ public class AutomaticDoor : WisdominiObject {
 
 	void OnTriggerEnter(Collider other) 
 	{
-		if (other.tag == "Player") 
+        if(RecoilRemain > 0.0f)
+        {
+            return;
+        }
+        if(!isEnabled)
+        {
+            return;
+        }
+
+        if (other.tag == "Player") 
 		{
 			if (reenableAutocloseOnTrigger)
 				autocloseEnable = true; // Carlos
@@ -203,7 +227,12 @@ public class AutomaticDoor : WisdominiObject {
 
 	void OnTriggerExit(Collider other) 
 	{
-		if (other.tag == "Player") 
+        if(!isEnabled)
+        {
+            return;
+        }
+
+        if (other.tag == "Player") 
 			if (reenableAutocloseOnTrigger)
 				autocloseEnable = true;
 	}

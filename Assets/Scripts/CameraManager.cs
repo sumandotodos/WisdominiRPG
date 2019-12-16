@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public enum CameraManagerState { idle, moving }
 public enum CameraSituation { interior, exterior }
@@ -106,7 +107,17 @@ public class CameraManager : WisdominiObject {
 
         iTween.Init(this.gameObject);
 
-	}
+        /*if(SceneManager.GetActiveScene().name.ToLower().Contains("interior"))
+        {
+            setDistanceZ(8.0f);
+        }
+
+        if (SceneManager.GetActiveScene().name.ToLower().Contains("exterior"))
+        {
+            setDistanceZ(10.0f);
+        }*/
+
+    }
 
     public void StoreCameraAngles()
     {
