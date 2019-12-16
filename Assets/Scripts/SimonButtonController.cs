@@ -51,6 +51,7 @@ public class SimonButtonController : MonoBehaviour {
 		matchedButtons = 0;
 		state = 0;
 		generatedSequence = level.retrieveStringValue (simonSequenceVariable);
+        Debug.Log("Generated seq: " + generatedSequence);
 		if (generatedSequence == null)
 			generatedSequence = "";
 		if (generate) {
@@ -109,19 +110,27 @@ public class SimonButtonController : MonoBehaviour {
 
 		if (!generatedSequence.Equals ("")) {
 
-			char seqChar = generatedSequence.ToCharArray () [matchedButtons];
+            Debug.Log("Generated seq: " + generatedSequence);
+            char seqChar = generatedSequence.ToCharArray () [matchedButtons];
 			int seqNum = (int)(seqChar) - (int)('0'); // transform for char to integer
-			if (seqNum == buttonId) {
-				++matchedButtons;
-				if (matchedButtons == sequenceLength) {
-					if (unlockProgram != null) {
-						unlockProgram.startProgram (0);
-						matchedButtons = 0;
-					}
-				}
-			}
-			else
-				matchedButtons = 0;
+            if (seqNum == buttonId)
+            {
+                ++matchedButtons;
+                Debug.Log("     ---> match ok");
+                if (matchedButtons == sequenceLength)
+                {
+                    if (unlockProgram != null)
+                    {
+                        unlockProgram.startProgram(0);
+                        matchedButtons = 0;
+                    }
+                }
+            }
+            else
+            {
+                matchedButtons = 0;
+                Debug.Log("     ---> match is SHIT");
+            }
 
 		}
 

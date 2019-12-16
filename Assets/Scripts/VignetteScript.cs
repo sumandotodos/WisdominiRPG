@@ -31,8 +31,8 @@ public class VignetteScript : WisdominiObject {
 	// Use this for initialization
 	new void Start () {
 
-        state = VignetteState.delay;
-        Remaining = Delay;
+        state = VignetteState.open;
+        Remaining = Delay + 0.4f;
 		currentScale = OPENSCALE;
 		setVisibility (false);
 		currentScale = OPENSCALE;
@@ -63,7 +63,15 @@ public class VignetteScript : WisdominiObject {
 	// Update is called once per frame
 	new void Update () {
 
-		if (mustFinishAction) {
+        setVignetteScale(currentScale);
+
+        if (Remaining > 0.0f)
+        {
+            Remaining -= Time.deltaTime;
+            return;
+        }
+
+        if (mustFinishAction) {
 			mustFinishAction = false;
 			this.notifyFinishAction ();
 		}
@@ -72,13 +80,7 @@ public class VignetteScript : WisdominiObject {
 
 
 		switch (state) {
-        case VignetteState.delay:
-                Remaining -= Time.deltaTime;
-                if(Remaining < 0.0f)
-                {
-                    state = VignetteState.open;
-                }
-                break;
+        
 		case VignetteState.close:
 			break;
 		case VignetteState.closing:
@@ -102,7 +104,7 @@ public class VignetteScript : WisdominiObject {
 			break;
 		}
 
-		setVignetteScale(currentScale);
+		
 	
 	}
 

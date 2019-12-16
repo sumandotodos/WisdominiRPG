@@ -10,6 +10,8 @@ public class SetCameraFollowDirectionTime : WisdominiObject {
 	public float timeToTurn;
 	public float angleYin; 
 	public float angleYout;
+    public bool reentrant = false;
+    public bool isEnabled = true;
 
     const float recoilTime = 1.0f;
     float recoilRemain = 1.0f;
@@ -44,17 +46,14 @@ public class SetCameraFollowDirectionTime : WisdominiObject {
 		level = GameObject.Find ("LevelController").GetComponent<LevelControllerScript> ();
 		controller = GameObject.Find ("ControllerDirection").GetComponent<ListCameraFollowDirection> ();
         recoilRemain = recoilTime;
-
-//		string getLast = ds.retrieveStringValue("LastTriggerIn" + level.locationName);
-//		if (getLast == this.transform.name) 
-//		{
-//			turnable = true;
-//		}
-
-		//float _saveY = ds.retrieveFloatValue (this.gameObject.name + level.locationName + "SaveY");
-		//saveY = _saveY;
-		//cam.setTargetY (saveY, 0.0f);
-	}
+        if(reentrant)
+        {
+            if(level.retrieveBoolValue(this.name + "EnabledSet"))
+            {
+                isEnabled = level.retrieveBoolValue(this.name + "Enabled");
+            }
+        }
+    }
 
     private void Update()
     {
@@ -66,6 +65,10 @@ public class SetCameraFollowDirectionTime : WisdominiObject {
 
     void OnTriggerEnter (Collider other)
 	{
+        if(!isEnabled)
+        {
+            return;
+        }
         if (recoilRemain > 0.0f)
         {
             saveY = cam.pivotY.transform.localEulerAngles.y;
@@ -101,6 +104,10 @@ public class SetCameraFollowDirectionTime : WisdominiObject {
 
 	void OnTriggerExit (Collider other)
 	{
+        if (!isEnabled)
+        {
+            return;
+        }
         if (recoilRemain > 0.0f) return;
         if (!setAtExit)
 			return;
@@ -131,4 +138,24 @@ public class SetCameraFollowDirectionTime : WisdominiObject {
 			//controller.NextLastTrigger (level.locationName);
 		}
 	}
+
+    public void _wm_enable()
+    {
+        isEnabled = true;
+        if(reentrant)
+        {
+            level.storeBoolValue(this.name + "EnabledSet", true);
+            level.storeBoolValue(this.name + "Enabled", true);
+        }
+    }
+
+    public void _wm_disabled()
+    {
+        isEnabled = false;
+        if (reentrant)
+        {
+            level.storeBoolValue(this.name + "EnabledSet", true);
+            level.storeBoolValue(this.name + "Enabled", false);
+        }
+    }
 }
