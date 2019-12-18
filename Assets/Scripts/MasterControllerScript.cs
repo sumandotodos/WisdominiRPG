@@ -350,7 +350,8 @@ public class MasterControllerScript : WisdominiObject {
 
 	public void unPickUpObject(string name) 
 	{
-		pickedUpObjectDB[currentPickedUpListIndex].removePickedObject (name);
+        Debug.Log("Unpicking up: " + name + " @" + currentPickedUpListIndex);
+        pickedUpObjectDB[currentPickedUpListIndex].removePickedObject (name);
 	}
 
 	public void changeLocation(string locName) 
@@ -391,7 +392,11 @@ public class MasterControllerScript : WisdominiObject {
 
 	public void registerPickedUpObject(string name) 
 	{
-		pickedUpObjectDB[currentPickedUpListIndex].addPickedObject (name);
+        Debug.Log("Picking up object: " + name + " @" + currentPickedUpListIndex);
+        if (!pickedUpObjectDB[currentPickedUpListIndex].isInList(name))
+        {
+            pickedUpObjectDB[currentPickedUpListIndex].addPickedObject(name);
+        }
 	}
 
 	public bool hasCurrentLocationBeenVisited() 

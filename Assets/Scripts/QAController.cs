@@ -317,7 +317,7 @@ public class QAController : WisdominiObject {
 						int FlameIndex = ds.retrieveIntValue("CurrentFlameIndex");
 						string FlameName = ds.retrieveStringValue ("FlameResurrectionName" + lvl + FlameIndex);
 						string FlameLocation = ds.retrieveStringValue ("FlameResurrectionLocation" + lvl + FlameIndex);
-						ds.storeIntValue ("Flame" + (FlameIndex) + "Resurrect" + FlameLocation, 2);
+						ds.storeIntValue ("Flame" + (FlameIndex) + "Resurrect" + FlameLocation, 3);
 						ds.storeStringValue ("Flame" + (FlameIndex) + "Resurrect" + FlameLocation, FlameName);
 						this.isWaitingForActionToComplete = true;
 						state = QAControllerState.exitting3;

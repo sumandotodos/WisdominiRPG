@@ -1953,13 +1953,14 @@ public class WisdominiObject : MonoBehaviour {
 				if (obj != null) { // if this wisdominiobject is a Item
 					if (obj.FlameHeroClass != 0) {
 
-							string lvl = GameObject.Find("LevelController").GetComponent<LevelControllerScript>().locationName.Substring(0, 6);
+                        //string lvl = GameObject.Find("LevelController").GetComponent<LevelControllerScript>().locationName.Substring(0, 6);
+                        string lvl = SceneManager.GetActiveScene().name.Substring(0, 6);
 							mcRef.getStorage ().storeStringValue ("CurrentLevelFlame", lvl);
 							mcRef.getStorage ().storeIntValue ("CurrentFlameIndex", obj.FlameHeroClass-1);
 							mcRef.getStorage ().storeIntValue ("QAHeroClass" + lvl + (obj.FlameHeroClass-1), obj.FlameHeroClass-1); // a little ad-hoc solution
 							// store flame related data in case we have to resurrect the flame
 							mcRef.getStorage().storeStringValue("FlameResurrectionName" + lvl + (obj.FlameHeroClass-1), this.name);
-							mcRef.getStorage ().storeStringValue ("FlameResurrectionLocation" + lvl + (obj.FlameHeroClass-1), mcRef.getCurrentLocation ());
+							mcRef.getStorage ().storeStringValue ("FlameResurrectionLocation" + lvl + (obj.FlameHeroClass-1), lvl);
 					}
 						
 				}

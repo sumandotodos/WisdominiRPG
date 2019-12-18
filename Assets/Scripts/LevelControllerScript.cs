@@ -268,16 +268,18 @@ public class LevelControllerScript : WisdominiObject {
 
 		// take care of flame re-spawning into the level
 		int flameCount;
-		for (int k = 0; k < MaxFlames; ++k) 
+        string lvlname = SceneManager.GetActiveScene().name;
+        for (int k = 0; k < MaxFlames; ++k) 
 		{
-			flameCount = mcRef.getStorage ().retrieveIntValue ("Flame" + k + "Resurrect" + locationName);
+			flameCount = mcRef.getStorage ().retrieveIntValue ("Flame" + k + "Resurrect" + lvlname);
 			if (flameCount > 0) {
 				--flameCount;
 				if (flameCount == 0) {
-					string flamename = mcRef.getStorage ().retrieveStringValue ("Flame" + k + "Resurrect" + locationName);
+					string flamename = mcRef.getStorage ().retrieveStringValue ("Flame" + k + "Resurrect" + lvlname);
 					mcRef.unPickUpObject (flamename);
 				}
-				mcRef.getStorage ().storeIntValue ("Flame" + k + "Resurrect" + locationName, flameCount);
+
+                mcRef.getStorage ().storeIntValue ("Flame" + k + "Resurrect" + lvlname, flameCount);
 			}
 		}
 
@@ -286,6 +288,7 @@ public class LevelControllerScript : WisdominiObject {
 		 */
 		objectToDestroy = mcRef.nextPickedUpObject ();
 		while (!objectToDestroy.Equals ("")) {
+            Debug.Log("<color=red>  -> Pick up destroying " + objectToDestroy + "</color>");
 			Destroy (GameObject.Find (objectToDestroy));
 			objectToDestroy = mcRef.nextPickedUpObject ();
 		}

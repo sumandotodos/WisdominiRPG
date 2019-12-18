@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class ObjectGeneratorScript : Interactor {
 
@@ -122,13 +123,15 @@ public class ObjectGeneratorScript : Interactor {
 			}
 
 			if (FlameHeroClass > 0) { // if it is a flame, a little ad-hoc solution
-				string lvl = GameObject.Find("LevelController").GetComponent<LevelControllerScript>().locationName.Substring(0, 6);
-				mcRef.getStorage ().storeStringValue ("CurrentLevelFlame", lvl);
+				//string lvl = GameObject.Find("LevelController").GetComponent<LevelControllerScript>().locationName.Substring(0, 6);
+                string lvl = SceneManager.GetActiveScene().name;
+                mcRef.getStorage ().storeStringValue ("CurrentLevelFlame", lvl);
 				mcRef.getStorage ().storeIntValue ("CurrentFlameIndex", FlameHeroClass-1);
 				mcRef.getStorage ().storeIntValue ("QAHeroClass" + lvl + (FlameHeroClass-1), FlameHeroClass-1); // a little ad-hoc solution
 				// store flame related data in case we have to resurrect the flame
 				mcRef.getStorage().storeStringValue("FlameResurrectionName" + lvl + (FlameHeroClass-1), this.name);
-				mcRef.getStorage ().storeStringValue ("FlameResurrectionLocation" + lvl + (FlameHeroClass-1), mcRef.getCurrentLocation ());
+                mcRef.getStorage().storeStringValue("FlameResurrectionLocation" + lvl + (FlameHeroClass - 1), lvl);
+
 			}
 			mcRef.registerPickedUpObject (this.name);
 		}

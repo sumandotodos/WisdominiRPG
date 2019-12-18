@@ -51,7 +51,19 @@ public class PickedUpObjectsList  {
 
 	}
 
-	public void removePickedObject(string name) {
+    public bool isInList(string name)
+    {
+        for(int i = 0; i<pickedUpNames.Count; ++i)
+        {
+            if(pickedUpNames[i]==name)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void removePickedObject(string name) {
 
 		pickedUpNames.Remove (name);
 
