@@ -194,7 +194,7 @@ MonoBehaviour:
   level: {fileID: 0}
   IsStargate: 0
   exteriorLocationName: Level3Plane0_exterior
-  mirrorIndex: 3
+  mirrorIndex: 0
   mirrorName: N3_0_BlueMirror
 --- !u!1 &98911652
 GameObject:
@@ -1041,21 +1041,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &184716125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184716123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 790604022e8eb418ea8f1a83c724e846, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Camera_A: {fileID: 0}
-  Height: 0
-  ParentLocation: {fileID: 0}
 --- !u!1 &200020085
 GameObject:
   m_ObjectHideFlags: 0
@@ -3743,7 +3728,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959495724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.56, y: -4.97, z: -34.66}
+  m_LocalPosition: {x: 8.42, y: -4.97, z: -33.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
