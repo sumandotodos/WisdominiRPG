@@ -86,7 +86,12 @@ public class StringBank : MonoBehaviour {
 
 	}
 
-	public string getString(int index) {
+    public string getRawString(int index)
+    {
+        return phrase[index];
+    }
+
+    public string getString(int index) {
 
 		if (phrase.Length > index)
 			return rosetta.retrieveString (extra + wisdom + subWisdom + index);

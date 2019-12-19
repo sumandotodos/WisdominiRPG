@@ -1,22 +1,12 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1793403663536726}
-  m_IsPrefabParent: 1
 --- !u!1 &1793403663536726
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 4610373721797652}
   - component: {fileID: 114135176659456086}
@@ -29,9 +19,10 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &4610373721797652
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793403663536726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -42,9 +33,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114135176659456086
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793403663536726}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -56,13 +48,13 @@ MonoBehaviour:
   wisdom: 
   extra: RespuestasSet132
   randomYield: 0
+  standard: 0
   phrase:
   - Porque a largo plazo se gana dinero
   - "Porque justo antes de ver el resultado, el cerebro segrega una sustancia llamada
     dopamina, que produce un placer adictivo relacionado con la anticipaci\xF3n de
     la recompensa"
-  - "Porque con ellos entrenamos nuestro cerebro para ser m\xE1s inteligentes"
   - "Porque el ansia de lograr la recompensa anula nuestra capacidad racional, la
     cual nos mostrar\xEDa que a largo plazo siempre vamos a perder dinero"
-  - La segunda y la cuarta son correctas
+  - La segunda y la tercera son correctas
   correntAnswer: 

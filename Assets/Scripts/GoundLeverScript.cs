@@ -82,7 +82,7 @@ public class GoundLeverScript : WisdominiObject {
 			if (angle > targetAngle) {
 				angle = targetAngle;
 				isOn = true;
-				if (!done) 
+				if (switchOnSound!=null) 
 				{
 					source.PlayOneShot (switchOnSound);
 				}
@@ -97,9 +97,9 @@ public class GoundLeverScript : WisdominiObject {
 			if (angle < targetAngle) {
 				angle = targetAngle;
 				isOn = false;
-//				if (noise) {
-//					source.PlayOneShot (switchOffSound);
-//				}
+				if (switchOffSound!=null) {
+					source.PlayOneShot (switchOffSound);
+				}
 				notifyFinishAction ();
 			}
 			lever.transform.localRotation = Quaternion.Euler (angle, 0, 0);
