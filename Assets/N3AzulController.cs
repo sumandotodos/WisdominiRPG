@@ -6,10 +6,15 @@ public class N3AzulController : WisdominiObject {
 
 	public bool[] accomplished;
 	public FakePanel fakePanel;
+    public SetCameraFollowDirectionTime direction;
+    public SetCameraInclinationTime inclination;
+    public CameraSwitch cameraSwitch;
+    PlayerScript player;
 
 	// Use this for initialization
 	void Start () {
 		accomplished = new bool[3];
+        player = FindObjectOfType<PlayerScript>();
 	}
 	
 	public void _wm_toggleAccomplishment(int position) {
@@ -23,6 +28,10 @@ public class N3AzulController : WisdominiObject {
 		}
 		if (allDone) {
 			fakePanel._wm_open ();
+            direction._wm_enable();
+            inclination._wm_enable();
+            player.blocked = true;
+            cameraSwitch._wm_switchToCameraName("L3VerdeSecretCamera");
 		}
 	}
 }

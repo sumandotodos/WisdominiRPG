@@ -2310,6 +2310,65 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1, y: 0.2, z: 0.16}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &855991148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 855991151}
+  - component: {fileID: 855991150}
+  - component: {fileID: 855991149}
+  m_Layer: 0
+  m_Name: CoordinateLogger (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &855991149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855991148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a610d5916cc8a4d0ca5a18b0d4ed7872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: {fileID: 0}
+  targetLocation: 
+--- !u!65 &855991150
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855991148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.31, y: 7.203492, z: 3.03}
+  m_Center: {x: -0.21049929, y: 2.2194839, z: -0.21726608}
+--- !u!4 &855991151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855991148}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -33.07, y: -4.21, z: 2.22}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &884754193
 Material:
   serializedVersion: 6
@@ -3432,6 +3491,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1488422562095616, guid: da4c4bc33809048a983f3efe38c4471d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4604094404762446, guid: da4c4bc33809048a983f3efe38c4471d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.15349
@@ -3601,6 +3664,11 @@ PrefabInstance:
     - target: {fileID: 1975542458874212, guid: b1de90c2247c74960955625015cef608, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114917103961046564, guid: b1de90c2247c74960955625015cef608,
+        type: 3}
+      propertyPath: programs.Array.data[0].theList.Array.data[8].theList.Array.data[1]
+      value: TvContentScreen (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1de90c2247c74960955625015cef608, type: 3}
@@ -4789,7 +4857,7 @@ GameObject:
   - component: {fileID: 2080917768}
   - component: {fileID: 2080917767}
   m_Layer: 0
-  m_Name: PortalAlExt (1)
+  m_Name: CoordinateLogger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

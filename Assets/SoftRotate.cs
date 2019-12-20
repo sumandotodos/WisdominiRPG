@@ -14,12 +14,26 @@ public class SoftRotate : WisdominiObject {
 
 	bool atFinalAngle = false;
 
+    LevelControllerScript lvl;
+
 	// Use this for initialization
 	void Start () {
 		angle = new SoftFloat (initialAngle);
 		angle.setSpeed (30.0f);
 		angle.setTransformation (TweenTransforms.cubicOut);
-	}
+        lvl = FindObjectOfType<LevelControllerScript>();
+        if(reentrant)
+        {
+            if(lvl.retrieveBoolValue(this.name+"Rotated"))
+            {
+                rotateImmediately();
+            }
+            else
+            {
+                unrotateImmediately();
+            }
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -38,15 +52,29 @@ public class SoftRotate : WisdominiObject {
 		}
 	}
 
-	public void _wm_rotate() {
+    public void rotateImmediately()
+    {
+
+    }
+
+    public void unrotateImmediately()
+    {
+
+    }
+
+    public void _wm_rotate() {
 		angle.setValue (finalAngle);
 		atFinalAngle = true;
+        if(reentrant)
+            lvl.storeBoolValue(this.name + "Rotated", true);
 	}
 
 	public void _wm_unrotate() {
 		angle.setValue (initialAngle);
 		atFinalAngle = false;
-	}
+        if(reentrant)
+            lvl.storeBoolValue(this.name + "Rotated", false);
+    }
 
 	public void _wm_toggle() {
 		if (atFinalAngle)
