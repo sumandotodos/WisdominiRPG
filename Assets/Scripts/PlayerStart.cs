@@ -32,7 +32,7 @@ public class PlayerStart : MonoBehaviour {
 		level = GameObject.Find ("LevelController").GetComponent<LevelControllerScript> ();
 		level.groundType = groundType;
 		level.BGMusic = music;
-		level.locationName = locationName;
+		//level.locationName = locationName;
 		level.upperFloorName = upperFloor;
 		level.lowerFloorName = bottomFloor;
 		level.CameraYAngleOverride = cameraYOverride;

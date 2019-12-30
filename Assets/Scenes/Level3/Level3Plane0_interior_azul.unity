@@ -1408,7 +1408,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -34
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8801094579542462459, guid: d7b09920570dcd847afb7635cfb20520, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d7b09920570dcd847afb7635cfb20520, type: 3}
 --- !u!1 &485266325
 GameObject:
@@ -2905,7 +2906,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1496198299}
   - component: {fileID: 1496198298}
-  - component: {fileID: 1496198297}
   - component: {fileID: 1496198300}
   m_Layer: 0
   m_Name: OpenFakePanelCamera
@@ -2914,14 +2914,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1496198297
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496198296}
-  m_Enabled: 1
 --- !u!20 &1496198298
 Camera:
   m_ObjectHideFlags: 0
@@ -3071,7 +3063,7 @@ PrefabInstance:
     - target: {fileID: 114580092785490702, guid: b1de90c2247c74960955625015cef608,
         type: 3}
       propertyPath: amount
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4207774491955812, guid: b1de90c2247c74960955625015cef608, type: 3}
       propertyPath: m_LocalScale.x

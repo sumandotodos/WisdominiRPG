@@ -142,6 +142,7 @@ public class LevelControllerScript : WisdominiObject {
 	void Awake() 
 	{
 		locationName = SceneManager.GetActiveScene().name;
+        Debug.Log("Setting location name to: " + locationName);
 		mcRef = GameObject.Find ("MasterController").GetComponent<MasterControllerScript>();
 		ds = mcRef.getStorage ();
 

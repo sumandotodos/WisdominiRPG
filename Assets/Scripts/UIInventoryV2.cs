@@ -476,8 +476,10 @@ public class UIInventoryV2 : WisdominiObject {
 		if (key && en) {
 			ferfufloCardsWhite.enabled = true;
 			ferfufloCardsBlack.enabled = true;
-            int percent = (int)(((float)levelRef.retrieveIntValue("FerfufloCompleted") / 87.0f) * 100.0f);
+            int percent = (int)(((float)levelRef.retrieveIntValue("FerfufloCompleted") / 41.0f) * 100.0f);
+            percent = percent > 100 ? 100 : percent;
             FerfufloProgress.text = (percent) + "%";
+            FerfufloProgress.enabled = (percent > 0);
         } else {
 			ferfufloCardsWhite.enabled = false;
 			ferfufloCardsBlack.enabled = false;

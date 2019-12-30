@@ -174,27 +174,27 @@ public class CameraManager : WisdominiObject {
 		
 
 
-		if (pz != 0) 
+		/*if (pz != 0) 
 		{
 			setDistanceZ (Mathf.Abs(pz), 0.1f);
-		}
-		else {
+		}*/
+		//else {
             if (level.CameraZDistOverride != 0)
             {
                 setDistanceZ(level.CameraZDistOverride, 0.1f);
             }
             else
             {
-                if (SceneManager.GetActiveScene().name.ToLower().Contains("interior"))
-                {
-                    setDistanceZ(10, 0.1f);
-                }
-                else
+                if (SceneManager.GetActiveScene().name.ToLower().Contains("nterior"))
                 {
                     setDistanceZ(9, 0.1f);
                 }
+                else
+                {
+                    setDistanceZ(10, 0.1f);
+                }
             }
-		}
+		//}
 
 //		if (pm = !0) 
 //		{

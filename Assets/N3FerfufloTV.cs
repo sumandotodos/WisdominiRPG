@@ -58,8 +58,9 @@ public class N3FerfufloTV : WisdominiObject {
 	}
 
 	public int calculatePercetage() {
-		int percent = (int)(((float)level.retrieveIntValue("FerfufloCompleted") / 87.0f) * 100.0f);
-		return percent;
+		int percent = (int)(((float)level.retrieveIntValue("FerfufloCompleted") / 41.0f) * 100.0f);
+        percent = percent > 100 ? 100 : percent;
+        return percent;
 	}
 
 	public void doAlert() {

@@ -135,7 +135,7 @@ public class TitleControllerScript : WisdominiObject{
 
 		if (estado == "titulo") 
 		{
-			Debug.Log ("ESTADO TITULO");
+	
 			if (state == 0) {
 				if (elapsedTimeTitle < 2.0f)
 					elapsedTimeTitle += Time.deltaTime;
@@ -186,7 +186,7 @@ public class TitleControllerScript : WisdominiObject{
 
 		if (estado == "cargando") 
 		{
-			Debug.Log ("ESTADO CARGANDO");
+			
 			contador -= Time.deltaTime;
 			if (contador <= 0) 
 			{

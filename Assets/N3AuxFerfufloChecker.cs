@@ -81,28 +81,34 @@ public class N3AuxFerfufloChecker : WisdominiObject {
 
 	public void _wm_checkFerfufloAccess() {
 
-		if (level.retrieveIntValue ("FerfufloCorrect") == numberOfFerfufloTests) {
+        level.blockPlayerControls();
+
+        int correct = level.retrieveIntValue("FerfufloCorrect");
+        int completed = level.retrieveIntValue("FerfufloCompleted");
+        Debug.Log("Correct answers: " + correct);
+        Debug.Log("Completed answers: " + completed);
+
+        if (correct >= numberOfFerfufloTests) {
 			level.playSound (openSound);
 			level.player.blockControls ();
+            level.storeBoolValue("FerfuflosDone", true);
 			level._wm_alert ("Puerta abierta");
 			state = 1;
-//			level.player.unblockControls ();
-//			door._wm_open ();
+
 		} else {
-			if (level.retrieveIntValue ("FerfufloCompleted") == numberOfFerfufloTests) {
+			if (completed >= numberOfFerfufloTests) {
 				level.playSound (noOpenSound);
 				level.player.blockControls ();
 				level._wm_alert ("El código configurado en las tarjetas no es válido. Como medida de seguridad, se han reiniciado las tarjetas.");
 				state = 2;
-//				level.player.unblockControls ();
-//				FerfufloController.resetFerfufloAnswers (level.mcRef);
+
 			} else {
-				percent = (int)(((float)level.retrieveIntValue("FerfufloCompleted") / 87.0f) * 100.0f);
-				level.player.blockControls ();
+				percent = (int)(((float)level.retrieveIntValue("FerfufloCompleted") / 41.0f) * 100.0f);
+                percent = percent > 100 ? 100 : percent;
+                level.player.blockControls ();
 				level.playSound (noOpenSound);
 				state = 3;
-//				level._wm_alert ("Tarjetas configuradas al " + percent + "%  Es necesario que las tarjetas estén configuradas al 100%");
-//				level.player.unblockControls ();
+
 			}
 		}
 

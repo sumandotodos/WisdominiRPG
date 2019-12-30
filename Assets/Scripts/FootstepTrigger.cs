@@ -7,13 +7,18 @@ public class FootstepTrigger : WisdominiObject {
 
 	public string groundType = "";
 	public string exitGroundType = "";
+    LevelControllerScript lvl;
+    const float RecoilTime = 0.15f;
+    float RecoilRemain;
 
 	bool enabled = true;
 
 	// Use this for initialization
 	void Start () {
 
+        lvl = FindObjectOfType<LevelControllerScript>();
 		footsoundMgr = GameObject.Find ("FootstepSoundManager").GetComponent<FootstepSoundManager>();
+        RecoilRemain = RecoilTime;
 		enabled = true;
 	
 	}
@@ -24,11 +29,15 @@ public class FootstepTrigger : WisdominiObject {
 	
 	void OnTriggerEnter(Collider other) {
 
-		if (!enabled)
+        if (RecoilRemain > 0.0f) return;
+        if (!enabled)
 			return;
 		if (other.tag == "Player") {
 
-			if (!groundType.Equals ("")) {
+            int FootstepLevel = lvl.retrieveIntValue("FootstepTriggerLevel");
+            ++FootstepLevel;
+            lvl.storeIntValue("FootstepTriggerLevel", FootstepLevel);
+            if (!groundType.Equals ("")) {
 				footsoundMgr.setGroundType (groundType);
 			}
 
@@ -37,15 +46,26 @@ public class FootstepTrigger : WisdominiObject {
 	}
 
 	void OnTriggerExit(Collider other) {
-
+    
 		if (!enabled)
 			return;
 		if (other.tag == "Player") {
-			if (!exitGroundType.Equals ("")) {
+            int FootstepLevel = lvl.retrieveIntValue("FootstepTriggerLevel");
+            FootstepLevel = FootstepLevel > 0 ? FootstepLevel-1 : 0;
+            lvl.storeIntValue("FootstepTriggerLevel", FootstepLevel);
+            if (FootstepLevel == 0 && !exitGroundType.Equals ("")) {
 				footsoundMgr.setGroundType (exitGroundType);
 			}
 		}
 
 	}
+
+    private void Update()
+    {
+        if(RecoilRemain > 0.0f)
+        {
+            RecoilRemain -= Time.deltaTime;
+        }
+    }
 
 }
