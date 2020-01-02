@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2764351075899044447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6112400196724563283}
+  - component: {fileID: 5999889887728605357}
+  m_Layer: 0
+  m_Name: StringBank(Conversation_N3_Ricos_GanarDinero)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6112400196724563283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2764351075899044447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5999889887728605357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2764351075899044447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f63675d3018d4f68a1121c3ec24cc84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subWisdom: 
+  rosetta: {fileID: 0}
+  wisdom: 
+  extra: Conv_N3_Ricos_GanarDinero_
+  randomYield: 0
+  standard: 0
+  phrase:
+  - "\xBFQui\xE9n eres t\xFA? \xBFQu\xE9 quieres? \xBFQui\xE9n te ha dejado pasar?\r"
+  - "Lo importante aqu\xED es quienes sois vosotros. Me imagino que sois los millonarios,
+    los que tom\xE1is las decisiones aqu\xED, \xBFno es cierto?\r"
+  - "No, aun no. Son nuestros padres. Nosotros todav\xEDa somos ni\xF1os, pero m\xE1s
+    adelante heredaremos su fortuna y s\xED, seremos los que tomen las decisiones
+    en la pr\xE1ctica"
+  - "Yo tambi\xE9n quiero ser como vuestros padres. \xBFQu\xE9 tengo que hacer para
+    ser como ellos?"
+  - "\xBFNo os dais cuenta de que vuestros padres solo buscan ganar cada vez m\xE1s
+    dinero porque ese es el sentido que han decidido dar a sus vidas, pero que la
+    vida es algo m\xE1s que acumular dinero? "
+  correntAnswer: 

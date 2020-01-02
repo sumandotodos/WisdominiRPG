@@ -3,9 +3,10 @@
 --- !u!1 &101480
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 410220}
   - component: {fileID: 11451284}
@@ -18,9 +19,10 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &410220
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -28,18 +30,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 179.999, y: 179.999, z: 179.999}
+  m_LocalEulerAnglesHint: {x: 180, y: 180, z: 180}
 --- !u!114 &11451284
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101480}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c2fcc2543a91346b397615d68435456c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  originalPrograms: []
+  chivoExpiatorio: 0
+  TestString: 
+  TestStringArray: []
+  testInteger: 0
+  opacitySpeed: 1
   isDoingAction: 0
   programNotification: -1
   isWaitingForActionToComplete: 0
@@ -48,18 +57,20 @@ MonoBehaviour:
   currentProgram:
     theList:
     - theList:
+      - blockPlayerControls
+    - theList:
       - say
       - "\xBFQui\xE9n eres t\xFA? \xBFQu\xE9 quieres? \xBFQui\xE9n te ha dejado pasar?\r"
       - wait
       - NPC1
-      - Conv_Ricos_GanarDinero_0
+      - Conv_N3_Ricos_GanarDinero_0
     - theList:
       - say
       - "Lo importante aqu\xED es quienes sois vosotros. Me imagino que sois los millonarios,
         los que tom\xE1is las decisiones aqu\xED, \xBFno es cierto?\r"
       - wait
       - Player
-      - Conv_Ricos_GanarDinero_1
+      - Conv_N3_Ricos_GanarDinero_1
     - theList:
       - say
       - "No, aun no. Son nuestros padres. Nosotros todav\xEDa somos ni\xF1os, pero
@@ -67,7 +78,7 @@ MonoBehaviour:
         decisiones en la pr\xE1ctica"
       - wait
       - NPC1
-      - Conv_Ricos_GanarDinero_2
+      - Conv_N3_Ricos_GanarDinero_2
       - Constant
       - 
       - 
@@ -81,10 +92,12 @@ MonoBehaviour:
         la vida es algo m\xE1s que acumular dinero? "
       - GanarDinero_0/0
       - GanarDinero_1/0
-      - Conv_Ricos_GanarDinero_3
-      - Conv_Ricos_GanarDinero_4
+      - Conv_N3_Ricos_GanarDinero_3
+      - Conv_N3_Ricos_GanarDinero_4
   programs:
   - theList:
+    - theList:
+      - blockPlayerControls
     - theList:
       - say
       - "\xBFQui\xE9n eres t\xFA? \xBFQu\xE9 quieres? \xBFQui\xE9n te ha dejado pasar?\r"
@@ -132,7 +145,7 @@ MonoBehaviour:
   waitingForAnswer: 00
   ConversationFolderName: 
   instructionColor:
-  - theList: ffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffff
   rosetta: {fileID: 0}
   preventAwake: 0
   answerIndex: 0
@@ -145,7 +158,7 @@ MonoBehaviour:
   editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   selection: 00000000
   action:
-  - theList: 0b0000000b0000000b0000000c000000
+  - theList: 100000000b0000000b0000000b0000000c000000
   sayImages: []
   stringBank: []
   neutralMiniature: {fileID: 0}
@@ -159,14 +172,3 @@ MonoBehaviour:
   isRoot: 1
   windowX: 60
   windowY: -1
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 101480}
-  m_IsPrefabParent: 1
