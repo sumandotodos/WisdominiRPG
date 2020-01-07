@@ -155,6 +155,7 @@ public class Letter : MonoBehaviour {
 			return;
 		}
 
+        globalTargetStep = level.retrieveIntValue("AlphabetGlobalStep");
 		--globalTargetStep;
 		level.storeIntValue ("AlphabetGlobalStep", globalTargetStep);
 

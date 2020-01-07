@@ -126,13 +126,13 @@ MonoBehaviour:
       - Conv_N3_Ricos_GanarDinero_2_9
     - theList:
       - say
-      - "Eso,\xBFEn qu\xE9?"
+      - "Eso, \xBFEn qu\xE9?"
       - wait
       - NPC1
       - Conv_N3_Ricos_GanarDinero_2_10
     - theList:
       - say
-      - En nada
+      - En nada...
       - wait
       - NPC1
       - Conv_N3_Ricos_GanarDinero_2_11
@@ -408,6 +408,11 @@ MonoBehaviour:
       - wait
       - NPC2
       - Conv_N3_Ricos_GanarDinero_2_49
+    - theList:
+      - clearDialogue
+    - theList:
+      - playSound
+      - specialItemGet
     - theList:
       - alert
       - Has obtenido una llave con la imagen de un ojo abierto
@@ -500,13 +505,13 @@ MonoBehaviour:
       - Conv_N3_Ricos_GanarDinero_2_9
     - theList:
       - say
-      - "Eso,\xBFEn qu\xE9?"
+      - "Eso, \xBFEn qu\xE9?"
       - wait
       - NPC1
       - Conv_N3_Ricos_GanarDinero_2_10
     - theList:
       - say
-      - En nada
+      - En nada...
       - wait
       - NPC1
       - Conv_N3_Ricos_GanarDinero_2_11
@@ -783,6 +788,11 @@ MonoBehaviour:
       - NPC2
       - Conv_N3_Ricos_GanarDinero_2_49
     - theList:
+      - clearDialogue
+    - theList:
+      - playSound
+      - specialItemGet
+    - theList:
       - alert
       - Has obtenido una llave con la imagen de un ojo abierto
       - 
@@ -813,7 +823,7 @@ MonoBehaviour:
   waitingForAnswer: 00
   ConversationFolderName: 
   instructionColor:
-  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - theList: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
   rosetta: {fileID: 0}
   preventAwake: 0
   answerIndex: 0
@@ -826,7 +836,7 @@ MonoBehaviour:
   editorSelected: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   selection: 00000000
   action:
-  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000040000000b0000000b0000001c00000018000000110000000f000000
+  - theList: 0b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b0000000b000000040000000b0000000b0000000f000000060000001c00000018000000110000000f000000
   sayImages: []
   stringBank: []
   neutralMiniature: {fileID: 0}

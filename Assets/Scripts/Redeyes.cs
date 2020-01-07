@@ -204,10 +204,10 @@ public class Redeyes : MonoBehaviour {
 					//letter.decLetter ();
 					letter.decStep ();
                     letter.decStep();
-                    letter.decStep();
-                    letter.decStep();
-                    letter.decStep();
-                    letter.decStep();
+                    //letter.decStep();
+                    //letter.decStep();
+                    //letter.decStep();
+                    //letter.decStep();
                 }
 			}
 		}
