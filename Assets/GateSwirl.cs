@@ -11,7 +11,7 @@ public class GateSwirl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        op = 0.0f;
+        op = -1.5f;
         sr = GetComponent<SpriteRenderer>();
         sr.color = new Color(1, 1, 1, 0);
     }

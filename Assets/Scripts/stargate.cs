@@ -156,6 +156,8 @@ public class stargate : WisdominiObject {
             {
                 activate();
             }
+            bool g = level.retrieveBoolValue(level.locationName + "StargateActivated");
+            Debug.Log("<color=blue>" + level.locationName + "StargateActivated = " + g + "</color>");
         }
 	}
 
