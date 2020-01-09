@@ -37,8 +37,10 @@ public class FootstepTrigger : WisdominiObject {
             int FootstepLevel = lvl.retrieveIntValue("FootstepTriggerLevel");
             ++FootstepLevel;
             lvl.storeIntValue("FootstepTriggerLevel", FootstepLevel);
+            Debug.Log("FSTLevel: " + FootstepLevel);
             if (!groundType.Equals ("")) {
-				footsoundMgr.setGroundType (groundType);
+                Debug.Log("Setting sound: " + groundType);
+                footsoundMgr.setGroundType (groundType);
 			}
 
 		}
@@ -53,8 +55,10 @@ public class FootstepTrigger : WisdominiObject {
             int FootstepLevel = lvl.retrieveIntValue("FootstepTriggerLevel");
             FootstepLevel = FootstepLevel > 0 ? FootstepLevel-1 : 0;
             lvl.storeIntValue("FootstepTriggerLevel", FootstepLevel);
+            Debug.Log("FSTLevel: " + FootstepLevel);
             if (FootstepLevel == 0 && !exitGroundType.Equals ("")) {
-				footsoundMgr.setGroundType (exitGroundType);
+                Debug.Log("Setting sound: " + exitGroundType);
+                footsoundMgr.setGroundType (exitGroundType);
 			}
 		}
 
